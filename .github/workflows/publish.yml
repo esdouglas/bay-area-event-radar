@@ -23,6 +23,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - run: python -m unittest discover -p 'test_*.py'
       - run: python build.py --refresh
       - name: Persist verified state
         run: |
