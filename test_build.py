@@ -1,4 +1,4 @@
-import copy,json,unittest
+import copy,json,unittest,io,contextlib
 from build import build,ROOT
 class CalendarTests(unittest.TestCase):
  def setUp(self): self.e=json.loads((ROOT/'events.json').read_text())[0]
@@ -33,7 +33,7 @@ class RefreshTests(unittest.TestCase):
   from unittest.mock import patch
   from build import refresh
   before=copy.deepcopy(self.e)
-  with patch('urllib.request.urlopen',side_effect=OSError('source unavailable')):
+  with contextlib.redirect_stdout(io.StringIO()), patch('urllib.request.urlopen',side_effect=OSError('source unavailable')):
    records,health=refresh([self.e])
   self.assertEqual(records[0],before);self.assertEqual(health[0]['status'],'source-unavailable')
  def test_aliases_with_canonical_source_are_duplicates(self):
