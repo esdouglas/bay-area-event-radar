@@ -44,9 +44,9 @@ def refresh(records):
         status=data.get('eventStatus','').split('/')[-1]
         assert status in ['EventScheduled','EventCancelled','EventRescheduled'], 'Unsupported status; review required'
         changed=dict(e,title=html.unescape(data['name']),start=data['startDate'],end=data['endDate'],location=html.unescape(data['location']['name'])+', '+data['location']['address']['streetAddress'],status='CANCELLED' if status=='EventCancelled' else 'CONFIRMED')
+        changed['verified_at']=now
         if changed!=e:
             changed.update(sequence=e['sequence']+1,modified_at=now)
-        changed['verified_at']=now
         e.update(changed)
     return records
 if __name__=='__main__':
