@@ -1,0 +1,26 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Bay Area Event Radar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Bay Area Event Radar
+X-WR-TIMEZONE:America/Los_Angeles
+BEGIN:VEVENT
+UID:humanitix-newberry-and-verch-2026@bay-area-event-radar.esdouglas.github
+ .io
+DTSTAMP:20261021T034000Z
+LAST-MODIFIED:20261021T034000Z
+SEQUENCE:0
+DTSTART:20261030T020000Z
+DTEND:20261030T040000Z
+SUMMARY:[FYI] Newberry & Verch
+CATEGORIES:FYI
+STATUS:CONFIRMED
+TRANSP:TRANSPARENT
+LOCATION:The Back Room\, 1984 Bonita Ave\, Berkeley\, CA 94704\, USA
+URL:https://events.humanitix.com/newberry-and-verch
+DESCRIPTION:Source: https://events.humanitix.com/newberry-and-verch\nTicket
+  inventory: unverified\; check organizer.\nVerified: 2026-10-21T03:41:31.2
+ 63207+00:00
+END:VEVENT
+END:VCALENDAR
