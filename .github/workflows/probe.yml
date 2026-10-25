@@ -1,0 +1,45 @@
+name: Probe source reachability (manual)
+on:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  probe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install requests
+      - name: Probe candidate sources from a GitHub runner
+        run: python tools/probe_sources.py tools/probe_urls.txt probe-report.json
+      - name: Eventbrite destination search API from runner
+        run: |
+          python - <<'PY'
+          import requests,json
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+          S=requests.Session(); S.headers["User-Agent"]=UA
+          r=S.get("https://www.eventbrite.com/d/ca--oakland/music/",timeout=30); print("discover page",r.status_code,len(r.content))
+          csrf=S.cookies.get("csrftoken")
+          body={"event_search":{"dates":"current_future","dedup":True,"places":["85922583"],"page":1,"page_size":50,"online_events_only":False,"tags":["EventbriteCategory/103"]},"expand.destination_event":["primary_venue","primary_organizer"]}
+          r2=S.post("https://www.eventbrite.com/api/v3/destination/search/",json=body,headers={"X-CSRFToken":csrf or "","Referer":"https://www.eventbrite.com/d/ca--oakland/music/","Content-Type":"application/json"},timeout=30)
+          print("destination search",r2.status_code,len(r2.content))
+          if r2.status_code==200: print(r2.json().get("events",{}).get("pagination"))
+          else: print(r2.text[:300])
+          PY
+      - name: Songkick pacing test from runner
+        run: |
+          python - <<'PY'
+          import requests,time
+          UA="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0 Safari/537.36"
+          S=requests.Session(); S.headers["User-Agent"]=UA
+          for p in [1,2,3,4]:
+              r=S.get(f"https://www.songkick.com/metro-areas/26330-us-sf-bay-area?page={p}",timeout=30)
+              print("songkick page",p,r.status_code,len(r.content)); time.sleep(4)
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: probe-report
+          path: probe-report.json
