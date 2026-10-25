@@ -1,6 +1,9 @@
 name: Probe source reachability (manual)
 on:
   workflow_dispatch:
+  push:
+    branches: [radar-v2]
+    paths: ['.github/workflows/probe.yml', 'tools/probe_*']
 permissions:
   contents: read
 jobs:
