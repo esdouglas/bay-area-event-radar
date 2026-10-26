@@ -15,4 +15,5 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m radar benchmark --live
-      - run: bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: benchmark with live Wayback checks"
+      - run: |
+          bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: benchmark with live Wayback checks"
