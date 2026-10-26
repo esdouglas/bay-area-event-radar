@@ -42,3 +42,11 @@ class RefreshTests(unittest.TestCase):
  def test_local_time_requires_offset(self):
   from build import parse
   with self.assertRaises(ValueError):parse('2026-10-29T19:00:00')
+
+class RefreshRevisionTests(unittest.TestCase):
+ def test_unchanged_refresh_does_not_increment_revision(self):
+  from build import update_schema
+  e=json.loads((ROOT/'events.json').read_text())[0]
+  data={'eventStatus':'https://schema.org/EventScheduled','startDate':e['start'],'endDate':e['end']}
+  changed=update_schema(e,data,'2026-10-26T00:00:00+00:00')
+  self.assertEqual(changed['sequence'],e['sequence']);self.assertEqual(changed['modified_at'],e['modified_at']);self.assertEqual(changed['verified_at'],'2026-10-26T00:00:00+00:00')

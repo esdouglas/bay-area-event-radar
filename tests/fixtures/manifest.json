@@ -1,0 +1,42 @@
+[
+  {
+    "file": "kalx.html",
+    "url": "https://kalx.berkeley.edu/event/events-october-19-25-2026/",
+    "adapter": "kalx",
+    "captured_at": "2026-10-25T23:27:14.619423+00:00",
+    "original_sha256": "cf182b190ef1ca263460cb63484d05cfeb6432a6eed2414599e0b04f9a0c9b07",
+    "fixture_sha256": "81989a5bbd7cf996fc051fe6eb774c752eb83cebf634a294bcdddc253212374b",
+    "transformation": "factual listing text only",
+    "historical_capture": false
+  },
+  {
+    "file": "stampfel.html",
+    "url": "https://www.eventbrite.com/e/peter-stampfel-the-atomic-meta-pagans-will-sprott-tickets-2002646892766",
+    "adapter": "auto",
+    "captured_at": "2026-10-25T23:27:14.629255+00:00",
+    "original_sha256": "4312847dc4a8f20ea72c0a6c7747a2ebd87f0808862b1d6bd279fae287196317",
+    "fixture_sha256": "07634278aa55a285bc251a91e3c728cf7fe889fd4ab160ba307154214bdd330e",
+    "transformation": "factual JSON-LD fields only",
+    "historical_capture": false
+  },
+  {
+    "file": "mgu-songkick.html",
+    "url": "https://www.songkick.com/concerts/43275240-mountain-grass-unit-at-cafe-du-nord",
+    "adapter": "auto",
+    "captured_at": "2026-10-25T23:27:14.635408+00:00",
+    "original_sha256": "c647773c669e41e8327ed6d7f25cb6767ca35e309343a7ff09f62ca39defc249",
+    "fixture_sha256": "b070f0c6f297746beb23a091aec2937fb90cc33148b9f738d62eacd923efde8d",
+    "transformation": "factual JSON-LD fields only",
+    "historical_capture": false
+  },
+  {
+    "file": "tony.html",
+    "url": "https://www.bandsintown.com/e/108909994-tony-furtado-at-fifth-street-farms",
+    "adapter": "auto",
+    "captured_at": "2026-10-25T23:27:14.642776+00:00",
+    "original_sha256": "61bc05a8b040eeaf25cb40f0beafc86f27c354a73fd81d8039cbf40ee779785a",
+    "fixture_sha256": "60c819f80a6ac387c9c53ab51b3f4b461826bf52cab5d310082b61af0646dece",
+    "transformation": "factual JSON-LD fields only",
+    "historical_capture": false
+  }
+]

@@ -15,7 +15,7 @@ concurrency:
 jobs:
   publish:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -28,7 +28,15 @@ jobs:
           python-version: '3.12'
       - name: Refresh, validate and save against latest registry
         run: bash refresh-and-save.sh
-      - run: mkdir -p _site && cp index.html radar.ics health.json _site/
+      - name: Retain exact collection evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collection-evidence-${{ github.run_id }}
+          path: .capture/
+          include-hidden-files: true
+          retention-days: 90
+      - run: mkdir -p _site && cp index.html inventory.html radar.ics health.json _site/ && cp data/*.json _site/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:

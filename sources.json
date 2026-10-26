@@ -1,0 +1,373 @@
+[
+  {
+    "id": "kalx",
+    "url": "https://kalx.berkeley.edu/events/weekly-entertainment-calendar/",
+    "adapter": "kalx",
+    "page_limit": 8,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180,
+    "link_pattern": "/event/events-"
+  },
+  {
+    "id": "bluegrass-signal",
+    "url": "https://www.bgsignal.com/concerts--festivals.html",
+    "adapter": "bluegrass",
+    "page_limit": 1,
+    "follow": false,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "fifth-street-farms",
+    "url": "https://fifthstfarms.com/",
+    "adapter": "auto",
+    "page_limit": 8,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180,
+    "link_pattern": "buytickets.at/|tickettailor.com/events/"
+  },
+  {
+    "id": "fifth-street-tickets",
+    "url": "https://www.tickettailor.com/events/fifthstreetfarms",
+    "adapter": "tickettailor",
+    "page_limit": 8,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "little-hill",
+    "url": "https://littlehillelcerrito.com/events",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "hicks-with-sticks",
+    "url": "https://www.hickswithsticks.com/calendar/",
+    "adapter": "hicks",
+    "page_limit": 1,
+    "follow": false,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "sf-folk-club",
+    "url": "https://www.sffmc.org/",
+    "adapter": "auto",
+    "page_limit": 5,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180,
+    "link_pattern": "community.*calendar|/event/"
+  },
+  {
+    "id": "cafe-du-nord",
+    "url": "https://cafedunord.com/",
+    "adapter": "cafedunord",
+    "page_limit": 8,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "back-room",
+    "url": "https://collections.humanitix.com/the-back-room-calendar",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "hillside",
+    "url": "https://www.hillsideclub.org/hillsideechoes",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "ashkenaz",
+    "url": "https://www.ashkenaz.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "starry-plough",
+    "url": "https://www.thestarryplough.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "down-home-music",
+    "url": "https://www.downhomemusic.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "stork-club",
+    "url": "https://www.storkcluboakland.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "elis",
+    "url": "https://www.elismilehigh.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "ivy-room",
+    "url": "https://www.ivyroom.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "freight",
+    "url": "https://thefreight.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "chapel",
+    "url": "https://thechapelsf.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "sfjazz",
+    "url": "https://www.sfjazz.org/calendar/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "cal-performances",
+    "url": "https://calperformances.org/events/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "berkeley-rep",
+    "url": "https://www.berkeleyrep.org/shows/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "shotgun",
+    "url": "https://www.shotgunplayers.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "act",
+    "url": "https://www.act-sf.org/whats-on/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "aurora",
+    "url": "https://www.auroratheatre.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "marin-theatre",
+    "url": "https://www.marintheatre.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "sweetwater",
+    "url": "https://sweetwatermusichall.com/events/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "lost-church",
+    "url": "https://thelostchurch.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "bottom-of-hill",
+    "url": "https://www.bottomofthehill.com/calendar.html",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "outsound",
+    "url": "https://www.outsound.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "berkeley-old-time",
+    "url": "https://www.berkeleyoldtimemusic.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "cba",
+    "url": "https://californiabluegrass.org/calendar/list/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "eventbrite-eastbay",
+    "url": "https://www.eventbrite.com/d/ca--oakland/music--events/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "humanitix-bay",
+    "url": "https://events.humanitix.com/host/the-back-room",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "songkick-bay",
+    "url": "https://www.songkick.com/metro-areas/26330-us-sf-bay-area",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "jambase-bay",
+    "url": "https://www.jambase.com/concerts/us/california/concerts-in-san-francisco-bay-area",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "discovery",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "mgu-artist",
+    "url": "https://www.mountaingrassunit.com/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "artist",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "tony-furtado-artist",
+    "url": "https://tonyfurtado.com/shows/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "follow": true,
+    "category": "artist",
+    "target_horizon_days": 180
+  },
+  {
+    "id": "kc-turner",
+    "url": "https://www.kcturnerpresents.com/calendar",
+    "adapter": "auto",
+    "page_limit": 8,
+    "target_horizon_days": 180
+  },
+  {
+    "id": "little-hill-dothebay",
+    "url": "https://dothebay.com/venues/little-hill-lounge",
+    "adapter": "auto",
+    "page_limit": 6,
+    "target_horizon_days": 180
+  },
+  {
+    "id": "little-hill-eventbrite",
+    "url": "https://www.eventbrite.com/d/ca--el-cerrito/music--events/",
+    "adapter": "auto",
+    "page_limit": 6,
+    "target_horizon_days": 180
+  },
+  {
+    "id": "otter-opry",
+    "url": "https://otteropry.org/",
+    "adapter": "auto",
+    "page_limit": 4,
+    "target_horizon_days": 180
+  },
+  {
+    "id": "david-brown-oldtime",
+    "url": "https://sites.google.com/site/davbrown2/oldtimesf",
+    "adapter": "oldtime",
+    "page_limit": 8,
+    "target_horizon_days": 180
+  }
+]

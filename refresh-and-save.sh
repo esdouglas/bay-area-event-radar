@@ -8,9 +8,11 @@ for attempt in 1 2 3; do
   git reset --hard origin/main
   python -m unittest discover -p 'test_*.py'
   python build.py --refresh
-  git add events.json radar.ics index.html health.json
+  python radar.py --enrich
+  python benchmark.py
+  git add events.json radar.ics index.html health.json inventory.html data
   if git diff --cached --quiet; then exit 0; fi
-  git commit -m 'Refresh verified radar sources'
+  git commit -m 'Collect broad event inventory and refresh verified calendar'
   if git push origin HEAD:main; then exit 0; fi
   echo "Registry changed during refresh; retrying from latest main ($attempt/3)."
 done
