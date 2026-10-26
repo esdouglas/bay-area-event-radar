@@ -74,7 +74,11 @@ MONTHS = "jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec"
 DATE_LINE = re.compile(rf"\b(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s+)?((?:{MONTHS})[a-z]*\.?)\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s+(\d{{4}}))?", re.I)
 
 
-JUNK_TITLE = re.compile(r"^(?:\d{1,2}(?::\d{2})?\s*(?:am|pm)|\d{4}|doors?\b.*|show(?:time)?\b.*|(?:get|buy)\s+tickets?.*|tickets?|sold out|more info|rsvp|free|all ages|\d{1,2}\+|[\W\d]+)$", re.I)
+HEURISTIC_VERSION = 2  # bump when the heuristic changes so cached extractions are redone
+
+JUNK_TITLE = re.compile(r"^(?:\d{1,2}(?::\d{2})?\s*(?:am|pm)|\d{4}|doors?\b.*|show(?:time)?\b.*|(?:get|buy)\s+tickets?.*|tickets?|sold out|more info|rsvp|free|all ages|\d{1,2}\+|[\W\d]+"
+                        r"|just announced|on sale.*|presale.*|preview|previews|opening night|closing night|all sales final\.?|masks? required.*|closed captioning.*|post-?show discussion.*|pre-?show.*|matinee|new|upcoming|calendar|events?|shows?|music|learn more|read more|details|info|buy now|book now|sign up|subscribe|donate|members? only)$", re.I)
+VENUE_SUFFIX = re.compile(r"\b(auditorium|theat(?:re|er)|hall|palace|center|centre|arena|amphitheat(?:re|er)|lounge|club|ballroom|bowl|pavilion|stadium|coliseum|church|cafe|tavern|saloon|brewery|winery|library|park|stage|room|gallery|museum|playhouse|opera house)$", re.I)
 
 
 def _plausible_title(title: str, source: dict) -> bool:
@@ -83,7 +87,15 @@ def _plausible_title(title: str, source: dict) -> bool:
     if len(t) < 4 or len(t) > 140 or JUNK_TITLE.match(t):
         return False
     f = fold(t)
+    from ..normalize import BAY_AREA_CITIES, NORCAL_FAR, OUTSIDE_CA
     if f in VENUE_ALIASES or f in {fold(v) for v in VENUE_ALIASES.values()} or f == fold(source.get("venue", {}).get("name") or "~"):
+        return False
+    if f in BAY_AREA_CITIES or f in NORCAL_FAR or f in OUTSIDE_CA or re.sub(r"^the ", "", f) in BAY_AREA_CITIES:
+        return False
+    words = f.split()
+    if len(words) <= 4 and VENUE_SUFFIX.search(t) and "," not in t and "&" not in t:
+        return False  # "Bill Graham Civic Auditorium", "Cow Palace": a venue label, not a show
+    if len(words) == 1 and len(f) < 9:
         return False
     if len(re.sub(r"[^a-z]", "", f)) < 4:
         return False
@@ -131,17 +143,24 @@ def collect_html(source: dict, stats: dict) -> list[dict]:
         h = fetch.text_hash(text)
         cache_key = f"html:{source['id']}:{url}"
         cached = fetch.cache_get(cache_key)
-        if cached and cached.get("hash") == h and cached.get("mode") == ("llm" if llm.available() else "heuristic"):
+        mode_now = "llm" if llm.available() else f"heuristic-v{HEURISTIC_VERSION}"
+        if cached and cached.get("hash") == h and cached.get("mode") == mode_now:
             out.extend(cached.get("events", []))
             stats["cache_hits"] = stats.get("cache_hits", 0) + 1
             continue
         if llm.available():
             events = _llm_extract(text, source, stats)
             mode = "llm"
-        else:
+        elif source.get("heuristic_ok"):
             events = _heuristic_extract(text, source)
-            mode = "heuristic"
-            stats.setdefault("warnings", []).append("no LLM provider: heuristic extraction only")
+            mode = f"heuristic-v{HEURISTIC_VERSION}"
+            stats.setdefault("warnings", []).append("no LLM provider: heuristic extraction only (venue may be blank)")
+        else:
+            # Page designs where the date-line heuristic produces junk: better to report the gap than
+            # to pollute the inventory. The source still counts as reachable for health purposes.
+            events = []
+            mode = f"heuristic-v{HEURISTIC_VERSION}"
+            stats.setdefault("warnings", []).append("no LLM provider: extraction skipped (needs a model key)")
         fetch.cache_put(cache_key, {"hash": h, "mode": mode, "events": events, "chars": len(text)})
         out.extend(events)
         stats["pages"] = stats.get("pages", 0) + 1

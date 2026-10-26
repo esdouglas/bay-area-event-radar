@@ -70,6 +70,7 @@ sources:
   name: Fifth Street Farms website (monthly show posts)
   kind: venue
   method: html
+  heuristic_ok: true
   url: https://fifthstfarms.com/
   venue: {name: Fifth Street Farms, city: Berkeley}
   expected_coverage: the house's own announcements, usually a month or two ahead, before tickets go up
@@ -81,6 +82,7 @@ sources:
   name: Hillside Club / Hillside Echoes (Berkeley)
   kind: presenter
   method: html
+  heuristic_ok: true
   url: https://www.hillsideclub.org/hillsideechoes
   venue: {name: Hillside Club, city: Berkeley}
   expected_coverage: Hillside Echoes concert series
@@ -90,6 +92,7 @@ sources:
   name: Ashkenaz (Berkeley)
   kind: venue
   method: html
+  heuristic_ok: true
   url: https://www.ashkenaz.com/shows
   venue: {name: Ashkenaz, city: Berkeley}
   category: music
@@ -112,6 +115,7 @@ sources:
   name: Down Home Music in-store performances (El Cerrito)
   kind: venue
   method: html
+  heuristic_ok: true
   url: https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/
   venue: {name: Down Home Music, city: El Cerrito}
   expected_coverage: free in-store roots performances
@@ -121,6 +125,7 @@ sources:
   name: Ivy Room (Albany)
   kind: venue
   method: html
+  heuristic_ok: true
   url: https://ivyroom.com/
   venue: {name: Ivy Room, city: Albany}
   expected_coverage: bar calendar
@@ -292,6 +297,7 @@ sources:
   name: SF Live Arts at St. Cyprian's (Noe Valley Music Series)
   kind: presenter
   method: html
+  heuristic_ok: true
   url: https://www.noevalleymusicseries.com/
   venue: {name: St. Cyprian's Episcopal Church, city: San Francisco}
   expected_coverage: long-running folk/acoustic series
@@ -414,6 +420,7 @@ sources:
   name: Bluegrass Signal (KALW) Northern California concert & festival calendar
   kind: calendar
   method: html
+  heuristic_ok: true
   url: https://www.bgsignal.com/concerts--festivals.html
   category: music
   expected_coverage: bluegrass/old-time shows across NorCal, incl. Freight, house concerts, festivals
@@ -431,6 +438,7 @@ sources:
   name: San Francisco Folk Music Club community folk calendar
   kind: calendar
   method: html
+  heuristic_ok: true
   url: https://www.sffmc.org/community-folk-calendar/
   category: music
   expected_coverage: Bay Area folk concerts, house concerts, sessions
@@ -439,6 +447,7 @@ sources:
   name: KALX weekly entertainment calendar
   kind: radio
   method: html
+  heuristic_ok: true
   url: https://kalx.berkeley.edu/events/weekly-entertainment-calendar/
   category: music
   expected_coverage: KALX-curated East Bay/SF shows for the week
@@ -447,6 +456,7 @@ sources:
   name: Berkeley Old Time Music Convention
   kind: festival
   method: html
+  heuristic_ok: true
   urls:
     - https://www.berkeleyoldtimemusic.org/
     - https://www.berkeleyoldtimemusic.org/other-events
