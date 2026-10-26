@@ -211,6 +211,13 @@ def digest(events, alerts, h, dry_run, horizon_days=75):
     return len(strong)
 
 
+def live_enabled() -> bool:
+    """Real issues are only posted from main (or when RADAR_NOTIFY_LIVE=1); branch runs print instead."""
+    if os.environ.get("RADAR_NOTIFY_LIVE") == "1":
+        return True
+    return os.environ.get("GITHUB_REF", "") == "refs/heads/main"
+
+
 def run(digest_flag=False, dry_run=False):
     events = store.load_events()
     alerts = store.load_alerts()

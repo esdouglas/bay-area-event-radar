@@ -147,3 +147,26 @@ class EnrichTests(unittest.TestCase):
             self.assertEqual(out["tier"], "exceptional")
             self.assertGreaterEqual(out["final_score"], 78)
             self.assertEqual(out["enrichment"]["deep"]["performers"][0]["significance"], "foundational")
+
+
+class NotifyTests(unittest.TestCase):
+    def test_dry_run_notify_and_digest_do_not_crash(self):
+        import io, contextlib, pathlib, tempfile
+        from unittest.mock import patch
+        from radar import config, notify, store
+        with tempfile.TemporaryDirectory() as d:
+            dp = pathlib.Path(d)
+            ev = {"id": "ev_a", "title": "Peter Stampfel and Will Sprott", "date": "2099-10-24", "start": "2099-10-24T20:00:00-07:00", "venue": "Little Hill Lounge",
+                  "city": "El Cerrito", "status": "scheduled", "tier": "exceptional", "score": 90.0, "final_score": 90.0, "url": "https://x", "first_seen": "2099-09-21T00:00:00+00:00",
+                  "sources": [{"source": "little-hill-lounge", "url": "https://x", "first_seen": "t", "last_seen": "t"}], "score_reasons": ["seed artist"], "region": "bay", "performers": [], "tags": []}
+            with patch.object(config, "EVENTS_FILE", dp / "events.json"), patch.object(config, "ALERTS_FILE", dp / "alerts.json"), \
+                 patch.object(config, "SOURCE_HEALTH_FILE", dp / "health.json"), patch.object(config, "COSTS_FILE", dp / "costs.jsonl"), \
+                 patch.object(config, "DATA", dp), patch.dict("os.environ", {"GITHUB_TOKEN": ""}):
+                store.save_events({"ev_a": ev})
+                buf = io.StringIO()
+                with contextlib.redirect_stdout(buf):
+                    notify.run(digest_flag=True, dry_run=True)
+                out = buf.getvalue()
+            self.assertIn("[dry-run issue] [radar] Peter Stampfel", out)
+            self.assertIn("[radar digest]", out)
+            self.assertFalse(notify.live_enabled())
