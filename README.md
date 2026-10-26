@@ -49,7 +49,7 @@ Stages are independent CLI commands (`python -m radar <stage>`), all model-indep
 Add an entry to `sources.yaml`. For a page with schema.org JSON-LD use `method: jsonld` (add `follow:` to
 read detail pages); for The Events Calendar sites `tribe`; for Google Calendar / any `.ics` use `ics`;
 for anything else `html` (text extraction by the model, cached by content hash, so unchanged pages cost
-nothing). Run `python -m radar collect --only <id> --dry-run` to see what it yields. Blocked or broken
+nothing; add `heuristic_ok: true` only for plain date-list pages that the no-model fallback can read). Run `python -m radar collect --only <id> --dry-run` to see what it yields. Blocked or broken
 sources stay in the file with `enabled: false` and a note, so the gap remains visible on the dashboard.
 
 ## Secrets (repository → Settings → Secrets and variables → Actions)

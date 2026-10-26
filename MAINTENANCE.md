@@ -54,14 +54,21 @@ Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-2
   API key or feed from either venue would close them.
 - **Songkick**: serves only CDN-cached pages to automated clients; each run sees roughly half of the
   metro pages, and coverage accumulates across runs. Not a complete source on any single run.
-- **Without a model key** the `html` sources use a crude date-line heuristic (marked `heuristic` on
-  each event, scored down 8 points) and unknown performers cannot be recognised; the benchmark shows
-  rules alone would have put 13 of 29 historical events in the alert/digest tiers.
+- **Without a model key** only the calendar-style `html` sources (Bluegrass Signal, SFFMC, KALX, Down
+  Home, Fifth Street Farms, Hillside Club, Ashkenaz, Ivy Room, Noe Valley, BOTMC; `heuristic_ok: true`)
+  are read, with a date-line heuristic that leaves the venue blank and is scored down 8 points. The
+  other 30-odd `html` sources (UC Theatre, New Parish, Yoshi's, Lost Church, Berkeley Rep, A.C.T.,
+  Shotgun, Another Planet, folkYEAH, ...) report "extraction skipped (needs a model key)" and
+  contribute nothing until a key exists. Unknown performers cannot be recognised without a model; the
+  benchmark shows rules alone would have put 13 of 29 historical events in the alert/digest tiers.
 - **Instagram-only announcements** are not collected. Venues that post nowhere else are out of reach.
 - **Calendar feed (`radar.ics`)** carries exceptional events and strong events scoring 65+ (about 90 at
   a time) so it stays readable; the site holds the full inventory.
 - **Heuristic extraction leaves the venue blank** on calendar-style pages (Bluegrass Signal, SFFMC), so a
-  show seen there and on the venue's own page may appear twice until a model key is configured.
+  show seen there and on the venue's own page appears twice until a model key is configured (text lines
+  are deliberately never merged into structured records by time alone).
+- **Caches** (`data/cache/`, page hashes and detail-page extractions) are committed so Actions runs reuse
+  them; entries untouched for 21 days are pruned automatically.
 
 ## Changing the model provider
 
