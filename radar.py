@@ -241,7 +241,7 @@ def run(root=ROOT,enrich=False):
  fifo=sorted(queue,key=lambda e:(e['first_seen'],e['date'],e['id']))[:20]
  batch=queue[:40]+[e for e in fifo if e['id'] not in {v['id'] for v in queue[:40]}]
  save(root/'data/next-research.json',batch)
- gaps=[{'source_id':r['source_id'],'url':p['url'],'status':p['status'],'sha256':p.get('sha256'),'error':p.get('error')} for r in results for p in r['pages'] if p['status']!='extracted']
+ gaps=[{'source_id':r['source_id'],'url':r['pages'][0]['url'] if r['pages'] else '', 'events_extracted':r['events_extracted'],'pending_links':r['pending_links'],'pages':[p for p in r['pages'] if p['status']!='extracted']} for r in results if not r['events_extracted'] or any(p['status'] in ('failed','dynamic-or-blocked') for p in r['pages'])]
  save(root/'data/extraction-queue.json',gaps)
  coverage=dict(run_id=run_id,started_at=started,completed_at=now(),validation='NOT VALIDATED',configured_sources=len(sources),attempted_sources=len(results),sources_with_events=sum(bool(r['events_extracted']) for r in results),sources_without_events=sum(not r['events_extracted'] for r in results),fetched_pages=sum(p['status']!='failed' for r in results for p in r['pages']),failed_pages=sum(p['status']=='failed' for r in results for p in r['pages']),extracted_candidates=len(rows),inventory_count=len(inventory),pending_research=sum(e.get('research_status')!='complete' for e in inventory.values()),research_errors=research_errors,sources=results)
  save(root/'data/inventory.json',inventory);save(root/'data/outbox.json',outbox);save(root/'data/coverage.json',coverage);append(root/'data/runs'/(week+'.jsonl'),coverage);append(root/'data/runs.jsonl',{k:v for k,v in coverage.items() if k not in ('sources','research_errors')})
