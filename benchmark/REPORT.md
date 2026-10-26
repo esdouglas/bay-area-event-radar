@@ -1,6 +1,6 @@
 # Historical discoverability benchmark
 
-Generated 2026-10-26T01:08:19+00:00 (live Wayback checks: False).
+Generated 2026-10-26T01:26:58+00:00 (live Wayback checks: True).
 
 29 benchmark events: 20 proven discoverable by registered sources (median lead 114 days, range 14..245), 8 plausible via the venue's own feed, 1 reachable only through aggregators, 0 only via blocked sources, 0 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
 
@@ -45,3 +45,4 @@ Peter Stampfel & the Atomic Meta-Pagans (listed as "Peter  2026-10-24 proven    
 - 'Plausible' means the venue's own feed is registered and healthy today, but the past listing is gone and no snapshot was captured.
 - Freight & Salvage, SFJAZZ and Eventbrite pages are blocked for the collector; events only visible there depend on Songkick's partial coverage, Bluegrass Signal or an Eventbrite API token.
 - Rules-only tiers above are computed from title + venue alone, the way a bare listing arrives; model enrichment (when a key is configured) is what lifts unknown names such as Rakish or Scottish Fish.
+- The taste profile (taste.yaml) was written knowing these events exist, so rows whose title names a seed artist (Stampfel, Mountain Grass Unit, Tony Furtado, Nora Brown, Laurie Lewis, Kathy Kallick) are hindsight-tuned for the ranking column; only the unknown-name rows say anything about ranking recall. The discoverability columns (class, lead) do not depend on the taste profile.
