@@ -23,5 +23,5 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m radar notify --digest
-      run: |
-        bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: weekly digest state"
+      - run: |
+          bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: weekly digest state"
