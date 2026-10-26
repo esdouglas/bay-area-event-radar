@@ -56,7 +56,8 @@ jobs:
       - name: Build site
         run: python -m radar site
       - name: Commit data back to ${{ github.ref_name }}
-        run: bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: scheduled collection"
+        run: |
+          bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: scheduled collection"
       - name: Post-run health check
         run: python -m radar watchdog --dry-run
       - uses: actions/upload-pages-artifact@v3
