@@ -147,12 +147,24 @@ def _find_match(events: dict, rec: dict, by_key: dict) -> str | None:
             best, best_score = eid, s
     if best and best_score >= 0.34:
         return best
-    # Same venue+date+start time with only one event that night is almost certainly the same show
+    # Same venue+date+start time with only one event that night is almost certainly the same show.
+    # Never for date-only listings (00:00) or heuristic text lines: two different acts on one night
+    # at a venue that lists no times must stay separate.
+    if rec.get("extraction") == "heuristic" or rec["start"][11:16] == "00:00":
+        return None
     same_night = [eid for eid, e in events.items()
                   if e["date"] == rec["date"] and venue_key(e["venue"] or e["venue_raw"]) == vk
-                  and e["start"] == rec["start"]]
+                  and e["start"] == rec["start"] and e.get("extraction") != "heuristic"]
     if len(same_night) == 1:
         return same_night[0]
+    # Aggregators occasionally file a show under the UTC date (03:30 "local"); match the neighbouring
+    # day when the titles clearly agree.
+    hour = int(rec["start"][11:13])
+    if hour < 6:
+        for eid, e in events.items():
+            if venue_key(e["venue"] or e["venue_raw"]) == vk and abs((dt.date.fromisoformat(e["date"]) - dt.date.fromisoformat(rec["date"])).days) == 1 \
+                    and similar_titles(e["title"], rec["title"]) >= 0.6:
+                return eid
     return None
 
 
@@ -189,7 +201,19 @@ def upsert(events: dict, rec: dict, source_id: str, now: str, stats: dict):
         if not e.get("city") and rec.get("city"):
             e["city"], e["region"] = rec["city"], rec["region"]
         if e.get("extraction") == "heuristic" and rec.get("extraction") != "heuristic":
+            # A structured listing supersedes a text line: take its title, time and details.
             e["extraction"] = rec["extraction"]
+            e["title"] = rec["title"]
+            e["start"] = rec["start"]
+            e["date"] = rec["date"]
+            if rec.get("performers"):
+                e["performers"] = rec["performers"]
+            if rec.get("description"):
+                e["description"] = rec["description"]
+            if rec.get("venue"):
+                e["venue"], e["venue_raw"] = rec["venue"], rec["venue_raw"]
+            if rec.get("url"):
+                e["url"] = rec["url"]
         if rec["status"] != "scheduled":
             e["status"] = rec["status"]
         if rec.get("title") and len(rec["title"]) > len(e["title"]) and similar_titles(rec["title"], e["title"]) >= 0.5:

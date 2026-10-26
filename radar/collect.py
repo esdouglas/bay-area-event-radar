@@ -114,8 +114,24 @@ def update_health(health: dict, stats: dict, now: str):
     h["new_total"] = h.get("new_total", 0) + stats.get("new", 0)
 
 
+def prune_cache(max_age_days: int = 21):
+    """Caches are committed so Actions runs reuse them; drop entries nobody has touched in a while."""
+    cutoff = time.time() - max_age_days * 86400
+    n = 0
+    for p in config.CACHE.glob("*.json"):
+        try:
+            if p.stat().st_mtime < cutoff:
+                p.unlink()
+                n += 1
+        except OSError:
+            pass
+    if n:
+        print(f"[collect] pruned {n} stale cache entries")
+
+
 def run(only=None, force=False, workers=6, dry_run=False) -> dict:
     config.ensure_dirs()
+    prune_cache()
     now = config.now_iso()
     sources = load_sources(only)
     events = store.load_events()

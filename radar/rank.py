@@ -52,11 +52,13 @@ def score_event(e: dict, C: dict, today: dt.date) -> tuple[float, list[str], dic
     text = fold(" ".join([e.get("title", ""), " ".join(e.get("performers", [])), e.get("description", "")[:600], " ".join(e.get("tags", []))]))
     title_text = fold(" ".join([e.get("title", ""), " ".join(e.get("performers", []))]))
     seed_hits = []
+    seed_hits_title = []
     for name, rx, w in C["seeds"]:
         if rx.search(title_text):
             seed_hits.append((name, w))
+            seed_hits_title.append(name)
         elif rx.search(text):
-            seed_hits.append((name, w * 0.5))
+            seed_hits.append((name, w * 0.3))  # a name in the blurb is a hint, not a billing
     if seed_hits:
         best = max(seed_hits, key=lambda x: x[1])
         score += best[1]
@@ -116,7 +118,8 @@ def score_event(e: dict, C: dict, today: dt.date) -> tuple[float, list[str], dic
         score -= 30
         reasons.append(f"status {e['status']} (-30)")
     score = max(0.0, min(100.0, score))
-    signals = {"seed_hits": [n for n, _ in seed_hits], "keyword_groups": sorted(group_hits), "venue_intimate": venue in C["intimate"]}
+    signals = {"seed_hits": seed_hits_title, "seed_mentions": [n for n, _ in seed_hits if n not in seed_hits_title],
+               "keyword_groups": sorted(group_hits), "venue_intimate": venue in C["intimate"]}
     return round(score, 1), reasons, signals
 
 

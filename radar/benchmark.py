@@ -143,6 +143,7 @@ def run(live: bool = False):
               "- The registry did not exist before 2026-10-25; every 'proven' case shows the source carried the listing early, not that this system ran then.",
               "- 'Plausible' means the venue's own feed is registered and healthy today, but the past listing is gone and no snapshot was captured.",
               "- Freight & Salvage, SFJAZZ and Eventbrite pages are blocked for the collector; events only visible there depend on Songkick's partial coverage, Bluegrass Signal or an Eventbrite API token.",
-              "- Rules-only tiers above are computed from title + venue alone, the way a bare listing arrives; model enrichment (when a key is configured) is what lifts unknown names such as Rakish or Scottish Fish."]
+              "- Rules-only tiers above are computed from title + venue alone, the way a bare listing arrives; model enrichment (when a key is configured) is what lifts unknown names such as Rakish or Scottish Fish.",
+              "- The taste profile (taste.yaml) was written knowing these events exist, so rows whose title names a seed artist (Stampfel, Mountain Grass Unit, Tony Furtado, Nora Brown, Laurie Lewis, Kathy Kallick) are hindsight-tuned for the ranking column; only the unknown-name rows say anything about ranking recall. The discoverability columns (class, lead) do not depend on the taste profile."]
     (config.ROOT / "benchmark" / "REPORT.md").write_text("\n".join(report) + "\n", encoding="utf-8")
     return summary

@@ -217,6 +217,14 @@ NORCAL_FAR = {"sacramento", "davis", "woodland", "winters", "nevada city", "gras
               "pacific grove", "big sur", "hollister", "gilroy", "san juan bautista"}
 
 
+OUTSIDE_CA = {"los angeles", "burbank", "long beach", "san diego", "pasadena", "hollywood", "west hollywood", "santa monica",
+              "anaheim", "irvine", "fresno", "bakersfield", "glendale", "culver city", "santa barbara", "ventura", "oxnard",
+              "thousand oaks", "orange", "costa mesa", "huntington beach", "riverside", "san bernardino", "palm springs",
+              "temecula", "escondido", "carlsbad", "oceanside", "santa ana", "torrance", "inglewood", "redondo beach",
+              "mission viejo", "san luis obispo", "paso robles", "modesto", "stockton", "merced", "visalia", "redding",
+              "chico", "eureka", "arcata", "reno", "las vegas", "lake tahoe"}
+
+
 def region_of(city: str | None, state: str | None = None) -> str:
     c = fold(city or "")
     c = re.sub(r"\bsf\b", "san francisco", c)
@@ -227,6 +235,8 @@ def region_of(city: str | None, state: str | None = None) -> str:
     if not c:
         return "unknown"
     if state and fold(state) not in ("ca", "california"):
+        return "outside"
+    if c in OUTSIDE_CA:
         return "outside"
     return "unknown"
 
@@ -273,7 +283,9 @@ def iso(d: dt.datetime | None) -> str | None:
 def title_core(title: str, n: int = 3) -> str:
     """First few meaningful tokens of a title; splits on common separators so the headliner wins."""
     t = clean_text(title)
-    t = re.split(r"\s+(?:w/|with|feat\.?|featuring|and|\+|/|\|)\s+|\s*&\s*|:\s|\s-\s|\s–\s|\s—\s", t, maxsplit=1)[0]
+    # Split on billing separators only. Colons and dashes are NOT separators: "Noon Concert: X" and
+    # "Noon Concert: Y" are different shows, and "Artist - Venue" keeps the artist in front anyway.
+    t = re.split(r"\s+(?:w/|with|feat\.?|featuring|and|\+|/|\|)\s+|\s*&\s*", t, maxsplit=1)[0]
     toks = tokens(t)
     return " ".join(toks[:n])
 

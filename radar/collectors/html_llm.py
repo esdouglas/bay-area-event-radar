@@ -74,6 +74,22 @@ MONTHS = "jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec"
 DATE_LINE = re.compile(rf"\b(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s+)?((?:{MONTHS})[a-z]*\.?)\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s+(\d{{4}}))?", re.I)
 
 
+JUNK_TITLE = re.compile(r"^(?:\d{1,2}(?::\d{2})?\s*(?:am|pm)|\d{4}|doors?\b.*|show(?:time)?\b.*|(?:get|buy)\s+tickets?.*|tickets?|sold out|more info|rsvp|free|all ages|\d{1,2}\+|[\W\d]+)$", re.I)
+
+
+def _plausible_title(title: str, source: dict) -> bool:
+    from ..normalize import VENUE_ALIASES, fold
+    t = clean_text(title)
+    if len(t) < 4 or len(t) > 140 or JUNK_TITLE.match(t):
+        return False
+    f = fold(t)
+    if f in VENUE_ALIASES or f in {fold(v) for v in VENUE_ALIASES.values()} or f == fold(source.get("venue", {}).get("name") or "~"):
+        return False
+    if len(re.sub(r"[^a-z]", "", f)) < 4:
+        return False
+    return True
+
+
 def _heuristic_extract(text: str, source: dict) -> list[dict]:
     """No model available: pair 'Month Day' lines with the nearest following non-date line."""
     out = []
@@ -93,8 +109,10 @@ def _heuristic_extract(text: str, source: dict) -> list[dict]:
         except (ValueError, IndexError):
             continue
         rest = DATE_LINE.sub("", line).strip(" -–—:,|")
-        title = rest if len(rest) > 3 else next((l for l in lines[i + 1:i + 4] if len(l) > 3 and not DATE_LINE.search(l)), "")
-        if title and len(title) < 140:
+        rest = re.sub(r"^\s*(?:\d{1,2}(?::\d{2})?\s*(?:am|pm)\s*[:\-–]?\s*)", "", rest, flags=re.I)
+        candidates = [rest] + [l for l in lines[i + 1:i + 4] if not DATE_LINE.search(l)]
+        title = next((c for c in candidates if _plausible_title(c, source)), "")
+        if title:
             out.append({"title": clean_text(title), "start": d.isoformat(), "url": source["url"], "heuristic": True})
     return out
 

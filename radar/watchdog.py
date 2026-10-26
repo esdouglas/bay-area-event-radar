@@ -36,6 +36,11 @@ def run(dry_run=False, max_stale_hours=14):
         h = health.get(k)
         if k in enabled and h and h.get("last_status") == "ok" and h.get("last_count", 0) == 0:
             problems.append(f"key source {k} returned ok but zero events (parser drift?)")
+        if k in enabled and k not in expected_blocked and h and h.get("last_status") not in ("ok", "partial", None) and h.get("consecutive_failures", 0) >= 2:
+            problems.append(f"key source {k} failing: {h.get('last_status')} ({str(h.get('last_error') or '')[:80]})")
+    zero = sorted(k for k, v in health.items() if k in enabled and v.get("last_status") == "ok" and v.get("last_count", 0) == 0)
+    if zero:
+        print(f"[watchdog] note: {len(zero)} enabled sources returned zero events: {', '.join(zero)}")
     upcoming = sum(1 for e in events.values() if e.get("status") == "scheduled")
     if upcoming < 200:
         problems.append(f"inventory has only {upcoming} upcoming events; collection is not working")

@@ -5,6 +5,7 @@ what came back; a Cloudflare challenge page is a *failure*, never silently treat
 """
 import hashlib
 import json
+import os
 import random
 import threading
 import time
@@ -105,6 +106,10 @@ def cache_get(key: str, max_age_hours: float | None = None):
         return None
     if max_age_hours is not None and time.time() - obj.get("ts", 0) > max_age_hours * 3600:
         return None
+    try:
+        os.utime(p, None)  # touch: keeps live entries out of the pruner
+    except OSError:
+        pass
     return obj
 
 

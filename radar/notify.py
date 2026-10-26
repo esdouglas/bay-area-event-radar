@@ -142,6 +142,8 @@ def immediate(events, alerts, h, dry_run):
             continue
         rec = alerts["alerted"].get(e["id"])
         changed = rec and (rec.get("date") != e["date"] or rec.get("status") != e["status"])
+        if rec and rec.get("via") == "digest" and rec.get("tier") != "exceptional":
+            rec = None  # only mentioned in a digest as strong; promotion to exceptional deserves its own alert
         if rec and not changed:
             continue
         if rec and changed:
@@ -160,13 +162,17 @@ def immediate(events, alerts, h, dry_run):
 
 # ----------------------------------------------------------------------------- weekly digest
 def digest(events, alerts, h, dry_run, horizon_days=75):
+    """Weekly digest. "New" means not announced in any earlier alert or digest (so an event that was
+    merely in the inventory last week and became strong this week counts as new). Every strong-or-better
+    event still upcoming is listed, so nothing drops off the shortlist just because it was mentioned."""
     today = dt.datetime.now(TZ).date()
     end = today + dt.timedelta(days=horizon_days)
-    last = alerts["digests"][-1]["at"][:10] if alerts["digests"] else "1970-01-01"
+    last = alerts["digests"][-1]["at"][:10] if alerts["digests"] else "never"
     week = today.isocalendar()
     upcoming = [e for e in events.values() if e.get("status") == "scheduled" and today.isoformat() <= e["date"] <= end.isoformat()]
     strong = sorted([e for e in upcoming if e.get("tier") in ("exceptional", "strong")], key=lambda x: (-(x.get("final_score") or 0), x["date"]))
-    new_since = [e for e in strong if e["first_seen"][:10] > last]
+    new_since = [e for e in strong if e["id"] not in alerts["alerted"]]
+    still = [e for e in strong if e["id"] in alerts["alerted"]]
     soon = sorted([e for e in upcoming if e["date"] <= (today + dt.timedelta(days=14)).isoformat() and e.get("tier") in ("exceptional", "strong", "inventory") and (e.get("final_score") or 0) >= 40], key=lambda x: x["date"])
     inv_total = sum(1 for e in events.values() if e.get("status") == "scheduled")
     health = store.load_health()
@@ -174,19 +180,23 @@ def digest(events, alerts, h, dry_run, horizon_days=75):
     cost = llm.cost_summary(7)
     parts = [f"@{_owner()} weekly discovery digest for week {week.year}-W{week.week:02d}.",
              f"Inventory: **{inv_total}** upcoming events from {len(health)} registered sources; {len(strong)} rated strong or better in the next {horizon_days} days; "
-             f"{len(new_since)} of those first seen since the last digest ({last}). Model spend last 7 days: ${cost['usd']}.",
+             f"{len(new_since)} not announced before (last digest {last}). Model spend last 7 days: ${cost['usd']}.",
              ""]
+    shown = set()
     if new_since:
-        parts.append(f"## New since last digest ({len(new_since)})")
-        parts += [event_card(e) for e in new_since[:25]]
+        parts.append(f"## New ({len(new_since)})")
+        for e in new_since[:60]:
+            parts.append(event_card(e))
+            shown.add(e["id"])
+        if len(new_since) > 60:
+            parts.append(f"- ...and {len(new_since) - 60} more new strong candidates on the site, sorted by score.")
         parts.append("")
     parts.append(f"## Next 14 days worth considering ({len(soon)})")
-    parts += [f"- **{e['date']}** {e['title'][:70]} · {e.get('venue') or '?'} · {e.get('tier')} {e.get('final_score', e.get('score'))} · [{'source'}]({e.get('url')})" for e in soon[:40]] or ["- nothing above the bar in the next two weeks"]
+    parts += [f"- **{e['date']}** {e['title'][:70]} · {e.get('venue') or '?'} · {e.get('tier')} {e.get('final_score', e.get('score'))} · [source]({e.get('url')})" for e in soon[:80]] or ["- nothing above the bar in the next two weeks"]
     parts.append("")
-    still = [e for e in strong if e not in new_since]
     if still:
-        parts.append(f"## Still upcoming, flagged earlier ({len(still)})")
-        parts += [f"- **{e['date']}** {e['title'][:70]} · {e.get('venue') or '?'} · {e.get('tier')} {e.get('final_score', e.get('score'))} · [source]({e.get('url')})" for e in still[:60]]
+        parts.append(f"## Still upcoming, announced earlier ({len(still)})")
+        parts += [f"- **{e['date']}** {e['title'][:70]} · {e.get('venue') or '?'} · {e.get('tier')} {e.get('final_score', e.get('score'))} · [source]({e.get('url')})" for e in still[:200]]
         parts.append("")
     if failing:
         parts.append(f"## Sources needing attention: {', '.join(failing)}")
@@ -195,16 +205,10 @@ def digest(events, alerts, h, dry_run, horizon_days=75):
     title = f"[radar digest] {week.year}-W{week.week:02d} — {len(strong)} strong candidates, {len(new_since)} new"
     num = create_issue(h, title, body, [LABEL_DIGEST], dry_run)
     alerts["digests"].append({"at": config.now_iso(), "issue": num, "strong": len(strong), "new": len(new_since)})
-    for e in strong:
-        alerts["alerted"].setdefault(e["id"], {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": e["tier"], "via": "digest"})
+    for e in new_since:
+        if e["id"] in shown:
+            alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": e["tier"], "via": "digest"}
     return len(strong)
-
-
-def live_enabled() -> bool:
-    """Real issues are only posted from main (or when RADAR_NOTIFY_LIVE=1); branch runs print instead."""
-    if os.environ.get("RADAR_NOTIFY_LIVE") == "1":
-        return True
-    return os.environ.get("GITHUB_REF", "") == "refs/heads/main"
 
 
 def run(digest_flag=False, dry_run=False):
