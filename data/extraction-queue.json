@@ -1,0 +1,359 @@
+[
+  {
+    "source_id": "kalx",
+    "url": "https://kalx.berkeley.edu/events/weekly-entertainment-calendar/",
+    "status": "fetched-no-events",
+    "sha256": "c57b8811ecc48366c9179c80f7ab43449c7eb8fec332818408f2407a402b9c9d",
+    "error": null
+  },
+  {
+    "source_id": "fifth-street-farms",
+    "url": "https://fifthstfarms.com/",
+    "status": "dynamic-or-blocked",
+    "sha256": "0561c4059737c881dd9b8abf2bf89eb97b6c97be1e5a0e655d4df4fed72c8f8c",
+    "error": null
+  },
+  {
+    "source_id": "little-hill",
+    "url": "https://littlehillelcerrito.com/events",
+    "status": "dynamic-or-blocked",
+    "sha256": "f2f534f95f2d4adbfb0640a989eee1245195e7385d802acdd9d0b59e1249fa10",
+    "error": null
+  },
+  {
+    "source_id": "hicks-with-sticks",
+    "url": "https://www.hickswithsticks.com/calendar/",
+    "status": "failed",
+    "sha256": null,
+    "error": "URLError: <urlopen error timed out>"
+  },
+  {
+    "source_id": "sf-folk-club",
+    "url": "https://www.sffmc.org/",
+    "status": "fetched-no-events",
+    "sha256": "997d532ff139f943a6bbbd40625e16314a6229d2fd4a97d313322d672e3d7aab",
+    "error": null
+  },
+  {
+    "source_id": "sf-folk-club",
+    "url": "https://www.sffmc.org/community-folk-calendar",
+    "status": "fetched-no-events",
+    "sha256": "508160546b8cad979b0b3447b50da71bcc66130107e2d9312f0e690acccb2faa",
+    "error": null
+  },
+  {
+    "source_id": "sf-folk-club",
+    "url": "https://www.sffmc.org/community-folk-calendar/",
+    "status": "fetched-no-events",
+    "sha256": "c7185838f5042b3fd301d26c556f4e62339b927a05b7296dcbb849a48d0e2301",
+    "error": null
+  },
+  {
+    "source_id": "hillside",
+    "url": "https://www.hillsideclub.org/hillsideechoes",
+    "status": "dynamic-or-blocked",
+    "sha256": "12c55590736bd91400afb1d396d589989e0b5a44714a92337d5281b1ef0422da",
+    "error": null
+  },
+  {
+    "source_id": "ashkenaz",
+    "url": "https://www.ashkenaz.com/",
+    "status": "dynamic-or-blocked",
+    "sha256": "b5c8db183cd9d209e38946620f8f84e6cf8307b64eee1b0a0601ba64fc1e4a92",
+    "error": null
+  },
+  {
+    "source_id": "starry-plough",
+    "url": "https://www.thestarryplough.com/",
+    "status": "dynamic-or-blocked",
+    "sha256": "4a379c77d8b444af8dde7bf76187848507a9f409692df3282416ad81cce6ea67",
+    "error": null
+  },
+  {
+    "source_id": "down-home-music",
+    "url": "https://www.downhomemusic.com/",
+    "status": "fetched-no-events",
+    "sha256": "3f04c3800600db665bbc468b26787b018c4d3a97d835b0f0beccc58da84cd007",
+    "error": null
+  },
+  {
+    "source_id": "stork-club",
+    "url": "https://www.storkcluboakland.com/",
+    "status": "failed",
+    "sha256": null,
+    "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
+  },
+  {
+    "source_id": "elis",
+    "url": "https://www.elismilehigh.com/",
+    "status": "fetched-no-events",
+    "sha256": "1a56919e35d4df497803175a782683463218346e1cbfafd1958f43538b920425",
+    "error": null
+  },
+  {
+    "source_id": "ivy-room",
+    "url": "https://www.ivyroom.com/",
+    "status": "dynamic-or-blocked",
+    "sha256": "662b26de2f9bd724449dfc3e9a0fd0c0ee61b4087765b8db172ee5d2e373e14b",
+    "error": null
+  },
+  {
+    "source_id": "freight",
+    "url": "https://thefreight.org/",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "chapel",
+    "url": "https://thechapelsf.com/",
+    "status": "fetched-no-events",
+    "sha256": "2298e600c5ad4dcc8beb4d653b1a534f98690c78370a94e601cb4002f246ff6b",
+    "error": null
+  },
+  {
+    "source_id": "chapel",
+    "url": "https://twitter.com/intent/tweet?text=https://wl.seetickets.us/event/moonalice/708306?afflky=TheChapel",
+    "status": "fetched-no-events",
+    "sha256": "500470596a2c6d6b0d7258aeee7aea4d049f656cf18af9000201ac4dbfb53cad",
+    "error": null
+  },
+  {
+    "source_id": "chapel",
+    "url": "https://twitter.com/intent/tweet?text=https://wl.seetickets.us/event/postponed-chapelmania/705677?afflky=TheChapel",
+    "status": "fetched-no-events",
+    "sha256": "2bb319ebdac8453e599cdffa6aa3e544c4206c4cb718a05339ef81554a5d707a",
+    "error": null
+  },
+  {
+    "source_id": "chapel",
+    "url": "https://twitter.com/intent/tweet?text=https://wl.seetickets.us/event/squirrel-flower/691286?afflky=TheChapel",
+    "status": "fetched-no-events",
+    "sha256": "5ea5c0d0f588ad74acd862f9710387e6ce50edc4434e05e2112b5d6dc4382371",
+    "error": null
+  },
+  {
+    "source_id": "sfjazz",
+    "url": "https://www.sfjazz.org/calendar/",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "cal-performances",
+    "url": "https://calperformances.org/events/",
+    "status": "dynamic-or-blocked",
+    "sha256": "e211072602db76a5634590fd20ba041665ad99d04e0e968c3fb9d867e0eb8b5a",
+    "error": null
+  },
+  {
+    "source_id": "cal-performances",
+    "url": "https://calperformances.org/events/2026-27/seasonal-holidays/mariachi-herencia-de-mexico-la-nueva-generacion-tour-dia-de-los-muertos/",
+    "status": "dynamic-or-blocked",
+    "sha256": "63b6473af36e3dce3962f514fdb1bb5b0633edecc7a023e6c5e341bb77b417dc",
+    "error": null
+  },
+  {
+    "source_id": "cal-performances",
+    "url": "https://calperformances.org/events/2026-27/speakers/angela-davis-in-conversation-with-poulomi-saha-wish-i-knew-how-it-would-feel-to-be-free-movements-for-liberation-and-transfigurations-of-freedom/",
+    "status": "dynamic-or-blocked",
+    "sha256": "05fea1fd03dee8550f350cf09c3f5aa49ec3fd1db995fd66320ce5d834969297",
+    "error": null
+  },
+  {
+    "source_id": "cal-performances",
+    "url": "https://calperformances.org/events/2026-27/speakers/michael-pollan-christof-koch-a-journey-into-consciousness/",
+    "status": "dynamic-or-blocked",
+    "sha256": "dd11e6cb9973607cacff067cf0817456c27937cb390cbc5f46e0e2917a6d1e7c",
+    "error": null
+  },
+  {
+    "source_id": "berkeley-rep",
+    "url": "https://www.berkeleyrep.org/shows/",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
+  },
+  {
+    "source_id": "shotgun",
+    "url": "https://www.shotgunplayers.org/",
+    "status": "fetched-no-events",
+    "sha256": "e88586767841336778af6e050aa5f172e0c84ee03fa7bec6cad057b469b9fa7a",
+    "error": null
+  },
+  {
+    "source_id": "shotgun",
+    "url": "https://shotgunplayers.org/show/fall/",
+    "status": "fetched-no-events",
+    "sha256": "d16fb99b9d32a7e4ba9e59042292b5a1d3f4b7c21dbbf39e7d73b090a74094b0",
+    "error": null
+  },
+  {
+    "source_id": "shotgun",
+    "url": "https://shotgunplayers.org/show/meyerhold/",
+    "status": "fetched-no-events",
+    "sha256": "0be77240866e661d05749c7029205b6b8edd0af9bf6e62d861bee54af49e9064",
+    "error": null
+  },
+  {
+    "source_id": "shotgun",
+    "url": "https://shotgunplayers.org/show/miriam/",
+    "status": "fetched-no-events",
+    "sha256": "dcad253aab04aeb7fe68516d62cecba45ee3df1bb0cc8829129c890ee0d7b682",
+    "error": null
+  },
+  {
+    "source_id": "act",
+    "url": "https://www.act-sf.org/whats-on/",
+    "status": "fetched-no-events",
+    "sha256": "ecf57a2d936245d897b9dd3780e5ad8f4dbeb31341ef7bdbf9ac89ecaf8fb3fb",
+    "error": null
+  },
+  {
+    "source_id": "act",
+    "url": "https://fundraise.givesmart.com/e/RNpMkg?vid=1p76h2",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "aurora",
+    "url": "https://www.auroratheatre.org/",
+    "status": "dynamic-or-blocked",
+    "sha256": "e45e2e6d0436070f88670eff9d3acb3143d637e4380345725527dfce15d25dcd",
+    "error": null
+  },
+  {
+    "source_id": "marin-theatre",
+    "url": "https://www.marintheatre.org/",
+    "status": "fetched-no-events",
+    "sha256": "bb67c3d1fcbebae2db332aa78233fcc739920eee670ca5470728398adab9d07e",
+    "error": null
+  },
+  {
+    "source_id": "sweetwater",
+    "url": "https://sweetwatermusichall.com/events/",
+    "status": "dynamic-or-blocked",
+    "sha256": "99425eb0b683e6f41b249f44aaf611fb45a5d8a109bb00f5ed8cc9856908b0aa",
+    "error": null
+  },
+  {
+    "source_id": "sweetwater",
+    "url": "https://sweetwatermusichall.org/events/?view=month",
+    "status": "fetched-no-events",
+    "sha256": "04a3c458c24b5ad7f53a0c674138643439cc7362a2cf6657baf3f245d82d860b",
+    "error": null
+  },
+  {
+    "source_id": "sweetwater",
+    "url": "https://www.facebook.com/events/1707348563912613/",
+    "status": "dynamic-or-blocked",
+    "sha256": "e71d25a03480560a46cd1d485ac93f3d5ceca8efc3a306f8fe2e3a72ad48d88c",
+    "error": null
+  },
+  {
+    "source_id": "lost-church",
+    "url": "https://thelostchurch.org/",
+    "status": "fetched-no-events",
+    "sha256": "6633c29dcf938c5061258684febf2b944ccf91d2d25db7c998469e5868e16ec1",
+    "error": null
+  },
+  {
+    "source_id": "bottom-of-hill",
+    "url": "https://www.bottomofthehill.com/calendar.html",
+    "status": "fetched-no-events",
+    "sha256": "358e6cb993c365d82393c43f94e068820ca577d0714af7c2b14080dbb9a5a9cb",
+    "error": null
+  },
+  {
+    "source_id": "bottom-of-hill",
+    "url": "https://www.facebook.com/events/1103595425749202",
+    "status": "dynamic-or-blocked",
+    "sha256": "46a816c9c4aa54b3fcf8ee70316c4d3a5ed034b55dd0a646f34d5b2ce7aa48bb",
+    "error": null
+  },
+  {
+    "source_id": "bottom-of-hill",
+    "url": "https://www.facebook.com/events/1116208820833786",
+    "status": "dynamic-or-blocked",
+    "sha256": "492b9abcf22e0501477a5295e7cc22697922ba5402fae61b12dfc728a37f0694",
+    "error": null
+  },
+  {
+    "source_id": "bottom-of-hill",
+    "url": "https://www.facebook.com/events/1139673182332782",
+    "status": "dynamic-or-blocked",
+    "sha256": "f539a10423c762ed0d941f9aeb382c7cd3f980f6beab0059bfc2d1ceec5acbfa",
+    "error": null
+  },
+  {
+    "source_id": "outsound",
+    "url": "https://www.outsound.org/",
+    "status": "failed",
+    "sha256": null,
+    "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
+  },
+  {
+    "source_id": "berkeley-old-time",
+    "url": "https://www.berkeleyoldtimemusic.org/",
+    "status": "dynamic-or-blocked",
+    "sha256": "944e91dc623dc94a12812d2f696c8fb5f58769ee0c6bcfb13a951d5ddb292410",
+    "error": null
+  },
+  {
+    "source_id": "eventbrite-eastbay",
+    "url": "https://www.eventbrite.com/d/ca--oakland/music--events/",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 405: Not Allowed"
+  },
+  {
+    "source_id": "mgu-artist",
+    "url": "https://www.mountaingrassunit.com/",
+    "status": "dynamic-or-blocked",
+    "sha256": "180ad23ece6d589117f6d27b30db50dff264a1d30cc30e4be55930ac88d489e4",
+    "error": null
+  },
+  {
+    "source_id": "tony-furtado-artist",
+    "url": "https://tonyfurtado.com/shows/",
+    "status": "dynamic-or-blocked",
+    "sha256": "63d70097303da8c41fd2cb07f4547ceeae95ff67cf72c41b2a7f3ec9e96c2d8a",
+    "error": null
+  },
+  {
+    "source_id": "kc-turner",
+    "url": "https://www.kcturnerpresents.com/calendar",
+    "status": "fetched-no-events",
+    "sha256": "9bf61ecdcf09be1c09fc015afd0b040a2fc5307aa0e966fd3f3d95e6f20c5cea",
+    "error": null
+  },
+  {
+    "source_id": "kc-turner",
+    "url": "https://wl.eventim.us/event/craig-finn-of-the-hold-steady/689121?afflky=HopMonkNovato",
+    "status": "fetched-no-events",
+    "sha256": "19225522bfb7111cc9299eec2ed146089576af07bc995fc73172e0f7ce326a79",
+    "error": null
+  },
+  {
+    "source_id": "little-hill-dothebay",
+    "url": "https://dothebay.com/venues/little-hill-lounge",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 403: Forbidden"
+  },
+  {
+    "source_id": "little-hill-eventbrite",
+    "url": "https://www.eventbrite.com/d/ca--el-cerrito/music--events/",
+    "status": "failed",
+    "sha256": null,
+    "error": "HTTPError: HTTP Error 405: Not Allowed"
+  },
+  {
+    "source_id": "otter-opry",
+    "url": "https://otteropry.org/",
+    "status": "dynamic-or-blocked",
+    "sha256": "6c0d1b70ec410e2f8040b155c5cc5f7b30c24dd2bdb84b9a2eff6d41f6689700",
+    "error": null
+  }
+]
