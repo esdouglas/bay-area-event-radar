@@ -113,3 +113,37 @@ class RankTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class EnrichTests(unittest.TestCase):
+    def test_pipeline_with_fake_model(self):
+        """End-to-end enrich on a tiny inventory with the model stubbed out: tiers and caches update."""
+        import json, os, tempfile
+        from unittest.mock import patch
+        from radar import config, enrich, llm, rank
+        fast = json.dumps({"fit": 92, "known": True, "significance": "foundational", "why": "Holy Modal Rounders founder in a bar", "flags": ["historic"]})
+        deep = json.dumps({"fit": 95, "tier": "exceptional", "headline": "Psych-folk founder, 100 seats", "why": "why", "background": "bg",
+                           "scarcity": "rare", "uncertainty": "none", "performers": [{"name": "Peter Stampfel", "known_for": "Holy Modal Rounders", "significance": "foundational"}]})
+        calls = []
+
+        def fake_complete(system, user, tier="fast", **kw):
+            calls.append(tier)
+            return fast if tier == "fast" else deep
+        with tempfile.TemporaryDirectory() as d:
+            ev = {"title": "Peter Stampfel and Will Sprott", "performers": [], "description": "", "tags": [], "venue": "Little Hill Lounge", "venue_raw": "Little Hill Lounge",
+                  "city": "El Cerrito", "region": "bay", "category": "music", "date": "2099-10-24", "start": "2099-10-24T20:00:00-07:00", "status": "scheduled",
+                  "url": "https://x", "sources": [{"source": "little-hill-lounge", "url": "https://x", "first_seen": "t", "last_seen": "t"}], "first_seen": "2099-09-21T00:00:00+00:00",
+                  "last_seen": "t", "id": "ev_test", "score": 42.0, "tier": "inventory", "enrichment": None, "signals": {"seed_hits": [], "keyword_groups": []}}
+            with patch.object(config, "EVENTS_FILE", __import__("pathlib").Path(d) / "events.json"), patch.object(config, "ARTISTS_FILE", __import__("pathlib").Path(d) / "artists.json"), \
+                 patch.object(config, "COSTS_FILE", __import__("pathlib").Path(d) / "costs.jsonl"), patch.object(config, "DATA", __import__("pathlib").Path(d)), \
+                 patch.object(llm, "available", lambda: True), patch.object(llm, "complete", fake_complete), patch.object(llm, "model_for", lambda t: "fake"), \
+                 patch.object(enrich, "wiki_lookup", lambda name, artists: None):
+                from radar import store
+                store.save_events({"ev_test": ev})
+                res = enrich.run(limit=5)
+                out = store.load_events()["ev_test"]
+            self.assertEqual(res["researched"], 1)
+            self.assertEqual(calls, ["fast", "smart"])
+            self.assertEqual(out["tier"], "exceptional")
+            self.assertGreaterEqual(out["final_score"], 78)
+            self.assertEqual(out["enrichment"]["deep"]["performers"][0]["significance"], "foundational")
