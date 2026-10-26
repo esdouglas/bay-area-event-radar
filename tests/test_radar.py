@@ -1,0 +1,115 @@
+import datetime as dt
+import unittest
+
+from radar import normalize, store
+from radar.collectors.common import jsonld_blocks, raw_from_schema, walk_events, links
+from radar.collectors.structured import collect_ics
+from radar.rank import _compile, load_taste, score_event, tier_for
+
+
+class NormalizeTests(unittest.TestCase):
+    def test_venue_aliases(self):
+        self.assertEqual(normalize.norm_venue("The Freight & Salvage"), "Freight & Salvage")
+        self.assertEqual(normalize.norm_venue("freight and salvage"), "Freight & Salvage")
+        self.assertEqual(normalize.venue_key("Little Hill Lounge"), normalize.venue_key("little hill lounge"))
+
+    def test_dedup_key_collapses_support_acts(self):
+        a = normalize.dedup_key("Little Hill Lounge", "2026-10-24", "Peter Stampfel and Will Sprott")
+        b = normalize.dedup_key("Little Hill Lounge", "2026-10-24", "Peter Stampfel & the Atomic Meta-Pagans w/ Will Sprott")
+        self.assertEqual(a.split("|")[:2], b.split("|")[:2])
+        self.assertGreater(normalize.similar_titles("Peter Stampfel and Will Sprott", "Peter Stampfel & the Atomic Meta-Pagans"), 0.3)
+
+    def test_parse_dt_shapes(self):
+        self.assertEqual(normalize.parse_dt("2026-10-29T19:00:00-0700").isoformat(), "2026-10-29T19:00:00-07:00")
+        self.assertEqual(normalize.parse_dt("2026-10-25T03:00:00Z").hour, 20)  # 8 PM PDT
+        self.assertEqual(normalize.parse_dt(1793149200546).year, 2026)
+        self.assertIsNone(normalize.parse_dt("not a date at all"))
+
+    def test_region(self):
+        self.assertEqual(normalize.region_of("El Cerrito"), "bay")
+        self.assertEqual(normalize.region_of("Santa Cruz"), "bay")
+        self.assertEqual(normalize.region_of("Sacramento"), "norcal")
+        self.assertEqual(normalize.region_of("Portland", "OR"), "outside")
+        self.assertEqual(normalize.region_of(""), "unknown")
+
+
+class StoreTests(unittest.TestCase):
+    def test_upsert_merges_across_sources(self):
+        events, stats = {}, {}
+        src_a = {"id": "venue-feed", "venue": {"name": "Little Hill Lounge", "city": "El Cerrito"}}
+        src_b = {"id": "aggregator", "venue": {}}
+        r1 = store.normalize_raw({"title": "Peter Stampfel and Will Sprott", "start": "2026-10-24T20:00:00-07:00", "url": "https://a/1"}, src_a)
+        r2 = store.normalize_raw({"title": "Peter Stampfel & the Atomic Meta-Pagans", "start": "2026-10-24T20:00:00-07:00", "venue": "Little Hill Lounge", "city": "El Cerrito", "url": "https://b/2", "performers": ["Peter Stampfel"]}, src_b)
+        eid1, new1 = store.upsert(events, r1, "venue-feed", "2026-09-21T00:00:00+00:00", stats)
+        eid2, new2 = store.upsert(events, r2, "aggregator", "2026-10-01T00:00:00+00:00", stats)
+        self.assertTrue(new1)
+        self.assertFalse(new2)
+        self.assertEqual(eid1, eid2)
+        e = events[eid1]
+        self.assertEqual(e["first_seen"], "2026-09-21T00:00:00+00:00")
+        self.assertEqual(len(e["sources"]), 2)
+        self.assertEqual(e["performers"], ["Peter Stampfel"])
+
+    def test_different_nights_do_not_merge(self):
+        events, stats = {}, {}
+        src = {"id": "s", "venue": {"name": "X", "city": "Oakland"}}
+        store.upsert(events, store.normalize_raw({"title": "Karaoke", "start": "2026-11-04T20:00:00-08:00"}, src), "s", "t", stats)
+        store.upsert(events, store.normalize_raw({"title": "Karaoke", "start": "2026-11-11T20:00:00-08:00"}, src), "s", "t", stats)
+        self.assertEqual(len(events), 2)
+
+
+class ParserTests(unittest.TestCase):
+    def test_jsonld_event_extraction(self):
+        html = '<html><script type="application/ld+json">{"@context":"https://schema.org","@type":"MusicEvent","name":"Nora Brown","startDate":"2027-01-11T19:00:00-08:00","location":{"@type":"Place","name":"Kuumbwa Jazz Center","address":{"@type":"PostalAddress","addressLocality":"Santa Cruz","addressRegion":"CA"}},"performer":[{"@type":"MusicGroup","name":"Nora Brown"}],"offers":{"url":"https://t/1","price":"30","priceCurrency":"USD"}}</script></html>'
+        evs = list(walk_events(jsonld_blocks(html)))
+        self.assertEqual(len(evs), 1)
+        raw = raw_from_schema(evs[0], "https://x/")
+        self.assertEqual(raw["venue"], "Kuumbwa Jazz Center")
+        self.assertEqual(raw["city"], "Santa Cruz")
+        self.assertEqual(raw["performers"], ["Nora Brown"])
+        self.assertEqual(raw["price"], "30 USD")
+
+    def test_links_unescape_entities(self):
+        html = '<a href="&#x2F;events&#x2F;fifthstreetfarms&#x2F;2431227">x</a><a href="/other">y</a>'
+        self.assertEqual(links(html, "https://buytickets.at/fifthstreetfarms", r"fifthstreetfarms/\d+"), ["https://buytickets.at/events/fifthstreetfarms/2431227"])
+
+    def test_ics_created_becomes_announced(self):
+        from unittest.mock import patch
+        ics = ("BEGIN:VCALENDAR\r\nBEGIN:VEVENT\r\nDTSTART:20991025T030000Z\r\nDTEND:20991025T053000Z\r\nUID:x@google.com\r\n"
+               "CREATED:20260921T224604Z\r\nDESCRIPTION:folk music\r\nSUMMARY:Peter Stampfel and Will Sprott\r\nEND:VEVENT\r\nEND:VCALENDAR\r\n")
+        class R:
+            content = ics.encode()
+        with patch("radar.fetch.get", return_value=R()), patch("radar.config.HORIZON_DAYS", 40000):
+            out = collect_ics({"id": "t", "url": "https://x/basic.ics", "venue": {"name": "Little Hill Lounge"}}, {})
+        self.assertEqual(out[0]["title"], "Peter Stampfel and Will Sprott")
+        self.assertTrue(out[0]["announced"].startswith("2026-09-21"))
+
+
+class RankTests(unittest.TestCase):
+    def setUp(self):
+        self.C = _compile(load_taste())
+
+    def _ev(self, title, venue, desc="", srcs=("x",)):
+        return {"title": title, "performers": [], "description": desc, "tags": [], "venue": normalize.norm_venue(venue), "venue_raw": venue,
+                "sources": [{"source": s} for s in srcs], "category": "music", "date": "2026-12-01", "region": "bay", "status": "scheduled"}
+
+    def test_seed_artist_in_small_room_is_exceptional(self):
+        sc, reasons, sig = score_event(self._ev("Peter Stampfel and Will Sprott", "Little Hill Lounge"), self.C, dt.date(2026, 10, 1))
+        self.assertGreaterEqual(sc, 78)
+        self.assertEqual(tier_for(sc, self.C["tiers"], None, sig), "exceptional")
+
+    def test_karaoke_is_noise(self):
+        sc, _, sig = score_event(self._ev("Karaoke Wednesday 8-11pm", "Little Hill Lounge"), self.C, dt.date(2026, 10, 1))
+        self.assertEqual(tier_for(sc, self.C["tiers"], None, sig), "noise")
+
+    def test_unknown_trio_cannot_be_exceptional_without_model(self):
+        sc, _, sig = score_event(self._ev("Generic Name Trio", "Kuumbwa Jazz", "jazz trio improvisation"), self.C, dt.date(2026, 10, 1))
+        self.assertNotEqual(tier_for(sc, self.C["tiers"], None, sig), "exceptional")
+
+    def test_model_fit_lifts_unknown_name(self):
+        sc, _, sig = score_event(self._ev("Rakish", "Red Poppy Art House"), self.C, dt.date(2026, 10, 1))
+        self.assertEqual(tier_for(sc, self.C["tiers"], 90, sig), "exceptional")
+
+
+if __name__ == "__main__":
+    unittest.main()

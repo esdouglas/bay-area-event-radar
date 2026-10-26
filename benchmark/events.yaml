@@ -1,0 +1,356 @@
+# Historical discoverability benchmark.
+#
+# The question for each event is NOT "can we find it today?" but "would the registered collectors have
+# encountered it, without being told the artist's name, before it happened?"  Evidence classes:
+#   proven       a timestamped artifact from a source that is in the registry shows the event was posted
+#                before the date (Google Calendar CREATED, The Events Calendar date_utc, Squarespace
+#                addedOn, a Wayback snapshot of the source page). lead_days is measured from that stamp.
+#   plausible    the venue/presenter is a working registry source that lists all its shows, but no
+#                pre-dated artifact was captured (the show is past and the page no longer lists it).
+#   unverifiable the venue is not a registry source, or the source is blocked / unreachable, so the
+#                system as built would have had to rely on an aggregator or would have missed it.
+# `announced` is a timestamp a primary source gave us; `evidence` says where it came from. Nothing here
+# is inferred from present-day search results. `wayback` entries are checked by `benchmark --live`.
+
+events:
+- id: stampfel-little-hill-2026
+  title: Peter Stampfel & the Atomic Meta-Pagans (listed as "Peter Stampfel and Will Sprott")
+  date: 2026-10-24
+  venue: Little Hill Lounge
+  city: El Cerrito
+  category: music
+  why: foundational psychedelic-folk / Holy Modal Rounders figure in a ~100-person bar; the miss that started this project
+  sources: [little-hill-lounge]
+  announced: 2026-09-21T22:46:04Z
+  evidence: "Google Calendar feed VEVENT UID 3s9tg4bacu65fbuv2bdol31g3r@google.com, CREATED:20260921T224604Z, DESCRIPTION 'folk music; music on at 8pm; tickets $15' (fetched 2026-10-25)"
+  taste_signal: seed artist (Peter Stampfel) in title
+
+- id: mountain-grass-unit-cafe-du-nord-2026
+  title: The Mountain Grass Unit
+  date: 2026-10-05
+  venue: Cafe du Nord
+  city: San Francisco
+  category: music
+  why: emerging jamgrass band the user named as a miss
+  sources: [cafe-du-nord, songkick-bay-area, dice-sf]
+  evidence: "concertful.com/event/1007448 lists Mon Oct 5 2026 8 PM, Cafe du Nord; venue publishes shows.ics which the registry reads"
+  wayback: {url: "https://www.cafedunord.com/shows", match: "Mountain Grass"}
+  taste_signal: seed artist (Mountain Grass Unit)
+
+- id: tony-furtado-fifth-street-farms-2025
+  title: Tony Furtado
+  date: 2025-12-12
+  venue: Fifth Street Farms
+  city: Berkeley
+  category: music
+  why: slide/banjo virtuoso in a house-concert room; the user named it as discovered too late
+  sources: [fifth-street-farms, fifth-street-farms-site]
+  evidence: "undiscovered.music/venues/fifth_street_farms 'Previous Shows: December 12, 2025 Tony Furtado' (fetched 2026-10-25); Ticket Tailor listing no longer shows it"
+  wayback: {url: "https://buytickets.at/fifthstreetfarms", match: "Furtado"}
+  taste_signal: seed artist (Tony Furtado)
+
+- id: nora-brown-kuumbwa-2026
+  title: Nora Brown with Stephanie Coleman
+  date: 2026-01-07
+  venue: Kuumbwa Jazz
+  city: Santa Cruz
+  category: music
+  why: young old-time banjo/fiddle duo the user listed by name
+  sources: [kuumbwa]
+  announced: 2025-09-12T13:19:58Z
+  evidence: "kuumbwajazz.org tribe REST event, date_utc 2025-09-12 13:19:58 (the event's creation stamp), start 2026-01-07 19:00"
+  taste_signal: seed artists (Nora Brown, Stephanie Coleman)
+
+- id: nora-brown-chapel-2026
+  title: Nora Brown with Stephanie Coleman
+  date: 2026-01-08
+  venue: The Chapel
+  city: San Francisco
+  category: music
+  why: same duo at a 500-cap SF room
+  sources: [the-chapel, songkick-bay-area, folkyeah]
+  evidence: "jambase.com/show/stephanie-coleman-the-chapel-20260108 (fetched 2026-10-25)"
+  wayback: {url: "https://thechapelsf.com/calendar/", match: "Nora Brown"}
+  taste_signal: seed artists
+
+- id: berkeley-bluegrass-festival-freight-2026
+  title: "Berkeley Bluegrass Festival: Tatiana Hargreaves Band w/ Michael Daves, Caleb & Reeb, Cali Cutups, Tony Furtado Trio"
+  date: 2026-05-03
+  venue: Freight & Salvage
+  city: Berkeley
+  category: music
+  why: multi-act old-time/bluegrass bill with two seed artists
+  sources: [freight-and-salvage, bluegrass-signal, california-bluegrass-association, songkick-bay-area]
+  evidence: "secure.thefreight.org/15764/15766-berkeley-bluegrass-festival-260503 (search result 2026-10-25); thefreight.org is Cloudflare-blocked for the collector"
+  wayback: {url: "https://www.bgsignal.com/concerts--festivals.html", match: "Berkeley Bluegrass Festival"}
+  taste_signal: seed artists (Tatiana Hargreaves, Tony Furtado), roots_core
+
+- id: laurie-lewis-rancho-2026
+  title: Laurie Lewis (Sunset Series)
+  date: 2026-07-17
+  venue: Rancho Nicasio
+  city: Nicasio
+  category: music
+  why: Bay Area bluegrass elder in a roadhouse garden
+  sources: [rancho-nicasio, california-bluegrass-association]
+  announced: 2026-03-14
+  evidence: "ranchonicasio.com tribe REST, date_utc 2026-03-14"
+  taste_signal: seed artist (Laurie Lewis)
+
+- id: dave-alvin-jimmie-dale-gilmore-rancho-2026
+  title: Dave Alvin & Jimmie Dale Gilmore, Almost Acoustic
+  date: 2026-07-19
+  venue: Rancho Nicasio
+  city: Nicasio
+  category: music
+  why: two legacy Americana songwriters, acoustic, small room
+  sources: [rancho-nicasio]
+  announced: 2026-03-05
+  evidence: "ranchonicasio.com tribe REST, date_utc 2026-03-05"
+  taste_signal: roots_adjacent + legacy (no seed)
+
+- id: crying-uncle-rancho-2026
+  title: Crying Uncle Bluegrass Band (Sunset Series)
+  date: 2026-08-28
+  venue: Rancho Nicasio
+  city: Nicasio
+  category: music
+  why: young Bay Area bluegrass band the user has probably never heard of
+  sources: [rancho-nicasio, california-bluegrass-association]
+  announced: 2026-03-14
+  evidence: "ranchonicasio.com tribe REST, date_utc 2026-03-14"
+  taste_signal: roots_core (bluegrass)
+
+- id: broken-compass-rancho-2026
+  title: Broken Compass Bluegrass
+  date: 2026-05-03
+  venue: Rancho Nicasio
+  city: Nicasio
+  category: music
+  why: regional bluegrass band, unknown name
+  sources: [rancho-nicasio]
+  announced: 2026-01-29
+  evidence: "ranchonicasio.com tribe REST, date_utc 2026-01-29"
+  taste_signal: roots_core
+
+- id: im-with-her-lbc-2026
+  title: I'm With Her
+  date: 2026-06-06
+  venue: Luther Burbank Center for the Arts
+  city: Santa Rosa
+  category: music
+  why: Sarah Jarosz / Aoife O'Donovan / Sara Watkins trio
+  sources: [luther-burbank-center, songkick-bay-area]
+  announced: 2026-02-10
+  evidence: "lutherburbankcenter.org tribe REST, date_utc 2026-02-10"
+  taste_signal: seed artists (Aoife O'Donovan, Sarah Jarosz) only if listed in description; title alone has none
+
+- id: rakish-red-poppy-2026
+  title: Rakish
+  date: 2026-09-26
+  venue: Red Poppy Art House
+  city: San Francisco
+  category: music
+  why: Boston fiddle/guitar trad duo (Maura Shawn Scanlin, Conor Hearn) in a 50-seat room; a name-unknown discovery case
+  sources: [red-poppy]
+  announced: 2026-09-12
+  evidence: "redpoppyarthouse.org tribe REST, date_utc 2026-09-12"
+  taste_signal: none in title; description needed
+
+- id: haymaker-ben-goldberg-bird-beckett-2026
+  title: Haymaker, a Ben Goldberg joint
+  date: 2026-10-04
+  venue: Bird & Beckett
+  city: San Francisco
+  category: music
+  why: Bay Area clarinetist (Tin Hat) with a new project in a bookstore
+  sources: [bird-and-beckett]
+  announced: 2026-09-07
+  evidence: "birdbeckett.com tribe REST, date_utc 2026-09-07"
+  taste_signal: jazz_core + intimate venue
+
+- id: scottish-fish-kuumbwa-2026
+  title: Scottish Fish
+  date: 2026-05-01
+  venue: Kuumbwa Jazz
+  city: Santa Cruz
+  category: music
+  why: young Boston fiddle quintet; unknown name, strong fit
+  sources: [kuumbwa]
+  announced: 2026-01-22
+  evidence: "kuumbwajazz.org tribe REST, date_utc 2026-01-22"
+  taste_signal: none in title
+
+- id: charlie-hunter-trio-kuumbwa-2026
+  title: Charlie Hunter Trio
+  date: 2026-03-16
+  venue: Kuumbwa Jazz
+  city: Santa Cruz
+  category: music
+  why: distinctive instrumentation (hybrid guitar) jazz in a 200-seat room
+  sources: [kuumbwa]
+  announced: 2025-11-04
+  evidence: "kuumbwajazz.org tribe REST, date_utc 2025-11-04"
+  taste_signal: jazz_core
+
+- id: caroline-davis-portals-kuumbwa-2026
+  title: Caroline Davis, Portals Quartet
+  date: 2026-05-14
+  venue: Kuumbwa Jazz
+  city: Santa Cruz
+  category: music
+  why: adventurous saxophonist/composer; unknown-name jazz case
+  sources: [kuumbwa]
+  announced: 2026-01-26
+  evidence: "kuumbwajazz.org tribe REST, date_utc 2026-01-26"
+  taste_signal: jazz_core
+
+- id: emi-makabe-thomas-morgan-kuumbwa-2026
+  title: Emi Makabe Quartet feat. Vitor Gonçalves, Thomas Morgan
+  date: 2026-06-04
+  venue: Kuumbwa Jazz
+  city: Santa Cruz
+  category: music
+  why: unusual collaboration (shamisen/voice with ECM bassist Thomas Morgan)
+  sources: [kuumbwa]
+  announced: 2026-02-10
+  evidence: "kuumbwajazz.org tribe REST, date_utc 2026-02-10"
+  taste_signal: jazz_core
+
+- id: kurt-rosenwinkel-kuumbwa-2026
+  title: Kurt Rosenwinkel Trio
+  date: 2026-05-18
+  venue: Kuumbwa Jazz
+  city: Santa Cruz
+  category: music
+  why: major jazz guitarist in a small room
+  sources: [kuumbwa]
+  announced: 2026-02-02
+  evidence: "kuumbwajazz.org tribe REST, date_utc 2026-02-02"
+  taste_signal: jazz_core
+
+- id: jacob-jolliff-fifth-street-farms-2025
+  title: Jacob Jolliff
+  date: 2025-05-31
+  venue: Fifth Street Farms
+  city: Berkeley
+  category: music
+  why: Yonder Mountain / Joy Kills Sorrow mandolinist solo in a living room
+  sources: [fifth-street-farms, fifth-street-farms-site]
+  evidence: "undiscovered.music/venues/fifth_street_farms 'Previous Shows: May 31, 2025 Jacob Jolliff' (fetched 2026-10-25)"
+  taste_signal: roots_core only via description
+
+- id: kathy-kallick-fifth-street-farms-2024
+  title: Kathy Kallick
+  date: 2024-05-24
+  venue: Fifth Street Farms
+  city: Berkeley
+  category: music
+  why: Grammy-winning Bay Area bluegrass founder (Good Ol' Persons) in a house concert
+  sources: [fifth-street-farms, fifth-street-farms-site]
+  evidence: "undiscovered.music/venues/fifth_street_farms 'Previous Shows: May 24, 2024 Kathy Kallick' (fetched 2026-10-25)"
+  taste_signal: seed artist (Kathy Kallick)
+
+- id: lowest-pair-fifth-street-farms-2024
+  title: The Lowest Pair
+  date: 2024-11-23
+  venue: Fifth Street Farms
+  city: Berkeley
+  category: music
+  why: banjo duo (Kendl Winter, Palmer T. Lee) in a house concert
+  sources: [fifth-street-farms, fifth-street-farms-site]
+  evidence: "undiscovered.music/venues/fifth_street_farms 'Previous Shows: November 23, 2024 The Lowest Pair' (fetched 2026-10-25)"
+  taste_signal: seed artist (Kendl Winter) only via description
+
+- id: macbeth-magic-theatre-2026
+  title: MACBETH
+  date: 2026-03-18
+  venue: Magic Theatre
+  city: San Francisco
+  category: theater
+  why: classic revival at a small company
+  sources: [magic-theatre]
+  announced: 2025-10-01
+  evidence: "magictheatre.org/calendar?format=json past item addedOn 2025-10-01"
+  taste_signal: theater_core (shakespeare)
+
+- id: aztlan-magic-theatre-2025
+  title: Magic World Premiere Aztlán by Luis Alfaro
+  date: 2025-06-25
+  venue: Magic Theatre
+  city: San Francisco
+  category: theater
+  why: world premiere by a MacArthur-fellow playwright
+  sources: [magic-theatre]
+  announced: 2024-10-23
+  evidence: "magictheatre.org/calendar?format=json past item addedOn 2024-10-23"
+  taste_signal: theater_core (world premiere)
+
+- id: campo-santo-30-magic-2026
+  title: 30 Years of Campo Santo
+  date: 2026-10-17
+  venue: Magic Theatre
+  city: San Francisco
+  category: theater
+  why: anniversary of a storied SF ensemble; one night
+  sources: [magic-theatre]
+  announced: 2026-09-20
+  evidence: "magictheatre.org/calendar?format=json past item addedOn 2026-09-20"
+  taste_signal: theater_core + legacy
+
+- id: steve-reich-90-cal-performances-2026
+  title: Steve Reich at 90, Bang on a Can All-Stars / Ensemble Signal
+  date: 2026-10-24
+  venue: Zellerbach Hall
+  city: Berkeley
+  category: music
+  why: living-legend composer celebration; the v1 registry had it
+  sources: [cal-performances, stanford-live]
+  evidence: "v1 events.json record verified_at 2026-10-21 (editorial); Cal Performances page is HTML-only for the collector"
+  taste_signal: legacy + jazz_core (new music)
+
+- id: bedouine-freight-2026
+  title: Bedouine + Other Delights
+  date: 2026-10-21
+  venue: Freight & Salvage
+  city: Berkeley
+  category: music
+  why: v1 registry record; Freight is the most important blocked source
+  sources: [freight-and-salvage, songkick-bay-area]
+  evidence: "v1 events.json record secure.thefreight.org/15906/15907-bedouine-261021, verified_at 2026-10-21"
+  taste_signal: roots_adjacent
+
+- id: iphigenia-sharp-fine-zspace-2026
+  title: IPHIGENIA, Sharp & Fine
+  date: 2026-10-23
+  venue: Z Space
+  city: San Francisco
+  category: dance
+  why: contemporary dance-theater premiere run; v1 registry record
+  sources: [z-space]
+  evidence: "v1 events.json record zspace.org/iphigenia, verified_at 2026-10-21"
+  taste_signal: dance_arts
+
+- id: supersonic-symbiotic-little-hill-2026
+  title: Supersonic Symbiotic, Fuzz Kitt, Wonderland Rejects
+  date: 2026-10-01
+  venue: Little Hill Lounge
+  city: El Cerrito
+  category: music
+  why: control case, local rock bill the user would likely skip; tests that the venue feed is read, not just the hit
+  sources: [little-hill-lounge]
+  announced: 2026-09-16
+  evidence: "Google Calendar feed CREATED 2026-09-16"
+  taste_signal: none (expected low score)
+
+- id: alan-cumming-curran-2026
+  title: Alan Cumming at the Curran
+  date: 2026-10-25
+  venue: Curran Theater
+  city: San Francisco
+  category: theater
+  why: celebrity-cast limited run (partner interest); v1 pending-lead
+  sources: [broadway-sf]
+  evidence: "v1 pending-leads.json us.atgtickets.com/events/alan-cumming/curran-theater/ (no date verified in v1)"
+  taste_signal: theater_core
+  date_uncertain: true

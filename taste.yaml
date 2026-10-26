@@ -1,0 +1,270 @@
+# Taste profile used by radar/rank.py (rules) and radar/enrich.py (model prompt).
+# Weights are additive points on a 0-100 scale. Edit freely; nothing else needs to change.
+
+principle: >
+  Recall before precision. A foundational musician playing a $20 show in a 100-person room may be
+  more important than a major touring artist playing an arena. Borderline candidates stay in the
+  inventory; only obvious noise (karaoke, trivia, DJ nights, classes) is pushed down.
+
+# ------------------------------------------------------------------ seed artists and networks
+# Matching a seed name in title/performers is a strong signal. Names are matched case-insensitively
+# as whole phrases. Keep surnames-only entries out unless the surname is distinctive.
+seed_artists:
+  # psychedelic / outsider / early folk revival
+  - {name: Peter Stampfel, weight: 45, note: Holy Modal Rounders; foundational psych-folk}
+  - {name: Holy Modal Rounders, weight: 45}
+  - {name: Atomic Meta-Pagans, weight: 40}
+  - {name: Michael Hurley, weight: 40}
+  - {name: The Fugs, weight: 35}
+  - {name: Ed Sanders, weight: 25}
+  - {name: Will Sprott, weight: 20, note: toured with Stampfel 2026}
+  - {name: Jeffrey Lewis, weight: 25, note: Stampfel collaborator}
+  - {name: Steve Weber, weight: 25}
+  - {name: Jerry Jeff Walker, weight: 10}
+  # bluegrass / progressive acoustic
+  - {name: Billy Strings, weight: 35}
+  - {name: Molly Tuttle, weight: 35}
+  - {name: Michael Cleveland, weight: 35}
+  - {name: Sierra Ferrell, weight: 35}
+  - {name: Nora Brown, weight: 40}
+  - {name: Stephanie Coleman, weight: 40}
+  - {name: Aoife O'Donovan, weight: 35}
+  - {name: Rhiannon Giddens, weight: 35}
+  - {name: Bruce Molsky, weight: 40}
+  - {name: Joe Newberry, weight: 35}
+  - {name: April Verch, weight: 35}
+  - {name: Grant Gordy, weight: 40}
+  - {name: Ross Martin, weight: 35}
+  - {name: Jeremy Kittel, weight: 35}
+  - {name: Flynn Cohen, weight: 35}
+  - {name: Low Lily, weight: 35}
+  - {name: Crooked Jades, weight: 40}
+  - {name: Mountain Grass Unit, weight: 35}
+  - {name: Punch Brothers, weight: 30}
+  - {name: Chris Thile, weight: 30}
+  - {name: Darol Anger, weight: 30}
+  - {name: Mike Marshall, weight: 30}
+  - {name: Tony Furtado, weight: 35}
+  - {name: Sam Grisman, weight: 30}
+  - {name: David Grisman, weight: 35}
+  - {name: Peter Rowan, weight: 30}
+  - {name: Laurie Lewis, weight: 30}
+  - {name: Kathy Kallick, weight: 25}
+  - {name: AJ Lee, weight: 25}
+  - {name: Blue Summit, weight: 25}
+  - {name: Watchhouse, weight: 25}
+  - {name: Mandolin Orange, weight: 25}
+  - {name: Gillian Welch, weight: 30}
+  - {name: Dave Rawlings, weight: 30}
+  - {name: Tim O'Brien, weight: 30}
+  - {name: Jerry Douglas, weight: 25}
+  - {name: Bela Fleck, weight: 25}
+  - {name: Béla Fleck, weight: 25}
+  - {name: Abigail Washburn, weight: 25}
+  - {name: Wu Fei, weight: 25}
+  - {name: Sarah Jarosz, weight: 25}
+  - {name: Hawktail, weight: 30}
+  - {name: Brittany Haas, weight: 30}
+  - {name: Jordan Tice, weight: 25}
+  - {name: Dominick Leslie, weight: 25}
+  - {name: Jake Blount, weight: 30}
+  - {name: Tatiana Hargreaves, weight: 30}
+  - {name: Allison de Groot, weight: 30}
+  - {name: Dirk Powell, weight: 30}
+  - {name: Rayna Gellert, weight: 30}
+  - {name: Riley Baugus, weight: 30}
+  - {name: Foghorn Stringband, weight: 30}
+  - {name: Caleb Klauder, weight: 25}
+  - {name: Evie Ladin, weight: 25}
+  - {name: Suzy Thompson, weight: 25}
+  - {name: Eric Thompson, weight: 25}
+  - {name: Tom Rozum, weight: 20}
+  - {name: Kendl Winter, weight: 20}
+  - {name: Dan Tyminski, weight: 20}
+  - {name: Steep Canyon Rangers, weight: 20}
+  - {name: Del McCoury, weight: 25}
+  - {name: Leftover Salmon, weight: 15}
+  - {name: Greensky Bluegrass, weight: 15}
+  - {name: Infamous Stringdusters, weight: 20}
+  - {name: Yonder Mountain, weight: 15}
+  - {name: Trampled by Turtles, weight: 15}
+  - {name: Town Mountain, weight: 20}
+  - {name: Wood Belly, weight: 20}
+  - {name: Lindsay Lou, weight: 20}
+  - {name: Kitchen Dwellers, weight: 15}
+  - {name: East Nash Grass, weight: 25}
+  - {name: Bronwyn Keith-Hynes, weight: 25}
+  - {name: Wyatt Ellis, weight: 25}
+  - {name: Twisted Pine, weight: 25}
+  - {name: Mile Twelve, weight: 25}
+  - {name: Tray Wellington, weight: 25}
+  - {name: Rachel Baiman, weight: 20}
+  - {name: Jon Stickley, weight: 20}
+  - {name: Jesse Cobb, weight: 20}
+  - {name: Caitlin Canty, weight: 15}
+  - {name: Noam Pikelny, weight: 25}
+  - {name: Bryan Sutton, weight: 25}
+  - {name: Wes Corbett, weight: 20}
+  - {name: Alison Brown, weight: 20}
+  - {name: Kaia Kater, weight: 20}
+  - {name: Leyla McCalla, weight: 25}
+  - {name: Dom Flemons, weight: 25}
+  - {name: Carolina Chocolate Drops, weight: 25}
+  - {name: Old Crow Medicine Show, weight: 15}
+  - {name: Pokey LaFarge, weight: 15}
+  - {name: Jerron Paxton, weight: 25}
+  - {name: Jerron "Blind Boy" Paxton, weight: 25}
+  - {name: Frank Fairfield, weight: 30}
+  - {name: Jake Xerxes Fussell, weight: 30}
+  - {name: Nathan Salsburg, weight: 25}
+  - {name: Jim Kweskin, weight: 30}
+  - {name: Geoff Muldaur, weight: 30}
+  - {name: Maria Muldaur, weight: 20}
+  - {name: Loudon Wainwright, weight: 20}
+  - {name: Ramblin' Jack Elliott, weight: 35}
+  - {name: Dave Van Ronk, weight: 20}
+  - {name: Taj Mahal, weight: 20}
+  - {name: Ry Cooder, weight: 25}
+  - {name: Sun Ra Arkestra, weight: 25}
+  # jazz (adventurous, intimate)
+  - {name: Ambrose Akinmusire, weight: 25}
+  - {name: Julian Lage, weight: 30}
+  - {name: Bill Frisell, weight: 30}
+  - {name: Brad Mehldau, weight: 20}
+  - {name: Vijay Iyer, weight: 20}
+  - {name: Mary Halvorson, weight: 25}
+  - {name: Tyshawn Sorey, weight: 25}
+  - {name: Charles Lloyd, weight: 30}
+  - {name: Wayne Horvitz, weight: 20}
+  - {name: Myra Melford, weight: 20}
+  - {name: Kronos Quartet, weight: 20}
+  - {name: Chris Potter, weight: 15}
+  - {name: Immanuel Wilkins, weight: 20}
+  - {name: Joshua Redman, weight: 15}
+  - {name: Cecile McLorin Salvant, weight: 15}
+  - {name: Jakob Bro, weight: 25}
+  - {name: Shabaka, weight: 20}
+  - {name: Nels Cline, weight: 20}
+  - {name: Jenny Scheinman, weight: 25}
+  # 1990s alternative / legacy
+  - {name: Yo La Tengo, weight: 20}
+  - {name: Pavement, weight: 20}
+  - {name: Built to Spill, weight: 15}
+  - {name: Guided by Voices, weight: 15}
+  - {name: Dinosaur Jr, weight: 15}
+  - {name: Sleater-Kinney, weight: 15}
+  - {name: Superchunk, weight: 15}
+  - {name: Wilco, weight: 15}
+  - {name: Jeff Tweedy, weight: 15}
+  - {name: Lambchop, weight: 20}
+  - {name: Bonnie "Prince" Billy, weight: 25}
+  - {name: Will Oldham, weight: 25}
+  - {name: Smog, weight: 20}
+  - {name: Bill Callahan, weight: 25}
+  - {name: Devendra Banhart, weight: 25}
+  - {name: Vetiver, weight: 25}
+  - {name: Joanna Newsom, weight: 30}
+  - {name: Vashti Bunyan, weight: 30}
+  - {name: Six Organs of Admittance, weight: 25}
+  - {name: Steve Gunn, weight: 25}
+  - {name: William Tyler, weight: 25}
+  - {name: Daniel Bachman, weight: 25}
+  - {name: Glenn Jones, weight: 25}
+  - {name: Marisa Anderson, weight: 25}
+  - {name: Jack Rose, weight: 20}
+  - {name: Richard Thompson, weight: 25}
+  - {name: Robyn Hitchcock, weight: 20}
+  # Great Lakes Music Camp 2026 instructors (greatlakesmusic.org, fetched 2026-10-25; the page does not label the year)
+  - {name: Grace van't Hof, weight: 25, note: GLMC}
+  - {name: Jake Howard, weight: 20, note: GLMC}
+  - {name: Allan Carr, weight: 20, note: GLMC}
+  - {name: Mark Schatz, weight: 25, note: GLMC}
+  - {name: Kenny & Amanda Smith, weight: 25, note: GLMC}
+  - {name: Kenny and Amanda Smith, weight: 25, note: GLMC}
+  - {name: Emerald Rae, weight: 25, note: GLMC}
+  - {name: Bruce Ling, weight: 20, note: GLMC}
+  - {name: Jane Rothfield, weight: 25, note: GLMC}
+  - {name: Hayes Griffin, weight: 25, note: GLMC}
+  - {name: Kevin Gills, weight: 15, note: GLMC}
+  - {name: Keith Billik, weight: 20, note: GLMC}
+  - {name: Don Julin, weight: 20, note: GLMC}
+  - {name: Paul Kowert, weight: 25, note: GLMC past}
+  - {name: John Mailander, weight: 25, note: GLMC past}
+  - {name: Rachael Davis, weight: 20, note: GLMC past}
+  - {name: Todd Phillips, weight: 20, note: GLMC past}
+  - {name: Gina Furtado, weight: 25, note: GLMC past}
+  - {name: Stash Wyslouch, weight: 25, note: GLMC past}
+  - {name: Joe K. Walsh, weight: 25, note: GLMC past}
+  - {name: Mike Compton, weight: 30, note: GLMC past}
+  - {name: Nate Roberts, weight: 15, note: GLMC past}
+  - {name: Fauxgrass, weight: 15, note: GLMC past}
+
+# ------------------------------------------------------------------ keyword neighbourhoods
+# Matched against title + description + tags (folded, whole-word). Positive and negative.
+keywords:
+  roots_core: {weight: 22, terms: [old-time, old time, oldtime, appalachian, bluegrass, newgrass, jamgrass, stringband, string band, fiddle, fiddler, fiddlers, banjo, clawhammer, mandolin, dobro, flatpick, flatpicking, square dance, contra dance, cajun, zydeco, folk revival, traditional music, trad music, celtic, irish trad, scottish fiddle, shape note, gospel bluegrass, acoustic music, progressive acoustic, chamber folk]}
+  roots_psych: {weight: 26, terms: [psych folk, psych-folk, psychedelic folk, freak folk, outsider folk, outsider, acid folk, cosmic american, cosmic country, weird folk, freak-folk, american primitive, primitive guitar, fingerstyle guitar, takoma]}
+  roots_adjacent: {weight: 10, terms: [folk, americana, roots, singer-songwriter, singer songwriter, country, honky tonk, honky-tonk, western swing, blues, acoustic, gospel, rebetiko, balkan, klezmer, son jarocho, tejano, conjunto, flamenco, fado, chanson, tango]}
+  jazz_core: {weight: 18, terms: [jazz, improvised, improvisation, improvising, avant-garde, avant garde, free jazz, creative music, new music, experimental, chamber jazz, solo piano, piano trio, saxophone, trumpet, vibraphone, bass clarinet, pedal steel]}
+  theater_core: {weight: 14, terms: [world premiere, west coast premiere, premiere, revival, new play, pulitzer, tony award, obie, olivier, chekhov, ibsen, arthur miller, stoppard, shakespeare, beckett, pinter, sondheim, musical, play, drama, repertory, immersive, site-specific, one-night-only, one night only, limited run, limited engagement]}
+  dance_arts: {weight: 10, terms: [contemporary dance, dance theater, ballet, choreograph, choreographer, interdisciplinary, multimedia, installation, design, architecture, sound art, puppetry, circus]}
+  legacy: {weight: 14, terms: [legend, legendary, pioneer, pioneering, founding member, founder of, seminal, influential, 50th anniversary, 40th anniversary, farewell, final tour, last show, rare appearance, first bay area, only bay area, only california, exclusive, reunion]}
+  intimacy: {weight: 5, terms: [house concert, living room, intimate, listening room, solo acoustic, duo, trio, in-store, in store, workshop performance, salon, parlor, parlour]}
+  noise: {weight: -45, terms: [karaoke, trivia, open mic, open-mic, pub quiz, bingo, drag brunch, speed dating, networking, happy hour, watch party, fundraiser gala, silent disco, paint and sip, yoga, sound bath, meditation, bootcamp, fitness, networking, mixer, pre-show vip, vip experience, parking pass, parking, shuttle, meet and greet, soundcheck party]}
+  noise_dj: {weight: -30, terms: [dj, dj set, dj night, club night, rave, techno, house music, edm, drum and bass, trance, reggaeton, afrobeats night, latin night, dance party, halloween party, costume party, 90s party, 2000s party, emo night, taylor swift night]}
+  noise_tribute: {weight: -18, terms: [tribute to, tribute band, tribute show, the music of, celebrating the music of, a celebration of, cover band, covers band, sings the songs of, performs the album, performs the music of, experience, candlelight, candlelit, candle light]}
+  noise_other: {weight: -25, terms: [comedy, comedian, stand-up, standup, improv comedy, class, classes, lesson, lessons, workshop, masterclass, camp, clinic, jam session, open jam, slow jam, kids, children, family show, storytime, story time, lecture, talk, panel, book launch, book signing, reading, poetry slam, church service, worship, service, mass, auction, market, fair, expo, conference, summit, webinar, zoom, online, virtual, livestream, screening, film, movie, cinema, sports, game watch, playoff, football, basketball, soccer, hockey, baseball, wrestling, boxing, mma, run club, 5k, marathon, hike, cleanup, volunteer]}
+  noise_genre: {weight: -22, terms: [metal, metalcore, deathcore, hardcore, death metal, black metal, thrash, hip hop, hip-hop, rap, trap, r&b, soul night, pop punk, emo, screamo, k-pop, kpop, j-pop, reggae, dancehall, ska, cumbia night, salsa night, bachata, mariachi night, boy band, pop star, teen, youth orchestra, school band, high school, middle school, recital, student recital]}
+
+# ------------------------------------------------------------------ venue priors
+venues:
+  intimate_bonus: 14   # applied when the venue is in `intimate`
+  intimate:
+    [Little Hill Lounge, The Back Room, Fifth Street Farms, Hillside Club, The Starry Plough, Ivy Room,
+     Down Home Music, Red Poppy Art House, Bird & Beckett, The Lost Church, Eli's Mile High Club,
+     Thee Stork Club, Ashkenaz, Keys Jazz Bistro, Black Cat SF, Center for New Music, Old First Church,
+     St. Cyprian's Episcopal Church, Rancho Nicasio, Kuumbwa Jazz, Moe's Alley, Felton Music Hall,
+     142 Throckmorton Theatre, Sweetwater Music Hall, Cafe du Nord, Swedish American Hall,
+     Joe Henderson Lab, Hertz Hall, Zellerbach Playhouse, The Sound Room, Octopus Literary Salon,
+     Bazaar Cafe, Amado's, Hotel Utah, Make-Out Room, Thee Parkside, Kilowatt, Rickshaw Stop,
+     Bottom of the Hill, The Chapel, Great American Music Hall, Freight & Salvage, The Independent,
+     The New Parish, Ashby Stage, Aurora Theatre, Magic Theatre, Z Space, CounterPulse, ODC Theater]
+  taste_venues_bonus: 8   # venues whose booking is itself a taste signal
+  taste_venues: [Freight & Salvage, The Back Room, Fifth Street Farms, Hillside Club, Little Hill Lounge,
+                 Down Home Music, Red Poppy Art House, Bird & Beckett, The Lost Church, Kuumbwa Jazz,
+                 SFJAZZ Center, Cafe du Nord, The Chapel, Sweetwater Music Hall, Rancho Nicasio,
+                 Berkeley Rep, A.C.T. Toni Rembe Theater, A.C.T. Strand Theater, Aurora Theatre,
+                 Shotgun Players (Ashby Stage), Magic Theatre, San Francisco Playhouse, Marin Theatre,
+                 Zellerbach Hall, Hertz Hall, Bing Concert Hall]
+  arena_penalty: -20
+  arena: [Chase Center, Oracle Park, Levi's Stadium, Shoreline Amphitheatre, Oakland Arena, SAP Center,
+          Bill Graham Civic Auditorium, Oakland Coliseum, Toyota Pavilion, Concord Pavilion,
+          Frost Amphitheater, Greek Theatre Berkeley]
+  # Greek Theatre is both: penalise mildly via arena list, but it is where big roots acts play; seeds override.
+
+# ------------------------------------------------------------------ source priors
+sources:
+  bonus:
+    bluegrass-signal: 18
+    california-bluegrass-association: 8
+    sf-folk-music-club: 14
+    kalx-entertainment-calendar: 12
+    berkeley-old-time-music-convention: 20
+    folkyeah: 10
+    down-home-music: 12
+    noe-valley-music-series: 10
+    old-first-concerts: 6
+    center-for-new-music: 8
+    little-hill-lounge: 8
+    back-room-berkeley: 8
+    fifth-street-farms: 10
+    hillside-club: 10
+
+# ------------------------------------------------------------------ tiers
+tiers:
+  exceptional: 78   # immediate alert (rules-only scores also need a seed/legacy/psych-folk signal)
+  strong: 55        # weekly digest
+  inventory: 15     # browsable; below this is "noise" (still stored, hidden by default)
+multi_source_bonus: 4      # each additional independent source adds this (capped at 12)
+upcoming_14d_bonus: 3
+category_weights: {music: 0, theater: 0, dance: -4, arts: -6, comedy: -20, film: -12, talk: -15, other: -5, mixed: 0}

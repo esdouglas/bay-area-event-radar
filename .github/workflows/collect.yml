@@ -1,0 +1,78 @@
+name: Collect, rank, alert, publish
+on:
+  schedule:
+    - cron: '23 */6 * * *'        # every six hours (UTC); GitHub may delay or skip busy slots
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Ignore per-source frequency (re-fetch everything)'
+        type: boolean
+        default: false
+      enrich_limit:
+        description: 'Max events to research with the model this run'
+        default: '80'
+  push:
+    branches: [main, radar-v2]
+    paths: ['radar/**', 'sources.yaml', 'taste.yaml', 'requirements.txt', '.github/workflows/collect.yml', 'scripts/**']
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+concurrency:
+  group: radar-data-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+      EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Collect from every due source
+        run: python -m radar collect ${{ (github.event.inputs.force == 'true') && '--force' || '' }}
+      - name: Rules-based scoring
+        run: python -m radar score
+      - name: Model enrichment of candidates (skips itself without an API key)
+        run: python -m radar enrich --limit ${{ github.event.inputs.enrich_limit || '80' }}
+      - name: Immediate alerts (GitHub issues)
+        run: python -m radar notify
+      - name: Benchmark (offline evidence classes)
+        run: python -m radar benchmark
+      - name: Build site
+        run: python -m radar site
+      - name: Commit data back to ${{ github.ref_name }}
+        run: bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: scheduled collection"
+      - name: Post-run health check
+        run: python -m radar watchdog --dry-run
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    # The live site only ever deploys from main. Branch runs still collect, rank and commit data.
+    needs: radar
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

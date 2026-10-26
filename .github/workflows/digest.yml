@@ -1,0 +1,26 @@
+name: Weekly discovery digest
+on:
+  schedule:
+    - cron: '37 15 * * 1'          # Mondays 15:37 UTC = 7:37/8:37 AM Pacific
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+concurrency:
+  group: radar-data-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  digest:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m radar notify --digest
+      - run: bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: weekly digest state"

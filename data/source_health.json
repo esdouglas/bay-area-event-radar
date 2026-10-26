@@ -1,0 +1,870 @@
+{
+ "act-sf": {
+  "consecutive_failures": 0,
+  "last_count": 9,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 15,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.2,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 9
+ },
+ "allevents-el-cerrito": {
+  "consecutive_failures": 0,
+  "last_count": 29,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 30,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 2.1,
+  "last_status": "ok",
+  "method": "allevents",
+  "new_total": 27
+ },
+ "another-planet": {
+  "consecutive_failures": 0,
+  "last_count": 295,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 316,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.7,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 286
+ },
+ "ashkenaz": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.6,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "aurora-theatre": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.7,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "back-room-berkeley": {
+  "consecutive_failures": 0,
+  "last_count": 12,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 12,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.7,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 10
+ },
+ "berkeley-old-time-music-convention": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 1,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.9,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only",
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "berkeley-rep": {
+  "consecutive_failures": 0,
+  "last_count": 190,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 285,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 2.4,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 107
+ },
+ "bird-and-beckett": {
+  "consecutive_failures": 0,
+  "last_count": 82,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 82,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.3,
+  "last_status": "ok",
+  "method": "tribe",
+  "new_total": 81
+ },
+ "black-cat-sf": {
+  "consecutive_failures": 0,
+  "last_count": 4,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 4,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.8,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 4
+ },
+ "bluegrass-signal": {
+  "consecutive_failures": 0,
+  "last_count": 73,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 80,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.6,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 73
+ },
+ "bottom-of-the-hill": {
+  "consecutive_failures": 0,
+  "last_count": 54,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 54,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.8,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 51
+ },
+ "broadway-sf": {
+  "consecutive_failures": 0,
+  "last_count": 24,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 24,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.2,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 23
+ },
+ "cafe-du-nord": {
+  "consecutive_failures": 0,
+  "last_count": 47,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 47,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.4,
+  "last_status": "ok",
+  "method": "ics",
+  "new_total": 47
+ },
+ "cal-performances": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.9,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "california-bluegrass-association": {
+  "consecutive_failures": 0,
+  "last_count": 456,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 461,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 28.0,
+  "last_status": "ok",
+  "method": "tribe",
+  "new_total": 429
+ },
+ "center-for-new-music": {
+  "consecutive_failures": 0,
+  "last_count": 7,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 8,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.2,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 6
+ },
+ "counterpulse": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.0,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "dice-sf": {
+  "consecutive_failures": 0,
+  "last_count": 51,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 52,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.1,
+  "last_status": "ok",
+  "method": "dice",
+  "new_total": 46
+ },
+ "down-home-music": {
+  "consecutive_failures": 0,
+  "last_count": 6,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 12,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.2,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 6
+ },
+ "felton-music-hall": {
+  "consecutive_failures": 0,
+  "last_count": 58,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 60,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.9,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 55
+ },
+ "fifth-street-farms": {
+  "consecutive_failures": 0,
+  "last_count": 4,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 4,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 4.6,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 3
+ },
+ "fifth-street-farms-site": {
+  "consecutive_failures": 0,
+  "last_count": 7,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 8,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.0,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 4
+ },
+ "folkyeah": {
+  "consecutive_failures": 0,
+  "last_count": 56,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 59,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 54
+ },
+ "fox-oakland": {
+  "consecutive_failures": 0,
+  "last_count": 26,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 30,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 26
+ },
+ "gamh": {
+  "consecutive_failures": 0,
+  "last_count": 12,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 12,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.6,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 12
+ },
+ "guild-theatre": {
+  "consecutive_failures": 0,
+  "last_count": 5,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 5,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.3,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 5
+ },
+ "hillside-club": {
+  "consecutive_failures": 0,
+  "last_count": 3,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 11,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.9,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 3
+ },
+ "hopmonk": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "ivy-room": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.8,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "kalx-entertainment-calendar": {
+  "consecutive_failures": 0,
+  "last_count": 1,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 2,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.8,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 1
+ },
+ "keys-jazz-bistro": {
+  "consecutive_failures": 0,
+  "last_count": 40,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 40,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 20.9,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 27
+ },
+ "kpfa-events": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "kuumbwa": {
+  "consecutive_failures": 0,
+  "last_count": 64,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 64,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.0,
+  "last_status": "ok",
+  "method": "tribe",
+  "new_total": 60
+ },
+ "little-hill-lounge": {
+  "consecutive_failures": 0,
+  "last_count": 22,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 22,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.6,
+  "last_status": "ok",
+  "method": "gcal",
+  "new_total": 22
+ },
+ "lost-church": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 5.2,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "luther-burbank-center": {
+  "consecutive_failures": 0,
+  "last_count": 38,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 38,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.3,
+  "last_status": "ok",
+  "method": "tribe",
+  "new_total": 36
+ },
+ "magic-theatre": {
+  "consecutive_failures": 0,
+  "last_count": 7,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 9,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.7,
+  "last_status": "ok",
+  "method": "squarespace",
+  "new_total": 7
+ },
+ "marin-theatre": {
+  "consecutive_failures": 0,
+  "last_count": 3,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 9,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.8,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 3
+ },
+ "moes-alley": {
+  "consecutive_failures": 0,
+  "last_count": 10,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 10,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.7,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 9
+ },
+ "new-parish": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "noe-valley-music-series": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 7,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 2.0,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "odc-theater": {
+  "consecutive_failures": 0,
+  "last_count": 3,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 4,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 3
+ },
+ "old-first-concerts": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 2.4,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "rancho-nicasio": {
+  "consecutive_failures": 0,
+  "last_count": 31,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 31,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 69.8,
+  "last_status": "ok",
+  "method": "tribe",
+  "new_total": 31
+ },
+ "red-poppy": {
+  "consecutive_failures": 0,
+  "last_count": 3,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 3,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.9,
+  "last_status": "ok",
+  "method": "tribe",
+  "new_total": 3
+ },
+ "sf-ballet": {
+  "consecutive_failures": 0,
+  "last_count": 7,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 7,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.7,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 3
+ },
+ "sf-folk-music-club": {
+  "consecutive_failures": 0,
+  "last_count": 43,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 303,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.4,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 29
+ },
+ "sf-opera": {
+  "consecutive_failures": 0,
+  "last_count": 8,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 13,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.9,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 8
+ },
+ "sf-playhouse": {
+  "consecutive_failures": 0,
+  "last_count": 2,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 3,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 3.9,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 2
+ },
+ "sfmoma": {
+  "consecutive_failures": 0,
+  "last_count": 4,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 31,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 4
+ },
+ "shotgun-players": {
+  "consecutive_failures": 0,
+  "last_count": 4,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 8,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.2,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 4
+ },
+ "smuin": {
+  "consecutive_failures": 0,
+  "last_count": 1,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 1,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.8,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 1
+ },
+ "songkick-bay-area": {
+  "consecutive_failures": 0,
+  "last_count": 450,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 469,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 94.6,
+  "last_status": "ok",
+  "last_warnings": [
+   "partial: Songkick served 10 pages, refused 12 (HTTP 406 on CDN misses); coverage improves across runs"
+  ],
+  "method": "songkick",
+  "new_total": 407
+ },
+ "stanford-live": {
+  "consecutive_failures": 0,
+  "last_count": 79,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 79,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.9,
+  "last_status": "ok",
+  "method": "localist",
+  "new_total": 79
+ },
+ "starry-plough": {
+  "consecutive_failures": 0,
+  "last_count": 7,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 7,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 12.2,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 7
+ },
+ "sweetwater": {
+  "consecutive_failures": 0,
+  "last_count": 57,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 57,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 74.0,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 55
+ },
+ "the-chapel": {
+  "consecutive_failures": 0,
+  "last_count": 10,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 10,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.6,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 10
+ },
+ "the-fillmore": {
+  "consecutive_failures": 0,
+  "last_count": 25,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 25,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.5,
+  "last_status": "ok",
+  "method": "jsonld",
+  "new_total": 24
+ },
+ "the-independent": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "the-marsh": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.9,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "throckmorton": {
+  "consecutive_failures": 0,
+  "last_count": 27,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 29,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.3,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 21
+ },
+ "uc-theatre": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "ybca": {
+  "consecutive_failures": 0,
+  "last_count": 4,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 9,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.4,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 4
+ },
+ "yoshis": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 1.6,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ },
+ "z-space": {
+  "consecutive_failures": 0,
+  "last_count": 0,
+  "last_ok": "2026-10-26T00:40:21+00:00",
+  "last_raw": 0,
+  "last_run": "2026-10-26T00:40:21+00:00",
+  "last_seconds": 0.5,
+  "last_status": "ok",
+  "last_warnings": [
+   "no LLM provider: heuristic extraction only"
+  ],
+  "method": "html",
+  "new_total": 0
+ }
+}
