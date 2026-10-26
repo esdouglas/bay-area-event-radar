@@ -200,22 +200,25 @@ def report_html(inventory,coverage,outbox):
  rows=''.join('<tr><td>'+esc(e['date'])+'</td><td>'+esc(e['title'])+'<br>'+esc(e['venue'])+'</td><td>'+esc(e.get('research_status','pending'))+'</td><td>'+esc(e['first_seen'])+'</td><td>'+''.join('<a href="'+esc(u,quote=True)+'">source</a> ' for u in sorted({o['url'] for o in e['observations']}))+'</td></tr>' for e in sorted(inventory.values(),key=lambda x:(x['date'],x['title'])))
  return '<!doctype html><meta charset="utf-8"><title>Radar inventory and coverage</title><style>body{font:16px system-ui;margin:30px}td{padding:10px;border-bottom:1px solid #ccc}pre{white-space:pre-wrap}</style><h1>Broad discovery inventory</h1><p>Shadow system: NOT VALIDATED. Date-only leads are unverified; listing is not ticket availability. First seen is actual collection time, never announcement time. No inventory entry implies attendance.</p><p><a href="radar.ics">Existing curated calendar</a> · <a href="coverage.json">Source coverage</a> · <a href="outbox.json">Undelivered alert outbox</a> · <a href="inventory.json">Full inventory</a></p><h2>Actual latest coverage</h2><pre>'+esc(json.dumps(coverage,indent=2))+'</pre><h2>'+str(len(inventory))+' retained candidates</h2><table><tr><th>Date</th><th>Event / venue</th><th>Research</th><th>First seen</th><th>Evidence</th></tr>'+rows+'</table>'
 
-def run(root=ROOT,enrich=False):
+def run(root=ROOT,enrich=False,collect=True):
  started=now();run_id=str(uuid.uuid4());sources=read(root/'sources.json',[]);inventory=read(root/'data/inventory.json',{})
  results=[];rows=[]
  frontiers=read(root/'data/frontiers.json',{})
  for source in sources:source['last_fetched']=frontiers.get(source['id'],{})
- with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
-  for rs,result in pool.map(lambda s:collect_source(s,root/'.capture'),sources):rows.extend(rs);results.append(result)
- for result in results:
-  frontier=frontiers.setdefault(result['source_id'],{})
-  for page in result['pages']:frontier[page['url']]=page['fetched_at']
- save(root/'data/frontiers.json',frontiers)
+ if collect:
+  with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:
+   for rs,result in pool.map(lambda s:collect_source(s,root/'.capture'),sources):rows.extend(rs);results.append(result)
+  for result in results:
+   frontier=frontiers.setdefault(result['source_id'],{})
+   for page in result['pages']:frontier[page['url']]=page['fetched_at']
+  save(root/'data/frontiers.json',frontiers)
+ else:
+  results=read(root/'data/coverage.json',{}).get('sources',[])
  for row in read(root/'data/manual-events.json',[]):
   if all(k in row for k in ('title','date','venue','url','source_id','observed_at','evidence_hash')):rows.append(row)
  week=dt.datetime.now(UTC).strftime('%G-W%V')
- for row in rows:
-  append(root/'data/observations'/(week+'.jsonl'),dict(run_id=run_id,**row))
+ if collect:
+  for row in rows:append(root/'data/observations'/(week+'.jsonl'),dict(run_id=run_id,**row))
  merge(inventory,rows,run_id)
  research_errors=[]
  if enrich:
@@ -244,9 +247,14 @@ def run(root=ROOT,enrich=False):
  gaps=[{'source_id':r['source_id'],'url':r['pages'][0]['url'] if r['pages'] else '', 'events_extracted':r['events_extracted'],'pending_links':r['pending_links'],'pages':[p for p in r['pages'] if p['status']!='extracted']} for r in results if not r['events_extracted'] or any(p['status'] in ('failed','dynamic-or-blocked') for p in r['pages'])]
  save(root/'data/extraction-queue.json',gaps)
  coverage=dict(run_id=run_id,started_at=started,completed_at=now(),validation='NOT VALIDATED',configured_sources=len(sources),attempted_sources=len(results),sources_with_events=sum(bool(r['events_extracted']) for r in results),sources_without_events=sum(not r['events_extracted'] for r in results),fetched_pages=sum(p['status']!='failed' for r in results for p in r['pages']),failed_pages=sum(p['status']=='failed' for r in results for p in r['pages']),extracted_candidates=len(rows),inventory_count=len(inventory),pending_research=sum(e.get('research_status')!='complete' for e in inventory.values()),research_errors=research_errors,sources=results)
- save(root/'data/inventory.json',inventory);save(root/'data/outbox.json',outbox);save(root/'data/coverage.json',coverage);append(root/'data/runs'/(week+'.jsonl'),coverage);append(root/'data/runs.jsonl',{k:v for k,v in coverage.items() if k not in ('sources','research_errors')})
+ if not collect:
+  coverage=read(root/'data/coverage.json',{'validation':'NOT VALIDATED','sources':[]})
+  coverage.update(research_updated_at=now(),pending_research=sum(e.get('research_status')!='complete' for e in inventory.values()),inventory_count=len(inventory),research_errors=research_errors)
+ save(root/'data/inventory.json',inventory);save(root/'data/outbox.json',outbox);save(root/'data/coverage.json',coverage)
+ if collect:
+  append(root/'data/runs'/(week+'.jsonl'),coverage);append(root/'data/runs.jsonl',{k:v for k,v in coverage.items() if k not in ('sources','research_errors')})
  (root/'inventory.html').write_text(report_html(inventory,coverage,outbox));print(json.dumps({k:v for k,v in coverage.items() if k!='sources'},indent=2))
  return coverage
 
 if __name__=='__main__':
- a=argparse.ArgumentParser();a.add_argument('--enrich',action='store_true');args=a.parse_args();run(enrich=args.enrich)
+ a=argparse.ArgumentParser();a.add_argument('--enrich',action='store_true');a.add_argument('--render',action='store_true',help='Ingest research and render existing state without fetching sources');args=a.parse_args();run(enrich=args.enrich,collect=not args.render)

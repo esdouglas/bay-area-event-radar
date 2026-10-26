@@ -13,7 +13,7 @@ Existing subscription: https://esdouglas.github.io/bay-area-event-radar/radar.ic
 
 ## Small durable pipeline
 
-The existing six-hour GitHub Actions job collects and refreshes, runs tests, commits state and deploys Pages. The collector uses standard-library Python with six concurrent source workers, request limits/timeouts, bounded rotating link enumeration, dedicated KALX/Bluegrass Signal/Hicks/Cafe du Nord/Ticket Tailor parsers and recursive JSON-LD. Other formats/dynamic pages go to an explicit extraction queue rather than being treated as successful coverage.
+The existing six-hour GitHub Actions job collects and refreshes, runs tests, commits state and deploys Pages. Research-only pushes render current state without scanning venues again; their research_updated_at never replaces the actual collection timestamp. The collector uses standard-library Python with six concurrent source workers, request limits/timeouts, bounded rotating link enumeration, dedicated KALX/Bluegrass Signal/Hicks/Cafe du Nord/Ticket Tailor parsers and recursive JSON-LD. Other formats/dynamic pages go to an explicit extraction queue rather than being treated as successful coverage.
 
 A separate scheduled ChatGPT research worker uses the connected GitHub app and primary public sources to research unfamiliar acts, rank taste fit, recover unparsed sources and report exceptional discoveries. See [its exact contract](docs/AI_WORKER.md). Its first unattended execution must still be verified. No paid API key is required for this path. An optional compatible API backend is explicitly configured, never silently assumed.
 

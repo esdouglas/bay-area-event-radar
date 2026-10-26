@@ -7,8 +7,13 @@ for attempt in 1 2 3; do
   git fetch origin main
   git reset --hard origin/main
   python -m unittest discover -p 'test_*.py'
-  python build.py --refresh
-  python radar.py --enrich
+  if [[ "${RADAR_COLLECT:-false}" == "true" ]]; then
+    python build.py --refresh
+    python radar.py --enrich
+  else
+    python build.py
+    python radar.py --enrich --render
+  fi
   python benchmark.py
   git add events.json radar.ics index.html health.json inventory.html data
   if git diff --cached --quiet; then exit 0; fi

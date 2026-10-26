@@ -52,3 +52,11 @@ class OccurrenceTests(unittest.TestCase):
   t=DiscoveryTests();inv={}
   radar.merge(inv,[t.row(start='2027-01-01T16:30:00-08:00'),t.row(start='2027-01-01T19:30:00-08:00')],'r')
   self.assertEqual(len(inv),2)
+
+class RenderTests(unittest.TestCase):
+ def test_research_update_does_not_fetch_or_fake_collection_time(self):
+  with tempfile.TemporaryDirectory() as d,patch('radar.fetch',side_effect=AssertionError('must not fetch')):
+   root=pathlib.Path(d);radar.save(root/'sources.json',[{'id':'s','url':'https://example.org'}]);radar.save(root/'data/coverage.json',{'completed_at':'2026-10-01T00:00:00+00:00','run_id':'old','sources':[]})
+   with patch('builtins.print'):coverage=radar.run(root,enrich=True,collect=False)
+   self.assertEqual(coverage['completed_at'],'2026-10-01T00:00:00+00:00');self.assertEqual(coverage['run_id'],'old');self.assertIn('research_updated_at',coverage)
+   self.assertFalse((root/'data/runs.jsonl').exists())
