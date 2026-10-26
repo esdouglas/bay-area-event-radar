@@ -136,7 +136,9 @@ def build_dashboard(events: dict, health: dict, summary: dict, sources: list, ru
     for s in sources:
         h = health.get(s["id"], {})
         st = h.get("last_status") or ("disabled" if not s.get("enabled", True) else "never run")
-        cls = "ok" if st == "ok" else ("warn" if st in ("partial", "never run", "disabled") else "bad")
+        if st == "blocked" and s.get("expected_blocked"):
+            st = "blocked (known gap)"
+        cls = "ok" if st == "ok" else ("warn" if st in ("partial", "never run", "disabled", "blocked (known gap)") else "bad")
         rows.append(f"<tr><td><b>{html.escape(s['name'])}</b><br><small>{html.escape(s['id'])} · {html.escape(s.get('kind', ''))} · {html.escape(s['method'])}</small></td>"
                     f"<td class='{cls}'>{html.escape(st)}{'<br><small>' + html.escape(str(h.get('last_error') or '')[:140]) + '</small>' if h.get('last_error') else ''}"
                     f"{'<br><small class=warn>' + html.escape('; '.join(h.get('last_warnings', []))[:200]) + '</small>' if h.get('last_warnings') else ''}</td>"

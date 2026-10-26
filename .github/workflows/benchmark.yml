@@ -1,6 +1,9 @@
 name: Historical benchmark with Wayback checks (manual)
 on:
   workflow_dispatch:
+  push:
+    branches: [radar-v2]
+    paths: ['benchmark/events.yaml', 'radar/benchmark.py']
 permissions:
   contents: write
 jobs:

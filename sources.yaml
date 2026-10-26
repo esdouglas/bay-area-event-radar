@@ -47,7 +47,12 @@ sources:
   max_follow: 40
   venue: {name: The Back Room, city: Berkeley}
   expected_coverage: all ticketed Back Room shows
-  notes: backroommusic.com links to this Humanitix collection; event pages carry schema.org Event JSON-LD.
+  expected_blocked: true
+  notes: >
+    backroommusic.com embeds this Humanitix collection (its only calendar); event pages carry JSON-LD.
+    Humanitix answers HTTP 403 (Cloudflare) to GitHub runners (2026-10-26) while residential/other IPs
+    get the page. Left enabled so every run records the block; the watchdog does not nag about it.
+    Second-hand coverage: Bluegrass Signal, SFFMC and KALX calendars list some Back Room shows.
 
 - id: fifth-street-farms
   name: Fifth Street Farms (Berkeley) via Ticket Tailor
@@ -592,11 +597,17 @@ sources:
 - id: cal-performances
   name: Cal Performances
   kind: presenter
-  method: html
-  url: https://calperformances.org/events/
+  method: jsonld
+  url: https://calperformances.org/events/2026-27/
+  follow: 'calperformances\.org/events/20\d\d-\d\d/[^/]+/[^/]+/'
+  max_follow: 90
+  detail_ttl_hours: 168
   venue: {city: Berkeley}
   category: mixed
-  notes: The Events Calendar markup with REST disabled; text extraction of the season list.
+  expected_coverage: the whole Cal Performances season (Zellerbach, Hertz, Playhouse)
+  notes: >
+    The Events Calendar with REST disabled; each event page carries JSON-LD (dates as MM/DD/YYYYTHH:MM).
+    The season URL must be bumped each summer (2026-27 -> 2027-28); the watchdog flags the drop to zero.
 
 - id: z-space
   name: Z Space (SF)

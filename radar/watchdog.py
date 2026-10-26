@@ -26,8 +26,10 @@ def run(dry_run=False, max_stale_hours=14):
         age = (now - dt.datetime.fromisoformat(ts)).total_seconds() / 3600
         if age > max_stale_hours:
             problems.append(f"last collection was {age:.0f} h ago (limit {max_stale_hours} h): the schedule may be disabled or failing")
-    enabled = {s["id"] for s in load_sources() if s.get("enabled", True)}
-    broken = [k for k, v in health.items() if k in enabled and v.get("consecutive_failures", 0) >= 3]
+    srcs = load_sources()
+    enabled = {s["id"] for s in srcs if s.get("enabled", True)}
+    expected_blocked = {s["id"] for s in srcs if s.get("expected_blocked")}
+    broken = [k for k, v in health.items() if k in enabled and k not in expected_blocked and v.get("consecutive_failures", 0) >= 3]
     if broken:
         problems.append(f"sources failing 3+ runs in a row: {', '.join(sorted(broken))}")
     for k in KEY_SOURCES:
