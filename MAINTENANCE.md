@@ -45,6 +45,9 @@ Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-2
 - **Eventbrite**: web pages and the front-end search API answer HTTP 405 to GitHub runners. Only the
   official API with a token works, and it lists by organizer/venue/event id, not by geography, so
   Eventbrite-only shows at venues we have not named still need an aggregator (allevents.in is read).
+- **The Back Room (Humanitix)**: collections.humanitix.com answers 403 to GitHub runners (it worked from
+  a non-datacenter IP). Second-hand coverage via the SFFMC and Bluegrass Signal calendars (e.g. the
+  Newberry & Verch show appears there). A collector run from a residential IP would close this.
 - **Freight & Salvage, SFJAZZ, Bandsintown, Rickshaw Stop, Mystic Theatre, Theatre Bay Area, SF Station,
   DoTheBay**: Cloudflare or equivalent challenges. Freight and SFJAZZ are covered second-hand by
   Songkick (partial) and Bluegrass Signal; both are the biggest remaining blind spots and an official
@@ -55,6 +58,10 @@ Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-2
   each event, scored down 8 points) and unknown performers cannot be recognised; the benchmark shows
   rules alone would have put 13 of 29 historical events in the alert/digest tiers.
 - **Instagram-only announcements** are not collected. Venues that post nowhere else are out of reach.
+- **Calendar feed (`radar.ics`)** carries exceptional events and strong events scoring 65+ (about 90 at
+  a time) so it stays readable; the site holds the full inventory.
+- **Heuristic extraction leaves the venue blank** on calendar-style pages (Bluegrass Signal, SFFMC), so a
+  show seen there and on the venue's own page may appear twice until a model key is configured.
 
 ## Changing the model provider
 
