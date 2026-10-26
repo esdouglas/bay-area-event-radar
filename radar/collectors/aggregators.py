@@ -1,6 +1,7 @@
 """Aggregator collectors: Songkick metro pages, Eventbrite (official API, and the web search API where
 reachable), allevents.in. Aggregators are recall insurance: they list rooms we have never named."""
 import datetime as dt
+import json
 import os
 import re
 
@@ -87,14 +88,35 @@ def _eb_event_to_raw(e: dict) -> dict:
 
 
 def collect_eventbrite_api(source: dict, stats: dict) -> list[dict]:
-    """List public events for organizers / venues / explicit event ids via the official API.
+    """List public events via the official API. Needs EVENTBRITE_TOKEN.
 
-    source keys: organizers: [ids], venues: [ids], events: [ids]. Needs EVENTBRITE_TOKEN."""
+    source keys: organizations: [ids], venues: [ids], events: [ids].
+    Public Eventbrite search was removed in 2020, so coverage is per organization / venue. Every venue
+    id seen on any fetched event is remembered in data/eventbrite_venues.json and pulled on later runs,
+    so seeding one event id for a room (e.g. from the venue's Instagram link) grows into its full calendar.
+    Endpoints per rollout.com/integration-guides/eventbrite/api-essentials: /v3/organizations/{id}/events/,
+    /v3/venues/{id}/events/, /v3/events/{id}/ (verified live once a token exists)."""
     token = _eb_token()
     if not token:
         raise fetch.FetchError("EVENTBRITE_TOKEN not set", kind="config")
     headers = {"Authorization": f"Bearer {token}"}
     out = []
+    seen_ids = set()
+    learned_path = config.DATA / "eventbrite_venues.json"
+    learned = {}
+    if learned_path.exists():
+        with open(learned_path, encoding="utf-8") as f:
+            learned = json.load(f)
+
+    def take(e):
+        if e.get("id") in seen_ids:
+            return
+        seen_ids.add(e.get("id"))
+        out.append(_eb_event_to_raw(e))
+        v = e.get("venue") or {}
+        if v.get("id") and v.get("name"):
+            addr = v.get("address") or {}
+            learned.setdefault(str(v["id"]), {"name": v["name"], "city": addr.get("city"), "first_seen": config.now_iso()})
 
     def paged(path):
         page = 1
@@ -103,19 +125,26 @@ def collect_eventbrite_api(source: dict, stats: dict) -> list[dict]:
                           headers=headers, stats=stats)
             d = r.json()
             for e in d.get("events", []):
-                out.append(_eb_event_to_raw(e))
+                take(e)
             pg = d.get("pagination") or {}
             if not pg.get("has_more_items") or page >= 10:
                 break
             page += 1
 
-    for oid in source.get("organizers") or []:
-        paged(f"/organizers/{oid}/events/")
-    for vid in source.get("venues") or []:
-        paged(f"/venues/{vid}/events/")
+    for oid in source.get("organizations") or []:
+        paged(f"/organizations/{oid}/events/")
     for eid in source.get("events") or []:
         r = fetch.get(f"{EB_API}/events/{eid}/", params={"expand": "venue,category,subcategory,format"}, headers=headers, stats=stats)
-        out.append(_eb_event_to_raw(r.json()))
+        take(r.json())
+    venue_ids = list(dict.fromkeys([str(v) for v in (source.get("venues") or [])] + list(learned.keys())))
+    for vid in venue_ids:
+        try:
+            paged(f"/venues/{vid}/events/")
+        except fetch.FetchError as e:
+            stats.setdefault("warnings", []).append(f"venue {vid}: {e}")
+    stats["eventbrite_venues_tracked"] = len(venue_ids)
+    with open(learned_path, "w", encoding="utf-8") as f:
+        json.dump(learned, f, indent=1, sort_keys=True)
     return out
 
 

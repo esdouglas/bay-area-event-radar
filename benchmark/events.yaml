@@ -10,7 +10,8 @@
 #   unverifiable the venue is not a registry source, or the source is blocked / unreachable, so the
 #                system as built would have had to rely on an aggregator or would have missed it.
 # `announced` is a timestamp a primary source gave us; `evidence` says where it came from. Nothing here
-# is inferred from present-day search results. `wayback` entries are checked by `benchmark --live`.
+# is inferred from present-day search results. `wayback` entries are checked by `benchmark --live`
+# (run by .github/workflows/benchmark.yml, which can reach web.archive.org; the sandbox could not).
 
 events:
 - id: stampfel-little-hill-2026

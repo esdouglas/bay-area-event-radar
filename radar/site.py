@@ -12,6 +12,9 @@ from .collect import load_sources
 from .normalize import TZ, parse_dt
 
 
+ICS_MIN_STRONG_SCORE = 65  # keep the calendar feed readable; the site holds everything
+
+
 def _fold(line):
     out, part = [], ""
     for ch in line:
@@ -50,6 +53,8 @@ def build_ics(events: dict, legacy: list) -> str:
         seen_keys.add((start.date().isoformat(), re.sub(r"[^a-z0-9]", "", e["title"].lower())[:16]))
     for e in sorted(events.values(), key=lambda x: x["start"]):
         if e.get("status") != "scheduled" or e.get("tier") not in ("exceptional", "strong"):
+            continue
+        if e["tier"] == "strong" and (e.get("final_score") or 0) < ICS_MIN_STRONG_SCORE:
             continue
         start = parse_dt(e["start"])
         k = (e["date"], re.sub(r"[^a-z0-9]", "", e["title"].lower())[:16])

@@ -504,14 +504,17 @@ sources:
   name: Eventbrite via official API (organizers/venues/events)
   kind: aggregator
   method: eventbrite_api
-  organizers: []
+  organizations: []
   venues: []
-  events: []
+  # Seed event ids: one known event per room is enough; the collector learns the venue id and pulls
+  # the whole venue calendar on later runs. Ids below come from hillsideclub.org/hillsideechoes links.
+  events: ["1978866568175", "1982557976276", "1983061743056"]
   category: mixed
   enabled: false
   notes: >
     Enable once EVENTBRITE_TOKEN exists. Eventbrite's web pages and front-end search API answer
     HTTP 405 to GitHub runners (verified 2026-10-25); the official API host is reachable (401 without token).
+    Public search was removed from the API in 2020, so coverage grows venue by venue from seed event ids.
 
 - id: eventbrite-web-search
   name: Eventbrite front-end search (blocked from GitHub)
