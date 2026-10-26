@@ -1,29 +1,29 @@
 # Historical discoverability benchmark
 
-Generated 2026-10-26T01:05:02+00:00 (live Wayback checks: False).
+Generated 2026-10-26T01:06:33+00:00 (live Wayback checks: True).
 
-29 benchmark events: 18 proven discoverable by registered sources (median lead 114 days, range 14..245), 9 plausible via the venue's own feed, 2 reachable only through aggregators, 0 only via blocked sources, 0 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
+29 benchmark events: 20 proven discoverable by registered sources (median lead 114 days, range 14..245), 8 plausible via the venue's own feed, 1 reachable only through aggregators, 0 only via blocked sources, 0 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
 
 Evidence classes are defined in `benchmark/events.yaml`. 'Proven' lead times come from primary-source timestamps (Google Calendar CREATED, The Events Calendar creation stamps, Squarespace addedOn) or Wayback snapshots; they are lower bounds on how early the system would have seen the listing, assuming the source had been registered at the time.
 
 ```
 event                                                      date       class         lead  rules tier        basis
-Berkeley Bluegrass Festival: Tatiana Hargreaves Band w/ Mi 2026-05-03 indirect            100.0 exceptional venue page is blocked/unregistered; only aggregators or calendars (bluegrass-signal, california-bluegrass-asso
 Bedouine + Other Delights                                  2026-10-21 indirect             46.0 inventory   venue page is blocked/unregistered; only aggregators or calendars (songkick-bay-area) might carry it, and thei
 Kathy Kallick                                              2024-05-24 plausible            81.0 exceptional the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
 The Lowest Pair                                            2024-11-23 plausible            56.0 strong      the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
 Jacob Jolliff                                              2025-05-31 plausible            56.0 strong      the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
 Tony Furtado                                               2025-12-12 plausible            91.0 exceptional the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
-Nora Brown with Stephanie Coleman                          2026-01-08 plausible           100.0 exceptional the venue's own feed (the-chapel, folkyeah) is a healthy registry source; no pre-dated artifact captured
 The Mountain Grass Unit                                    2026-10-05 plausible            85.0 exceptional the venue's own feed (cafe-du-nord) is a healthy registry source; no pre-dated artifact captured
 IPHIGENIA, Sharp & Fine                                    2026-10-23 plausible            30.0 inventory   the venue's own feed (z-space) is a healthy registry source; no pre-dated artifact captured
 Steve Reich at 90, Bang on a Can All-Stars / Ensemble Sign 2026-10-24 plausible            32.0 inventory   the venue's own feed (cal-performances) is a healthy registry source; no pre-dated artifact captured
 Alan Cumming at the Curran                                 2026-10-25 plausible            20.0 inventory   the venue's own feed (broadway-sf) is a healthy registry source; no pre-dated artifact captured
 Magic World Premiere Aztlán by Luis Alfaro                 2025-06-25 proven         245   59.5 strong      primary-source timestamp 2024-10-23 (magictheatre.org/calendar?format=json past item addedOn 2024-10-23)
 Nora Brown with Stephanie Coleman                          2026-01-07 proven         117   87.0 exceptional primary-source timestamp 2025-09-12 13:19:58 (kuumbwajazz.org tribe REST event, date_utc 2025-09-12 13:19:58 (
+Nora Brown with Stephanie Coleman                          2026-01-08 proven          61  100.0 exceptional Wayback snapshot 2025-11-08 of https://thechapelsf.com/calendar/ contains 'Nora Brown' (lower bound on lead ti
 Charlie Hunter Trio                                        2026-03-16 proven         132   47.0 inventory   primary-source timestamp 2025-11-04 (kuumbwajazz.org tribe REST, date_utc 2025-11-04)
 MACBETH                                                    2026-03-18 proven         168   42.0 inventory   primary-source timestamp 2025-10-01 (magictheatre.org/calendar?format=json past item addedOn 2025-10-01)
 Scottish Fish                                              2026-05-01 proven          99   42.0 inventory   primary-source timestamp 2026-01-22 (kuumbwajazz.org tribe REST, date_utc 2026-01-22)
+Berkeley Bluegrass Festival: Tatiana Hargreaves Band w/ Mi 2026-05-03 proven         142  100.0 exceptional Wayback snapshot 2025-12-12 of https://www.bgsignal.com/concerts--festivals.html contains 'Berkeley Bluegrass 
 Broken Compass Bluegrass                                   2026-05-03 proven          94   64.0 strong      primary-source timestamp 2026-01-29 (ranchonicasio.com tribe REST, date_utc 2026-01-29)
 Caroline Davis, Portals Quartet                            2026-05-14 proven         108   42.0 inventory   primary-source timestamp 2026-01-26 (kuumbwajazz.org tribe REST, date_utc 2026-01-26)
 Kurt Rosenwinkel Trio                                      2026-05-18 proven         105   47.0 inventory   primary-source timestamp 2026-02-02 (kuumbwajazz.org tribe REST, date_utc 2026-02-02)
