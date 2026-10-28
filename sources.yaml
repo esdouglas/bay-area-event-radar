@@ -541,7 +541,10 @@ sources:
   page_limit: 4
   venue: {city: San Francisco}
   category: music
-  notes: Ported from main; failed on main's last run.
+  expected_blocked: true
+  notes: >
+    Ported from main; failed there too. www.outsound.org has a broken TLS certificate (SSLError from
+    sandbox and runners, 2026-10-28). Kept enabled so recovery shows up; watchdog does not alarm on it.
 
 - id: fifth-street-tickets-tt
   name: Fifth Street Farms on tickettailor.com
