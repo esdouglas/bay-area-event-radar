@@ -22,6 +22,7 @@ def main(argv=None):
     n = sub.add_parser("notify", help="open GitHub issues for exceptional finds / weekly digest")
     n.add_argument("--digest", action="store_true", help="also post the weekly digest")
     n.add_argument("--dry-run", action="store_true")
+    n.add_argument("--test", action="store_true", help="post one labelled test alert")
 
     sub.add_parser("site", help="build _site/ (inventory, dashboard, radar.ics)")
     w = sub.add_parser("watchdog", help="fail if collection is stale or broken; opens an issue")
@@ -53,7 +54,10 @@ def main(argv=None):
         enrich.run(limit=a.limit, min_score=a.min_score)
     elif a.cmd == "notify":
         from . import notify
-        notify.run(digest_flag=a.digest, dry_run=a.dry_run)
+        if a.test:
+            notify.test_alert(dry_run=a.dry_run)
+        else:
+            notify.run(digest_flag=a.digest, dry_run=a.dry_run)
     elif a.cmd == "site":
         from . import site
         site.run()

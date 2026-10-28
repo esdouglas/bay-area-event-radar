@@ -250,6 +250,24 @@ def live_enabled() -> bool:
     return os.environ.get("GITHUB_REF", "") == "refs/heads/main"
 
 
+def test_alert(event_id=None, dry_run=False):
+    """One clearly labelled test issue, posted by the Actions bot so GitHub emails the owner."""
+    events = store.load_events()
+    today = dt.datetime.now(TZ).date().isoformat()
+    ex = [e for e in events.values() if e.get("tier") == "exceptional" and e.get("status") == "scheduled" and e["date"] >= today]
+    e = events.get(event_id) if event_id else sorted(ex, key=lambda x: -(x.get("final_score") or 0))[0]
+    title = "[radar] TEST ALERT: please confirm this email reached you"
+    body = (f"@{_owner()} this is a delivery test from the Bay Area Event Radar (branch radar-v2). If you got this by email, "
+            f"reply here with \"received\" or tell Claude. It shows exactly what a real alert looks like:\n\n{event_card(e)}\n\n"
+            f"<sub>Test only. Real alerts use the same path: posted by github-actions, assigned to you, label radar-alert.</sub>")
+    h = _headers()
+    if not dry_run:
+        ensure_labels(h)
+    num = create_issue(h, title, body, [LABEL_ALERT], dry_run)
+    print(f"[notify] test alert issue #{num}")
+    return title, body
+
+
 def run(digest_flag=False, dry_run=False):
     events = store.load_events()
     alerts = store.load_alerts()
