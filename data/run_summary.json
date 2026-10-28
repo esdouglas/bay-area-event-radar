@@ -1,15 +1,14 @@
 {
- "inventory_total": 3213,
- "inventory_upcoming": 3183,
- "merged_sources": 1,
- "new_events": 5,
- "run_id": "b1ddf6818939",
- "seconds": 399.9,
+ "inventory_total": 3223,
+ "inventory_upcoming": 3193,
+ "merged_sources": 2,
+ "new_events": 9,
+ "run_id": "8e3cdd0651c0",
+ "seconds": 316.5,
  "sources_due": 69,
  "sources_failed": [
-  "outsound",
-  "hicks-with-sticks"
+  "outsound"
  ],
- "sources_ok": 67,
- "ts": "2026-10-28T22:49:24+00:00"
+ "sources_ok": 68,
+ "ts": "2026-10-28T23:02:53+00:00"
 }
