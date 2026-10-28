@@ -1,12 +1,15 @@
 {
- "inventory_total": 3260,
- "inventory_upcoming": 3232,
- "merged_sources": 58,
- "new_events": 189,
- "run_id": "e1e379920b26",
- "seconds": 10.2,
- "sources_due": 8,
- "sources_failed": [],
- "sources_ok": 8,
- "ts": "2026-10-28T22:38:33+00:00"
+ "inventory_total": 3214,
+ "inventory_upcoming": 3184,
+ "merged_sources": 15,
+ "new_events": 64,
+ "run_id": "21e18391415c",
+ "seconds": 259.9,
+ "sources_due": 69,
+ "sources_failed": [
+  "back-room-berkeley",
+  "outsound"
+ ],
+ "sources_ok": 67,
+ "ts": "2026-10-28T22:43:40+00:00"
 }
