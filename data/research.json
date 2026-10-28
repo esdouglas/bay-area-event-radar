@@ -1,4 +1,134 @@
 {
+ "ev_011806810aac": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Two acclaimed Bay Area acoustic musicians... two-time Grammy Award-winning violinist Mads Tolling and Latin Grammy-nominated accordionist and composer Sam Reider... exploring jazz and folk traditions from around the world. Oct 29, 7pm.",
+    "url": "https://keysjazzbistro.com/event/mads-tolling/"
+   }
+  ],
+  "fingerprint": "f0e071061d61",
+  "fit": 66,
+  "performers": [
+   {
+    "known_for": "Jazz violinist, two-time Grammy winner (per listing)",
+    "name": "Mads Tolling",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Accordionist/composer, Latin Grammy nominee (per listing)",
+    "name": "Sam Reider",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Danish-born violinist Mads Tolling and accordionist-composer Sam Reider in a jazz/folk duo at a small SF jazz room. The listing bills them as a two-time Grammy winner and a Latin Grammy nominee exploring folk and jazz traditions from around the world. An intimate acoustic chamber-folk crossover, worth a look rather than a must.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Lineup and date not re-confirmed against the venue page this run.",
+   "Tolling's Grammys came with Turtle Island Quartet (background knowledge, not checked against a source this run)."
+  ]
+ },
+ "ev_0743b6f714c5": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Roots Rock, Americana, acoustic blues, Western Swing, Cajun, Pop-Rock, jug band... original material as well as reworked classics by Hank Williams, Taj Mahal, Dan Hicks, Big Bill Broonzy, Bob Wills.",
+    "url": "https://ranchonicasio.com/event/back-porchestra-3/"
+   }
+  ],
+  "fingerprint": "cd01be620fea",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Marin roots/jug band",
+    "name": "Back pOrchEstra",
+    "significance": "local"
+   }
+  ],
+  "reason": "Back pOrchEstra is a Marin roots band playing jug band, Western swing, Cajun and acoustic blues, mixing originals with reworked Hank Williams, Dan Hicks, Taj Mahal and Bob Wills songs. A friendly local dinner-house show in the Hicks orbit, not a lineage-defining date.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Band members not identified this run; also listed on the Dan Hicks fan calendar (hickswithsticks.com), which may mean former Hicks associates; unconfirmed."
+  ]
+ },
+ "ev_0d1d9d9c1203": {
+  "evidence": [
+   {
+    "finding": "Newberry & Verch: Oct 28 house concert (and workshop) in Mountain View; Oct 29 The Back Room, Berkeley; Oct 30 Otter Opry, Monterey.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Newberry: clawhammer banjo, 2012 IBMA Gospel Recorded Performance, shared 2013 IBMA Song of the Year. Verch: first woman to win both Canadian Grand Masters and Canadian Open fiddling championships; JUNO nominations.",
+    "url": "https://frostburg.edu/news/2026/01/mcta-newberry-verch.php"
+   },
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Joe Newberry & April Verch | Mt View fiddle & finger style guitar workshops (5pm), potluck, house concert (7:30pm) | sv.houseconcerts AT gmail.com",
+    "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+   }
+  ],
+  "fingerprint": "b3cc807ed0dd",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Clawhammer banjo, singer-songwriter; IBMA Gospel Recorded Performance 2012 and IBMA Song of the Year 2013 (shared)",
+    "name": "Joe Newberry",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Fiddler and step dancer; first woman to win both Canadian Grand Masters and Canadian Open fiddle championships; JUNO nominee",
+    "name": "April Verch",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Newberry & Verch (Joe Newberry, IBMA-winning banjo player and singer; April Verch, champion Ottawa Valley fiddler and step dancer) at a Mountain View house concert with fiddle and fingerstyle guitar workshops at 5pm, then a potluck and the 7:30 concert. This is TONIGHT and reservation is by email, so it is likely too late; the Back Room show tomorrow is the practical option.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Address and availability by email only.",
+   "Date is today."
+  ]
+ },
+ "ev_1089fd78f2a2": {
+  "evidence": [
+   {
+    "finding": "Dirk & Amelia Powell: Nov 3 The Freight, Berkeley; Nov 5 house concert in Santa Cruz, contact Concerts-at-InstantHarmony-dot-com.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Steve Earle quote calls him the 'greatest old-time banjo player alive'; gigs with Rhiannon Giddens; former bandleader for Mary Chapin Carpenter; album guests include Amelia & Sophie Powell.",
+    "url": "https://dirkpowell.org"
+   }
+  ],
+  "fingerprint": "c2e22e46c065",
+  "fit": 84,
+  "performers": [
+   {
+    "known_for": "Old-time fiddle/banjo, Cajun accordion, producer; Rhiannon Giddens collaborator",
+    "name": "Dirk Powell",
+    "significance": "major"
+   },
+   {
+    "known_for": "Singer/musician, Powell family",
+    "name": "Amelia Powell",
+    "significance": "local"
+   }
+  ],
+  "reason": "Dirk Powell, whom Steve Earle called the 'greatest old-time banjo player alive', is a fiddler, banjo player and Cajun accordionist who has worked with Rhiannon Giddens and Mary Chapin Carpenter. He plays a Santa Cruz house concert of Cajun and Appalachian songs with his daughter Amelia. A foundational player in a living room, though it's a contact-only house concert over the hill.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "House concert: time, price and address by contact only.",
+   "Amelia is presumably his daughter (inference from the shared surname and family album credits)."
+  ]
+ },
  "ev_1d3aee106307": {
   "event_verified_at": null,
   "evidence": [
@@ -23,6 +153,37 @@
   "tier": "possible",
   "uncertainties": [
    "Oakland primary event page/booking status not confirmed."
+  ]
+ },
+ "ev_27affeded30b": {
+  "evidence": [
+   {
+    "finding": "Dec 18: East Bay Square Dance - Hillside Club, Berkeley; Band: Round Top Stringband; Caller: Evie Ladin; preceded by an old time jam.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "8e36c76c44ed",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Bay Area old-time dance band",
+    "name": "Round Top Stringband",
+    "significance": "local"
+   },
+   {
+    "known_for": "Caller and old-time banjo player/dancer",
+    "name": "Evie Ladin",
+    "significance": "local"
+   }
+  ],
+  "reason": "The monthly East Bay Square Dance at the Hillside Club, with live old-time music from Round Top Stringband, Evie Ladin calling, and an old-time jam beforehand. A warm community dance in the local old-time scene; on-taste, low stakes.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Round Top Stringband members not identified.",
+   "Time and price not confirmed."
   ]
  },
  "ev_2d842a042936": {
@@ -51,6 +212,308 @@
    "Presenter currently says 3pm but also offers a pre-show dinner; confirm time before travel. Ticket checkout not inspected."
   ]
  },
+ "ev_3e2662af80af": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. 'If they don't make you dance, check your heartbeat.' SF Chronicle... fearless fusion of Gypsy jazz, rock, country.",
+    "url": "https://ranchonicasio.com/event/beso-negro/"
+   }
+  ],
+  "fingerprint": "2f7a992a8f2f",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Bay Area Gypsy jazz/rock band",
+    "name": "Beso Negro",
+    "significance": "local"
+   }
+  ],
+  "reason": "Beso Negro is a Bay Area band fusing Gypsy jazz with rock and country. It's a danceable dinner-house show, but it's not traditional, and the swing is rock-leaning, so it's peripheral for Erik.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": []
+ },
+ "ev_5254d51b280d": {
+  "evidence": [
+   {
+    "finding": "Old Time Shred Sesh, 3rd Sunday 2-4pm, The Starry Plough, Berkeley; Free; 'a hosted onion jam... A great jam for intermediate/advanced players.' No host named.",
+    "url": "https://californiabluegrass.org/event/old-time-shred-sesh/2026-11-15/"
+   }
+  ],
+  "fingerprint": "09558f7cbe2a",
+  "fit": 35,
+  "performers": [],
+  "reason": "A free monthly hosted old-time 'onion' jam at the Starry Plough for intermediate and advanced players, 2 to 4pm. On-taste musically but a participatory jam, not a performance, and the host fiddler is not named.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Worth upgrading only if Erik plays and wants a jam."
+  ]
+ },
+ "ev_594283f5cd2b": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Rhonda Sauce... songs influenced by Jazz, Brazilian music and RnB... anchored by veteran pianist Adam Klipple. Oct 31, 7pm.",
+    "url": "https://keysjazzbistro.com/event/rhonda-sauce-feat-adam-klipple-3/"
+   }
+  ],
+  "fingerprint": "dc4c7a90d920",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "Vocalist/composer",
+    "name": "Rhonda Sauce",
+    "significance": "local"
+   },
+   {
+    "known_for": "Singer (formerly with Santana, background knowledge)",
+    "name": "Tony Lindsay",
+    "significance": "local"
+   }
+  ],
+  "reason": "A Halloween 'Sauce Spooktacular' triple bill: singer Rhonda Sauce with pianist Adam Klipple, Tony Lindsay (with Janice Maxie-Reid) and the Simon Rowe Organ Trio. A fun soul/jazz-vocal party night rather than an adventurous jazz date.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Running order of the three acts unclear."
+  ]
+ },
+ "ev_734039646e89": {
+  "evidence": [
+   {
+    "finding": "Lists California Bluegrass Reunion (Bill Evans + Sharon Gilchrist, Chad Manning, Jim Nunally, Mike Witcher, Max Schwartz, and Nell Robinson): Nov 11 Otter Opry Monterey, Nov 13 The Abbey Hopmonk Sebastopol, Nov 14 The Freight Berkeley, Nov 15 The Side Door Sacramento.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Band page lists Bill Evans (banjo), John Reischman (mandolin), Jim Nunally (guitar), Chad Manning (fiddle), Sharon Gilchrist (bass), Mike Witcher (dobro); Evans holds the Steve Martin Banjo Prize, Manning played with the David Grisman Quintet and Laurie Lewis.",
+    "url": "https://californiabluegrass.org/band/california-bluegrass-reunion/"
+   },
+   {
+    "finding": "Otter Opry, Monterey, Wednesday Nov 11, 7pm: 'Tickets now on sale!'",
+    "url": "https://www.billevansbanjo.com/schedule.php"
+   },
+   {
+    "finding": "CBA event page lists the Otter Opry show as 'November 18', 7-9pm, $35, Nell & Jim opening, with no year; probably a stale 2025 listing.",
+    "url": "https://californiabluegrass.org/event/california-bluegrass-reunion-otter-opry"
+   }
+  ],
+  "fingerprint": "1893292fc48e",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Banjo; Steve Martin Banjo Prize, American Banjo Museum Hall of Fame (per CBA band page)",
+    "name": "Bill Evans",
+    "significance": "major"
+   },
+   {
+    "known_for": "Fiddle; David Grisman Quintet, Laurie Lewis (per CBA band page)",
+    "name": "Chad Manning",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitar; co-leads Nell & Jim",
+    "name": "Jim Nunally",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bass/mandolin",
+    "name": "Sharon Gilchrist",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Dobro",
+    "name": "Mike Witcher",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Singer; Nell & Jim",
+    "name": "Nell Robinson",
+    "significance": "local"
+   },
+   {
+    "known_for": "Listed on Bluegrass Signal lineup; role not confirmed",
+    "name": "Max Schwartz",
+    "significance": "local"
+   }
+  ],
+  "reason": "A West Coast bluegrass all-star band: Bill Evans (Steve Martin Banjo Prize), Chad Manning (Grisman Quintet, Laurie Lewis), Jim Nunally, Sharon Gilchrist and Mike Witcher. Deep California bluegrass lineage, a short annual-style run of four dates. This is the Monterey Otter Opry date, outside the Bay; Berkeley on Nov 14 is closer.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
+   "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale.",
+   "Date conflict: Nov 11 (Bluegrass Signal, Bill Evans) vs Nov 18 (CBA page, likely 2025)."
+  ]
+ },
+ "ev_7989fc38e087": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. No less a jazz organ authority than the legendary Dr. Lonnie Smith has called Wil Blades 'the future'... one of the most in-demand... 9pm.",
+    "url": "https://keysjazzbistro.com/event/wil-blades-trio-ft-otis-mcdonald-2/"
+   },
+   {
+    "finding": "Search result title: 'WBeez featuring Wil Blades, Will Bernard, Otis McDonald' (page not opened).",
+    "url": "https://www.showpass.com/wbeez-blades-bernard-mcdonald-bbjfs-2026-blue-nile"
+   }
+  ],
+  "fingerprint": "8cfd8080a6d6",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Hammond B-3 organist; called 'the future' of the organ by Dr. Lonnie Smith (per listing)",
+    "name": "Wil Blades",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bassist; also in WBeez with Blades and Will Bernard (per search result)",
+    "name": "Otis McDonald",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bay Area organist Wil Blades, anointed by Dr. Lonnie Smith as heir to the B-3, leads his trio with bassist Otis McDonald at a small SF club (Nov 6, 9pm). Expect groove-heavy organ jazz; strong musicianship but closer to soul-jazz than the adventurous improvisation Erik favors.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Third trio member (drummer) not identified.",
+   "Two-night run; both nights listed separately."
+  ]
+ },
+ "ev_7c9f31bbeee0": {
+  "evidence": [
+   {
+    "finding": "Old Time Shred Sesh, 3rd Sunday 2-4pm, The Starry Plough, Berkeley; Free; 'a hosted onion jam... A great jam for intermediate/advanced players.' No host named.",
+    "url": "https://californiabluegrass.org/event/old-time-shred-sesh/2026-11-15/"
+   }
+  ],
+  "fingerprint": "7c59e5b5831e",
+  "fit": 35,
+  "performers": [],
+  "reason": "A free monthly hosted old-time 'onion' jam at the Starry Plough for intermediate and advanced players, 2 to 4pm. On-taste musically but a participatory jam, not a performance, and the host fiddler is not named.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Worth upgrading only if Erik plays and wants a jam."
+  ]
+ },
+ "ev_7cadbe1bc61e": {
+  "evidence": [
+   {
+    "finding": "Mon Nov 23, 7pm; lineup Brian Blade, Melvin Butler, Myron Walden, Jon Cowherd, Chris Thomas; 'SOLD OUT!' and 'THIS CONCERT IS SOLD OUT - TICKETS ARE NOT AVAILABLE TO PURCHASE AT THE DOOR.'",
+    "url": "https://www.kuumbwajazz.org/calendar/brian-blade-and-the-fellowship-band/"
+   },
+   {
+    "finding": "Search result shows an SFJAZZ 26-27 production page for Brian Blade & The Fellowship Band (page not opened; date unknown).",
+    "url": "https://www.sfjazz.org/tickets/productions/26-27/brian-blade-the-fellowship-band/"
+   }
+  ],
+  "fingerprint": "1e95fef59f1a",
+  "fit": 78,
+  "performers": [
+   {
+    "known_for": "Drummer, Fellowship Band leader",
+    "name": "Brian Blade",
+    "significance": "major"
+   },
+   {
+    "known_for": "Pianist, Fellowship co-founder",
+    "name": "Jon Cowherd",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Brian Blade's Fellowship Band (Blade, Jon Cowherd, Melvin Butler, Myron Walden, Chris Thomas) is one of the most emotionally compelling working bands in jazz, together since 1998 on Blue Note. It's at Kuumbwa's intimate room, but the venue page says it is SOLD OUT with no door sales.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "sold-out",
+  "tier": "strong",
+  "uncertainties": [
+   "An SFJAZZ date may exist as an alternative; unverified."
+  ]
+ },
+ "ev_7fa0dbf2c432": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. No less a jazz organ authority than the legendary Dr. Lonnie Smith has called Wil Blades 'the future'... one of the most in-demand... 9pm.",
+    "url": "https://keysjazzbistro.com/event/wil-blades-trio-ft-otis-mcdonald-2/"
+   },
+   {
+    "finding": "Search result title: 'WBeez featuring Wil Blades, Will Bernard, Otis McDonald' (page not opened).",
+    "url": "https://www.showpass.com/wbeez-blades-bernard-mcdonald-bbjfs-2026-blue-nile"
+   }
+  ],
+  "fingerprint": "470b45e99445",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Hammond B-3 organist; called 'the future' of the organ by Dr. Lonnie Smith (per listing)",
+    "name": "Wil Blades",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bassist; also in WBeez with Blades and Will Bernard (per search result)",
+    "name": "Otis McDonald",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bay Area organist Wil Blades, anointed by Dr. Lonnie Smith as heir to the B-3, leads his trio with bassist Otis McDonald at a small SF club (Nov 7, 9pm). Expect groove-heavy organ jazz; strong musicianship but closer to soul-jazz than the adventurous improvisation Erik favors.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Third trio member (drummer) not identified.",
+   "Two-night run; both nights listed separately."
+  ]
+ },
+ "ev_8776af6dd60c": {
+  "evidence": [
+   {
+    "finding": "Newberry & Verch: Oct 28 house concert (and workshop) in Mountain View; Oct 29 The Back Room, Berkeley; Oct 30 Otter Opry, Monterey.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Newberry: clawhammer banjo, 2012 IBMA Gospel Recorded Performance, shared 2013 IBMA Song of the Year. Verch: first woman to win both Canadian Grand Masters and Canadian Open fiddling championships; JUNO nominations.",
+    "url": "https://frostburg.edu/news/2026/01/mcta-newberry-verch.php"
+   },
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Newberry & Verch hosted by The Back Room, 1984 Bonita Ave, Berkeley. Thursday October 29th 2026.",
+    "url": "https://events.humanitix.com/newberry-and-verch"
+   }
+  ],
+  "fingerprint": "f685e9ffc090",
+  "fit": 86,
+  "performers": [
+   {
+    "known_for": "Clawhammer banjo, singer-songwriter; IBMA Gospel Recorded Performance 2012 and IBMA Song of the Year 2013 (shared)",
+    "name": "Joe Newberry",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Fiddler and step dancer; first woman to win both Canadian Grand Masters and Canadian Open fiddle championships; JUNO nominee",
+    "name": "April Verch",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Missouri banjo player and songwriter Joe Newberry (IBMA award winner) with Ottawa Valley fiddler and step dancer April Verch (Canadian Grand Masters and Canadian Open champion). A deeply traditional fiddle-and-banjo duo in the tiny Back Room. It's tomorrow night, the only Berkeley date of their short California swing.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Humanitix page not reachable this run, so availability is unknown; it's a small room, so check soon."
+  ]
+ },
  "ev_89963da93768": {
   "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
   "evidence": [
@@ -75,6 +538,105 @@
   "tier": "strong",
   "uncertainties": []
  },
+ "ev_8a03a6ef54bd": {
+  "evidence": [
+   {
+    "finding": "Oct 31: 'Lord of the Rings Halloween Square Dance' - Ashkenaz, Berkeley; music: Denethor's Supper (Skillet Licorice & Friends); callers: Evie Ladin and Robin Fisher.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. KALX listing: Ashkenaz: Lord of the Rings Square Dance, with music by Denethor's Supper.",
+    "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
+   }
+  ],
+  "fingerprint": "6c72adc8bcaa",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Bay Area old-time band (per Bluegrass Signal billing)",
+    "name": "Skillet Licorice",
+    "significance": "local"
+   },
+   {
+    "known_for": "Caller, dancer and banjo player in the Bay Area old-time scene",
+    "name": "Evie Ladin",
+    "significance": "local"
+   },
+   {
+    "known_for": "Caller",
+    "name": "Robin Fisher",
+    "significance": "local"
+   }
+  ],
+  "reason": "A Halloween Lord of the Rings themed square dance at Ashkenaz with live old-time music by Denethor's Supper (billed as Skillet Licorice & Friends) and callers Evie Ladin and Robin Fisher. A festive local old-time dance community night; fun and on-taste, though the band is a local pickup ensemble rather than a headline act.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Start time and price not confirmed; Ashkenaz page not checked."
+  ]
+ },
+ "ev_a26acd653a25": {
+  "evidence": [
+   {
+    "finding": "Lists California Bluegrass Reunion (Bill Evans + Sharon Gilchrist, Chad Manning, Jim Nunally, Mike Witcher, Max Schwartz, and Nell Robinson): Nov 11 Otter Opry Monterey, Nov 13 The Abbey Hopmonk Sebastopol, Nov 14 The Freight Berkeley, Nov 15 The Side Door Sacramento.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Band page lists Bill Evans (banjo), John Reischman (mandolin), Jim Nunally (guitar), Chad Manning (fiddle), Sharon Gilchrist (bass), Mike Witcher (dobro); Evans holds the Steve Martin Banjo Prize, Manning played with the David Grisman Quintet and Laurie Lewis.",
+    "url": "https://californiabluegrass.org/band/california-bluegrass-reunion/"
+   }
+  ],
+  "fingerprint": "b66931f4c57e",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Banjo; Steve Martin Banjo Prize, American Banjo Museum Hall of Fame (per CBA band page)",
+    "name": "Bill Evans",
+    "significance": "major"
+   },
+   {
+    "known_for": "Fiddle; David Grisman Quintet, Laurie Lewis (per CBA band page)",
+    "name": "Chad Manning",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitar; co-leads Nell & Jim",
+    "name": "Jim Nunally",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bass/mandolin",
+    "name": "Sharon Gilchrist",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Dobro",
+    "name": "Mike Witcher",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Singer; Nell & Jim",
+    "name": "Nell Robinson",
+    "significance": "local"
+   },
+   {
+    "known_for": "Listed on Bluegrass Signal lineup; role not confirmed",
+    "name": "Max Schwartz",
+    "significance": "local"
+   }
+  ],
+  "reason": "A West Coast bluegrass all-star band: Bill Evans (Steve Martin Banjo Prize), Chad Manning (Grisman Quintet, Laurie Lewis), Jim Nunally, Sharon Gilchrist and Mike Witcher. Deep California bluegrass lineage, a short annual-style run of four dates. This is the Sacramento Side Door date, well outside the Bay; the Berkeley date on Nov 14 is the better pick.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
+   "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
+  ]
+ },
  "ev_acc906318347": {
   "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
   "evidence": [
@@ -98,6 +660,170 @@
    "Already recorded by prior radar October 16; do not re-alert unchanged."
   ]
  },
+ "ev_b1c2d55e87c9": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Joshua Raoul Brody, Christopher Gray, Joe Cunningham: The Potrero Hillbillies tricked out as their favorite band(s)... $20 for the show. Just passing through? Ten will do. BYOB. Oct 31, 7:30pm.",
+    "url": "https://birdbeckett.com/event/hillbillies_2026-10-31/"
+   }
+  ],
+  "fingerprint": "e9021cd8c021",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "SF string trio, Bird & Beckett regulars",
+    "name": "The Potrero Hillbillies",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Potrero Hillbillies (Joshua Raoul Brody, Christopher Gray, Joe Cunningham), Bird & Beckett regulars, play a Halloween show dressed as their favorite bands. A playful $20 bookstore gig, closer to a costume and cover night than a roots discovery.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "The repertoire for the night is a costume concept and may be covers."
+  ]
+ },
+ "ev_b3a7dad114f7": {
+  "evidence": [
+   {
+    "finding": "Lists California Bluegrass Reunion (Bill Evans + Sharon Gilchrist, Chad Manning, Jim Nunally, Mike Witcher, Max Schwartz, and Nell Robinson): Nov 11 Otter Opry Monterey, Nov 13 The Abbey Hopmonk Sebastopol, Nov 14 The Freight Berkeley, Nov 15 The Side Door Sacramento.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Band page lists Bill Evans (banjo), John Reischman (mandolin), Jim Nunally (guitar), Chad Manning (fiddle), Sharon Gilchrist (bass), Mike Witcher (dobro); Evans holds the Steve Martin Banjo Prize, Manning played with the David Grisman Quintet and Laurie Lewis.",
+    "url": "https://californiabluegrass.org/band/california-bluegrass-reunion/"
+   },
+   {
+    "finding": "Fri Nov 13: Reunion at The Hopmonk - The Abbey, Sebastopol (ticket link, no status wording).",
+    "url": "https://www.billevansbanjo.com/schedule.php"
+   }
+  ],
+  "fingerprint": "40964ba0bbdf",
+  "fit": 74,
+  "performers": [
+   {
+    "known_for": "Banjo; Steve Martin Banjo Prize, American Banjo Museum Hall of Fame (per CBA band page)",
+    "name": "Bill Evans",
+    "significance": "major"
+   },
+   {
+    "known_for": "Fiddle; David Grisman Quintet, Laurie Lewis (per CBA band page)",
+    "name": "Chad Manning",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitar; co-leads Nell & Jim",
+    "name": "Jim Nunally",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bass/mandolin",
+    "name": "Sharon Gilchrist",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Dobro",
+    "name": "Mike Witcher",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Singer; Nell & Jim",
+    "name": "Nell Robinson",
+    "significance": "local"
+   },
+   {
+    "known_for": "Listed on Bluegrass Signal lineup; role not confirmed",
+    "name": "Max Schwartz",
+    "significance": "local"
+   }
+  ],
+  "reason": "A West Coast bluegrass all-star band: Bill Evans (Steve Martin Banjo Prize), Chad Manning (Grisman Quintet, Laurie Lewis), Jim Nunally, Sharon Gilchrist and Mike Witcher. Deep California bluegrass lineage, a short annual-style run of four dates. The Sebastopol Abbey (HopMonk) date is the North Bay option, a smaller room than the Freight.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
+   "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
+  ]
+ },
+ "ev_df0376b8d3c8": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Brooklyn-based jazz chanteuse Laura Anglade is originally from... Brousse-le-Château in the south of France... Oct 29, 7pm.",
+    "url": "https://www.kuumbwajazz.org/calendar/laura-anglade/"
+   }
+  ],
+  "fingerprint": "443e13930c32",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Jazz vocalist",
+    "name": "Laura Anglade",
+    "significance": "local"
+   }
+  ],
+  "reason": "Brooklyn-based French-born jazz singer Laura Anglade, whose listing stresses simplicity and an appreciation for the past. Likely a polished vocal-standards evening at Kuumbwa; good room, but not the adventurous improvisation that moves Erik.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Band members not identified."
+  ]
+ },
+ "ev_df5ae652cba7": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Unique chamber ensemble that performs Carlson's original compositions along with standards... Americana, blending Jazz, pop, folk, and classical... award-winning composer, jazz guitarist, producer, music professor. Jan 22, 7:30pm.",
+    "url": "https://birdbeckett.com/event/lenny-carlson_2027-01-22/"
+   }
+  ],
+  "fingerprint": "a19ced822f91",
+  "fit": 47,
+  "performers": [
+   {
+    "known_for": "Jazz guitarist, composer, educator",
+    "name": "Lenny Carlson",
+    "significance": "local"
+   }
+  ],
+  "reason": "Guitarist-composer Lenny Carlson's chamber ensemble plays his originals and standards, blending jazz, folk, pop and classical into an Americana chamber sound. A pleasant bookstore set by a respected educator; not a lineage-defining act.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Ensemble members not identified."
+  ]
+ },
+ "ev_e30b499c5ea4": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Louisiana born-and-raised living legend Jules Broussard... over 60 years... stage and studio mates with everyone from Alice Coltrane to Van Morrisson to Carlos Santana... in his 89 years. Nov 5, 7pm.",
+    "url": "https://keysjazzbistro.com/event/jules-broussard-7/"
+   }
+  ],
+  "fingerprint": "c5c48890984f",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Saxophonist; Santana, Van Morrison, Alice Coltrane associations (per listing)",
+    "name": "Jules Broussard",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Jules Broussard, an 89-year-old Louisiana-born Bay Area saxophone legend with more than 60 years here, has shared stages and studios with Alice Coltrane, Van Morrison and Carlos Santana. A chance to hear a living local elder in a small room; more soulful than avant-garde.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Band not identified."
+  ]
+ },
  "ev_e59304c7b6bc": {
   "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
   "evidence": [
@@ -117,6 +843,143 @@
   "ticket_status": "unverified",
   "tier": "strong",
   "uncertainties": []
+ },
+ "ev_e8bac104313a": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Genuine, hard-hitting old-time and bluegrass from the hills of North Carolina and Virginia. Dec 16, 7:30pm, Fifth Street Farms, Berkeley.",
+    "url": "https://www.tickettailor.com/events/fifthstreetfarms/2466000"
+   },
+   {
+    "finding": "Virginia quintet (fiddle, banjo, mandolin, guitar, bass); first prize old-time band at 85th Galax Old Fiddlers' Convention, bluegrass band at 51st Mount Airy; members won Galax banjo and Clifftop old-time fiddle.",
+    "url": "https://californiabluegrass.org/band/the-alum-ridge-boys-ashlee/"
+   },
+   {
+    "finding": "2025 Richmond Folk Festival performer profile, from Floyd, Virginia.",
+    "url": "https://www.richmondfolkfestival.org/2025-folklife-performers/2025/8/26/alum-ridge-boys-and-ashlee"
+   }
+  ],
+  "fingerprint": "636864abbb47",
+  "fit": 85,
+  "performers": [
+   {
+    "known_for": "Galax and Mount Airy contest-winning Blue Ridge old-time/bluegrass band",
+    "name": "The Alum Ridge Boys & Ashlee",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Alum Ridge Boys & Ashlee are a young Floyd, Virginia old-time/bluegrass quintet with serious contest pedigree: first prize old-time band at the 85th Galax Old Fiddlers' Convention, plus individual wins at Galax and Clifftop. They played the 2025 Richmond Folk Festival. A hard-driving Blue Ridge string band in a small Berkeley room is exactly Erik's kind of night.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Ticket Tailor page not reachable this run; capacity and sales status unknown."
+  ]
+ },
+ "ev_f0c0faf0fe5d": {
+  "evidence": [
+   {
+    "finding": "Lists California Bluegrass Reunion (Bill Evans + Sharon Gilchrist, Chad Manning, Jim Nunally, Mike Witcher, Max Schwartz, and Nell Robinson): Nov 11 Otter Opry Monterey, Nov 13 The Abbey Hopmonk Sebastopol, Nov 14 The Freight Berkeley, Nov 15 The Side Door Sacramento.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Band page lists Bill Evans (banjo), John Reischman (mandolin), Jim Nunally (guitar), Chad Manning (fiddle), Sharon Gilchrist (bass), Mike Witcher (dobro); Evans holds the Steve Martin Banjo Prize, Manning played with the David Grisman Quintet and Laurie Lewis.",
+    "url": "https://californiabluegrass.org/band/california-bluegrass-reunion/"
+   },
+   {
+    "finding": "Sat Nov 14, The Freight & Salvage, Berkeley, 8 pm: 'Advance ticket purchase is recommended!'",
+    "url": "https://www.billevansbanjo.com/schedule.php"
+   }
+  ],
+  "fingerprint": "3714f27e8992",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Banjo; Steve Martin Banjo Prize, American Banjo Museum Hall of Fame (per CBA band page)",
+    "name": "Bill Evans",
+    "significance": "major"
+   },
+   {
+    "known_for": "Fiddle; David Grisman Quintet, Laurie Lewis (per CBA band page)",
+    "name": "Chad Manning",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitar; co-leads Nell & Jim",
+    "name": "Jim Nunally",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bass/mandolin",
+    "name": "Sharon Gilchrist",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Dobro",
+    "name": "Mike Witcher",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Singer; Nell & Jim",
+    "name": "Nell Robinson",
+    "significance": "local"
+   },
+   {
+    "known_for": "Listed on Bluegrass Signal lineup; role not confirmed",
+    "name": "Max Schwartz",
+    "significance": "local"
+   }
+  ],
+  "reason": "A West Coast bluegrass all-star band: Bill Evans (Steve Martin Banjo Prize), Chad Manning (Grisman Quintet, Laurie Lewis), Jim Nunally, Sharon Gilchrist and Mike Witcher. Deep California bluegrass lineage, a short annual-style run of four dates. The Freight date is the Berkeley stop and the easiest to reach; Bill Evans's own schedule says advance purchase is recommended.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
+   "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
+  ]
+ },
+ "ev_f728dfbc0eb5": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. The Bad Plus... this Farewell Tour features the band's final performances, celebrating their twenty-six years. Dec 7, 7pm.",
+    "url": "https://www.kuumbwajazz.org/calendar/the-bad-plus-farewell-tour/"
+   },
+   {
+    "finding": "2026 is the final year of a 26-year run; final lineup Reid Anderson (bass), Dave King (drums), Ben Monder (guitar), Chris Speed (sax).",
+    "url": "https://www.notreble.com/buzz/2026/03/25/the-bad-plus-expand-2026-farewell-tour-with-new-u-s-dates/"
+   }
+  ],
+  "fingerprint": "5d71f44c5e48",
+  "fit": 82,
+  "performers": [
+   {
+    "known_for": "Influential genre-defying jazz group, 26 years",
+    "name": "The Bad Plus",
+    "significance": "major"
+   },
+   {
+    "known_for": "Guitarist",
+    "name": "Ben Monder",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Saxophonist",
+    "name": "Chris Speed",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Bad Plus on their farewell tour, the final performances of a 26-year run, now the quartet of Reid Anderson, Dave King, Ben Monder and Chris Speed. One of the defining adventurous jazz groups of the century, playing a last stop at Kuumbwa's intimate room: a last chance, not a repeatable night.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Kuumbwa ticket status not checked; Kuumbwa shows often sell out.",
+   "Santa Cruz is a drive."
+  ]
  },
  "ev_fa650ab435fc": {
   "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
@@ -140,5 +1003,28 @@
   "uncertainties": [
    "Prior radar recorded this October 16; no new alert absent a meaningful change. Additional artist research needed before claiming exceptional significance."
   ]
+ },
+ "ev_fd8a03c84d44": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. DINNER & A SHOW with AKI KUMAR, San Jose's 'King of Bollywood Blues'... soulful vocals, masterful harmonica skills.",
+    "url": "https://ranchonicasio.com/event/aki-kumar/"
+   }
+  ],
+  "fingerprint": "f1eea40b8ea7",
+  "fit": 28,
+  "performers": [
+   {
+    "known_for": "Bollywood blues harmonica player/singer",
+    "name": "Aki Kumar",
+    "significance": "local"
+   }
+  ],
+  "reason": "Aki Kumar, billed as San Jose's 'King of Bollywood Blues', mixes blues harmonica and rock and roll with Indian film songs. An entertaining dinner show, but blues-rock fusion sits outside Erik's roots and jazz priorities.",
+  "researched_at": "2026-10-28T23:05:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": []
  }
 }
