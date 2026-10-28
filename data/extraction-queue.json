@@ -8,9 +8,9 @@
       {
         "source_id": "fifth-street-farms",
         "url": "https://fifthstfarms.com/",
-        "fetched_at": "2026-10-28T12:47:26.953381+00:00",
+        "fetched_at": "2026-10-28T22:32:04.243837+00:00",
         "final_url": "https://fifthstfarms.com/",
-        "sha256": "8bcec0aa0f847a2668be94eec85ddaf3c1f242b15292519f749b6bba90ffde32",
+        "sha256": "d919b603355f9a0660f5e0b963e4580c76dddf40bc19b5cc8af8cbbb993c0b1f",
         "bytes": 225206,
         "min_event_date": null,
         "max_event_date": null,
@@ -29,7 +29,7 @@
       {
         "source_id": "little-hill",
         "url": "https://littlehillelcerrito.com/events",
-        "fetched_at": "2026-10-28T12:47:26.954813+00:00",
+        "fetched_at": "2026-10-28T22:32:04.245525+00:00",
         "final_url": "https://littlehillelcerrito.com/events",
         "sha256": "f2f534f95f2d4adbfb0640a989eee1245195e7385d802acdd9d0b59e1249fa10",
         "bytes": 14058,
@@ -50,10 +50,10 @@
       {
         "source_id": "sf-folk-club",
         "url": "https://www.sffmc.org/",
-        "fetched_at": "2026-10-28T12:47:27.218607+00:00",
+        "fetched_at": "2026-10-28T22:32:04.537332+00:00",
         "final_url": "https://www.sffmc.org/",
-        "sha256": "7cf43257467a6cfa2839a75051cac34ef6ea0a09738f12e784854a406f76fc79",
-        "bytes": 60864,
+        "sha256": "ceb7c525df2cde14932477a8de9f82c5663177b23a9e19b6b08e995460378e20",
+        "bytes": 60760,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -63,10 +63,10 @@
       {
         "source_id": "sf-folk-club",
         "url": "https://www.sffmc.org/community-folk-calendar",
-        "fetched_at": "2026-10-28T12:47:28.445499+00:00",
+        "fetched_at": "2026-10-28T22:32:05.734625+00:00",
         "final_url": "https://www.sffmc.org/community-folk-calendar/",
-        "sha256": "ff8dff2af042c555ecd604aaaa42dabbe5a17609f66b39b48b3ada9613312454",
-        "bytes": 110217,
+        "sha256": "ba4916e8e9f250c5adf60cb95a3517092292db0632ca35f0410345a71e8b3198",
+        "bytes": 110179,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -76,10 +76,10 @@
       {
         "source_id": "sf-folk-club",
         "url": "https://www.sffmc.org/community-folk-calendar/",
-        "fetched_at": "2026-10-28T12:47:30.342596+00:00",
+        "fetched_at": "2026-10-28T22:32:07.697337+00:00",
         "final_url": "https://www.sffmc.org/community-folk-calendar/",
-        "sha256": "f5856b6d463fd6b3ad4e3c06f2c41ca3fcef0ed0a0eb1ec284d5a240e78eb539",
-        "bytes": 110196,
+        "sha256": "06587fb96feea1924204e00f0c4e4110517b961c8b3aaf867f8bc3d2994f7ab6",
+        "bytes": 110186,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -91,55 +91,48 @@
   {
     "source_id": "cafe-du-nord",
     "url": "https://cafedunord.com/",
-    "events_extracted": 19,
+    "events_extracted": 20,
     "pending_links": 46,
     "pages": [
       {
         "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/internet-girl-cafe-du-nord-tickets/15010183?pl=cafedunord&REFID=clientsitewp",
-        "fetched_at": "2026-10-28T12:47:27.583598+00:00",
+        "url": "https://www.ticketweb.com/event/preferred-viewing-dice-general-admission-cafe-du-nord-tickets/14917503?pl=cafedunord&REFID=pvtw24",
+        "fetched_at": "2026-10-28T22:32:04.958783+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 530: Unknown Error"
       },
       {
         "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/kate-nash-swedish-american-hall-tickets/14313314?pl=cafedunord&REFID=clientsitewp",
-        "fetched_at": "2026-10-28T12:47:27.825539+00:00",
+        "url": "https://www.ticketweb.com/event/preferred-viewing-frances-whitney-general-cafe-du-nord-tickets/14347324?pl=cafedunord&REFID=pvtw24",
+        "fetched_at": "2026-10-28T22:32:05.186602+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 530: Unknown Error"
       },
       {
         "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/laya-lipstick-n-cafe-du-nord-tickets/14371104?pl=cafedunord&REFID=clientsitewp",
-        "fetched_at": "2026-10-28T12:47:28.056626+00:00",
+        "url": "https://www.ticketweb.com/event/preferred-viewing-francis-of-delirium-cafe-du-nord-tickets/14865943?pl=cafedunord&REFID=pvtw24",
+        "fetched_at": "2026-10-28T22:32:05.398092+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 530: Unknown Error"
       },
       {
         "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/lime-garden-with-whalefall-sold-cafe-du-nord-tickets/14781133?pl=cafedunord&REFID=clientsitewp",
-        "fetched_at": "2026-10-28T12:47:28.295743+00:00",
+        "url": "https://www.ticketweb.com/event/preferred-viewing-great-lake-swimmers-cafe-du-nord-tickets/14200184?pl=cafedunord&REFID=pvtw24",
+        "fetched_at": "2026-10-28T22:32:05.626709+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 530: Unknown Error"
       },
       {
         "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/memphis-lk-with-cstr-cafe-du-nord-tickets/14259744?pl=cafedunord&REFID=clientsitewp",
-        "fetched_at": "2026-10-28T12:47:28.517969+00:00",
+        "url": "https://www.ticketweb.com/event/preferred-viewing-ian-sweet-general-cafe-du-nord-tickets/14861413?pl=cafedunord&REFID=pvtw24",
+        "fetched_at": "2026-10-28T22:32:05.884489+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 530: Unknown Error"
       },
       {
         "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/preferred-viewing-454-general-admission-cafe-du-nord-tickets/14364884?pl=cafedunord&REFID=pvtw24",
-        "fetched_at": "2026-10-28T12:47:28.716302+00:00",
-        "status": "failed",
-        "error": "HTTPError: HTTP Error 530: Unknown Error"
-      },
-      {
-        "source_id": "cafe-du-nord",
-        "url": "https://www.ticketweb.com/event/preferred-viewing-dave-hause-and-cafe-du-nord-tickets/14902243?pl=cafedunord&REFID=pvtw24",
-        "fetched_at": "2026-10-28T12:47:28.904583+00:00",
+        "url": "https://www.ticketweb.com/event/jammy-buffet-an-evening-with-cafe-du-nord-tickets/14287124?pl=cafedunord&REFID=clientsitewp",
+        "fetched_at": "2026-10-28T22:32:06.030656+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 530: Unknown Error"
       }
@@ -154,10 +147,10 @@
       {
         "source_id": "hillside",
         "url": "https://www.hillsideclub.org/hillsideechoes",
-        "fetched_at": "2026-10-28T12:47:28.288597+00:00",
+        "fetched_at": "2026-10-28T22:32:05.504447+00:00",
         "final_url": "https://www.hillsideclub.org/hillsideechoes",
-        "sha256": "142b7f97da8af1868b97c2addc4d2da444984e56d8acb183eb99c7faa61c0e75",
-        "bytes": 1564413,
+        "sha256": "9bce4732128e82e496b27810e3ae11b17e4a5775ef2754f33a7c4e1083516766",
+        "bytes": 1563365,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -175,7 +168,7 @@
       {
         "source_id": "ashkenaz",
         "url": "https://www.ashkenaz.com/",
-        "fetched_at": "2026-10-28T12:47:28.359041+00:00",
+        "fetched_at": "2026-10-28T22:32:06.383774+00:00",
         "final_url": "https://www.ashkenaz.com/",
         "sha256": "c87e79583b1b734d9709d3b354e16714da8bc7077af956146393d2f24e1e1f12",
         "bytes": 271864,
@@ -190,29 +183,16 @@
   {
     "source_id": "starry-plough",
     "url": "https://www.thestarryplough.com/",
-    "events_extracted": 2,
+    "events_extracted": 3,
     "pending_links": 5,
     "pages": [
       {
         "source_id": "starry-plough",
         "url": "https://www.thestarryplough.com/",
-        "fetched_at": "2026-10-28T12:47:28.716081+00:00",
+        "fetched_at": "2026-10-28T22:32:06.573571+00:00",
         "final_url": "https://thestarryplough.com/",
-        "sha256": "9e29df5df28f157fc6116adadf6014fe6564beb93b4189253b051c6f4740b80b",
+        "sha256": "e26c91c8b8cf8a2c3d645c1369ca5bdacfe8f3d5c2f82c95a97836f1e04f64ab",
         "bytes": 255571,
-        "min_event_date": null,
-        "max_event_date": null,
-        "events_extracted": 0,
-        "status": "dynamic-or-blocked",
-        "links_found": 8
-      },
-      {
-        "source_id": "starry-plough",
-        "url": "https://thestarryplough.com/tickets/",
-        "fetched_at": "2026-10-28T12:47:32.948346+00:00",
-        "final_url": "https://thestarryplough.com/tickets/",
-        "sha256": "ece764df7e6af8f72f95481188f52fa7b98e36fb952b676df9a95144786fe9f2",
-        "bytes": 236130,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -230,9 +210,9 @@
       {
         "source_id": "down-home-music",
         "url": "https://www.downhomemusic.com/",
-        "fetched_at": "2026-10-28T12:47:29.088021+00:00",
+        "fetched_at": "2026-10-28T22:32:06.711874+00:00",
         "final_url": "https://www.downhomemusic.com/",
-        "sha256": "cec839c33af261e105d7274c84d703ccb823f03c65dfb0113eae56e4229a68dc",
+        "sha256": "afa12404daa096f0a8664eb39d196e11da3062907bc7ce8650bf80546cff8c64",
         "bytes": 417664,
         "min_event_date": null,
         "max_event_date": null,
@@ -251,7 +231,7 @@
       {
         "source_id": "stork-club",
         "url": "https://www.storkcluboakland.com/",
-        "fetched_at": "2026-10-28T12:47:29.267545+00:00",
+        "fetched_at": "2026-10-28T22:32:06.816484+00:00",
         "status": "failed",
         "error": "URLError: <urlopen error [Errno -2] Name or service not known>"
       }
@@ -266,7 +246,7 @@
       {
         "source_id": "elis",
         "url": "https://www.elismilehigh.com/",
-        "fetched_at": "2026-10-28T12:47:29.307804+00:00",
+        "fetched_at": "2026-10-28T22:32:06.863651+00:00",
         "final_url": "https://www.elismilehigh.com/",
         "sha256": "1a56919e35d4df497803175a782683463218346e1cbfafd1958f43538b920425",
         "bytes": 455,
@@ -287,7 +267,7 @@
       {
         "source_id": "ivy-room",
         "url": "https://www.ivyroom.com/",
-        "fetched_at": "2026-10-28T12:47:29.761063+00:00",
+        "fetched_at": "2026-10-28T22:32:07.234309+00:00",
         "final_url": "https://www.ivyroom.com/",
         "sha256": "d40cde719d4fca794921c8a7241cc51e01bc4d48e91a6bbc09858bababb536e4",
         "bytes": 234037,
@@ -308,7 +288,7 @@
       {
         "source_id": "freight",
         "url": "https://thefreight.org/",
-        "fetched_at": "2026-10-28T12:47:30.014347+00:00",
+        "fetched_at": "2026-10-28T22:32:07.481770+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 403: Forbidden"
       }
@@ -323,10 +303,10 @@
       {
         "source_id": "chapel",
         "url": "https://thechapelsf.com/",
-        "fetched_at": "2026-10-28T12:47:30.163285+00:00",
+        "fetched_at": "2026-10-28T22:32:07.555104+00:00",
         "final_url": "https://thechapelsf.com/",
-        "sha256": "56abf1fe354fb768979eb8fac6fc2b8eaf70b86a6b7fd9c3817c427ba4ce3e47",
-        "bytes": 128980,
+        "sha256": "0a8ba460a0eb9318dc13348ea1dff6c7882dab242c79818cc6401ecab9f0579b",
+        "bytes": 129030,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -335,11 +315,11 @@
       },
       {
         "source_id": "chapel",
-        "url": "https://www.facebook.com/sharer.php?u=https://wl.seetickets.us/event/an-evening-with-legend-zeppelin/699678?afflky=TheChapel",
-        "fetched_at": "2026-10-28T12:47:30.532832+00:00",
-        "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fwl.seetickets.us%252Fevent%252Fan-evening-with-legend-zeppelin%252F699678%253Fafflky%253DTheChapel%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
-        "sha256": "32da405146cffd72441393086b98d9139a8db06dbec8af9b4071183d8cee18dc",
-        "bytes": 364873,
+        "url": "https://www.facebook.com/sharer.php?u=https://wl.seetickets.us/event/helena-deland/707896?afflky=TheChapel",
+        "fetched_at": "2026-10-28T22:32:08.164409+00:00",
+        "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fwl.seetickets.us%252Fevent%252Fhelena-deland%252F707896%253Fafflky%253DTheChapel%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
+        "sha256": "6c342a15187bee5c7d34039dd9b099354def1485ae6ea0e8ad3ce380b07b2421",
+        "bytes": 365506,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -348,11 +328,11 @@
       },
       {
         "source_id": "chapel",
-        "url": "https://www.facebook.com/sharer.php?u=https://wl.seetickets.us/event/an-evening-with-theo-katzman-solo/690498?afflky=TheChapel",
-        "fetched_at": "2026-10-28T12:47:31.353084+00:00",
-        "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fwl.seetickets.us%252Fevent%252Fan-evening-with-theo-katzman-solo%252F690498%253Fafflky%253DTheChapel%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
-        "sha256": "8318476d0d3b64c01892478ece899838e39e500a20e9ae678efbdb5826989ac6",
-        "bytes": 364885,
+        "url": "https://www.facebook.com/sharer.php?u=https://wl.seetickets.us/event/katie-pruitt/695190?afflky=TheChapel",
+        "fetched_at": "2026-10-28T22:32:08.978374+00:00",
+        "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fwl.seetickets.us%252Fevent%252Fkatie-pruitt%252F695190%253Fafflky%253DTheChapel%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
+        "sha256": "05386175f6c2edbc403936beafc44d953f3d70fda70e47c01c2c76dafe4b3a8a",
+        "bytes": 365501,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -361,11 +341,11 @@
       },
       {
         "source_id": "chapel",
-        "url": "https://www.facebook.com/sharer.php?u=https://wl.seetickets.us/event/election-night-watch-party-hosted-by-kochina-rude/709292?afflky=TheChapel",
-        "fetched_at": "2026-10-28T12:47:32.061727+00:00",
-        "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fwl.seetickets.us%252Fevent%252Felection-night-watch-party-hosted-by-kochina-rude%252F709292%253Fafflky%253DTheChapel%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
-        "sha256": "e86e85df10af40083ecfeb92c9cc6f87ef146d17c0c2ca54c1ec17bb08cede07",
-        "bytes": 364964,
+        "url": "https://www.facebook.com/sharer.php?u=https://wl.seetickets.us/event/moonalice/708306?afflky=TheChapel",
+        "fetched_at": "2026-10-28T22:32:09.580880+00:00",
+        "final_url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fshare_channel%2F%3Ftype%3Dreshare%26link%3Dhttps%253A%252F%252Fwl.seetickets.us%252Fevent%252Fmoonalice%252F708306%253Fafflky%253DTheChapel%26app_id%3D966242223397117%26source_surface%3Dexternal_reshare%26display%26hashtag",
+        "sha256": "4d7d6df5e91076858cd64f621f5775476ff1594cffc0219fabe2a41033aa2a80",
+        "bytes": 365424,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -383,7 +363,7 @@
       {
         "source_id": "sfjazz",
         "url": "https://www.sfjazz.org/calendar/",
-        "fetched_at": "2026-10-28T12:47:31.006976+00:00",
+        "fetched_at": "2026-10-28T22:32:07.789995+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 403: Forbidden"
       }
@@ -398,9 +378,9 @@
       {
         "source_id": "cal-performances",
         "url": "https://calperformances.org/events/",
-        "fetched_at": "2026-10-28T12:47:31.248756+00:00",
+        "fetched_at": "2026-10-28T22:32:07.885502+00:00",
         "final_url": "https://calperformances.org/events/",
-        "sha256": "c197a95c4a24e0769d62d4d250758fd56adbd6d80cbd24b1d75bd1296811e3bb",
+        "sha256": "56d4f6ef59ec9934f0ffa3e3f537a9cf2345d153e687f5f784ca70b50759bb22",
         "bytes": 1289512,
         "min_event_date": null,
         "max_event_date": null,
@@ -410,11 +390,11 @@
       },
       {
         "source_id": "cal-performances",
-        "url": "https://calperformances.org/events/2026-27/family/kodo-one-earth-tour-2027-luminance/",
-        "fetched_at": "2026-10-28T12:47:32.987499+00:00",
-        "final_url": "https://calperformances.org/events/2026-27/family/kodo-one-earth-tour-2027-luminance/",
-        "sha256": "da6ea31a3fceba6e3500a397df573abbc54b7e2e5857fdb83c5ae7c4db87f6d5",
-        "bytes": 1321350,
+        "url": "https://calperformances.org/events/2026-27/seasonal-holidays/mariachi-herencia-de-mexico-la-nueva-generacion-tour-dia-de-los-muertos/",
+        "fetched_at": "2026-10-28T22:32:09.336925+00:00",
+        "final_url": "https://calperformances.org/events/2026-27/seasonal-holidays/mariachi-herencia-de-mexico-la-nueva-generacion-tour-dia-de-los-muertos/",
+        "sha256": "875eb4c8cb563655af90bdb9ae36acfcbbe40bbd77abc6e8b8fd85b57eca0157",
+        "bytes": 1321301,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -423,11 +403,11 @@
       },
       {
         "source_id": "cal-performances",
-        "url": "https://calperformances.org/events/2026-27/family/marvel-studios-black-panther-in-concert/",
-        "fetched_at": "2026-10-28T12:47:34.077028+00:00",
-        "final_url": "https://calperformances.org/events/2026-27/family/marvel-studios-black-panther-in-concert/",
-        "sha256": "eb7aee5e896a7da69745995195e677a1b0ba27f2e7290c82daa915e2cde132ee",
-        "bytes": 1312948,
+        "url": "https://calperformances.org/events/2026-27/speakers/angela-davis-in-conversation-with-poulomi-saha-wish-i-knew-how-it-would-feel-to-be-free-movements-for-liberation-and-transfigurations-of-freedom/",
+        "fetched_at": "2026-10-28T22:32:10.822494+00:00",
+        "final_url": "https://calperformances.org/events/2026-27/speakers/angela-davis-in-conversation-with-poulomi-saha-wish-i-knew-how-it-would-feel-to-be-free-movements-for-liberation-and-transfigurations-of-freedom/",
+        "sha256": "9583853d0298c0a9c5bd0bdc967c8c05b93fce71cb6eeb02e3d44073d49045a1",
+        "bytes": 1322341,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -436,11 +416,11 @@
       },
       {
         "source_id": "cal-performances",
-        "url": "https://calperformances.org/events/2026-27/family/ukulele-orchestra-of-great-britain/",
-        "fetched_at": "2026-10-28T12:47:35.349849+00:00",
-        "final_url": "https://calperformances.org/events/2026-27/family/ukulele-orchestra-of-great-britain/",
-        "sha256": "ae8dfb1d014de21e01808effcc14936a11e7150cfd901c07c03effcc392bd0cb",
-        "bytes": 1314622,
+        "url": "https://calperformances.org/events/2026-27/speakers/michael-pollan-christof-koch-a-journey-into-consciousness/",
+        "fetched_at": "2026-10-28T22:32:12.013537+00:00",
+        "final_url": "https://calperformances.org/events/2026-27/speakers/michael-pollan-christof-koch-a-journey-into-consciousness/",
+        "sha256": "cac10f29993524c452fa83eb8df6f3ab6f84d7a9a51efc42146051c2355364bf",
+        "bytes": 1321815,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -458,7 +438,7 @@
       {
         "source_id": "berkeley-rep",
         "url": "https://www.berkeleyrep.org/shows/",
-        "fetched_at": "2026-10-28T12:47:31.478840+00:00",
+        "fetched_at": "2026-10-28T22:32:08.164241+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 307: The HTTP server returned a redirect error that would lead to an infinite loop.\nThe last 30x error message was:\nTemporary Redirect"
       }
@@ -473,9 +453,9 @@
       {
         "source_id": "shotgun",
         "url": "https://www.shotgunplayers.org/",
-        "fetched_at": "2026-10-28T12:47:31.575746+00:00",
+        "fetched_at": "2026-10-28T22:32:08.616020+00:00",
         "final_url": "https://shotgunplayers.org/",
-        "sha256": "afbe9572149bccf67de466b75b2dd3f6ae66ed0d21be964560e552b282d3065f",
+        "sha256": "b0bec14aafa32233c9158da9a1f1b177f7332f9fff044cb345aa310e27f490f9",
         "bytes": 358250,
         "min_event_date": null,
         "max_event_date": null,
@@ -485,11 +465,24 @@
       },
       {
         "source_id": "shotgun",
-        "url": "https://shotgunplayers.org/show/takes-all-kinds/",
-        "fetched_at": "2026-10-28T12:47:32.819672+00:00",
-        "final_url": "https://shotgunplayers.org/show/takes-all-kinds/",
-        "sha256": "9a9b06bbc26ea1c13332d0cdf36c7201fc2f5ebacd31fae596d357609879e4f0",
-        "bytes": 313855,
+        "url": "https://shotgunplayers.org/show/fall/",
+        "fetched_at": "2026-10-28T22:32:10.093658+00:00",
+        "final_url": "https://shotgunplayers.org/show/fall/",
+        "sha256": "de139cf199d873466043251406598bc1116bc89874f8b0233c1360413612635a",
+        "bytes": 446559,
+        "min_event_date": null,
+        "max_event_date": null,
+        "events_extracted": 0,
+        "status": "fetched-no-events",
+        "links_found": 6
+      },
+      {
+        "source_id": "shotgun",
+        "url": "https://shotgunplayers.org/show/meyerhold/",
+        "fetched_at": "2026-10-28T22:32:10.726552+00:00",
+        "final_url": "https://shotgunplayers.org/show/meyerhold/",
+        "sha256": "6a5d8b1255ef81a0eff24e92edae2ee4356ffdd533597e9333520f5035c04d8d",
+        "bytes": 338438,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -498,29 +491,16 @@
       },
       {
         "source_id": "shotgun",
-        "url": "https://shotgunplayers.org/show/the-motion/",
-        "fetched_at": "2026-10-28T12:47:33.505154+00:00",
-        "final_url": "https://shotgunplayers.org/show/the-motion/",
-        "sha256": "771c4c87f098d33b00c82c0276f1ffb9fd9486e67363eaf15f1ba6e1410f1d3a",
-        "bytes": 324635,
+        "url": "https://shotgunplayers.org/show/miriam/",
+        "fetched_at": "2026-10-28T22:32:11.229745+00:00",
+        "final_url": "https://shotgunplayers.org/show/miriam/",
+        "sha256": "550d957af94e8b35bcd307b0690e03329f8c735156d021c73206717c27421dd7",
+        "bytes": 316266,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
         "status": "fetched-no-events",
-        "links_found": 12
-      },
-      {
-        "source_id": "shotgun",
-        "url": "https://shotgunplayers.org/tickets/",
-        "fetched_at": "2026-10-28T12:47:34.232316+00:00",
-        "final_url": "https://shotgunplayers.org/tickets/",
-        "sha256": "4b8d4682e3b9522f1ee322d9302994b9e1dc00b95fa97268e046b1d92d63ce24",
-        "bytes": 322433,
-        "min_event_date": null,
-        "max_event_date": null,
-        "events_extracted": 0,
-        "status": "fetched-no-events",
-        "links_found": 7
+        "links_found": 5
       }
     ]
   },
@@ -533,9 +513,9 @@
       {
         "source_id": "act",
         "url": "https://www.act-sf.org/whats-on/",
-        "fetched_at": "2026-10-28T12:47:32.206359+00:00",
+        "fetched_at": "2026-10-28T22:32:10.151870+00:00",
         "final_url": "https://www.act-sf.org/whats-on?url=%2Fwhats-on%2F",
-        "sha256": "6b1e95b3382ad6a6794484e8b98a9c1e35dd3d329b82c7d7a7e3e210269519a1",
+        "sha256": "e00c660ff22f08e65ad01d4d1ccee9afe175c3b649888f719172c0700a8ed0c0",
         "bytes": 214081,
         "min_event_date": null,
         "max_event_date": null,
@@ -546,7 +526,7 @@
       {
         "source_id": "act",
         "url": "https://fundraise.givesmart.com/e/RNpMkg?vid=1p76h2",
-        "fetched_at": "2026-10-28T12:47:32.718315+00:00",
+        "fetched_at": "2026-10-28T22:32:10.669205+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 403: Forbidden"
       }
@@ -561,7 +541,7 @@
       {
         "source_id": "aurora",
         "url": "https://www.auroratheatre.org/",
-        "fetched_at": "2026-10-28T12:47:32.747923+00:00",
+        "fetched_at": "2026-10-28T22:32:10.782868+00:00",
         "final_url": "https://www.auroratheatre.org/",
         "sha256": "e45e2e6d0436070f88670eff9d3acb3143d637e4380345725527dfce15d25dcd",
         "bytes": 21550,
@@ -582,9 +562,9 @@
       {
         "source_id": "marin-theatre",
         "url": "https://www.marintheatre.org/",
-        "fetched_at": "2026-10-28T12:47:32.888933+00:00",
+        "fetched_at": "2026-10-28T22:32:11.235063+00:00",
         "final_url": "https://www.marintheatre.org/",
-        "sha256": "178a14ea471e2d4d7374e9922f5623ec4d3bafbd788b806de437a13ecc9468ba",
+        "sha256": "dce3622fb49a733f1d9474da6fce259efeabd5df081040dc868c700d2511dd13",
         "bytes": 92253,
         "min_event_date": null,
         "max_event_date": null,
@@ -597,15 +577,15 @@
   {
     "source_id": "sweetwater",
     "url": "https://sweetwatermusichall.com/events/",
-    "events_extracted": 1,
+    "events_extracted": 0,
     "pending_links": 7,
     "pages": [
       {
         "source_id": "sweetwater",
         "url": "https://sweetwatermusichall.com/events/",
-        "fetched_at": "2026-10-28T12:47:33.363812+00:00",
+        "fetched_at": "2026-10-28T22:32:11.339303+00:00",
         "final_url": "https://sweetwatermusichall.org/",
-        "sha256": "34f51a0ae86eadf9234504c86bc992636b11b3d213318d7126cd0b1ac803e0e7",
+        "sha256": "17c2c090ba09e2f16bd202599871253470d7ada01c83087e76eb7d0c50039ca6",
         "bytes": 248546,
         "min_event_date": null,
         "max_event_date": null,
@@ -615,29 +595,42 @@
       },
       {
         "source_id": "sweetwater",
-        "url": "https://www.facebook.com/events/1497784521593948/",
-        "fetched_at": "2026-10-28T12:47:33.880168+00:00",
-        "final_url": "https://www.facebook.com/events/1497784521593948/",
-        "sha256": "55357b8b68c7808c54c08254e7edab9ed208abc7f219787ffafa076b1284ebaa",
-        "bytes": 703212,
+        "url": "https://sweetwatermusichall.org/events/",
+        "fetched_at": "2026-10-28T22:32:11.970154+00:00",
+        "final_url": "https://sweetwatermusichall.org/events/",
+        "sha256": "e21b82193190647719e2c92b6b0af290ea9d451864e6a2be3d38aac2646d6151",
+        "bytes": 831085,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
-        "status": "dynamic-or-blocked",
-        "links_found": 0
+        "status": "fetched-no-events",
+        "links_found": 75
       },
       {
         "source_id": "sweetwater",
-        "url": "https://www.facebook.com/events/2037907106846066/",
-        "fetched_at": "2026-10-28T12:47:34.481983+00:00",
-        "final_url": "https://www.facebook.com/events/2037907106846066/",
-        "sha256": "7db0ce932e089b32629d75ddd9d4561059942a16556802f225db0835d2c5213a",
-        "bytes": 703293,
+        "url": "https://sweetwatermusichall.org/events/?view=list",
+        "fetched_at": "2026-10-28T22:32:13.196279+00:00",
+        "final_url": "https://sweetwatermusichall.org/events/?view=list",
+        "sha256": "833990ae9663c2eeb2553c9aec9eb321422adeee934f9256097170134f70a61d",
+        "bytes": 471202,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
-        "status": "dynamic-or-blocked",
-        "links_found": 0
+        "status": "fetched-no-events",
+        "links_found": 74
+      },
+      {
+        "source_id": "sweetwater",
+        "url": "https://sweetwatermusichall.org/events/?view=month",
+        "fetched_at": "2026-10-28T22:32:14.405324+00:00",
+        "final_url": "https://sweetwatermusichall.org/events/?view=month",
+        "sha256": "cdef164f6878d83eaa0bfd6c359bd4b33f6e544cf30df004ad073f3754d77781",
+        "bytes": 156931,
+        "min_event_date": null,
+        "max_event_date": null,
+        "events_extracted": 0,
+        "status": "fetched-no-events",
+        "links_found": 2
       }
     ]
   },
@@ -650,7 +643,7 @@
       {
         "source_id": "lost-church",
         "url": "https://thelostchurch.org/",
-        "fetched_at": "2026-10-28T12:47:33.392440+00:00",
+        "fetched_at": "2026-10-28T22:32:11.861379+00:00",
         "final_url": "https://thelostchurch.org/",
         "sha256": "0b8a932c9d259f31fd03222e39b4e64f1ec2c6c21034c02e34dad8b9beee12f4",
         "bytes": 83464,
@@ -671,7 +664,7 @@
       {
         "source_id": "bottom-of-hill",
         "url": "https://www.bottomofthehill.com/calendar.html",
-        "fetched_at": "2026-10-28T12:47:34.685574+00:00",
+        "fetched_at": "2026-10-28T22:32:11.879570+00:00",
         "final_url": "https://www.bottomofthehill.com/calendar.html",
         "sha256": "1e33134f73aabb5c7d323c335d35db87ae869cae75f2c6ae803ae2faa56b2809",
         "bytes": 225518,
@@ -683,11 +676,11 @@
       },
       {
         "source_id": "bottom-of-hill",
-        "url": "https://www.facebook.com/events/2274926306668983",
-        "fetched_at": "2026-10-28T12:47:35.070680+00:00",
-        "final_url": "https://www.facebook.com/events/2274926306668983",
-        "sha256": "4e29182c6a6d8ffb3604c480f2ffcb7cb54d92484a663961f69018949e07e247",
-        "bytes": 703731,
+        "url": "https://www.facebook.com/events/2544662352684336",
+        "fetched_at": "2026-10-28T22:32:12.388509+00:00",
+        "final_url": "https://www.facebook.com/events/2544662352684336",
+        "sha256": "0ec7477498ce35635104ad804ac418ecea1333b583085711955edb1a35f96334",
+        "bytes": 703966,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -696,11 +689,11 @@
       },
       {
         "source_id": "bottom-of-hill",
-        "url": "https://www.facebook.com/events/2461145431080672",
-        "fetched_at": "2026-10-28T12:47:35.603918+00:00",
-        "final_url": "https://www.facebook.com/events/2461145431080672",
-        "sha256": "4c211b1e305fb4c7cfc9e18226bd614b06ce4414db0f616eb701bbbb45ad6116",
-        "bytes": 703196,
+        "url": "https://www.facebook.com/events/2549892405464847",
+        "fetched_at": "2026-10-28T22:32:12.837861+00:00",
+        "final_url": "https://www.facebook.com/events/2549892405464847",
+        "sha256": "c27c1b9c021ee607e26288434dd3703d3b09b694550e4bc6cab9990b90995ed0",
+        "bytes": 708283,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -709,11 +702,11 @@
       },
       {
         "source_id": "bottom-of-hill",
-        "url": "https://www.facebook.com/events/2533474933811016",
-        "fetched_at": "2026-10-28T12:47:36.195025+00:00",
-        "final_url": "https://www.facebook.com/events/2533474933811016",
-        "sha256": "11f3a9acfb829917d3bc0a432fc8e180cf0c9abc4678ce740a0e6b642dbe83be",
-        "bytes": 703527,
+        "url": "https://www.facebook.com/events/3250231721840999",
+        "fetched_at": "2026-10-28T22:32:13.349682+00:00",
+        "final_url": "https://www.facebook.com/events/3250231721840999",
+        "sha256": "237782a7ce9abee29945cfa53902aaa96378ed37601d32efcbfe04357307049d",
+        "bytes": 704002,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -731,7 +724,7 @@
       {
         "source_id": "outsound",
         "url": "https://www.outsound.org/",
-        "fetched_at": "2026-10-28T12:47:34.971605+00:00",
+        "fetched_at": "2026-10-28T22:32:12.257727+00:00",
         "status": "failed",
         "error": "URLError: <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>"
       }
@@ -746,10 +739,10 @@
       {
         "source_id": "berkeley-old-time",
         "url": "https://www.berkeleyoldtimemusic.org/",
-        "fetched_at": "2026-10-28T12:47:35.350093+00:00",
+        "fetched_at": "2026-10-28T22:32:12.621058+00:00",
         "final_url": "https://www.berkeleyoldtimemusic.org/",
-        "sha256": "944e91dc623dc94a12812d2f696c8fb5f58769ee0c6bcfb13a951d5ddb292410",
-        "bytes": 723246,
+        "sha256": "ce3953d0c8d0e305048248f02aee0f64d956f7162dca0f053a5848e5678ce85d",
+        "bytes": 724197,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
@@ -767,7 +760,7 @@
       {
         "source_id": "eventbrite-eastbay",
         "url": "https://www.eventbrite.com/d/ca--oakland/music--events/",
-        "fetched_at": "2026-10-28T12:47:35.710474+00:00",
+        "fetched_at": "2026-10-28T22:32:13.077794+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 405: Not Allowed"
       }
@@ -782,7 +775,7 @@
       {
         "source_id": "mgu-artist",
         "url": "https://www.mountaingrassunit.com/",
-        "fetched_at": "2026-10-28T12:47:36.786012+00:00",
+        "fetched_at": "2026-10-28T22:32:14.437877+00:00",
         "final_url": "https://www.mountaingrassunit.com/",
         "sha256": "557ac5ce5810079de403157fb543b7e7053aa6456c2652848c585a8f7fb9dbac",
         "bytes": 534169,
@@ -803,15 +796,43 @@
       {
         "source_id": "tony-furtado-artist",
         "url": "https://tonyfurtado.com/shows/",
-        "fetched_at": "2026-10-28T12:47:37.204689+00:00",
+        "fetched_at": "2026-10-28T22:32:14.717932+00:00",
         "final_url": "https://tonyfurtado.com/shows/",
-        "sha256": "c28f901ee74f64186b285490585f63fecdab2bf13f232c92366fbd31f9f23cf3",
+        "sha256": "96f7e32e499a7bfb4a48c6aeb37940fdfafd9569bd0f17d46e98012adb262a7f",
         "bytes": 119124,
         "min_event_date": null,
         "max_event_date": null,
         "events_extracted": 0,
         "status": "dynamic-or-blocked",
         "links_found": 0
+      }
+    ]
+  },
+  {
+    "source_id": "kc-turner",
+    "url": "https://www.kcturnerpresents.com/calendar",
+    "events_extracted": 6,
+    "pending_links": 32,
+    "pages": [
+      {
+        "source_id": "kc-turner",
+        "url": "https://www.kcturnerpresents.com/calendar",
+        "fetched_at": "2026-10-28T22:32:15.143941+00:00",
+        "final_url": "https://www.kcturnerpresents.com/calendar",
+        "sha256": "7ebd19eb1992a28195e0447169e284132dde5bced1928d16932b606399458373",
+        "bytes": 260121,
+        "min_event_date": null,
+        "max_event_date": null,
+        "events_extracted": 0,
+        "status": "fetched-no-events",
+        "links_found": 39
+      },
+      {
+        "source_id": "kc-turner",
+        "url": "https://www.eventim.us/event/willy-tea-taylor-and-cassandra-lewis/709724",
+        "fetched_at": "2026-10-28T22:32:16.061637+00:00",
+        "status": "failed",
+        "error": "HTTPError: HTTP Error 403: Forbidden"
       }
     ]
   },
@@ -824,7 +845,7 @@
       {
         "source_id": "little-hill-dothebay",
         "url": "https://dothebay.com/venues/little-hill-lounge",
-        "fetched_at": "2026-10-28T12:47:37.709451+00:00",
+        "fetched_at": "2026-10-28T22:32:15.476857+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 403: Forbidden"
       }
@@ -839,7 +860,7 @@
       {
         "source_id": "little-hill-eventbrite",
         "url": "https://www.eventbrite.com/d/ca--el-cerrito/music--events/",
-        "fetched_at": "2026-10-28T12:47:38.000928+00:00",
+        "fetched_at": "2026-10-28T22:32:15.702672+00:00",
         "status": "failed",
         "error": "HTTPError: HTTP Error 405: Not Allowed"
       }
@@ -854,7 +875,7 @@
       {
         "source_id": "otter-opry",
         "url": "https://otteropry.org/",
-        "fetched_at": "2026-10-28T12:47:38.065861+00:00",
+        "fetched_at": "2026-10-28T22:32:15.806129+00:00",
         "final_url": "https://otteropry.org/",
         "sha256": "6c0d1b70ec410e2f8040b155c5cc5f7b30c24dd2bdb84b9a2eff6d41f6689700",
         "bytes": 160410,
