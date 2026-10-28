@@ -45,6 +45,7 @@ sources:
   url: https://collections.humanitix.com/the-back-room-calendar
   page_limit: 16
   user_agent: plain
+  expected_blocked: false
   venue: {name: The Back Room, city: Berkeley}
   expected_coverage: all ticketed Back Room shows
   notes: >

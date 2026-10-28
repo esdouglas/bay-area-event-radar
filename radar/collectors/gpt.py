@@ -16,6 +16,23 @@ JAMBASE = re.compile(r"^(.+?) - ([^-]+?) - (.+?) - [A-Z][a-z]{2} \d{1,2}, 20\d\d
 DYNAMIC = re.compile(r"loading upcoming shows|enable javascript|just a moment|captcha", re.I)
 
 
+def _plain_get(url, stats):
+    """Exactly the request main's collector made (urllib, bot UA, no other headers)."""
+    import urllib.error
+    import urllib.request
+    fetch._pace(url.split("/")[2])
+    req = urllib.request.Request(url, headers={"User-Agent": PLAIN_UA})
+    try:
+        with urllib.request.urlopen(req, timeout=25) as r:
+            b = r.read(3_000_001)
+            stats["requests"] = stats.get("requests", 0) + 1
+            return b.decode("utf-8", errors="replace"), r.geturl()
+    except urllib.error.HTTPError as e:
+        raise fetch.FetchError(f"HTTP {e.code}", status=e.code, kind="blocked" if e.code in (403, 405) else "http")
+    except (urllib.error.URLError, TimeoutError, OSError) as e:
+        raise fetch.FetchError(f"{type(e).__name__}: {str(e)[:120]}", kind="network")
+
+
 def collect_gpt(source: dict, stats: dict) -> list[dict]:
     headers = {"User-Agent": PLAIN_UA} if source.get("user_agent") == "plain" else None
     queue, seen, out, pages = [source["url"]], set(), [], []
@@ -28,8 +45,11 @@ def collect_gpt(source: dict, stats: dict) -> list[dict]:
         seen.add(url)
         rec = {"url": url, "fetched_at": config.now_iso()}
         try:
-            r = fetch.get(url, headers=headers, stats=stats)
-            body, final = r.text, r.url
+            if headers:
+                body, final = _plain_get(url, stats)
+            else:
+                r = fetch.get(url, stats=stats)
+                body, final = r.text, r.url
             sha = hashlib.sha256(body.encode("utf-8", "ignore")).hexdigest()
             a = "auto" if adapter == "kalx" and "/event/" not in final else adapter
             parsed, page = extract(body, final, a)
