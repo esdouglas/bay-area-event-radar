@@ -94,6 +94,45 @@
    "Date is today."
   ]
  },
+ "ev_0e6e6b0f16fd": {
+  "evidence": [
+   {
+    "finding": "Nov. 28: Laurie Lewis & The Right Hands - The Freight, Berkeley. Also Nov 29 Occidental Center for the Arts; Nov 6 Laurie Lewis & Nina Gerber at The Side Door, Sacramento.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Grammy Award-winning; twice voted IBMA Female Vocalist of the Year; performs with mandolinist Tom Rozum and her bluegrass band the Right Hands.",
+    "url": "https://hardlystrictlybluegrass.com/artist/laurie-lewis-the-right-hands/"
+   },
+   {
+    "finding": "Lewis co-programs the Freight's Berkeley Bluegrass Festival with the Freight's artistic director.",
+    "url": "https://riffmagazine.com/news/laurie-lewis-curates-6th-berkeley-bluegrass-festival/"
+   }
+  ],
+  "fingerprint": "9694d18eb5bb",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Bluegrass singer/fiddler, Grammy winner, 2x IBMA Female Vocalist of the Year",
+    "name": "Laurie Lewis",
+    "significance": "major"
+   },
+   {
+    "known_for": "Mandolin, Lewis's longtime partner",
+    "name": "Tom Rozum",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Laurie Lewis, a Grammy winner twice voted IBMA Female Vocalist of the Year, with her bluegrass band the Right Hands and longtime partner Tom Rozum on mandolin. She is a cornerstone of West Coast bluegrass and a curator of the Freight's Berkeley Bluegrass Festival. A Thanksgiving-weekend hometown show at the Freight.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Right Hands roster for this date not confirmed.",
+   "Thanksgiving-weekend tradition is inference from a No Depression search-result title, not confirmed."
+  ]
+ },
  "ev_1089fd78f2a2": {
   "evidence": [
    {
@@ -127,6 +166,44 @@
   "uncertainties": [
    "House concert: time, price and address by contact only.",
    "Amelia is presumably his daughter (inference from the shared surname and family album credits)."
+  ]
+ },
+ "ev_18072512f699": {
+  "evidence": [
+   {
+    "finding": "Dirk & Amelia Powell: Nov 3 The Freight, Berkeley; Nov 5 house concert in Santa Cruz.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Steve Earle quote: 'greatest old-time banjo player alive'; gigs with Rhiannon Giddens; former bandleader for Mary Chapin Carpenter; album guests include Amelia & Sophie Powell.",
+    "url": "https://dirkpowell.org"
+   },
+   {
+    "finding": "JamBase show URL for Dirk Powell at The Freight, 2026-11-03 (page not reachable this run).",
+    "url": "https://www.jambase.com/show/dirk-powell-the-freight-20261103"
+   }
+  ],
+  "fingerprint": "a0b90cbbd939",
+  "fit": 86,
+  "performers": [
+   {
+    "known_for": "Old-time fiddle/banjo, Cajun accordion, producer",
+    "name": "Dirk Powell",
+    "significance": "major"
+   },
+   {
+    "known_for": "Singer/musician, Powell family",
+    "name": "Amelia Powell",
+    "significance": "local"
+   }
+  ],
+  "reason": "Dirk Powell, whom Steve Earle called the 'greatest old-time banjo player alive', is a fiddler, banjo player and Cajun accordionist who has worked with Rhiannon Giddens and led Mary Chapin Carpenter's band. He plays the Freight with Amelia Powell. This is the Berkeley date and more accessible than the Nov 5 Santa Cruz house concert.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Freight page not checked; time and price not confirmed."
   ]
  },
  "ev_1d3aee106307": {
@@ -233,6 +310,79 @@
   "researcher": "Claude daily research task",
   "ticket_status": "unverified",
   "tier": "low",
+  "uncertainties": []
+ },
+ "ev_41b2fed2aac5": {
+  "evidence": [
+   {
+    "finding": "Save the Date: Sunday 11/1/2026 at The Freight, Berkeley; conversations and panels, then an evening concert featuring artists from across the Windham Hill catalog; filmed for 'A Quiet Revolution'; independent fan celebration not affiliated with Sony. Says 'TICKETS NOW AVAILABLE' with a Freight link but also 'artist lineup coming soon'.",
+    "url": "https://windhamhillrecords.com/2026/04/windham-hill-50th-anniversary-concert-conversations/"
+   }
+  ],
+  "fingerprint": "47c96da156ba",
+  "fit": 52,
+  "performers": [
+   {
+    "known_for": "Acoustic/new-age label founded by Will Ackerman",
+    "name": "Windham Hill Records artists",
+    "significance": "notable"
+   }
+  ],
+  "reason": "A daylong 50th anniversary gathering for Windham Hill Records at the Freight: panels and conversations on the label's history, then an evening concert by artists from across the catalog, filmed for the documentary 'A Quiet Revolution'. Historically interesting for acoustic guitar and label lore, but the performers are not named and the new-age acoustic sound is at the edge of Erik's taste.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Lineup not announced on the page read.",
+   "Ticket wording on the label page is contradictory."
+  ]
+ },
+ "ev_432df2be2e60": {
+  "evidence": [
+   {
+    "finding": "Old Time Shred Sesh, Jan 17 2027, 2-4pm, The Starry Plough, Berkeley; Free; hosted onion jam for intermediate/advanced players; no host named.",
+    "url": "https://californiabluegrass.org/event/old-time-shred-sesh/2027-01-17/"
+   }
+  ],
+  "fingerprint": "a054d8621784",
+  "fit": 35,
+  "performers": [],
+  "reason": "The free monthly hosted old-time 'onion' jam at the Starry Plough for intermediate and advanced players, 2 to 4pm. A participatory jam rather than a performance, and no host is named.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Worth upgrading only if Erik wants to play."
+  ]
+ },
+ "ev_463902826f67": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. George Rogers, saxophone; Graham Messer, piano; Aidan McCarthy, bass; Smith Dobson, drums. Winner of the 2025 Vandoren Emerging Artist Award... rooted in the jazz tradition, occasionally extending into classical, folk, and experimental. Nov 12, 7:30pm.",
+    "url": "https://birdbeckett.com/event/george-rogers_2026-11-12/"
+   }
+  ],
+  "fingerprint": "aa4882188516",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Saxophonist, 2025 Vandoren Emerging Artist Award",
+    "name": "George Rogers",
+    "significance": "local"
+   },
+   {
+    "known_for": "Drummer",
+    "name": "Smith Dobson",
+    "significance": "local"
+   }
+  ],
+  "reason": "Saxophonist-composer George Rogers, a Bay Area native now in New York and winner of the 2025 Vandoren Emerging Artist Award, with Graham Messer (piano), Aidan McCarthy (bass) and Smith Dobson (drums). The listing says his writing is rooted in the jazz tradition and occasionally extends into classical, folk and experimental music. A promising young player in a bookstore room.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
   "uncertainties": []
  },
  "ev_5254d51b280d": {
@@ -441,6 +591,40 @@
    "An SFJAZZ date may exist as an alternative; unverified."
   ]
  },
+ "ev_7f90d560d4b0": {
+  "evidence": [
+   {
+    "finding": "Newberry & Verch: Oct 28 Mountain View house concert, Oct 29 The Back Room Berkeley, Oct 30 Otter Opry Monterey.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Newberry: clawhammer banjo, 2012 IBMA Gospel Recorded Performance, shared 2013 IBMA Song of the Year. Verch: first woman to win both Canadian Grand Masters and Canadian Open fiddle titles; JUNO nominations.",
+    "url": "https://frostburg.edu/news/2026/01/mcta-newberry-verch.php"
+   }
+  ],
+  "fingerprint": "b4673a03e41c",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Clawhammer banjo, songwriter, IBMA awards",
+    "name": "Joe Newberry",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Champion fiddler, step dancer",
+    "name": "April Verch",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Newberry & Verch (IBMA-winning banjo player and singer Joe Newberry with champion fiddler and step dancer April Verch) at the Otter Opry in Monterey. Same excellent duo as the Back Room show on Oct 29, but this date is two hours south; Berkeley is the better pick.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Time and price not confirmed; Otter Opry page not checked."
+  ]
+ },
  "ev_7fa0dbf2c432": {
   "evidence": [
    {
@@ -577,6 +761,59 @@
    "Start time and price not confirmed; Ashkenaz page not checked."
   ]
  },
+ "ev_92de08e48b2c": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Annette A Aguilar, NYC Latin/Brazilian drummer with San Francisco roots, returns with her seven-piece band, Beans on the Left, including Anthony Blea on violin, Chloe Scott on flute, Murray Low on piano, Gary Brown on bass, Ricky Aguilar on congas and Mena Ramos on bata. Her New York band, StringBeans... Dec 27, 7:30pm.",
+    "url": "https://birdbeckett.com/event/beans-on-the-left_2026-12-27/"
+   }
+  ],
+  "fingerprint": "1fcbc5440fe6",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Latin jazz drummer, StringBeans leader",
+    "name": "Annette A. Aguilar",
+    "significance": "local"
+   }
+  ],
+  "reason": "NYC Latin/Brazilian drummer Annette A. Aguilar, who has San Francisco roots and leads StringBeans in New York, brings a seven-piece band with Anthony Blea (violin), Chloe Scott (flute), Murray Low (piano), Gary Brown (bass) and Afro-Cuban percussion. A lively Latin jazz homecoming at Bird & Beckett.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": []
+ },
+ "ev_97300a522b7d": {
+  "evidence": [
+   {
+    "finding": "Primary page could not be fetched this run (permission timeout); finding is the listing text the radar collector captured from it. Ken Okada Group feat. YOYOKA... jazz fusion ensemble blending Japanese and American jazz fusion traditions... GRAMMY award-winning saxophonist Ben Torres, DownBeat 'Rising Star' guitarist Hristo Vitchev, four-time GRAMMY nominee Murray Low. Nov 12, 7pm.",
+    "url": "https://www.kuumbwajazz.org/calendar/ken-okada-group-feat-yoyoka/"
+   }
+  ],
+  "fingerprint": "e0b025a37801",
+  "fit": 44,
+  "performers": [
+   {
+    "known_for": "Bassist/composer",
+    "name": "Ken Okada",
+    "significance": "local"
+   },
+   {
+    "known_for": "Pianist, four-time Grammy nominee (per listing)",
+    "name": "Murray Low",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bassist Ken Okada's Bay Area jazz-fusion group blending Japanese and American fusion traditions, with Grammy-winning saxophonist Ben Torres, guitarist Hristo Vitchev, pianist Murray Low and featured guest YOYOKA. Skilled players, but polished fusion is a weaker fit than open-ended improvisation.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "YOYOKA's role not stated in captured text."
+  ]
+ },
  "ev_a26acd653a25": {
   "evidence": [
    {
@@ -658,6 +895,40 @@
   "tier": "strong",
   "uncertainties": [
    "Already recorded by prior radar October 16; do not re-alert unchanged."
+  ]
+ },
+ "ev_accecbf31981": {
+  "evidence": [
+   {
+    "finding": "Nov. 20: East Bay Square Dance - Hillside Club, Berkeley; Band: Big Chimney Barn Dance; Caller: Jordan Ruyle; preceded by an old time jam.",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "Search result shows a Big Chimney Barn Dance Bandcamp page (not opened).",
+    "url": "https://bigchimneybarndance.bandcamp.com"
+   }
+  ],
+  "fingerprint": "a7a6afd07946",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Old-time dance band",
+    "name": "Big Chimney Barn Dance",
+    "significance": "local"
+   },
+   {
+    "known_for": "Caller",
+    "name": "Jordan Ruyle",
+    "significance": "local"
+   }
+  ],
+  "reason": "The monthly East Bay Square Dance at the Hillside Club, with live old-time music from Big Chimney Barn Dance, Jordan Ruyle calling, and an old-time jam beforehand. A warm community dance in the local old-time scene; on-taste, low stakes.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Band members, time and price not confirmed."
   ]
  },
  "ev_b1c2d55e87c9": {
@@ -748,6 +1019,29 @@
    "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
    "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
   ]
+ },
+ "ev_b7497a38f3bd": {
+  "evidence": [
+   {
+    "finding": "Nov 28 2026, 2-4pm, Cato's Alehouse, 3981 Piedmont Ave, Oakland; Free; Robin Fischer and Rowan McCallister and friends every fourth Saturday; Old Time tunes, kid friendly.",
+    "url": "https://californiabluegrass.org/event/bearcat-stringband-and-friends-at-catos-alehouse/2026-11-28/"
+   }
+  ],
+  "fingerprint": "2ff23bae7628",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Oakland old-time band",
+    "name": "Bearcat Stringband",
+    "significance": "local"
+   }
+  ],
+  "reason": "A free monthly old-time afternoon at Cato's Alehouse in Oakland led by Robin Fischer and Rowan McCallister of Bearcat Stringband, with friends sitting in. A relaxed pub session for local old-time; pleasant, not an event to plan around.",
+  "researched_at": "2026-10-29T00:10:00+00:00",
+  "researcher": "Claude daily research task",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": []
  },
  "ev_df0376b8d3c8": {
   "evidence": [
