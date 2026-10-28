@@ -1,0 +1,131 @@
+{
+ "run_id": "e1e379920b26",
+ "sources": {
+  "ashkenaz": {
+   "error": null,
+   "kept": 0,
+   "new": 0,
+   "out_of_window": 0,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 0,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "berkeley-old-time-music-convention": {
+   "error": null,
+   "kept": 0,
+   "new": 0,
+   "out_of_window": 1,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 1,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)",
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "down-home-music": {
+   "error": null,
+   "kept": 6,
+   "new": 6,
+   "out_of_window": 6,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 12,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "fifth-street-farms-site": {
+   "error": null,
+   "kept": 7,
+   "new": 6,
+   "out_of_window": 2,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 9,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "hillside-club": {
+   "error": null,
+   "kept": 3,
+   "new": 3,
+   "out_of_window": 8,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 11,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "ivy-room": {
+   "error": null,
+   "kept": 0,
+   "new": 0,
+   "out_of_window": 0,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 0,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "noe-valley-music-series": {
+   "error": null,
+   "kept": 0,
+   "new": 0,
+   "out_of_window": 7,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 7,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  },
+  "sf-folk-music-club": {
+   "error": null,
+   "kept": 231,
+   "new": 174,
+   "out_of_window": 21,
+   "outside_region": 0,
+   "pages": null,
+   "pending_links": null,
+   "raw": 252,
+   "status": "ok",
+   "warnings": [
+    "no LLM provider: heuristic extraction only (venue may be blank)"
+   ]
+  }
+ },
+ "summary": {
+  "inventory_total": 3260,
+  "inventory_upcoming": 3232,
+  "merged_sources": 58,
+  "new_events": 189,
+  "run_id": "e1e379920b26",
+  "seconds": 10.2,
+  "sources_due": 8,
+  "sources_failed": [],
+  "sources_ok": 8,
+  "ts": "2026-10-28T22:38:33+00:00"
+ },
+ "ts": "2026-10-28T22:38:33+00:00"
+}

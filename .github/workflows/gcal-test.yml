@@ -1,0 +1,29 @@
+name: Google Calendar one-event test
+# Runs only when .github/gcal-test-request changes on radar-v2 (workflow_dispatch needs the default branch).
+on:
+  push:
+    branches: [radar-v2]
+    paths: ['.github/gcal-test-request']
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: radar-data-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    env:
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Create, read, update and dedup ONE event (Kentridge provisional Going entry)
+        run: python -m radar gcal test
+      - run: |
+          bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: calendar sync test state"

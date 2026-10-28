@@ -74,7 +74,8 @@ MONTHS = "jan|feb|mar|apr|may|jun|jul|aug|sep|sept|oct|nov|dec"
 DATE_LINE = re.compile(rf"\b(?:(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*\.?,?\s+)?((?:{MONTHS})[a-z]*\.?)\s+(\d{{1,2}})(?:st|nd|rd|th)?(?:,?\s+(\d{{4}}))?", re.I)
 
 
-HEURISTIC_VERSION = 2  # bump when the heuristic changes so cached extractions are redone
+SFFMC = re.compile(r"^(?:(Mo|Tu|We|Th|Fr|Sa|Su)[a-z]*\.?\s+)?(\d{1,2}(?::\d\d)?\s*(?:am|pm))\s*:\s*(.+?),\s*([^,:]{3,60})(?::\s*(.*))?$", re.I)
+HEURISTIC_VERSION = 3  # bump when the heuristic changes so cached extractions are redone
 
 JUNK_TITLE = re.compile(r"^(?:\d{1,2}(?::\d{2})?\s*(?:am|pm)|\d{4}|doors?\b.*|show(?:time)?\b.*|(?:get|buy)\s+tickets?.*|tickets?|sold out|more info|rsvp|free|all ages|\d{1,2}\+|[\W\d]+"
                         r"|just announced|on sale.*|presale.*|preview|previews|opening night|closing night|all sales final\.?|masks? required.*|closed captioning.*|post-?show discussion.*|pre-?show.*|matinee|new|upcoming|calendar|events?|shows?|music|learn more|read more|details|info|buy now|book now|sign up|subscribe|donate|members? only)$", re.I)
@@ -125,7 +126,19 @@ def _heuristic_extract(text: str, source: dict) -> list[dict]:
         candidates = [rest] + [l for l in lines[i + 1:i + 4] if not DATE_LINE.search(l)]
         title = next((c for c in candidates if _plausible_title(c, source)), "")
         if title:
-            out.append({"title": clean_text(title), "start": d.isoformat(), "url": source["url"], "heuristic": True})
+            ev = {"title": clean_text(title), "start": d.isoformat(), "url": source["url"], "heuristic": True}
+            # SFFMC style: "Sa 7pm: Kendl Winter, Fifth St Farms: 1st St, Berkeley"
+            m2 = SFFMC.match(ev["title"])
+            if m2:
+                hh = m2.group(2).lower().replace(" ", "")
+                tm = re.match(r"(\d{1,2})(?::(\d\d))?(am|pm)", hh)
+                if tm:
+                    h = int(tm.group(1)) % 12 + (12 if tm.group(3) == "pm" else 0)
+                    ev["start"] = f"{d.isoformat()}T{h:02d}:{tm.group(2) or '00'}"
+                ev["title"], ev["venue"] = m2.group(3).strip(), m2.group(4).strip()
+                if m2.group(5):
+                    ev["address"] = m2.group(5).strip()
+            out.append(ev)
     return out
 
 

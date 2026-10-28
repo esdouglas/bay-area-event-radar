@@ -8,8 +8,8 @@ import datetime as dt
 import json
 
 from . import config
-from .normalize import (TZ, clean_text, dedup_key, event_id, iso, local_date, norm_venue, parse_dt,
-                        region_of, similar_titles, venue_key)
+from .normalize import (TZ, clean_text, clean_title, dedup_key, event_id, iso, local_date, norm_venue, parse_dt,
+                        region_of, same_venue, similar_titles, tokens, venue_key)
 
 
 def _load(path, default):
@@ -82,6 +82,18 @@ def read_run_logs(months: int = 2) -> list[dict]:
     return out
 
 
+def append_observations(run_id: str, now: str, rows: list[dict]):
+    """Append-only audit log of first sightings, new corroborating sources and changes (weekly files)."""
+    if not rows:
+        return
+    d = config.DATA / "observations"
+    d.mkdir(parents=True, exist_ok=True)
+    week = config.now_utc().strftime("%G-W%V")
+    with open(d / f"{week}.jsonl", "a", encoding="utf-8") as f:
+        for r in rows:
+            f.write(json.dumps(dict(r, run_id=run_id, observed_at=now), ensure_ascii=False, sort_keys=True) + "\n")
+
+
 def append_cost(record: dict):
     config.ensure_dirs()
     with open(config.COSTS_FILE, "a", encoding="utf-8") as f:
@@ -123,6 +135,9 @@ def normalize_raw(raw: dict, source: dict) -> dict | None:
         "image": raw.get("image"),
         "announced": raw.get("announced"),  # when the source says it was posted (if it says)
         "source_event_id": raw.get("source_event_id"),
+        "evidence_hash": raw.get("evidence_hash"),
+        "date_basis": raw.get("date_basis"),
+        "run_end": raw.get("run_end"),
         "extraction": "heuristic" if raw.get("heuristic") else ("model" if raw.get("model_extracted") else "structured"),
     }
     if raw.get("lat") and raw.get("lon"):
@@ -130,17 +145,37 @@ def normalize_raw(raw: dict, source: dict) -> dict | None:
     return rec
 
 
+_DATE_INDEX = {"n": -1, "idx": {}}
+
+
+def by_date(events: dict, date: str):
+    """Events on a date. Rebuilt when the inventory size changes (cheap, avoids O(n) scans per record)."""
+    if _DATE_INDEX["n"] != len(events) or _DATE_INDEX.get("id") != id(events):
+        idx = {}
+        for eid, e in events.items():
+            idx.setdefault(e["date"], []).append(eid)
+        _DATE_INDEX.update(n=len(events), idx=idx, id=id(events))
+    return [(eid, events[eid]) for eid in _DATE_INDEX["idx"].get(date, []) if eid in events]
+
+
 def _find_match(events: dict, rec: dict, by_key: dict) -> str | None:
     key = dedup_key(rec["venue"] or rec["venue_raw"], rec["date"], rec["title"])
     if key in by_key:
         return by_key[key]
-    # Fuzzy: same venue & date, overlapping title tokens (catches "X & Y" vs "X with Y", support acts, etc.)
-    vk = venue_key(rec["venue"] or rec["venue_raw"])
+    # Fuzzy: same date, same room (spelling-tolerant), overlapping title tokens. When either side has
+    # no venue, require a near-identical multi-word title instead.
+    rv = rec["venue"] or rec["venue_raw"]
+    vk = venue_key(rv)
+    rt = tokens(clean_title(rec["title"]))
+    for eid, e in by_date(events, rec["date"]):
+        ev_v = e["venue"] or e["venue_raw"]
+        if (not vk or not venue_key(ev_v)) and len(rt) >= 2 and similar_titles(e["title"], rec["title"]) >= 0.8:
+            return eid
     if not vk:
         return None
     best, best_score = None, 0.0
-    for eid, e in events.items():
-        if e["date"] != rec["date"] or venue_key(e["venue"] or e["venue_raw"]) != vk:
+    for eid, e in by_date(events, rec["date"]):
+        if not same_venue(e["venue"] or e["venue_raw"], rv):
             continue
         s = similar_titles(e["title"], rec["title"])
         if s > best_score:
@@ -152,8 +187,8 @@ def _find_match(events: dict, rec: dict, by_key: dict) -> str | None:
     # at a venue that lists no times must stay separate.
     if rec.get("extraction") == "heuristic" or rec["start"][11:16] == "00:00":
         return None
-    same_night = [eid for eid, e in events.items()
-                  if e["date"] == rec["date"] and venue_key(e["venue"] or e["venue_raw"]) == vk
+    same_night = [eid for eid, e in by_date(events, rec["date"])
+                  if same_venue(e["venue"] or e["venue_raw"], rv)
                   and e["start"] == rec["start"] and e.get("extraction") != "heuristic"]
     if len(same_night) == 1:
         return same_night[0]
@@ -162,7 +197,7 @@ def _find_match(events: dict, rec: dict, by_key: dict) -> str | None:
     hour = int(rec["start"][11:13])
     if hour < 6:
         for eid, e in events.items():
-            if venue_key(e["venue"] or e["venue_raw"]) == vk and abs((dt.date.fromisoformat(e["date"]) - dt.date.fromisoformat(rec["date"])).days) == 1 \
+            if same_venue(e["venue"] or e["venue_raw"], rv) and abs((dt.date.fromisoformat(e["date"]) - dt.date.fromisoformat(rec["date"])).days) == 1 \
                     and similar_titles(e["title"], rec["title"]) >= 0.6:
                 return eid
     return None
@@ -175,19 +210,26 @@ def upsert(events: dict, rec: dict, source_id: str, now: str, stats: dict):
             by_key.setdefault(dedup_key(e["venue"] or e["venue_raw"], e["date"], e["title"]), eid)
     match = _find_match(events, rec, by_key)
     src_entry = {"source": source_id, "url": rec["url"], "first_seen": now, "last_seen": now,
-                 "title": rec["title"], "source_event_id": rec.get("source_event_id")}
+                 "title": rec["title"], "source_event_id": rec.get("source_event_id"), "seen_count": 1}
+    obs = stats.setdefault("_observations", [])
     if match:
         e = events[match]
         e["last_seen"] = now
         found = False
         for s in e["sources"]:
             if s["source"] == source_id and (s.get("url") == rec["url"] or s.get("source_event_id") == rec.get("source_event_id")):
+                if s.get("title") != rec["title"] or e["date"] != rec["date"]:
+                    obs.append({"kind": "changed", "event_id": match, "source": source_id, "url": rec["url"], "title": rec["title"],
+                                "date": rec["date"], "previous_title": s.get("title"), "evidence_hash": rec.get("evidence_hash")})
                 s["last_seen"] = now
                 s["title"] = rec["title"]
+                s["seen_count"] = s.get("seen_count", 1) + 1
                 found = True
         if not found:
             e["sources"].append(src_entry)
             stats["merged"] = stats.get("merged", 0) + 1
+            obs.append({"kind": "new_source", "event_id": match, "source": source_id, "url": rec["url"], "title": rec["title"],
+                        "date": rec["date"], "evidence_hash": rec.get("evidence_hash")})
         # Fill gaps and prefer richer fields; never overwrite a venue-sourced field with an aggregator's.
         for k in ("end", "address", "ticket_url", "description", "price", "image", "announced", "lat", "lon"):
             if not e.get(k) and rec.get(k):
@@ -216,8 +258,7 @@ def upsert(events: dict, rec: dict, source_id: str, now: str, stats: dict):
                 e["url"] = rec["url"]
         if rec["status"] != "scheduled":
             e["status"] = rec["status"]
-        if rec.get("title") and len(rec["title"]) > len(e["title"]) and similar_titles(rec["title"], e["title"]) >= 0.5:
-            e["title"] = rec["title"]  # keep the fuller billing
+        e["title"] = best_title(e)  # keep the fullest clean billing across sources
         return match, False
     key = dedup_key(rec["venue"] or rec["venue_raw"], rec["date"], rec["title"])
     eid = event_id(key)
@@ -229,6 +270,9 @@ def upsert(events: dict, rec: dict, source_id: str, now: str, stats: dict):
     events[eid] = e
     by_key[key] = eid
     stats["new"] = stats.get("new", 0) + 1
+    obs.append({"kind": "first_seen", "event_id": eid, "source": source_id, "url": rec["url"], "title": rec["title"],
+                "date": rec["date"], "venue": rec.get("venue") or rec.get("venue_raw"), "evidence_hash": rec.get("evidence_hash"),
+                "announced": rec.get("announced")})
     return eid, True
 
 
@@ -248,3 +292,69 @@ def mark_stale(events: dict, source_health: dict, now: str, stale_days: int = 10
         healthy_sources = [s for s in e["sources"] if source_health.get(s["source"], {}).get("last_ok")]
         if healthy_sources and all(s["last_seen"] < cutoff for s in healthy_sources):
             e["status"] = "unlisted"
+
+
+def _better(a: dict, b: dict) -> dict:
+    """Which of two duplicate records should survive as the canonical one."""
+    rank = lambda e: (e.get("extraction") != "heuristic", bool(e.get("venue")), bool(e.get("start", "")[11:16] not in ("", "00:00")),
+                      -len(e.get("sources", [])) * -1, e.get("first_seen", "~") and 0)
+    return a if rank(a) >= rank(b) else b
+
+
+def best_title(e: dict) -> str:
+    """Fullest clean billing among the record's source titles (aggregator 'Artist - City - Venue -
+    Date' strings are never chosen)."""
+    from .collectors.gpt import JAMBASE
+    cands = [t for t in [e["title"]] + [x.get("title") or "" for x in e.get("sources", [])] if t and not JAMBASE.match(t)]
+    if not cands:
+        m = JAMBASE.match(e["title"])
+        return m.group(1).strip() if m else e["title"]
+    base = cands[0]
+    related = [t for t in cands if similar_titles(t, base) >= 0.3 or t.lower().startswith(base.lower()[:12])]
+    return max(related or [base], key=lambda t: (len(tokens(clean_title(t))), -len(t)))
+
+
+def compact(events: dict) -> int:
+    """Merge duplicate records already in the inventory (same date, same room or blank room, matching
+    titles). Keeps the earliest first_seen, unions sources, GPT ids and research."""
+    for e in events.values():
+        e["title"] = best_title(e)
+    merged = 0
+    dates = {}
+    for eid, e in events.items():
+        dates.setdefault(e["date"], []).append(eid)
+    for d, ids in dates.items():
+        alive = [i for i in ids if i in events]
+        for i in range(len(alive)):
+            for j in range(i + 1, len(alive)):
+                a, b = alive[i], alive[j]
+                if a not in events or b not in events:
+                    continue
+                ea, eb = events[a], events[b]
+                va, vb = ea["venue"] or ea["venue_raw"], eb["venue"] or eb["venue_raw"]
+                ta = {ea["title"]} | {x.get("title") or "" for x in ea["sources"]}
+                tb = {eb["title"]} | {x.get("title") or "" for x in eb["sources"]}
+                sim = max(similar_titles(x, y) for x in ta for y in tb if x and y)
+                both_v = bool(venue_key(va)) and bool(venue_key(vb))
+                ok = (both_v and same_venue(va, vb) and sim >= 0.5) or \
+                     (not both_v and len(tokens(clean_title(ea["title"]))) >= 2 and sim >= 0.8)
+                if not ok:
+                    continue
+                keep = _better(ea, eb)
+                drop = eb if keep is ea else ea
+                kid, did = keep["id"], drop["id"]
+                keep["first_seen"] = min(keep["first_seen"], drop["first_seen"])
+                keep["last_seen"] = max(keep["last_seen"], drop["last_seen"])
+                have = {(s["source"], s.get("url")) for s in keep["sources"]}
+                keep["sources"] += [s for s in drop["sources"] if (s["source"], s.get("url")) not in have]
+                keep["gpt_ids"] = sorted(set(keep.get("gpt_ids", [])) | set(drop.get("gpt_ids", []))) or keep.get("gpt_ids")
+                if not keep.get("gpt_ids"):
+                    keep.pop("gpt_ids", None)
+                for k in ("research", "enrichment", "venue", "city", "performers", "description", "ticket_url", "end", "run_end"):
+                    if not keep.get(k) and drop.get(k):
+                        keep[k] = drop[k]
+                keep.setdefault("merged_ids", []).append(did)
+                keep["title"] = best_title(keep)
+                del events[did]
+                merged += 1
+    return merged

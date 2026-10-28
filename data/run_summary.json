@@ -1,14 +1,12 @@
 {
- "inventory_total": 1805,
- "inventory_upcoming": 1804,
- "merged_sources": 13,
- "new_events": 183,
- "seconds": 327.8,
- "sources_due": 62,
- "sources_failed": [
-  "back-room-berkeley",
-  "luther-burbank-center"
- ],
- "sources_ok": 60,
- "ts": "2026-10-26T01:38:29+00:00"
+ "inventory_total": 3260,
+ "inventory_upcoming": 3232,
+ "merged_sources": 58,
+ "new_events": 189,
+ "run_id": "e1e379920b26",
+ "seconds": 10.2,
+ "sources_due": 8,
+ "sources_failed": [],
+ "sources_ok": 8,
+ "ts": "2026-10-28T22:38:33+00:00"
 }

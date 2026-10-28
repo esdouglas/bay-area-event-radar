@@ -41,18 +41,15 @@ sources:
 - id: back-room-berkeley
   name: The Back Room (Berkeley) via Humanitix
   kind: venue
-  method: jsonld
+  method: gpt
   url: https://collections.humanitix.com/the-back-room-calendar
-  follow: 'events\.humanitix\.com/[a-z0-9-]+$'
-  max_follow: 40
+  page_limit: 16
+  user_agent: plain
   venue: {name: The Back Room, city: Berkeley}
   expected_coverage: all ticketed Back Room shows
-  expected_blocked: true
   notes: >
-    backroommusic.com embeds this Humanitix collection (its only calendar); event pages carry JSON-LD.
-    Humanitix answers HTTP 403 (Cloudflare) to GitHub runners (2026-10-26) while residential/other IPs
-    get the page. Left enabled so every run records the block; the watchdog does not nag about it.
-    Second-hand coverage: Bluegrass Signal, SFFMC and KALX calendars list some Back Room shows.
+    Humanitix answered 403 to a browser-like UA from GitHub runners but served GPT's plain bot UA
+    (main's coverage 2026-10-28: 4 pages, 15 events). Event pages carry JSON-LD.
 
 - id: fifth-street-farms
   name: Fifth Street Farms (Berkeley) via Ticket Tailor
@@ -419,12 +416,15 @@ sources:
 - id: bluegrass-signal
   name: Bluegrass Signal (KALW) Northern California concert & festival calendar
   kind: calendar
-  method: html
-  heuristic_ok: true
+  method: gpt
+  adapter: bluegrass
   url: https://www.bgsignal.com/concerts--festivals.html
+  follow: false
+  page_limit: 1
+  user_agent: plain
   category: music
-  expected_coverage: bluegrass/old-time shows across NorCal, incl. Freight, house concerts, festivals
-  notes: Weebly page, human-edited; text extraction.
+  expected_coverage: bluegrass/old-time shows across NorCal, incl. Freight, house concerts, festivals, with venues
+  notes: GPT parser (artist - venue lines, multi-date tours). Weebly page answered 429/challenge to a browser UA once; plain UA used.
 
 - id: california-bluegrass-association
   name: California Bluegrass Association events
@@ -446,11 +446,14 @@ sources:
 - id: kalx-entertainment-calendar
   name: KALX weekly entertainment calendar
   kind: radio
-  method: html
-  heuristic_ok: true
+  method: gpt
+  adapter: kalx
   url: https://kalx.berkeley.edu/events/weekly-entertainment-calendar/
+  link_pattern: /event/events-
+  page_limit: 8
   category: music
-  expected_coverage: KALX-curated East Bay/SF shows for the week
+  expected_coverage: KALX-curated East Bay/SF/North Bay shows, about 500 lines across the weekly pages
+  notes: "GPT parser (venue: title per line, dated headings). Ported from main 2026-10-28."
 
 - id: berkeley-old-time-music-convention
   name: Berkeley Old Time Music Convention
@@ -484,6 +487,70 @@ sources:
   method: html
   url: https://kpfa.org/events/
   category: mixed
+
+- id: hicks-with-sticks
+  name: Hicks with Sticks Americana/roots calendar
+  kind: calendar
+  method: gpt
+  adapter: hicks
+  url: https://www.hickswithsticks.com/calendar/
+  follow: false
+  page_limit: 1
+  category: music
+  expected_coverage: North Bay/Marin roots and honky-tonk bar shows ("Act @ Venue" lines)
+  notes: Ported from main 2026-10-28.
+
+- id: david-brown-oldtime
+  name: David Brown's SF Bay Area old-time music calendar
+  kind: calendar
+  method: gpt
+  adapter: oldtime
+  url: https://sites.google.com/site/davbrown2/oldtimesf
+  follow: false
+  page_limit: 1
+  category: music
+  expected_coverage: old-time concerts, square dances and visiting string bands across the Bay Area
+  notes: Ported from main 2026-10-28. Venue lines are heuristic; dates explicit.
+
+- id: kc-turner
+  name: KC Turner Presents (house concerts, listening rooms)
+  kind: presenter
+  method: gpt
+  url: https://www.kcturnerpresents.com/calendar
+  page_limit: 8
+  category: music
+  expected_coverage: KC Turner's Bay Area folk/Americana bookings incl. small rooms
+  notes: Ported from main 2026-10-28.
+
+- id: otter-opry
+  name: Otter Opry (Monterey)
+  kind: presenter
+  method: gpt
+  url: https://otteropry.org/
+  page_limit: 4
+  venue: {city: Monterey}
+  category: music
+  notes: Ported from main; main recorded it as dynamic/blocked, kept so the gap is visible.
+
+- id: outsound
+  name: Outsound (SF experimental/new music)
+  kind: presenter
+  method: gpt
+  url: https://www.outsound.org/
+  page_limit: 4
+  venue: {city: San Francisco}
+  category: music
+  notes: Ported from main; failed on main's last run.
+
+- id: fifth-street-tickets-tt
+  name: Fifth Street Farms on tickettailor.com
+  kind: venue
+  method: gpt
+  adapter: tickettailor
+  url: https://www.tickettailor.com/events/fifthstreetfarms
+  page_limit: 8
+  venue: {name: Fifth Street Farms, city: Berkeley}
+  notes: Second Ticket Tailor route from main (16 events on its last run); dedups against fifth-street-farms.
 
 # ============================================================ aggregators (recall insurance)
 - id: songkick-bay-area
@@ -538,6 +605,16 @@ sources:
   enabled: false
   notes: Works from residential IPs (610 music events in 13 pages on 2026-10-25); 405 from GitHub runners.
 
+- id: jambase-bay
+  name: JamBase SF Bay Area
+  kind: aggregator
+  method: gpt
+  url: https://www.jambase.com/concerts/us/california/concerts-in-san-francisco-bay-area
+  page_limit: 6
+  category: music
+  expected_coverage: JamBase's Bay Area listings, strong on roots/jam/bluegrass touring acts
+  notes: Ported from main 2026-10-28 (72 events on its last runner run). Out-of-area cities are dropped by the region filter.
+
 - id: allevents-el-cerrito
   name: allevents.in East Bay music
   kind: aggregator
@@ -553,18 +630,22 @@ sources:
 - id: berkeley-rep
   name: Berkeley Repertory Theatre
   kind: theater
-  method: html
+  method: theater_run
   url: https://www.berkeleyrep.org/shows/
+  follow: 'berkeleyrep\.org/shows/[a-z0-9-]+$'
   venue: {name: Berkeley Rep, city: Berkeley}
   category: theater
+  notes: Show pages carry per-performance JSON-LD; collapsed to one event per production.
 
 - id: act-sf
   name: American Conservatory Theater
   kind: theater
-  method: html
-  url: https://www.act-sf.org/whats-on
+  method: theater_run
+  url: https://www.act-sf.org/whats-on/2026-27-season
+  follow: 'act-sf\.org/whats-on/2026-27-season/[a-z0-9-]+$'
+  venue: {name: A.C.T. Toni Rembe Theater, city: San Francisco}
   category: theater
-  venue: {city: San Francisco}
+  notes: JSON-LD run on each show page. Season path must be bumped each summer.
 
 - id: aurora-theatre
   name: Aurora Theatre (Berkeley)
@@ -577,10 +658,12 @@ sources:
 - id: shotgun-players
   name: Shotgun Players (Berkeley)
   kind: theater
-  method: html
+  method: theater_run
   url: https://shotgunplayers.org/
+  follow: 'shotgunplayers\.org/show/[a-z0-9-]+/$'
   venue: {name: Shotgun Players (Ashby Stage), city: Berkeley}
   category: theater
+  notes: Show pages print "Starting Date"; run end not published.
 
 - id: magic-theatre
   name: Magic Theatre (SF)
@@ -594,18 +677,23 @@ sources:
 - id: sf-playhouse
   name: San Francisco Playhouse
   kind: theater
-  method: html
-  url: https://www.sfplayhouse.org/calendar/
+  method: theater_run
+  url: https://www.sfplayhouse.org/
+  follow: 'sfplayhouse\.org/2026-2027-season/[a-z0-9-]+/$'
+  range_by_order: true
   venue: {name: San Francisco Playhouse, city: San Francisco}
   category: theater
+  notes: Printed run ranges. Season path must be bumped each summer.
 
 - id: marin-theatre
   name: Marin Theatre
   kind: theater
-  method: html
+  method: theater_run
   url: https://www.marintheatre.org/
+  follow: 'marintheatre\.org/show-details/[a-z0-9-]+$'
   venue: {name: Marin Theatre, city: Mill Valley}
   category: theater
+  notes: Printed run ranges on show-details pages.
 
 - id: cal-performances
   name: Cal Performances

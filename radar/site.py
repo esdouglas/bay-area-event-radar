@@ -45,9 +45,15 @@ def build_ics(events: dict, legacy: list) -> str:
             continue
         desc = f"Source: {e['source']}\n[curated v1 record]" + (f"\n{e.get('notes')}" if e.get("notes") else "")
         lines += ["BEGIN:VEVENT", f"UID:{e['id']}@bay-area-event-radar.esdouglas.github.io", f"DTSTAMP:{_stamp(parse_dt(e['modified_at']))}",
-                  f"SEQUENCE:{e.get('sequence', 0)}", f"DTSTART:{_stamp(start)}"]
-        if e.get("end"):
-            lines.append(f"DTEND:{_stamp(parse_dt(e['end']))}")
+                  f"SEQUENCE:{e.get('sequence', 0)}"]
+        if e.get("all_day"):
+            lines.append(f"DTSTART;VALUE=DATE:{start:%Y%m%d}")
+            if e.get("end"):
+                lines.append(f"DTEND;VALUE=DATE:{parse_dt(e['end']):%Y%m%d}")
+        else:
+            lines.append(f"DTSTART:{_stamp(start)}")
+            if e.get("end"):
+                lines.append(f"DTEND:{_stamp(parse_dt(e['end']))}")
         lines += [f"SUMMARY:{_esc('[' + e['interest'] + '] ' + e['title'])}", f"STATUS:{e['status']}", "TRANSP:TRANSPARENT",
                   f"LOCATION:{_esc(e['location'])}", f"URL:{e['source']}", f"DESCRIPTION:{_esc(desc)}", "END:VEVENT"]
         seen_keys.add((start.date().isoformat(), re.sub(r"[^a-z0-9]", "", e["title"].lower())[:16]))

@@ -9,7 +9,7 @@
     "interest": "FYI",
     "status": "CONFIRMED",
     "sequence": 24,
-    "verified_at": "2026-10-25T20:47:46.413284+00:00",
+    "verified_at": "2026-10-28T12:47:22.228195+00:00",
     "modified_at": "2026-10-25T20:47:46.413284+00:00"
   },
   {
@@ -22,7 +22,7 @@
     "interest": "FYI",
     "status": "CONFIRMED",
     "sequence": 17,
-    "verified_at": "2026-10-25T20:47:46.413284+00:00",
+    "verified_at": "2026-10-28T12:47:22.228195+00:00",
     "modified_at": "2026-10-25T20:47:46.413284+00:00",
     "refresh_mode": "jsonld",
     "schema_name": "THE CROOKED JADES--Sunday, December 6"
@@ -37,7 +37,7 @@
     "interest": "FYI",
     "status": "CONFIRMED",
     "sequence": 17,
-    "verified_at": "2026-10-25T20:47:46.413284+00:00",
+    "verified_at": "2026-10-28T12:47:22.228195+00:00",
     "modified_at": "2026-10-25T20:47:46.413284+00:00",
     "refresh_mode": "jsonld",
     "schema_name": "KENDL WINTER, solo -- SATURDAY, DECEMBER 12"
@@ -52,7 +52,7 @@
     "interest": "FYI",
     "status": "CONFIRMED",
     "sequence": 22,
-    "verified_at": "2026-10-25T20:47:46.413284+00:00",
+    "verified_at": "2026-10-28T12:47:22.228195+00:00",
     "modified_at": "2026-10-25T20:47:46.413284+00:00",
     "refresh_mode": "jsonld",
     "schema_name": "Pierre Bensusan - The Infinite Guitar Tour 2026"
@@ -67,7 +67,7 @@
     "interest": "FYI",
     "status": "CONFIRMED",
     "sequence": 21,
-    "verified_at": "2026-10-25T20:47:46.413284+00:00",
+    "verified_at": "2026-10-28T12:47:22.228195+00:00",
     "modified_at": "2026-10-25T20:47:46.413284+00:00",
     "refresh_mode": "jsonld",
     "schema_name": "Great Lake Swimmers with Jesse Sykes & The Sweet Hereafter (duo)"
@@ -82,7 +82,7 @@
     "interest": "FYI",
     "status": "CONFIRMED",
     "sequence": 22,
-    "verified_at": "2026-10-25T20:47:46.413284+00:00",
+    "verified_at": "2026-10-28T12:47:22.228195+00:00",
     "modified_at": "2026-10-25T20:47:46.413284+00:00",
     "refresh_mode": "jsonld",
     "schema_name": "Rhiannon Giddens"
@@ -173,18 +173,19 @@
   },
   {
     "id": "cal-kentridge-2026-12",
-    "title": "William Kentridge — The Head & the Load",
+    "title": "William Kentridge — The Head & the Load (tickets via Heather; our date TBD)",
     "source": "https://calperformances.org/events/2026-27/illuminations-innocence-experience/william-kentridges-the-head-the-load/",
-    "start": "2026-11-12T19:30:00-08:00",
-    "end": "2026-11-12T21:00:00-08:00",
+    "start": "2026-11-12T00:00:00-08:00",
+    "end": "2026-11-16T00:00:00-08:00",
     "location": "Henry J. Kaiser Center for the Arts, Oakland",
-    "interest": "FYI",
+    "interest": "Going",
     "status": "CONFIRMED",
-    "sequence": 0,
+    "sequence": 1,
     "verified_at": "2026-10-21T15:10:47.973673+00:00",
-    "modified_at": "2026-10-21T15:10:47.973673+00:00",
+    "modified_at": "2026-10-28T22:33:53+00:00",
     "refresh_mode": "editorial",
-    "notes": "Presenter gives an approximate 90-minute runtime."
+    "notes": "Provisional Going entry spanning the Nov 12-15 run. Tickets secured through Heather; exact performance date unknown. Replace with the actual date once known.",
+    "all_day": true
   },
   {
     "id": "cal-kentridge-2026-13",
@@ -194,12 +195,12 @@
     "end": "2026-11-13T21:00:00-08:00",
     "location": "Henry J. Kaiser Center for the Arts, Oakland",
     "interest": "FYI",
-    "status": "CONFIRMED",
-    "sequence": 0,
+    "status": "CANCELLED",
+    "sequence": 1,
     "verified_at": "2026-10-21T15:10:47.973673+00:00",
-    "modified_at": "2026-10-21T15:10:47.973673+00:00",
+    "modified_at": "2026-10-28T22:33:53+00:00",
     "refresh_mode": "editorial",
-    "notes": "Presenter gives an approximate 90-minute runtime."
+    "notes": "Superseded by the single provisional Going entry cal-kentridge-2026-12 (Nov 12-15)."
   },
   {
     "id": "cal-kentridge-2026-14",
@@ -209,12 +210,12 @@
     "end": "2026-11-14T21:00:00-08:00",
     "location": "Henry J. Kaiser Center for the Arts, Oakland",
     "interest": "FYI",
-    "status": "CONFIRMED",
-    "sequence": 0,
+    "status": "CANCELLED",
+    "sequence": 1,
     "verified_at": "2026-10-21T15:10:47.973673+00:00",
-    "modified_at": "2026-10-21T15:10:47.973673+00:00",
+    "modified_at": "2026-10-28T22:33:53+00:00",
     "refresh_mode": "editorial",
-    "notes": "Presenter gives an approximate 90-minute runtime."
+    "notes": "Superseded by the single provisional Going entry cal-kentridge-2026-12 (Nov 12-15)."
   },
   {
     "id": "cal-kentridge-2026-15",
@@ -224,12 +225,12 @@
     "end": "2026-11-15T16:30:00-08:00",
     "location": "Henry J. Kaiser Center for the Arts, Oakland",
     "interest": "FYI",
-    "status": "CONFIRMED",
-    "sequence": 0,
+    "status": "CANCELLED",
+    "sequence": 1,
     "verified_at": "2026-10-21T15:10:47.973673+00:00",
-    "modified_at": "2026-10-21T15:10:47.973673+00:00",
+    "modified_at": "2026-10-28T22:33:53+00:00",
     "refresh_mode": "editorial",
-    "notes": "Presenter gives an approximate 90-minute runtime."
+    "notes": "Superseded by the single provisional Going entry cal-kentridge-2026-12 (Nov 12-15)."
   },
   {
     "id": "zspace-iphigenia-2026-23",

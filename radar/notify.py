@@ -110,6 +110,20 @@ def _uncertainty(e):
     return "; ".join(bits) or "none noted"
 
 
+def _lead(e) -> str:
+    """Lead time and ticket status line. Ticket availability is never inferred from a listing."""
+    try:
+        fs = dt.datetime.fromisoformat(e["first_seen"]).astimezone(TZ).date()
+        d = dt.date.fromisoformat(e["date"])
+        today = dt.datetime.now(TZ).date()
+        lead = f"first seen {fs:%b %-d} ({(d - fs).days} days before the show); {(d - today).days} days from today"
+    except (ValueError, KeyError):
+        lead = ""
+    research = e.get("research") or {}
+    ts = research.get("ticket_status") or "unverified (check the source link)"
+    return f"Lead time: {lead} · Tickets: {ts}"
+
+
 def event_card(e) -> str:
     enr = e.get("enrichment") or {}
     deep = enr.get("deep") or {}
@@ -128,15 +142,33 @@ def event_card(e) -> str:
              (f"Background: {deep['background']}" if deep.get("background") else ""),
              (f"Scarcity: {deep['scarcity']}" if deep.get("scarcity") else ""),
              f"Uncertainty: {_uncertainty(e)}",
+             _lead(e),
              f"Score {e.get('final_score', e.get('score'))} (rules {e.get('score')}" + (f", model fit {enr.get('fit')}" if enr.get("fit") is not None else "") + f") · tier **{e.get('tier')}** · first seen {e['first_seen'][:10]}",
              " · ".join(links[:6])]
     return "\n".join(l for l in lines if l)
 
 
 # ----------------------------------------------------------------------------- immediate alerts
+def bootstrap(events, alerts, h, dry_run):
+    """First live run: one roundup issue for everything already exceptional, instead of a burst of
+    separate issues. Later runs alert per event."""
+    today = dt.datetime.now(TZ).date().isoformat()
+    ex = sorted([e for e in events.values() if e.get("tier") == "exceptional" and e.get("status") == "scheduled" and e["date"] >= today],
+                key=lambda x: x["date"])
+    body = (f"@{_owner()} the radar is live. These {len(ex)} upcoming events already rate exceptional; from now on each new "
+            f"exceptional discovery gets its own issue like this.\n\n" + "\n\n".join(event_card(e) for e in ex))
+    num = create_issue(h, f"[radar] {len(ex)} exceptional upcoming events (initial roundup)", body, [LABEL_ALERT], dry_run)
+    for e in ex:
+        alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": "exceptional", "via": "bootstrap"}
+    alerts["bootstrapped"] = config.now_iso()
+    return len(ex)
+
+
 def immediate(events, alerts, h, dry_run):
     today = dt.datetime.now(TZ).date().isoformat()
     sent = 0
+    if not alerts.get("bootstrapped"):
+        return bootstrap(events, alerts, h, dry_run)
     for e in sorted(events.values(), key=lambda x: x["date"]):
         if e.get("tier") != "exceptional" or e.get("status") != "scheduled" or e["date"] < today:
             continue

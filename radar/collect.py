@@ -1,5 +1,6 @@
 """Stage A: broad collection. Runs every registered source, merges into the inventory, logs everything."""
 import concurrent.futures as cf
+import uuid
 import datetime as dt
 import time
 import traceback
@@ -133,6 +134,8 @@ def run(only=None, force=False, workers=6, dry_run=False) -> dict:
     config.ensure_dirs()
     prune_cache()
     now = config.now_iso()
+    run_id = uuid.uuid4().hex[:12]
+    observations, coverage = [], {}
     sources = load_sources(only)
     events = store.load_events()
     health = store.load_health()
@@ -148,9 +151,15 @@ def run(only=None, force=False, workers=6, dry_run=False) -> dict:
             stats = fut.result()
             raws = stats.pop("_raws", [])
             stats.pop("_by_key", None)
+            stats["run_id"] = run_id
             if stats["status"] == "ok":
                 ingest(events, s, raws, now, stats)
             stats.pop("_by_key", None)
+            observations.extend(dict(o, source=s["id"]) for o in stats.pop("_observations", []))
+            coverage[s["id"]] = {"status": stats["status"], "raw": stats.get("raw_events", 0), "kept": stats.get("ingested", 0),
+                                 "new": stats.get("new", 0), "error": stats.get("error"), "warnings": stats.get("warnings"),
+                                 "pages": stats.pop("pages_audit", None), "pending_links": stats.get("pending_links"),
+                                 "out_of_window": stats.get("out_of_window", 0), "outside_region": stats.get("outside_region", 0)}
             update_health(health, stats, now)
             flag = "" if stats["status"] == "ok" else f"  !! {stats['status']}: {stats.get('error', '')[:120]}"
             print(f"  {s['id']:34} {stats['status']:10} raw={stats.get('raw_events', 0):4} kept={stats.get('ingested', 0):4} new={stats.get('new', 0):3} merged={stats.get('merged', 0):3} {stats.get('seconds', 0):5}s{flag}")
@@ -160,6 +169,7 @@ def run(only=None, force=False, workers=6, dry_run=False) -> dict:
     store.mark_stale(events, health, now)
     summary = {
         "ts": now,
+        "run_id": run_id,
         "sources_due": len(due),
         "sources_ok": sum(1 for r in results if r["status"] == "ok"),
         "sources_failed": [r["source"] for r in results if r["status"] != "ok"],
@@ -174,4 +184,6 @@ def run(only=None, force=False, workers=6, dry_run=False) -> dict:
         store.save_events(events)
         store.save_health(health)
         store._save(config.RUN_SUMMARY_FILE, summary)
+        store.append_observations(run_id, now, observations)
+        store._save(config.DATA / "coverage.json", {"run_id": run_id, "ts": now, "summary": summary, "sources": coverage})
     return summary

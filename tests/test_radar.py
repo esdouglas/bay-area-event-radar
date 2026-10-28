@@ -165,8 +165,42 @@ class NotifyTests(unittest.TestCase):
                 store.save_events({"ev_a": ev})
                 buf = io.StringIO()
                 with contextlib.redirect_stdout(buf):
+                    notify.run(digest_flag=False, dry_run=True)   # first ever run: one roundup
+                first = buf.getvalue()
+                store.save_alerts({"alerted": {}, "digests": [], "bootstrapped": "2099-01-01"})
+                buf = io.StringIO()
+                with contextlib.redirect_stdout(buf):
                     notify.run(digest_flag=True, dry_run=True)
                 out = buf.getvalue()
+            self.assertIn("initial roundup", first)
+            self.assertIn("Lead time: first seen", first)
             self.assertIn("[dry-run issue] [radar] Peter Stampfel", out)
             self.assertIn("[radar digest]", out)
             self.assertFalse(notify.live_enabled())
+
+
+class GCalTests(unittest.TestCase):
+    def test_guard_and_body(self):
+        import os
+        from unittest.mock import patch
+        from radar import gcal
+        with patch.dict(os.environ, {"GCAL_CALENDAR_ID": "primary"}):
+            with self.assertRaises(gcal.GCalError):
+                gcal.calendar_id()
+        item = {"id": "x1", "title": "Peter Stampfel", "interest": "FYI", "start": "2099-10-24T20:00:00-07:00", "end": None, "all_day": False,
+                "location": "Little Hill Lounge", "url": "https://x", "why": "w", "cancelled": False, "kind": "radar"}
+        b = gcal.body_for(item, keep_interest="Going")
+        self.assertEqual(b["summary"], "[Going] Peter Stampfel")          # user's Going is never downgraded
+        self.assertEqual(b["transparency"], "transparent")
+        self.assertEqual(b["reminders"], {"useDefault": False, "overrides": []})
+        self.assertNotIn("attendees", b)
+        self.assertEqual(b["id"], gcal.gcal_id("x1"))
+        self.assertTrue(set(b["id"]) <= set("0123456789abcdefghijklmnopqrstuv"))
+
+
+class TheaterTests(unittest.TestCase):
+    def test_range_regex(self):
+        from radar.collectors.theater import RANGE
+        m = RANGE.search("SEP 26 – NOV 28, 2026")
+        self.assertEqual((m.group(1), m.group(4), m.group(5)), ("SEP 26", "28", "2026"))
+        self.assertTrue(RANGE.search("DEC 11, 2026 – FEB 6, 2027"))

@@ -1,7 +1,9 @@
 """Collector registry: maps a source's `method` to the function that collects it."""
 from .aggregators import (collect_allevents, collect_eventbrite_api, collect_eventbrite_web,
                           collect_songkick)
+from .gpt import collect_gpt
 from .html_llm import collect_html
+from .theater import collect_theater_run
 from .structured import (collect_dice, collect_ics, collect_jsonld, collect_localist, collect_squarespace,
                          collect_tribe)
 
@@ -18,4 +20,6 @@ METHODS = {
     "eventbrite_web": collect_eventbrite_web,
     "allevents": collect_allevents,
     "html": collect_html,
+    "gpt": collect_gpt,
+    "theater_run": collect_theater_run,
 }

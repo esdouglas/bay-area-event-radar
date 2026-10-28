@@ -90,6 +90,11 @@ VENUE_ALIASES = {
     "the back room berkeley": "The Back Room",
     "fifth street farms": "Fifth Street Farms",
     "5th street farms": "Fifth Street Farms",
+    "fifth st farms": "Fifth Street Farms",
+    "5th st farms": "Fifth Street Farms",
+    "back room": "The Back Room",
+    "the freight": "Freight & Salvage",
+    "freight": "Freight & Salvage",
     "hillside club": "Hillside Club",
     "the hillside club": "Hillside Club",
     "berkeley hillside club": "Hillside Club",
@@ -298,9 +303,35 @@ def event_id(key: str) -> str:
     return "ev_" + hashlib.sha1(key.encode()).hexdigest()[:12]
 
 
+def same_venue(a: str | None, b: str | None) -> bool:
+    """Venue names that refer to the same room despite spelling: aliases, prefixes ("Freight" /
+    "Freight & Salvage"), suffixes ("Hotel Utah Saloon"), slash pairs ("Cafe du Nord / Swedish
+    American Hall"), and street addresses glued on ("Polish Club 3040 22nd St")."""
+    ka, kb = venue_key(a), venue_key(b)
+    if not ka or not kb:
+        return False
+    if ka == kb:
+        return True
+    for x, y in ((ka, kb), (kb, ka)):
+        if len(x) >= 5 and (y.startswith(x + "-") or y.startswith(x)):
+            return True
+    ta = set(tokens(re.sub(r"\d+.*$", "", norm_venue(a) or ""))) - {"theatre", "theater", "hall", "club", "the", "sf", "bar"}
+    tb = set(tokens(re.sub(r"\d+.*$", "", norm_venue(b) or ""))) - {"theatre", "theater", "hall", "club", "the", "sf", "bar"}
+    if ta and tb and len(ta & tb) / min(len(ta), len(tb)) >= 0.99 and len(ta & tb) >= 1 and max(len(x) for x in ta & tb) >= 4:
+        return True
+    return False
+
+
+TITLE_NOISE = re.compile(r"^\(?\s*\d{1,2}(?::\d\d)?\s*(?:am|pm)\s*\)?\s*:\s*|\s+-\s+(?:berkeley|oakland|san francisco|sf|el cerrito|albany|novato|mill valley|santa cruz|petaluma|sebastopol|san jose|richmond)\s*(?:-.*)?$", re.I)
+
+
+def clean_title(t: str) -> str:
+    return clean_text(TITLE_NOISE.sub("", clean_text(t))).strip(" -–—:")
+
+
 def similar_titles(a: str, b: str) -> float:
     """Jaccard overlap of meaningful tokens, used to merge same-night listings with different titles."""
-    la, lb = tokens(a), tokens(b)
+    la, lb = tokens(clean_title(a)), tokens(clean_title(b))
     ta, tb = set(la), set(lb)
     if not ta or not tb:
         return 0.0
