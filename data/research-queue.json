@@ -1,226 +1,8 @@
 {
- "backlog": 1502,
+ "backlog": 1492,
  "count": 40,
- "generated_at": "2026-10-28T23:05:02+00:00",
+ "generated_at": "2026-10-28T23:07:25+00:00",
  "items": [
-  {
-   "city": "Berkeley",
-   "date": "2026-11-01",
-   "description": "The Freight: Windham Hill 50th Anniversary Live",
-   "fingerprint": "47c96da156ba",
-   "id": "ev_41b2fed2aac5",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
-   ],
-   "rules_score": 79.0,
-   "rules_tier": "strong",
-   "start": "2026-11-01T00:00:00-07:00",
-   "title": "Windham Hill 50th Anniversary Gathering - Concert & Conversations",
-   "url": "https://allevents.in/berkeley/windham-hill-50th-anniversary-gathering-concert-and-conversations/200030512037452",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "legacy: 50th anniversary (+14)",
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-28",
-   "description": "- Nov. 28: The Freight, Berkeley",
-   "fingerprint": "9694d18eb5bb",
-   "id": "ev_0e6e6b0f16fd",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 98.0,
-   "rules_tier": "exceptional",
-   "start": "2026-11-28T00:00:00-08:00",
-   "title": "Laurie Lewis & The Right Hands",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "seed artist: Laurie Lewis (+30)",
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+18)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-10-30",
-   "description": "- Oct. 30: Otter Opry, Monterey",
-   "fingerprint": "b4673a03e41c",
-   "id": "ev_7f90d560d4b0",
-   "other_urls": [
-    "https://sites.google.com/site/davbrown2/oldtimesf",
-    "https://sites.google.com/site/davbrown2/oldtimesf"
-   ],
-   "rules_score": 93.0,
-   "rules_tier": "exceptional",
-   "start": "2026-10-30T00:00:00-07:00",
-   "title": "Joe Newberry & April Verch",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Otter Opry, Monterey",
-   "why_rules": [
-    "seed artist: Joe Newberry (+35)",
-    "2 seed artists on the bill (+5)",
-    "listed by a taste-aligned calendar (+18)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-12",
-   "description": "George Rogers , saxophone; Graham Messer , piano; Aidan McCarthy , bass; Smith Dobson , drums Winner of the 2025 Vandoren Emerging Artist Award , George Rogers is a saxophonist, composer, and arts administrator originally from the San Francisco Bay Area, now based in New York City. His playing and composing are rooted in the jazz tradition, occasionally extending into classical, folk, and experime",
-   "fingerprint": "aa4882188516",
-   "id": "ev_463902826f67",
-   "other_urls": [],
-   "rules_score": 79.0,
-   "rules_tier": "strong",
-   "start": "2026-11-12T19:30:00-08:00",
-   "title": "George Rogers Quartet",
-   "url": "https://birdbeckett.com/event/george-rogers_2026-11-12/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "roots_adjacent: folk (+10)",
-    "jazz_core: jazz, experimental, saxophone (+27)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-12",
-   "description": "Ken Okada Group feat. YOYOKA is a San Francisco Bay Area-based jazz fusion ensemble blending Japanese and American jazz fusion traditions with modern improvisation and vibrant rhythmic interplay. Led by bassist and composer Ken Okada , the group features GRAMMY award-winning saxophonist Ben Torres , DownBeat 'Rising Star' guitarist Hristo Vitchev , four-time GRAMMY award nominee Murray Low , and i",
-   "fingerprint": "e0b025a37801",
-   "id": "ev_97300a522b7d",
-   "other_urls": [],
-   "rules_score": 78.5,
-   "rules_tier": "strong",
-   "start": "2026-11-12T19:00:00-08:00",
-   "title": "Ken Okada Group feat. YOYOKA",
-   "url": "https://www.kuumbwajazz.org/calendar/ken-okada-group-feat-yoyoka/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz, improvisation (+22)",
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2027-01-17",
-   "description": "Every 3rd Sunday 2-4 at the Starry Plough, Berkeley – a hosted onion jam – meaning a core band maintains groove and everyone is welcome to layer around. Opportunity to play the host fiddler's repertoire, playing at shred speed. A great jam for intermediate/advanced players.",
-   "fingerprint": "a054d8621784",
-   "id": "ev_432df2be2e60",
-   "other_urls": [],
-   "rules_score": 89.0,
-   "rules_tier": "strong",
-   "start": "2027-01-17T14:00:00-08:00",
-   "title": "Old Time Shred Sesh",
-   "url": "https://californiabluegrass.org/event/old-time-shred-sesh/2027-01-17/",
-   "venue": "The Starry Plough",
-   "why_rules": [
-    "roots_core: old-time, old time, fiddler (+33)",
-    "theater_core: play (+14)",
-    "intimate room: The Starry Plough (+14)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-20",
-   "description": "Nov. 20: East Bay Square Dance - Hillside Club, Berkeley; ​Band: Big Chimney Barn Dance; Caller: Jordan Ruyle; ​preceded by an old time jam",
-   "fingerprint": "a7a6afd07946",
-   "id": "ev_accecbf31981",
-   "other_urls": [
-    "https://sites.google.com/site/davbrown2/oldtimesf"
-   ],
-   "rules_score": 79.0,
-   "rules_tier": "strong",
-   "start": "2026-11-20T00:00:00-08:00",
-   "title": "East Bay Square Dance",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Hillside Club, Berkeley; ​Band: Big Chimney Barn Dance; Caller: Jordan Ruyle; ​preceded by an old time jam",
-   "why_rules": [
-    "roots_core: old-time, old time, square dance (+33)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-03",
-   "description": "- Nov. 3: The Freight, Berkeley",
-   "fingerprint": "a0b90cbbd939",
-   "id": "ev_18072512f699",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-    "https://www.jambase.com/show/dirk-powell-the-freight-20261103",
-    "https://www.jambase.com/show/dirk-powell-the-freight-20261103",
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 75.0,
-   "rules_tier": "strong",
-   "start": "2026-11-03T00:00:00-08:00",
-   "title": "Dirk & Amelia Powell",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+18)",
-    "8 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-27",
-   "description": "Annette A Aguilar , NYC Latin/Brazilian drummer with San Francisco roots, returns with her seven-piece band, Beans on the Left, including Anthony Blea on violin, Chloe Scott on flute, Murray Low on piano, Gary Brown on bass, Ricky Aguilar on congas and Mena Ramos on bata. Her New York band, StringBeans, has been a major force on the Latin Jazz scene there for years, and lately she's been working w",
-   "fingerprint": "1fcbc5440fe6",
-   "id": "ev_92de08e48b2c",
-   "other_urls": [],
-   "rules_score": 84.0,
-   "rules_tier": "strong",
-   "start": "2026-12-27T19:30:00-08:00",
-   "title": "Annette A Aguilar Beans on the Left",
-   "url": "https://birdbeckett.com/event/beans-on-the-left_2026-12-27/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "roots_adjacent: roots (+10)",
-    "jazz_core: jazz (+18)",
-    "legacy: legendary (+14)",
-    "intimate room: Bird & Beckett (+14)"
-   ]
-  },
-  {
-   "city": "Oakland, CA",
-   "date": "2026-11-28",
-   "description": "Come join Robin Fischer and Rowan McCallister and their talented friends every fourth Saturday at the friendliest pub in Oakland! Old Time tunes, drinks, and food – kid friendly too.",
-   "fingerprint": "2ff23bae7628",
-   "id": "ev_b7497a38f3bd",
-   "other_urls": [
-    "https://www.bgsignal.com/concerts--festivals.html",
-    "https://www.bgsignal.com/concerts--festivals.html"
-   ],
-   "rules_score": 79.0,
-   "rules_tier": "strong",
-   "start": "2026-11-28T14:00:00-08:00",
-   "title": "Bearcat Stringband and Friends at Cato's Alehouse",
-   "url": "https://californiabluegrass.org/event/bearcat-stringband-and-friends-at-catos-alehouse/2026-11-28/",
-   "venue": "Cato's Alehouse",
-   "why_rules": [
-    "roots_core: old-time, old time, stringband (+33)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
   {
    "city": "San Francisco",
    "date": "2026-11-20",
@@ -880,6 +662,223 @@
     "booking signal: The Back Room (+8)",
     "listed by a taste-aligned calendar (+12)",
     "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2026-12-02",
+   "description": "\"Raw, underground, and chaotic...one of modern jazz music's most audacious futurists.\" – Pitchfork Revered by living icons and underground tastemakers, Kassa Overall began his career behind the drum kit. At the Oberlin Conservatory of Music, Overall spent his days studying jazz drums and music theory, and his evenings making beats in his dorm room, often staying home from parties to pull all-night",
+   "fingerprint": "556f254199fd",
+   "id": "ev_3fd3b077d537",
+   "other_urls": [],
+   "rules_score": 74.0,
+   "rules_tier": "strong",
+   "start": "2026-12-02T19:00:00-08:00",
+   "title": "Kassa Overall",
+   "url": "https://www.kuumbwajazz.org/calendar/kassa-overall/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "theater_core: musical (+14)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "Petaluma",
+   "date": "2026-11-16",
+   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
+   "fingerprint": "b4d5d0ed844c",
+   "id": "ev_084d16ec6dea",
+   "other_urls": [],
+   "rules_score": 71.0,
+   "rules_tier": "strong",
+   "start": "2026-11-16T18:00:00-08:00",
+   "title": "Garage Jam",
+   "url": "https://californiabluegrass.org/event/garage-jam/2026-11-16/",
+   "venue": "Out West Garage",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "roots_adjacent: folk (+10)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Mill Valley",
+   "date": "2026-11-22",
+   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+   "fingerprint": "c3d1c064c79b",
+   "id": "ev_1bf8cb57892f",
+   "other_urls": [],
+   "rules_score": 72.0,
+   "rules_tier": "strong",
+   "start": "2026-11-22T12:00:00-08:00",
+   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
+   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2026-11-22/",
+   "venue": "Sweetwater Music Hall",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-04",
+   "description": "Buy Tickets on Humanitix - International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Wednesday November 4th 2026. Find event information.",
+   "fingerprint": "ff9999dc15c8",
+   "id": "ev_4c7ac8c8c69f",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey",
+    "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey",
+    "https://www.jambase.com/show/alexandr-misko-the-back-room-20261104"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2026-11-04T20:30:00-08:00",
+   "title": "International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey",
+   "url": "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey2ndshow",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "5 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-05",
+   "description": "Roopa Mahadevan, vocals; Erika Oba, piano; Chris Trinidad, bass; Keven Amos, drums \"exploring diaspora through music\" Featuring some of the busiest jazz and crossover musicians on the Bay Area scene, ATOM Ensemble is an exciting new project formed in 2025 over a series of residencies produced by Wyldflowr Arts/Rootstock Arts in Oakland. Vocalist Roopa Mahadevan, pianist and flautist Erika Oba, bas",
+   "fingerprint": "2b6a88003277",
+   "id": "ev_5ef1ec6dd16e",
+   "other_urls": [],
+   "rules_score": 74.0,
+   "rules_tier": "strong",
+   "start": "2026-12-05T19:30:00-08:00",
+   "title": "ATOM Ensemble (Amos/Trinidad/Oba/Mahadevan)",
+   "url": "https://birdbeckett.com/event/atom-ensemble_2026-12-05/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "theater_core: musical (+14)",
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-05",
+   "description": "Squirrel Flower at The Chapel at 2026-11-05T20:00:00-0800",
+   "fingerprint": "9b9024a54b5a",
+   "id": "ev_dde4f1dd40b5",
+   "other_urls": [
+    "https://thechapelsf.com/calendar/",
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://wl.eventim.us/event/squirrel-flower/691286?afflky=TheChapel"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2026-11-05T20:00:00-08:00",
+   "title": "Squirrel Flower, Sour Widows",
+   "url": "https://www.songkick.com/concerts/43209734-squirrel-flower-at-chapel",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Mill Valley",
+   "date": "2026-11-06",
+   "description": "Sweetwater Music Hall: KALX Co-Announce: Southern Culture On The Skids, Frankie & The Pool Boys",
+   "fingerprint": "6d8a034f7367",
+   "id": "ev_8d1e2305607e",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://www.jambase.com/show/southern-culture-on-the-skids-sweetwater-music-hall-20261106",
+    "https://www.hickswithsticks.com/calendar/",
+    "https://www.hickswithsticks.com/calendar/"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2026-11-06T20:00:00-08:00",
+   "title": "KALX Co-Announce: Southern Culture On The Skids, Frankie & The Pool Boys",
+   "url": "https://sweetwatermusichall.org/event/southern-culture-on-the-skids-with-frankie-the-pool-boys/sweetwater-music-hall/mill-valley-california/",
+   "venue": "Sweetwater Music Hall",
+   "why_rules": [
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "5 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-15",
+   "description": "Samba Jazz from Sao Paulo Brazil The hypnotic energy of Dani & Debora Gurgel Quarteto comes from the deep musical connection between Dani Gurgel and Debora Gurgel. Dani's syncopated scat singing blends with Debora's pulsating piano, weaving Brazilian charm and jazz improvisation into a vibrant and original sound. The group — affectionately known as DDG4 [...]",
+   "fingerprint": "0b24bbefed04",
+   "id": "ev_f28970a1544d",
+   "other_urls": [],
+   "rules_score": 70.5,
+   "rules_tier": "strong",
+   "start": "2026-11-15T19:00:00-08:00",
+   "title": "Dani & Debora Gurgel Quarteto feat. Sandy Cressman & Natalie Cressman",
+   "url": "https://keysjazzbistro.com/event/dani-debora-gurgel-quarteto-feat-sandy-cressman-natalie-cressman/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz, improvisation (+22)",
+    "theater_core: musical (+14)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2027-01-15",
+   "description": "Jan. 15: East Bay Square Dance - Hillside Club, Berkeley; ​Band: Round Top Stringband; Caller: Robin Fisher; ​preceded by an old time jam",
+   "fingerprint": "42b514146837",
+   "id": "ev_8a46673c83b1",
+   "other_urls": [],
+   "rules_score": 80.5,
+   "rules_tier": "strong",
+   "start": "2027-01-15T00:00:00-08:00",
+   "title": "East Bay Square Dance",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Hillside Club, Berkeley; ​Band: Round Top Stringband; Caller: Robin Fisher; ​preceded by an old time jam",
+   "why_rules": [
+    "roots_core: old-time, old time, stringband, square dance (+38)",
+    "listed by a taste-aligned calendar (+18)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-08",
+   "description": "Buy Tickets on Humanitix - Pierre Bensusan - The Infinite Guitar Tour 2026 hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 8th 2026. Find event information.",
+   "fingerprint": "5347fc8fc0ae",
+   "id": "ev_74dc47628519",
+   "other_urls": [
+    "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026",
+    "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026",
+    "https://www.jambase.com/show/pierre-bensusan-the-back-room-20261108",
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2026-11-08T19:30:00-08:00",
+   "title": "Pierre Bensusan - The Infinite Guitar Tour 2026",
+   "url": "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026-2",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "5 independent sources (+12)"
    ]
   }
  ]
