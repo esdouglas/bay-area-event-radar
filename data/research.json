@@ -55,6 +55,23 @@
       "Band members not identified this run; also listed on the Dan Hicks fan calendar (hickswithsticks.com), which may mean former Hicks associates; unconfirmed."
     ]
   },
+  "ev_084d16ec6dea": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: open, friendly bluegrass circle... first and third Monday of every month, from 6 to 8 pm... straight-up traditional bluegrass.",
+        "url": "https://californiabluegrass.org/event/garage-jam/2026-11-16/"
+      }
+    ],
+    "fingerprint": "b4d5d0ed844c",
+    "fit": 28,
+    "performers": [],
+    "reason": "An open traditional bluegrass picking circle in Petaluma, first and third Mondays. Participatory jam for players, not a performance.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": []
+  },
   "ev_0d1d9d9c1203": {
     "evidence": [
       {
@@ -97,40 +114,56 @@
   "ev_0e6e6b0f16fd": {
     "evidence": [
       {
-        "finding": "Nov. 28: Laurie Lewis & The Right Hands - The Freight, Berkeley. Also Nov 29 Occidental Center for the Arts; Nov 6 Laurie Lewis & Nina Gerber at The Side Door, Sacramento.",
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Laurie Lewis with Brandon Godman, Haysee Ciaccio, Evan Ward, and Nina Gerber. Nov. 28: The Freight, Berkeley.",
         "url": "https://www.bgsignal.com/concerts--festivals.html"
       },
       {
-        "finding": "Grammy Award-winning; twice voted IBMA Female Vocalist of the Year; performs with mandolinist Tom Rozum and her bluegrass band the Right Hands.",
-        "url": "https://hardlystrictlybluegrass.com/artist/laurie-lewis-the-right-hands/"
+        "finding": "Search result title: Sonoma County Bluegrass & Folk Festival brings Laurie Lewis, Nina Gerber to Sebastopol (Feb 2026).",
+        "url": "https://www.pressdemocrat.com/2026/02/25/laurie-lewis-nina-gerber-headline-bluegrass-folk-fest-in-sebastopol/"
       },
       {
-        "finding": "Lewis co-programs the Freight's Berkeley Bluegrass Festival with the Freight's artistic director.",
-        "url": "https://riffmagazine.com/news/laurie-lewis-curates-6th-berkeley-bluegrass-festival/"
+        "finding": "From prior research: Grammy Award-winning; twice voted IBMA Female Vocalist of the Year.",
+        "url": "https://hardlystrictlybluegrass.com/artist/laurie-lewis-the-right-hands/"
       }
     ],
-    "fingerprint": "9694d18eb5bb",
-    "fit": 80,
+    "fingerprint": "b9a05e637401",
+    "fit": 82,
     "performers": [
       {
-        "known_for": "Bluegrass singer/fiddler, Grammy winner, 2x IBMA Female Vocalist of the Year",
+        "known_for": "Bluegrass singer/fiddler, Grammy winner, 2x IBMA Female Vocalist",
         "name": "Laurie Lewis",
         "significance": "major"
       },
       {
-        "known_for": "Mandolin, Lewis's longtime partner",
-        "name": "Tom Rozum",
+        "known_for": "Acoustic guitarist, frequent Lewis duo partner",
+        "name": "Nina Gerber",
         "significance": "notable"
+      },
+      {
+        "known_for": "Fiddler (inference: role not stated in listing)",
+        "name": "Brandon Godman",
+        "significance": "local"
+      },
+      {
+        "known_for": "Band member, role not stated",
+        "name": "Haysee Ciaccio",
+        "significance": "local"
+      },
+      {
+        "known_for": "Band member, role not stated",
+        "name": "Evan Ward",
+        "significance": "local"
       }
     ],
-    "reason": "Laurie Lewis, a Grammy winner twice voted IBMA Female Vocalist of the Year, with her bluegrass band the Right Hands and longtime partner Tom Rozum on mandolin. She is a cornerstone of West Coast bluegrass and a curator of the Freight's Berkeley Bluegrass Festival. A Thanksgiving-weekend hometown show at the Freight.",
-    "researched_at": "2026-10-29T00:10:00+00:00",
+    "reason": "Laurie Lewis, Grammy winner and twice IBMA Female Vocalist of the Year, a pillar of West Coast bluegrass and co-curator of the Freight's Berkeley Bluegrass Festival. This listing now names a specific band: Brandon Godman, Haysee Ciaccio, Evan Ward and longtime duo partner Nina Gerber on guitar. A Thanksgiving-weekend hometown show at the Freight.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
     "tier": "strong",
     "uncertainties": [
-      "Right Hands roster for this date not confirmed.",
-      "Thanksgiving-weekend tradition is inference from a No Depression search-result title, not confirmed."
+      "Listing re-fingerprinted because the lineup changed; earlier listing said Laurie Lewis & The Right Hands, so Tom Rozum may not appear.",
+      "Instruments for Godman, Ciaccio and Ward not confirmed.",
+      "Freight page not fetched."
     ]
   },
   "ev_1089fd78f2a2": {
@@ -204,6 +237,25 @@
     "tier": "strong",
     "uncertainties": [
       "Freight page not checked; time and price not confirmed."
+    ]
+  },
+  "ev_1bf8cb57892f": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Live mic, open bluegrass jam on the fourth Sunday of the month... free admittance for all ages.",
+        "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2026-11-22/"
+      }
+    ],
+    "fingerprint": "c3d1c064c79b",
+    "fit": 28,
+    "performers": [],
+    "reason": "A monthly open-mic bluegrass jam on the Sweetwater stage for intermediate and advanced players with a backing band. Free and participatory, not a concert.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Support band not named."
     ]
   },
   "ev_1d3aee106307": {
@@ -353,6 +405,68 @@
       "Presenter currently says 3pm but also offers a pre-show dinner; confirm time before travel. Ticket checkout not inspected."
     ]
   },
+  "ev_2f32e8713f2d": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: The Freight: Maryna Krut (Oct 29).",
+        "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
+      },
+      {
+        "finding": "Search result: Vancouver Folk Music Festival 2024 artist page.",
+        "url": "https://thefestival.bc.ca/artists/krut/"
+      },
+      {
+        "finding": "Search result: WOMEX artist page for Maryna Krut.",
+        "url": "https://www.womex.com/virtual/riot_artists/maryna_krut"
+      }
+    ],
+    "fingerprint": "13789202edf7",
+    "fit": 54,
+    "performers": [
+      {
+        "known_for": "Ukrainian bandura singer-songwriter",
+        "name": "Maryna Krut",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Maryna Krut is a Ukrainian singer and bandura player who has played folk festivals including Vancouver, Calgary and Hillside, plus WOMEX. Tradition-based and unusual, at the Freight. The listed date, Oct 29, has already passed.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Date is past (Oct 29)."
+    ]
+  },
+  "ev_2f4e443442f0": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: acclaimed composer and pianist... performed with distinguished artists including Terri Lyne Carrington and Anthony Davis... Birdland and the Village Vanguard. As a theatre composer...",
+        "url": "https://www.kuumbwajazz.org/calendar/james-gordon-williams/"
+      },
+      {
+        "finding": "Search result: UCLA Ethnomusicology Review profile for James Gordon Williams.",
+        "url": "https://ethnomusicologyreview.ucla.edu/user/192"
+      }
+    ],
+    "fingerprint": "050a134b0a0e",
+    "fit": 62,
+    "performers": [
+      {
+        "known_for": "Jazz pianist/composer, scholar",
+        "name": "James Gordon Williams",
+        "significance": "notable"
+      }
+    ],
+    "reason": "James Gordon Williams is a pianist-composer who, per the listing, has performed with Terri Lyne Carrington and Anthony Davis and played Birdland and the Village Vanguard; he also writes for theater and has an academic profile in ethnomusicology (UCLA, Syracuse). Creative, scholarly jazz in an intimate room.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Band personnel unknown."
+    ]
+  },
   "ev_3787d335a134": {
     "evidence": [
       {
@@ -419,6 +533,33 @@
     "ticket_status": "unverified",
     "tier": "low",
     "uncertainties": []
+  },
+  "ev_3fd3b077d537": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: 'Raw, underground, and chaotic...one of modern jazz music's most audacious futurists.' - Pitchfork. Began his career behind the drum kit... Oberlin Conservatory.",
+        "url": "https://www.kuumbwajazz.org/calendar/kassa-overall/"
+      }
+    ],
+    "fingerprint": "556f254199fd",
+    "fit": 72,
+    "performers": [
+      {
+        "known_for": "Jazz drummer/producer, jazz-hip-hop fusion",
+        "name": "Kassa Overall",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Kassa Overall is a drummer-producer who fuses free-leaning jazz and hip-hop; Pitchfork calls him 'one of modern jazz music's most audacious futurists', and he records for Warp (background knowledge). He came up studying jazz drums at Oberlin. Adventurous, current jazz in the roughly 200-seat Kuumbwa.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Band lineup not confirmed.",
+      "Label and collaborators are background knowledge.",
+      "Beat-driven production may be less 'intimate improvised' than he prefers."
+    ]
   },
   "ev_41b2fed2aac5": {
     "evidence": [
@@ -523,6 +664,37 @@
       "Open jam, no featured artists."
     ]
   },
+  "ev_4c7ac8c8c69f": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey hosted by The Back Room. Wednesday November 4th 2026.",
+        "url": "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey2ndshow"
+      }
+    ],
+    "fingerprint": "ff9999dc15c8",
+    "fit": 34,
+    "performers": [
+      {
+        "known_for": "Fingerstyle guitarist",
+        "name": "Alexandr Misko",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Guest, not researched successfully",
+        "name": "Forest Bailey",
+        "significance": "none"
+      }
+    ],
+    "reason": "Alexandr Misko is a Russian-born percussive fingerstyle guitarist with a large online following (background knowledge); Forest Bailey opens. Virtuosic solo-guitar showmanship in a tiny room, but not roots tradition or improvised jazz.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Two shows that night (a '2ndshow' URL exists).",
+      "Forest Bailey unidentified."
+    ]
+  },
   "ev_5254d51b280d": {
     "evidence": [
       {
@@ -624,6 +796,46 @@
       "Running order of the three acts unclear."
     ]
   },
+  "ev_5ef1ec6dd16e": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Roopa Mahadevan, vocals; Erika Oba, piano; Chris Trinidad, bass; Keven Amos, drums 'exploring diaspora through music'... formed in 2025 over a series of residencies produced by Wyldflowr Arts/Rootstock Arts in Oakland.",
+        "url": "https://birdbeckett.com/event/atom-ensemble_2026-12-05/"
+      }
+    ],
+    "fingerprint": "2b6a88003277",
+    "fit": 60,
+    "performers": [
+      {
+        "known_for": "Vocalist",
+        "name": "Roopa Mahadevan",
+        "significance": "local"
+      },
+      {
+        "known_for": "Pianist/flautist",
+        "name": "Erika Oba",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bassist",
+        "name": "Chris Trinidad",
+        "significance": "local"
+      },
+      {
+        "known_for": "Drummer",
+        "name": "Keven Amos",
+        "significance": "local"
+      }
+    ],
+    "reason": "ATOM Ensemble is a new Bay Area jazz-crossover quartet (vocalist Roopa Mahadevan, pianist-flautist Erika Oba, bassist Chris Trinidad, drummer Keven Amos) formed in 2025 through Wyldflowr Arts / Rootstock Arts residencies in Oakland, 'exploring diaspora through music'. Busy local improvisers in the tiny Bird & Beckett bookstore room.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "No independent review found; how free or composed the music is is unknown."
+    ]
+  },
   "ev_632d4268583b": {
     "evidence": [
       {
@@ -662,6 +874,65 @@
       "2027-01-11 date not confirmed from a fetched primary page.",
       "Ticket status for 2027 unknown; prior date sold out (inference: buy early).",
       "Same duo also plays The Chapel SF on 2027-01-10 (ev_77216bb9cb0c)."
+    ]
+  },
+  "ev_693c1c27e9e5": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Born in Venezuela... graduating from Berklee College of Music, to winning the 2019 Latin GRAMMY Award for Best New Artist... debut, Voy, garnered praise from NPR.",
+        "url": "https://www.kuumbwajazz.org/calendar/nella/"
+      }
+    ],
+    "fingerprint": "3adb56d3b15f",
+    "fit": 48,
+    "performers": [
+      {
+        "known_for": "Venezuelan singer, Latin Grammy Best New Artist 2019",
+        "name": "Nella",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Nella is a Venezuelan singer, Berklee graduate and 2019 Latin Grammy Best New Artist; NPR praised her debut Voy. Rooted in Venezuelan and Spanish song traditions, a strong voice in an intimate room, but outside his core lanes.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Song-tradition roots are inference."
+    ]
+  },
+  "ev_6c992bfec563": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: The Freight: Wake the Dead (Oct 31).",
+        "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
+      },
+      {
+        "finding": "Search result title: The World's Only Celtic All-Star Grateful Dead Jam Band.",
+        "url": "https://www.marinarts.org/print/event/25388/"
+      },
+      {
+        "finding": "Search result: Freight ticket URL for Wake the Dead dated 2025-11-01 (suggests a recurring show; inference).",
+        "url": "https://secure.thefreight.org/15351/15352-wake-dead-251101"
+      }
+    ],
+    "fingerprint": "3db9687eb1c2",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "Celtic Grateful Dead band",
+        "name": "Wake the Dead",
+        "significance": "local"
+      }
+    ],
+    "reason": "Wake the Dead bills itself as 'the world's only Celtic all-star Grateful Dead jam band', Bay Area Irish and Scottish trad players setting Dead songs to reels and jigs; it seems to be a recurring Halloween-season Freight show. Closer to a tribute concept, but played by real trad musicians.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Current lineup unknown.",
+      "Reels-and-jigs description is background knowledge."
     ]
   },
   "ev_6d9bd99ae897": {
@@ -782,6 +1053,59 @@
       "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale.",
       "Date conflict: Nov 11 (Bluegrass Signal, Bill Evans) vs Nov 18 (CBA page, likely 2025)."
     ]
+  },
+  "ev_74dc47628519": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Pierre Bensusan - The Infinite Guitar Tour 2026 hosted by The Back Room. Sunday November 8th 2026.",
+        "url": "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026-2"
+      }
+    ],
+    "fingerprint": "5347fc8fc0ae",
+    "fit": 58,
+    "performers": [
+      {
+        "known_for": "Acoustic fingerstyle guitarist, DADGAD pioneer",
+        "name": "Pierre Bensusan",
+        "significance": "major"
+      }
+    ],
+    "reason": "Pierre Bensusan is a French-Algerian acoustic guitarist, a DADGAD fingerstyle pioneer with a career going back to the mid-1970s and roots in French and Celtic folk (background knowledge). Seeing a guitarist of his standing in the roughly 50-seat Back Room is unusual.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Career details are background knowledge.",
+      "A '-2' URL suggests a second show was added."
+    ]
+  },
+  "ev_75119a10c707": {
+    "evidence": [
+      {
+        "finding": "Search result: Wikipedia article 'Token (rapper)'.",
+        "url": "https://en.wikipedia.org/wiki/Token_(rapper)"
+      },
+      {
+        "finding": "Search result title: Token I'm Leaving Soon Tour, 01 Nov 2026.",
+        "url": "https://ma.to/event/token-im-leaving-soon-tour-01-nov-2026"
+      }
+    ],
+    "fingerprint": "59b0f3b0c004",
+    "fit": 8,
+    "performers": [
+      {
+        "known_for": "Rapper",
+        "name": "Token",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Token is a Boston-area rapper on his 'I'm Leaving Soon' tour. Hip-hop, not a fit.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": []
   },
   "ev_768c7f638f49": {
     "evidence": [
@@ -944,6 +1268,35 @@
       "An SFJAZZ date may exist as an alternative; unverified."
     ]
   },
+  "ev_7f86de63cbe5": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Oct. 31 (2 pm): Bearcat Stringband - Cato's Ale House, Oakland.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Search result: CBA band page for Bearcat Stringband.",
+        "url": "https://californiabluegrass.org/band/bearcat-stringband/"
+      }
+    ],
+    "fingerprint": "bf3c2e2d54c2",
+    "fit": 52,
+    "performers": [
+      {
+        "known_for": "Bay Area old-time stringband",
+        "name": "Bearcat Stringband",
+        "significance": "local"
+      }
+    ],
+    "reason": "Bearcat Stringband is a Bay Area old-time band with a California Bluegrass Association band page, playing a 2pm Halloween afternoon set at Cato's Ale House in Oakland. Squarely his genre in a casual pub setting; members not identified.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Members not identified."
+    ]
+  },
   "ev_7f90d560d4b0": {
     "evidence": [
       {
@@ -1011,6 +1364,31 @@
     "uncertainties": [
       "Third trio member (drummer) not identified.",
       "Two-night run; both nights listed separately."
+    ]
+  },
+  "ev_86b8feff18ee": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Memphis style electric blues... reminiscent of the legendary BB King and Albert King... burst onto the blues scene in 1987.",
+        "url": "https://www.kuumbwajazz.org/calendar/chris-cain-band-4/"
+      }
+    ],
+    "fingerprint": "633d9c7ea22a",
+    "fit": 38,
+    "performers": [
+      {
+        "known_for": "Electric blues guitarist/singer",
+        "name": "Chris Cain",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Chris Cain is a San Jose electric blues guitarist and singer in the BB King / Albert King mold, active since his 1987 debut per the listing. A respected regional blues act at Kuumbwa, but Memphis-style electric blues is outside Erik's roots and jazz focus.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Rules score inflated by 'jazz' and 'legendary' keywords."
     ]
   },
   "ev_8776af6dd60c": {
@@ -1114,6 +1492,101 @@
       "Start time and price not confirmed; Ashkenaz page not checked."
     ]
   },
+  "ev_8a46673c83b1": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Jan. 15: East Bay Square Dance - Hillside Club, Berkeley; Band: Round Top Stringband; Caller: Robin Fisher; preceded by an old time jam.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Search result title: East Bay Square Dance with Round Top Stringband, caller Robin Fischer.",
+        "url": "https://www.eventbrite.com/e/1992455311472"
+      }
+    ],
+    "fingerprint": "42b514146837",
+    "fit": 52,
+    "performers": [
+      {
+        "known_for": "Bay Area old-time dance band",
+        "name": "Round Top Stringband",
+        "significance": "local"
+      },
+      {
+        "known_for": "Square dance caller",
+        "name": "Robin Fischer",
+        "significance": "local"
+      }
+    ],
+    "reason": "The monthly East Bay Square Dance at Berkeley's Hillside Club with the Round Top Stringband playing live old-time and caller Robin Fischer, preceded by an old-time jam. Participatory, but a live stringband dance is part of the old-time culture he follows.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Caller name spelled Fisher in one source, Fischer in another.",
+      "Eventbrite date not confirmed as Jan 15."
+    ]
+  },
+  "ev_8d1e2305607e": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Sweetwater Music Hall: KALX Co-Announce: Southern Culture On The Skids, Frankie & The Pool Boys, Nov 6.",
+        "url": "https://sweetwatermusichall.org/event/southern-culture-on-the-skids-with-frankie-the-pool-boys/sweetwater-music-hall/mill-valley-california/"
+      }
+    ],
+    "fingerprint": "6d8a034f7367",
+    "fit": 46,
+    "performers": [
+      {
+        "known_for": "Rockabilly/swamp-rock trio",
+        "name": "Southern Culture on the Skids",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Opener, not researched",
+        "name": "Frankie & The Pool Boys",
+        "significance": "none"
+      }
+    ],
+    "reason": "Southern Culture on the Skids is a North Carolina cult trio playing greasy rockabilly, surf and swamp-rock since the 1980s (background knowledge). Countercultural Southern roots-rock with a strong live reputation, at the mid-size Sweetwater. Fun more than essential for his taste.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Band history is background knowledge."
+    ]
+  },
+  "ev_90bf874e3242": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: The Baguette Quartette hosted by The Back Room, 1984 Bonita Ave, Berkeley. Friday October 30th 2026.",
+        "url": "https://events.humanitix.com/the-baguette-quartette"
+      },
+      {
+        "finding": "Search result: SF Silent Film Festival page mentions the band (contents not read).",
+        "url": "https://silentfilm.org/?p=3063"
+      }
+    ],
+    "fingerprint": "319acf46c0dc",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Bay Area French musette band",
+        "name": "The Baguette Quartette",
+        "significance": "local"
+      }
+    ],
+    "reason": "The Baguette Quartette is a long-running Bay Area band playing French musette and cafe music of the 1920s to 1950s (background knowledge). Charming, tradition-rooted accordion music in the 50-seat Back Room, tonight. Adjacent to his traditions rather than central.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Genre description is background knowledge.",
+      "Show is tonight; lineup not checked."
+    ]
+  },
   "ev_92de08e48b2c": {
     "evidence": [
       {
@@ -1136,6 +1609,45 @@
     "ticket_status": "unverified",
     "tier": "possible",
     "uncertainties": []
+  },
+  "ev_954539cf75b5": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Blues & Jazz Singers Jam Session with Sam Rudin & Pamela Rose hosted by The Back Room. Saturday November 7th 2026.",
+        "url": "https://events.humanitix.com/blues-and-jazz-singers-jam-session-nov7"
+      },
+      {
+        "finding": "Search result title: Back pOrchEstra, Shelter-in-Place-inspired All-Star Band, Climbs Alt County Chart and Announces Spring Tour.",
+        "url": "https://www.gratefulweb.com/articles/back-porchestra-shelter-in-place-inspired-all-star-band-climbs-alt-county-chart-and-announces-spring-tour/"
+      },
+      {
+        "finding": "Search result: Humanitix page for Back pOrchEstra Nov 7.",
+        "url": "https://events.humanitix.com/back-porchestra-nov7"
+      }
+    ],
+    "fingerprint": "653bfd825f2a",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "Bay Area all-star alt-country band",
+        "name": "Back pOrchEstra",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bay Area jazz/blues vocalist",
+        "name": "Pamela Rose",
+        "significance": "local"
+      }
+    ],
+    "reason": "A double bill at the Back Room: a 3pm singers' jam session hosted by Sam Rudin and Pamela Rose (participatory), then at 8pm the Back pOrchEstra, an all-star alt-country band formed during shelter-in-place that reached the Alt Country chart. The evening set is the draw; members not confirmed.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Back pOrchEstra members not identified.",
+      "Two separately ticketed events merged in one listing (inference from separate URLs)."
+    ]
   },
   "ev_96d043c0de6f": {
     "evidence": [
@@ -1201,6 +1713,62 @@
     "tier": "possible",
     "uncertainties": [
       "YOYOKA's role not stated in captured text."
+    ]
+  },
+  "ev_9d01fe02e71a": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Oct. 29: Bloomfield Bluegrass Band - Willowbrook Ale House, Petaluma.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      }
+    ],
+    "fingerprint": "b7930f7b37ce",
+    "fit": 30,
+    "performers": [
+      {
+        "known_for": "Unidentified local band",
+        "name": "Bloomfield Bluegrass Band",
+        "significance": "none"
+      }
+    ],
+    "reason": "A local bluegrass band at a Petaluma ale house. Searches found nothing on the Bloomfield Bluegrass Band itself, and the date (Oct 29) has passed.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "Members unknown.",
+      "Date is past."
+    ]
+  },
+  "ev_a1b0f4baa257": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Kilowatt: Acorn & Company, Northern Disconnection (Nov 1).",
+        "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
+      }
+    ],
+    "fingerprint": "957c5c824483",
+    "fit": 35,
+    "performers": [
+      {
+        "known_for": "Unidentified",
+        "name": "Acorn & Company",
+        "significance": "none"
+      },
+      {
+        "known_for": "Unidentified",
+        "name": "Northern Disconnection",
+        "significance": "none"
+      }
+    ],
+    "reason": "A 'Funky Folk Night' at Kilowatt in the Mission with Acorn & Company and Northern Disconnection. Searches found nothing on either band, so who they are is unresolved.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "Both bands unidentified."
     ]
   },
   "ev_a2360c1639f0": {
@@ -1628,6 +2196,40 @@
       "Unknown whether Pete Escovedo appears."
     ]
   },
+  "ev_c78de75964d1": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Sam's Corner w/ Jeremy Steinkoler & Joe Kyle Jr. hosted by The Back Room. Sunday November 1st 2026.",
+        "url": "https://events.humanitix.com/sams-corner-nov1"
+      },
+      {
+        "finding": "Search result title: Sam's Corner with Sam Rudin, Jeremy Steinkoler, Sam Bevan, and special guest Mads Tolling.",
+        "url": "https://events.humanitix.com/sams-corner-nov23"
+      }
+    ],
+    "fingerprint": "ed3d7682cdd8",
+    "fit": 36,
+    "performers": [
+      {
+        "known_for": "Bay Area drummer/educator (background)",
+        "name": "Jeremy Steinkoler",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bay Area musician, role not stated",
+        "name": "Joe Kyle Jr.",
+        "significance": "local"
+      }
+    ],
+    "reason": "Sam's Corner is the Back Room's recurring jazz-standards hang hosted by owner Sam Rudin; this edition features drummer Jeremy Steinkoler and Joe Kyle Jr. A friendly local jazz evening, not the adventurous improvised jazz he looks for.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Style of the series is inference from the host and series name."
+    ]
+  },
   "ev_d6d17b18a64e": {
     "evidence": [
       {
@@ -1681,6 +2283,74 @@
     "uncertainties": [
       "No primary page found; cast and time unknown.",
       "Exact date within Nov 2-8 week unconfirmed."
+    ]
+  },
+  "ev_dddf8f6141dc": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: 'Aranda's low, sonorous voice, lifted by haunting backing vocals... gorgeously-textured musical layers.' - AmericanaUK",
+        "url": "https://ranchonicasio.com/event/jacob-aranda-6/"
+      },
+      {
+        "finding": "Search result: Jacob Aranda, War Planes, Mid Heaven item page.",
+        "url": "https://midheaven.com/item/jacob-aranda/war-planes"
+      },
+      {
+        "finding": "Search result title: KQED, Jacob Aranda, Dream of Mexico.",
+        "url": "https://kqed.org/news/11958651/jacob-aranda-dream-of-mexico"
+      },
+      {
+        "finding": "Search result title: country singers and guitar slingers night at the Plough and Stars, SF.",
+        "url": "https://sf.funcheap.com/country-singers-guitar-slingers-plough-stars-sf/"
+      }
+    ],
+    "fingerprint": "602deb2f856c",
+    "fit": 56,
+    "performers": [
+      {
+        "known_for": "Bay Area country-folk singer-songwriter",
+        "name": "Jacob Aranda",
+        "significance": "local"
+      }
+    ],
+    "reason": "Jacob Aranda is a Bay Area singer-songwriter whose LP War Planes came out on the Mid Heaven label; KQED premiered his song 'Dream of Mexico' and he plays local country-folk bills like the Plough and Stars and the Ivy Room. AmericanaUK praises his 'low, sonorous voice'. A plausible countercultural-Americana discovery at Rancho Nicasio.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Rules 'musical' hit is a false positive.",
+      "Search results are titles only; band lineup unknown."
+    ]
+  },
+  "ev_dde4f1dd40b5": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Squirrel Flower at The Chapel at 2026-11-05T20:00.",
+        "url": "https://www.songkick.com/concerts/43209734-squirrel-flower-at-chapel"
+      }
+    ],
+    "fingerprint": "9b9024a54b5a",
+    "fit": 30,
+    "performers": [
+      {
+        "known_for": "Indie folk-rock songwriter",
+        "name": "Squirrel Flower",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Bay Area indie rock band",
+        "name": "Sour Widows",
+        "significance": "local"
+      }
+    ],
+    "reason": "Squirrel Flower (Ella O'Connor Williams) makes indie folk-rock, with Bay Area band Sour Widows (background knowledge). Good indie bill at the Chapel, but outside his traditional roots and jazz lanes.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Genre details are background knowledge."
     ]
   },
   "ev_df0376b8d3c8": {
@@ -1974,6 +2644,46 @@
       "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
     ]
   },
+  "ev_f28970a1544d": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Samba Jazz from Sao Paulo Brazil... Dani's syncopated scat singing blends with Debora's pulsating piano... affectionately known as DDG4.",
+        "url": "https://keysjazzbistro.com/event/dani-debora-gurgel-quarteto-feat-sandy-cressman-natalie-cressman/"
+      }
+    ],
+    "fingerprint": "0b24bbefed04",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Brazilian jazz vocalist",
+        "name": "Dani Gurgel",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Brazilian jazz pianist",
+        "name": "Debora Gurgel",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Bay Area Brazilian-jazz vocalist (background)",
+        "name": "Sandy Cressman",
+        "significance": "local"
+      },
+      {
+        "known_for": "Trombonist/singer, Trey Anastasio Band (background)",
+        "name": "Natalie Cressman",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Dani & Debora Gurgel Quarteto (DDG4) is a Sao Paulo samba-jazz group led by scat singer Dani Gurgel and her mother, pianist Debora Gurgel, joined by Bay Area Brazilian-jazz vocalist Sandy Cressman and trombonist-singer Natalie Cressman. A rare Bay Area visit in a small jazz room; joyful rather than exploratory.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Mother-daughter relationship and Cressman credits are background knowledge."
+    ]
+  },
   "ev_f65c6ef37dd0": {
     "evidence": [
       {
@@ -2072,6 +2782,41 @@
     "uncertainties": [
       "Exact date not confirmed from a fetched page.",
       "Participatory sessions, not concerts."
+    ]
+  },
+  "ev_f773edf5faff": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Jake Xerxes Fussell, Felton Music Hall, Nov 12.",
+        "url": "http://www.prekindle.com/event/38882-jake-xerxes-fussell-felton"
+      },
+      {
+        "finding": "Search result URL/title: Jake Xerxes Fussell, Great American Music Hall, 2026-11-11.",
+        "url": "https://www.jambase.com/show/jake-xerxes-fussell-great-american-music-hall-20261111"
+      },
+      {
+        "finding": "Search result title: Jake Xerxes Fussell reveals new album details, shares first song 'Rock Island Line'.",
+        "url": "https://theneedledrop.com/news/jake-xerxes-fussell-reveals-new-album-details-shares-first-song-rock-island-line/"
+      }
+    ],
+    "fingerprint": "f53197c299a7",
+    "fit": 86,
+    "performers": [
+      {
+        "known_for": "Interpreter of old-time, blues and Southern folk song; Paradise of Bachelors, later Fat Possum",
+        "name": "Jake Xerxes Fussell",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Jake Xerxes Fussell, one of his seed artists: a North Carolina singer-guitarist who reworks old-time, blues and obscure folk songs, son of folklorist Fred Fussell. Search results show a new album cycle (first single 'Rock Island Line') and a US tour. This is the small-room Santa Cruz-mountains date; a San Francisco show at Great American Music Hall on Nov 11 is the easier alternative.",
+    "researched_at": "2026-10-30T21:49:06+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Opener not confirmed.",
+      "Biography details are background knowledge.",
+      "Felton date seen only via collector; GAMH date from a search-result URL."
     ]
   },
   "ev_fa650ab435fc": {
