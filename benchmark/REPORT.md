@@ -1,6 +1,6 @@
 # Historical discoverability benchmark
 
-Generated 2026-10-29T21:56:14+00:00 (live Wayback checks: False).
+Generated 2026-10-30T21:53:30+00:00 (live Wayback checks: False).
 
 29 benchmark events: 18 proven discoverable by registered sources (median lead 114 days, range 14..245), 9 plausible via the venue's own feed, 2 reachable only through aggregators, 0 only via blocked sources, 0 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
 
@@ -10,10 +10,10 @@ Evidence classes are defined in `benchmark/events.yaml`. 'Proven' lead times com
 event                                                      date       class         lead  rules tier        basis
 Berkeley Bluegrass Festival: Tatiana Hargreaves Band w/ Mi 2026-05-03 indirect            100.0 exceptional venue page is blocked/unregistered; only aggregators or calendars (bluegrass-signal, california-bluegrass-asso
 Bedouine + Other Delights                                  2026-10-21 indirect             46.0 inventory   venue page is blocked/unregistered; only aggregators or calendars (songkick-bay-area) might carry it, and thei
-Kathy Kallick                                              2024-05-24 plausible            81.0 exceptional the venue's own feed (fifth-street-farms) is a healthy registry source; no pre-dated artifact captured
-The Lowest Pair                                            2024-11-23 plausible            56.0 strong      the venue's own feed (fifth-street-farms) is a healthy registry source; no pre-dated artifact captured
-Jacob Jolliff                                              2025-05-31 plausible            56.0 strong      the venue's own feed (fifth-street-farms) is a healthy registry source; no pre-dated artifact captured
-Tony Furtado                                               2025-12-12 plausible            91.0 exceptional the venue's own feed (fifth-street-farms) is a healthy registry source; no pre-dated artifact captured
+Kathy Kallick                                              2024-05-24 plausible            81.0 exceptional the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
+The Lowest Pair                                            2024-11-23 plausible            56.0 strong      the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
+Jacob Jolliff                                              2025-05-31 plausible            56.0 strong      the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
+Tony Furtado                                               2025-12-12 plausible            91.0 exceptional the venue's own feed (fifth-street-farms, fifth-street-farms-site) is a healthy registry source; no pre-dated 
 Nora Brown with Stephanie Coleman                          2026-01-08 plausible           100.0 exceptional the venue's own feed (the-chapel, folkyeah) is a healthy registry source; no pre-dated artifact captured
 The Mountain Grass Unit                                    2026-10-05 plausible            85.0 exceptional the venue's own feed (cafe-du-nord) is a healthy registry source; no pre-dated artifact captured
 IPHIGENIA, Sharp & Fine                                    2026-10-23 plausible            30.0 inventory   the venue's own feed (z-space) is a healthy registry source; no pre-dated artifact captured
