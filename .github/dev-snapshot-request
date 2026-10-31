@@ -1,15 +1,10 @@
-# round 3: verify converted sources with the real CLI, probe the remaining holdouts
+# round 4: last holdouts
 urls:
-  - https://ci.ovationtix.com/scripts/main.4e86134fb18ca122fccb.js
-  - https://ci.ovationtix.com/scripts/core.51f6cb1da9d0d06eda24.js
-  - https://www.zspace.org/mainstage
-  - https://www.zspace.org/ticketing
-  - https://www.throckmortontheatre.org/events?format=json
-  - https://www.hopmonk.com/novato
-  - https://www.hopmonk.com/sebastopol
-  - https://www.hopmonk.com/sonoma
-  - https://counterpulse.org/events/?ical=1
-  - https://www.tix.com/ticket-sales/assets/index-BejXUJjH.js
-  - https://thenewparish.com/
-  - https://www.bottomofthehill.com/RSS.xml
-collect: [uc-theatre, fox-oakland, another-planet, the-chapel, gamh, yoshis, bottom-of-the-hill, lost-church, kpfa-events, black-cat-sf, broadway-sf, guild-theatre, old-first-concerts, odc-theater, ybca, folkyeah, ivy-room, ashkenaz, the-independent, moes-alley, new-parish, sf-opera, sf-ballet, smuin, sfmoma, the-marsh, aurora-theatre]
+  - https://www.tix.com/api_ots/onlinesales/events/organization/4889?venueIdList=24029
+  - https://www.tix.com/api_ots/onlinesales/events/organization/4889
+  - https://www.sflivearts.org/
+  - https://sflivearts.org/
+sources:
+  z-space: {method: ovationtix, client_id: 34231}
+  throckmorton: {method: ovationtix, client_id: 35161}
+  throckmorton-sq: {method: squarespace, url: 'https://www.throckmortontheatre.org/events', max_pages: 1, venue: {name: 142 Throckmorton Theatre, city: Mill Valley}}

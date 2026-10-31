@@ -300,3 +300,43 @@ def collect_ticketweb_wp(source: dict, stats: dict) -> list[dict]:
         start = end
     stats["ajax_events"] = len(out)
     return out
+
+
+# ----------------------------------------------------------------------------- OvationTix (AudienceView Professional)
+OVATIONTIX_API = "https://web.ovationtix.com/trs/api/rest"
+
+
+def _first_key(d: dict, *names):
+    for n in names:
+        if d.get(n) not in (None, ""):
+            return d[n]
+    return None
+
+
+def collect_ovationtix(source: dict, stats: dict) -> list[dict]:
+    """Productions and their performances from the OvationTix public client API (the one the
+    ci.ovationtix.com/<client> box office uses), by client id."""
+    cid = str(source["client_id"])
+    r = fetch.get(f"{OVATIONTIX_API}/Production", params={"expandPerformances": "summary"}, stats=stats,
+                  headers={"clientId": cid, "newCIRequest": "true", "Accept": "application/json"})
+    try:
+        prods = r.json()
+    except ValueError:
+        raise fetch.FetchError(f"ovationtix: non-JSON ({r.text[:80]!r})", kind="format")
+    if isinstance(prods, dict):
+        prods = prods.get("productions") or prods.get("items") or [prods]
+    today = _today()
+    out = []
+    for p in prods or []:
+        name = clean_text(_first_key(p, "productionName", "name", "title") or "")
+        pid = _first_key(p, "productionId", "id")
+        desc = clean_text(re.sub(r"<[^>]+>", " ", _first_key(p, "description", "productionDescription") or ""))
+        for perf in p.get("performances") or []:
+            when = _first_key(perf, "performanceDate", "startDate", "performanceStartDate", "date")
+            if not name or not when or str(when)[:10] < today.isoformat():
+                continue
+            out.append({"title": name, "start": str(when).replace(" ", "T"),
+                        "url": f"https://ci.ovationtix.com/{cid}/production/{pid}?performanceId={_first_key(perf, 'performanceId', 'id')}",
+                        "venue": clean_text(_first_key(p, "venueName") or _first_key(perf, "venueName") or "") or None,
+                        "description": desc[:1500], "source_event_id": f"ovationtix:{_first_key(perf, 'performanceId', 'id')}"})
+    return out
