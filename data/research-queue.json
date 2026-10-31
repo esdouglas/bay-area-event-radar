@@ -1,8 +1,209 @@
 {
- "backlog": 1368,
+ "backlog": 1535,
  "count": 40,
- "generated_at": "2026-10-31T05:46:05+00:00",
+ "generated_at": "2026-10-31T05:55:23+00:00",
  "items": [
+  {
+   "city": "Berkeley",
+   "date": "2026-11-20",
+   "description": "with A Grateful Dead Night | Doors 7:30pm Show 8pm Legendary flatpicker Eric Thompson (Black Mountain Boys, David Nelson, David Grisman) has assembled a dream team for a fresh approach to the music of his teenage years, when he was a spitting distance witness to the birth of the Warlocks, soon to become the Grateful Dead. Thompson (at age 17) had been playing in several bluegrass bands with Jerry ",
+   "fingerprint": "c7be1521c0fc",
+   "id": "ev_6c0c361dbcd8",
+   "other_urls": [],
+   "rules_score": 100.0,
+   "rules_tier": "exceptional",
+   "start": "2026-11-20T20:00:00-08:00",
+   "title": "Eric Thompson's Dead Roots Revival",
+   "url": "https://tickets.venuepilot.com/e/eric-thompson-s-dead-roots-revival-2026-11-20-ashkenaz-music-dance-community-center-berkeley-ff9298",
+   "venue": "Ashkenaz",
+   "why_rules": [
+    "seed artist: Eric Thompson (+25)",
+    "2 seed artists on the bill (+5)",
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: roots (+10)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2026-11-05",
+   "description": "Moe's Alley presents Clay Street Unit with special guests Blue Dream! Thursday, November 5, 2026 Doors 7pm / Show 8pm $20 in advance / $25 day of the show 21+ * All sales are final * Avoid scammers! Only purchase tickets from moesalley.com or ticketweb.com * Tickets requested by email will be delivered 3 days prior to the event * Will Call tickets will be available at the door on the day of the ev",
+   "fingerprint": "d1262d102c5c",
+   "id": "ev_5aa52778aca9",
+   "other_urls": [],
+   "rules_score": 76.5,
+   "rules_tier": "strong",
+   "start": "2026-11-05T20:00:00-08:00",
+   "title": "Moe's Alley Presents: Clay Street Unit w/ Blue Dream",
+   "url": "https://moesalley.com/tm-event/moes-alley-presents-clay-street-unit/",
+   "venue": "Moe's Alley",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: folk, americana, country, acoustic (+18)",
+    "intimate room: Moe's Alley (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-08",
+   "description": "The Lost Church: Take Me Or Leave Me: A Musical Revue all about Love",
+   "fingerprint": "b4c5c2e3188f",
+   "id": "ev_dd475aee0f28",
+   "other_urls": [
+    "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKVOLMA5"
+   ],
+   "rules_score": 75.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-08T00:00:00-08:00",
+   "title": "Take Me Or Leave Me: A Musical Revue all about Love – SF",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "theater_core: musical (+14)",
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)",
+    "listed by a taste-aligned calendar (+12)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2026-11-01",
+   "description": "Moe's Alley presents singer-songwriter Andrew Duhon for a special Sunday matinee show! * Note: This show is mostly seated * Sunday, November 1, 2026 Doors: 2pm / Show: 3pm $30 in advance / $35 day of the show 21+ * Tickets on sale Friday, June 12th at 10am PT * * No Refunds | All sales are final * Avoid scammers! Only purchase tickets from moesalley.com or ticketweb.com * Tickets requested by emai",
+   "fingerprint": "45b64d398072",
+   "id": "ev_b2904b39647e",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/",
+    "https://moesalley.com/tm-event/moes-alley-presents-parlor-greens-2/"
+   ],
+   "rules_score": 72.5,
+   "rules_tier": "strong",
+   "start": "2026-11-01T15:00:00-08:00",
+   "title": "Moe's Alley Presents: Parlor Greens w/ The GT's (The Grease Traps Rhythm Section)",
+   "url": "https://moesalley.com/tm-event/moes-alley-presents-andrew-duhon-trio/",
+   "venue": "Moe's Alley",
+   "why_rules": [
+    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
+    "intimacy: parlor (+5)",
+    "intimate room: Moe's Alley (+14)",
+    "listed by a taste-aligned calendar (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-07",
+   "description": "Bottom of the Hill: Southern Culture On The Skids, Van Goat",
+   "fingerprint": "b9647dc38ac9",
+   "id": "ev_b979fc1c0cee",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://www.hickswithsticks.com/calendar/",
+    "https://www.hickswithsticks.com/calendar/",
+    "http://www.bottomofthehill.com/20261107.html"
+   ],
+   "rules_score": 73.5,
+   "rules_tier": "strong",
+   "start": "2026-11-07T19:00:00-08:00",
+   "title": "Southern Culture On The Skids/Van Goat",
+   "url": "https://dice.fm/event/6a679a38417bab00014d68f6",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "roots_adjacent: country, blues (+12)",
+    "intimate room: Bottom of the Hill (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "5 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-11",
+   "description": "Jake Xerxes Fussell and Dougie Poole at Great American Music Hall at 2026-11-11T20:00:00-0800",
+   "fingerprint": "f2947bbfc0a4",
+   "id": "ev_da3b1224db08",
+   "other_urls": [
+    "https://www.jambase.com/show/jake-xerxes-fussell-great-american-music-hall-20261111",
+    "https://www.jambase.com/show/jake-xerxes-fussell-great-american-music-hall-20261111",
+    "https://wl.seetickets.us/event/jake-xerxes-fussell/689401?afflky=GreatAmericanMusicHall"
+   ],
+   "rules_score": 89.0,
+   "rules_tier": "exceptional",
+   "start": "2026-11-11T20:00:00-08:00",
+   "title": "Jake Xerxes Fussell",
+   "url": "https://www.songkick.com/concerts/43201846-jake-xerxes-fussell-at-great-american-music-hall",
+   "venue": "Great American Music Hall",
+   "why_rules": [
+    "seed artist: Jake Xerxes Fussell (+30)",
+    "roots_adjacent: folk (+10)",
+    "intimate room: Great American Music Hall (+14)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-10-30",
+   "description": "The Chapel: A Night of the Living Dead: Lebo, Holly Bowling, Wally Ingram, Elliott Peck & More",
+   "fingerprint": "357030602350",
+   "id": "ev_1cb7fa673c4a",
+   "other_urls": [
+    "https://wl.eventim.us/event/a-night-of-the-living-dead/705528?afflky=TheChapel",
+    "https://wl.seetickets.us/event/a-night-of-the-living-dead/705528?afflky=TheChapel"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2026-10-30T00:00:00-07:00",
+   "title": "A Night of the Living Dead: Lebo, Holly Bowling, Wally Ingram, Elliott Peck & More",
+   "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-08",
+   "description": "Foy Vance at Great American Music Hall at 2026-11-08T19:00:00-0800",
+   "fingerprint": "7163e4a987a4",
+   "id": "ev_5d01694156f2",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://wl.seetickets.us/event/foy-vance/680313?afflky=GreatAmericanMusicHall"
+   ],
+   "rules_score": 69.5,
+   "rules_tier": "strong",
+   "start": "2026-11-08T19:00:00-08:00",
+   "title": "Foy Vance, Bonnie Bishop, Ryan McMullan",
+   "url": "https://www.songkick.com/concerts/43057744-foy-vance-at-great-american-music-hall",
+   "venue": "Great American Music Hall",
+   "why_rules": [
+    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
+    "intimate room: Great American Music Hall (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "JON SPENCER at Bottom of the Hill at 2026-11-13T20:00:00-0800",
+   "fingerprint": "c3375c59d144",
+   "id": "ev_5827c894ce57",
+   "other_urls": [
+    "http://www.bottomofthehill.com/20261113.html"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Jon Spencer / Genre Is Death / Fuckwolf / / Mike Gabriel",
+   "url": "https://www.songkick.com/concerts/43211709-jon-spencer-at-bottom-of-the-hill",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "roots_adjacent: blues (+10)",
+    "jazz_core: experimental (+18)",
+    "intimate room: Bottom of the Hill (+14)",
+    "2 independent sources (+4)"
+   ]
+  },
   {
    "city": "Santa Cruz",
    "date": "2026-11-05",
@@ -41,6 +242,25 @@
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+12)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-12",
+   "description": "with genre - alt country, americana, honky-tonk | ivy room presents | IVY ROOM PRESENTS THURSDAY NOVEMBER 12TH — PETUNIA & THE VIPERS NOELLE & THE DESERTERS — 7:00 pm Doors / 8:00pm Show ADVANCE TICKETS AVAILABLE / $15 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ — PETUNIA & THE VIPERS — Louis Armstrong was once asked what his favorite kind of music was, and his response was simple; \"Good music",
+   "fingerprint": "1eec9bc96bfa",
+   "id": "ev_68747aabf855",
+   "other_urls": [],
+   "rules_score": 68.5,
+   "rules_tier": "strong",
+   "start": "2026-11-12T20:00:00-08:00",
+   "title": "Petunia & The Vipers + Noelle & The Deserters",
+   "url": "https://tickets.venuepilot.com/e/petunia-the-vipers-noelle-the-deserters-2026-11-12-ivy-room-albany-264d2a",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "roots_adjacent: americana, country, honky tonk, honky-tonk (+18)",
+    "theater_core: play (+14)",
+    "intimate room: Ivy Room (+14)"
    ]
   },
   {
@@ -102,6 +322,29 @@
     "intimate room: Freight & Salvage (+14)",
     "booking signal: Freight & Salvage (+8)",
     "listed by a taste-aligned calendar (+18)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-05",
+   "description": "The Lost Church: Georgia Parker, Tashi T",
+   "fingerprint": "96d3f4cb12b5",
+   "id": "ev_300da158da37",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/",
+    "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Ct90XMAR"
+   ],
+   "rules_score": 67.0,
+   "rules_tier": "strong",
+   "start": "2026-11-05T00:00:00-08:00",
+   "title": "Georgia Parker w/ Tashi T – San Francisco",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "3 independent sources (+8)"
    ]
   },
   {
@@ -202,6 +445,27 @@
     "intimate room: Center for New Music (+14)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-12",
+   "description": "",
+   "fingerprint": "64f664135380",
+   "id": "ev_cec22afc87ec",
+   "other_urls": [
+    "http://www.bottomofthehill.com/20261112.html"
+   ],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2026-11-12T19:30:00-08:00",
+   "title": "Maus Haus ~ Battlehooch ~ Otoliths",
+   "url": "https://dice.fm/event/6a98b95b2e0be90001bdaae2",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "jazz_core: avant-garde, avant garde, experimental (+27)",
+    "intimate room: Bottom of the Hill (+14)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -354,28 +618,6 @@
   },
   {
    "city": "",
-   "date": "2026-10-30",
-   "description": "The Chapel: A Night of the Living Dead: Lebo, Holly Bowling, Wally Ingram, Elliott Peck & More",
-   "fingerprint": "357030602350",
-   "id": "ev_1cb7fa673c4a",
-   "other_urls": [
-    "https://wl.eventim.us/event/a-night-of-the-living-dead/705528?afflky=TheChapel"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-10-30T00:00:00-07:00",
-   "title": "A Night of the Living Dead: Lebo, Holly Bowling, Wally Ingram, Elliott Peck & More",
-   "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-   "venue": "The Chapel",
-   "why_rules": [
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
    "date": "2026-12-05",
    "description": "- Dec. 5 (3 pm): Otter Opry, Monterey",
    "fingerprint": "dbf36ff672c6",
@@ -420,6 +662,28 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-10-31",
+   "description": "The Lost Church: Boardwalk Banshees' 4th Annual Halloween Ball",
+   "fingerprint": "cc94d549e27d",
+   "id": "ev_7b127dfb4742",
+   "other_urls": [
+    "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKABpMAP"
+   ],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2026-10-31T00:00:00-07:00",
+   "title": "Boardwalk Banshees' 4th Annual Halloween Ball – San Francisco",
+   "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
    "city": "Mill Valley",
    "date": "2026-11-12",
    "description": "Max Gomez at Sweetwater Music Hall on Nov 12, 2026",
@@ -439,6 +703,28 @@
     "intimate room: Sweetwater Music Hall (+14)",
     "booking signal: Sweetwater Music Hall (+8)",
     "listed by a taste-aligned calendar (+14)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-01",
+   "description": "The Lost Church: Ahmed Al-kadri",
+   "fingerprint": "48feae47f095",
+   "id": "ev_9bfb916bb18e",
+   "other_urls": [
+    "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh000006zT85MAE"
+   ],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2026-11-01T00:00:00-07:00",
+   "title": "Ahmed Al-kadri Live in SF!",
+   "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)",
+    "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
    ]
   },
@@ -572,273 +858,6 @@
     "jazz_core: jazz (+18)",
     "theater_core: musical (+14)",
     "intimate room: Kuumbwa Jazz (+14)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2027-02-12",
-   "description": "DINNER SHOW with MIKO MARKS: Hell or High Water Tour/ Rancho Debut! Rolling Stone has called Miko Marks ' voice a \"marvelous instrument that imbues each song with a kind of hard-won authority.\" Across a career defined by resilience, reinvention, and a refusal to let the music industry dictate where she belongs, Marks has built a singular musical identity rooted in country, gospel, blues, and soul.",
-   "fingerprint": "b4ea800ecc96",
-   "id": "ev_2f7285cb655b",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43474794-miko-marks-at-rancho-nicasio",
-    "https://www.jambase.com/show/miko-marks-rancho-nicasio-20270212"
-   ],
-   "rules_score": 81.5,
-   "rules_tier": "strong",
-   "start": "2027-02-12T00:00:00-08:00",
-   "title": "MIKO MARKS – Rancho Debut!",
-   "url": "https://ranchonicasio.com/event/miko-marks-rancho-debut/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: roots, country, blues, gospel (+18)",
-    "theater_core: musical (+14)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-01-25",
-   "description": "Referred to as the \"classic double threat\" by NPR , Camille Thurman is a remarkable artist on both the tenor saxophone and vocals. Drummer Darrell Green is one of today's leading and most sought-after musicians in today's jazz scene, having toured with Pharoah Sanders, Wallace Roney, Cassandra Wilson, George Cables, and Stefon Harris. Together, Thurman's dreamy vocals and electrifying saxophone li",
-   "fingerprint": "c9a99efe1566",
-   "id": "ev_d00b6f4d8439",
-   "other_urls": [],
-   "rules_score": 78.5,
-   "rules_tier": "strong",
-   "start": "2027-01-25T19:00:00-08:00",
-   "title": "Camille Thurman with the Darrell Green Quartet",
-   "url": "https://www.kuumbwajazz.org/calendar/camille-thurman-with-the-darrell-green-quartet-2/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz, saxophone (+22)",
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2026-12-13",
-   "description": "DINNER SHOW WITH MITCH POLZAK & THE ROYAL DEUCES The big guy from out West and larger than life energy (he's also 6'5') performer, guitarist, singer, banjoist, songwriter, composer, entertainer, musical historian and teacher Mitch Polzak wears his heart on his sleeve and his playing in his heart. Polzak performs rockabilly and 60's country music with the religious fervor of Jerry Lee Lewis and Joh",
-   "fingerprint": "394aa89074d3",
-   "id": "ev_b54a57c938ab",
-   "other_urls": [],
-   "rules_score": 71.0,
-   "rules_tier": "strong",
-   "start": "2026-12-13T00:00:00-08:00",
-   "title": "MITCH POLZAK & THE ROYAL DEUCES",
-   "url": "https://ranchonicasio.com/event/mitch-polzak-the-royal-deuces-8/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: country, honky tonk, honky-tonk (+15)",
-    "theater_core: musical (+14)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-01-21",
-   "description": "Recently honored as 'Classical Woman of the Year' by NPR 's Performance Today, American pianist Lara Downes is a visionary trailblazer. She has garnered millions of fans spanning diverse communities from her prestigious tour​ schedule,​ her Billboard chart-topping recordings, and her work as a beloved media personality, producer, and host. Major highlights for the coming year include the Lincoln C",
-   "fingerprint": "f7e4d816a73c",
-   "id": "ev_b8f9408eb238",
-   "other_urls": [],
-   "rules_score": 77.5,
-   "rules_tier": "strong",
-   "start": "2027-01-21T19:00:00-08:00",
-   "title": "Lara Downes",
-   "url": "https://www.kuumbwajazz.org/calendar/lara-downes/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "theater_core: world premiere, premiere (+18)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Novato",
-   "date": "2026-12-19",
-   "description": "Dec. 19: Crying Uncle Bluegrass Band - HopMonk Tavern, Novato",
-   "fingerprint": "deb460d156a8",
-   "id": "ev_c85e14ab0010",
-   "other_urls": [
-    "https://www.jambase.com/show/crying-uncle-bluegrass-band-hopmonk-tavern-novato-20261219",
-    "https://www.jambase.com/show/crying-uncle-bluegrass-band-hopmonk-tavern-novato-20261219",
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2026-12-19T00:00:00-08:00",
-   "title": "Crying Uncle Bluegrass Band",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "HopMonk Tavern Novato",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "5 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-22",
-   "description": "Join us as one of the Bay Area's most beloved rising artists helps us celebrate four years at Keys! Keys Jazz Bistro welcomes Dutch-born vocalist Lara Louise for an evening of classic songs, characterized by a soft, sultry voice blending her folk roots with French chanson, Bossa Nova, and the Great American Songbook. Lara Louise [...]",
-   "fingerprint": "d58843401364",
-   "id": "ev_bb7a65c32aca",
-   "other_urls": [],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-11-22T19:00:00-08:00",
-   "title": "Lara Louise-A Keys Birthday Celebration!",
-   "url": "https://keysjazzbistro.com/event/lara-louise-7/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "roots_adjacent: folk, roots, chanson (+15)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-06",
-   "description": "Nov. 6: Laurie Lewis & Nina Gerber - The Side Door, Sacramento",
-   "fingerprint": "a266f70591a2",
-   "id": "ev_606fcdc08070",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 79.0,
-   "rules_tier": "exceptional",
-   "start": "2026-11-06T00:00:00-08:00",
-   "title": "Laurie Lewis & Nina Gerber",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "The Side Door, Sacramento",
-   "why_rules": [
-    "seed artist: Laurie Lewis (+30)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-07",
-   "description": "\"What I do is instinctive, quiet and naturalistic. I want to document unobtrusively. I want to see who people really are. I frame up the situation and then I push the button. I always want it to look exactly the way it looks to me.\" – Henry Diltz Henry Diltz 's work as an iconic photographer in the 1960s and 1970s is celebrated for his unique \"fly on the wall\" style portraits and his ability to ca",
-   "fingerprint": "809666dd7a1a",
-   "id": "ev_87860943497b",
-   "other_urls": [],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T19:00:00-08:00",
-   "title": "Henry Diltz – Behind the Lens",
-   "url": "https://www.kuumbwajazz.org/calendar/henry-diltz-behind-the-lens/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "legacy: influential (+14)",
-    "intimacy: intimate (+5)",
-    "noise_tribute: experience (-18)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-03",
-   "description": "Every 1st Tuesday from 6:00 PM there is jamming outside Round Table pizza while waiting for the FREE concert. At 7:00 PM there is an opening band playing inside until the headliner band starts at 8:00 PM. NCBFC Concert and jam is held at Round Table Pizza , 1161 E. Washington Ave, Corner Ash & Washington Streets, Escondido, CA 92025. All ages from beginner to advanced players welcome.",
-   "fingerprint": "bbef3fe8fb98",
-   "id": "ev_0da8e32f4b90",
-   "other_urls": [],
-   "rules_score": 63.0,
-   "rules_tier": "strong",
-   "start": "2026-11-03T18:00:00-08:00",
-   "title": "North County Bluegrass and Folk Club 1st Tuesday RT jam and FREE concert",
-   "url": "https://californiabluegrass.org/event/north-county-bluegrass-and-folk-club-1st-tuesday-rt-jam-and-free-concert/2026-11-03/",
-   "venue": "",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "roots_adjacent: folk (+10)",
-    "listed by a taste-aligned calendar (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-12-27",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "161e14fec6f0",
-   "id": "ev_25f45bc909d5",
-   "other_urls": [],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2026-12-27T12:00:00-08:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2026-12-27/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Petaluma",
-   "date": "2026-12-21",
-   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
-   "fingerprint": "2b0169c550be",
-   "id": "ev_ab66cd9adcf3",
-   "other_urls": [],
-   "rules_score": 71.0,
-   "rules_tier": "strong",
-   "start": "2026-12-21T18:00:00-08:00",
-   "title": "Garage Jam",
-   "url": "https://californiabluegrass.org/event/garage-jam/2026-12-21/",
-   "venue": "Out West Garage",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "roots_adjacent: folk (+10)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-04",
-   "description": "Joshua Redman acknowledges that the title of his new Blue Note album, Words Fall Short , could be viewed ironically. His previous and widely acclaimed Where Are We was his first to pair a vocalist with one of his many monumental quartets; yet Words Fall Short is anything but a comment on the saxophonist's last triumph. More accurately, his latest offering is an organic next step, a collection of p",
-   "fingerprint": "75fcc74b26eb",
-   "id": "ev_c0fbd41076a8",
-   "other_urls": [
-    "https://www.kuumbwajazz.org/calendar/joshua-redman-quartet-900-pm/"
-   ],
-   "rules_score": 78.0,
-   "rules_tier": "exceptional",
-   "start": "2026-11-04T19:00:00-08:00",
-   "title": "Joshua Redman Quartet – 7:00 PM",
-   "url": "https://www.kuumbwajazz.org/calendar/joshua-redman-quartet-700-pm/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "seed artist: Joshua Redman (+15)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Cotati",
-   "date": "2026-11-01",
-   "description": "The jam is led by Chris Carney and Janette Duncan, first Sundays at the Church of the Oaks in Cotati, from 3 pm to 5 pm.",
-   "fingerprint": "9aa948e13991",
-   "id": "ev_f767f7efa736",
-   "other_urls": [],
-   "rules_score": 62.5,
-   "rules_tier": "strong",
-   "start": "2026-11-01T15:00:00-08:00",
-   "title": "North Bay Old-Time Session",
-   "url": "https://californiabluegrass.org/event/north-bay-old-time-music-jam/2026-11-01/",
-   "venue": "Church of the Oaks",
-   "why_rules": [
-    "roots_core: old-time, old time (+28)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
    ]
   }
  ]
