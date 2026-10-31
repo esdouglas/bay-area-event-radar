@@ -1,7 +1,8 @@
 name: Dev snapshot (collector development)
 # Fires only when .github/dev-snapshot-request changes on radar-v2. Runs the requested sources with
 # --dry-run (prints events per source) and pushes every fetched page to a throwaway tag dev-snap-<run>
-# so parsers can be developed against real pages from a runner. Delete the tags when done.
+# so parsers can be developed against real pages from a runner. Each run deletes earlier dev-snap
+# tags; a request containing `cleanup_only: true` only deletes them.
 on:
   push:
     branches: [radar-v2]
@@ -22,10 +23,14 @@ jobs:
           python-version: '3.12'
           cache: pip
       - run: pip install -r requirements.txt
+      - name: Delete earlier dev-snap tags
+        run: |
+          for t in $(git ls-remote --tags origin 'dev-snap-*' | awk '{print $2}'); do git push -q origin ":$t"; done
       - run: python tools/dev_snapshot.py .github/dev-snapshot-request
       - name: Push recorded pages to tag dev-snap-${{ github.run_id }}
         if: always()
         run: |
+          if grep -q '^cleanup_only: true' .github/dev-snapshot-request; then echo "cleanup only"; exit 0; fi
           mkdir -p snap && cd snap
           git init -q && git add -A
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -qm "dev snapshot ${{ github.run_id }}" --allow-empty

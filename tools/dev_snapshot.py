@@ -15,6 +15,8 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent.parent))
 from radar import collect, fetch  # noqa: E402
 
 req = yaml.safe_load(pathlib.Path(sys.argv[1]).read_text()) or {}
+if req.get("cleanup_only"):
+    sys.exit(0)
 for u in req.get("urls") or []:
     try:
         r = fetch.get(u, retries=0)

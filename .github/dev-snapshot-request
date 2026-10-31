@@ -1,2 +1,2 @@
-# round 5: final verification of every converted source with the real CLI
-collect: [uc-theatre, fox-oakland, another-planet, the-chapel, gamh, yoshis, bottom-of-the-hill, lost-church, kpfa-events, black-cat-sf, broadway-sf, guild-theatre, old-first-concerts, odc-theater, ybca, folkyeah, ivy-room, ashkenaz, the-independent, moes-alley, new-parish, sf-opera, sf-ballet, smuin, sfmoma, the-marsh, aurora-theatre, z-space, throckmorton, otter-opry]
+# cleanup: delete the dev-snap tags from collector development (2026-10-31)
+cleanup_only: true

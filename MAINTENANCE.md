@@ -26,6 +26,11 @@
    sources check the URL still lists events; for `venue_*` and `theater_run` sources
    the platform markup changed: run `python -m radar collect --only <id> --dry-run` and fix the parser
    in `radar/collectors/venues.py` / `theater.py`.
+   If the site cannot be reached from where you are working, change `.github/dev-snapshot-request`
+   (YAML: `urls`, per-source `sources` overrides, `collect` ids) and push: the Dev snapshot workflow
+   runs it on a runner, prints the counts, and pushes the fetched pages to a `dev-snap-<run>` tag that
+   `RADAR_FETCH_REPLAY=<dir>` can replay locally (`radar.fetch.index_replay_dir`). The next run deletes
+   old tags; a request of just `cleanup_only: true` deletes them without making a new one.
 4. "no collection run in 14 h" = GitHub skipped or disabled the schedule. Open Actions; a manual
    `workflow_dispatch` of "Collect, rank, alert, publish" restarts it.
 
