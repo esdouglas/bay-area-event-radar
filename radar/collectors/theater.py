@@ -12,6 +12,7 @@ import re
 from .. import fetch
 from ..normalize import TZ, clean_text, parse_dt
 from .common import jsonld_blocks, links, visible_text, walk_events
+from .venues import find_dates
 
 MON = r"(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Sept|Oct|Nov|Dec)[a-z]*\.?"
 RANGE = re.compile(rf"({MON}\s+\d{{1,2}})(?:,?\s+(20\d\d))?\s*(?:-|–|—|to|through)\s*({MON}\s+)?(\d{{1,2}}),?\s+(20\d\d)", re.I)
@@ -31,6 +32,23 @@ def _title(page_html, fallback):
         t = re.sub(r"<[^>]+>", " ", m.group(1)) if m else fallback
     t = re.split(r"\s+[|–—-]\s+(?=[^|–—-]*(?:Theat|Playhouse|Official|Players|Company|Rep\b))", t)[0]
     return clean_text(t)
+
+
+def _date_sequence(text, today, max_gap=45):
+    """The first run of printed dates that move forward without a long gap (a performance list or
+    "Dec 4 ... Dec 27"), read from the top of the page so season-at-a-glance lists further down
+    are not mistaken for this show's run."""
+    seq = []
+    for d in find_dates(text[:5000], today):
+        if not seq:
+            seq.append(d)
+        elif seq[-1] <= d <= seq[-1] + dt.timedelta(days=max_gap):
+            seq.append(d)
+        elif d < seq[-1] and seq[-1] - d <= dt.timedelta(days=2):
+            continue  # the same date printed again
+        else:
+            break
+    return (seq[0], seq[-1]) if seq else (None, None)
 
 
 def collect_theater_run(source: dict, stats: dict) -> list[dict]:
@@ -61,6 +79,8 @@ def collect_theater_run(source: dict, stats: dict) -> list[dict]:
             stats.setdefault("detail_errors", []).append(f"{u}: {e}")
             continue
         title = _title(r.text, u.rstrip("/").split("/")[-1].replace("-", " ").title())
+        if source.get("title_strip"):
+            title = clean_text(re.sub(source["title_strip"], "", title, flags=re.I))
         first = last = None
         evs = list(walk_events(jsonld_blocks(r.text)))
         perfs = sorted(p for p in (parse_dt(e.get("startDate")) for e in evs if e.get("startDate")) if p)
@@ -93,6 +113,12 @@ def collect_theater_run(source: dict, stats: dict) -> list[dict]:
                     if b < today:
                         continue
                     first, last, basis = a, b, f"run {a:%b %-d} - {b:%b %-d, %Y} ({'season menu, paired by position' if u in by_order else 'printed range'})"
+            if not first:
+                a, b = _date_sequence(text, today)
+                if a and b >= today:
+                    first, last = a, b
+                    basis = (f"run {a:%b %-d} - {b:%b %-d, %Y} (dates printed on the show page)" if b > a
+                             else f"{a:%b %-d, %Y} (date printed on the show page)")
             if not first:
                 m = START.search(text)
                 if m and _d(m.group(1)):

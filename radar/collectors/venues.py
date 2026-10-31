@@ -19,6 +19,7 @@ import json
 import re
 from urllib.parse import urljoin
 
+import soupsieve
 from bs4 import BeautifulSoup
 
 from .. import config, fetch
@@ -105,11 +106,11 @@ def _when(d: dt.date, t):
 
 
 def _field(el, spec):
-    """Text (or attribute) of the elements `spec` selects inside `el`."""
+    """Text (or attribute) of the elements `spec` selects inside `el` ("." or "" selects `el` itself)."""
     if not spec:
-        return ""
+        return []
     sel, _, attr = spec.partition("@")
-    nodes = el.select(sel) if sel else [el]
+    nodes = el.select(sel) if sel and sel != "." else [el]
     vals = []
     for n in nodes:
         v = n.get(attr) if attr else n.get_text(" ")
@@ -123,50 +124,65 @@ def _one(el, spec, joiner=" "):
     return joiner.join(_field(el, spec))
 
 
+def _closest(el, selector):
+    return next((p for p in el.parents if getattr(p, "name", None) and soupsieve.match(selector, p)), None)
+
+
+def _get(it, c, name, joiner=" "):
+    """Field `name` of a card: selector (c[name]) and/or a regex over the card text (c[name + "_re"],
+    group 1), then an optional strip regex (c[name + "_strip"])."""
+    v = _one(it, c.get(name), joiner) if c.get(name) else ""
+    if not v and c.get(name + "_re"):
+        m = re.search(c[name + "_re"], it.get_text("\n"), re.I | re.M)
+        v = clean_text(m.group(1)) if m else ""
+    if v and c.get(name + "_strip"):
+        v = clean_text(re.sub(c[name + "_strip"], "", v, flags=re.I))
+    return v
+
+
 def collect_cards(source: dict, stats: dict) -> list[dict]:
     c = source["cards"]
     today = _today()
-    out = []
+    out, seen = [], set()
     urls = source.get("urls") or [source["url"]]
     for url in urls:
         r = fetch.get(url, stats=stats)
-        soup = BeautifulSoup(r.text, "html.parser")
+        soup = BeautifulSoup(r.content, "html.parser")  # bytes: honours the page's meta charset
         items = soup.select(c["item"])
         stats["items"] = stats.get("items", 0) + len(items)
         if not items:
             stats.setdefault("warnings", []).append(f"no items match {c['item']!r} on {url}")
         for it in items:
-            title = _one(it, c.get("title"), " / ")
-            if c.get("title_strip"):
-                title = clean_text(re.sub(c["title_strip"], "", title, flags=re.I))
+            title = _get(it, c, "title", " / ")
             if not title or (c.get("skip") and re.search(c["skip"], title, re.I)):
                 continue
-            date_text = _one(it, c.get("date", "@__none__")) if c.get("date") else it.get_text(" ")
-            dates = [d for d in find_dates(date_text, today, numeric=c.get("numeric_dates", False))]
+            scope = (_closest(it, c["date_scope"]) or it) if c.get("date_scope") else it
+            date_text = (_get(scope, c, "date") if c.get("date") or c.get("date_re") else "") or it.get_text(" ")
+            dates = find_dates(date_text, today, numeric=c.get("numeric_dates", False))
             if not dates:
                 stats.setdefault("warnings", []).append(f"no date: {title[:60]}")
                 continue
-            time_text = _one(it, c["time"]) if c.get("time") else date_text
-            t = find_time(time_text)
-            link = (_field(it, c.get("link", "a@href")) or [None])[0]
-            link = urljoin(r.url, link) if link else url
-            support = _one(it, c.get("support"), ", ")
-            if support and c.get("support_strip"):
-                support = clean_text(re.sub(c["support_strip"], "", support, flags=re.I))
-            venue = _one(it, c.get("venue"))
-            if venue and c.get("venue_strip"):
-                venue = clean_text(re.sub(c["venue_strip"], "", venue, flags=re.I))
-            desc = " | ".join(x for x in (support and f"with {support}", _one(it, c.get("description"))) if x)
-            ev = {"title": title, "url": link, "description": desc[:1500], "price": _one(it, c.get("price"))[:80],
+            t = find_time(_get(it, c, "time") if c.get("time") or c.get("time_re") else date_text)
+            link = _get(it, c, "link") if (c.get("link") or c.get("link_re")) else (_field(it, "a@href") or [""])[0]
+            if link and c.get("link_tpl"):
+                link = c["link_tpl"].format(link)
+            link = urljoin(r.url, link.split()[0]) if link else url
+            support = _get(it, c, "support", ", ")
+            venue = _get(it, c, "venue")
+            desc = " | ".join(x for x in (support and f"with {support}", _get(it, c, "description")) if x)
+            ev = {"title": title, "url": link, "description": desc[:1500], "price": _get(it, c, "price")[:80],
                   "tags": _field(it, c.get("genre")) if c.get("genre") else [],
                   "performers": [p for p in [title] + [s.strip() for s in support.split(",")] if p] if support else [],
                   "category": source.get("category", "music")}
             if venue:
                 ev["venue"] = venue
             for pat, city in (source.get("city_in_title") or {}).items():
-                if re.search(pat, title, re.I):
+                if re.search(pat, title + " " + venue, re.I):
                     ev["city"] = city
-            if c.get("run"):
+            run = c.get("run")
+            if run == "auto":
+                run = len(dates) > 1 and dates[-1] > dates[0]
+            if run:
                 first, last = dates[0], dates[-1]
                 if last < today:
                     continue
@@ -179,6 +195,10 @@ def collect_cards(source: dict, stats: dict) -> list[dict]:
                 if dates[0] < today - dt.timedelta(days=1):
                     continue
                 ev["start"] = _when(dates[0], t)
+            key = (title.lower(), str(ev["start"]))
+            if key in seen:
+                continue  # the same listing printed twice (desktop and mobile menus)
+            seen.add(key)
             out.append(ev)
     return out
 
@@ -257,23 +277,26 @@ def collect_ticketweb_wp(source: dict, stats: dict) -> list[dict]:
             d = r.json()
         except ValueError:
             raise fetch.FetchError(f"ticketweb_wp: non-JSON from admin-ajax ({r.text[:80]!r})", kind="format")
-        evs = d if isinstance(d, list) else (d.get("data") or d.get("events") or [])
-        if isinstance(evs, dict):
-            evs = evs.get("events") or list(evs.values())
-        for e in evs:
-            title = clean_text(html.unescape(e.get("title") or e.get("name") or ""))
-            when = e.get("start") or e.get("start_date") or e.get("date")
-            if not title or not when:
+        evs = d.get("events") if isinstance(d, dict) else d
+        popups = BeautifulSoup(d.get("popupdata") or "", "html.parser") if isinstance(d, dict) else None
+        for e in evs or []:
+            title = clean_text(html.unescape(e.get("title") or ""))
+            when = e.get("sortkey") or e.get("start")
+            if not title or not when or str(when)[:10] < today.isoformat():
                 continue
-            key = (title, str(when))
+            key = (e.get("id"), str(when))
             if key in seen:
                 continue
             seen.add(key)
-            url = e.get("url") or e.get("link") or e.get("event_url") or source["url"]
-            desc = clean_text(re.sub(r"<[^>]+>", " ", html.unescape(e.get("description") or e.get("supporting_talent") or "")))
-            out.append({"title": title, "start": when, "end": e.get("end"), "url": url,
-                        "venue": clean_text(e.get("venue") or e.get("venue_name") or "") or None,
-                        "description": desc[:1500], "source_event_id": f"ticketweb:{e.get('id') or e.get('event_id') or ''}"})
+            url, desc = source["url"], ""
+            pop = popups.find(id=f"tw-event-dialog-{e.get('id')}") if popups else None
+            if pop:
+                a = pop.select_one(".tw-name a[href]")
+                url = a["href"] if a else url
+                desc = " | ".join(x for x in (_one(pop, ".tw-name-presenting"), _one(pop, ".tw-description")) if x)
+            out.append({"title": title, "start": str(when).replace(" ", "T")[:16], "url": url,
+                        "venue": (_one(pop, ".tw-venue-name") if pop else "") or None,
+                        "description": desc[:1500], "source_event_id": f"ticketweb:{e.get('id')}"})
         start = end
     stats["ajax_events"] = len(out)
     return out

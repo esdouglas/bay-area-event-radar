@@ -29,7 +29,7 @@ class Cards(unittest.TestCase):
                   <a href="/e/1">x</a></div><div class="ev"><h2>No Date</h2></div>"""
 
         class R:
-            text, url = page, "https://example.org/cal"
+            text, url, content = page, "https://example.org/cal", page.encode()
         orig = venues.fetch.get
         venues.fetch.get = lambda *a, **k: R
         try:

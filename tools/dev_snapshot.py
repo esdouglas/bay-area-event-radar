@@ -3,6 +3,7 @@
 Reads .github/dev-snapshot-request (YAML):
   urls:    [URL, ...]                       fetched and recorded
   sources: {<id>: {<overrides>} | null}     collected (dry run) with the overrides merged over sources.yaml
+  collect: [<id>, ...]                      `python -m radar collect --only <ids> --dry-run`, as is
 With RADAR_FETCH_RECORD set, every response is saved and the workflow pushes the pages to a throwaway
 tag, so parsers can be developed against real pages where the hosts are not reachable. Not production."""
 import pathlib
@@ -28,3 +29,6 @@ for sid, over in (req.get("sources") or {}).items():
     print(f"[source] {sid:28} {s['method']:12} {st['status']:8} raw={len(raws):4} {st.get('error') or ''} warnings={st.get('warnings', [])[:3]}")
     for r in raws[:3]:
         print(f"           {r.get('start')}  {str(r.get('title'))[:70]}")
+if req.get("collect"):
+    import subprocess
+    subprocess.run([sys.executable, "-m", "radar", "collect", "--dry-run", "--only", *req["collect"]], check=False)

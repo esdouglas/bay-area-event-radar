@@ -1,49 +1,15 @@
-# round 2: candidate endpoints and trial configs (collector development, see tools/dev_snapshot.py)
+# round 3: verify converted sources with the real CLI, probe the remaining holdouts
 urls:
-  - https://us.atgtickets.com/whats-on/san-francisco/?page=2
-  - https://us.atgtickets.com/whats-on/san-francisco/?page=3
-  - https://www.guildtheatre.com/calendar
-  - https://www.hopmonk.com/livemusic
-  - https://www.hopmonk.com/livemusic?format=json
-  - https://www.throckmortontheatre.org/calendar
-  - https://www.throckmortontheatre.org/calendar?format=json
-  - https://www.zspace.org/events?format=json
-  - https://www.zspace.org/calendar
-  - https://zspace.org/sfdanceworks-season-9
-  - https://ci.ovationtix.com/34231
-  - https://www.oldfirstconcerts.org/concerts/
-  - https://www.oldfirstconcerts.org/calendar/
-  - https://www.oldfirstconcerts.org/events/
-  - https://www.oldfirstconcerts.org/wp-json/tribe/events/v1/events
-  - https://www.oldfirstconcerts.org/wp-json/wp/v2/types
-  - https://counterpulse.org/events/
-  - https://counterpulse.org/wp-json/tribe/events/v1/events
-  - https://odc.dance/calendar
-  - https://odc.dance/calendar/theater
-  - https://ybca.org/calendar/
-  - https://ybca.org/performances/
-  - https://ybca.org/event/ryli/
-  - https://themarsh.ludus.com/calendar
-  - https://www.auroratheatre.org/
-  - https://www.auroratheatre.org/index.php/calendar
-  - https://www.sfopera.com/calendar/
-  - https://www.smuinballet.org/calendar/
-  - https://www.tix.com/ticket-sales/OtterOpry/4889?venueidlist=24029
-  - https://www.yoshis.com/events/calendar
-  - https://blackcatsf.turntabletickets.com/shows
-  - https://kpfa.org/events/page/2/
-  - https://widget.staging.venuepilot.com/2.0.0-0fc7f2c0/widget-loader.js
-sources:
-  ivy-room: {method: venuepilot, account_ids: [992], site: 'https://www.ivyroom.com'}
-  ashkenaz: {method: venuepilot, account_ids: [1228], site: 'https://www.ashkenaz.com'}
-  new-parish: {method: ticketweb_wp}
-  the-independent: {method: ticketweb_wp}
-  moes-alley: {method: ticketweb_wp}
-  folkyeah: {method: squarespace, url: 'https://folkyeah.com/events'}
-  sf-opera: {method: theater_run, follow: 'sfopera\.com/(?:operas|seasons)/[^/#]+/$', max_follow: 20}
-  sf-ballet: {method: theater_run, url: 'https://www.sfballet.org/2026-2027-season/', follow: 'sfballet\.org/productions/[^/]+/$', max_follow: 20}
-  smuin: {method: theater_run, follow: 'smuinballet\.org/events/[^/]+/$', max_follow: 15}
-  sfmoma: {method: theater_run, follow: 'sfmoma\.org/exhibition/[^/]+/$', max_follow: 30}
-  the-marsh: {method: theater_run, follow: 'themarsh\.org/shows_and_events/(?!donate)[^/]+/$', max_follow: 30}
-  ybca: {method: jsonld, url: 'https://ybca.org/calendar/', follow: 'ybca\.org/event/[^/]+/$', max_follow: 30}
-  counterpulse: {method: tribe, url: 'https://counterpulse.org'}
+  - https://ci.ovationtix.com/scripts/main.4e86134fb18ca122fccb.js
+  - https://ci.ovationtix.com/scripts/core.51f6cb1da9d0d06eda24.js
+  - https://www.zspace.org/mainstage
+  - https://www.zspace.org/ticketing
+  - https://www.throckmortontheatre.org/events?format=json
+  - https://www.hopmonk.com/novato
+  - https://www.hopmonk.com/sebastopol
+  - https://www.hopmonk.com/sonoma
+  - https://counterpulse.org/events/?ical=1
+  - https://www.tix.com/ticket-sales/assets/index-BejXUJjH.js
+  - https://thenewparish.com/
+  - https://www.bottomofthehill.com/RSS.xml
+collect: [uc-theatre, fox-oakland, another-planet, the-chapel, gamh, yoshis, bottom-of-the-hill, lost-church, kpfa-events, black-cat-sf, broadway-sf, guild-theatre, old-first-concerts, odc-theater, ybca, folkyeah, ivy-room, ashkenaz, the-independent, moes-alley, new-parish, sf-opera, sf-ballet, smuin, sfmoma, the-marsh, aurora-theatre]
