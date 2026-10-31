@@ -30,6 +30,36 @@
       "Tolling's Grammys came with Turtle Island Quartet (background knowledge, not checked against a source this run)."
     ]
   },
+  "ev_03514e12754a": {
+    "evidence": [
+      {
+        "finding": "Sunday December 6, 2026, 'Dinner and A Show with Johnny Allair'; dinner reservations 3:30 to 5:30 pm, music starts 4:00 pm. Bio: career began in 1950s SF Bay Area rock and roll and R&B; long-time member of Van Morrison's band; sat in with Fats Domino's band at the Fillmore in 1958; opened for the Rolling Stones with Morrison in 2006. No price listed; no other performers named.",
+        "url": "https://ranchonicasio.com/event/johnny-allair-3/"
+      },
+      {
+        "finding": "Search result shows a December 2023 Johnny Allair at Rancho Nicasio listing, suggesting a recurring December show (title only; not fetched).",
+        "url": "https://visitmarin.org/event-calendar/2023/december-2023/johnny-allair-at-rancho-nicasio"
+      }
+    ],
+    "fingerprint": "c6d9d93b3f4d",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Keyboardist; long-time Van Morrison band member; 1950s Bay Area R&B and rock veteran",
+        "name": "John (Johnny) Allair",
+        "significance": "notable"
+      }
+    ],
+    "reason": "John Allair is a Bay Area keyboardist who came up in the 1950s SF rock and R&B scene and became a long-time member of Van Morrison's touring band, crossing paths with John Lee Hooker, Big Mama Thornton, Maria Muldaur and Tom Waits per the venue. A Sunday afternoon dinner show at the rustic Rancho Nicasio with a veteran of that lineage has countercultural Marin charm, though blues/R&B keys is adjacent to rather than core to Erik's taste (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Price not listed; band lineup for the date not named.",
+      "Rules score credited 'musical' as theater, which is spurious; this is a music dinner show."
+    ]
+  },
   "ev_0743b6f714c5": {
     "evidence": [
       {
@@ -53,6 +83,36 @@
     "tier": "possible",
     "uncertainties": [
       "Band members not identified this run; also listed on the Dan Hicks fan calendar (hickswithsticks.com), which may mean former Hicks associates; unconfirmed."
+    ]
+  },
+  "ev_07b014a293d5": {
+    "evidence": [
+      {
+        "finding": "'Nov. 6 (4 pm): AJ Frankel & Maverick Bluegrass - Winters Tavern, Pacifica'; also Dec. 18 at Winters Tavern and Jan. 6 at Blondies, SF. Calendar is the Bluegrass Signal (KALW) Bay Area bluegrass and old-time listing.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "2016 interview: Avram Frankel, Pacifica, plays dobro and guitar, studied dobro with Ivan Rosenberg; one half of 'Maverick: A Bluegrass Duo' with David Thom; fronts family band The Dim Lights; guitarist in Slide Road; sideman with David Thom Band and Vintage Grass.",
+        "url": "https://californiabluegrass.org/porchtalk-interview-with-avram-frankel/"
+      }
+    ],
+    "fingerprint": "154268b6299c",
+    "fit": 48,
+    "performers": [
+      {
+        "known_for": "Pacifica dobro/guitar player; Maverick bluegrass duo with David Thom; The Dim Lights",
+        "name": "AJ (Avram) Frankel",
+        "significance": "local"
+      }
+    ],
+    "reason": "Avram (AJ) Frankel is a Pacifica dobro and guitar player, a student of Ivan Rosenberg, who per a California Bluegrass Association interview is one half of Maverick, a bluegrass duo with David Thom, and plays in several local bands. A free-feeling 4 pm tavern set of straight Bay Area bluegrass is pleasant community music close to home rather than a must-see (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "That 'AJ Frankel' is Avram Frankel of Maverick is inference from name and Pacifica location; the interview does not use 'AJ'.",
+      "Current Maverick lineup unconfirmed; no venue page found for Winters Tavern."
     ]
   },
   "ev_084d16ec6dea": {
@@ -258,6 +318,53 @@
       "Support band not named."
     ]
   },
+  "ev_1cb7fa673c4a": {
+    "evidence": [
+      {
+        "finding": "Lists The Chapel, Friday October 30, 2026: 'A Night of the Living Dead: Lebo, Holly Bowling, Wally Ingram, Elliott Peck & More'; no time or price listed.",
+        "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
+      },
+      {
+        "finding": "Holly Bowling and Dan 'Lebo' Lebowitz played in Phil Lesh & Friends at Terrapin Crossroads (Jan 2017); Bowling described as a regular collaborator with Grateful Dead members, known for her solo piano album of Dead music.",
+        "url": "https://liveforlivemusic.com/news/phil-lesh-welcomes-holly-bowling-lebo-jay-lane-terrapin-crossroads-full-video"
+      }
+    ],
+    "fingerprint": "357030602350",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "Bay Area guitarist; played in Phil Lesh & Friends",
+        "name": "Lebo (Dan Lebowitz)",
+        "significance": "local"
+      },
+      {
+        "known_for": "Pianist known for solo piano interpretations of Grateful Dead music; played with Phil Lesh and Bob Weir",
+        "name": "Holly Bowling",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Drummer (background not verified in this pass)",
+        "name": "Wally Ingram",
+        "significance": "local"
+      },
+      {
+        "known_for": "Singer (background not verified in this pass)",
+        "name": "Elliott Peck",
+        "significance": "local"
+      }
+    ],
+    "reason": "A Grateful Dead themed Halloween-weekend night at The Chapel with Bay Area Dead-scene players: guitarist Lebo, pianist Holly Bowling (known for solo piano interpretations of Dead music and gigs with Phil Lesh and Bob Weir), drummer Wally Ingram and singer Elliott Peck. The musicians are credible, but this is essentially a tribute-style Dead night, which sits outside Erik's priorities. The date has already passed.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Event date (2026-10-30) is already past as of 2026-10-31.",
+      "Venue ticket page (wl.eventim.us) was blocked; lineup and format not confirmed from a primary source.",
+      "Program assumed to be Grateful Dead material based on title and performers (inference).",
+      "Wally Ingram and Elliott Peck backgrounds not verified in this pass."
+    ]
+  },
   "ev_1d3aee106307": {
     "event_verified_at": null,
     "evidence": [
@@ -282,6 +389,41 @@
     "tier": "possible",
     "uncertainties": [
       "Oakland primary event page/booking status not confirmed."
+    ]
+  },
+  "ev_1dfb22311ad4": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted). Input listing reads 'Jan. 16: Peter Rowan - The Freight, Berkeley'.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Blue Grass Boys 1964 to 1967, co-wrote Walls of Time with Monroe; Earth Opera with Grisman; Seatrain; Old & In the Way with Grisman, Greene, Garcia, Kahn, later Vassar Clements; Muleskinner with Greene, Grisman, Keith, Clarence White; 1997 Grammy for True Life Blues; IBMA Hall of Fame 2022.",
+        "url": "https://en.wikipedia.org/wiki/Peter_Rowan"
+      },
+      {
+        "finding": "Jan 2025 article: Rowan touring with the Sam Grisman Project celebrating Old & In the Way; describes him as the only member of that band still actively performing. No 2027 dates listed.",
+        "url": "https://newfrontiertouring.com/post/peter-rowan-coming-to-ryman-auditorium-with-sam-grisman-project"
+      }
+    ],
+    "fingerprint": "e51741ee30a4",
+    "fit": 92,
+    "performers": [
+      {
+        "known_for": "Bill Monroe Blue Grass Boy; Earth Opera; Old & In the Way; Muleskinner; Panama Red; IBMA Hall of Fame 2022",
+        "name": "Peter Rowan",
+        "significance": "foundational"
+      }
+    ],
+    "reason": "Peter Rowan is a foundational figure: Bill Monroe Blue Grass Boy (1964 to 1967, co-writer of Walls of Time), co-founder of Earth Opera with David Grisman, a member of Old & In the Way with Jerry Garcia and of Muleskinner with Clarence White, Bill Keith and Richard Greene, writer of Panama Red, and a 2022 IBMA Hall of Fame inductee. He links bluegrass tradition to the Bay Area psychedelic counterculture better than almost anyone alive, and seeing him at the Freight is core Erik territory (inference). He is still actively touring, including with the Sam Grisman Project.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "exceptional",
+    "uncertainties": [
+      "Date and venue rest only on the Bluegrass Signal calendar listing, which could not be fetched; no Freight & Salvage page for Jan 16, 2027 was found by search.",
+      "Band configuration (solo, Free Mexican Airforce, with Sam Grisman Project, etc.) unknown.",
+      "Show time and price unknown."
     ]
   },
   "ev_24ce08e28341": {
@@ -343,6 +485,41 @@
     "uncertainties": [
       "Round Top Stringband members not identified.",
       "Time and price not confirmed."
+    ]
+  },
+  "ev_2894cc6b65c6": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked; input listing (from this page) gives Nov 5, 2026, 7:00 PM and quotes a five-star DownBeat review calling her 'a star in the making' and cites her collaboration with Joshua Redman on where are we.",
+        "url": "https://www.kuumbwajazz.org/calendar/gabrielle-cavassa/"
+      },
+      {
+        "finding": "Born 1994 in Escondido; B.A. from San Francisco State; moved to New Orleans in 2017; sang on Joshua Redman's Where Are We (2023) and Words Fall Short (2025); signed to Blue Note in August 2024; co-winner of the 2021 Sarah Vaughan International Jazz Vocal Competition.",
+        "url": "https://en.wikipedia.org/wiki/Gabrielle_Cavassa"
+      },
+      {
+        "finding": "Reviews Blue Note debut Diavola, 7/10; produced by Don Was; musicians Joshua Redman, Jeff Parker, Larry Grenadier, Paul Cornish, Brian Blade; calls it an 'exquisite, personal project'.",
+        "url": "https://www.popmatters.com/gabrielle-cavassa-diavola"
+      }
+    ],
+    "fingerprint": "043db592ea4c",
+    "fit": 72,
+    "performers": [
+      {
+        "known_for": "Jazz vocalist; Joshua Redman collaborator; Blue Note debut Diavola (2026)",
+        "name": "Gabrielle Cavassa",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Gabrielle Cavassa is a New Orleans-honed jazz singer (SF State alum) who broke through singing on Joshua Redman's Blue Note album where are we and now has her own Blue Note debut, Diavola, produced by Don Was with Jeff Parker, Larry Grenadier, Paul Cornish and Brian Blade. Kuumbwa is one of the best intimate jazz rooms in Northern California, so this is a chance to hear a rising Blue Note voice up close. More song-centered vocal jazz than free improvisation, which tempers the fit.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Kuumbwa event page could not be fetched (permission not granted), so date, time, price and touring band are unconfirmed from the primary source.",
+      "Touring band for this date unknown; album personnel likely not all touring (inference).",
+      "She also has a Nov 20 date at Bankhead Theater, Livermore per a resale listing."
     ]
   },
   "ev_2d4569d94a23": {
@@ -465,6 +642,58 @@
     "tier": "possible",
     "uncertainties": [
       "Band personnel unknown."
+    ]
+  },
+  "ev_300da158da37": {
+    "evidence": [
+      {
+        "finding": "Lists under Thursday November 5, 2026, San Francisco: 'The Lost Church: Georgia Parker, Tashi T'. No time or price given.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Describes Georgia Parker's music as indie folk, chamber pop and indie rock; 'distinctive voice in contemporary folk and indie music'.",
+        "url": "https://app.opendate.io/e/georgia-parker-august-26-2026-725783"
+      },
+      {
+        "finding": "Georgia Parker born in Boerne, Texas; studied at Berklee 2017 to 2021; lives in Los Angeles.",
+        "url": "https://last.fm/music/Georgia+Parker/+wiki"
+      },
+      {
+        "finding": "Interview (Aug 2024) on her debut album Same Time Tomorrow; intro calls her a singer-songwriter from Kent based in LA.",
+        "url": "https://nickvereshchak.substack.com/p/interview-georgia-parker-on-her-debut"
+      },
+      {
+        "finding": "Tashi T described as an emerging singer/songwriter and multi-instrumentalist putting a fresh spin on folk and Americana; influences cited as Gillian Welch, Townes Van Zandt and Blaze Foley; sold-out local shows across the Southwest and a UK/Europe tour.",
+        "url": "https://swallowhillmusic.org/events/tashitandsophiaeliana/"
+      },
+      {
+        "finding": "Search result title shows a Georgia Parker plus 'Tasha T' show at Sunset Tavern (Seattle), suggesting a shared West Coast tour (title only; not fetched).",
+        "url": "https://app.discotech.me/events/38284678-the-crocodile-presents-georgia-parker-tasha-t-at-sunset-tavern"
+      }
+    ],
+    "fingerprint": "96d3f4cb12b5",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "LA-based indie folk / chamber pop singer-songwriter; debut album Same Time Tomorrow",
+        "name": "Georgia Parker",
+        "significance": "none"
+      },
+      {
+        "known_for": "Emerging folk/Americana singer-songwriter and multi-instrumentalist influenced by Gillian Welch and Townes Van Zandt",
+        "name": "Tashi T",
+        "significance": "none"
+      }
+    ],
+    "reason": "Georgia Parker is an LA-based, Berklee-trained singer-songwriter whose touring materials describe indie folk, chamber pop and indie rock; opener Tashi T is an emerging folk/Americana songwriter citing Gillian Welch, Townes Van Zandt and Blaze Foley. This is contemporary songwriter fare rather than traditional or freak folk, but Tashi T's Welch/Van Zandt orientation and the small Lost Church room keep it a plausible weeknight option (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "The Lost Church ticket page could not be fetched (robots disallowed), so time, price and lineup were not confirmed on a primary venue source.",
+      "Sources disagree on Georgia Parker's origin (Boerne, Texas on last.fm vs Kent in a Substack intro); possibly a metadata error or two different artists (inference).",
+      "Tashi T identification is based on name match with the Swallow Hill listing (inference)."
     ]
   },
   "ev_3787d335a134": {
@@ -740,6 +969,51 @@
       "Opener unknown."
     ]
   },
+  "ev_5827c894ce57": {
+    "evidence": [
+      {
+        "finding": "Friday November 13, 2026, doors 8:00 PM, music 8:30 PM; $30 advance / $35 door; 21+; page displays a 'SOLD OUT' banner; lineup Jon Spencer (Pussy Galore, Jon Spencer Blues Explosion, Heavy Trash, HITmakers), Genre Is Death (NYC experimental post-punk/noise duo, debut recorded by Martin Bisi), Fuckwolf (SF psych/post-punk/Krautrock), Mike Gabriel playing '60s garage records.",
+        "url": "http://www.bottomofthehill.com/20261113.html"
+      },
+      {
+        "finding": "Songs of Personal Loss and Protest released on Shove Records (founded by Spencer and Julie Cafritz in 1985); he tours as a power trio with drummer Macky 'Spider' Bowman and bassist Kendall Wind of The Bobby Lees.",
+        "url": "https://www.loudersound.com/bands-artists/interviews/jon-spencer-interview-2026"
+      }
+    ],
+    "fingerprint": "c3375c59d144",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Pussy Galore, Jon Spencer Blues Explosion, Heavy Trash; punk blues garage",
+        "name": "Jon Spencer",
+        "significance": "foundational"
+      },
+      {
+        "known_for": "NYC experimental post-punk and noise duo",
+        "name": "Genre Is Death",
+        "significance": "none"
+      },
+      {
+        "known_for": "SF psych rock and post-punk band",
+        "name": "Fuckwolf",
+        "significance": "local"
+      },
+      {
+        "known_for": "DJ playing '60s garage records",
+        "name": "Mike Gabriel",
+        "significance": "none"
+      }
+    ],
+    "reason": "Jon Spencer, of Pussy Galore and the Jon Spencer Blues Explosion, is a foundational figure in noise and punk-blues, here as a power trio behind his 2026 album Songs of Personal Loss and Protest on his own Shove Records. Openers are NYC noise duo Genre Is Death and SF Krautrock-psych band Fuckwolf. It is a sweaty garage-rock night in a small club rather than roots or improvised jazz, and the show is sold out.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "sold-out",
+    "tier": "possible",
+    "uncertainties": [
+      "Sold out per venue page; resale or door availability unknown.",
+      "Songkick page not fetched."
+    ]
+  },
   "ev_584ddd7aa200": {
     "evidence": [
       {
@@ -796,6 +1070,129 @@
       "Running order of the three acts unclear."
     ]
   },
+  "ev_5aa52778aca9": {
+    "evidence": [
+      {
+        "finding": "WebFetch permission request timed out; page not read; input description says Thursday Nov 5 2026, doors 7pm, show 8pm, $20 advance / $25 day of, 21+, special guests Blue Dream.",
+        "url": "https://moesalley.com/tm-event/moes-alley-presents-clay-street-unit/"
+      },
+      {
+        "finding": "Denver sextet formed 2021, Americana string band with bluegrass foundation blended with indie folk and honky-tonk; signed to Leo33; debut Sin & Squalor produced by Chris Pandolfi (Infamous Stringdusters); played Red Rocks with Leftover Salmon and Kitchen Dwellers.",
+        "url": "https://thebluegrasssituation.com/read/clay-street-unit-chat-sin-squalor-and-excitement-for-the-future/"
+      }
+    ],
+    "fingerprint": "d1262d102c5c",
+    "fit": 72,
+    "performers": [
+      {
+        "known_for": "Denver bluegrass-rooted Americana string band on Leo33, produced by Chris Pandolfi",
+        "name": "Clay Street Unit",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Opener; not researched",
+        "name": "Blue Dream",
+        "significance": "none"
+      }
+    ],
+    "reason": "Clay Street Unit is a Denver sextet formed in 2021, an Americana string band on a bluegrass foundation mixing in indie folk and honky-tonk, signed to Leo33 with a debut LP produced by Chris Pandolfi of the Infamous Stringdusters. They have shared Red Rocks bills with Leftover Salmon and Kitchen Dwellers, so this is the jamgrass festival-circuit lineage rather than traditional old-time. A $20 club show at Moe's Alley is a cheap way to catch a rising string band, though it sits at the rowdier newgrass end of Erik's taste (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Primary Moe's Alley page not fetched; details from input record",
+      "Opener Blue Dream not researched; identity unknown",
+      "Santa Cruz is a drive from the core Bay Area"
+    ]
+  },
+  "ev_5d01694156f2": {
+    "evidence": [
+      {
+        "finding": "Goldenvoice presents Foy Vance: World Tour 2026 & 2027, Sunday November 8, 2026, doors 6:00 PM, show 7:00 PM, Great American Music Hall; support Bonnie Bishop and Ryan McMullan; $36 advance, $40 week/day of show, $45 door; 'Limited seating, mostly standing'; no explicit statement that tickets are available or sold out.",
+        "url": "https://wl.eventim.us/event/foy-vance/680313?afflky=GreatAmericanMusicHall"
+      },
+      {
+        "finding": "Northern Irish singer-songwriter (alternative rock, folk, blues); albums include Joy of Nothing (Glassnote), From Muscle Shoals, To Memphis, and The Wake (2026); signed to Ed Sheeran's Gingerbread Man Records; collaborators include Bonnie Raitt, Ed Sheeran, Miranda Lambert and Kacey Musgraves.",
+        "url": "https://en.wikipedia.org/wiki/Foy_Vance"
+      }
+    ],
+    "fingerprint": "7163e4a987a4",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Northern Irish singer-songwriter; collaborator of Bonnie Raitt and Ed Sheeran; new album The Wake (2026)",
+        "name": "Foy Vance",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Singer-songwriter (inference: Texas soul and Americana singer)",
+        "name": "Bonnie Bishop",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Singer-songwriter (inference: Northern Irish)",
+        "name": "Ryan McMullan",
+        "significance": "none"
+      }
+    ],
+    "reason": "Foy Vance is a Northern Irish folk, blues and soul-leaning singer-songwriter who has worked with Bonnie Raitt and Ed Sheeran and recorded albums in Muscle Shoals and Memphis; this World Tour supports his 2026 album The Wake. Texas singer Bonnie Bishop and Northern Irish songwriter Ryan McMullan open. Polished roots-adjacent songwriting rather than the traditional or outsider material Erik prizes, though his partner might enjoy it.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Bonnie Bishop and Ryan McMullan backgrounds not researched in depth (Bishop as Texas singer and McMullan as Northern Irish songwriter is from general knowledge, inference).",
+      "Songkick and KALX pages not separately fetched for this event."
+    ]
+  },
+  "ev_5dc580758bd7": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted); listing details taken only from the input record: Little Hill Lounge, Blues Night: Fillmore Slim, T Patrick Farmer, Willie G, 2026-11-03.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Born Clarence Sims, November 7, 1934; moved to San Francisco and played Fillmore District clubs, opening for B. B. King and Dinah Washington; recorded for Mountain Top and Fedora; 1987 debut Born to Sing the Blues with Troyce Key; West Coast Blues Hall of Fame 2008, Lowell Fulson Jus' Blues Award 2011; appears in the documentary American Pimp.",
+        "url": "https://en.wikipedia.org/wiki/Fillmore_Slim"
+      },
+      {
+        "finding": "Little Hill Lounge is at 10753 San Pablo Ave., El Cerrito; a small, intimate room with music in a converted back room; programs ambient jazz, country, karaoke, rock, DJs, and a Rent Romus / Eli Knowles residency. No blues nights mentioned.",
+        "url": "https://richmondside.org/?p=446990"
+      }
+    ],
+    "fingerprint": "cc1ab1e48945",
+    "fit": 58,
+    "performers": [
+      {
+        "known_for": "Veteran San Francisco Fillmore District blues singer/guitarist, West Coast Blues Hall of Fame 2008",
+        "name": "Fillmore Slim",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Not identified",
+        "name": "T Patrick Farmer",
+        "significance": "none"
+      },
+      {
+        "known_for": "Not identified",
+        "name": "Willie G",
+        "significance": "none"
+      }
+    ],
+    "reason": "Fillmore Slim (Clarence Sims, born 1934) is a West Coast Blues Hall of Fame bluesman who opened for B. B. King and Dinah Washington in the old Fillmore District club scene and recorded for Mountain Top and Fedora. Seeing a living link to postwar Bay Area blues in a tiny El Cerrito back room is the draw; blues sits at the edge of Erik's roots taste rather than its center (inference). He turns 92 days after this show, so chances to see him are finite (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "KALX page and any venue page could not be fetched, so date, time, price and lineup are unconfirmed against a primary source.",
+      "Start time unknown (input shows midnight placeholder).",
+      "T Patrick Farmer and Willie G could not be identified.",
+      "Wikipedia gives two different birthplaces (New Orleans and Baton Rouge).",
+      "Fillmore Slim's documented past as a pimp may matter to some listeners."
+    ]
+  },
   "ev_5ef1ec6dd16e": {
     "evidence": [
       {
@@ -834,6 +1231,40 @@
     "tier": "possible",
     "uncertainties": [
       "No independent review found; how free or composed the music is is unknown."
+    ]
+  },
+  "ev_6228bcc01e78": {
+    "evidence": [
+      {
+        "finding": "'Nov. 6: My Darling Clementine - The Back Room, Berkeley' (no time or price).",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "2015 article: British country duo of Michael Weston King and wife Lou Dalgleish in the style of Johnny Cash/June Carter and George Jones/Tammy Wynette; King led The Good Sons and worked with Steve Earle, Townes Van Zandt, Roger McGuinn; Dalgleish worked with Elvis Costello and Bryan Ferry; albums include How Do You Plead? and The Reconciliation? (guests Kinky Friedman, Richard Hawley Band, Brodsky Quartet).",
+        "url": "https://peninsuladailynews.com/news/weekend-duo-brings-own-brand-of-twang-to-coyle-concert-saturday"
+      },
+      {
+        "finding": "Search result title shows a My Darling Clementine show in Groningen on 19-11-2026 (title only; not fetched).",
+        "url": "https://www.eventworld.com/my-darling-clementine-groningen-tickets-19-11-2026/event/509262"
+      }
+    ],
+    "fingerprint": "94ec2fb27334",
+    "fit": 58,
+    "performers": [
+      {
+        "known_for": "British classic-country duet act; King ex The Good Sons, worked with Townes Van Zandt; Dalgleish worked with Elvis Costello",
+        "name": "My Darling Clementine (Michael Weston King and Lou Dalgleish)",
+        "significance": "notable"
+      }
+    ],
+    "reason": "If this is the UK duo, My Darling Clementine is Michael Weston King (ex The Good Sons, who has worked with Townes Van Zandt, Steve Earle and Roger McGuinn) and Lou Dalgleish (Elvis Costello, Bryan Ferry collaborator) doing classic George and Tammy / Johnny and June style country duets. A rare US appearance in Berkeley's tiny Back Room would be a characterful, literate classic-country night, though it is retro country rather than old-time or folk roots (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Not confirmed on a Back Room venue page; only the Bluegrass Signal listing found.",
+      "Identity as the UK duo is inference: no source confirms a 2026 US tour, and a Groningen date on Nov 19 and London Dec 1 make a Berkeley Nov 6 stop plausible but unproven. It could be a local act of the same name."
     ]
   },
   "ev_632d4268583b": {
@@ -876,6 +1307,46 @@
       "Same duo also plays The Chapel SF on 2027-01-10 (ev_77216bb9cb0c)."
     ]
   },
+  "ev_68747aabf855": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted). Input description quotes the page: Thursday November 12, 7:00 pm doors / 8:00 pm show, $15 door, Ivy Room, 860 San Pablo Ave, Albany, 21+.",
+        "url": "https://tickets.venuepilot.com/e/petunia-the-vipers-noelle-the-deserters-2026-11-12-ivy-room-albany-264d2a"
+      },
+      {
+        "finding": "Petunia leads Petunia and the Vipers, a roots band mixing country swing, rockabilly, blues and old folk that carries on Ray Condo's legacy; band includes ex-Condo sidemen Jimmy Roy and Stephen Nikleva; Petunia has sung with Phil Alvin and Exene, and the Vipers have opened for John Doe.",
+        "url": "https://www.straight.com/music/1023281/petunia-x-alvins-and-ugliest-bitterest-coldest-dreary-place-hes-ever-seen"
+      },
+      {
+        "finding": "Noelle and the Deserters are led by Taos-raised singer-songwriter Noelle Fiore, members based in the Bay Area and Sacramento; High Desert Daydream rated 7/10, classic country themes with New Mexico flavor, honky-tonk, pedal steel, mandolin, mariachi trumpet, vocals compared to Loretta Lynn.",
+        "url": "https://americana-uk.com/?p=139627"
+      }
+    ],
+    "fingerprint": "1eec9bc96bfa",
+    "fit": 60,
+    "performers": [
+      {
+        "known_for": "Vancouver roots band (country swing, rockabilly, old folk) in the Ray Condo lineage; collaborations with Phil Alvin, Exene",
+        "name": "Petunia & The Vipers",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Bay Area/Sacramento honky-tonk band led by Noelle Fiore; album High Desert Daydream",
+        "name": "Noelle & The Deserters",
+        "significance": "local"
+      }
+    ],
+    "reason": "Petunia and the Vipers are a Vancouver roots band drawing on country swing, rockabilly, blues and old folk, carrying on Ray Condo's legacy with former Condo sidemen like Jimmy Roy, and they have shared stages with Phil and Dave Alvin, Exene Cervenka and John Doe. Noelle and the Deserters are a Bay Area and Sacramento honky-tonk band led by Taos-raised Noelle Fiore, with pedal steel, mandolin and mariachi trumpet. A $15 Ivy Room double bill with real countercultural roots credentials, though more honky-tonk and rockabilly than old-time.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Ticket page could not be fetched directly; date, time and price come from the input's quoted page text.",
+      "The input text says 'ADVANCE TICKETS AVAILABLE' but this was not verified by a fetch, so status left unverified.",
+      "The rules engine's 'theater_core: play' match is spurious; this is a concert."
+    ]
+  },
   "ev_693c1c27e9e5": {
     "evidence": [
       {
@@ -899,6 +1370,72 @@
     "tier": "possible",
     "uncertainties": [
       "Song-tradition roots are inference."
+    ]
+  },
+  "ev_6c0c361dbcd8": {
+    "evidence": [
+      {
+        "finding": "WebFetch permission request timed out; page not read; input description says doors 7:30pm, show 8pm, 'with A Grateful Dead Night', and calls Thompson a legendary flatpicker (Black Mountain Boys, David Nelson, David Grisman) who was a witness to the birth of the Warlocks.",
+        "url": "https://tickets.venuepilot.com/e/eric-thompson-s-dead-roots-revival-2026-11-20-ashkenaz-music-dance-community-center-berkeley-ff9298"
+      },
+      {
+        "finding": "Earlier edition: Eric Thompson & Dead Roots Revival at Ashkenaz Friday June 12, 8pm, with Sam Reider, Corbin Pagter, Keith Terry, Paul Kotapish, Mark Schatz and Suzy Thompson; $20 adv / $25 door / $15 students.",
+        "url": "https://www.gratefulweb.com/articles/ashkenaz-announces-grateful-dead-nights-world-music-zydeco-dylan-after-party-more/"
+      },
+      {
+        "finding": "Bio lists Black Mountain Boys (with Jerry Garcia and David Nelson), Mother McCree's Uptown Jug Champions, New York Ramblers (with David Grisman; Union Grove championship), Charles River Valley Boys, Blue Flame Stringband, California Cajun Orchestra, Kleptograss; sideman work with Mike Seeger and Alice Gerrard; Tony Rice on his first solo LP.",
+        "url": "https://www.ericandsuzy.com/eric-bio.html"
+      }
+    ],
+    "fingerprint": "c7be1521c0fc",
+    "fit": 89,
+    "performers": [
+      {
+        "known_for": "Flatpicking guitarist; Black Mountain Boys with Jerry Garcia, New York Ramblers with David Grisman, California Cajun Orchestra, Kleptograss",
+        "name": "Eric Thompson",
+        "significance": "foundational"
+      },
+      {
+        "known_for": "Fiddler and singer; Blue Flame Stringband, California Cajun Orchestra, duo with Eric (per June lineup)",
+        "name": "Suzy Thompson",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Kleptograss bandmate of Eric Thompson (per bio); June Dead Roots Revival lineup",
+        "name": "Paul Kotapish",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bassist; Kleptograss bandmate of Eric Thompson (per bio); June lineup",
+        "name": "Mark Schatz",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Kleptograss bandmate of Eric Thompson (per bio); June lineup",
+        "name": "Corbin Pagter",
+        "significance": "local"
+      },
+      {
+        "known_for": "June Dead Roots Revival lineup",
+        "name": "Sam Reider",
+        "significance": "local"
+      },
+      {
+        "known_for": "June Dead Roots Revival lineup",
+        "name": "Keith Terry",
+        "significance": "local"
+      }
+    ],
+    "reason": "Eric Thompson is a foundational Bay Area flatpicker who played in the Black Mountain Boys with Jerry Garcia and David Nelson, then in the New York Ramblers with David Grisman, Blue Flame Stringband, California Cajun Orchestra and Kleptograss. Dead Roots Revival reframes early Dead repertoire through acoustic string-band players; the June 2026 Ashkenaz edition featured Suzy Thompson, Paul Kotapish, Mark Schatz, Corbin Pagter, Sam Reider and Keith Terry. A $20-ish night at Ashkenaz with a living link to the Garcia bluegrass years is squarely in Erik's lane, though it leans on Dead material rather than originals.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "exceptional",
+    "uncertainties": [
+      "Primary venuepilot page for Nov 20 could not be fetched; date and time come from the input record only",
+      "November lineup not confirmed; it may differ from the June lineup",
+      "'with A Grateful Dead Night' wording is ambiguous: may indicate a second act or just the night's theme",
+      "Price for the November date not confirmed"
     ]
   },
   "ev_6c992bfec563": {
@@ -1610,6 +2147,42 @@
     "tier": "possible",
     "uncertainties": []
   },
+  "ev_947c291563f1": {
+    "evidence": [
+      {
+        "finding": "Friday, November 6, 2026: 'Center for New Music: Jill Morgan Brenner, Paul Dab'. No other details.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Fetched calendar returned no 2026 listings and nothing for these performers.",
+        "url": "https://centerfornewmusic.com/calendar/"
+      }
+    ],
+    "fingerprint": "f3ac9375ffa2",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "Unresolved; no source found",
+        "name": "Jill Morgan Brenner",
+        "significance": "none"
+      },
+      {
+        "known_for": "Unresolved; no source found",
+        "name": "Paul Dab",
+        "significance": "none"
+      }
+    ],
+    "reason": "A Center for New Music bill of Jill Morgan Brenner and Paul Dab, listed only by name on KALX's weekly calendar. I could not identify either performer or find a venue listing, so the style (improv, composed new music, or something else) is unresolved. CNM is a small Tenderloin room that hosts adventurous improvised sets, so it could fit his intimate-jazz interest (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "No start time, price, or description found",
+      "Web searches found nothing identifying Jill Morgan Brenner or Paul Dab",
+      "Genre unknown; the 'new music' rule score is from venue name only"
+    ]
+  },
   "ev_954539cf75b5": {
     "evidence": [
       {
@@ -1647,6 +2220,49 @@
     "uncertainties": [
       "Back pOrchEstra members not identified.",
       "Two separately ticketed events merged in one listing (inference from separate URLs)."
+    ]
+  },
+  "ev_96a0d93ff346": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted); not checked.",
+        "url": "https://keysjazzbistro.com/event/helen-sung/"
+      },
+      {
+        "finding": "Fetch blocked (permission not granted); not checked.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Artist's own tour page lists Nov 4: Helen Sung Oracles Quartet, Keys Jazz Bistro, San Francisco, CA, plus Nov 2 Kuumbwa (Santa Cruz) and Nov 3 SF Conservatory of Music.",
+        "url": "https://www.helensung.com/live.html"
+      },
+      {
+        "finding": "Inaugural class of the Thelonious Monk Institute; collaborators include Clark Terry, Wayne Shorter, Ron Carter, Wynton Marsalis and JLCO, Regina Carter, Terri Lyne Carrington, Cecile McLorin Salvant, Mingus Big Band; Mary Lou Williams Jazz Piano Competition winner, Guggenheim Fellowship, 2022 BMI Charlie Parker composition award; Oracles (2026) on Sunnyside.",
+        "url": "https://helensung.com/about.html"
+      },
+      {
+        "finding": "Review of Oracles rates it 4, calls it a joyous, idea-packed celebration of Jimmy Heath, Ron Carter, Wayne Shorter and others; praises Nicole Glover's tenor solo.",
+        "url": "https://www.theartsdesk.com/node/94113"
+      }
+    ],
+    "fingerprint": "87bbd115c0c3",
+    "fit": 74,
+    "performers": [
+      {
+        "known_for": "Jazz pianist/composer; Monk Institute alum; Mary Lou Williams Competition winner; Guggenheim Fellow; Oracles (Sunnyside, 2026)",
+        "name": "Helen Sung",
+        "significance": "major"
+      }
+    ],
+    "reason": "Helen Sung is a Houston-raised pianist from the inaugural class of the Thelonious Monk Institute, a Mary Lou Williams Competition winner and Guggenheim Fellow who has worked with Clark Terry, Wayne Shorter, Ron Carter, Regina Carter, Terri Lyne Carrington and the Mingus Big Band. She brings her Oracles Quartet, built on her well-reviewed 2026 Sunnyside big band album of portraits of her Monk Institute mentors, to the small Keys Jazz Bistro room on a short West Coast swing. Her playing is more joyful post-bop than free improv, but this is a top-flight player in an intimate room (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Venue page not fetched; set times, price and quartet personnel unconfirmed.",
+      "Input start time 7:00 pm not verified.",
+      "The rules engine's 'tribute to' penalty is a false positive: Oracles honors mentors, it is not a tribute act."
     ]
   },
   "ev_96d043c0de6f": {
@@ -1857,6 +2473,45 @@
       "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
     ]
   },
+  "ev_a6a480508d3b": {
+    "evidence": [
+      {
+        "finding": "Saturday January 16, 2027, 7:00 PM, doors/dinner 6:00 PM, all ages. Advance $29.14, member $26.25, door $31.50, student $15.75. Lineup: Arun Ramamurthy violin, Damon Banks electric bass, Sameer Gupta drums. Notes performances at Jazz at Lincoln Center and the Kennedy Center; latest album New Moon.",
+        "url": "https://www.kuumbwajazz.org/calendar/arun-ramamurthy-trio/"
+      },
+      {
+        "finding": "Review of New Moon (Greenleaf Music): Ramamurthy learned Carnatic music from parents and grandmother; reviewer finds the blend 'resoundingly successful' and the record 'full of interest and delight'; centrepiece is the four-part New Moon Suite.",
+        "url": "https://londonjazznews.com/2024/09/22/arun-ramamurthy-trio-new-moon/"
+      }
+    ],
+    "fingerprint": "a691663991c9",
+    "fit": 78,
+    "performers": [
+      {
+        "known_for": "Carnatic-trained Brooklyn violinist fusing raga and jazz; albums on Greenleaf Music",
+        "name": "Arun Ramamurthy",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Drummer and tabla player bridging Indian rhythmic systems and jazz",
+        "name": "Sameer Gupta",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Electric bassist",
+        "name": "Damon Banks",
+        "significance": "local"
+      }
+    ],
+    "reason": "Brooklyn violinist Arun Ramamurthy, raised in the Carnatic tradition by his family, leads a raga-jazz trio with drummer Sameer Gupta and electric bassist Damon Banks; their second album New Moon came out on Dave Douglas's Greenleaf Music label and London Jazz News called the Carnatic/jazz blend 'resoundingly successful'. Improvised violin over ragas in the intimate Kuumbwa room hits both his adventurous-jazz and fiddle-tradition interests, and is the kind of unusual traditional collaboration he seeks (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Kuumbwa page shows a Buy Tickets button but does not state availability."
+    ]
+  },
   "ev_a756bb877eb3": {
     "evidence": [
       {
@@ -2020,6 +2675,48 @@
       "'tribute'/'musical' rules hits are false positives."
     ]
   },
+  "ev_b025cd98bb00": {
+    "evidence": [
+      {
+        "finding": "Saturday, November 7, 2026: 'Center for New Music: 12pm G|O|D|W|A|F|F|L|E||N|O|I|S|E||P|A|N|C|A|K|E|S; 7:30pm Nat Evans; the Electric Guitar Ensemble'.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Godwaffle Noise Pancakes at Center for New Music, 55 Taylor St, Dec 13, 2025; described as '25 years of sculpting soundscapes with the boon-delish of maximum vegan gourmet pancakes'. No performers listed.",
+        "url": "https://accrue.com/events/godwafflenoisepancakes-3TQdEyEA4nGENq6J3L"
+      }
+    ],
+    "fingerprint": "2f4f51c13b36",
+    "fit": 46,
+    "performers": [
+      {
+        "known_for": "Long-running SF noise music matinee series with vegan pancakes",
+        "name": "Godwaffle Noise Pancakes",
+        "significance": "local"
+      },
+      {
+        "known_for": "Unresolved; composer identity not confirmed",
+        "name": "Nat Evans",
+        "significance": "none"
+      },
+      {
+        "known_for": "Unresolved",
+        "name": "the Electric Guitar Ensemble",
+        "significance": "none"
+      }
+    ],
+    "reason": "A Center for New Music double: the noon slot is Godwaffle Noise Pancakes, a long-running SF noise-and-vegan-pancakes matinee ('25 years of sculpting soundscapes' per a 2025 listing), and the 7:30pm show is Nat Evans with an Electric Guitar Ensemble. This is outsider experimental culture more than folk or jazz, so it sits at the edge of his taste; Godwaffle is a genuine underground institution (inference from its 25-year claim).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "No CNM primary listing found for this date; price unknown",
+      "Nat Evans identity unconfirmed (a Seattle composer of that name exists, but no source tied him to this show)",
+      "Unclear whether 'the Electric Guitar Ensemble' is a separate act or Evans's ensemble",
+      "Godwaffle lineup for this date unknown"
+    ]
+  },
   "ev_b1c2d55e87c9": {
     "evidence": [
       {
@@ -2043,6 +2740,63 @@
     "tier": "possible",
     "uncertainties": [
       "The repertoire for the night is a costume concept and may be covers."
+    ]
+  },
+  "ev_b2904b39647e": {
+    "evidence": [
+      {
+        "finding": "WebFetch permission request timed out; page not read; input description says Andrew Duhon Sunday matinee Nov 1 2026, doors 2pm, show 3pm, $30 adv / $35 day of, mostly seated, 21+.",
+        "url": "https://moesalley.com/tm-event/moes-alley-presents-andrew-duhon-trio/"
+      },
+      {
+        "finding": "Search result title lists Andrew Duhon, Santa Cruz, 11-01-2026 (page not fetched).",
+        "url": "https://www.eventworld.com/andrew-duhon-santa-cruz-tickets-11-01-2026/event/446803"
+      },
+      {
+        "finding": "New Orleans singer-songwriter in a storytelling troubadour mold, compared to John Prine and Jim Croce; The Moorings (2014) earned a Grammy nomination for Best Engineered Album; often performs as a trio.",
+        "url": "https://www.lobero.org/wp-content/uploads/2022/09/Andrew-Duhon-Press-Release.pdf"
+      },
+      {
+        "finding": "Parlor Greens: Tim Carman (GA-20), Jimmy James (True Loves, Delvon Lamarr Organ Trio), Adam Scone (Daptone sessions, Sugarman 3); Colemine Records; album Emeralds due March 27 2026.",
+        "url": "https://joyofviolentmovement.com/new-audio-parlor-greens-share-strutting-eat-your-greens/"
+      },
+      {
+        "finding": "Lists Parlor Greens at Moe's Alley Santa Cruz on March 18 (spring tour), not November.",
+        "url": "https://www.kalx.berkeley.edu/jimmy-james-of-parlor-greens/"
+      },
+      {
+        "finding": "WebFetch permission request timed out; page not read",
+        "url": "https://moesalley.com/tm-event/moes-alley-presents-parlor-greens-2/"
+      }
+    ],
+    "fingerprint": "45b64d398072",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "New Orleans singer-songwriter; Grammy-nominated The Moorings",
+        "name": "Andrew Duhon",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Colemine soul-jazz organ trio with Adam Scone, Jimmy James, Tim Carman",
+        "name": "Parlor Greens",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Opener per title; not researched",
+        "name": "The GT's (The Grease Traps Rhythm Section)",
+        "significance": "none"
+      }
+    ],
+    "reason": "This record conflates two Moe's Alley shows: the main URL and description are an Andrew Duhon Trio Sunday matinee on Nov 1 (New Orleans troubadour songwriter compared to John Prine, Grammy-nominated for Best Engineered Album on The Moorings), while the title is a Parlor Greens organ-trio show. Parlor Greens (Adam Scone of Daptone/Sugarman 3, Jimmy James of Delvon Lamarr Organ Trio, Tim Carman of GA-20, on Colemine) is soul-jazz funk, not improvised jazz in Erik's sense. Neither is a core fit, but both are quality acts in a small room.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Record merges two different events; Nov 1 3pm appears to be Andrew Duhon, and the Parlor Greens w/ The GT's date is unconfirmed",
+      "Could not find a November Parlor Greens date in search",
+      "No primary page fetched"
     ]
   },
   "ev_b3a7dad114f7": {
@@ -2131,6 +2885,53 @@
     "ticket_status": "unverified",
     "tier": "possible",
     "uncertainties": []
+  },
+  "ev_b979fc1c0cee": {
+    "evidence": [
+      {
+        "finding": "WebFetch permission request timed out; page not read; input lists Bottom of the Hill, Nov 7 2026, 7pm, Southern Culture On The Skids with Van Goat.",
+        "url": "http://www.bottomofthehill.com/20261107.html"
+      },
+      {
+        "finding": "WebFetch permission request timed out; page not read",
+        "url": "https://dice.fm/event/6a679a38417bab00014d68f6"
+      },
+      {
+        "finding": "Band from Chapel Hill, NC (SCOTS); began 1984 with EP Voodoo Beach Party, self-titled debut 1985; later returned with a sound combining many genres.",
+        "url": "https://festt.io/en/artists/southern-culture-on-the-skids"
+      },
+      {
+        "finding": "Van Goat: Oakland five-piece (Aidan Ward, Ben Einstein, Derek Burle, Lindsay Alexis, Taylor Moxon) mixing punk, swing, ragtime, Southern jazz, surf, ska, rockabilly; debut Follow Me Under, compared to Squirrel Nut Zippers.",
+        "url": "https://glidemagazine.com/?p=212971"
+      },
+      {
+        "finding": "KALW 2017 feature calls Van Goat a Bay Area band with a lively swing/surf/punk show.",
+        "url": "https://www.kalw.org/show/crosscurrents/2017-02-21/todays-local-music-van-goat"
+      }
+    ],
+    "fingerprint": "b9647dc38ac9",
+    "fit": 56,
+    "performers": [
+      {
+        "known_for": "Chapel Hill NC genre-blending roots/surf/rockabilly band since 1984",
+        "name": "Southern Culture on the Skids",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Oakland swing/punk/surf/ragtime five-piece",
+        "name": "Van Goat",
+        "significance": "local"
+      }
+    ],
+    "reason": "Southern Culture on the Skids is the long-running Chapel Hill, North Carolina band (first EP 1984) known for a genre-mashing surf, rockabilly and country-trash party sound; opener Van Goat is an Oakland five-piece blending swing, ragtime, punk and surf. This is countercultural Southern roots-rock in a 300-ish capacity club rather than acoustic tradition, so it is a fun maybe for Erik rather than a priority (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Primary Bottom of the Hill and DICE pages not fetched",
+      "Part of a West Coast tour (search results show Mill Valley Nov 6, Sacramento Nov 10 and Moe's Alley dates), so other Bay Area options may exist"
+    ]
   },
   "ev_c1724b0e647c": {
     "evidence": [
@@ -2230,6 +3031,46 @@
       "Style of the series is inference from the host and series name."
     ]
   },
+  "ev_cec22afc87ec": {
+    "evidence": [
+      {
+        "finding": "Thu Nov 12, 2026, doors 7:30pm, music 8pm, all ages, $17 adv / $20 door. Maus Haus (electronic rock, experimental pop) one-night reunion, first show in 8 years, single released on Danger Mouse's 30th Century Records in 2018; Battlehooch (avant-garde pop, psychedelic); Otoliths (Tom Smith; jangle pop, post-punk).",
+        "url": "http://www.bottomofthehill.com/20261112.html"
+      },
+      {
+        "finding": "Fetch failed; not confirmed.",
+        "url": "https://dice.fm/event/6a98b95b2e0be90001bdaae2"
+      }
+    ],
+    "fingerprint": "64f664135380",
+    "fit": 30,
+    "performers": [
+      {
+        "known_for": "SF electronic/experimental pop band; 2008 debut Lark Marvels; 2018 single on 30th Century Records",
+        "name": "Maus Haus",
+        "significance": "local"
+      },
+      {
+        "known_for": "SF six-piece psychedelic pop band",
+        "name": "Battlehooch",
+        "significance": "local"
+      },
+      {
+        "known_for": "Oakland post-punk/jangle project of Tom Smith (Smokin' Ziggurats, Mazes, Social Studies)",
+        "name": "Otoliths",
+        "significance": "local"
+      }
+    ],
+    "reason": "A one-night reunion of San Francisco electronic/experimental-pop band Maus Haus (first show in 8 years), co-billed with six-piece psych-pop band Battlehooch and Oakland jangle/post-punk band Otoliths. It is a fun indie-rock night at an all-ages club, but nothing here touches roots, folk, or improvised jazz; the 'avant-garde' tag comes from pop genre labels.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Bottom of the Hill page has an online ticket link but no explicit availability statement",
+      "DICE page could not be fetched"
+    ]
+  },
   "ev_d6d17b18a64e": {
     "evidence": [
       {
@@ -2259,30 +3100,127 @@
       "Aggregator shows both Nov 6 and Nov 7."
     ]
   },
-  "ev_dd475aee0f28": {
+  "ev_da3b1224db08": {
     "evidence": [
       {
-        "finding": "Fetch blocked this run. Queue: The Lost Church: Take Me Or Leave Me: A Musical Revue all about Love, 2026-11-08.",
-        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+        "finding": "Jake Xerxes Fussell with Dougie Poole, Wednesday November 11, 2026, 8:00 pm, Great American Music Hall, 859 O'Farrell St; tickets listed $25.00 to $30.00; no explicit availability text.",
+        "url": "https://www.jambase.com/show/jake-xerxes-fussell-great-american-music-hall-20261111"
+      },
+      {
+        "finding": "The Old Beloved Path is his sixth album, on Fat Possum, released September 18; produced by touring bassist Ben Whiteley (The Weather Station) with contributors including Wayne Horvitz and Ken Whiteley; recorded live in one room in North Carolina; describes him as a folk interpreter from Georgia.",
+        "url": "https://www.jambase.com/article/jake-xerxes-fussell-new-album-the-old-beloved-path-rock-island-line"
+      },
+      {
+        "finding": "Dougie Poole is a Brooklyn songwriter blending anti-folk and cosmic country, on Wharf Cat Records; albums include Wideass Highway, The Freelancer's Blues and The Rainbow Wheel of Death.",
+        "url": "https://holler.country/feature/interview/10-things-to-know-about-dougie-poole/"
+      },
+      {
+        "finding": "Search result title shows Jake Xerxes Fussell and Dougie Poole touring together (Seattle, Tractor Tavern, Nov 8, 2026).",
+        "url": "https://songkick.com/concerts/43201178-jake-xerxes-fussell-at-tractor-tavern"
       }
     ],
-    "fingerprint": "127bc823bcd7",
-    "fit": 48,
+    "fingerprint": "f2947bbfc0a4",
+    "fit": 90,
     "performers": [
       {
-        "known_for": "Musical revue",
-        "name": "Unknown cast",
-        "significance": "none"
+        "known_for": "Georgia-born interpreter of traditional and folk songs; six albums, latest The Old Beloved Path (Fat Possum, 2026)",
+        "name": "Jake Xerxes Fussell",
+        "significance": "major"
+      },
+      {
+        "known_for": "Brooklyn anti-folk and cosmic country songwriter on Wharf Cat Records",
+        "name": "Dougie Poole",
+        "significance": "notable"
       }
     ],
-    "reason": "A musical-theater revue about love at The Lost Church, a tiny SF performance parlor. The title points to the Rent song (inference), so expect a cabaret of show tunes, more for his partner than for Erik. No cast or creators found.",
-    "researched_at": "2026-10-29T21:51:55+00:00",
+    "reason": "Jake Xerxes Fussell is a Georgia folk interpreter who reworks traditional songs (his new sixth album, The Old Beloved Path on Fat Possum, includes Rock Island Line and Boll Weevil), squarely in Erik's old-time and folk-revival lane. Support is Dougie Poole, a Brooklyn anti-folk and cosmic country songwriter on Wharf Cat, a neat countercultural pairing. This is a touring date behind a fresh album, at about $25 to $30 in a classic room.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "exceptional",
+    "uncertainties": [
+      "Venue ticket page (seetickets redirects to eventim.us) showed only a queue page, so no primary venue confirmation of lineup or availability.",
+      "Songkick page failed to load.",
+      "Whether Fussell plays solo or with a band (e.g. Ben Whiteley) on this date is not stated."
+    ]
+  },
+  "ev_da7894878455": {
+    "evidence": [
+      {
+        "finding": "Sat Nov 7, 2026, 8 to 10pm, The Back Room, 1984 Bonita Ave, Berkeley; $20 GA, $15 students. Lineup: Kathy Kennedy (special guest vocals), Tim Eschliman, Luis Rodriguez, Jen Rund, Mark Larson, Candy Girard. Styles: roots rock, Americana, country blues, western swing, Cajun. Album Stories In The Heart hit #1 in four Roots Music Report categories.",
+        "url": "https://events.humanitix.com/back-porchestra-nov7"
+      },
+      {
+        "finding": "Eschliman credits: Etta James, Commander Cody, the Nick Lowe-produced Moonlighters, Jesse Colin Young. Candy Girard credits: Tanya Tucker, Jerry Garcia, Clint Black (2022 lineup).",
+        "url": "https://www.gratefulweb.com/articles/back-porchestra-shelter-in-place-inspired-all-star-band-climbs-alt-county-chart-and-announces-spring-tour/"
+      },
+      {
+        "finding": "'Sa Nov 7 8pm: Back pOrchEstra, Back Room: 1984 Bonita Ave, Berkeley'.",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
+      }
+    ],
+    "fingerprint": "2a0a3dc37a7b",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Bay Area roots bassist/guitarist; Commander Cody, Etta James, Moonlighters, Jesse Colin Young",
+        "name": "Tim Eschliman",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Fiddler; credits with Jerry Garcia, Tanya Tucker, Clint Black",
+        "name": "Candy Girard",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Vocalist; Big Bang Beat",
+        "name": "Kathy Kennedy",
+        "significance": "local"
+      }
+    ],
+    "reason": "Back pOrchEstra is a North Bay roots band formed on Tim Eschliman's back porch in 2020, playing Americana, country blues, western swing and Cajun with fiddler Candy Girard (credits include Jerry Garcia and Tanya Tucker) and guest vocalist Kathy Kennedy. Eschliman's résumé runs through Commander Cody, Etta James and Jesse Colin Young, so this is veteran countercultural-adjacent Americana in Berkeley's intimate BYOB Back Room for $20. Solid and warm, though it leans roots rock rather than old-time or bluegrass.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
     "tier": "possible",
     "uncertainties": [
-      "No primary page found; cast and time unknown.",
-      "Exact date within Nov 2-8 week unconfirmed."
+      "Ticket page says door sales only 'if the show is not sold out'; no current availability stated",
+      "Rhythm section differs from the 2022 article lineup"
+    ]
+  },
+  "ev_dd475aee0f28": {
+    "evidence": [
+      {
+        "finding": "WebFetch permission request timed out; page not read; input lists 'The Lost Church: Take Me Or Leave Me: A Musical Revue all about Love' on the KALX Nov 2-8 calendar.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "WebFetch permission request timed out; page not read",
+        "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKVOLMA5"
+      },
+      {
+        "finding": "Search result title describes The Lost Church as fostering the arts in intimate San Francisco spaces (page not fetched).",
+        "url": "https://www.sfstation.com/2018/11/26/the-lost-church-fosters-the-arts-in-intimate-san-francisco-spaces/amp/"
+      }
+    ],
+    "fingerprint": "b4c5c2e3188f",
+    "fit": 48,
+    "performers": [
+      {
+        "known_for": "Not identified",
+        "name": "Unknown cast",
+        "significance": "none"
+      }
+    ],
+    "reason": "A musical revue themed around love at The Lost Church, an intimate SF performance parlor; the title borrows the Rent duet 'Take Me or Leave Me' (inference), suggesting a cabaret of show tunes. This is more for Erik's musical-loving partner than for Erik, and with no cast or creative team found it reads as a small local cabaret rather than an acclaimed production.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "No primary page read; cast, time and price unknown",
+      "Start time in input is midnight, likely a placeholder",
+      "Web searches found no coverage of this revue"
     ]
   },
   "ev_dddf8f6141dc": {
@@ -2819,6 +3757,36 @@
       "Felton date seen only via collector; GAMH date from a search-result URL."
     ]
   },
+  "ev_f832cb15ac80": {
+    "evidence": [
+      {
+        "finding": "Fri Nov 13, 2026, 7:30 to 9:30pm, Hillside Club, 2286 Cedar St, Berkeley; $25 GA, $20 students/seniors. Trio with Mark and Jennie Walstrom and Bernie Lenhoff; vocal blend compared to the Everly Brothers and The Roches; Hillside Echoes Folk Music Series.",
+        "url": "https://www.eventbrite.com/e/hillside-echoes-presents-if-a-tree-falls-tickets-1993975465293"
+      },
+      {
+        "finding": "'Fr Nov 13 7:30pm: If A Tree Falls, Hillside Club: 2286 Cedar, Berkeley'.",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
+      }
+    ],
+    "fingerprint": "74de65388518",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Berkeley-area acoustic harmony trio (Mark Walstrom, Jennie Walstrom, Bernie Lenhoff)",
+        "name": "If A Tree Falls",
+        "significance": "local"
+      }
+    ],
+    "reason": "If A Tree Falls is a local acoustic harmony trio: Mark Walstrom and his daughter Jennie Walstrom on vocals with Bernie Lenhoff on instruments, compared on the listing to the Everly Brothers and The Roches. It is part of the Hillside Club's Hillside Echoes folk series in Berkeley, a cozy community-folk night rather than a must-see.",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "No independent coverage of the trio found",
+      "Repertoire (originals vs traditional) not stated"
+    ]
+  },
   "ev_fa650ab435fc": {
     "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
     "evidence": [
@@ -2894,6 +3862,56 @@
       "Host fiddler not named.",
       "Schedule conflict between sources (3rd Sunday vs older 3rd Saturday).",
       "Participatory jam."
+    ]
+  },
+  "ev_fe42f85bca82": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted). Input description from the page lists Naima Shalhoub voice/keyboards, Scott Oshiro flute/quantum electronics, Alex Heigl guitar/effects, Chris Trinidad bass/guitar/synth, Cy Thompson drums/percussion; cites Brian Eno as an inspiration.",
+        "url": "https://birdbeckett.com/event/chroma-tonic_2026-11-07/"
+      },
+      {
+        "finding": "Chroma Tonic's debut was Dec 6, 2025 at Wyldflowr Arts, Oakland, closing Trinidad's three-day residency; influences named as Brian Eno, Robert Fripp, Tu-Ner, and early-1970s Miles Davis electric jazz.",
+        "url": "https://www.bayimproviser.com/EventView.aspx?e=22439"
+      }
+    ],
+    "fingerprint": "fb84f8436bf1",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Bay Area bassist/bandleader (Chris Trinidad Collective, Chroma Tonic)",
+        "name": "Chris Trinidad",
+        "significance": "local"
+      },
+      {
+        "known_for": "Vocalist/keyboardist (not researched further)",
+        "name": "Naima Shalhoub",
+        "significance": "local"
+      },
+      {
+        "known_for": "Flute and quantum electronic improvisation",
+        "name": "Scott Oshiro",
+        "significance": "local"
+      },
+      {
+        "known_for": "Textured, looped guitar",
+        "name": "Alex Heigl",
+        "significance": "local"
+      },
+      {
+        "known_for": "Afro-Caribbean percussion",
+        "name": "Cy Thompson",
+        "significance": "local"
+      }
+    ],
+    "reason": "Chroma Tonic is Bay Area bassist Chris Trinidad's newer ambient-groove project, which debuted in December 2025 at Wyldflowr Arts and cites Brian Eno, Robert Fripp and early-1970s electric Miles as touchstones. This lineup adds vocalist Naima Shalhoub to Scott Oshiro's flute and quantum electronics, Alex Heigl's looped guitar and Cy Thompson's percussion. It is an adventurous local improvising group at Bird & Beckett, a beloved intimate jazz room, though more ambient groove than emotionally intense acoustic jazz (inference).",
+    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Bird & Beckett page not fetched; date, 7:30 pm time and price unconfirmed against primary source.",
+      "No independent bio found for Chris Trinidad or for Naima Shalhoub in this pass."
     ]
   }
 }
