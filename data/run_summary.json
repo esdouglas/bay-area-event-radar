@@ -1,15 +1,15 @@
 {
- "inventory_total": 3725,
- "inventory_upcoming": 3503,
- "merged_sources": 11,
- "new_events": 41,
- "run_id": "40de3b925a62",
- "seconds": 192.5,
- "sources_due": 65,
+ "inventory_total": 3748,
+ "inventory_upcoming": 3526,
+ "merged_sources": 3,
+ "new_events": 33,
+ "run_id": "f90830017fe6",
+ "seconds": 336.0,
+ "sources_due": 69,
  "sources_failed": [
-  "outsound",
-  "songkick-bay-area"
+  "luther-burbank-center",
+  "outsound"
  ],
- "sources_ok": 63,
- "ts": "2026-10-31T05:58:41+00:00"
+ "sources_ok": 67,
+ "ts": "2026-10-31T06:00:49+00:00"
 }
