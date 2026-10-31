@@ -4,6 +4,7 @@ from .aggregators import (collect_allevents, collect_eventbrite_api, collect_eve
 from .gpt import collect_gpt
 from .html_llm import collect_html
 from .theater import collect_theater_run
+from .venues import collect_cards, collect_ticketweb_wp, collect_venuepilot
 from .structured import (collect_dice, collect_ics, collect_jsonld, collect_localist, collect_squarespace,
                          collect_tribe)
 
@@ -22,4 +23,7 @@ METHODS = {
     "html": collect_html,
     "gpt": collect_gpt,
     "theater_run": collect_theater_run,
+    "cards": collect_cards,
+    "venuepilot": collect_venuepilot,
+    "ticketweb_wp": collect_ticketweb_wp,
 }

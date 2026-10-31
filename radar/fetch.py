@@ -98,10 +98,10 @@ def _pace(host):
         time.sleep(delay)
 
 
-def get(url, *, params=None, headers=None, retries=2, timeout=None, stats=None, json_body=None, method="GET"):
+def get(url, *, params=None, headers=None, retries=2, timeout=None, stats=None, json_body=None, form_body=None, method="GET"):
     host = urlparse(url).netloc
     last_err = None
-    key = _snap_key(method, url, params, json_body) if (RECORD_DIR or REPLAY_DIR) else None
+    key = _snap_key(method, url, params, json_body if form_body is None else form_body) if (RECORD_DIR or REPLAY_DIR) else None
     for attempt in range(retries + 1):
         if REPLAY_DIR:
             r = _replay(key, url)
@@ -109,7 +109,7 @@ def get(url, *, params=None, headers=None, retries=2, timeout=None, stats=None, 
             _pace(host)
             try:
                 if method == "POST":
-                    r = _session.post(url, params=params, headers=headers, json=json_body,
+                    r = _session.post(url, params=params, headers=headers, json=json_body, data=form_body,
                                       timeout=timeout or config.FETCH_TIMEOUT)
                 else:
                     r = _session.get(url, params=params, headers=headers, timeout=timeout or config.FETCH_TIMEOUT)
