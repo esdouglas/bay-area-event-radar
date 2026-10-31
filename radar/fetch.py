@@ -34,6 +34,53 @@ CHALLENGE_MARKERS = ("just a moment", "cf-chl", "attention required", "verify yo
                      "challenge-platform", "access denied")
 
 
+# Development aids, both off unless set. RADAR_FETCH_RECORD=<dir> saves every response (so pages fetched
+# on a GitHub runner can be inspected elsewhere); RADAR_FETCH_REPLAY=<dir> serves responses from such a
+# directory instead of the network, and fails on anything not recorded.
+RECORD_DIR = os.environ.get("RADAR_FETCH_RECORD")
+REPLAY_DIR = os.environ.get("RADAR_FETCH_REPLAY")
+
+
+def _snap_key(method, url, params, json_body):
+    return hashlib.sha1(json.dumps([method, url, params, json_body], sort_keys=True, default=str).encode()).hexdigest()[:20]
+
+
+def _record(key, method, url, params, r):
+    d = os.path.join(RECORD_DIR, "pages")
+    os.makedirs(d, exist_ok=True)
+    with open(os.path.join(d, key), "wb") as f:
+        f.write(r.content)
+    meta = {"key": key, "method": method, "url": url, "params": params, "status": r.status_code, "final_url": r.url,
+            "content_type": r.headers.get("content-type", ""), "bytes": len(r.content)}
+    with _lock, open(os.path.join(RECORD_DIR, "index.jsonl"), "a", encoding="utf-8") as f:
+        f.write(json.dumps(meta) + "\n")
+
+
+def _replay(key, url):
+    try:
+        with open(os.path.join(REPLAY_DIR, "meta", key + ".json"), encoding="utf-8") as f:
+            meta = json.load(f)
+        with open(os.path.join(REPLAY_DIR, "pages", key), "rb") as f:
+            body = f.read()
+    except OSError:
+        raise FetchError(f"not recorded: {url}", kind="network")
+    r = requests.Response()
+    r.status_code, r._content, r.url = meta["status"], body, meta["final_url"]
+    r.headers["content-type"] = meta["content_type"]
+    r.encoding = requests.utils.get_encoding_from_headers(r.headers) or "utf-8"
+    return r
+
+
+def index_replay_dir(path):
+    """Split a recorded index.jsonl into meta/<key>.json files (the replay lookup format)."""
+    os.makedirs(os.path.join(path, "meta"), exist_ok=True)
+    with open(os.path.join(path, "index.jsonl"), encoding="utf-8") as f:
+        for line in f:
+            m = json.loads(line)
+            with open(os.path.join(path, "meta", m["key"] + ".json"), "w", encoding="utf-8") as g:
+                json.dump(m, g)
+
+
 class FetchError(Exception):
     def __init__(self, msg, status=None, kind="error"):
         super().__init__(msg)
@@ -54,18 +101,24 @@ def _pace(host):
 def get(url, *, params=None, headers=None, retries=2, timeout=None, stats=None, json_body=None, method="GET"):
     host = urlparse(url).netloc
     last_err = None
+    key = _snap_key(method, url, params, json_body) if (RECORD_DIR or REPLAY_DIR) else None
     for attempt in range(retries + 1):
-        _pace(host)
-        try:
-            if method == "POST":
-                r = _session.post(url, params=params, headers=headers, json=json_body,
-                                  timeout=timeout or config.FETCH_TIMEOUT)
-            else:
-                r = _session.get(url, params=params, headers=headers, timeout=timeout or config.FETCH_TIMEOUT)
-        except requests.RequestException as e:
-            last_err = FetchError(f"{type(e).__name__}: {str(e)[:160]}", kind="network")
-            time.sleep(1.5 * (attempt + 1))
-            continue
+        if REPLAY_DIR:
+            r = _replay(key, url)
+        else:
+            _pace(host)
+            try:
+                if method == "POST":
+                    r = _session.post(url, params=params, headers=headers, json=json_body,
+                                      timeout=timeout or config.FETCH_TIMEOUT)
+                else:
+                    r = _session.get(url, params=params, headers=headers, timeout=timeout or config.FETCH_TIMEOUT)
+            except requests.RequestException as e:
+                last_err = FetchError(f"{type(e).__name__}: {str(e)[:160]}", kind="network")
+                time.sleep(1.5 * (attempt + 1))
+                continue
+            if RECORD_DIR:
+                _record(key, method, url, params, r)
         if stats is not None:
             stats["requests"] = stats.get("requests", 0) + 1
             stats["bytes"] = stats.get("bytes", 0) + len(r.content)
