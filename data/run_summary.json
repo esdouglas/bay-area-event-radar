@@ -1,17 +1,17 @@
 {
  "inventory_total": 3267,
  "inventory_upcoming": 3045,
- "merged_sources": 4,
- "new_events": 17,
- "run_id": "e5860e518a85",
- "seconds": 301.2,
+ "merged_sources": 1,
+ "new_events": 7,
+ "run_id": "81b208881d00",
+ "seconds": 271.9,
  "sources_due": 69,
  "sources_failed": [
   "center-for-new-music",
-  "luther-burbank-center",
   "outsound",
-  "songkick-bay-area"
+  "songkick-bay-area",
+  "counterpulse"
  ],
  "sources_ok": 65,
- "ts": "2026-10-31T05:33:38+00:00"
+ "ts": "2026-10-31T05:36:17+00:00"
 }
