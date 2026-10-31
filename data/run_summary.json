@@ -1,16 +1,17 @@
 {
- "inventory_total": 3256,
- "inventory_upcoming": 3034,
- "merged_sources": 8,
- "new_events": 20,
- "run_id": "0381cc397f32",
- "seconds": 544.3,
+ "inventory_total": 3267,
+ "inventory_upcoming": 3045,
+ "merged_sources": 4,
+ "new_events": 17,
+ "run_id": "e5860e518a85",
+ "seconds": 301.2,
  "sources_due": 69,
  "sources_failed": [
   "center-for-new-music",
+  "luther-burbank-center",
   "outsound",
-  "hicks-with-sticks"
+  "songkick-bay-area"
  ],
- "sources_ok": 66,
- "ts": "2026-10-30T21:50:56+00:00"
+ "sources_ok": 65,
+ "ts": "2026-10-31T05:33:38+00:00"
 }
