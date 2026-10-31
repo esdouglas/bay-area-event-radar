@@ -875,7 +875,7 @@ sources:
   title_strip: "\\s*\\|\\s*SFO$"
   venue: {name: War Memorial Opera House, city: San Francisco}
   category: music
-  frequency: weekly
+  frequency: daily
   notes: >
     theater_run from the home page: one record per opera/concert from its own page (printed range or
     performance list).
@@ -889,7 +889,7 @@ sources:
   max_follow: 20
   venue: {name: War Memorial Opera House, city: San Francisco}
   category: dance
-  frequency: weekly
+  frequency: daily
   notes: >
     theater_run from the 2026-27 season page; Nutcracker read from its performance list. Update the URL
     when the next season page goes up.
@@ -903,7 +903,7 @@ sources:
   max_follow: 15
   title_strip: "\\s*\\|\\s*Smuin Ballet$"
   category: dance
-  frequency: weekly
+  frequency: daily
   notes: >
     theater_run over /events/ pages (company class excluded).
 
@@ -916,6 +916,6 @@ sources:
   max_follow: 30
   venue: {name: SFMOMA, city: San Francisco}
   category: arts
-  frequency: weekly
+  frequency: daily
   notes: >
     theater_run over exhibition pages: one record per exhibition with its run.
