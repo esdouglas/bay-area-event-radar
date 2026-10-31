@@ -1,7 +1,7 @@
 {
- "backlog": 1535,
+ "backlog": 1537,
  "count": 40,
- "generated_at": "2026-10-31T05:58:13+00:00",
+ "generated_at": "2026-10-31T05:59:30+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -617,28 +617,6 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-12-05",
-   "description": "- Dec. 5 (3 pm): Otter Opry, Monterey",
-   "fingerprint": "dbf36ff672c6",
-   "id": "ev_dc3727b15aae",
-   "other_urls": [
-    "https://sites.google.com/site/davbrown2/oldtimesf"
-   ],
-   "rules_score": 86.0,
-   "rules_tier": "exceptional",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Crooked Jades",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Otter Opry, Monterey",
-   "why_rules": [
-    "seed artist: Crooked Jades (+40)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
    "city": "El Cerrito",
    "date": "2026-10-31",
    "description": "Music by garage rock legends, DOG HOUSE, and art rockers, THE LAYTECOMERS. Last time Halloween on a Saturday until 2037 so let's make the most of it! $10 cover; live music at 9pm; dress up (no cultural appropriation allowed!!)",
@@ -858,6 +836,29 @@
     "jazz_core: jazz (+18)",
     "theater_core: musical (+14)",
     "intimate room: Kuumbwa Jazz (+14)"
+   ]
+  },
+  {
+   "city": "Nicasio",
+   "date": "2027-02-12",
+   "description": "DINNER SHOW with MIKO MARKS: Hell or High Water Tour/ Rancho Debut! Rolling Stone has called Miko Marks ' voice a \"marvelous instrument that imbues each song with a kind of hard-won authority.\" Across a career defined by resilience, reinvention, and a refusal to let the music industry dictate where she belongs, Marks has built a singular musical identity rooted in country, gospel, blues, and soul.",
+   "fingerprint": "b4ea800ecc96",
+   "id": "ev_2f7285cb655b",
+   "other_urls": [
+    "https://www.songkick.com/concerts/43474794-miko-marks-at-rancho-nicasio",
+    "https://www.jambase.com/show/miko-marks-rancho-nicasio-20270212"
+   ],
+   "rules_score": 81.5,
+   "rules_tier": "strong",
+   "start": "2027-02-12T00:00:00-08:00",
+   "title": "MIKO MARKS – Rancho Debut!",
+   "url": "https://ranchonicasio.com/event/miko-marks-rancho-debut/",
+   "venue": "Rancho Nicasio",
+   "why_rules": [
+    "roots_adjacent: roots, country, blues, gospel (+18)",
+    "theater_core: musical (+14)",
+    "intimate room: Rancho Nicasio (+14)",
+    "booking signal: Rancho Nicasio (+8)"
    ]
   }
  ]
