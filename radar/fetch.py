@@ -41,8 +41,9 @@ RECORD_DIR = os.environ.get("RADAR_FETCH_RECORD")
 REPLAY_DIR = os.environ.get("RADAR_FETCH_REPLAY")
 
 
-def _snap_key(method, url, params, json_body):
-    return hashlib.sha1(json.dumps([method, url, params, json_body], sort_keys=True, default=str).encode()).hexdigest()[:20]
+def _snap_key(method, url, params, json_body, headers=None):
+    return hashlib.sha1(json.dumps([method, url, params, json_body] + ([headers] if headers else []),
+                                   sort_keys=True, default=str).encode()).hexdigest()[:20]
 
 
 def _record(key, method, url, params, r):
@@ -101,7 +102,7 @@ def _pace(host):
 def get(url, *, params=None, headers=None, retries=2, timeout=None, stats=None, json_body=None, form_body=None, method="GET"):
     host = urlparse(url).netloc
     last_err = None
-    key = _snap_key(method, url, params, json_body if form_body is None else form_body) if (RECORD_DIR or REPLAY_DIR) else None
+    key = _snap_key(method, url, params, json_body if form_body is None else form_body, headers) if (RECORD_DIR or REPLAY_DIR) else None
     for attempt in range(retries + 1):
         if REPLAY_DIR:
             r = _replay(key, url)

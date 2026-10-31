@@ -328,15 +328,49 @@ def collect_ovationtix(source: dict, stats: dict) -> list[dict]:
     today = _today()
     out = []
     for p in prods or []:
-        name = clean_text(_first_key(p, "productionName", "name", "title") or "")
-        pid = _first_key(p, "productionId", "id")
-        desc = clean_text(re.sub(r"<[^>]+>", " ", _first_key(p, "description", "productionDescription") or ""))
-        for perf in p.get("performances") or []:
-            when = _first_key(perf, "performanceDate", "startDate", "performanceStartDate", "date")
-            if not name or not when or str(when)[:10] < today.isoformat():
-                continue
-            out.append({"title": name, "start": str(when).replace(" ", "T"),
-                        "url": f"https://ci.ovationtix.com/{cid}/production/{pid}?performanceId={_first_key(perf, 'performanceId', 'id')}",
-                        "venue": clean_text(_first_key(p, "venueName") or _first_key(perf, "venueName") or "") or None,
-                        "description": desc[:1500], "source_event_id": f"ovationtix:{_first_key(perf, 'performanceId', 'id')}"})
+        name = clean_text(_first_key(p, "productionName", "name") or "")
+        summ = p.get("performanceSummary") or {}
+        nxt = summ.get("nextPerformance") or {}
+        when = nxt.get("startDate")
+        if not name or not when or str(when)[:10] < today.isoformat():
+            continue
+        venue = p.get("venue") or {}
+        n = summ.get("count") or 1
+        desc = clean_text(re.sub(r"<[^>]+>", " ", html.unescape(p.get("description") or "")))
+        out.append({"title": name, "start": str(when).replace(" ", "T"),
+                    "url": f"https://ci.ovationtix.com/{cid}/production/{p.get('id')}",
+                    "venue": clean_text(venue.get("name") or "") or None,
+                    "city": clean_text((venue.get("address") or {}).get("city") or "") or None,
+                    "description": clean_text(f"{n} performance{'s' if n != 1 else ''} on sale; next {when}. {desc}")[:1500],
+                    "source_event_id": f"ovationtix:{p.get('id')}"})
+    return out
+
+
+# ----------------------------------------------------------------------------- Tix.com (Tix Ticket Sales)
+def collect_tix(source: dict, stats: dict) -> list[dict]:
+    """Events from the public Tix.com online-sales API that its ticket-sales page loads, by
+    organization id (and optional venue id)."""
+    org = source["org_id"]
+    q = f"?venueIdList={source['venue_id']}" if source.get("venue_id") else ""
+    r = fetch.get(f"https://www.tix.com/api_ots/onlinesales/events/organization/{org}{q}", stats=stats)
+    try:
+        groups = (r.json().get("payload") or {}).get("groupedEvents") or []
+    except (ValueError, AttributeError):
+        raise fetch.FetchError(f"tix: unexpected response {r.text[:80]!r}", kind="format")
+    today = _today()
+    out = []
+    for e in (x for g in groups for x in (g if isinstance(g, list) else [g])):
+        name = clean_text(html.unescape(e.get("ProductionName") or ""))
+        when = e.get("EventDate")
+        if not name or not when or str(when)[:10] < today.isoformat():
+            continue
+        if source.get("title_strip"):
+            name = clean_text(re.sub(source["title_strip"], "", name, flags=re.I))
+        price = f"${e['MinPrice']:.0f}-${e['MaxPrice']:.0f}" if e.get("MinPrice") and e.get("MaxPrice") else ""
+        out.append({"title": name, "start": when,
+                    "url": f"https://www.tix.com/ticket-sales/{source.get('slug', org)}/{org}/event/{e.get('EventId')}",
+                    "venue": clean_text(e.get("VenueName") or "") or None, "city": clean_text(e.get("VenueCity") or "") or None,
+                    "address": clean_text(e.get("VenueAddress1") or ""), "price": price,
+                    "description": clean_text(re.sub(r"<[^>]+>", " ", html.unescape(e.get("ProductionDescription") or "")))[:1500],
+                    "source_event_id": f"tix:{e.get('EventId')}"})
     return out

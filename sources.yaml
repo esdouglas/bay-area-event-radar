@@ -327,10 +327,14 @@ sources:
   name: SF Live Arts at St. Cyprian's (Noe Valley Music Series)
   kind: presenter
   method: html
-  heuristic_ok: true
   url: https://www.noevalleymusicseries.com/
+  enabled: false
   venue: {name: St. Cyprian's Episcopal Church, city: San Francisco}
   expected_coverage: long-running folk/acoustic series
+  notes: >
+    Dead source (2026-10-31): noevalleymusicseries.com now serves a stale 2017 page with SEO spam links;
+    the series continues as 'SF Live Arts at Cyprian's' but sflivearts.org does not resolve. Candidate
+    for the research-task hand-off.
 
 - id: old-first-concerts
   name: Old First Concerts (SF)
@@ -385,17 +389,25 @@ sources:
 - id: throckmorton
   name: 142 Throckmorton Theatre (Mill Valley)
   kind: venue
-  method: html
-  url: https://www.throckmortontheatre.org/
+  method: squarespace
+  url: "https://www.throckmortontheatre.org/events"
+  max_pages: 1
   venue: {name: 142 Throckmorton Theatre, city: Mill Valley}
+  notes: >
+    Squarespace events collection at /events (?format=json, 'upcoming' list); tickets via OvationTix
+    client 35161. Verified on a runner 2026-10-31 (22 events).
 
 - id: hopmonk
   name: HopMonk Taverns (Novato / Sebastopol / Sonoma)
   kind: venue
   method: html
   url: https://www.hopmonk.com/
+  enabled: false
   category: music
-  notes: Squarespace multi-venue site; text extraction. Venue per event comes from the page.
+  notes: >
+    Resists a parser (2026-10-31): the Novato, Sebastopol and Sonoma pages publish shows as
+    images/Instagram only, with no ticket links or event collection. Candidate for the research-task
+    hand-off.
 
 - id: luther-burbank-center
   name: Luther Burbank Center (Santa Rosa)
@@ -582,12 +594,17 @@ sources:
 - id: otter-opry
   name: Otter Opry (Monterey)
   kind: presenter
-  method: gpt
-  url: https://otteropry.org/
-  page_limit: 4
+  method: tix
+  url: "https://www.tix.com/ticket-sales/OtterOpry/4889?venueidlist=24029"
+  org_id: 4889
+  venue_id: 24029
+  slug: OtterOpry
+  title_strip: "\\s*@\\s*(?:the\\s+)?Otter Opry$"
   venue: {city: Monterey}
   category: music
-  notes: Ported from main; main recorded it as dynamic/blocked, kept so the gap is visible.
+  notes: >
+    otteropry.org links to Tix.com (organization 4889, venue 24029); read from the public online-sales
+    API its ticket page loads. Monterey is outside the Bay but inside the norcal region.
 
 - id: outsound
   name: Outsound (SF experimental/new music)
@@ -778,18 +795,27 @@ sources:
 - id: z-space
   name: Z Space (SF)
   kind: theater
-  method: html
+  method: ovationtix
   url: https://www.zspace.org/
+  client_id: 34231
   venue: {name: Z Space, city: San Francisco}
   category: mixed
+  notes: >
+    Z Space sells through OvationTix (client 34231); its own pages carry no listings (the 'Coming Up'
+    block is an Instagram feed). Public client API: one record per production at its next performance.
 
 - id: counterpulse
   name: CounterPulse (SF)
   kind: theater
   method: html
   url: https://www.counterpulse.org/
+  enabled: false
   venue: {name: CounterPulse, city: San Francisco}
   category: dance
+  notes: >
+    Resists a parser (2026-10-31): the events page is a Salesforce PatronTicket calendar filled in by
+    JavaScript, The Events Calendar REST answers 429 on the first request, and ?ical=1 returns HTML.
+    Candidate for the research-task hand-off.
 
 - id: odc-theater
   name: ODC Theater

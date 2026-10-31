@@ -1,10 +1,2 @@
-# round 4: last holdouts
-urls:
-  - https://www.tix.com/api_ots/onlinesales/events/organization/4889?venueIdList=24029
-  - https://www.tix.com/api_ots/onlinesales/events/organization/4889
-  - https://www.sflivearts.org/
-  - https://sflivearts.org/
-sources:
-  z-space: {method: ovationtix, client_id: 34231}
-  throckmorton: {method: ovationtix, client_id: 35161}
-  throckmorton-sq: {method: squarespace, url: 'https://www.throckmortontheatre.org/events', max_pages: 1, venue: {name: 142 Throckmorton Theatre, city: Mill Valley}}
+# round 5: final verification of every converted source with the real CLI
+collect: [uc-theatre, fox-oakland, another-planet, the-chapel, gamh, yoshis, bottom-of-the-hill, lost-church, kpfa-events, black-cat-sf, broadway-sf, guild-theatre, old-first-concerts, odc-theater, ybca, folkyeah, ivy-room, ashkenaz, the-independent, moes-alley, new-parish, sf-opera, sf-ballet, smuin, sfmoma, the-marsh, aurora-theatre, z-space, throckmorton, otter-opry]

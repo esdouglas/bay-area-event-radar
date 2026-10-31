@@ -46,3 +46,25 @@ class Cards(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class Tix(unittest.TestCase):
+    def test_tix_payload(self):
+        import json as _json
+        body = {"payload": {"groupedEvents": [[{"EventId": 7, "EventDate": "2099-02-12T19:00:00",
+                                                "ProductionName": "Crooked Jades @ Otter Opry", "VenueName": "Otter Opry",
+                                                "VenueCity": "Monterey", "MinPrice": 32.7, "MaxPrice": 38.1}]]}}
+
+        class R:
+            text = _json.dumps(body)
+
+            @staticmethod
+            def json():
+                return body
+        orig = venues.fetch.get
+        venues.fetch.get = lambda *a, **k: R
+        try:
+            out = venues.collect_tix({"id": "o", "org_id": 4889, "title_strip": r"\s*@\s*Otter Opry$"}, {})
+        finally:
+            venues.fetch.get = orig
+        self.assertEqual([(o["title"], o["city"], o["price"]) for o in out], [("Crooked Jades", "Monterey", "$33-$38")])
