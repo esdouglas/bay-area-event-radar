@@ -1,17 +1,15 @@
 {
- "inventory_total": 3267,
- "inventory_upcoming": 3045,
- "merged_sources": 1,
- "new_events": 7,
- "run_id": "81b208881d00",
- "seconds": 271.9,
+ "inventory_total": 3300,
+ "inventory_upcoming": 3078,
+ "merged_sources": 2,
+ "new_events": 40,
+ "run_id": "df099df25991",
+ "seconds": 300.0,
  "sources_due": 69,
  "sources_failed": [
   "center-for-new-music",
-  "outsound",
-  "songkick-bay-area",
-  "counterpulse"
+  "outsound"
  ],
- "sources_ok": 65,
- "ts": "2026-10-31T05:36:17+00:00"
+ "sources_ok": 67,
+ "ts": "2026-10-31T05:44:05+00:00"
 }
