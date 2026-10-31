@@ -6,12 +6,9 @@
 |---|---|---|
 | GitHub Actions | $0 | Public repository: unlimited minutes. A collection run takes ~5–15 min (Songkick pacing dominates). |
 | GitHub Pages | $0 | |
-| Model enrichment | ~$3–12 / month | Fast pass (`claude-haiku-5-5`, $0.10/M in, $0.50/M out): ~300–600 candidate judgements/week at ~1.2k tokens ≈ $0.10/week. Deep pass (`claude-sonnet-5-5`, $2/$10 per M): ~50–120/week at ~3k tokens ≈ $1–3/week. HTML extraction: ~45 pages, only when their text changes, ~8k tokens each on Haiku ≈ $0.05/day. Actuals are in `data/costs.jsonl` and on the dashboard. |
-| Eventbrite API | $0 | Personal token. |
-| Everything else | $0 | |
-
-Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-25; update `PRICES` in
-`radar/llm.py` when they change.
+| Eventbrite API | $0 | Personal token (optional). |
+| Google Calendar sync | $0 | Free Google Cloud service account; no billing account needed. |
+| Everything else | $0 | No paid API or model is used; total cost is $0. |
 
 ## Routine (nothing to do)
 
@@ -26,8 +23,9 @@ Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-2
 2. `blocked` = the site now challenges automated clients. Check whether an alternative route exists
    (feed, API, aggregator); otherwise set `enabled: false` with a note so the gap is visible.
 3. `format` / zero events from an `ok` source = the page changed. For `jsonld`/`tribe`/`squarespace`
-   sources check the URL still lists events; for `html` sources the model extraction usually survives
-   redesigns, but check `data/cache/` output with `python -m radar collect --only <id> --dry-run`.
+   sources check the URL still lists events; for `venue_*` and `theater_run` sources
+   the platform markup changed: run `python -m radar collect --only <id> --dry-run` and fix the parser
+   in `radar/collectors/venues.py` / `theater.py`.
 4. "no collection run in 14 h" = GitHub skipped or disabled the schedule. Open Actions; a manual
    `workflow_dispatch` of "Collect, rank, alert, publish" restarts it.
 
@@ -35,10 +33,9 @@ Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-2
 
 - Skim the dashboard's "Venues represented" list for venues that only appear via aggregators and
   deserve a direct source (a `venue` entry in `sources.yaml`).
-- Look at `noise`-tier events with high model fit, and `exceptional` alerts you dismissed: adjust
+- Look at `exceptional` alerts you dismissed and good shows that landed in `noise`: adjust
   `taste.yaml` (seed artists, keyword weights, venue lists). Scores are additive and explained per
   event, so every change is predictable.
-- Check `data/costs.jsonl` totals against the budget above.
 
 ## Known limits (honest)
 
@@ -50,27 +47,19 @@ Prices verified against platform.claude.com/docs/en/models/overview on 2026-10-2
   Newberry & Verch show appears there). A collector run from a residential IP would close this.
 - **Freight & Salvage, SFJAZZ, Bandsintown, Rickshaw Stop, Mystic Theatre, Theatre Bay Area, SF Station,
   DoTheBay**: Cloudflare or equivalent challenges. Freight and SFJAZZ are covered second-hand by
-  Songkick (partial) and Bluegrass Signal; both are the biggest remaining blind spots and an official
-  API key or feed from either venue would close them.
+  Songkick (partial) and Bluegrass Signal; both are the biggest remaining blind spots and a public feed from either
+  venue would close them.
 - **Songkick**: serves only CDN-cached pages to automated clients; each run sees roughly half of the
   metro pages, and coverage accumulates across runs. Not a complete source on any single run.
-- **Without a model key** only the calendar-style `html` sources (Bluegrass Signal, SFFMC, KALX, Down
-  Home, Fifth Street Farms, Hillside Club, Ashkenaz, Ivy Room, Noe Valley, BOTMC; `heuristic_ok: true`)
-  are read, with a date-line heuristic that leaves the venue blank and is scored down 8 points. The
-  other 30-odd `html` sources (UC Theatre, New Parish, Yoshi's, Lost Church, Berkeley Rep, A.C.T.,
-  Shotgun, Another Planet, folkYEAH, ...) report "extraction skipped (needs a model key)" and
-  contribute nothing until a key exists. Unknown performers cannot be recognised without a model; the
-  benchmark shows rules alone would have put 13 of 29 historical events in the alert/digest tiers.
+- **No model, by design.** Every source is read by a deterministic parser. Pages that resist one are
+  listed in `sources.yaml` with a note; unknown performers are not recognised by name, so scoring relies
+  on venue priors, keywords and the daily research task's findings (`data/research.json`). The benchmark
+  shows rules alone put 13 of 29 historical events in the alert/digest tiers.
 - **Instagram-only announcements** are not collected. Venues that post nowhere else are out of reach.
 - **Calendar feed (`radar.ics`)** carries exceptional events and strong events scoring 65+ (about 90 at
   a time) so it stays readable; the site holds the full inventory.
 - **Heuristic extraction leaves the venue blank** on calendar-style pages (Bluegrass Signal, SFFMC), so a
-  show seen there and on the venue's own page appears twice until a model key is configured (text lines
-  are deliberately never merged into structured records by time alone).
+  show seen there and on the venue's own page can appear twice (text lines are deliberately never
+  merged into structured records by time alone).
 - **Caches** (`data/cache/`, page hashes and detail-page extractions) are committed so Actions runs reuse
   them; entries untouched for 21 days are pruned automatically.
-
-## Changing the model provider
-
-Set `RADAR_LLM_PROVIDER=openai` and `OPENAI_API_KEY`, or point `RADAR_LLM_FAST`/`RADAR_LLM_SMART` at
-other model ids. Collection, scoring, dedup and the site never touch a model.

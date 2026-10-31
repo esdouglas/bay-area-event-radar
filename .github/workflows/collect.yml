@@ -8,9 +8,6 @@ on:
         description: 'Ignore per-source frequency (re-fetch everything)'
         type: boolean
         default: false
-      enrich_limit:
-        description: 'Max events to research with the model this run'
-        default: '80'
   push:
     branches: [main, radar-v2]
     paths: ['radar/**', 'sources.yaml', 'taste.yaml', 'requirements.txt', '.github/workflows/collect.yml', 'scripts/**', 'events.json', 'data/research.json']
@@ -27,8 +24,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 55
     env:
-      ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-      OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
       EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -52,8 +47,6 @@ jobs:
         run: python -m radar score
       - name: Apply research findings (data/research.json from routine/interactive sessions)
         run: python -m radar research apply
-      - name: Model enrichment of candidates (skips itself without an API key)
-        run: python -m radar enrich --limit ${{ github.event.inputs.enrich_limit || '80' }}
       - name: Immediate alerts (GitHub issues)
         run: python -m radar notify
       - name: Refresh research queue
