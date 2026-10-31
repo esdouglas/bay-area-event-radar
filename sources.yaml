@@ -350,6 +350,10 @@ sources:
   url: https://centerfornewmusic.com/
   venue: {name: Center for New Music, city: San Francisco}
   category: music
+  enabled: false
+  notes: >
+    Answered HTTP 403 to GitHub runners on every run since 2026-10-29 (last ok 2026-10-28), and its
+    html method needed a model anyway. Disabled so the watchdog stays meaningful; gap kept visible.
 
 - id: rickshaw-stop
   name: Rickshaw Stop
