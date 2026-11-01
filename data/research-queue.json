@@ -1,8 +1,28 @@
 {
- "backlog": 1413,
+ "backlog": 1422,
  "count": 40,
- "generated_at": "2026-11-01T18:38:50+00:00",
+ "generated_at": "2026-11-01T18:41:38+00:00",
  "items": [
+  {
+   "city": "Albany",
+   "date": "2026-12-09",
+   "description": "with genre - jazz, afrofuturism, dub, experimental, psychedelic, hip hop, trip hop | ivy room presents | IVY ROOM PRESENTS WED DECEMBER 9TH — Mark Guiliana BEAT MUSIC — Doors 7pm / Show 8pm Advance Tickets Available — IVY ROOM 860 San Pablo Ave, Albany • 21+ — Mark Guiliana — Hailed by The New York Times as \"a drummer around whom a cult of admiration has formed,\" Grammy-nominated superstar drummer",
+   "fingerprint": "99e227c80233",
+   "id": "ev_8a267964e227",
+   "other_urls": [],
+   "rules_score": 81.5,
+   "rules_tier": "strong",
+   "start": "2026-12-09T20:00:00-08:00",
+   "title": "Mark Guiliana BEAT MUSIC",
+   "url": "https://tickets.venuepilot.com/e/mark-guiliana-beat-music-2026-12-09-ivy-room-albany-ed4026",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "roots_adjacent: acoustic (+10)",
+    "jazz_core: jazz, experimental (+22)",
+    "hiphop_classic: hip hop, hip-hop (+15)",
+    "intimate room: Ivy Room (+14)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-11-08",
@@ -424,6 +444,26 @@
    ]
   },
   {
+   "city": "Santa Cruz",
+   "date": "2027-03-09",
+   "description": "Throughout his career, trumpeter Ambrose Akinmusire has paradoxically situated himself in both the center and the periphery of jazz, and has also emerged in classical and hip hop circles. He's on a perpetual quest for new paradigms, masterfully weaving inspiration from other genres, arts, and life into compositions that are as poetic and graceful as they are bold and unflinching. His unorthodox ap",
+   "fingerprint": "3a6bdd50d39f",
+   "id": "ev_bde6224542f2",
+   "other_urls": [],
+   "rules_score": 100.0,
+   "rules_tier": "exceptional",
+   "start": "2027-03-09T19:00:00-08:00",
+   "title": "Ambrose Akinmusire Quartet",
+   "url": "https://www.kuumbwajazz.org/calendar/ambrose-akinmusire-quartet/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "seed artist: Ambrose Akinmusire (+25)",
+    "jazz_core: jazz (+18)",
+    "hiphop_classic: hip hop, hip-hop (+15)",
+    "intimate room: Kuumbwa Jazz (+14)"
+   ]
+  },
+  {
    "city": "San Francisco",
    "date": "2026-11-03",
    "description": "Sobs and Lace at Café du Nord at 2026-11-03T20:00:00-0800",
@@ -463,6 +503,28 @@
     "jazz_core: jazz (+18)",
     "intimate room: Bird & Beckett (+14)",
     "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-04",
+   "description": "Ivy Room: Radio Incognito, Prior to Last Season, Elegant Trash, Tree Speed, Sharing the Road, Reflector Pool, MC Patty",
+   "fingerprint": "eb8739d4d244",
+   "id": "ev_35235a54a0cc",
+   "other_urls": [
+    "https://tickets.venuepilot.com/e/bang-the-bay-2026-11-04-ivy-room-albany-86a0d1"
+   ],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2026-11-04T00:00:00-08:00",
+   "title": "Radio Incognito, Prior to Last Season, Elegant Trash, Tree Speed, Sharing the Road, Reflector Pool, MC Patty",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "hiphop_classic: mc (+12)",
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -551,6 +613,26 @@
     "jazz_core: jazz (+18)",
     "theater_core: musical (+14)",
     "intimate room: Kuumbwa Jazz (+14)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-03-25",
+   "description": "Delbert Anderson , a Diné jazz trumpet artist, composer, and educator, stands at the forefront of a vibrant Native American jazz scene. His work, deeply rooted in his Diné heritage, seamlessly integrates Navajo \"spinning songs\" of love, healing, and courtship with jazz and funk. With his Delbert Anderson Quartet, Anderson revives the improvised sounds of the Diné circle, blending them with jazz, f",
+   "fingerprint": "5a5069877b98",
+   "id": "ev_55f25ffc10f7",
+   "other_urls": [],
+   "rules_score": 84.0,
+   "rules_tier": "strong",
+   "start": "2027-03-25T19:00:00-07:00",
+   "title": "Delbert Anderson Quartet – 'Live at Kuumbwa' Album Release Celebration",
+   "url": "https://www.kuumbwajazz.org/calendar/delbert-anderson-quartet-live-at-kuumbwa-album-release-celebration/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz, improvised, trumpet (+27)",
+    "hiphop_classic: hip hop, hip-hop (+15)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
    ]
   },
   {
@@ -754,88 +836,6 @@
     "listed by a taste-aligned calendar (+18)",
     "4 independent sources (+12)",
     "outside the core Bay Area (-6)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-11",
-   "description": "Buy Tickets on Humanitix - Rick Reyes featuring Carlos \"Gogo\" Gómez hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Wednesday November 11th 2026. Find event information.",
-   "fingerprint": "0cd45404d66a",
-   "id": "ev_e3ec8e46580e",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-11T19:30:00-08:00",
-   "title": "Rick Reyes featuring Carlos Gogo Gómez",
-   "url": "https://events.humanitix.com/rick-reyes-featuring-carlos-gogo-gomez",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2026-12-30",
-   "description": "SPIKE SIKES AND HIS AWESOME HOTCAKES FAUX NEW YEAR'S CELEBRATION Party Favors, Champagne Toast, East Coast Ball Drop ( 9pm) SWEET & SAVORY! Soul, Swing, Rhythm & Blues, Jazz, Jump.",
-   "fingerprint": "034b2a99e9ef",
-   "id": "ev_7fa6091c969e",
-   "other_urls": [],
-   "rules_score": 70.0,
-   "rules_tier": "strong",
-   "start": "2026-12-30T00:00:00-08:00",
-   "title": "SPIKE SIKES AND HIS AWESOME HOTCAKES FAUX NEW YEAR'S EVE",
-   "url": "https://ranchonicasio.com/event/spike-sikes-and-his-awesome-hotcakes-faux-new-years-eve-2/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: blues (+10)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-07",
-   "description": "\"What I do is instinctive, quiet and naturalistic. I want to document unobtrusively. I want to see who people really are. I frame up the situation and then I push the button. I always want it to look exactly the way it looks to me.\" – Henry Diltz Henry Diltz 's work as an iconic photographer in the 1960s and 1970s is celebrated for his unique \"fly on the wall\" style portraits and his ability to ca",
-   "fingerprint": "809666dd7a1a",
-   "id": "ev_87860943497b",
-   "other_urls": [],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T19:00:00-08:00",
-   "title": "Henry Diltz – Behind the Lens",
-   "url": "https://www.kuumbwajazz.org/calendar/henry-diltz-behind-the-lens/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "legacy: influential (+14)",
-    "intimacy: intimate (+5)",
-    "noise_tribute: experience (-18)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-04",
-   "description": "Joshua Redman acknowledges that the title of his new Blue Note album, Words Fall Short , could be viewed ironically. His previous and widely acclaimed Where Are We was his first to pair a vocalist with one of his many monumental quartets; yet Words Fall Short is anything but a comment on the saxophonist's last triumph. More accurately, his latest offering is an organic next step, a collection of p",
-   "fingerprint": "75fcc74b26eb",
-   "id": "ev_c0fbd41076a8",
-   "other_urls": [
-    "https://www.kuumbwajazz.org/calendar/joshua-redman-quartet-900-pm/"
-   ],
-   "rules_score": 78.0,
-   "rules_tier": "exceptional",
-   "start": "2026-11-04T19:00:00-08:00",
-   "title": "Joshua Redman Quartet – 7:00 PM",
-   "url": "https://www.kuumbwajazz.org/calendar/joshua-redman-quartet-700-pm/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "seed artist: Joshua Redman (+15)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
    ]
   }
  ]
