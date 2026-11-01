@@ -261,6 +261,27 @@
       "Amelia is presumably his daughter (inference from the shared surname and family album credits)."
     ]
   },
+  "ev_12646e10c1e4": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured title only: 'Live music and Balkan folk dancing!'.",
+        "url": "https://www.hillsideclub.org/hillsideechoes"
+      }
+    ],
+    "fingerprint": "7bf85c06b4f1",
+    "fit": 30,
+    "performers": [],
+    "reason": "Live music with Balkan folk dancing at the Hillside Club in Berkeley on Sun Nov 1 (today). A participatory dance evening rather than a concert, and the band was not named.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Band not identified.",
+      "Event is on the day of research.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_175dcbd0ac26": {
     "evidence": [
       {
@@ -515,6 +536,41 @@
       "May be open-mic style (inference)."
     ]
   },
+  "ev_25130c9dc583": {
+    "evidence": [
+      {
+        "finding": "JamBase listing (not reachable this run); captured text: 'Zoë Lewis at The Back Room on Nov 13, 2026'.",
+        "url": "https://www.jambase.com/show/zoe-lewis-the-back-room-20261113"
+      },
+      {
+        "finding": "Wikipedia has an article on Zoë Lewis (search result; not opened).",
+        "url": "https://en.wikipedia.org/wiki/Zo%C3%AB_Lewis"
+      },
+      {
+        "finding": "Concert-review site with multiple Zoë Lewis shows 2022 to 2025, showing an active touring career.",
+        "url": "https://nicepace.net/concerts/2025/20250711zoelewis.htm"
+      }
+    ],
+    "fingerprint": "4b88cc866b32",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Folk singer-songwriter, multi-instrumentalist",
+        "name": "Zoë Lewis",
+        "significance": "local"
+      }
+    ],
+    "reason": "Zoë Lewis, an English-born touring singer-songwriter and multi-instrumentalist with a long folk-circuit career, plays The Back Room in Berkeley on Fri Nov 13. Her music (background knowledge) is whimsical, world-tinged folk on ukulele, piano, saxophone and percussion, popular in New England folk circles. Charming small-room show, but closer to songwriter folk than old-time.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Instrumentation and style are from background knowledge, not a page read this run.",
+      "Assumes this is the touring Zoë Lewis with a Wikipedia article.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_27affeded30b": {
     "evidence": [
       {
@@ -703,6 +759,39 @@
       "Band personnel unknown."
     ]
   },
+  "ev_2f7285cb655b": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: dinner show, Hell or High Water Tour, Rancho debut; Rolling Stone quote; identity rooted in country, gospel, blues and soul.",
+        "url": "https://ranchonicasio.com/event/miko-marks-rancho-debut/"
+      },
+      {
+        "finding": "Wikipedia article on Miko Marks (search result).",
+        "url": "https://en.wikipedia.org/wiki/Miko_Marks"
+      },
+      {
+        "finding": "KQED Rightnowish feature: 'Miko Marks and the Oakland Rollers'.",
+        "url": "https://kqed.org/arts/13859970/rightnowish-miko-marks-and-the-oakland-rollers"
+      }
+    ],
+    "fingerprint": "b4ea800ecc96",
+    "fit": 64,
+    "performers": [
+      {
+        "known_for": "Country/soul singer, Oakland",
+        "name": "Miko Marks",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Miko Marks, the Oakland-rooted Black country and soul singer Rolling Stone praised for her 'marvelous instrument', makes her Rancho Nicasio debut on her Hell or High Water tour on Fri Feb 12, 2027. Her music blends country, gospel, blues and soul and has been central to the reclaiming of Black roots in country. A strong artist, but a dinner show in West Marin; she also plays the East Bay often.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_300da158da37": {
     "evidence": [
       {
@@ -753,6 +842,35 @@
       "The Lost Church ticket page could not be fetched (robots disallowed), so time, price and lineup were not confirmed on a primary venue source.",
       "Sources disagree on Georgia Parker's origin (Boerne, Texas on last.fm vs Kent in a Substack intro); possibly a metadata error or two different artists (inference).",
       "Tashi T identification is based on name match with the Swallow Hill listing (inference)."
+    ]
+  },
+  "ev_35235a54a0cc": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured KALX text lists Radio Incognito, Prior to Last Season, Elegant Trash, Tree Speed, Sharing the Road, Reflector Pool, MC Patty at Ivy Room.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Venue ticketing URL slug names the show 'Bang the Bay' on 2026-11-04 (not opened).",
+        "url": "https://tickets.venuepilot.com/e/bang-the-bay-2026-11-04-ivy-room-albany-86a0d1"
+      }
+    ],
+    "fingerprint": "eb8739d4d244",
+    "fit": 22,
+    "performers": [
+      {
+        "known_for": "Local band",
+        "name": "Radio Incognito",
+        "significance": "none"
+      }
+    ],
+    "reason": "A seven-act local band showcase ('Bang the Bay') at the Ivy Room in Albany on Wed Nov 4, with Radio Incognito, Prior to Last Season, Elegant Trash and others. Nothing on the bill points to his genres.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_3787d335a134": {
@@ -1002,6 +1120,62 @@
       "Worth upgrading only if Erik plays and wants a jam."
     ]
   },
+  "ev_54d511a3ab7d": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: dinner show; born in San Francisco; records Shangri-La West (2000), Soul Parade (2006), The Wilderness (2021); latest The Hands of Time on Blue Arrow Records.",
+        "url": "https://ranchonicasio.com/event/jesse-denatale-band-2/"
+      }
+    ],
+    "fingerprint": "bb00578a7b4c",
+    "fit": 46,
+    "performers": [
+      {
+        "known_for": "Northern California singer-songwriter",
+        "name": "Jesse DeNatale",
+        "significance": "local"
+      }
+    ],
+    "reason": "San Francisco singer-songwriter Jesse DeNatale and band play a dinner show at Rancho Nicasio in West Marin on Fri Dec 18. The listing cites three critically acclaimed records (Shangri-La West, Soul Parade, The Wilderness) and a new album on Blue Arrow Records. Rootsy Northern California songwriting; good, but far from Oakland for a songwriter set.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_5666244df3ae": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured title only: 'Matthew Edwards-Eclectic Folk Chansons', free in-store performance.",
+        "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/"
+      },
+      {
+        "finding": "Wikipedia article for musician Matthew Edwards (search result); link to this listing is inference.",
+        "url": "https://en.wikipedia.org/wiki/Matthew_Edwards_(musician)"
+      }
+    ],
+    "fingerprint": "b50bdac63049",
+    "fit": 46,
+    "performers": [
+      {
+        "known_for": "Possibly the Music Lovers singer-songwriter (unconfirmed)",
+        "name": "Matthew Edwards",
+        "significance": "none"
+      }
+    ],
+    "reason": "A free in-store set of 'eclectic folk chansons' by Matthew Edwards at Down Home Music in El Cerrito on Sat Nov 7. Down Home is the Arhoolie-linked roots record store (background knowledge), and this may be Matthew Edwards of the cult chamber-pop group The Music Lovers, but that is unconfirmed. Free and close by; low stakes.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Performer identity is inference.",
+      "Time not captured.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_567c9a0caa34": {
     "evidence": [
       {
@@ -1026,6 +1200,40 @@
     "uncertainties": [
       "Show is tonight.",
       "Opener unknown."
+    ]
+  },
+  "ev_56c8cc18b12d": {
+    "evidence": [
+      {
+        "finding": "Songkick listing (not reachable this run); captured text: 'Sobs and Lace at Café du Nord at 2026-11-03T20:00'.",
+        "url": "https://www.songkick.com/concerts/43373660-sobs-at-cafe-du-nord"
+      },
+      {
+        "finding": "UnitedAsia headline describing Sobs as a Singapore indie pop band.",
+        "url": "https://uniteasia.org/indie-pop-band-sobs-release-music-video-singapore/"
+      }
+    ],
+    "fingerprint": "fe86ab919515",
+    "fit": 25,
+    "performers": [
+      {
+        "known_for": "Singapore indie pop band",
+        "name": "Sobs",
+        "significance": "none"
+      },
+      {
+        "known_for": "Support act",
+        "name": "Lace",
+        "significance": "none"
+      }
+    ],
+    "reason": "Singapore indie-pop band Sobs, with Lace, at Cafe du Nord on Tue Nov 3. Bright guitar indie pop; outside his taste.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_5827c894ce57": {
@@ -1163,6 +1371,37 @@
       "Primary Moe's Alley page not fetched; details from input record",
       "Opener Blue Dream not researched; identity unknown",
       "Santa Cruz is a drive from the core Bay Area"
+    ]
+  },
+  "ev_5ac356181c27": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing (Bluegrass Signal concerts page): 'Dec. 4: 4 Star Theater, 2200 Clement St., SF'.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Queue other_url: SF Folk Music Club community calendar also lists the date (not opened this run).",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
+      }
+    ],
+    "fingerprint": "e6cfd8ab0235",
+    "fit": 82,
+    "performers": [
+      {
+        "known_for": "SF old-time string band, Jeff Kazor's group",
+        "name": "The Crooked Jades",
+        "significance": "notable"
+      }
+    ],
+    "reason": "The Crooked Jades, the San Francisco old-time string band that was one of the most inventive acts of the 1990s and 2000s old-time revival, play the 4 Star Theater in the Richmond District on Fri Dec 4. They appear only rarely now, so a full show in a small SF movie-house room is a real occasion for an old-time fan. Lineup was not confirmed; worth checking who is in this edition.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Band history and rarity of shows are background knowledge.",
+      "Lineup, start time and price not confirmed.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_5d01694156f2": {
@@ -1329,8 +1568,16 @@
   "ev_632d4268583b": {
     "evidence": [
       {
-        "finding": "Fetch blocked this run. Queue description: duo formed in Brooklyn's old-time community in 2017; Brown has three albums on Jalopy Records, NPR Tiny Desk; Coleman is a master old-time fiddler; 2027-01-11 at 7pm.",
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: first brought together by Brooklyn's old-time community in 2017; Brown is a banjo player with three albums on Jalopy Records, has performed across the US, Europe and Japan including NPR's Tiny Desk; Coleman is a master old-time fiddler.",
         "url": "https://www.kuumbwajazz.org/calendar/nora-brown-with-stephanie-coleman-2/"
+      },
+      {
+        "finding": "Songkick listing for Nora Brown at Kuumbwa Jazz Center (queue other_url; not opened this run).",
+        "url": "https://www.songkick.com/concerts/43464926-nora-brown-at-kuumbwa-jazz-center"
+      },
+      {
+        "finding": "Search result headline: Nora Brown and Stephanie Coleman, 'musicians brought together by old-time music community', touring as a duo.",
+        "url": "https://www.buckscountyherald.com/stories/nora-brown-stephanie-coleman-brother-brothers-musicians-brought-together-by-old-time-music-community-to-play-sellersville-theate,32540"
       },
       {
         "finding": "Earlier listing, Wed Jan 7, 2026 at Kuumbwa, states 'SOLD OUT!'. Not the 2027 date.",
@@ -1341,8 +1588,8 @@
         "url": "https://www.passim.org/artists/nora-brown-stephanie-coleman/"
       }
     ],
-    "fingerprint": "5f5f68aaf178",
-    "fit": 93,
+    "fingerprint": "6cce6b5fdc17",
+    "fit": 84,
     "performers": [
       {
         "known_for": "Old-time banjo player and ballad singer; Jalopy Records; first album produced by Alice Gerrard; NPR Tiny Desk",
@@ -1355,15 +1602,58 @@
         "significance": "notable"
       }
     ],
-    "reason": "Nora Brown is one of the most acclaimed young old-time banjo players and ballad singers, focused on eastern Kentucky and Tennessee banjo; Alice Gerrard produced her first album and she has three albums on Jalopy Records plus a Tiny Desk. Stephanie Coleman is a master old-time fiddler from the Brooklyn scene; the duo released Lady of the Lake in 2023. Core Erik, and their previous Kuumbwa show (Jan 7, 2026) sold out, so buy early.",
-    "researched_at": "2026-10-29T21:51:55+00:00",
+    "reason": "Banjo player and ballad singer Nora Brown, one of the most acclaimed young old-time musicians, and Brooklyn master fiddler Stephanie Coleman play Kuumbwa Jazz in Santa Cruz on Mon Jan 11, 2027. Brown's first album was produced by Alice Gerrard and she has three albums on Jalopy Records plus an NPR Tiny Desk. Core Erik, but the same duo plays The Chapel in SF the night before (Jan 10), which is the easier show from Oakland; their last Kuumbwa date sold out.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
-    "tier": "exceptional",
+    "tier": "strong",
     "uncertainties": [
-      "2027-01-11 date not confirmed from a fetched primary page.",
-      "Ticket status for 2027 unknown; prior date sold out (inference: buy early).",
-      "Same duo also plays The Chapel SF on 2027-01-10 (ev_77216bb9cb0c)."
+      "Santa Cruz is about 75 miles from Oakland; SF date at The Chapel on 2027-01-10 (ev_77216bb9cb0c) per earlier research.",
+      "Ticket status for 2027 unknown; prior Jan 2026 Kuumbwa date sold out (inference: buy early).",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_64803ab3def8": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: Nathan Nakadegawa-Lee and Henry Plotnick Duo hosted by The Back Room, 1984 Bonita Ave, Berkeley, Monday November 9th 2026.",
+        "url": "https://events.humanitix.com/nathan-and-henry-duo"
+      },
+      {
+        "finding": "KQED headline: '13-Year-Old Minimalist Music Phenom Henry Plotnick Releases Sophomore Recording'.",
+        "url": "https://kqed.org/arts/10145102/13-year-old-minimalist-music-phenom-henry-plotnick-releases-sophomore-recording"
+      },
+      {
+        "finding": "Search result: Nathan Nakadegawa-Lee Quintet event, June 12 2026.",
+        "url": "https://offbeatsf.com/event/nathan-nakadegawa-lee-quintet/2026-06-12/"
+      },
+      {
+        "finding": "Bay Improviser (SF new-music listings) event surfaced for Nakadegawa-Lee.",
+        "url": "https://www.bayimproviser.com/EventView.aspx?e=23159"
+      }
+    ],
+    "fingerprint": "f0d62ec111f1",
+    "fit": 52,
+    "performers": [
+      {
+        "known_for": "SF minimalist composer and keyboardist",
+        "name": "Henry Plotnick",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bay Area bandleader in improvised/new music circles",
+        "name": "Nathan Nakadegawa-Lee",
+        "significance": "local"
+      }
+    ],
+    "reason": "A duo of Nathan Nakadegawa-Lee and Henry Plotnick at The Back Room in Berkeley on Mon Nov 9. Plotnick is the SF composer-keyboardist KQED profiled as a teenage minimalist 'phenom', and Nakadegawa-Lee leads a quintet that played SF's Offbeat series this year. Likely an exploratory improvised set in a small room; worth a look if he wants something adventurous on a Monday.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Nakadegawa-Lee's instrument and the duo's style not confirmed (search suggests saxophone).",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_68747aabf855": {
@@ -1962,6 +2252,80 @@
       "Two-night run; both nights listed separately."
     ]
   },
+  "ev_81ff9def79ca": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: Jet Black Pearl + Rosie + Joe hosted by The Back Room, Friday November 6th 2026.",
+        "url": "https://events.humanitix.com/jet-black-pearl-rosie-joe"
+      },
+      {
+        "finding": "Queue other_url: JamBase URL naming Michael Weston King at The Back Room on 2026-11-06 (not opened).",
+        "url": "https://www.jambase.com/show/michael-weston-king-the-back-room-20261106"
+      },
+      {
+        "finding": "Search result: a 'Jet Black Pearl' noontime concert in Portland; may or may not be the same act.",
+        "url": "https://www.jewishportland.org/community-calendar/ejc-noontime-concert-jet-black-pearl-1748462844"
+      }
+    ],
+    "fingerprint": "25b72abaeae0",
+    "fit": 34,
+    "performers": [
+      {
+        "known_for": "Unidentified",
+        "name": "Jet Black Pearl",
+        "significance": "none"
+      },
+      {
+        "known_for": "Unidentified",
+        "name": "Rosie + Joe",
+        "significance": "none"
+      }
+    ],
+    "reason": "A Back Room bill on Fri Nov 6 listed as Jet Black Pearl plus Rosie and Joe. No reliable information on these acts turned up, and a JamBase link for the same night lists UK Americana singer Michael Weston King at The Back Room instead, so the lineup is unclear.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "Possible conflict: early and late shows, or a different headliner (Michael Weston King) the same night.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_84b84fc883ca": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured KALX text: 'Hillside Club: As Meigas'.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "SF Free Folk Festival 2023 program page for As Meigas.",
+        "url": "https://sffolkfest.org/events-2023/as-meigas/"
+      },
+      {
+        "finding": "SF Free Folk Festival 2019 program page for As Meigas.",
+        "url": "https://sffolkfest.org/events-2019/as-meigas/"
+      }
+    ],
+    "fingerprint": "90428f66e652",
+    "fit": 52,
+    "performers": [
+      {
+        "known_for": "Galician traditional music group",
+        "name": "As Meigas",
+        "significance": "local"
+      }
+    ],
+    "reason": "As Meigas, a Bay Area group singing Galician traditional music with pandeireta frame drums (background knowledge), play the Hillside Club in Berkeley on Sat Nov 7. They have twice been programmed by the SF Free Folk Festival. Unusual traditional music in an intimate Arts and Crafts hall.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Style description is background knowledge.",
+      "Time and price not captured.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_84dff7547020": {
     "evidence": [
       {
@@ -2127,6 +2491,41 @@
     "tier": "possible",
     "uncertainties": [
       "Start time and price not confirmed; Ashkenaz page not checked."
+    ]
+  },
+  "ev_8a267964e227": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: Ivy Room presents Wed December 9th, Mark Guiliana BEAT MUSIC, doors 7pm show 8pm, 21+; quotes the New York Times calling him 'a drummer around whom a cult of admiration has formed' and calls him Grammy-nominated.",
+        "url": "https://tickets.venuepilot.com/e/mark-guiliana-beat-music-2026-12-09-ivy-room-albany-ed4026"
+      },
+      {
+        "finding": "Search result titled 'mark guiliana beat music 9 dec 2026', consistent with the date.",
+        "url": "https://ma.to/event/mark-guiliana-beat-music-9-dec-2026"
+      },
+      {
+        "finding": "Search result titled 'mark guiliana beat music lodge room 08 dec 2026', indicating a West Coast tour run the night before.",
+        "url": "https://ma.to/event/mark-guiliana-beat-music-lodge-room-08-dec-2026"
+      }
+    ],
+    "fingerprint": "99e227c80233",
+    "fit": 74,
+    "performers": [
+      {
+        "known_for": "Jazz drummer and bandleader; Beat Music is his electronic project",
+        "name": "Mark Guiliana",
+        "significance": "major"
+      }
+    ],
+    "reason": "Drummer Mark Guiliana brings his Beat Music project, his electronic, groove-based band, to the 21+ Ivy Room in Albany on Wed Dec 9. Guiliana is one of the most admired drummers in modern jazz (background knowledge: he played on David Bowie's Blackstar and leads acoustic jazz groups too), and seeing him in a room this small is rare. This is his beat-driven side rather than his acoustic quartet, so expect improvised electronic jazz more than swing.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Bowie/Blackstar credit is background knowledge, not confirmed from a page this run.",
+      "Beat Music band lineup for this date not confirmed.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_8a46673c83b1": {
@@ -2429,6 +2828,67 @@
     "tier": "possible",
     "uncertainties": [
       "YOYOKA's role not stated in captured text."
+    ]
+  },
+  "ev_9ab68ec866f5": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: Dima vocals, David Udolph piano, Chris Amberger bass, Akira Tana drums; style reminiscent of the early 50s.",
+        "url": "https://birdbeckett.com/event/dima_2026-11-21/"
+      }
+    ],
+    "fingerprint": "6a0dad38d554",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "Jazz vocalist",
+        "name": "Dima",
+        "significance": "none"
+      },
+      {
+        "known_for": "Jazz drummer",
+        "name": "Akira Tana",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Vocalist Dima sings early-50s style jazz standards at Bird & Beckett in Glen Park on Sat Nov 21, with pianist David Udolph, bassist Chris Amberger and veteran drummer Akira Tana. Akira Tana is a respected drummer, but this is a traditional vocal standards night.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_9bfb916bb18e": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured KALX listing text: 'The Lost Church: Ahmed Al-kadri'.",
+        "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
+      },
+      {
+        "finding": "Ticketing page; not reachable this run.",
+        "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh000006zT85MAE"
+      }
+    ],
+    "fingerprint": "48feae47f095",
+    "fit": 30,
+    "performers": [
+      {
+        "known_for": "Unidentified",
+        "name": "Ahmed Al-kadri",
+        "significance": "none"
+      }
+    ],
+    "reason": "Ahmed Al-kadri plays The Lost Church in San Francisco on Sun Nov 1 (today). Web searches turned up no reliable identification of this performer, so genre and reputation are unresolved. Listed for completeness; the date has effectively passed by the Monday email.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "Performer identity and genre not established.",
+      "Event is on the day of research.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_9d01fe02e71a": {
@@ -2963,6 +3423,77 @@
       "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
     ]
   },
+  "ev_b4973786d22f": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured title only: 'Beautiful harmonies and excellent playing from a local acoustic trio'.",
+        "url": "https://www.hillsideclub.org/hillsideechoes"
+      }
+    ],
+    "fingerprint": "0b7850b8a75f",
+    "fit": 40,
+    "performers": [],
+    "reason": "An unnamed 'local acoustic trio' with harmonies plays the Hillside Club's Hillside Echoes series in Berkeley on Fri Nov 13. The trio's name was not in the captured listing and the club page could not be read, so it is unresolved.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "Performer not identified.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_b54a57c938ab": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: guitarist, singer, banjoist, songwriter and musical historian; performs rockabilly and 60s country with the fervor of Jerry Lee Lewis.",
+        "url": "https://ranchonicasio.com/event/mitch-polzak-the-royal-deuces-8/"
+      }
+    ],
+    "fingerprint": "394aa89074d3",
+    "fit": 36,
+    "performers": [
+      {
+        "known_for": "Rockabilly/60s country performer",
+        "name": "Mitch Polzak",
+        "significance": "local"
+      }
+    ],
+    "reason": "Mitch Polzak & The Royal Deuces play rockabilly and 60s country at a Rancho Nicasio dinner show on Sun Dec 13. Energetic retro roots, but rockabilly revival at a far venue is a weak fit.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_b61ba3abf1b5": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: one of the premier saxophone players in Northern California, 35+ years in the Bay Area, has recorded with John Hendricks, Wesla Whitfield, Mary Stallings, Paula West, Mike Greensill, Lavay Smith, Mimi Fox.",
+        "url": "https://keysjazzbistro.com/event/noel-jewkes-6/"
+      }
+    ],
+    "fingerprint": "2dbf14a40f5c",
+    "fit": 44,
+    "performers": [
+      {
+        "known_for": "Bay Area jazz saxophonist",
+        "name": "Noel Jewkes",
+        "significance": "local"
+      }
+    ],
+    "reason": "Veteran saxophonist Noel Jewkes, a fixture of Bay Area jazz for over 35 years, plays Keys Jazz Bistro on Wed Nov 11. He has recorded with Jon Hendricks, Mary Stallings and Paula West among others. Respected mainstream jazz in a small room, but not especially adventurous.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Band lineup not listed.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_b7497a38f3bd": {
     "evidence": [
       {
@@ -2985,6 +3516,32 @@
     "ticket_status": "unverified",
     "tier": "possible",
     "uncertainties": []
+  },
+  "ev_b911249d32be": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: dinner show; 'one of the top Swingin' Jazz and Blues bands in the world'; Lavay Smith 'evokes a sensuous era of Jazz queens'.",
+        "url": "https://ranchonicasio.com/event/lavay-smith-her-red-hot-skillet-lickers-7/"
+      }
+    ],
+    "fingerprint": "893970e31266",
+    "fit": 38,
+    "performers": [
+      {
+        "known_for": "SF retro swing/jump blues band",
+        "name": "Lavay Smith & Her Red Hot Skillet Lickers",
+        "significance": "local"
+      }
+    ],
+    "reason": "Lavay Smith & Her Red Hot Skillet Lickers, a long-running SF retro swing and jazz-blues band, play a dinner show at Rancho Nicasio in West Marin on Fri Nov 27. Fun, skilled and nostalgic, but period-style swing at a distant dinner venue is a weak fit for him.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Show time not stated in captured text.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
   },
   "ev_b979fc1c0cee": {
     "evidence": [
@@ -3031,6 +3588,66 @@
     "uncertainties": [
       "Primary Bottom of the Hill and DICE pages not fetched",
       "Part of a West Coast tour (search results show Mill Valley Nov 6, Sacramento Nov 10 and Moe's Alley dates), so other Bay Area options may exist"
+    ]
+  },
+  "ev_bb7a65c32aca": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: Keys welcomes Dutch-born vocalist Lara Louise to celebrate four years at Keys; classic songs blending folk roots with French chanson, Bossa Nova and the Great American Songbook.",
+        "url": "https://keysjazzbistro.com/event/lara-louise-7/"
+      }
+    ],
+    "fingerprint": "d58843401364",
+    "fit": 34,
+    "performers": [
+      {
+        "known_for": "Bay Area jazz/chanson vocalist",
+        "name": "Lara Louise",
+        "significance": "local"
+      }
+    ],
+    "reason": "Dutch-born vocalist Lara Louise headlines Keys Jazz Bistro's four-year anniversary night on Sun Nov 22. The listing describes a soft, sultry voice mixing folk roots with French chanson, bossa nova and the Great American Songbook. Pleasant supper-club standards rather than the adventurous jazz or roots he looks for.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_bde6224542f2": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: trumpeter Ambrose Akinmusire 'situated himself in both the center and the periphery of jazz, and has also emerged in classical and hip hop circles'.",
+        "url": "https://www.kuumbwajazz.org/calendar/ambrose-akinmusire-quartet/"
+      },
+      {
+        "finding": "SFJAZZ 26-27 season production page titled 'Ambrose Akinmusire Quartet' (search result; dates not read).",
+        "url": "https://www.sfjazz.org/tickets/productions/26-27/ambrose-akinmusire-quartet/"
+      },
+      {
+        "finding": "Wikipedia article on Ambrose Akinmusire.",
+        "url": "https://en.wikipedia.org/wiki/Ambrose_Akinmusire"
+      }
+    ],
+    "fingerprint": "3a6bdd50d39f",
+    "fit": 82,
+    "performers": [
+      {
+        "known_for": "Trumpeter, composer, Blue Note",
+        "name": "Ambrose Akinmusire",
+        "significance": "major"
+      }
+    ],
+    "reason": "Oakland-born trumpeter Ambrose Akinmusire, one of the most searching voices in jazz today and a Blue Note artist who moves between jazz, classical and hip-hop circles, brings his quartet to Kuumbwa in Santa Cruz on Tue Mar 9, 2027. Emotionally intense, adventurous improvised music in an intimate club. SFJAZZ also lists an Ambrose Akinmusire Quartet production this season, which may be the easier way to see him.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Quartet personnel not confirmed.",
+      "SFJAZZ dates not confirmed; could be the same tour.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_c1724b0e647c": {
@@ -3131,6 +3748,92 @@
       "Style of the series is inference from the host and series name."
     ]
   },
+  "ev_cbe942b05693": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: son and disciple of Ustad Salamat Ali Khan of the Shaam Chaurasi Gharana, born in Lahore, Bay Area based, international career of nearly 50 years, presents North Indian and Pakistani traditional music.",
+        "url": "https://birdbeckett.com/event/sukhawat-ali-khan_2027-02-11/"
+      },
+      {
+        "finding": "Wikipedia article exists for Sukhawat Ali Khan (search result).",
+        "url": "https://en.wikipedia.org/wiki/Sukhawat_Ali_Khan"
+      },
+      {
+        "finding": "Bird & Beckett Cultural Legacy Project page for a 2022 Sukhawat Ali Khan performance, showing he is a repeat performer there.",
+        "url": "https://birdbeckett.com/sukhawat-ali-khan-5-15-22/"
+      }
+    ],
+    "fingerprint": "e6d132e93983",
+    "fit": 54,
+    "performers": [
+      {
+        "known_for": "Pakistani classical and Sufi vocalist, Shaam Chaurasi gharana",
+        "name": "Sukhawat Ali Khan",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Sukhawat Ali Khan, son and disciple of the great Pakistani classical vocalist Ustad Salamat Ali Khan of the Shaam Chaurasi gharana, leads a Sufi ensemble at Bird & Beckett bookstore in Glen Park on Thu Feb 11, 2027. He is Bay Area based with a nearly 50-year international career. A deep traditional lineage in a tiny room; not his usual genre, but exactly the kind of unusual traditional music the radar should flag.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_cdc8a7bfe767": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: Artmann joined by pianist Laszlo Gardony, bassist Jeff Denson, drummer Yoron Israel and vocalist Elena McEntire, after an October concert at Berklee with the Laszlo Gardony Quintet; a reunion introducing new material.",
+        "url": "https://keysjazzbistro.com/event/the-christian-artmann-quintet/"
+      },
+      {
+        "finding": "Search result for Christian Artmann's album 'The Middle of Life'.",
+        "url": "https://osplacejazz.com/the-middle-of-life/"
+      },
+      {
+        "finding": "Laszlo Gardony's tour-dates page surfaced for the Artmann/Gardony search; not opened.",
+        "url": "https://www.lgjazz.com/pages/tourdates.html"
+      }
+    ],
+    "fingerprint": "72e344ca100a",
+    "fit": 56,
+    "performers": [
+      {
+        "known_for": "Jazz flutist, recording artist",
+        "name": "Christian Artmann",
+        "significance": "local"
+      },
+      {
+        "known_for": "Berklee-based jazz pianist",
+        "name": "Laszlo Gardony",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Bay Area bassist",
+        "name": "Jeff Denson",
+        "significance": "local"
+      },
+      {
+        "known_for": "Jazz drummer",
+        "name": "Yoron Israel",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Vocalist",
+        "name": "Elena McEntire",
+        "significance": "none"
+      }
+    ],
+    "reason": "Flutist Christian Artmann leads a quintet at Keys Jazz Bistro in North Beach on Sun Nov 8 with Boston pianist Laszlo Gardony, Bay Area bassist Jeff Denson, drummer Yoron Israel and vocalist Elena McEntire. It is billed as a reunion of longtime collaborators debuting new material, right after a Berklee concert with Gardony's group. Solid, lyrical small-room jazz with a real band, though more polished than adventurous.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
   "ev_cec22afc87ec": {
     "evidence": [
       {
@@ -3198,6 +3901,49 @@
     "tier": "low",
     "uncertainties": [
       "Aggregator shows both Nov 6 and Nov 7."
+    ]
+  },
+  "ev_d946264d0390": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured listing: 10th anniversary show with opening band Pilgrims of Stoke Trio; benefit for People First of Santa Cruz County.",
+        "url": "https://www.kuumbwajazz.org/calendar/painted-mandolin-10th-anniversary-show/"
+      },
+      {
+        "finding": "Americana Highways review of Painted Mandolin's album 'Sweet Rain'.",
+        "url": "https://americanahighways.org/2023/07/28/review-painted-mandolin-sweet-rain/"
+      },
+      {
+        "finding": "Kuumbwa event: Painted Mandolin, 50th anniversary of the Old and In the Way album.",
+        "url": "https://kuumbwajazz.org/calendar/painted-mandolin-50th-anniversary-of-old-and-in-the-way-album"
+      },
+      {
+        "finding": "Nevada Theatre event: Painted Mandolin featuring Joe Craven.",
+        "url": "https://nevadatheatre.com/events/paul-emery-presents-nevada-city-live-painted-mandolin-featuring-joe-craven/"
+      }
+    ],
+    "fingerprint": "9381067f00fc",
+    "fit": 56,
+    "performers": [
+      {
+        "known_for": "Santa Cruz bluegrass band",
+        "name": "Painted Mandolin",
+        "significance": "local"
+      },
+      {
+        "known_for": "Opening act",
+        "name": "Pilgrims of Stoke Trio",
+        "significance": "none"
+      }
+    ],
+    "reason": "Santa Cruz bluegrass band Painted Mandolin celebrates its 10th anniversary at Kuumbwa Jazz on Sat Nov 21, with the Pilgrims of Stoke Trio opening, as a benefit for People First of Santa Cruz County. The band has been reviewed by Bluegrass Today and Americana Highways and has staged an Old & In the Way 50th-anniversary tribute. Good regional bluegrass, but a long drive for a local band.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Whether Joe Craven appears at this show is unknown.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_da3b1224db08": {
@@ -3286,6 +4032,40 @@
     "uncertainties": [
       "Ticket page says door sales only 'if the show is not sold out'; no current availability stated",
       "Rhythm section differs from the 2022 article lineup"
+    ]
+  },
+  "ev_dcfb36d82ddf": {
+    "evidence": [
+      {
+        "finding": "Primary page could not be fetched this run (fetch permission timed out); captured KALX text: 'The Lost Church: Conspiracy of Venus Cabaret'.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "KALW 'Today's Local Music: Conspiracy of Venus' feature.",
+        "url": "https://www.kalw.org/show/crosscurrents/2015-01-08/todays-local-music-conspiracy-of-venus"
+      },
+      {
+        "finding": "SF Classical Voice listing: Valentine's Date Night with Conspiracy of Venus at Old First Concerts.",
+        "url": "https://sfcv.org/events/old-first-concerts/valentines-date-night-conspiracy-venus"
+      }
+    ],
+    "fingerprint": "8ff56e73da85",
+    "fit": 46,
+    "performers": [
+      {
+        "known_for": "SF women's choir",
+        "name": "Conspiracy of Venus",
+        "significance": "local"
+      }
+    ],
+    "reason": "Conspiracy of Venus, a long-running San Francisco women's choir known for eclectic, arty arrangements of pop and folk, presents a cabaret at The Lost Church on Fri Nov 6. They have been featured on KALW and play Old First Concerts. More his partner's kind of night than his, but an intimate, quirky local show.",
+    "researched_at": "2026-11-01T22:50:56+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Description of their style is background knowledge.",
+      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
   "ev_dd475aee0f28": {
