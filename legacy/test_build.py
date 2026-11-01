@@ -30,11 +30,17 @@ class RefreshTests(unittest.TestCase):
   cancelled=update_schema(changed,data,'2026-10-21T04:01:00+00:00')
   self.assertEqual(cancelled['id'],self.e['id']);self.assertIn('STATUS:CANCELLED',build([cancelled]))
  def test_missing_source_does_not_cancel(self):
+  import datetime as dt
   from unittest.mock import patch
-  from build import refresh
+  from build import refresh,parse
   before=copy.deepcopy(self.e)
-  with contextlib.redirect_stdout(io.StringIO()), patch('urllib.request.urlopen',side_effect=OSError('source unavailable')):
-   records,health=refresh([self.e])
+  # Keep this outage scenario upcoming even after the fixture's real event ends.
+  now=parse(self.e['start'])-dt.timedelta(days=1)
+  with patch('build.dt.datetime',wraps=dt.datetime) as clock:
+   clock.now.return_value=now
+   with contextlib.redirect_stdout(io.StringIO()), patch('urllib.request.urlopen',side_effect=OSError('source unavailable')) as fetch:
+    records,health=refresh([self.e])
+   fetch.assert_called_once()
   self.assertEqual(records[0],before);self.assertEqual(health[0]['status'],'source-unavailable')
  def test_aliases_with_canonical_source_are_duplicates(self):
   e=copy.deepcopy(self.e);e['id']='alias';e['source']='https://another.example/alias';e['canonical_source']=self.e['source']
@@ -42,3 +48,11 @@ class RefreshTests(unittest.TestCase):
  def test_local_time_requires_offset(self):
   from build import parse
   with self.assertRaises(ValueError):parse('2026-10-29T19:00:00')
+
+class RefreshRevisionTests(unittest.TestCase):
+ def test_unchanged_refresh_does_not_increment_revision(self):
+  from build import update_schema
+  e=json.loads((ROOT/'events.json').read_text())[0]
+  data={'eventStatus':'https://schema.org/EventScheduled','startDate':e['start'],'endDate':e['end']}
+  changed=update_schema(e,data,'2026-10-26T00:00:00+00:00')
+  self.assertEqual(changed['sequence'],e['sequence']);self.assertEqual(changed['modified_at'],e['modified_at']);self.assertEqual(changed['verified_at'],'2026-10-26T00:00:00+00:00')

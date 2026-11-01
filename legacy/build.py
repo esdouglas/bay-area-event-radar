@@ -97,7 +97,7 @@ def update_schema(e,data,now):
             address=address.get('streetAddress','') if isinstance(address,dict) else address
             changed['location']=html.unescape(loc['name'])+(', '+address if address and address!=loc['name'] else '')
     changed['verified_at']=now
-    if changed!=e:changed.update(sequence=e['sequence']+1,modified_at=now)
+    if any(changed.get(k)!=e.get(k) for k in ('start','end','location','status','notes')):changed.update(sequence=e['sequence']+1,modified_at=now)
     return changed
 
 def refresh(records):
