@@ -261,6 +261,65 @@
       "Amelia is presumably his daughter (inference from the shared surname and family album credits)."
     ]
   },
+  "ev_175dcbd0ac26": {
+    "evidence": [
+      {
+        "finding": "Lists 'Nov. 15 1 pm / Kathy Kallick, Bethany Sorkey, Greg Booth, Tom Bekeny, and Larry Chung / The Monkey House, Berkeley'.",
+        "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+      },
+      {
+        "finding": "Radar collected the same date and venue from this calendar as 'Kallick/Sorkey/Booth/Bekeny/Chung' at the Monkey House, 1pm.",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
+      },
+      {
+        "finding": "Good Ol' Persons was 'one of the first all-women bluegrass bands' with Laurie Lewis a founding member; she formed the Kathy Kallick Band in 1996; won a Grammy and two IBMA awards; names Tom Bekeny (mandolin) and Greg Booth (dobro and banjo) as band members.",
+        "url": "https://en.wikipedia.org/wiki/Kathy_Kallick"
+      },
+      {
+        "finding": "Kathy Kallick Band page names Greg Booth (dobro, banjo) and Tom Bekeny (mandolin); cites a Grammy, two IBMA Awards and co-founding the Good Ol' Persons.",
+        "url": "https://www.kathykallick.com/kathy-kallick-band.html"
+      }
+    ],
+    "fingerprint": "751f112bd5c2",
+    "fit": 80,
+    "performers": [
+      {
+        "known_for": "Co-founder of the Good Ol' Persons; Kathy Kallick Band; Grammy and two IBMA awards",
+        "name": "Kathy Kallick",
+        "significance": "major"
+      },
+      {
+        "known_for": "Mandolin, Kathy Kallick Band",
+        "name": "Tom Bekeny",
+        "significance": "local"
+      },
+      {
+        "known_for": "Dobro and banjo, Kathy Kallick Band",
+        "name": "Greg Booth",
+        "significance": "local"
+      },
+      {
+        "known_for": "Not identified",
+        "name": "Bethany Sorkey",
+        "significance": "none"
+      },
+      {
+        "known_for": "Not identified",
+        "name": "Larry Chung",
+        "significance": "none"
+      }
+    ],
+    "reason": "Kathy Kallick co-founded the Good Ol' Persons, one of the first all-women bluegrass bands (with Laurie Lewis), and has led the Kathy Kallick Band since 1996, with a Grammy and two IBMA awards. Tom Bekeny (mandolin) and Greg Booth (dobro, banjo) are her own band members, so this Sunday 1pm set at the tiny Monkey House is close to a Kathy Kallick Band show in a living-room-sized Berkeley venue. The listing showed only surnames, which is why it scored 26.",
+    "researched_at": "2026-11-01T17:48:02+00:00",
+    "researcher": "Claude interactive session",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "No Monkey House page checked; price and reservation process unconfirmed.",
+      "Bethany Sorkey and Larry Chung not identified by any source I read.",
+      "Whether this is billed as the Kathy Kallick Band is inference from the shared members."
+    ]
+  },
   "ev_18072512f699": {
     "evidence": [
       {
