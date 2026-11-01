@@ -1,15 +1,18 @@
 {
- "inventory_total": 3763,
- "inventory_upcoming": 3397,
- "merged_sources": 3,
- "new_events": 27,
- "run_id": "41c73905e9d3",
- "seconds": 213.5,
- "sources_due": 65,
+ "inventory_total": 3802,
+ "inventory_upcoming": 3256,
+ "merged_sources": 21,
+ "new_events": 49,
+ "run_id": "f766dfeda2cc",
+ "seconds": 236.4,
+ "sources_due": 69,
  "sources_failed": [
+  "fifth-street-farms-site",
+  "old-first-concerts",
   "outsound",
+  "the-marsh",
   "songkick-bay-area"
  ],
- "sources_ok": 63,
- "ts": "2026-10-31T21:51:33+00:00"
+ "sources_ok": 64,
+ "ts": "2026-11-01T17:48:27+00:00"
 }

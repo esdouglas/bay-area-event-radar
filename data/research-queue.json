@@ -1,7 +1,7 @@
 {
- "backlog": 1457,
+ "backlog": 1413,
  "count": 40,
- "generated_at": "2026-10-31T21:52:28+00:00",
+ "generated_at": "2026-11-01T17:49:35+00:00",
  "items": [
   {
    "city": "San Pedro",
@@ -105,51 +105,6 @@
     "listed by a taste-aligned calendar (+18)",
     "3 independent sources (+8)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-10-31",
-   "description": "Music by garage rock legends, DOG HOUSE, and art rockers, THE LAYTECOMERS. Last time Halloween on a Saturday until 2037 so let's make the most of it! $10 cover; live music at 9pm; dress up (no cultural appropriation allowed!!)",
-   "fingerprint": "b2d7250f602b",
-   "id": "ev_10bdae770629",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-10-31T21:00:00-07:00",
-   "title": "Little Hillows' Eve with Dog House and The Laytcomers",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-10-31",
-   "description": "The Lost Church: Boardwalk Banshees' 4th Annual Halloween Ball",
-   "fingerprint": "cc94d549e27d",
-   "id": "ev_7b127dfb4742",
-   "other_urls": [
-    "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKABpMAP"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-10-31T00:00:00-07:00",
-   "title": "Boardwalk Banshees' 4th Annual Halloween Ball – San Francisco",
-   "url": "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
    ]
   },
   {
@@ -812,28 +767,6 @@
    ]
   },
   {
-   "city": "Berkeley",
-   "date": "2026-10-31",
-   "description": "The Starry Plough: Murder Ballads",
-   "fingerprint": "388635b1d014",
-   "id": "ev_9f8f4cbb4f44",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-10-31T20:30:00-07:00",
-   "title": "The 24th Annual Murder Ballads Bash!",
-   "url": "https://thestarryplough.com/event/the-24th-annual-murder-ballads-bash/the-starry-plough-pub/california/",
-   "venue": "The Starry Plough",
-   "why_rules": [
-    "intimate room: The Starry Plough (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-11-18",
    "description": "Nov. 18: Bloomfield Bluegrass Band - Willowbrook Ale House, Petaluma",
@@ -851,6 +784,70 @@
     "listed by a taste-aligned calendar (+18)",
     "2 independent sources (+4)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-13",
+   "description": "Zoë Lewis at The Back Room on Nov 13, 2026",
+   "fingerprint": "4b88cc866b32",
+   "id": "ev_25130c9dc583",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 63.0,
+   "rules_tier": "strong",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Zoë Lewis",
+   "url": "https://www.jambase.com/show/zoe-lewis-the-back-room-20261113",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-01-24",
+   "description": "Award-winning violinist Eva Slongo and guitarist Jimmy Grant present an intimate and swinging set rooted in the gypsy jazz tradition of Django Reinhardt and Stéphane Grappelli. For this concert they're joined by special guest Simon Planting on bass. Their music draws equally from European jazz, Eastern European folk influences, and classic vocal jazz, resulting in a sound that feels both timeless ",
+   "fingerprint": "f77a4d55eb82",
+   "id": "ev_30a270279b9a",
+   "other_urls": [],
+   "rules_score": 75.0,
+   "rules_tier": "strong",
+   "start": "2027-01-24T19:00:00-08:00",
+   "title": "Voyage Hot Club",
+   "url": "https://www.kuumbwajazz.org/calendar/voyage-hot-club/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "roots_adjacent: folk (+10)",
+    "jazz_core: jazz (+18)",
+    "intimacy: intimate (+5)",
+    "intimate room: Kuumbwa Jazz (+14)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-13",
+   "description": "Chris Smither at The Freight on Nov 13, 2026",
+   "fingerprint": "1bc0fb8566be",
+   "id": "ev_53649273c229",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 63.0,
+   "rules_tier": "strong",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Chris Smither",
+   "url": "https://www.jambase.com/show/chris-smither-the-freight-20261113",
+   "venue": "Freight & Salvage",
+   "why_rules": [
+    "intimate room: Freight & Salvage (+14)",
+    "booking signal: Freight & Salvage (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "2 independent sources (+4)"
    ]
   }
  ]
