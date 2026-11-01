@@ -12,6 +12,7 @@ An event is re-queued only when its listing fingerprint changes."""
 import datetime as dt
 import hashlib
 
+from . import picks as P
 from . import config, store
 from .normalize import TZ
 from .rank import _compile, blend, load_taste, tier_for
@@ -48,6 +49,8 @@ def build_queue(n: int = 40):
             continue
         unknown = not sig.get("seed_hits")
         prio = (e.get("score") or 0) + (15 if unknown and (sig.get("venue_intimate") or taste_src) else 0) - min((d - today).days, 120) / 6
+        # what reaches Erik depends on research (picks.py), so favour shows he could get to and small rooms
+        prio += -float((P.cfg()["travel"].get(P.zone(e)) or {}).get("penalty", 0)) + (8 if P.book_ahead(e) else 0)
         cands.append((prio, e))
     cands.sort(key=lambda x: -x[0])
     q = [{"id": e["id"], "fingerprint": fingerprint(e), "title": e["title"], "date": e["date"], "start": e["start"],

@@ -176,9 +176,10 @@ class NotifyTests(unittest.TestCase):
         from unittest.mock import patch
         from radar import config, notify, store
 
-        def ev(i, title, venue, date, tier="exceptional", score=90.0, region="bay"):
+        def ev(i, title, venue, date, tier="exceptional", score=90.0, region="bay", city="Berkeley"):
             return {"id": i, "title": title, "date": date, "start": f"{date}T20:00:00-07:00", "venue": venue,
-                    "city": "Berkeley", "status": "scheduled", "tier": tier, "score": score, "final_score": score, "url": "https://x",
+                    "city": city, "status": "scheduled", "tier": tier, "score": score, "final_score": score, "url": "https://x",
+                    "research": {"fit": score, "tier": tier, "reason": f"{title} is great. Second sentence. Third."},
                     "first_seen": "2099-09-21T00:00:00+00:00", "region": region, "performers": [], "tags": [],
                     "sources": [{"source": "s", "url": "https://x", "first_seen": "t", "last_seen": "t"}], "score_reasons": ["seed artist (+40)"]}
         import datetime as dt
@@ -186,7 +187,10 @@ class NotifyTests(unittest.TestCase):
         events = {"a": ev("a", "Peter Stampfel and Will Sprott", "Little Hill Lounge", day(40)),
                   "b": ev("b", "Big Hall Show", "The Fillmore", day(41)),
                   "c": ev("c", "Low Strong Show", "Fifth Street Farms", day(42), tier="strong", score=55.0),
-                  "d": ev("d", "Far Away Show", "Collage", day(43), region="outside")}
+                  "d": ev("d", "Far Away Show", "Collage", day(43), region="outside"),
+                  "e": ev("e", "Santa Cruz Pretty Good", "Kuumbwa Jazz", day(5), score=85.0, city="Santa Cruz"),
+                  "f": ev("f", "Santa Cruz Very Special", "Kuumbwa Jazz", day(6), score=95.0, city="Santa Cruz"),
+                  "g": ev("g", "Peter Stampfel and Will Sprott", "Ivy Room", day(44), score=85.0)}
         with tempfile.TemporaryDirectory() as d:
             dp = pathlib.Path(d)
             with patch.object(config, "EVENTS_FILE", dp / "events.json"), patch.object(config, "ALERTS_FILE", dp / "alerts.json"), \
@@ -205,10 +209,13 @@ class NotifyTests(unittest.TestCase):
         self.assertNotIn("[dry-run issue]", first)
         self.assertIn("[dry-run issue] [radar] Book ahead: Peter Stampfel", out)
         self.assertNotIn("Book ahead: Big Hall", out)
-        self.assertIn("## Book now", out)
-        self.assertIn("Big Hall Show", out)            # listed in the email, just not alerted
-        self.assertNotIn("Low Strong Show", out)       # below the shortlist bar
+        self.assertIn("## New, book ahead", out)
+        self.assertIn("Big Hall Show", out)            # in the email, just not alerted
+        self.assertNotIn("Low Strong Show", out)       # below the pick bar
         self.assertNotIn("Far Away Show", out)         # outside the region
+        self.assertNotIn("Santa Cruz Pretty Good", out)  # far, and not special enough
+        self.assertIn("Santa Cruz Very Special", out)
+        self.assertEqual(out.count("Peter Stampfel and Will Sprott**"), 0)  # alerted already, so not new in the email
         self.assertFalse(notify.live_enabled())
 
 

@@ -278,3 +278,28 @@ tiers:
 multi_source_bonus: 4      # each additional independent source adds this (capped at 12)
 upcoming_14d_bonus: 3
 category_weights: {music: 0, theater: 0, dance: -4, arts: -6, comedy: -20, film: -12, talk: -15, other: -5, mixed: 0}
+
+# ------------------------------------------------------------------ what reaches Erik (weekly email)
+# Erik goes to about one show every two weeks, so the email surfaces a handful of picks, not a list.
+# A show's pick score = research fit (0-100), or for an unresearched show whose bill names a seed artist,
+# its rules score minus 5; minus the travel penalty for its zone. Shows with neither are not picks
+# (high scorers jump the research queue instead). Home is Oakland.
+travel:
+  near: {penalty: 0, cities: [oakland, berkeley, albany, el cerrito, emeryville, alameda, piedmont, kensington,
+                              richmond, san pablo, orinda, lafayette, moraga, san leandro, san francisco]}
+  mid:  {penalty: 5, cities: [mill valley, sausalito, san rafael, novato, fairfax, san anselmo, larkspur, corte madera,
+                              tiburon, nicasio, point reyes station, point reyes, inverness, bolinas, stinson beach,
+                              walnut creek, concord, pleasant hill, martinez, danville, san ramon, hayward, castro valley,
+                              fremont, union city, livermore, pleasanton, dublin, vallejo, benicia, napa, petaluma,
+                              daly city, south san francisco, pacifica, san mateo, burlingame, redwood city,
+                              menlo park, palo alto, stanford, mountain view, los altos, sunnyvale, santa clara,
+                              san jose, half moon bay, woodside, san carlos, belmont]}
+  far:  {penalty: 8, min_base: 90}    # everything else in range (Santa Cruz, Monterey, Sonoma County, Sacramento...): only if base 90+
+  unknown_zone: mid                   # city not resolvable from the listing
+digest:
+  pick_min: 80          # pick score needed to be a pick
+  max_soon: 3           # picks in the next 14 days
+  max_new_ahead: 3      # newly found picks further out (small rooms first)
+  max_still_ahead: 6    # earlier picks still coming up, one line each
+  max_also: 4           # "also nearby" one-liners in the next 14 days (pick score 65 to pick_min, near/mid only)
+  alert_min: 88         # between-Mondays alert: small room and pick score at least this

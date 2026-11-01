@@ -10,10 +10,12 @@ before it happens, not the morning after. See [POSTMORTEM.md](POSTMORTEM.md) for
 - Coverage dashboard: https://esdouglas.github.io/bay-area-event-radar/dashboard.html (every source, its health, what it contributed, run history)
 - Calendar feed: https://esdouglas.github.io/bay-area-event-radar/radar.ics (strong + exceptional events; v1 UIDs preserved)
 - Weekly email: a GitHub issue labelled `radar-digest`, Mondays ~8 AM Pacific (assigned to the owner, so
-  GitHub e-mails it). Sections: Book now (top picks in the small rooms listed under `venues.book_ahead`
-  in taste.yaml, however far ahead), This week and next, Further out.
-- Between Mondays, only one kind of alert: an exceptional show in a `book_ahead` room, as an issue
-  labelled `radar-alert`. The first live run records existing ones without posting.
+  GitHub e-mails it). A handful of picks, not a list: up to 3 in the next two weeks, up to 3 new ones
+  to book ahead, one-line reminders of earlier picks, and a few near misses. Picks are scored by
+  research fit minus a travel penalty from Oakland (`travel` and `digest` in taste.yaml; see
+  radar/picks.py). Far shows (Santa Cruz, Monterey, Sacramento...) need a fit of 90+.
+- Between Mondays, only one kind of alert: a pick scoring 88+ in a small room (`venues.book_ahead`),
+  as an issue labelled `radar-alert`. The first live run records existing ones without posting.
 - Operational alarms: issues labelled `radar-ops` from the daily watchdog
 
 ## How it works
