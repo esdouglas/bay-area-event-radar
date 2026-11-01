@@ -229,6 +229,16 @@ venues:
      Bazaar Cafe, Amado's, Hotel Utah, Make-Out Room, Thee Parkside, Kilowatt, Rickshaw Stop,
      Bottom of the Hill, The Chapel, Great American Music Hall, Freight & Salvage, The Independent,
      The New Parish, Ashby Stage, Aurora Theatre, Magic Theatre, Z Space, CounterPulse, ODC Theater]
+  # Small rooms where good shows can sell out. They drive the weekly email's "Book now" section (every
+  # strong-or-better show here, however far ahead) and are the ONLY venues that trigger a between-Mondays
+  # alert (exceptional tier only). Matching: the folded name appears anywhere in the event's venue text.
+  # Starting list built 2026-11-01 from the radar's own venue data, not from published capacities; edit freely.
+  book_ahead: [Fifth Street Farms, The Back Room, Monkey,  # SFFMC lists The Monkey House as just "Monkey"
+               Otter Opry, Hillside Club, Little Hill Lounge,
+               Bird & Beckett, Red Poppy Art House, Down Home Music, The Lost Church, Keys Jazz Bistro,
+               Kuumbwa, Center for New Music, Octopus Literary Salon, The Sound Room, Joe Henderson Lab,
+               St. Cyprian's, Old First Church, Eli's Mile High Club, Rancho Nicasio]
+  book_ahead_patterns: ['house concert', 'concerts at instantharmony']
   taste_venues_bonus: 8   # venues whose booking is itself a taste signal
   taste_venues: [Freight & Salvage, The Back Room, Fifth Street Farms, Hillside Club, Little Hill Lounge,
                  Down Home Music, Red Poppy Art House, Bird & Beckett, The Lost Church, Kuumbwa Jazz,

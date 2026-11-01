@@ -135,6 +135,8 @@ VENUE_ALIASES = {
     "moe s alley": "Moe's Alley",
     "kuumbwa jazz center": "Kuumbwa Jazz",
     "kuumbwa jazz": "Kuumbwa Jazz",
+    "kuumbwa santa cruz": "Kuumbwa Jazz",
+    "kuumbwa": "Kuumbwa Jazz",
     "the lost church": "The Lost Church",
     "lost church": "The Lost Church",
     "the lost church san francisco": "The Lost Church",
@@ -227,7 +229,7 @@ OUTSIDE_CA = {"los angeles", "burbank", "long beach", "san diego", "pasadena", "
               "thousand oaks", "orange", "costa mesa", "huntington beach", "riverside", "san bernardino", "palm springs",
               "temecula", "escondido", "carlsbad", "oceanside", "santa ana", "torrance", "inglewood", "redondo beach",
               "mission viejo", "san luis obispo", "paso robles", "modesto", "stockton", "merced", "visalia", "redding",
-              "chico", "eureka", "arcata", "reno", "las vegas", "lake tahoe"}
+              "chico", "eureka", "arcata", "reno", "las vegas", "lake tahoe", "san pedro"}
 
 
 def region_of(city: str | None, state: str | None = None) -> str:

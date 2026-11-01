@@ -9,8 +9,11 @@ before it happens, not the morning after. See [POSTMORTEM.md](POSTMORTEM.md) for
 - Inventory + search: https://esdouglas.github.io/bay-area-event-radar/ (every plausible event, filter by tier/category/date)
 - Coverage dashboard: https://esdouglas.github.io/bay-area-event-radar/dashboard.html (every source, its health, what it contributed, run history)
 - Calendar feed: https://esdouglas.github.io/bay-area-event-radar/radar.ics (strong + exceptional events; v1 UIDs preserved)
-- Immediate alerts: GitHub issues labelled `radar-alert` (assigned to the owner, so GitHub e-mails them)
-- Weekly digest: GitHub issues labelled `radar-digest`, Mondays ~8 AM Pacific
+- Weekly email: a GitHub issue labelled `radar-digest`, Mondays ~8 AM Pacific (assigned to the owner, so
+  GitHub e-mails it). Sections: Book now (top picks in the small rooms listed under `venues.book_ahead`
+  in taste.yaml, however far ahead), This week and next, Further out.
+- Between Mondays, only one kind of alert: an exceptional show in a `book_ahead` room, as an issue
+  labelled `radar-alert`. The first live run records existing ones without posting.
 - Operational alarms: issues labelled `radar-ops` from the daily watchdog
 
 ## How it works

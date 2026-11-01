@@ -1,4 +1,4 @@
-"""Stage E: alerts as GitHub Issues (immediate exceptional finds; weekly digest).
+"""Stage E: alerts as GitHub Issues (weekly Monday email; between Mondays only exceptional shows in small rooms).
 
 Why GitHub Issues: zero secrets (GITHUB_TOKEN is provided to every workflow run), GitHub e-mails the
 assignee/mentioned user, every alert is a permanent, searchable record with a comment thread, and the
@@ -8,11 +8,12 @@ still-upcoming flagged event on the shortlist until it happens.
 """
 import datetime as dt
 import os
+import re
 
 import requests
 
-from . import config, llm, store
-from .normalize import TZ
+from . import config, store
+from .normalize import TZ, region_of
 
 API = "https://api.github.com"
 LABEL_ALERT = "radar-alert"
@@ -36,8 +37,8 @@ def _headers():
 
 
 def ensure_labels(h):
-    for name, color, desc in ((LABEL_ALERT, "d93f0b", "Immediate exceptional discovery"),
-                              (LABEL_DIGEST, "0e8a16", "Weekly discovery digest"),
+    for name, color, desc in ((LABEL_ALERT, "d93f0b", "Exceptional show in a small room (book ahead)"),
+                              (LABEL_DIGEST, "0e8a16", "Weekly Monday email"),
                               (LABEL_OPS, "5319e7", "Collection health / operations")):
         r = requests.get(f"{API}/repos/{_repo()}/labels/{name}", headers=h, timeout=20)
         if r.status_code == 404:
@@ -148,43 +149,99 @@ def event_card(e) -> str:
     return "\n".join(l for l in lines if l)
 
 
+# ----------------------------------------------------------------------------- small rooms
+_BOOK = None
+
+
+def book_ahead(e) -> bool:
+    """Is this show in a small room that can sell out (taste.yaml venues.book_ahead / book_ahead_patterns)?"""
+    global _BOOK
+    if _BOOK is None:
+        from .normalize import fold
+        from .rank import load_taste
+        v = load_taste().get("venues", {})
+        names = [re.sub(r"^the ", "", fold(x)) for x in v.get("book_ahead", [])]
+        pats = [fold(x) for x in v.get("book_ahead_patterns", [])]
+        _BOOK = (fold, [x for x in names + pats if x])
+    fold, keys = _BOOK
+    text = fold(" ".join(str(x) for x in (e.get("venue"), e.get("venue_raw")) if x))
+    return any(k in text for k in keys)
+
+
+def _tickets(e) -> str:
+    return (e.get("research") or {}).get("ticket_status") or "unverified"
+
+
+def _one_liner(e) -> str:
+    """One line per show; research reason when there is one."""
+    r = e.get("research") or {}
+    why = (r.get("reason") or "").split(". ")[0].strip()
+    if why:
+        return why + ("" if why.endswith(".") else ".")
+    reasons = [re.sub(r"\s*\(\+\d+\)", "", x).replace("_", " ") for x in e.get("score_reasons", [])[:2]]
+    return "Rules match (not yet researched): " + "; ".join(reasons) if reasons else ""
+
+
+def _row(e, alerts, today, why=False) -> str:
+    d = dt.date.fromisoformat(e["date"])
+    when = _when(e).split(" · ")
+    t = when[1] if len(when) > 1 and when[1] != "12 AM" else ""
+    day = f"{d:%a %b %-d}" + (f", {d.year}" if d.year != today.year else "") + (f" · {t}" if t else "")
+    links = [f"[source]({e['url']})"] if e.get("url") else []
+    if e.get("ticket_url") and e["ticket_url"] != e.get("url"):
+        links.append(f"[tickets]({e['ticket_url']})")
+    flags = []
+    if e["id"] not in alerts["alerted"]:
+        flags.append("**NEW**")
+    if _tickets(e) != "unverified":
+        flags.append(f"tickets: {_tickets(e)}")
+    head = (f"- **{day}** · {e['title'][:80]} · {e.get('venue') or e.get('venue_raw') or '?'}"
+            + (f", {e['city']}" if e.get("city") and e["city"].lower() not in (e.get("venue") or "").lower() else "")
+            + f" · {e.get('tier')} {round(e.get('final_score') or e.get('score') or 0)}"
+            + (" · " + " · ".join(flags) if flags else "") + (" · " + " ".join(links) if links else ""))
+    if why:
+        w = _one_liner(e)
+        if w:
+            head += f"\n  {w}"
+    return head
+
+
 # ----------------------------------------------------------------------------- immediate alerts
-def bootstrap(events, alerts, h, dry_run):
-    """First live run: one roundup issue for everything already exceptional, instead of a burst of
-    separate issues. Later runs alert per event."""
+def bootstrap(events, alerts):
+    """First live run: record what is already exceptional in a small room WITHOUT posting, so going live
+    does not send a burst. The first Monday email lists all of it in "Book now"."""
     today = dt.datetime.now(TZ).date().isoformat()
-    ex = sorted([e for e in events.values() if e.get("tier") == "exceptional" and e.get("status") == "scheduled" and e["date"] >= today],
-                key=lambda x: x["date"])
-    body = (f"@{_owner()} the radar is live. These {len(ex)} upcoming events already rate exceptional; from now on each new "
-            f"exceptional discovery gets its own issue like this.\n\n" + "\n\n".join(event_card(e) for e in ex))
-    num = create_issue(h, f"[radar] {len(ex)} exceptional upcoming events (initial roundup)", body, [LABEL_ALERT], dry_run)
-    for e in ex:
-        alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": "exceptional", "via": "bootstrap"}
+    for e in events.values():
+        if e.get("tier") == "exceptional" and e.get("status") == "scheduled" and e["date"] >= today and book_ahead(e):
+            alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": None, "date": e["date"], "status": e["status"],
+                                          "tier": "exceptional", "via": "bootstrap"}
     alerts["bootstrapped"] = config.now_iso()
-    return len(ex)
+    return 0
 
 
 def immediate(events, alerts, h, dry_run):
+    """The only alerts between Mondays: an exceptional show in a small room (book_ahead) that has not been
+    announced before. Everything else waits for the weekly email. Date/status changes to an alerted show
+    are added as a comment on its issue (no new email thread)."""
     today = dt.datetime.now(TZ).date().isoformat()
     sent = 0
     if not alerts.get("bootstrapped"):
-        return bootstrap(events, alerts, h, dry_run)
+        return bootstrap(events, alerts)
     for e in sorted(events.values(), key=lambda x: x["date"]):
-        if e.get("tier") != "exceptional" or e.get("status") != "scheduled" or e["date"] < today:
+        if e.get("tier") != "exceptional" or e.get("status") != "scheduled" or e["date"] < today or not book_ahead(e):
             continue
         rec = alerts["alerted"].get(e["id"])
         changed = rec and (rec.get("date") != e["date"] or rec.get("status") != e["status"])
-        if rec and rec.get("via") == "digest" and rec.get("tier") != "exceptional":
-            rec = None  # only mentioned in a digest as strong; promotion to exceptional deserves its own alert
         if rec and not changed:
             continue
         if rec and changed:
-            comment_issue(h, rec.get("issue"), f"Update: now **{_when(e)}**, status {e['status']}.\n\n{event_card(e)}", dry_run)
+            if rec.get("issue"):
+                comment_issue(h, rec.get("issue"), f"Update: now **{_when(e)}**, status {e['status']}.\n\n{event_card(e)}", dry_run)
             rec.update({"date": e["date"], "status": e["status"], "updated": config.now_iso()})
             continue
-        title = f"[radar] {e['title'][:70]} — {e['date']} @ {e.get('venue') or e.get('venue_raw') or '?'}"
-        body = (f"@{_owner()} new exceptional discovery.\n\n{event_card(e)}\n\n"
-                f"<sub>Event id `{e['id']}`. Reply here with notes; close the issue to dismiss. "
+        title = f"[radar] Book ahead: {e['title'][:60]} · {e['date']} @ {e.get('venue') or e.get('venue_raw') or '?'}"
+        body = (f"@{_owner()} an exceptional show in a small room that can sell out.\n\n{event_card(e)}\n\n"
+                f"<sub>Event id `{e['id']}`. This is the only kind of alert sent between Monday emails. "
                 f"Inventory: https://{_owner()}.github.io/{_repo().split('/')[1]}/</sub>")
         num = create_issue(h, title, body, [LABEL_ALERT], dry_run)
         alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": e["tier"]}
@@ -193,54 +250,59 @@ def immediate(events, alerts, h, dry_run):
 
 
 # ----------------------------------------------------------------------------- weekly digest
+SHORTLIST_MIN = 70  # strong shows below this stay on the site and calendar feed (feed bar is 65); keeps the email to ~60 lines
+
+
 def digest(events, alerts, h, dry_run, horizon_days=75):
-    """Weekly digest. "New" means not announced in any earlier alert or digest (so an event that was
-    merely in the inventory last week and became strong this week counts as new). Every strong-or-better
-    event still upcoming is listed, so nothing drops off the shortlist just because it was mentioned."""
+    """The Monday email, ordered by when Erik has to act:
+    The shortlist is exceptional shows plus strong ones scoring SHORTLIST_MIN or more.
+    1. Book now: shortlist shows in small rooms (book_ahead) more than two weeks out, any distance ahead.
+    2. This week and next: shortlist shows in the next 14 days.
+    3. Further out: the rest of the shortlist up to the horizon.
+    NEW marks a show not in any earlier email or alert."""
     today = dt.datetime.now(TZ).date()
-    end = today + dt.timedelta(days=horizon_days)
-    last = alerts["digests"][-1]["at"][:10] if alerts["digests"] else "never"
+    soon_end = (today + dt.timedelta(days=13)).isoformat()
+    end = (today + dt.timedelta(days=horizon_days)).isoformat()
     week = today.isocalendar()
-    upcoming = [e for e in events.values() if e.get("status") == "scheduled" and today.isoformat() <= e["date"] <= end.isoformat()]
-    strong = sorted([e for e in upcoming if e.get("tier") in ("exceptional", "strong")], key=lambda x: (-(x.get("final_score") or 0), x["date"]))
-    new_since = [e for e in strong if e["id"] not in alerts["alerted"]]
-    still = [e for e in strong if e["id"] in alerts["alerted"]]
-    soon = sorted([e for e in upcoming if e["date"] <= (today + dt.timedelta(days=14)).isoformat() and e.get("tier") in ("exceptional", "strong", "inventory") and (e.get("final_score") or 0) >= 40], key=lambda x: x["date"])
-    inv_total = sum(1 for e in events.values() if e.get("status") == "scheduled")
+    last = alerts["digests"][-1]["at"][:10] if alerts["digests"] else "never"
+    up = [e for e in events.values() if e.get("status") == "scheduled" and e["date"] >= today.isoformat()
+          and e.get("tier") in ("exceptional", "strong") and e.get("region") != "outside"
+          and region_of(e.get("city")) != "outside"]  # region is set at first ingest; recheck with today's city list
+    by_date = lambda x: (x["date"], x.get("start", ""))
+    shortlist = lambda e: e.get("tier") == "exceptional" or (e.get("final_score") or 0) >= SHORTLIST_MIN
+    up = [e for e in up if shortlist(e)]
+    book = sorted([e for e in up if e["date"] > soon_end and book_ahead(e) and _tickets(e) != "sold-out"], key=by_date)
+    soon = sorted([e for e in up if e["date"] <= soon_end], key=by_date)
+    later = sorted([e for e in up if soon_end < e["date"] <= end and not book_ahead(e) and shortlist(e)], key=by_date)
+    listed = book + soon + later
+    new = [e for e in listed if e["id"] not in alerts["alerted"]]
     health = store.load_health()
     failing = sorted(k for k, v in health.items() if v.get("last_status") not in ("ok", None, "partial"))
-    cost = llm.cost_summary(7)
-    parts = [f"@{_owner()} weekly discovery digest for week {week.year}-W{week.week:02d}.",
-             f"Inventory: **{inv_total}** upcoming events from {len(health)} registered sources; {len(strong)} rated strong or better in the next {horizon_days} days; "
-             f"{len(new_since)} not announced before (last digest {last}). Model spend last 7 days: ${cost['usd']}.",
-             ""]
-    shown = set()
-    if new_since:
-        parts.append(f"## New ({len(new_since)})")
-        for e in new_since[:60]:
-            parts.append(event_card(e))
-            shown.add(e["id"])
-        if len(new_since) > 60:
-            parts.append(f"- ...and {len(new_since) - 60} more new strong candidates on the site, sorted by score.")
-        parts.append("")
-    parts.append(f"## Next 14 days worth considering ({len(soon)})")
-    parts += [f"- **{e['date']}** {e['title'][:70]} · {e.get('venue') or '?'} · {e.get('tier')} {e.get('final_score', e.get('score'))} · [source]({e.get('url')})" for e in soon[:80]] or ["- nothing above the bar in the next two weeks"]
+    parts = [f"@{_owner()} radar for the week of {today:%b %-d}: {len(book)} to book ahead, {len(soon)} in the next two weeks, "
+             f"{len(later)} further out; {len(new)} new since {last}.", ""]
+    parts.append(f"## Book now: small rooms that can sell out ({len(book)})")
+    parts.append("Top picks in small rooms, however far ahead; each stays listed until it happens or is marked sold out.")
+    parts += [_row(e, alerts, today, why=True) for e in book] or ["- nothing in small rooms right now"]
     parts.append("")
-    if still:
-        parts.append(f"## Still upcoming, announced earlier ({len(still)})")
-        parts += [f"- **{e['date']}** {e['title'][:70]} · {e.get('venue') or '?'} · {e.get('tier')} {e.get('final_score', e.get('score'))} · [source]({e.get('url')})" for e in still[:200]]
-        parts.append("")
+    parts.append(f"## This week and next ({len(soon)})")
+    parts += [_row(e, alerts, today, why=e["id"] not in alerts["alerted"]) for e in soon] or ["- nothing above the bar in the next two weeks"]
+    parts.append("")
+    parts.append(f"## Further out, through {dt.date.fromisoformat(end):%b %-d} ({len(later)})")
+    parts += [_row(e, alerts, today, why=e["id"] not in alerts["alerted"]) for e in later[:150]] or ["- nothing yet"]
+    if len(later) > 150:
+        parts.append(f"- ...and {len(later) - 150} more on the site")
+    parts.append("")
     if failing:
-        parts.append(f"## Sources needing attention: {', '.join(failing)}")
-    parts.append(f"<sub>Browse everything: https://{_owner()}.github.io/{_repo().split('/')[1]}/ · coverage dashboard on the same site.</sub>")
+        parts.append(f"Sources needing attention: {', '.join(failing)}")
+    parts.append(f"<sub>Everything, including lower-rated shows: https://{_owner()}.github.io/{_repo().split('/')[1]}/ · "
+                 f"calendar feed: https://{_owner()}.github.io/{_repo().split('/')[1]}/radar.ics</sub>")
     body = "\n".join(parts)
-    title = f"[radar digest] {week.year}-W{week.week:02d} — {len(strong)} strong candidates, {len(new_since)} new"
+    title = f"[radar] Week of {today:%b %-d}: {len(book)} to book ahead, {len(new)} new"
     num = create_issue(h, title, body, [LABEL_DIGEST], dry_run)
-    alerts["digests"].append({"at": config.now_iso(), "issue": num, "strong": len(strong), "new": len(new_since)})
-    for e in new_since:
-        if e["id"] in shown:
-            alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": e["tier"], "via": "digest"}
-    return len(strong)
+    alerts["digests"].append({"at": config.now_iso(), "issue": num, "strong": len(listed), "new": len(new)})
+    for e in new:
+        alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": e["tier"], "via": "digest"}
+    return len(listed)
 
 
 def live_enabled() -> bool:

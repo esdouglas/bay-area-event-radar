@@ -171,33 +171,45 @@ class EnrichTests(unittest.TestCase):
 
 
 class NotifyTests(unittest.TestCase):
-    def test_dry_run_notify_and_digest_do_not_crash(self):
+    def test_alerts_only_for_small_rooms_and_digest_sections(self):
         import io, contextlib, pathlib, tempfile
         from unittest.mock import patch
         from radar import config, notify, store
+
+        def ev(i, title, venue, date, tier="exceptional", score=90.0, region="bay"):
+            return {"id": i, "title": title, "date": date, "start": f"{date}T20:00:00-07:00", "venue": venue,
+                    "city": "Berkeley", "status": "scheduled", "tier": tier, "score": score, "final_score": score, "url": "https://x",
+                    "first_seen": "2099-09-21T00:00:00+00:00", "region": region, "performers": [], "tags": [],
+                    "sources": [{"source": "s", "url": "https://x", "first_seen": "t", "last_seen": "t"}], "score_reasons": ["seed artist (+40)"]}
+        import datetime as dt
+        day = lambda n: (dt.date.today() + dt.timedelta(days=n)).isoformat()
+        events = {"a": ev("a", "Peter Stampfel and Will Sprott", "Little Hill Lounge", day(40)),
+                  "b": ev("b", "Big Hall Show", "The Fillmore", day(41)),
+                  "c": ev("c", "Low Strong Show", "Fifth Street Farms", day(42), tier="strong", score=55.0),
+                  "d": ev("d", "Far Away Show", "Collage", day(43), region="outside")}
         with tempfile.TemporaryDirectory() as d:
             dp = pathlib.Path(d)
-            ev = {"id": "ev_a", "title": "Peter Stampfel and Will Sprott", "date": "2099-10-24", "start": "2099-10-24T20:00:00-07:00", "venue": "Little Hill Lounge",
-                  "city": "El Cerrito", "status": "scheduled", "tier": "exceptional", "score": 90.0, "final_score": 90.0, "url": "https://x", "first_seen": "2099-09-21T00:00:00+00:00",
-                  "sources": [{"source": "little-hill-lounge", "url": "https://x", "first_seen": "t", "last_seen": "t"}], "score_reasons": ["seed artist"], "region": "bay", "performers": [], "tags": []}
             with patch.object(config, "EVENTS_FILE", dp / "events.json"), patch.object(config, "ALERTS_FILE", dp / "alerts.json"), \
                  patch.object(config, "SOURCE_HEALTH_FILE", dp / "health.json"), patch.object(config, "COSTS_FILE", dp / "costs.jsonl"), \
                  patch.object(config, "DATA", dp), patch.dict("os.environ", {"GITHUB_TOKEN": ""}):
-                store.save_events({"ev_a": ev})
+                store.save_events(events)
                 buf = io.StringIO()
                 with contextlib.redirect_stdout(buf):
-                    notify.run(digest_flag=False, dry_run=True)   # first ever run: one roundup
+                    notify.run(digest_flag=False, dry_run=True)   # first ever run: silent bootstrap
                 first = buf.getvalue()
                 store.save_alerts({"alerted": {}, "digests": [], "bootstrapped": "2099-01-01"})
                 buf = io.StringIO()
                 with contextlib.redirect_stdout(buf):
                     notify.run(digest_flag=True, dry_run=True)
                 out = buf.getvalue()
-            self.assertIn("initial roundup", first)
-            self.assertIn("Lead time: first seen", first)
-            self.assertIn("[dry-run issue] [radar] Peter Stampfel", out)
-            self.assertIn("[radar digest]", out)
-            self.assertFalse(notify.live_enabled())
+        self.assertNotIn("[dry-run issue]", first)
+        self.assertIn("[dry-run issue] [radar] Book ahead: Peter Stampfel", out)
+        self.assertNotIn("Book ahead: Big Hall", out)
+        self.assertIn("## Book now", out)
+        self.assertIn("Big Hall Show", out)            # listed in the email, just not alerted
+        self.assertNotIn("Low Strong Show", out)       # below the shortlist bar
+        self.assertNotIn("Far Away Show", out)         # outside the region
+        self.assertFalse(notify.live_enabled())
 
 
 class GCalTests(unittest.TestCase):

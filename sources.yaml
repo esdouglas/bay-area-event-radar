@@ -67,14 +67,21 @@ sources:
 - id: fifth-street-farms-site
   name: Fifth Street Farms website (monthly show posts)
   kind: venue
-  method: html
-  heuristic_ok: true
+  method: cards
   url: https://fifthstfarms.com/
   venue: {name: Fifth Street Farms, city: Berkeley}
+  cards:
+    item: "article.category-current .post-content h3, article.category-current .post-content h4, article.category-future .post-content p"
+    title_re: '^\s*(.+?)\s*[—–-]+\s*(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*,'
+    date_re: '(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*,\s*([A-Z][a-z]+\.?\s+\d{1,2}(?:,\s*20\d\d)?)'
+    link: "a[href*='buytickets'], a[href*='tickettailor']@href"
+    time_re: '(music at \d{1,2}(?::\d\d)?\s*(?:[ap]\.?m\.?)?)'
   expected_coverage: the house's own announcements, usually a month or two ahead, before tickets go up
   notes: >
-    fifthstfarms.com (WordPress) is the real venue site; fifthstreetfarms.com is an unrelated event space.
-    Posts are titled by month and describe each show. Text extraction.
+    fifthstfarms.com (WordPress/Divi) is the real venue site; fifthstreetfarms.com is an unrelated event space.
+    Each "current" post has one show heading ("Artist — Weekday, Month D door opens at 7, music at 7:30");
+    the "future" post lists later shows one per paragraph. Was heuristic text extraction until 2026-11-01,
+    which paired titles with the wrong dates and emitted "Make reservations" as a show.
 
 - id: hillside-club
   name: Hillside Club / Hillside Echoes (Berkeley)
