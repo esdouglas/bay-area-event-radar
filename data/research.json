@@ -1962,6 +1962,47 @@
       "Two-night run; both nights listed separately."
     ]
   },
+  "ev_84dff7547020": {
+    "evidence": [
+      {
+        "finding": "Title 'Ms. Lauryn Hill & Wyclef Jean: Celebrating 30 years of Fugees' The Score'; 'Wednesday, November 04, 2026'; 'Doors: 5:30 pm | Show: 7:00 pm'; DJ D Sharp listed; all ages; Buy Tickets links to Ticketmaster; no sold-out or resale text on the page.",
+        "url": "https://thegreekberkeley.com/events/ms-lauryn-hill-and-wyclef-jean-261104"
+      },
+      {
+        "finding": "Resale marketplace listing for the Nov 4 Greek Theatre show (search result title gives 8:00 PM).",
+        "url": "https://www.tickpick.com/buy-lauryn-hill-wyclef-jean-tickets-greek-theatre-u-c-berkeley-11-4-26-8pm/8236111/"
+      }
+    ],
+    "fingerprint": "5f1086b8a43f",
+    "fit": 84,
+    "performers": [
+      {
+        "known_for": "Fugees; The Miseducation of Lauryn Hill",
+        "name": "Lauryn Hill",
+        "significance": "major"
+      },
+      {
+        "known_for": "Fugees; The Carnival",
+        "name": "Wyclef Jean",
+        "significance": "major"
+      },
+      {
+        "known_for": "DJ, listed on the bill",
+        "name": "DJ D Sharp",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Ms. Lauryn Hill and Wyclef Jean reunite to mark 30 years of the Fugees' The Score, one of the defining albums of 1990s hip-hop. Classic hip-hop is a stated love of Erik's, and this is a once-in-a-generation pairing, though in a 8,500-capacity amphitheater rather than a small room (capacity is background knowledge).",
+    "researched_at": "2026-11-01T18:37:56+00:00",
+    "researcher": "Claude interactive session",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Erik reports the show is nominally sold out; the venue page does not say so.",
+      "Show time: venue says 7:00 pm, a resale listing says 8:00 pm; trust the venue.",
+      "Pras Michel is not billed; this is Lauryn Hill and Wyclef Jean, not a full Fugees lineup."
+    ]
+  },
   "ev_86b8feff18ee": {
     "evidence": [
       {
