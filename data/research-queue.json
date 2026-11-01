@@ -1,8 +1,32 @@
 {
- "backlog": 1413,
+ "backlog": 1414,
  "count": 40,
- "generated_at": "2026-11-01T17:49:35+00:00",
+ "generated_at": "2026-11-01T18:24:19+00:00",
  "items": [
+  {
+   "city": "Santa Cruz",
+   "date": "2027-01-11",
+   "description": "First brought together by Brooklyn's tight-knit old-time music community in 2017, Nora Brown and Stephanie Coleman share a rich musical partnership. Brown is a banjo player and has released three albums on Brooklyn based Jalopy Records. She has performed across the US, Europe, and Japan including on NPR 's 'Tiny Desk Concert' and TED EDU . Coleman is a master old-time fiddler, having recorded and ",
+   "fingerprint": "6cce6b5fdc17",
+   "id": "ev_632d4268583b",
+   "other_urls": [
+    "https://www.songkick.com/concerts/43464926-nora-brown-at-kuumbwa-jazz-center",
+    "https://sites.google.com/site/davbrown2/oldtimesf",
+    "https://sites.google.com/site/davbrown2/oldtimesf"
+   ],
+   "rules_score": 100.0,
+   "rules_tier": "exceptional",
+   "start": "2027-01-11T19:00:00-08:00",
+   "title": "Nora Brown & Stephanie Coleman",
+   "url": "https://www.kuumbwajazz.org/calendar/nora-brown-with-stephanie-coleman-2/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "seed artist: Nora Brown (+40)",
+    "5 seed artists on the bill (+5)",
+    "roots_core: old-time, old time, stringband, fiddler (+38)",
+    "jazz_core: jazz (+18)"
+   ]
+  },
   {
    "city": "San Pedro",
    "date": "2026-11-09",
@@ -826,28 +850,6 @@
     "jazz_core: jazz (+18)",
     "intimacy: intimate (+5)",
     "intimate room: Kuumbwa Jazz (+14)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-13",
-   "description": "Chris Smither at The Freight on Nov 13, 2026",
-   "fingerprint": "1bc0fb8566be",
-   "id": "ev_53649273c229",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 63.0,
-   "rules_tier": "strong",
-   "start": "2026-11-13T20:00:00-08:00",
-   "title": "Chris Smither",
-   "url": "https://www.jambase.com/show/chris-smither-the-freight-20261113",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+14)",
-    "2 independent sources (+4)"
    ]
   }
  ]

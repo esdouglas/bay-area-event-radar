@@ -1,18 +1,16 @@
 {
- "inventory_total": 3802,
- "inventory_upcoming": 3256,
- "merged_sources": 21,
- "new_events": 49,
- "run_id": "f766dfeda2cc",
- "seconds": 236.4,
- "sources_due": 69,
+ "inventory_total": 3803,
+ "inventory_upcoming": 3257,
+ "merged_sources": 4,
+ "new_events": 10,
+ "run_id": "b4962eccf1f5",
+ "seconds": 202.9,
+ "sources_due": 65,
  "sources_failed": [
-  "fifth-street-farms-site",
-  "old-first-concerts",
+  "luther-burbank-center",
   "outsound",
-  "the-marsh",
   "songkick-bay-area"
  ],
- "sources_ok": 64,
- "ts": "2026-11-01T17:48:27+00:00"
+ "sources_ok": 62,
+ "ts": "2026-11-01T18:23:28+00:00"
 }
