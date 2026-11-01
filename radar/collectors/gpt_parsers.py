@@ -4,6 +4,11 @@ Kept as-is (indentation style included) so behaviour matches what ran in product
 adapters are: tickettailor, cafedunord, oldtime (David Brown's SF old-time list), kalx (weekly
 entertainment calendar), bluegrass (Bluegrass Signal), hicks (Hicks with Sticks), plus recursive
 JSON-LD for everything. Wrapped by collectors/gpt.py.
+
+Exception: the oldtime adapter was rewritten on radar-v2 (2026-11-01) as oldtime_events() below, to
+read headers with no year ("Nov. 15 1 pm"), day ranges ("Nov 5-8 2026", "Apr 28-May 2 2027",
+"Friday, November 20 - Sunday, November 22") and month-only headers ("Nov 2026", "Spring 2027"),
+which the original folded into the previous event.
 """
 import datetime as dt, html, json, re, urllib.parse
 from html.parser import HTMLParser
@@ -69,25 +74,7 @@ def extract(body,url,adapter='auto',year=None):
    for j,t in enumerate(block):
     if t.endswith(' presents') and j+1<len(block):title=block[j+1];break
    if title:out.append(event(title,date,'Cafe du Nord / Swedish American Hall, San Francisco',url,description=' | '.join(block),date_basis='source month/day; year inferred; verify before alert'))
- if adapter=='oldtime':
-  active=False;blocks=[];block=None
-  for line in lines:
-   if line=='UPCOMING':active=True;continue
-   if not active:continue
-   if line.startswith('ONGOING SESSIONS'):break
-   m=re.match(r'^(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*\.?\s+)?(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?\s+(\d{1,2})\s+(20\d\d)(?:\s|$)',line,re.I)
-   if m:
-    if block:blocks.append(block)
-    try:date=dt.date(int(m[3]),dt.datetime.strptime(m[1][:3].title(),'%b').month,int(m[2])).isoformat()
-    except ValueError:block=None;continue
-    block=[date,[]];continue
-   if block:block[1].append(line)
-  if block:blocks.append(block)
-  for date,content in blocks:
-   meaningful=[t for t in content if not t.startswith(('http','====','----'))]
-   if meaningful:
-    title=meaningful[0];venue=next((t for t in meaningful[1:] if re.search(r'Berkeley|Oakland|Monterey|Santa Cruz|Freight|Back Room|Ashkenaz|SF|Chapel|Albany',t)), 'See source; venue unverified')
-    out.append(event(title,date,venue,url,description=' | '.join(content)[:5000],date_basis='explicit dated block; venue and lineup need primary verification'))
+ if adapter=='oldtime':out.extend(oldtime_events(lines,url,year))
  if adapter=='kalx':
   date=None; region=''
   for line in lines:
@@ -130,3 +117,108 @@ LINK_PATTERN=r'(/event[s]?/|/e/|/shows?/|/concerts?/|/tickets/|buytickets.at/|ti
 def links(p,url,pattern=LINK_PATTERN):
  return sorted({urllib.parse.urljoin(url,x).split('#')[0] for x in p.links if re.search(pattern,urllib.parse.urljoin(url,x)) and urllib.parse.urljoin(url,x).startswith('https://')})
 
+
+
+# ---------------------------------------------------------------- oldtime (David Brown's list)
+_MON = r'(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|June?|July?|Aug(?:ust)?|Sept?(?:ember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\.?'
+_WD = r'(?:(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*[.,]?\s+)'
+_HEADER = re.compile(
+    rf'^{_WD}?{_MON}\s+(\d{{1,2}})(?:,?\s+(20\d\d))?'
+    rf'(?:\s*-\s*{_WD}?(?:{_MON}\s+)?(\d{{1,2}})(?:,?\s+(20\d\d))?)?(?=[\s(?,]|$)(.*)$', re.I)
+_UNDATED = re.compile(rf'^(?:{_WD}?{_MON}(?:\s+or\s+{_MON}|\s*-\s*{_MON})?|Spring|Summer|Fall|Autumn|Winter)\s+20\d\d\b', re.I)
+_TIMEISH = re.compile(r'[\d:\s\-–apmAPM().,]*')
+_SUBDATE = re.compile(r'^(\d{1,2})/(\d{1,2})\s+(.*)$')
+_OLD_VENUE = re.compile(r'Berkeley|Oakland|Monterey|Santa Cruz|Freight|Back Room|Ashkenaz|SF|Chapel|Albany')
+_bay_re = None
+
+
+def _month(name):
+    return dt.datetime.strptime(name[:3].title(), '%b').month
+
+
+def _bay(line):
+    """True when a line names a Bay Area / NorCal place the radar covers."""
+    global _bay_re
+    if _bay_re is None:
+        from ..normalize import BAY_AREA_CITIES
+        _bay_re = re.compile(r'\b(?:' + '|'.join(re.escape(c) for c in sorted(BAY_AREA_CITIES, key=len, reverse=True)) + r')\b', re.I)
+    return bool(_OLD_VENUE.search(line) or _bay_re.search(line))
+
+
+def oldtime_events(lines, url, year):
+    """Blocks between date headers in the UPCOMING section. Single dated blocks are kept as before;
+    multi-day ranges are kept only when the block names a Bay Area place (the list covers festivals
+    nationwide); month-only blocks yield only their "M/D time venue" sub-lines (tour dates)."""
+    blocks, block, active = [], None, False
+    last = None  # date of the previous dated header, for year inference
+    for line in lines:
+        if line == 'UPCOMING':
+            active = True
+            continue
+        if not active:
+            continue
+        if line.startswith(('ONGOING', 'PENDING OR DEFUNCT')):
+            break
+        m = _HEADER.match(line)
+        if m and (m[3] or m[6] or _TIMEISH.fullmatch(m[7] or '') and len(m[7] or '') <= 20):
+            if block:
+                blocks.append(block)
+            y = int(m[3] or m[6] or (last.year if last else year))
+            inferred = not (m[3] or m[6])
+            try:
+                start = dt.date(y, _month(m[1]), int(m[2]))
+                if inferred and last and start < last - dt.timedelta(days=60):
+                    start = start.replace(year=y + 1)
+                end = None
+                if m[5]:
+                    ey = int(m[6] or start.year)
+                    end = dt.date(ey, _month(m[4] or m[1]), int(m[5]))
+                    if end < start:
+                        end = end.replace(year=end.year + 1) if not m[6] else None
+                    if end and (end - start).days > 21:
+                        end = None
+            except ValueError:
+                block = None
+                continue
+            last = start
+            block = {'start': start, 'end': end, 'inferred': inferred, 'lines': []}
+            continue
+        if _UNDATED.match(line):
+            if block:
+                blocks.append(block)
+            yr = re.search(r'20\d\d', line)
+            block = {'start': None, 'year': int(yr[0]), 'lines': []}
+            continue
+        if block:
+            block['lines'].append(line)
+    if block:
+        blocks.append(block)
+
+    out = []
+    for b in blocks:
+        meaningful = [t for t in b['lines'] if not t.startswith(('http', '====', '----')) and not re.fullmatch(r'\(.*\)', t)]
+        if not meaningful:
+            continue
+        title = meaningful[0].rstrip(';,. ')
+        desc = ' | '.join(b['lines'])[:5000]
+        if b['start'] is None:
+            for t in meaningful[1:]:
+                s = _SUBDATE.match(t)
+                if not s:
+                    continue
+                try:
+                    d = dt.date(b['year'], int(s[1]), int(s[2])).isoformat()
+                except ValueError:
+                    continue
+                venue = re.sub(r'^\d{1,2}(?::\d\d)?\s*(?:am|pm)\s*', '', s[3], flags=re.I).strip() or 'See source; venue unverified'
+                out.append(event(title, d, venue, url, description=desc,
+                                 date_basis='tour-date line under a month-only header; verify before alert'))
+            continue
+        if b['end'] and not any(_bay(t) for t in meaningful):
+            continue
+        venue = next((t for t in meaningful[1:] if _bay(t)), 'See source; venue unverified')
+        basis = ('source month/day; year inferred; verify before alert' if b['inferred']
+                 else 'explicit dated block; venue and lineup need primary verification')
+        kw = {'end': b['end'].isoformat()} if b['end'] else {}
+        out.append(event(title, b['start'].isoformat(), venue, url, description=desc, date_basis=basis, **kw))
+    return out

@@ -60,7 +60,8 @@ def collect_gpt(source: dict, stats: dict) -> list[dict]:
                     e["title"], city, e["venue"] = m.group(1).strip(), m.group(2).strip(), m.group(3).strip()
                 out.append({
                     "city": city,
-                    "title": e["title"], "start": e.get("start") or e["date"], "venue": e.get("venue") or None,
+                    "title": e["title"], "start": e.get("start") or e["date"], "end": e.get("end"),
+                    "venue": e.get("venue") or None,
                     "url": e.get("url") or final, "description": (e.get("description") or "")[:1500],
                     "evidence_hash": sha, "date_basis": e.get("date_basis"),
                     "heuristic": bool(e.get("date_basis") and "infer" in e["date_basis"]),

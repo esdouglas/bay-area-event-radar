@@ -69,6 +69,27 @@ class ParserTests(unittest.TestCase):
         self.assertEqual(raw["performers"], ["Nora Brown"])
         self.assertEqual(raw["price"], "30 USD")
 
+    def test_oldtime_headers(self):
+        from radar.collectors.gpt_parsers import extract
+        lines = ["UPCOMING", "Nov 5-8 2026", "Banjo Gathering", "Gaithersburg, Maryland",
+                 "Nov 2026 (typically 2nd weekend of November)", "California Bluegrass Reunion",
+                 "11/14 8pm Freight, Berkeley", "Nov 14 2026 2pm", "Crying Uncle Bluegrass Band;",
+                 "Park Branch Library, SF", "Nov. 15 1 pm", "Kathy Kallick and friends", "The Monkey House, Berkeley",
+                 "Friday, November 20 - Sunday, November 22", "West Coast Ragtime Festival", "The Hilton Concord, Concord",
+                 "Dec 29 2026 -Jan 3 2027", "Camp New Harmony", "Monte Toyon, Aptos", "Jan 2027?", "Bayou Boogie West",
+                 "PENDING OR DEFUNCT", "Aug 1 2027", "Gone Festival", "Berkeley"]
+        html = "".join(f"<p>{x}</p>" for x in lines)
+        evs, _ = extract(html, "https://x/", "oldtime", 2026)
+        got = {(e["date"], e["title"]): e for e in evs}
+        self.assertEqual(sorted(got), [
+            ("2026-11-14", "California Bluegrass Reunion"), ("2026-11-14", "Crying Uncle Bluegrass Band"),
+            ("2026-11-15", "Kathy Kallick and friends"), ("2026-11-20", "West Coast Ragtime Festival"),
+            ("2026-12-29", "Camp New Harmony")])
+        self.assertEqual(got[("2026-11-15", "Kathy Kallick and friends")]["venue"], "The Monkey House, Berkeley")
+        self.assertIn("inferred", got[("2026-11-15", "Kathy Kallick and friends")]["date_basis"])
+        self.assertEqual(got[("2026-12-29", "Camp New Harmony")]["end"], "2027-01-03")
+        self.assertEqual(got[("2026-11-14", "California Bluegrass Reunion")]["venue"], "Freight, Berkeley")
+
     def test_links_unescape_entities(self):
         html = '<a href="&#x2F;events&#x2F;fifthstreetfarms&#x2F;2431227">x</a><a href="/other">y</a>'
         self.assertEqual(links(html, "https://buytickets.at/fifthstreetfarms", r"fifthstreetfarms/\d+"), ["https://buytickets.at/events/fifthstreetfarms/2431227"])
