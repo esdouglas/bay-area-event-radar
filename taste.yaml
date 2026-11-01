@@ -198,6 +198,37 @@ seed_artists:
   - {name: Mike Compton, weight: 30, note: GLMC past}
   - {name: Nate Roberts, weight: 15, note: GLMC past}
   - {name: Fauxgrass, weight: 15, note: GLMC past}
+  # classic hip-hop (Erik, 2026-11-01: "I also enjoy especially classic hip-hop acts"; saw Talib Kweli at the
+  # Freight). Starting list of golden-age and Bay Area underground acts; edit freely.
+  - {name: Fugees, weight: 40}
+  - {name: Lauryn Hill, weight: 40}
+  - {name: Wyclef Jean, weight: 30}
+  - {name: Talib Kweli, weight: 35, note: seen at the Freight}
+  - {name: Yasiin Bey, weight: 35}
+  - {name: Mos Def, weight: 35}
+  - {name: Black Star, weight: 35}
+  - {name: A Tribe Called Quest, weight: 35}
+  - {name: Q-Tip, weight: 30}
+  - {name: De La Soul, weight: 35}
+  - {name: The Roots, weight: 30}
+  - {name: Common, weight: 25}
+  - {name: The Pharcyde, weight: 30}
+  - {name: Digable Planets, weight: 35}
+  - {name: Souls of Mischief, weight: 30}
+  - {name: Hieroglyphics, weight: 30}
+  - {name: Del the Funky Homosapien, weight: 30}
+  - {name: Blackalicious, weight: 30}
+  - {name: Lyrics Born, weight: 25}
+  - {name: Jurassic 5, weight: 30}
+  - {name: Pete Rock, weight: 30}
+  - {name: KRS-One, weight: 30}
+  - {name: Rakim, weight: 30}
+  - {name: Slick Rick, weight: 30}
+  - {name: Nas, weight: 25}
+  - {name: Ghostface Killah, weight: 25}
+  - {name: GZA, weight: 30}
+  - {name: Brand Nubian, weight: 30}
+  - {name: Little Brother, weight: 25}
 
 # ------------------------------------------------------------------ keyword neighbourhoods
 # Matched against title + description + tags (folded, whole-word). Positive and negative.
@@ -209,12 +240,13 @@ keywords:
   theater_core: {weight: 14, terms: [world premiere, west coast premiere, premiere, revival, new play, pulitzer, tony award, obie, olivier, chekhov, ibsen, arthur miller, stoppard, shakespeare, beckett, pinter, sondheim, musical, play, drama, repertory, immersive, site-specific, one-night-only, one night only, limited run, limited engagement]}
   dance_arts: {weight: 10, terms: [contemporary dance, dance theater, ballet, choreograph, choreographer, interdisciplinary, multimedia, installation, design, architecture, sound art, puppetry, circus]}
   legacy: {weight: 14, terms: [legend, legendary, pioneer, pioneering, founding member, founder of, seminal, influential, 50th anniversary, 40th anniversary, farewell, final tour, last show, rare appearance, first bay area, only bay area, only california, exclusive, reunion]}
+  hiphop_classic: {weight: 12, terms: [hip hop, hip-hop, golden age hip hop, boom bap, conscious hip hop, underground hip hop, emcee, mc, turntablist, live band hip hop]}
   intimacy: {weight: 5, terms: [house concert, living room, intimate, listening room, solo acoustic, duo, trio, in-store, in store, workshop performance, salon, parlor, parlour]}
   noise: {weight: -45, terms: [karaoke, trivia, open mic, open-mic, pub quiz, bingo, drag brunch, speed dating, networking, happy hour, watch party, fundraiser gala, silent disco, paint and sip, yoga, sound bath, meditation, bootcamp, fitness, networking, mixer, pre-show vip, vip experience, parking pass, parking, shuttle, meet and greet, soundcheck party]}
   noise_dj: {weight: -30, terms: [dj, dj set, dj night, club night, rave, techno, house music, edm, drum and bass, trance, reggaeton, afrobeats night, latin night, dance party, halloween party, costume party, 90s party, 2000s party, emo night, taylor swift night]}
   noise_tribute: {weight: -18, terms: [tribute to, tribute band, tribute show, the music of, celebrating the music of, a celebration of, cover band, covers band, sings the songs of, performs the album, performs the music of, experience, candlelight, candlelit, candle light]}
   noise_other: {weight: -25, terms: [comedy, comedian, stand-up, standup, improv comedy, class, classes, lesson, lessons, workshop, masterclass, camp, clinic, jam session, open jam, slow jam, kids, children, family show, storytime, story time, lecture, talk, panel, book launch, book signing, reading, poetry slam, church service, worship, service, mass, auction, market, fair, expo, conference, summit, webinar, zoom, online, virtual, livestream, screening, film, movie, cinema, sports, game watch, playoff, football, basketball, soccer, hockey, baseball, wrestling, boxing, mma, run club, 5k, marathon, hike, cleanup, volunteer]}
-  noise_genre: {weight: -22, terms: [metal, metalcore, deathcore, hardcore, death metal, black metal, thrash, hip hop, hip-hop, rap, trap, r&b, soul night, pop punk, emo, screamo, k-pop, kpop, j-pop, reggae, dancehall, ska, cumbia night, salsa night, bachata, mariachi night, boy band, pop star, teen, youth orchestra, school band, high school, middle school, recital, student recital]}
+  noise_genre: {weight: -22, terms: [metal, metalcore, deathcore, hardcore, death metal, black metal, thrash, trap, drill, r&b, soul night, pop punk, emo, screamo, k-pop, kpop, j-pop, reggae, dancehall, ska, cumbia night, salsa night, bachata, mariachi night, boy band, pop star, teen, youth orchestra, school band, high school, middle school, recital, student recital]}
 
 # ------------------------------------------------------------------ venue priors
 venues:

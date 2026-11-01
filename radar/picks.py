@@ -76,9 +76,9 @@ def base_score(e):
 
 
 def pick_score(e):
-    """None when the show cannot be a pick (unresearched without a seed, too far for its score, sold out)."""
-    if (e.get("research") or {}).get("ticket_status") == "sold-out":
-        return None
+    """None when the show cannot be a pick (unresearched without a seed, too far for its score, sold out in a small room)."""
+    if (e.get("research") or {}).get("ticket_status") == "sold-out" and book_ahead(e):
+        return None  # a sold-out small room is gone; a sold-out big venue still has resale (Erik, 2026-11-01)
     b = base_score(e)
     if b is None:
         return None

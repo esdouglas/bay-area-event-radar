@@ -69,6 +69,10 @@ def score_event(e: dict, C: dict, today: dt.date) -> tuple[float, list[str], dic
     group_hits = {}
     for group, term, rx, w in C["kws"]:
         if rx.search(text):
+            # A seed artist billed in the title outranks a penalty word that only appears in the blurb
+            # ("with DJ D Sharp" under a Lauryn Hill & Wyclef Jean headline is not a DJ night).
+            if w < 0 and seed_hits_title and group != "noise" and not rx.search(fold(e.get("title", ""))):
+                continue
             group_hits.setdefault(group, []).append((term, w))
     for group, hits in group_hits.items():
         w = hits[0][1]
@@ -84,8 +88,9 @@ def score_event(e: dict, C: dict, today: dt.date) -> tuple[float, list[str], dic
         score += float(C["v"].get("taste_venues_bonus", 10))
         reasons.append(f"booking signal: {e.get('venue')} (+{C['v'].get('taste_venues_bonus', 10)})")
     if venue in C["arena"]:
-        score += float(C["v"].get("arena_penalty", -20))
-        reasons.append(f"arena-scale venue ({C['v'].get('arena_penalty', -20)})")
+        pen = float(C["v"].get("arena_penalty", -20)) / (2 if seed_hits_title else 1)  # a billed seed halves it
+        score += pen
+        reasons.append(f"arena-scale venue ({pen:+.0f})")
     srcs = {s["source"] for s in e.get("sources", [])}
     sb = max((float(C["src_bonus"].get(s, 0)) for s in srcs), default=0)
     if sb:

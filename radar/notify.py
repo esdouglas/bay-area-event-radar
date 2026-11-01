@@ -241,7 +241,7 @@ def digest(events, alerts, h, dry_run, horizon_days=120):
         links = [f"[source]({e['url']})"] if e.get("url") else []
         if e.get("ticket_url") and e["ticket_url"] != e.get("url"):
             links.append(f"[tickets]({e['ticket_url']})")
-        tags = [x for x in ("small room, can sell out" if book_ahead(e) else "", f"tickets {_tickets(e)}" if _tickets(e) != "unverified" else "",
+        tags = [x for x in ("small room, can sell out" if book_ahead(e) else "", ("sold out at the box office; resale only" if _tickets(e) == "sold-out" else f"tickets {_tickets(e)}") if _tickets(e) != "unverified" else "",
                             {"mid": "a drive", "far": "a trip, but special"}.get(zone(e), ""), note) if x]
         return (f"**{_clean_title(e['title'])[:90]}**  \n{_day(e, today)} · {e.get('venue') or e.get('venue_raw') or '?'}"
                 + (f", {e['city']}" if e.get("city") and e["city"].lower() not in (e.get("venue") or "").lower() else "")
