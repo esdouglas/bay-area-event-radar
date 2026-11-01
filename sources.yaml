@@ -1,0 +1,928 @@
+# Source registry. One entry per collection target. Health (last_ok, failures, counts) lives in
+# data/source_health.json; per-run outcomes in data/runs/. Adding a source = adding an entry here.
+#
+# Fields
+#   id, name              identifiers
+#   kind                  venue | presenter | aggregator | calendar | theater | radio | festival
+#   method                collector (see radar/collectors/__init__.py)
+#   url / urls            what to fetch; "{page}" is expanded 1..max_pages
+#   frequency             every | 6h | 12h | daily | weekly   (how often this source is re-fetched)
+#   venue: {name, city}   default venue for single-venue sources
+#   category              music | theater | dance | arts | mixed
+#   expected_coverage     what we believe this gives us (human note; the dashboard compares to reality)
+#   notes                 verification notes: how it was confirmed, what blocks it, alternatives
+#   enabled: false        kept in the registry so the gap stays visible, but not fetched
+
+sources:
+
+# ============================================================ small East Bay rooms
+- id: little-hill-lounge
+  name: Little Hill Lounge (El Cerrito)
+  kind: venue
+  method: gcal
+  url: https://calendar.google.com/calendar/ical/c_2be7d5254f380a8dc1ce2265c803ed4e42ba001fd9ec114c8a2f9bd08181cc84@group.calendar.google.com/public/basic.ics
+  event_url_template: https://littlehillelcerrito.com/events/
+  venue: {name: Little Hill Lounge, city: El Cerrito}
+  expected_coverage: every show on the venue's own calendar (plus karaoke/comedy noise)
+  notes: >
+    littlehillelcerrito.com/events is a client-side wrapper over this public Google Calendar
+    (the site's /api/events proxies it). The Stampfel show appears with CREATED 2026-09-21. The venue
+    also lists ticketed shows on Eventbrite.
+
+- id: little-hill-lounge-site
+  name: Little Hill Lounge website API
+  kind: venue
+  method: html
+  url: https://littlehillelcerrito.com/api/events?limit=60&months=6
+  venue: {name: Little Hill Lounge, city: El Cerrito}
+  enabled: false
+  notes: Same data as the Google Calendar feed, expanded recurrences. Kept as a documented alternative.
+
+- id: back-room-berkeley
+  name: The Back Room (Berkeley) via Humanitix
+  kind: venue
+  method: gpt
+  url: https://collections.humanitix.com/the-back-room-calendar
+  page_limit: 16
+  user_agent: plain
+  expected_blocked: false
+  venue: {name: The Back Room, city: Berkeley}
+  expected_coverage: all ticketed Back Room shows
+  notes: >
+    Humanitix answered 403 to a browser-like UA from GitHub runners but served GPT's plain bot UA
+    (main's coverage 2026-10-28: 4 pages, 15 events). Event pages carry JSON-LD.
+
+- id: fifth-street-farms
+  name: Fifth Street Farms (Berkeley) via Ticket Tailor
+  kind: venue
+  method: jsonld
+  url: https://buytickets.at/fifthstreetfarms
+  follow: 'buytickets\.at/(?:events/)?fifthstreetfarms/\d+'
+  follow_rewrite: ['/events/fifthstreetfarms/', '/fifthstreetfarms/']
+  max_follow: 40
+  venue: {name: Fifth Street Farms, city: Berkeley}
+  expected_coverage: all ticketed house-concert-style shows at Fifth Street Farms
+  notes: Ticket Tailor event pages carry JSON-LD; the listing page itself has none.
+
+- id: fifth-street-farms-site
+  name: Fifth Street Farms website (monthly show posts)
+  kind: venue
+  method: cards
+  url: https://fifthstfarms.com/
+  venue: {name: Fifth Street Farms, city: Berkeley}
+  cards:
+    item: "article.category-current .post-content h3, article.category-current .post-content h4, article.category-future .post-content p"
+    title_re: '^\s*(.+?)\s*[—–-]+\s*(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*,'
+    date_re: '(?:Mon|Tue|Wed|Thu|Fri|Sat|Sun)[a-z]*,\s*([A-Z][a-z]+\.?\s+\d{1,2}(?:,\s*20\d\d)?)'
+    link: "a[href*='buytickets'], a[href*='tickettailor']@href"
+    time_re: '(music at \d{1,2}(?::\d\d)?\s*(?:[ap]\.?m\.?)?)'
+  expected_coverage: the house's own announcements, usually a month or two ahead, before tickets go up
+  notes: >
+    fifthstfarms.com (WordPress/Divi) is the real venue site; fifthstreetfarms.com is an unrelated event space.
+    Each "current" post has one show heading ("Artist — Weekday, Month D door opens at 7, music at 7:30");
+    the "future" post lists later shows one per paragraph. Was heuristic text extraction until 2026-11-01,
+    which paired titles with the wrong dates and emitted "Make reservations" as a show.
+
+- id: hillside-club
+  name: Hillside Club / Hillside Echoes (Berkeley)
+  kind: presenter
+  method: html
+  heuristic_ok: true
+  url: https://www.hillsideclub.org/hillsideechoes
+  venue: {name: Hillside Club, city: Berkeley}
+  expected_coverage: Hillside Echoes concert series
+  notes: Wix site; concerts link to Eventbrite event ids. Text extraction; Eventbrite API can confirm ids.
+
+- id: ashkenaz
+  name: Ashkenaz (Berkeley)
+  kind: venue
+  method: venuepilot
+  url: https://www.ashkenaz.com/shows
+  account_ids: [1228]
+  site: "https://www.ashkenaz.com"
+  venue: {name: Ashkenaz, city: Berkeley}
+  category: music
+  expected_coverage: world/roots/dance calendar
+  notes: >
+    VenuePilot widget (account 1228) via its public GraphQL API.
+
+- id: starry-plough
+  name: The Starry Plough (Berkeley)
+  kind: venue
+  method: jsonld
+  url: https://thestarryplough.com/upcoming-events/page/{page}/
+  max_pages: 4
+  follow: 'thestarryplough\.com/event/[^/]+/'
+  max_follow: 60
+  venue: {name: The Starry Plough, city: Berkeley}
+  expected_coverage: full pub calendar (music, trivia, sessions)
+  notes: WordPress event pages carry JSON-LD.
+
+- id: down-home-music
+  name: Down Home Music in-store performances (El Cerrito)
+  kind: venue
+  method: html
+  heuristic_ok: true
+  url: https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/
+  venue: {name: Down Home Music, city: El Cerrito}
+  expected_coverage: free in-store roots performances
+  notes: Plain WordPress page; text extraction.
+
+- id: ivy-room
+  name: Ivy Room (Albany)
+  kind: venue
+  method: venuepilot
+  url: https://ivyroom.com/
+  account_ids: [992]
+  site: "https://www.ivyroom.com"
+  venue: {name: Ivy Room, city: Albany}
+  expected_coverage: bar calendar
+  notes: >
+    VenuePilot widget (account 992) via its public GraphQL API.
+
+- id: elis-mile-high
+  name: Eli's Mile High Club (Oakland)
+  kind: venue
+  method: html
+  url: https://www.elismilehigh.com/
+  venue: {name: Eli's Mile High Club, city: Oakland}
+  enabled: false
+  notes: Site is a 455-byte JS shell; needs a different route (Dice/Songkick carry some Eli's shows).
+
+- id: thee-stork-club
+  name: Thee Stork Club (Oakland)
+  kind: venue
+  method: html
+  url: https://www.storkcluboakland.com/
+  venue: {name: Thee Stork Club, city: Oakland}
+  enabled: false
+  notes: Domain unresolved from sandbox and runner on 2026-10-25; venue appears to list on Dice/Songkick. Needs the correct site.
+
+- id: uc-theatre
+  name: The UC Theatre (Berkeley)
+  kind: venue
+  method: cards
+  url: https://www.theuctheatre.org/events
+  cards: {"item": "div.shows-collection-item", "title": "h1.name-listing", "support": "h1.support-listing", "date": "div.date-div", "time": "div.show-tile-2", "genre": "div.genre", "link": "a.link-block-6@href"}
+  venue: {name: The UC Theatre, city: Berkeley}
+  expected_coverage: all UC Theatre shows
+  notes: >
+    Webflow listing (div.shows-collection-item): name, support, date block, doors/show times. Verified
+    2026-10-31 on a runner.
+
+- id: new-parish
+  name: The New Parish (Oakland)
+  kind: venue
+  method: ticketweb_wp
+  url: https://thenewparish.com/calendar/
+  venue: {name: The New Parish, city: Oakland}
+  notes: >
+    TicketWeb 'event-discovery' WordPress plugin. The plugin's feed answered with zero events for every
+    month on 2026-10-31; kept so the gap is visible.
+
+- id: fox-oakland
+  name: Fox Theater Oakland
+  kind: venue
+  method: cards
+  url: https://thefoxoakland.com/calendar/
+  cards: {"item": "div.event-wrapper", "title": "h2.show-title", "support": "h3.bottomline", "date": "p.event__start-date@content", "venue": "p.venue-location-name", "description": "h4.topline"}
+  venue: {name: Fox Theater Oakland, city: Oakland}
+  notes: >
+    Another Planet theme with schema.org microdata (itemprop=startDate content=ISO). Also covered by
+    another-planet.
+
+- id: yoshis
+  name: Yoshi's Oakland
+  kind: venue
+  method: cards
+  url: "https://www.yoshis.com/events/calendar"
+  cards: {"item": "ul.event-full-list li.event-indv", "title": ".etitle h3 a", "date": ".etitle h3 a@aria-label", "link": ".etitle h3 a@href", "price": "p.price", "description": "p.topline"}
+  venue: {name: Yoshi's Oakland, city: Oakland}
+  notes: >
+    /events/calendar list; each title link's aria-label carries the full date and time.
+
+- id: freight-and-salvage
+  name: Freight & Salvage (Berkeley)
+  kind: venue
+  method: html
+  url: https://thefreight.org/shows/
+  venue: {name: Freight & Salvage, city: Berkeley}
+  enabled: false
+  notes: >
+    Cloudflare challenge (HTTP 403 "Just a moment") from both the sandbox and GitHub runners for
+    thefreight.org, /feed/, /wp-json/ and ?ical=1. Covered second-hand by Songkick metro pages and
+    the Bluegrass Signal calendar; secure.thefreight.org (Tessitura) answers but has no listing.
+
+# ============================================================ San Francisco rooms
+- id: cafe-du-nord
+  name: Cafe du Nord / Swedish American Hall
+  kind: venue
+  method: ics
+  url: https://www.cafedunord.com/shows.ics
+  venue: {name: Cafe du Nord, city: San Francisco}
+  expected_coverage: all Cafe du Nord and Swedish American Hall shows
+  notes: The venue publishes its own iCalendar feed.
+
+- id: the-chapel
+  name: The Chapel (SF)
+  kind: venue
+  method: cards
+  url: https://thechapelsf.com/calendar/
+  cards: {"item": "div.event-info-block", "title": "p.title", "link": "p.title a@href", "support": "p.supporting-talent", "support_strip": "^Supporting Talent:\\s*", "date": "p.date", "time": "span.see-showtime", "venue": "p.venue", "venue_strip": "^at\\s+", "price": "span.price", "genre": "p.genre", "description": "p.header"}
+  venue: {name: The Chapel, city: San Francisco}
+  notes: >
+    SeeTickets WordPress list (div.event-info-block): title, date, show time, stage, price, genre.
+
+- id: gamh
+  name: Great American Music Hall
+  kind: venue
+  method: cards
+  url: https://gamh.com/calendar/
+  cards: {"item": "div.event-info-block", "title": "p.event-title", "link": "p.event-title a@href", "support": "p.supporting-talent", "support_strip": "^(?:with|Supporting Talent:)\\s*", "date": "p.event-date", "time": "span.see-showtime", "venue": "p.venue", "venue_strip": "^at\\s+", "price": "span.price", "genre": "p.genre", "description": "p.event-header"}
+  venue: {name: Great American Music Hall, city: San Francisco}
+  notes: >
+    SeeTickets WordPress list (div.event-info-block), same plugin as The Chapel.
+
+- id: bottom-of-the-hill
+  name: Bottom of the Hill
+  kind: venue
+  method: cards
+  url: https://www.bottomofthehill.com/calendar.html
+  cards: {"item": "p:has(> big.band)", "title": "big.band", "date": "span.date", "time": "span.time", "price": "span.cover", "genre": "span.genre", "link": "a[href*=\"/20\"]@href"}
+  venue: {name: Bottom of the Hill, city: San Francisco}
+  notes: >
+    Hand-built table calendar: one <p> per show with span.date, span.time and big.band per act
+    (headliner first). Also has /RSS.xml.
+
+- id: the-independent
+  name: The Independent (SF)
+  kind: venue
+  method: ticketweb_wp
+  url: https://www.theindependentsf.com/calendar
+  venue: {name: The Independent, city: San Francisco}
+  notes: >
+    TicketWeb 'event-discovery' WordPress plugin: the calendar's admin-ajax call, nonce read from the
+    page.
+
+- id: the-fillmore
+  name: The Fillmore
+  kind: venue
+  method: jsonld
+  url: https://thefillmore.com/
+  venue: {name: The Fillmore, city: San Francisco}
+  notes: Live Nation site with JSON-LD for the whole schedule.
+
+- id: sfjazz
+  name: SFJAZZ Center
+  kind: venue
+  method: html
+  url: https://www.sfjazz.org/tickets/
+  venue: {name: SFJAZZ Center, city: San Francisco}
+  enabled: false
+  notes: Cloudflare challenge from sandbox and runners (2026-10-25). Covered partially by Songkick.
+
+- id: red-poppy
+  name: Red Poppy Art House (SF)
+  kind: venue
+  method: tribe
+  url: https://www.redpoppyarthouse.org
+  venue: {name: Red Poppy Art House, city: San Francisco}
+  expected_coverage: intimate Mission arts-house concerts
+
+- id: bird-and-beckett
+  name: Bird & Beckett Books & Records (SF jazz)
+  kind: venue
+  method: tribe
+  url: https://www.birdbeckett.com
+  venue: {name: Bird & Beckett, city: San Francisco}
+  expected_coverage: bookstore jazz series
+
+- id: keys-jazz-bistro
+  name: Keys Jazz Bistro (SF)
+  kind: venue
+  method: jsonld
+  url: https://keysjazzbistro.com/upcoming-shows/
+  follow: 'keysjazzbistro\.com/event/[^/?]+/$'
+  max_follow: 40
+  venue: {name: Keys Jazz Bistro, city: San Francisco}
+  notes: Runner got HTTP 429 once on the home page; event pages retried with backoff.
+
+- id: black-cat-sf
+  name: Black Cat (SF jazz)
+  kind: venue
+  method: cards
+  url: https://blackcatsf.turntabletickets.com/
+  cards: {"item": "div.performances", "title": "h2", "date": "a.show-link@href", "time": "div[id$=-description]", "link": "a.show-link@href", "description": "h3"}
+  venue: {name: Black Cat SF, city: San Francisco}
+  notes: >
+    Turntable Tickets show list; date from the show link (/shows/<id>/<YYYY-MM-DD>), time from the
+    description.
+
+- id: lost-church
+  name: The Lost Church (SF)
+  kind: venue
+  method: cards
+  url: https://thelostchurch.com/
+  city_in_title: {"Santa Rosa": "Santa Rosa"}
+  cards: {"item": "div.performances_performance", "title": "h1.title", "date": "div.calendar", "link": ".buy a@href"}
+  venue: {name: The Lost Church, city: San Francisco}
+  notes: >
+    Performance tiles (month/day/year block) linking to its Salesforce PatronTicket pages; Santa Rosa
+    shows get city Santa Rosa from the title.
+
+- id: noe-valley-music-series
+  name: SF Live Arts at St. Cyprian's (Noe Valley Music Series)
+  kind: presenter
+  method: html
+  url: https://www.noevalleymusicseries.com/
+  enabled: false
+  venue: {name: St. Cyprian's Episcopal Church, city: San Francisco}
+  expected_coverage: long-running folk/acoustic series
+  notes: >
+    Dead source (2026-10-31): noevalleymusicseries.com now serves a stale 2017 page with SEO spam links;
+    the series continues as 'SF Live Arts at Cyprian's' but sflivearts.org does not resolve. Candidate
+    for the research-task hand-off.
+
+- id: old-first-concerts
+  name: Old First Concerts (SF)
+  kind: presenter
+  method: cards
+  url: "https://www.oldfirstconcerts.org/concerts/"
+  cards: {"item": "ul.sub-menu a.menu-link[href*=\"/performance/\"]", "title": ".", "title_strip": "\\s*[–-]\\s*(?:mon|tue|wed|thu|fri|sat|sun)[a-z]*day,.*$", "link": ".@href"}
+  venue: {name: Old First Church, city: San Francisco}
+  category: music
+  notes: >
+    Concert season menu on /concerts/: each link is 'Artist – Program – Weekday, Month D at H pm'.
+
+- id: center-for-new-music
+  name: Center for New Music (SF)
+  kind: venue
+  method: html
+  url: https://centerfornewmusic.com/
+  venue: {name: Center for New Music, city: San Francisco}
+  category: music
+  enabled: false
+  notes: >
+    Answered HTTP 403 to GitHub runners on every run since 2026-10-29 (last ok 2026-10-28), and its
+    html method needed a model anyway. Disabled so the watchdog stays meaningful; gap kept visible.
+
+- id: rickshaw-stop
+  name: Rickshaw Stop
+  kind: venue
+  method: html
+  url: https://www.rickshawstop.com/
+  venue: {name: Rickshaw Stop, city: San Francisco}
+  enabled: false
+  notes: Cloudflare challenge (2026-10-25).
+
+# ============================================================ North Bay / Peninsula / Santa Cruz
+- id: sweetwater
+  name: Sweetwater Music Hall (Mill Valley)
+  kind: venue
+  method: jsonld
+  url: https://sweetwatermusichall.org/events/
+  follow: 'sweetwatermusichall\.org/event/[^/]+/sweetwater-music-hall/'
+  max_follow: 60
+  venue: {name: Sweetwater Music Hall, city: Mill Valley}
+  notes: The Events Calendar with REST disabled; event pages carry JSON-LD.
+
+- id: rancho-nicasio
+  name: Rancho Nicasio
+  kind: venue
+  method: tribe
+  url: https://www.ranchonicasio.com
+  venue: {name: Rancho Nicasio, city: Nicasio}
+
+- id: throckmorton
+  name: 142 Throckmorton Theatre (Mill Valley)
+  kind: venue
+  method: squarespace
+  url: "https://www.throckmortontheatre.org/events"
+  max_pages: 1
+  venue: {name: 142 Throckmorton Theatre, city: Mill Valley}
+  notes: >
+    Squarespace events collection at /events (?format=json, 'upcoming' list); tickets via OvationTix
+    client 35161. Verified on a runner 2026-10-31 (22 events).
+
+- id: hopmonk
+  name: HopMonk Taverns (Novato / Sebastopol / Sonoma)
+  kind: venue
+  method: html
+  url: https://www.hopmonk.com/
+  enabled: false
+  category: music
+  notes: >
+    Resists a parser (2026-10-31): the Novato, Sebastopol and Sonoma pages publish shows as
+    images/Instagram only, with no ticket links or event collection. Candidate for the research-task
+    hand-off.
+
+- id: luther-burbank-center
+  name: Luther Burbank Center (Santa Rosa)
+  kind: venue
+  method: tribe
+  url: https://lutherburbankcenter.org
+  venue: {name: Luther Burbank Center for the Arts, city: Santa Rosa}
+
+- id: mystic-theatre
+  name: Mystic Theatre (Petaluma)
+  kind: venue
+  method: html
+  url: https://mystictheatre.com/
+  enabled: false
+  notes: Cloudflare challenge (2026-10-25).
+
+- id: guild-theatre
+  name: Guild Theatre (Menlo Park)
+  kind: venue
+  method: cards
+  url: "https://www.guildtheatre.com/calendar"
+  cards: {"item": "div.show-collection-item", "title": "div.show-name", "date": "div.show-start-date", "link": "div.show-slug", "link_tpl": "/shows/{}"}
+  venue: {name: Guild Theatre, city: Menlo Park}
+  notes: >
+    Webflow hidden collection on /calendar (show-name, show-start-date, show-slug -> /shows/<slug>). No
+    times on this list.
+
+- id: stanford-live
+  name: Stanford events calendar (Localist; includes Stanford Live, Bing)
+  kind: calendar
+  method: localist
+  url: https://events.stanford.edu
+  params: {type: "37952570040671"}   # event_types=Performance id from /api/2/events/filters (2026-10-25)
+  max_pages: 6
+  category: mixed
+  expected_coverage: Stanford campus events incl. Bing Concert Hall and Stanford Live
+  notes: Localist API, ~900 events per 30 days; filtered downstream by category/score.
+
+- id: felton-music-hall
+  name: Felton Music Hall via Prekindle
+  kind: venue
+  method: jsonld
+  url: https://www.prekindle.com/events/felton-music-hall
+  venue: {name: Felton Music Hall, city: Felton}
+  notes: Prekindle listing carries JSON-LD for every show.
+
+- id: moes-alley
+  name: Moe's Alley (Santa Cruz)
+  kind: venue
+  method: ticketweb_wp
+  url: https://moesalley.com/calendar/
+  venue: {name: Moe's Alley, city: Santa Cruz}
+  notes: >
+    TicketWeb 'event-discovery' WordPress plugin (same as The Independent).
+
+- id: kuumbwa
+  name: Kuumbwa Jazz (Santa Cruz)
+  kind: venue
+  method: tribe
+  url: https://www.kuumbwajazz.org
+  venue: {name: Kuumbwa Jazz, city: Santa Cruz}
+
+# ============================================================ grassroots roots-music discovery
+- id: bluegrass-signal
+  name: Bluegrass Signal (KALW) Northern California concert & festival calendar
+  kind: calendar
+  method: gpt
+  adapter: bluegrass
+  url: https://www.bgsignal.com/concerts--festivals.html
+  follow: false
+  page_limit: 1
+  user_agent: plain
+  category: music
+  expected_coverage: bluegrass/old-time shows across NorCal, incl. Freight, house concerts, festivals, with venues
+  notes: GPT parser (artist - venue lines, multi-date tours). Weebly page answered 429/challenge to a browser UA once; plain UA used.
+
+- id: california-bluegrass-association
+  name: California Bluegrass Association events
+  kind: calendar
+  method: tribe
+  url: https://californiabluegrass.org
+  category: music
+  expected_coverage: CBA-listed jams, concerts, festivals statewide
+
+- id: sf-folk-music-club
+  name: San Francisco Folk Music Club community folk calendar
+  kind: calendar
+  method: html
+  heuristic_ok: true
+  url: https://www.sffmc.org/community-folk-calendar/
+  category: music
+  expected_coverage: Bay Area folk concerts, house concerts, sessions
+
+- id: kalx-entertainment-calendar
+  name: KALX weekly entertainment calendar
+  kind: radio
+  method: gpt
+  adapter: kalx
+  url: https://kalx.berkeley.edu/events/weekly-entertainment-calendar/
+  link_pattern: /event/events-
+  page_limit: 8
+  category: music
+  expected_coverage: KALX-curated East Bay/SF/North Bay shows, about 500 lines across the weekly pages
+  notes: "GPT parser (venue: title per line, dated headings). Ported from main 2026-10-28."
+
+- id: berkeley-old-time-music-convention
+  name: Berkeley Old Time Music Convention
+  kind: festival
+  method: html
+  heuristic_ok: true
+  urls:
+    - https://www.berkeleyoldtimemusic.org/
+    - https://www.berkeleyoldtimemusic.org/other-events
+  category: music
+
+- id: folkyeah
+  name: (((folkYEAH!))) presents
+  kind: presenter
+  method: cards
+  url: https://folkyeah.com/events
+  cards: {"item": "div.project-meta", "title": "h2.project-title", "date": ".", "numeric_dates": true, "link": "div.project-description a@href", "venue_re": "(?:show|doors)[^\\n]*\\d\\s*[ap]m\\s*\\n+([^\\n]+)"}
+  category: music
+  expected_coverage: folkYEAH-promoted shows (Chapel, Felton, Big Sur, etc.)
+  notes: >
+    Squarespace gallery of show posts (div.project-meta); date in the post text (or M/D in the title),
+    venue is the line after the show time.
+
+- id: another-planet
+  name: Another Planet Entertainment calendar
+  kind: presenter
+  method: cards
+  url: https://apeconcerts.com/calendar/
+  cards: {"item": "div.event-wrapper", "title": "h2.show-title", "support": "h3.bottomline", "date": "p.event__start-date@content", "venue": "p.venue-location-name", "description": "h4.topline"}
+  category: music
+  expected_coverage: Fox, Greek, Independent, Bill Graham, outdoor shows
+  notes: >
+    APE calendar, schema.org microdata per event; covers Fox, Greek, Bimbo's, Castro, Civic and out-of-
+    area rooms (dropped by the region filter).
+
+- id: kpfa-events
+  name: KPFA events
+  kind: radio
+  method: cards
+  url: https://kpfa.org/events/
+  cards: {"item": "article.type-event", "title": "h2.entry-title", "date": "div.event-date", "link": "h2.entry-title a@href", "description": "h4.sub-title", "venue_re": "\\bat (.+?)(?: in [A-Z][a-z]+)?$"}
+  category: mixed
+  notes: >
+    KPFA events archive (article.type-event with a month/day/year block; venue from the subtitle).
+
+- id: hicks-with-sticks
+  name: Hicks with Sticks Americana/roots calendar
+  kind: calendar
+  method: gpt
+  adapter: hicks
+  url: https://www.hickswithsticks.com/calendar/
+  follow: false
+  page_limit: 1
+  category: music
+  expected_coverage: North Bay/Marin roots and honky-tonk bar shows ("Act @ Venue" lines)
+  notes: Ported from main 2026-10-28.
+
+- id: david-brown-oldtime
+  name: David Brown's SF Bay Area old-time music calendar
+  kind: calendar
+  method: gpt
+  adapter: oldtime
+  url: https://sites.google.com/site/davbrown2/oldtimesf
+  follow: false
+  page_limit: 1
+  category: music
+  expected_coverage: old-time concerts, square dances and visiting string bands across the Bay Area
+  notes: Ported from main 2026-10-28. Venue lines are heuristic; dates explicit.
+
+- id: kc-turner
+  name: KC Turner Presents (house concerts, listening rooms)
+  kind: presenter
+  method: gpt
+  url: https://www.kcturnerpresents.com/calendar
+  page_limit: 8
+  category: music
+  expected_coverage: KC Turner's Bay Area folk/Americana bookings incl. small rooms
+  notes: Ported from main 2026-10-28.
+
+- id: otter-opry
+  name: Otter Opry (Monterey)
+  kind: presenter
+  method: tix
+  url: "https://www.tix.com/ticket-sales/OtterOpry/4889?venueidlist=24029"
+  org_id: 4889
+  venue_id: 24029
+  slug: OtterOpry
+  title_strip: "\\s*@\\s*(?:the\\s+)?Otter Opry$"
+  venue: {city: Monterey}
+  category: music
+  notes: >
+    otteropry.org links to Tix.com (organization 4889, venue 24029); read from the public online-sales
+    API its ticket page loads. Monterey is outside the Bay but inside the norcal region.
+
+- id: outsound
+  name: Outsound (SF experimental/new music)
+  kind: presenter
+  method: gpt
+  url: https://www.outsound.org/
+  page_limit: 4
+  venue: {city: San Francisco}
+  category: music
+  expected_blocked: true
+  notes: >
+    Ported from main; failed there too. www.outsound.org has a broken TLS certificate (SSLError from
+    sandbox and runners, 2026-10-28). Kept enabled so recovery shows up; watchdog does not alarm on it.
+
+- id: fifth-street-tickets-tt
+  name: Fifth Street Farms on tickettailor.com
+  kind: venue
+  method: gpt
+  adapter: tickettailor
+  url: https://www.tickettailor.com/events/fifthstreetfarms
+  page_limit: 8
+  venue: {name: Fifth Street Farms, city: Berkeley}
+  notes: Second Ticket Tailor route from main (16 events on its last run); dedups against fifth-street-farms.
+
+# ============================================================ aggregators (recall insurance)
+- id: songkick-bay-area
+  name: Songkick SF Bay Area metro
+  kind: aggregator
+  method: songkick
+  url: https://www.songkick.com/metro-areas/26330-us-sf-bay-area
+  max_pages: 25
+  category: music
+  expected_coverage: ~1,100 upcoming concerts incl. Freight & SFJAZZ listings we cannot fetch directly
+  notes: >
+    Songkick's origin answers HTTP 406 to automated clients; only pages already in its CDN cache
+    (X-Cache HIT, ~6 h TTL, warmed by real visitors) are served. Each run therefore gets a random
+    subset of pages (about half on 2026-10-25) and coverage accumulates across runs. An official
+    Songkick API key would make this complete; access is by application only.
+
+- id: dice-sf
+  name: Dice SF music
+  kind: aggregator
+  method: dice
+  urls:
+    - https://dice.fm/browse/sanfrancisco-60dee10ce5e339918757f0db/music/gig
+    - https://dice.fm/browse/san-francisco
+  category: music
+  expected_coverage: Dice-ticketed shows (Eli's, Stork Club, Kilowatt, Thee Parkside, etc.)
+
+- id: eventbrite-east-bay
+  name: Eventbrite via official API (organizers/venues/events)
+  kind: aggregator
+  method: eventbrite_api
+  organizations: []
+  venues: []
+  # Seed event ids: one known event per room is enough; the collector learns the venue id and pulls
+  # the whole venue calendar on later runs. Ids below come from hillsideclub.org/hillsideechoes links.
+  events: ["1978866568175", "1982557976276", "1983061743056"]
+  category: mixed
+  enabled: false
+  notes: >
+    Enable once EVENTBRITE_TOKEN exists. Eventbrite's web pages and front-end search API answer
+    HTTP 405 to GitHub runners (verified 2026-10-25); the official API host is reachable (401 without token).
+    Public search was removed from the API in 2020, so coverage grows venue by venue from seed event ids.
+
+- id: eventbrite-web-search
+  name: Eventbrite front-end search (blocked from GitHub)
+  kind: aggregator
+  method: eventbrite_web
+  url: https://www.eventbrite.com/
+  places: ["85922583", "85922177"]
+  tags: ["EventbriteCategory/103", "EventbriteCategory/105"]
+  max_pages: 15
+  category: mixed
+  enabled: false
+  notes: Works from residential IPs (610 music events in 13 pages on 2026-10-25); 405 from GitHub runners.
+
+- id: jambase-bay
+  name: JamBase SF Bay Area
+  kind: aggregator
+  method: gpt
+  url: https://www.jambase.com/concerts/us/california/concerts-in-san-francisco-bay-area
+  page_limit: 6
+  category: music
+  expected_coverage: JamBase's Bay Area listings, strong on roots/jam/bluegrass touring acts
+  notes: Ported from main 2026-10-28 (72 events on its last runner run). Out-of-area cities are dropped by the region filter.
+
+- id: allevents-el-cerrito
+  name: allevents.in East Bay music
+  kind: aggregator
+  method: allevents
+  urls:
+    - https://allevents.in/el-cerrito/music
+    - https://allevents.in/berkeley/music
+    - https://allevents.in/oakland/music
+  category: music
+  notes: Mirrors Eventbrite and other listings; JSON-LD on listing pages.
+
+# ============================================================ theater, dance, arts
+- id: berkeley-rep
+  name: Berkeley Repertory Theatre
+  kind: theater
+  method: theater_run
+  url: https://www.berkeleyrep.org/shows/
+  follow: 'berkeleyrep\.org/shows/[a-z0-9-]+$'
+  venue: {name: Berkeley Rep, city: Berkeley}
+  category: theater
+  notes: Show pages carry per-performance JSON-LD; collapsed to one event per production.
+
+- id: act-sf
+  name: American Conservatory Theater
+  kind: theater
+  method: theater_run
+  url: https://www.act-sf.org/whats-on/2026-27-season
+  follow: 'act-sf\.org/whats-on/2026-27-season/[a-z0-9-]+$'
+  venue: {name: A.C.T. Toni Rembe Theater, city: San Francisco}
+  category: theater
+  notes: JSON-LD run on each show page. Season path must be bumped each summer.
+
+- id: aurora-theatre
+  name: Aurora Theatre (Berkeley)
+  kind: theater
+  method: theater_run
+  url: https://www.auroratheatre.org/index.php/shows-events
+  follow: "shows-events/20(?:2[6-9]|[3-9]\\d)-20\\d\\d-season/[^/#]+$"
+  max_follow: 10
+  venue: {name: Aurora Theatre, city: Berkeley}
+  category: theater
+  notes: >
+    Aurora has no current season (2026-10-31 home page: 'Aurora returns', no productions). theater_run
+    follows only 2026-27-or-later season links, so it yields 0 until a season is announced.
+
+- id: shotgun-players
+  name: Shotgun Players (Berkeley)
+  kind: theater
+  method: theater_run
+  url: https://shotgunplayers.org/
+  follow: 'shotgunplayers\.org/show/[a-z0-9-]+/$'
+  venue: {name: Shotgun Players (Ashby Stage), city: Berkeley}
+  category: theater
+  notes: Show pages print "Starting Date"; run end not published.
+
+- id: magic-theatre
+  name: Magic Theatre (SF)
+  kind: theater
+  method: squarespace
+  url: https://magictheatre.org/calendar
+  site: https://magictheatre.org
+  venue: {name: Magic Theatre, city: San Francisco}
+  category: theater
+
+- id: sf-playhouse
+  name: San Francisco Playhouse
+  kind: theater
+  method: theater_run
+  url: https://www.sfplayhouse.org/
+  follow: 'sfplayhouse\.org/2026-2027-season/[a-z0-9-]+/$'
+  range_by_order: true
+  venue: {name: San Francisco Playhouse, city: San Francisco}
+  category: theater
+  notes: Printed run ranges. Season path must be bumped each summer.
+
+- id: marin-theatre
+  name: Marin Theatre
+  kind: theater
+  method: theater_run
+  url: https://www.marintheatre.org/
+  follow: 'marintheatre\.org/show-details/[a-z0-9-]+$'
+  venue: {name: Marin Theatre, city: Mill Valley}
+  category: theater
+  notes: Printed run ranges on show-details pages.
+
+- id: cal-performances
+  name: Cal Performances
+  kind: presenter
+  method: jsonld
+  url: https://calperformances.org/events/2026-27/
+  follow: 'calperformances\.org/events/20\d\d-\d\d/[^/]+/[^/]+/'
+  max_follow: 90
+  detail_ttl_hours: 168
+  venue: {city: Berkeley}
+  category: mixed
+  expected_coverage: the whole Cal Performances season (Zellerbach, Hertz, Playhouse)
+  notes: >
+    The Events Calendar with REST disabled; each event page carries JSON-LD (dates as MM/DD/YYYYTHH:MM).
+    The season URL must be bumped each summer (2026-27 -> 2027-28); the watchdog flags the drop to zero.
+
+- id: z-space
+  name: Z Space (SF)
+  kind: theater
+  method: ovationtix
+  url: https://www.zspace.org/
+  client_id: 34231
+  venue: {name: Z Space, city: San Francisco}
+  category: mixed
+  notes: >
+    Z Space sells through OvationTix (client 34231); its own pages carry no listings (the 'Coming Up'
+    block is an Instagram feed). Public client API: one record per production at its next performance.
+
+- id: counterpulse
+  name: CounterPulse (SF)
+  kind: theater
+  method: html
+  url: https://www.counterpulse.org/
+  enabled: false
+  venue: {name: CounterPulse, city: San Francisco}
+  category: dance
+  notes: >
+    Resists a parser (2026-10-31): the events page is a Salesforce PatronTicket calendar filled in by
+    JavaScript, The Events Calendar REST answers 429 on the first request, and ?ical=1 returns HTML.
+    Candidate for the research-task hand-off.
+
+- id: odc-theater
+  name: ODC Theater
+  kind: theater
+  method: cards
+  url: "https://odc.dance/calendar/theater"
+  cards: {"item": "ul.list.future li", "title": "a", "date": "div.date", "date_scope": "div.table-calendar__item", "numeric_dates": true, "time": "time", "link": "a@href"}
+  venue: {name: ODC Theater, city: San Francisco}
+  category: dance
+  notes: >
+    ODC calendar (Drupal): per-day blocks (M/D) with one li per show and its time; links to Salesforce
+    PatronTicket.
+
+- id: ybca
+  name: YBCA
+  kind: theater
+  method: cards
+  url: "https://ybca.org/calendar/"
+  cards: {"item": "div.feature-event-wrap, div.copy:not(div.feature-event-wrap div.copy)", "title": "h1, h3", "date": "p.date", "run": "auto", "description": "p.type", "venue": ".tickets strong"}
+  venue: {name: YBCA, city: San Francisco}
+  category: arts
+  notes: >
+    YBCA calendar: event cards (date in .tickets) and exhibition cards (printed range -> one run).
+
+- id: the-marsh
+  name: The Marsh (SF / Berkeley)
+  kind: theater
+  method: theater_run
+  url: https://www.themarsh.org/
+  follow: "themarsh\\.org/shows_and_events/(?!donate)[^/]+/$"
+  max_follow: 30
+  title_strip: "\\s+-\\s+The Marsh$"
+  category: theater
+  notes: >
+    theater_run over /shows_and_events/ pages (themarsh.ludus.com answers 403 to runners).
+
+- id: broadway-sf
+  name: BroadwaySF (Orpheum, Golden Gate, Curran)
+  kind: theater
+  method: cards
+  url: https://broadwaysf.com/
+  urls: ["https://broadwaysf.com/", "https://us.atgtickets.com/whats-on/san-francisco/?page=2", "https://us.atgtickets.com/whats-on/san-francisco/?page=3"]
+  cards: {"item": "div[data-testid=\"showCard\"]", "title": "h2", "date": "div.MuiCardContent-root", "run": true, "link": "a@href"}
+  venue: {city: San Francisco}
+  category: theater
+  notes: >
+    broadwaysf.com redirects to ATG's San Francisco listing (3 pages). One record per production with
+    its printed run; 'Through <date>' means now playing.
+
+- id: sf-opera
+  name: San Francisco Opera
+  kind: theater
+  method: theater_run
+  url: https://www.sfopera.com/
+  follow: "sfopera\\.com/(?:operas|seasons)/[^/#]+/$"
+  max_follow: 20
+  title_strip: "\\s*\\|\\s*SFO$"
+  venue: {name: War Memorial Opera House, city: San Francisco}
+  category: music
+  frequency: daily
+  notes: >
+    theater_run from the home page: one record per opera/concert from its own page (printed range or
+    performance list).
+
+- id: sf-ballet
+  name: San Francisco Ballet
+  kind: theater
+  method: theater_run
+  url: "https://www.sfballet.org/2026-2027-season/"
+  follow: "sfballet\\.org/productions/[^/]+/$"
+  max_follow: 20
+  venue: {name: War Memorial Opera House, city: San Francisco}
+  category: dance
+  frequency: daily
+  notes: >
+    theater_run from the 2026-27 season page; Nutcracker read from its performance list. Update the URL
+    when the next season page goes up.
+
+- id: smuin
+  name: Smuin Contemporary Ballet
+  kind: theater
+  method: theater_run
+  url: https://www.smuinballet.org/
+  follow: "smuinballet\\.org/events/(?!company-class)[^/]+/$"
+  max_follow: 15
+  title_strip: "\\s*\\|\\s*Smuin Ballet$"
+  category: dance
+  frequency: daily
+  notes: >
+    theater_run over /events/ pages (company class excluded).
+
+- id: sfmoma
+  name: SFMOMA exhibitions
+  kind: arts
+  method: theater_run
+  url: https://www.sfmoma.org/exhibitions/
+  follow: "sfmoma\\.org/exhibition/[^/]+/$"
+  max_follow: 30
+  venue: {name: SFMOMA, city: San Francisco}
+  category: arts
+  frequency: daily
+  notes: >
+    theater_run over exhibition pages: one record per exhibition with its run.

@@ -1,3 +1,5 @@
-__pycache__/
-.capture/
 _site/
+__pycache__/
+*.pyc
+data/*.tmp
+.pytest_cache/

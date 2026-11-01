@@ -1,48 +1,87 @@
 # Bay Area Event Radar
 
-Existing subscription: https://esdouglas.github.io/bay-area-event-radar/radar.ics
+High-recall discovery of live music, theater and performance across the Bay Area, run entirely by
+GitHub Actions. The goal is to learn about the next Peter Stampfel show in a 100-person room weeks
+before it happens, not the morning after. See [POSTMORTEM.md](POSTMORTEM.md) for why v1 missed it.
 
-**Replacement status: SHADOW / NOT VALIDATED.** The existing ChatGPT daily radar remains enabled. A workflow success is not evidence of discovery recall or early alerting.
+**Outputs**
 
-## Two outputs
+- Inventory + search: https://esdouglas.github.io/bay-area-event-radar/ (every plausible event, filter by tier/category/date)
+- Coverage dashboard: https://esdouglas.github.io/bay-area-event-radar/dashboard.html (every source, its health, what it contributed, run history)
+- Calendar feed: https://esdouglas.github.io/bay-area-event-radar/radar.ics (strong + exceptional events; v1 UIDs preserved)
+- Weekly email: a GitHub issue labelled `radar-digest`, Mondays ~8 AM Pacific (assigned to the owner, so
+  GitHub e-mails it). A handful of picks, not a list: up to 3 in the next two weeks, up to 3 new ones
+  to book ahead, one-line reminders of earlier picks, and a few near misses. Picks are scored by
+  research fit minus a travel penalty from Oakland (`travel` and `digest` in taste.yaml; see
+  radar/picks.py). Far shows (Santa Cruz, Monterey, Sacramento...) need a fit of 90+.
+- Between Mondays, only one kind of alert: a pick scoring 88+ in a small room (`venues.book_ahead`),
+  as an issue labelled `radar-alert`. The first live run records existing ones without posting.
+- Operational alarms: issues labelled `radar-ops` from the daily watchdog
 
-* Curated calendar: events.json → build.py → radar.ics / index.html. Existing immutable IDs, Going/Interested choices, cancellation tombstones, free time and no alarms are preserved. A listing does not verify ticket inventory.
-* Broad discovery: sources.json → radar.py → data/inventory.json / inventory.html. Every extracted dated candidate is retained regardless of name recognition. Unknown names enter a separate research queue. Nothing is automatically copied into the curated calendar.
-
-[Live broad inventory and coverage](https://esdouglas.github.io/bay-area-event-radar/inventory.html)
-
-## Small durable pipeline
-
-The existing six-hour GitHub Actions job collects and refreshes, runs tests, commits state and deploys Pages. Research-only pushes render current state without scanning venues again; their research_updated_at never replaces the actual collection timestamp. The collector uses standard-library Python with six concurrent source workers, request limits/timeouts, bounded rotating link enumeration, dedicated KALX/Bluegrass Signal/Hicks/Cafe du Nord/Ticket Tailor parsers and recursive JSON-LD. Other formats/dynamic pages go to an explicit extraction queue rather than being treated as successful coverage.
-
-A separate scheduled ChatGPT research worker uses the connected GitHub app and primary public sources to research unfamiliar acts, rank taste fit, recover unparsed sources and report exceptional discoveries. See [its exact contract](docs/AI_WORKER.md). Its first unattended execution must still be verified. No paid API key is required for this path. An optional compatible API backend is explicitly configured, never silently assumed.
-
-## Auditable state
-
-| File | Meaning |
-|---|---|
-| data/inventory.json | Broad inventory, actual first/last seen and per-source observations |
-| data/runs.jsonl | Append-only collection history, including failures |
-| data/coverage.json | Latest attempted/fetched/extracted counts, per-source dates, truncation and errors |
-| data/frontiers.json | Last-attempted URLs; rotate bounded detail-page coverage |
-| data/research-queue.json | Future events awaiting evidence-backed research |
-| data/extraction-queue.json | Fetched/unparsed, dynamic, failed and unresolved pages |
-| data/research.json | AI findings, evidence, tiers and uncertainty |
-| data/outbox.json | Pending/reported alerts; a prepared alert is not delivered |
-| data/benchmark.json | Reproducible retrospective recovery and explicit validation limits |
-| health.json | Legacy known-event refresh status, **not source coverage** |
-
-Exact compressed page captures are content-addressed under .capture/ and uploaded as Actions artifacts for 90 days. Hashes and observation records persist in Git. Raw captures are not permanent: archive artifacts before expiry if needed for longer historical replay. No date of first public announcement or pre-sellout availability is inferred from a mutable page timestamp.
-
-## Review and validation
-
-Read [postmortem and architecture review](docs/REBUILD_REVIEW.md), [historical evaluation](docs/VALIDATION.md) and WATCHLIST.md before changing collection or ranking. The benchmark contains the three user-confirmed misses, 20 additional provisional relevant historical events and eight low-alert-fit controls. It measures **retrospective extraction**, not autonomous historical discovery or proven alert precision.
+## How it works
 
 ```
-python -m unittest discover
-python benchmark.py
-python radar.py --enrich
-python build.py
+sources.yaml ──collect──▶ data/events.json ──score──▶ tiers ──research.json──▶ notify ──▶ issues
+   (registry)   75 sources    inventory, dedup,      rules,      daily research    immediate / digest
+                              first/last seen        explainable  task findings     
+                                       └──────────────── site ───────────────▶ _site/ (Pages)
+                                       └──────────────── watchdog ───────────▶ radar-ops issue
 ```
 
-An HTTP 200 with no parsed events is not verified calendar coverage. Pending link counts, missing months, stale sources, research backlog and alert failures must remain visible. Source coverage is never exhaustive Bay Area event recall. Schedules can be delayed or disabled by GitHub; inspect Actions and latest completed_at. Keep the old radar until prospective validation passes.
+Stages are independent CLI commands (`python -m radar <stage>`). Nothing uses a paid API: every
+collector is deterministic, and the model code paths (`enrich`, `html_llm` extraction) are permanently
+off (see [CLAUDE.md](CLAUDE.md)).
+
+| Stage | What it does | Needs |
+|---|---|---|
+| `collect` | Fetches every due source in `sources.yaml` with the right collector (iCal/Google Calendar, JSON-LD pages with link-following, The Events Calendar REST, Squarespace JSON, Localist, Dice, Songkick, allevents, platform-specific venue parsers, theater season pages), normalises, deduplicates across sources, records first/last seen and per-source history, logs every attempt to `data/runs/`. | nothing |
+| `score` | Additive, explainable taste score (seed artists, keyword neighbourhoods, venue priors, source priors, multi-source confirmation); tiers exceptional / strong / inventory / noise. "Exceptional" requires a named seed artist or a psych-folk signal. | `taste.yaml` |
+| `research apply` | Folds findings from the daily research task (`data/research.json`) into scores. | nothing |
+| `notify` | Opens an issue per new exceptional event (comments on changes, never repeats), weekly digest with new-since-last, next-14-days, and still-upcoming sections. Live posting only from `main` (or `RADAR_NOTIFY_LIVE=1`). | `GITHUB_TOKEN` (automatic) |
+| `site` | Static inventory, dashboard, `radar.ics`, `events.json`. | nothing |
+| `watchdog` | Fails (and opens/updates a `radar-ops` issue) if the last collection is >14 h old, key sources return zero, sources fail 3+ runs, or nothing new was found in a week. | `GITHUB_TOKEN` |
+| `benchmark` | Historical discoverability benchmark (`benchmark/events.yaml`, report in `benchmark/REPORT.md`); `--live` adds Wayback Machine checks. | network |
+
+## Schedules (`.github/workflows/`)
+
+GitHub fires cron schedules only on the default branch (`main`); on `radar-v2` the pipeline runs on pushes.
+
+- `collect.yml`: every 6 h and on code pushes: collect → score → enrich → notify → benchmark → site → commit `data/` → deploy Pages (deploy only from `main`).
+- `digest.yml`: Mondays 15:37 UTC.
+- `watchdog.yml`: daily 16:11 UTC.
+- `benchmark.yml`: manual, with Wayback checks.
+- `probe.yml`: manual reachability probe of candidate sources from a GitHub runner.
+
+## Adding a source
+
+Add an entry to `sources.yaml`. For a page with schema.org JSON-LD use `method: jsonld` (add `follow:` to
+read detail pages); for The Events Calendar sites `tribe`; for Google Calendar / any `.ics` use `ics`; for
+theater season pages `theater_run`; for venue sites on a known ticketing/calendar platform the matching
+`venue_*` parser in `radar/collectors/venues.py`; for plain date-list pages `html` with
+`heuristic_ok: true` (date-line heuristic, no model). Run `python -m radar collect --only <id> --dry-run` to see what it yields. Blocked or broken
+sources stay in the file with `enabled: false` and a note, so the gap remains visible on the dashboard.
+
+## Secrets (repository → Settings → Secrets and variables → Actions)
+
+- `GOOGLE_SERVICE_ACCOUNT_JSON` (optional, free): key of a Google Cloud service account that the FYIs
+  calendar is shared with; enables the calendar sync on `main`.
+- `EVENTBRITE_TOKEN` (optional, free personal token): enables `eventbrite-east-bay` (official API; Eventbrite's web pages block GitHub runners).
+
+No paid API key is used or wanted.
+
+No secret is ever written to the repository.
+
+## Local use
+
+```
+pip install -r requirements.txt
+python -m radar status                 # inventory + source health
+python -m radar collect --only little-hill-lounge --dry-run
+python -m radar score && python -m radar site && open _site/index.html
+python -m unittest discover -s tests
+```
+
+## Legacy
+
+`events.json` and `pending-leads.json` are the v1 hand-curated records; `legacy/` holds the v1 builder.
+The v1 calendar UIDs are emitted unchanged in `radar.ics` so existing subscriptions keep working.

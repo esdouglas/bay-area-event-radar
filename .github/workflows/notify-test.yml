@@ -1,0 +1,23 @@
+name: Alert delivery test (one issue)
+# Fires only when .github/notify-test-request changes on radar-v2.
+on:
+  push:
+    branches: [radar-v2]
+    paths: ['.github/notify-test-request']
+permissions:
+  contents: read
+  issues: write
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - run: python -m radar notify --test

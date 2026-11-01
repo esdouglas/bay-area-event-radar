@@ -1,0 +1,82 @@
+name: Collect, rank, alert, publish
+on:
+  schedule:
+    - cron: '23 */6 * * *'        # every six hours (UTC); GitHub may delay or skip busy slots
+  workflow_dispatch:
+    inputs:
+      force:
+        description: 'Ignore per-source frequency (re-fetch everything)'
+        type: boolean
+        default: false
+  push:
+    branches: [main, radar-v2]
+    paths: ['radar/**', 'sources.yaml', 'taste.yaml', 'requirements.txt', '.github/workflows/collect.yml', 'scripts/**', 'events.json', 'data/research.json']
+permissions:
+  contents: write
+  issues: write
+  pages: write
+  id-token: write
+concurrency:
+  group: radar-data-${{ github.ref_name }}
+  cancel-in-progress: false
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 55
+    env:
+      EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      PYTHONUNBUFFERED: '1'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Unit tests
+        run: python -m unittest discover -s tests -p 'test_*.py'
+      - name: Collect from every due source
+        run: python -m radar collect ${{ (github.event.inputs.force == 'true') && '--force' || '' }}
+      - name: Merge duplicate records
+        run: python -m radar compact
+      - name: Rules-based scoring
+        run: python -m radar score
+      - name: Apply research findings (data/research.json from routine/interactive sessions)
+        run: python -m radar research apply
+      - name: Immediate alerts (GitHub issues)
+        run: python -m radar notify
+      - name: Refresh research queue
+        run: python -m radar research queue -n 40
+      - name: Google Calendar sync (main only, needs GOOGLE_SERVICE_ACCOUNT_JSON)
+        if: github.ref == 'refs/heads/main' && env.GOOGLE_SERVICE_ACCOUNT_JSON != ''
+        run: python -m radar gcal sync --limit 60
+      - name: Benchmark (offline evidence classes)
+        run: python -m radar benchmark
+      - name: Build site
+        run: python -m radar site
+      - name: Commit data back to ${{ github.ref_name }}
+        run: |
+          bash scripts/commit_data.sh "${{ github.ref_name }}" "Radar: scheduled collection"
+      - name: Post-run health check
+        run: python -m radar watchdog --dry-run
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site
+  deploy:
+    # The live site only ever deploys from main. Branch runs still collect, rank and commit data.
+    needs: radar
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/deploy-pages@v4
+        id: deployment

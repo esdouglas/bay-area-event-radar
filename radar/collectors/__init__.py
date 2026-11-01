@@ -1,0 +1,31 @@
+"""Collector registry: maps a source's `method` to the function that collects it."""
+from .aggregators import (collect_allevents, collect_eventbrite_api, collect_eventbrite_web,
+                          collect_songkick)
+from .gpt import collect_gpt
+from .html_llm import collect_html
+from .theater import collect_theater_run
+from .venues import collect_cards, collect_ovationtix, collect_ticketweb_wp, collect_tix, collect_venuepilot
+from .structured import (collect_dice, collect_ics, collect_jsonld, collect_localist, collect_squarespace,
+                         collect_tribe)
+
+METHODS = {
+    "ics": collect_ics,
+    "gcal": collect_ics,
+    "jsonld": collect_jsonld,
+    "tribe": collect_tribe,
+    "squarespace": collect_squarespace,
+    "localist": collect_localist,
+    "dice": collect_dice,
+    "songkick": collect_songkick,
+    "eventbrite_api": collect_eventbrite_api,
+    "eventbrite_web": collect_eventbrite_web,
+    "allevents": collect_allevents,
+    "html": collect_html,
+    "gpt": collect_gpt,
+    "theater_run": collect_theater_run,
+    "cards": collect_cards,
+    "venuepilot": collect_venuepilot,
+    "ticketweb_wp": collect_ticketweb_wp,
+    "ovationtix": collect_ovationtix,
+    "tix": collect_tix,
+}
