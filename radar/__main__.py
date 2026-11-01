@@ -25,8 +25,9 @@ def main(argv=None):
     n.add_argument("--test", action="store_true", help="post one labelled test alert")
 
     sub.add_parser("site", help="build _site/ (inventory, dashboard, radar.ics)")
-    w = sub.add_parser("watchdog", help="fail if collection is stale or broken; opens an issue")
+    w = sub.add_parser("watchdog", help="check collection health; one radar-ops issue when it is stale or broken")
     w.add_argument("--dry-run", action="store_true")
+    w.add_argument("--strict", action="store_true", help="exit 1 when there are problems (local use; workflows stay green)")
     b = sub.add_parser("benchmark", help="historical discoverability benchmark report")
     b.add_argument("--live", action="store_true", help="also probe live sources for present-day evidence")
     sub.add_parser("status", help="print inventory and source health summary")
@@ -63,7 +64,7 @@ def main(argv=None):
         site.run()
     elif a.cmd == "watchdog":
         from . import watchdog
-        sys.exit(watchdog.run(dry_run=a.dry_run))
+        sys.exit(watchdog.run(dry_run=a.dry_run, strict=a.strict))
     elif a.cmd == "benchmark":
         from . import benchmark
         benchmark.run(live=a.live)

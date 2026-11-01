@@ -1,8 +1,14 @@
 """Stage F: detect stale or broken collection and raise a radar-ops issue.
 
-Exit code is non-zero when something is wrong so the workflow itself turns red. A successful process
-run is not success: this also checks that the inventory actually grew recently and that the key
-grassroots sources are returning events."""
+A successful process run is not success: this also checks that the inventory actually grew recently and
+that the key grassroots sources are returning events.
+
+How problems reach Erik: ONE open "[radar ops]" issue (GitHub e-mails it), commented on only when the set
+of problems changes. The exit code stays 0 so a problem never also turns the workflow red: every red run
+makes GitHub send a separate "Run failed" e-mail, which Erik asked not to get (2026-11-01). Pass
+--strict to get a non-zero exit for local checks.
+A single ordinary source failing three runs in a row is listed on the dashboard, not raised as an issue:
+sources like Songkick flap (CDN refusals) and recover by themselves."""
 import datetime as dt
 
 from . import config, store
@@ -13,7 +19,7 @@ KEY_SOURCES = ["little-hill-lounge", "cafe-du-nord", "songkick-bay-area", "blueg
                "back-room-berkeley", "fifth-street-farms", "sf-folk-music-club", "kalx-entertainment-calendar"]
 
 
-def run(dry_run=False, max_stale_hours=14):
+def run(dry_run=False, max_stale_hours=14, strict=False):
     problems = []
     summary = store._load(config.RUN_SUMMARY_FILE, {})
     health = store.load_health()
@@ -31,7 +37,9 @@ def run(dry_run=False, max_stale_hours=14):
     expected_blocked = {s["id"] for s in srcs if s.get("expected_blocked")}
     broken = [k for k, v in health.items() if k in enabled and k not in expected_blocked and v.get("consecutive_failures", 0) >= 3]
     if broken:
-        problems.append(f"sources failing 3+ runs in a row: {', '.join(sorted(broken))}")
+        print(f"[watchdog] note: sources failing 3+ runs in a row (dashboard only): {', '.join(sorted(broken))}")
+    if len(broken) >= max(5, len(enabled) // 5):
+        problems.append(f"{len(broken)} sources failing 3+ runs in a row (network or runner trouble?): {', '.join(sorted(broken))}")
     for k in KEY_SOURCES:
         h = health.get(k)
         if k in enabled and h and h.get("last_status") == "ok" and h.get("last_count", 0) == 0:
@@ -58,8 +66,26 @@ def run(dry_run=False, max_stale_hours=14):
     if h is not None and not dry_run and live_enabled():
         ensure_labels(h)
         num = find_open_issue(h, LABEL_OPS, "[radar ops]")
-        if num:
+        if not num:
+            create_issue(h, "[radar ops] collection needs attention", body, [LABEL_OPS])
+        elif _last_problems(h, num) != set(problems):
             comment_issue(h, num, body)
         else:
-            create_issue(h, "[radar ops] collection needs attention", body, [LABEL_OPS])
-    return 1
+            print(f"[watchdog] same problems already reported on #{num}; not commenting again")
+    return 1 if strict else 0
+
+
+def _last_problems(h, number) -> set:
+    """Problem lines of the newest report on the open ops issue (its last comment, else its body)."""
+    import requests
+    from .notify import API, _repo
+    try:
+        r = requests.get(f"{API}/repos/{_repo()}/issues/{number}/comments", headers=h, params={"per_page": 100}, timeout=30)
+        bodies = [c.get("body") or "" for c in r.json()] if r.status_code == 200 else []
+        if not bodies:
+            r = requests.get(f"{API}/repos/{_repo()}/issues/{number}", headers=h, timeout=30)
+            bodies = [r.json().get("body") or ""] if r.status_code == 200 else []
+    except (requests.RequestException, ValueError):
+        return set()
+    last = bodies[-1] if bodies else ""
+    return {l[2:] for l in last.splitlines() if l.startswith("- ")}
