@@ -195,7 +195,7 @@ class NotifyTests(unittest.TestCase):
             dp = pathlib.Path(d)
             with patch.object(config, "EVENTS_FILE", dp / "events.json"), patch.object(config, "ALERTS_FILE", dp / "alerts.json"), \
                  patch.object(config, "SOURCE_HEALTH_FILE", dp / "health.json"), patch.object(config, "COSTS_FILE", dp / "costs.jsonl"), \
-                 patch.object(config, "DATA", dp), patch.dict("os.environ", {"GITHUB_TOKEN": ""}):
+                 patch.object(config, "DATA", dp), patch.dict("os.environ", {"GITHUB_TOKEN": "", "GITHUB_REF": "refs/heads/some-branch"}):
                 store.save_events(events)
                 buf = io.StringIO()
                 with contextlib.redirect_stdout(buf):
@@ -216,7 +216,8 @@ class NotifyTests(unittest.TestCase):
         self.assertNotIn("Santa Cruz Pretty Good", out)  # far, and not special enough
         self.assertIn("Santa Cruz Very Special", out)
         self.assertEqual(out.count("Peter Stampfel and Will Sprott**"), 0)  # alerted already, so not new in the email
-        self.assertFalse(notify.live_enabled())
+        with patch.dict("os.environ", {"GITHUB_REF": "refs/heads/some-branch", "RADAR_NOTIFY_LIVE": ""}):
+            self.assertFalse(notify.live_enabled())   # CI on main sets GITHUB_REF=refs/heads/main
 
 
 class GCalTests(unittest.TestCase):
