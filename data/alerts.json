@@ -1,5 +1,87 @@
 {
- "alerted": {},
+ "alerted": {
+  "ev_18072512f699": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-11-03",
+   "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_1dfb22311ad4": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2027-01-16",
+   "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_3b365bf12e4a": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-12-04",
+   "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_77216bb9cb0c": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2027-01-10",
+   "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_84dff7547020": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-11-04",
+   "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_da3b1224db08": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-11-11",
+   "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  }
+ },
  "bootstrapped": "2026-11-01T19:21:29+00:00",
- "digests": []
+ "digests": [
+  {
+   "at": "2026-11-02T18:33:19+00:00",
+   "issue": 4,
+   "new_ahead": 3,
+   "soon": 3
+  }
+ ],
+ "picked": {
+  "ev_18072512f699": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-11-03"
+  },
+  "ev_1dfb22311ad4": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2027-01-16"
+  },
+  "ev_3b365bf12e4a": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-12-04"
+  },
+  "ev_77216bb9cb0c": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2027-01-10"
+  },
+  "ev_84dff7547020": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-11-04"
+  },
+  "ev_da3b1224db08": {
+   "at": "2026-11-02T18:33:19+00:00",
+   "date": "2026-11-11"
+  }
+ }
 }
