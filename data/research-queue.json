@@ -1,7 +1,7 @@
 {
- "backlog": 1425,
+ "backlog": 1389,
  "count": 40,
- "generated_at": "2026-11-02T06:31:50+00:00",
+ "generated_at": "2026-11-02T18:41:34+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -67,6 +67,25 @@
     "booking signal: The Back Room (+8)",
     "listed by a taste-aligned calendar (+14)",
     "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-07",
+   "description": "Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Kai Lyons-Guitar, the[...]",
+   "fingerprint": "3a706500c970",
+   "id": "ev_d343ef65af2d",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2026-11-07T22:30:00-08:00",
+   "title": "Late Set: Simon Rowe Organ Trio",
+   "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-72/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
   {
@@ -160,46 +179,6 @@
    ]
   },
   {
-   "city": "Santa Cruz",
-   "date": "2027-03-10",
-   "description": "Lucía is a 24-year-old vocalist from Veracruz, México whose singular artistic vision bridges the gaps between jazz, latin, and pop music. Lucía Gutierrez Rebolloso started her musical career at the age of two, singing and dancing in her parents' son jarocho band, Son de Madera. She began studying voice at the age of thirteen at Universidad Veracruzana, and in 2022 received a Bachelor's degree in J",
-   "fingerprint": "8f23aa223aa6",
-   "id": "ev_2d96d87856a4",
-   "other_urls": [],
-   "rules_score": 84.0,
-   "rules_tier": "strong",
-   "start": "2027-03-10T19:00:00-08:00",
-   "title": "Lucía",
-   "url": "https://www.kuumbwajazz.org/calendar/lucia-2/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "roots_adjacent: son jarocho (+10)",
-    "jazz_core: jazz (+18)",
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-03-25",
-   "description": "Delbert Anderson , a Diné jazz trumpet artist, composer, and educator, stands at the forefront of a vibrant Native American jazz scene. His work, deeply rooted in his Diné heritage, seamlessly integrates Navajo \"spinning songs\" of love, healing, and courtship with jazz and funk. With his Delbert Anderson Quartet, Anderson revives the improvised sounds of the Diné circle, blending them with jazz, f",
-   "fingerprint": "5a5069877b98",
-   "id": "ev_55f25ffc10f7",
-   "other_urls": [],
-   "rules_score": 84.0,
-   "rules_tier": "strong",
-   "start": "2027-03-25T19:00:00-07:00",
-   "title": "Delbert Anderson Quartet – 'Live at Kuumbwa' Album Release Celebration",
-   "url": "https://www.kuumbwajazz.org/calendar/delbert-anderson-quartet-live-at-kuumbwa-album-release-celebration/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz, improvised, trumpet (+27)",
-    "hiphop_classic: hip hop, hip-hop (+15)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
    "city": "San Francisco",
    "date": "2026-11-07",
    "description": "The Chapel: Alex Cameron, Joss Da Costa",
@@ -279,6 +258,46 @@
     "theater_core: olivier (+14)",
     "intimate room: Old First Church (+14)",
     "listed by a taste-aligned calendar (+6)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-03-10",
+   "description": "Lucía is a 24-year-old vocalist from Veracruz, México whose singular artistic vision bridges the gaps between jazz, latin, and pop music. Lucía Gutierrez Rebolloso started her musical career at the age of two, singing and dancing in her parents' son jarocho band, Son de Madera. She began studying voice at the age of thirteen at Universidad Veracruzana, and in 2022 received a Bachelor's degree in J",
+   "fingerprint": "8f23aa223aa6",
+   "id": "ev_2d96d87856a4",
+   "other_urls": [],
+   "rules_score": 84.0,
+   "rules_tier": "strong",
+   "start": "2027-03-10T19:00:00-08:00",
+   "title": "Lucía",
+   "url": "https://www.kuumbwajazz.org/calendar/lucia-2/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "roots_adjacent: son jarocho (+10)",
+    "jazz_core: jazz (+18)",
+    "theater_core: musical (+14)",
+    "intimate room: Kuumbwa Jazz (+14)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-03-25",
+   "description": "Delbert Anderson , a Diné jazz trumpet artist, composer, and educator, stands at the forefront of a vibrant Native American jazz scene. His work, deeply rooted in his Diné heritage, seamlessly integrates Navajo \"spinning songs\" of love, healing, and courtship with jazz and funk. With his Delbert Anderson Quartet, Anderson revives the improvised sounds of the Diné circle, blending them with jazz, f",
+   "fingerprint": "5a5069877b98",
+   "id": "ev_55f25ffc10f7",
+   "other_urls": [],
+   "rules_score": 84.0,
+   "rules_tier": "strong",
+   "start": "2027-03-25T19:00:00-07:00",
+   "title": "Delbert Anderson Quartet – 'Live at Kuumbwa' Album Release Celebration",
+   "url": "https://www.kuumbwajazz.org/calendar/delbert-anderson-quartet-live-at-kuumbwa-album-release-celebration/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz, improvised, trumpet (+27)",
+    "hiphop_classic: hip hop, hip-hop (+15)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
    ]
   },
   {
@@ -762,30 +781,6 @@
     "booking signal: Freight & Salvage (+8)",
     "listed by a taste-aligned calendar (+14)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-01",
-   "description": "Six60 at The Independent at 2026-11-01T20:00:00-0800",
-   "fingerprint": "ced9a567ace1",
-   "id": "ev_615fa302515a",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-    "https://kalx.berkeley.edu/event/events-october-26-november1-2026/",
-    "https://www.songkick.com/concerts/43333977-six60-at-independent?utm_medium=organic&utm_source=microformat",
-    "https://www.theindependentsf.com/tm-event/six60/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-11-01T20:00:00-08:00",
-   "title": "Six60 @ The Independent",
-   "url": "https://www.songkick.com/concerts/43333977-six60-at-independent",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "7 independent sources (+12)"
    ]
   },
   {

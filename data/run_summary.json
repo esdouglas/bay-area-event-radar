@@ -1,14 +1,17 @@
 {
- "inventory_total": 3852,
- "inventory_upcoming": 3297,
- "merged_sources": 6,
- "new_events": 19,
- "run_id": "c27e33e590bd",
- "seconds": 636.2,
- "sources_due": 65,
+ "inventory_total": 3889,
+ "inventory_upcoming": 3236,
+ "merged_sources": 9,
+ "new_events": 46,
+ "run_id": "2a705a60a0f9",
+ "seconds": 597.9,
+ "sources_due": 69,
  "sources_failed": [
-  "outsound"
+  "fifth-street-farms-site",
+  "old-first-concerts",
+  "outsound",
+  "the-marsh"
  ],
- "sources_ok": 64,
- "ts": "2026-11-02T06:27:11+00:00"
+ "sources_ok": 65,
+ "ts": "2026-11-02T18:36:38+00:00"
 }
