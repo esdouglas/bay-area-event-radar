@@ -207,9 +207,11 @@ class NotifyTests(unittest.TestCase):
                     notify.run(digest_flag=True, dry_run=True)
                 out = buf.getvalue()
         self.assertNotIn("[dry-run issue]", first)
-        self.assertIn("[dry-run issue] [radar] Book ahead: Peter Stampfel", out)
+        self.assertIn("[dry-run issue] Book ahead: Peter Stampfel", out)
         self.assertNotIn("Book ahead: Big Hall", out)
-        self.assertIn("## New, book ahead", out)
+        self.assertIn("NEW, BOOK AHEAD", out)
+        self.assertIn("Shows for the week of", out)
+        self.assertNotIn("[radar]", out)
         self.assertIn("Big Hall Show", out)            # in the email, just not alerted
         self.assertNotIn("Low Strong Show", out)       # below the pick bar
         self.assertNotIn("Far Away Show", out)         # outside the region
@@ -218,6 +220,29 @@ class NotifyTests(unittest.TestCase):
         self.assertEqual(out.count("Peter Stampfel and Will Sprott**"), 0)  # alerted already, so not new in the email
         with patch.dict("os.environ", {"GITHUB_REF": "refs/heads/some-branch", "RADAR_NOTIFY_LIVE": ""}):
             self.assertFalse(notify.live_enabled())   # CI on main sets GITHUB_REF=refs/heads/main
+
+
+class MailerTests(unittest.TestCase):
+    def test_render_and_subject_names(self):
+        from unittest.mock import patch
+        from radar import mailer, notify
+        secs = [{"title": "Next two weeks", "cards": [{"title": "A <b>&", "when": "Tue Nov 3", "where": "Freight", "tags": ["small room"],
+                                                       "why": "Why.", "links": [("Tickets", "https://t?a=1&b=2")]}]},
+                {"title": "Empty", "cards": []}]
+        h = mailer.render_html("Week of November 2", "Intro.", secs, [("Site", "https://s")])
+        self.assertIn("A &lt;b&gt;&amp;", h)
+        self.assertIn("https://t?a=1&amp;b=2", h)
+        self.assertNotIn("Empty", h)
+        self.assertIn("Tickets: https://t?a=1&b=2", mailer.render_text("S", "Intro.", secs, []))
+        self.assertEqual(notify._short_name("Ms. Lauryn Hill & Wyclef Jean: Celebrating 30 years of Fugees' The Score"), "Lauryn Hill & Wyclef Jean")
+        self.assertEqual(notify._clean_title("ALUM RIDGE BOYS & ASHLEE"), "Alum Ridge Boys & Ashlee")
+
+    def test_unconfigured_send_is_a_noop(self):
+        from unittest.mock import patch
+        from radar import mailer, notify
+        with patch.dict("os.environ", {"RADAR_EMAIL": "", "GMAIL_APP_PASSWORD": ""}):
+            self.assertFalse(mailer.configured())
+            self.assertFalse(mailer.send("s", "<p>h</p>", "t"))
 
 
 class GCalTests(unittest.TestCase):

@@ -14,6 +14,7 @@ import requests
 
 from . import config, store
 from .normalize import TZ, region_of
+from . import mailer
 from .picks import book_ahead, cfg, one_per_act, pick_score, zone
 
 API = "https://api.github.com"
@@ -193,11 +194,25 @@ def immediate(events, alerts, h, dry_run):
                 comment_issue(h, rec.get("issue"), f"Update: now **{_when(e)}**, status {e['status']}.\n\n{event_card(e)}", dry_run)
             rec.update({"date": e["date"], "status": e["status"], "updated": config.now_iso()})
             continue
-        title = f"[radar] Book ahead: {e['title'][:60]} · {e['date']} @ {e.get('venue') or e.get('venue_raw') or '?'}"
+        title = f"Book ahead: {_short_name(e['title'], 50)}, {e['date']} at {e.get('venue') or e.get('venue_raw') or '?'}"
         body = (f"@{_owner()} a top pick in a small room that can sell out.\n\n{event_card(e)}\n\n"
                 f"<sub>Event id `{e['id']}`. This is the only kind of alert sent between Monday emails. "
                 f"Inventory: https://{_owner()}.github.io/{_repo().split('/')[1]}/</sub>")
-        num = create_issue(h, title, body, [LABEL_ALERT], dry_run)
+        num = None
+        if not dry_run and mailer.configured():
+            c = {"title": _clean_title(e["title"])[:90], "when": _day(e, dt.datetime.now(TZ).date()),
+                 "where": (e.get("venue") or e.get("venue_raw") or "?") + (f", {e['city']}" if e.get("city") else ""),
+                 "tags": ["small room, can sell out"], "why": " ".join(re.split(r"(?<=[.!?])\s+", ((e.get("research") or {}).get("reason") or _why(e)).strip())[:3]),
+                 "links": [("Details", e.get("url"))] + ([("Tickets", e["ticket_url"])] if e.get("ticket_url") and e["ticket_url"] != e.get("url") else [])}
+            secs = [{"title": "Book ahead", "cards": [c]}]
+            intro = "A top pick in a small room that can sell out. This is the only kind of note sent between Monday emails."
+            site = f"https://{_owner()}.github.io/{_repo().split('/')[1]}/"
+            subj = f"Book ahead: {_short_name(e['title'], 50)}, {_day(e, dt.datetime.now(TZ).date()).split(',')[0]} at {e.get('venue') or e.get('venue_raw') or '?'}"
+            if mailer.send(subj, mailer.render_html(_short_name(e["title"], 60), intro, secs, [("Everything the radar found", site)]),
+                           mailer.render_text(subj, intro, secs, [("Everything the radar found", site)])):
+                num = "email"
+        if num is None:
+            num = create_issue(h, title, body, [LABEL_ALERT], dry_run)
         alerts["alerted"][e["id"]] = {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"], "tier": e.get("tier")}
         alerts.setdefault("picked", {})[e["id"]] = {"at": config.now_iso(), "date": e["date"]}
         sent += 1
@@ -234,43 +249,56 @@ def digest(events, alerts, h, dry_run, horizon_days=120):
                         and zone(e) != "far" and e["id"] not in pick_ids], key=pick_score)
     also = sorted(sorted(also, key=by_score)[:D["max_also"]], key=by_date)
 
-    def card(e, note=""):
-        r = e.get("research") or {}
-        why = (r.get("reason") or "").strip() or "Seed artist on the bill; not yet researched."
-        why = " ".join(re.split(r"(?<=[.!?])\s+", why)[:2])
-        links = [f"[source]({e['url']})"] if e.get("url") else []
+    def links(e):
+        out = [("Details", e.get("url"))] if e.get("url") else []
         if e.get("ticket_url") and e["ticket_url"] != e.get("url"):
-            links.append(f"[tickets]({e['ticket_url']})")
-        tags = [x for x in ("small room, can sell out" if book_ahead(e) else "", ("sold out at the box office; resale only" if _tickets(e) == "sold-out" else f"tickets {_tickets(e)}") if _tickets(e) != "unverified" else "",
-                            {"mid": "a drive", "far": "a trip, but special"}.get(zone(e), ""), note) if x]
-        return (f"**{_clean_title(e['title'])[:90]}**  \n{_day(e, today)} · {e.get('venue') or e.get('venue_raw') or '?'}"
-                + (f", {e['city']}" if e.get("city") and e["city"].lower() not in (e.get("venue") or "").lower() else "")
-                + (f" · {' · '.join(tags)}" if tags else "") + "  \n" + why + "  \n" + " ".join(links))
+            out.append(("Tickets", e["ticket_url"]))
+        return out
+
+    def where(e):
+        v = e.get("venue") or e.get("venue_raw") or "?"
+        return v + (f", {e['city']}" if e.get("city") and e["city"].lower() not in v.lower() else "")
+
+    def card(e):
+        r = e.get("research") or {}
+        why = (r.get("reason") or "").strip() or "A seed artist is on the bill; not researched yet."
+        why = " ".join(re.split(r"(?<=[.!?])\s+", why)[:2])
+        t = _tickets(e)
+        tags = [x for x in ("small room, can sell out" if book_ahead(e) else "",
+                            ("sold out at the box office" if t == "sold-out" else f"tickets {t}") if t != "unverified" else "",
+                            {"mid": "a drive", "far": "a trip, but special"}.get(zone(e), "")) if x]
+        return {"title": _clean_title(e["title"])[:90], "when": _day(e, today), "where": where(e), "tags": tags, "why": why, "links": links(e)}
 
     def line(e):
-        return f"- {_day(e, today)} · {e['title'][:70]} · {e.get('venue') or e.get('venue_raw') or '?'}" + (" · small room" if book_ahead(e) else "")
+        return {"when": _day(e, today), "title": _clean_title(e["title"])[:70], "where": where(e),
+                "tag": "small room" if book_ahead(e) else "", "url": e.get("url")}
 
-    parts = [f"@{_owner()} {len(soon)} worth considering in the next two weeks, {len(new_ahead)} new to book ahead.", ""]
-    parts.append("## Next two weeks")
-    parts += [card(e) + "\n" for e in soon] or ["Nothing that clears the bar. A quiet fortnight.\n"]
-    if new_ahead:
-        parts.append("## New, book ahead")
-        parts += [card(e) + "\n" for e in new_ahead]
-    if still:
-        parts.append("## Still ahead (from earlier emails)")
-        parts += [line(e) for e in still] + [""]
-    if also:
-        parts.append("## Also nearby, just under the bar")
-        parts += [line(e) for e in also] + [""]
+    sections = [{"title": "Next two weeks", "cards": [card(e) for e in soon], "empty": "Nothing clears the bar. A quiet fortnight."},
+                {"title": "New, book ahead", "cards": [card(e) for e in new_ahead]},
+                {"title": "Still ahead, from earlier emails", "lines": [line(e) for e in still]},
+                {"title": "Also nearby, just under the bar", "lines": [line(e) for e in also]}]
+    n_soon, n_new = len(soon), len(new_ahead)
+    intro = (f"{n_soon} worth considering in the next two weeks" if n_soon else "Nothing pressing in the next two weeks") + \
+            (f", and {n_new} new to book ahead." if n_new else ".")
     health = store.load_health()
     failing = sorted(k for k, v in health.items() if v.get("last_status") not in ("ok", None, "partial"))
-    if failing:
-        parts.append(f"<sub>Sources needing attention: {', '.join(failing)}</sub>  ")
-    parts.append(f"<sub>Everything the radar found: https://{_owner()}.github.io/{_repo().split('/')[1]}/</sub>")
-    body = "\n".join(parts)
-    title = (f"[radar] Week of {today:%b %-d}: " + (", ".join(e["title"][:40] for e in (soon + new_ahead)[:2]) or "quiet week"))
-    num = create_issue(h, title, body, [LABEL_DIGEST], dry_run)
-    alerts["digests"].append({"at": config.now_iso(), "issue": num, "soon": len(soon), "new_ahead": len(new_ahead)})
+    note = f"Sources needing attention: {', '.join(failing)}" if failing else ""
+    site = f"https://{_owner()}.github.io/{_repo().split('/')[1]}/"
+    footer = [("Everything the radar found", site), ("Source health", site + "dashboard.html")]
+    heads = [_short_name(e["title"]) for e in (soon + new_ahead)[:2]]
+    rest = n_soon + n_new - len(heads)
+    subject = (f"Shows for the week of {today:%b %-d}: " + (" & ".join(heads) if len(heads) < 2 else f"{heads[0]}, {heads[1]}")
+               + (f" + {rest} more" if rest > 0 else "")) if heads else f"Shows for the week of {today:%b %-d}: a quiet week"
+    num = None
+    emailed = False
+    if not dry_run and mailer.configured():
+        emailed = mailer.send(subject, mailer.render_html(f"Week of {today:%B %-d}", intro, sections, footer, note),
+                              mailer.render_text(f"Week of {today:%B %-d}", intro, sections, footer, note))
+    if dry_run:
+        print(mailer.render_text(subject, intro, sections, footer, note))
+    elif not emailed:
+        num = create_issue(h, subject, f"@{_owner()} " + mailer.render_markdown(intro, sections, footer, note), [LABEL_DIGEST], dry_run)
+    alerts["digests"].append({"at": config.now_iso(), "issue": num, "emailed": emailed, "subject": subject, "soon": len(soon), "new_ahead": len(new_ahead)})
     for e in soon + new_ahead:
         picked.setdefault(e["id"], {"at": config.now_iso(), "date": e["date"]})
         alerts["alerted"].setdefault(e["id"], {"at": config.now_iso(), "issue": num, "date": e["date"], "status": e["status"],
@@ -282,7 +310,19 @@ def _clean_title(t):
     """Drop a date the venue repeats in the title ("KENDL WINTER -- SATURDAY, DECEMBER 12", "... DEC. 16 2026")."""
     t = re.sub(r"\s*(?:--|[\u2014\u2013-])?\s*(?:(?:mon|tues?|wed(?:nes)?|thu(?:rs)?|fri|sat(?:ur)?|sun)(?:day)?\.?,?\s+)?"
                r"(?:jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*\.?\s+\d{1,2}(?:,?\s+20\d\d)?\s*$", "", t, flags=re.I)
-    return t.strip(" -\u2014\u2013") or t
+    t = t.strip(" -\u2014\u2013") or t
+    if t.isupper() and len(t) > 4:
+        t = re.sub(r"\b(\w)(\w*)", lambda m: m.group(1) + m.group(2).lower(), t)
+    return t
+
+
+def _short_name(t, n=40):
+    """Subject-line name: no repeated date, no subtitle after a colon or dash, cut at a word boundary."""
+    t = re.split(r"\s*(?::|\s[-\u2013\u2014|]\s)\s*", _clean_title(t))[0].strip()
+    t = re.sub(r"^(?:Ms|Mr|Mrs|Dr)\.\s+", "", t)
+    if len(t) > n:
+        t = t[:n].rsplit(" ", 1)[0].rstrip(",&+ ") + "..."
+    return t
 
 
 def _day(e, today):
