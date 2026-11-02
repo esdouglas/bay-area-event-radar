@@ -1,7 +1,7 @@
 {
- "backlog": 1419,
+ "backlog": 1425,
  "count": 40,
- "generated_at": "2026-11-01T22:57:20+00:00",
+ "generated_at": "2026-11-02T06:31:50+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -44,6 +44,29 @@
     "intimacy: trio (+5)",
     "intimate room: Freight & Salvage (+14)",
     "booking signal: Freight & Salvage (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-13",
+   "description": "Zoë Lewis at The Back Room on Nov 13, 2026",
+   "fingerprint": "01b42d303bc5",
+   "id": "ev_25130c9dc583",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/",
+    "https://events.humanitix.com/zoe-lewis"
+   ],
+   "rules_score": 67.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Zoe ̈ Lewis & Friends",
+   "url": "https://www.jambase.com/show/zoe-lewis-the-back-room-20261113",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "3 independent sources (+8)"
    ]
   },
   {
@@ -806,29 +829,6 @@
     "intimate room: The Independent (+14)",
     "listed by a taste-aligned calendar (+12)",
     "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Albany",
-   "date": "2026-11-08",
-   "description": "Ivy Room: Chris Acker, Nikolai Shveitser, Skyway Man, Mikayla McVey Duo",
-   "fingerprint": "e1f480bead3b",
-   "id": "ev_3c39bef97e28",
-   "other_urls": [
-    "https://www.jambase.com/show/chris-acker-ivy-room-20261108",
-    "https://tickets.venuepilot.com/e/chris-acker-2026-11-08-ivy-room-albany-c054a4"
-   ],
-   "rules_score": 62.0,
-   "rules_tier": "strong",
-   "start": "2026-11-08T00:00:00-08:00",
-   "title": "Chris Acker, Nikolai Shveitser, Skyway Man, Mikayla McVey Duo",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Ivy Room",
-   "why_rules": [
-    "intimacy: duo (+5)",
-    "intimate room: Ivy Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
    ]
   }
  ]
