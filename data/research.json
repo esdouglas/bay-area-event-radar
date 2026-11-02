@@ -60,6 +60,77 @@
       "Rules score credited 'musical' as theater, which is spurious; this is a music dinner show."
     ]
   },
+  "ev_05137edea8c9": {
+    "evidence": [
+      {
+        "finding": "Sunday Nov 8 at 4 pm; Olivier Zerouali, baritone, Ji Youn Lee, piano; works by Schubert, Strauss and Faure; ticket tiers listed without prices; live stream option; no availability statement.",
+        "url": "https://www.oldfirstconcerts.org/performance/lieder-alive-olivier-zerouali-ji-youn-lee-sunday-november-8-at-4-pm/"
+      },
+      {
+        "finding": "Second-year SF Opera Adler Fellow; SUNY Purchase, master's at Yale; Merola 2024, Glimmerglass; current-season roles include Fiorello in Il Barbiere di Siviglia and Schaunard in Boheme Out of the Box.",
+        "url": "https://sfopera.com/about/bios/adlers/Olivier-Zerouali"
+      }
+    ],
+    "fingerprint": "901f1b66e87e",
+    "fit": 22,
+    "performers": [
+      {
+        "known_for": "Baritone, San Francisco Opera Adler Fellow",
+        "name": "Olivier Zerouali",
+        "significance": "local"
+      },
+      {
+        "known_for": "Pianist (collaborator for this recital)",
+        "name": "Ji Youn Lee",
+        "significance": "none"
+      }
+    ],
+    "reason": "Baritone Olivier Zerouali, a second-year San Francisco Opera Adler Fellow (Merola 2024, Yale), sings Schubert, Strauss and Fauré art songs with pianist Ji Youn Lee at Old First Church on Sun Nov 8 at 4 pm. A promising young opera singer in a classical lieder recital; the 'Olivier' keyword match was a name, not theater. Not a match for Erik's roots, jazz or theater interests.",
+    "researched_at": "2026-11-02T22:44:35Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Ji Youn Lee's background not researched"
+    ]
+  },
+  "ev_0622a565b20b": {
+    "evidence": [
+      {
+        "finding": "Sat Nov 14, 2026, 10:30 pm; Simon Rowe Hammond organ, Kai Lyons guitar, Brian Fishler drums; blues, bebop, ballads and banter; $20; first come first served.",
+        "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-73/"
+      },
+      {
+        "finding": "Search results show many recurring 'Late Set: Simon Rowe Organ Trio' listings across months (inference: weekly residency).",
+        "url": "https://www.jazznearyou.com/sanfrancisco/events/late-set-simon-rowe-organ-trio-at-keys-jazz-bistro-on-march-15"
+      }
+    ],
+    "fingerprint": "a0b59f93e9f5",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "Hammond organ; owner of Keys Jazz Bistro",
+        "name": "Simon Rowe",
+        "significance": "local"
+      },
+      {
+        "known_for": "Guitar",
+        "name": "Kai Lyons",
+        "significance": "local"
+      },
+      {
+        "known_for": "Drums",
+        "name": "Brian Fishler",
+        "significance": "local"
+      }
+    ],
+    "reason": "Keys Jazz Bistro owner Simon Rowe leads his Hammond organ trio (Kai Lyons on guitar, Brian Fishler on drums) in a 10:30 pm late set on Saturday, Nov 14, $20. It is a recurring weekly house residency of blues, bebop, ballads and banter, solid and intimate but not a special or adventurous date.",
+    "researched_at": "2026-11-02T22:54:22Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": []
+  },
   "ev_0743b6f714c5": {
     "evidence": [
       {
@@ -280,6 +351,51 @@
       "Band not identified.",
       "Event is on the day of research.",
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_13755d119929": {
+    "evidence": [
+      {
+        "finding": "Macy Blackman & the Mighty Fines, Nov 27, 2026, 7:30 to 9:30 pm, Bird & Beckett, 653 Chenery St, SF. Lineup: Macy Blackman piano/vocals, Snakebite sax, Bing Nathan bass, Larry Vann drums. $25 cover, students $10, BYOB, reservations by phone 415-586-3733. No sold-out notice.",
+        "url": "https://birdbeckett.com/event/macy-blackman_2026-11-27/"
+      },
+      {
+        "finding": "KALW describes Blackman as a musician and musicologist playing New Orleans-style R&B like 'an uptown New Orleans club such as the Dew Drop Inn circa 1955'; as a teen his band backed the Orlons and Lee Andrews and the Hearts; lived in NYC 1966 to 2000; taught 20th-century American styles at UC Berkeley; CD Shoorah Shoorah is a tribute to Irma Thomas and Allen Toussaint.",
+        "url": "https://www.kalw.org/post/fog-city-blues-macy-blackman-mighty-fines"
+      }
+    ],
+    "fingerprint": "b47791fc662d",
+    "fit": 52,
+    "performers": [
+      {
+        "known_for": "New Orleans R&B pianist/vocalist and musicologist, UC Berkeley instructor, Shoorah Shoorah (Irma Thomas/Allen Toussaint tribute album)",
+        "name": "Macy Blackman",
+        "significance": "local"
+      },
+      {
+        "known_for": "Saxophonist in the Mighty Fines",
+        "name": "Snakebite",
+        "significance": "none"
+      },
+      {
+        "known_for": "Bassist, frequent Blackman partner at Bird & Beckett",
+        "name": "Bing Nathan",
+        "significance": "local"
+      },
+      {
+        "known_for": "Drummer, Bird & Beckett regular",
+        "name": "Larry Vann",
+        "significance": "local"
+      }
+    ],
+    "reason": "Macy Blackman is a pianist, singer and musicologist who has played 1950s-style New Orleans R&B since it was new, and has taught American R&B, swing and classic jazz at UC Berkeley. With the Mighty Fines he plays Dew Drop Inn era New Orleans R&B in Bird & Beckett's tiny BYOB bookshop room for $25. It is a deep-roots, historically informed night (inference: more of a period R&B dance band than adventurous improvised jazz), and Black Friday makes it an easy evening out.",
+    "researched_at": "2026-11-02T22:44:04Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Reservation-by-phone room; no availability stated",
+      "Recurring local act at this venue, so this date is not singular"
     ]
   },
   "ev_175dcbd0ac26": {
@@ -506,6 +622,35 @@
       "Show time and price unknown."
     ]
   },
+  "ev_23f29a0d761a": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission not granted); batch description: spinning hip-hop, jazz, funk, disco and beyond on vinyl; free; 9 pm.",
+        "url": "https://littlehillelcerrito.com/events/"
+      },
+      {
+        "finding": "A Sangwoo who is a Seattle-based DJ, producer and crate digger who started as a turntablist in Seoul and plays eclectic genre-blending sets.",
+        "url": "https://kexp.org/read/2023/1/30/midnight-in-a-perfect-world-sangwoo"
+      }
+    ],
+    "fingerprint": "a92082846f94",
+    "fit": 12,
+    "performers": [
+      {
+        "known_for": "Vinyl DJ (possibly the Seattle crate digger)",
+        "name": "DJ Sangwoo",
+        "significance": "none"
+      }
+    ],
+    "reason": "This is a free DJ night at Little Hill Lounge in El Cerrito: hip-hop, jazz, funk and disco on vinyl, not a live performance. If it is the Seattle crate digger Sangwoo profiled by KEXP, it could be a good set, but it is still a bar DJ night (inference).",
+    "researched_at": "2026-11-02T22:54:19Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Unclear whether this is the same Sangwoo profiled by KEXP"
+    ]
+  },
   "ev_24ce08e28341": {
     "evidence": [
       {
@@ -539,36 +684,39 @@
   "ev_25130c9dc583": {
     "evidence": [
       {
-        "finding": "JamBase listing (not reachable this run); captured text: 'Zoë Lewis at The Back Room on Nov 13, 2026'.",
+        "finding": "Zoe Lewis & Friends, Fri Nov 13, 2026, 8-10 PM, The Back Room, 1984 Bonita Ave, Berkeley; Kate Wolf on bass; $20 advance, $25 door; original songs and travel stories blending world-beat, Latin, jazz and folk; has toured with Indigo Girls, Judy Collins, Kate Pierson; 10 albums.",
+        "url": "https://events.humanitix.com/zoe-lewis"
+      },
+      {
+        "finding": "Confirms Nov 13, 2026, 8:00 pm at The Back Room, from $20 via Humanitix.",
         "url": "https://www.jambase.com/show/zoe-lewis-the-back-room-20261113"
       },
       {
-        "finding": "Wikipedia has an article on Zoë Lewis (search result; not opened).",
-        "url": "https://en.wikipedia.org/wiki/Zo%C3%AB_Lewis"
-      },
-      {
-        "finding": "Concert-review site with multiple Zoë Lewis shows 2022 to 2025, showing an active touring career.",
-        "url": "https://nicepace.net/concerts/2025/20250711zoelewis.htm"
+        "finding": "Fetch failed (permission not granted).",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
       }
     ],
-    "fingerprint": "4b88cc866b32",
-    "fit": 50,
+    "fingerprint": "01b42d303bc5",
+    "fit": 35,
     "performers": [
       {
-        "known_for": "Folk singer-songwriter, multi-instrumentalist",
-        "name": "Zoë Lewis",
+        "known_for": "Singer-songwriter and multi-instrumentalist; toured with Indigo Girls, Judy Collins",
+        "name": "Zoe Lewis",
         "significance": "local"
+      },
+      {
+        "known_for": "Bass (per listing)",
+        "name": "Kate Wolf",
+        "significance": "none"
       }
     ],
-    "reason": "Zoë Lewis, an English-born touring singer-songwriter and multi-instrumentalist with a long folk-circuit career, plays The Back Room in Berkeley on Fri Nov 13. Her music (background knowledge) is whimsical, world-tinged folk on ukulele, piano, saxophone and percussion, popular in New England folk circles. Charming small-room show, but closer to songwriter folk than old-time.",
-    "researched_at": "2026-11-01T22:50:56+00:00",
+    "reason": "Zoe Lewis is a singer-songwriter who mixes world-beat, Latin, jazz and folk on piano, guitar and ukulele with travel stories, and has toured with the Indigo Girls and Judy Collins. It is a pleasant $20 night at Berkeley's Back Room on Friday, Nov 13, but it sits outside Erik's roots, improvised-jazz and old-time core. Friends include Kate Wolf on bass.",
+    "researched_at": "2026-11-02T22:54:22Z",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
-    "tier": "possible",
+    "tier": "low",
     "uncertainties": [
-      "Instrumentation and style are from background knowledge, not a page read this run.",
-      "Assumes this is the touring Zoë Lewis with a Wikipedia article.",
-      "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+      "Full list of 'friends' beyond Kate Wolf not stated."
     ]
   },
   "ev_27affeded30b": {
@@ -637,6 +785,50 @@
       "She also has a Nov 20 date at Bankhead Theater, Livermore per a resale listing."
     ]
   },
+  "ev_28ba7e512920": {
+    "evidence": [
+      {
+        "finding": "Fetch failed: permission request timed out, page not read.",
+        "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+      },
+      {
+        "finding": "SFPL 2025 listing: band members Miles and Teo Quale, Andrew Osborn (bass), Ian Ly (2023 National Flat Pick Guitar Champion); plays bluegrass, dawg music, jazz and originals; opened for Marty Stuart and the David Grisman Bluegrass Experience; album The Thing of Dreams.",
+        "url": "https://sfpl.org/events/2025/06/21/performance-crying-uncle-bluegrass-band"
+      },
+      {
+        "finding": "Book Hardly Strictly Bluegrass at 25: The Big Twang! by Tricia Hellman Gibbs, Avery Hellman, Jay Blakesberg and Michael Shapiro; foreword by Emmylou Harris, afterword by Steve Earle.",
+        "url": "https://www.bookpassage.com/event/2026-09-13/tricia-hellman-gibbs-avery-hellman-jay-blakesberg-and-michael-shapiro-hardly"
+      },
+      {
+        "finding": "Describes The Big Twang as a coffee table book compiled from photos, letters and stories about the festival.",
+        "url": "https://hardlystrictlybluegrass.com/artist/hsb-at-25-stories-behind-the-festival/"
+      }
+    ],
+    "fingerprint": "214010f525ef",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Young NorCal bluegrass/dawg band; opened for Marty Stuart and David Grisman",
+        "name": "Crying Uncle Bluegrass Band",
+        "significance": "local"
+      },
+      {
+        "known_for": "The Big Twang festival history book (Tricia Hellman Gibbs, Avery Hellman, Jay Blakesberg, Michael Shapiro)",
+        "name": "Hardly Strictly Bluegrass at 25 book producers",
+        "significance": "local"
+      }
+    ],
+    "reason": "Crying Uncle is a young Northern California bluegrass band (the Quale brothers, bassist Andrew Osborn, and 2023 National Flatpick Guitar Champion Ian Ly) that mixes bluegrass, dawg music and jazz, and has opened for Marty Stuart and the David Grisman Bluegrass Experience. Here they play a library program after a talk with the producers of the new book Hardly Strictly Bluegrass at 25: The Big Twang. This is a free-feeling community event (inference) with a strong picking band, a good low-key outing, but not a must-see.",
+    "researched_at": "2026-11-02T22:55:14+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Date, time and Park Branch details not confirmed against an SFPL 2026 listing; the source calendar fetch failed",
+      "Whether the event is free (likely for an SFPL program, inference)",
+      "Which book producers will speak"
+    ]
+  },
   "ev_2d4569d94a23": {
     "evidence": [
       {
@@ -695,6 +887,36 @@
     "tier": "exceptional",
     "uncertainties": [
       "Presenter currently says 3pm but also offers a pre-show dinner; confirm time before travel. Ticket checkout not inspected."
+    ]
+  },
+  "ev_2d96d87856a4": {
+    "evidence": [
+      {
+        "finding": "Wed Mar 10, 2027, 7:00 PM (doors 6:00) at Kuumbwa Jazz Center, Santa Cruz; advance $40.79, door $42; band not listed; bio cites Sarah Vaughan competition win, Son de Madera upbringing, work with Natalia Lafourcade, Aloe Blacc, La Santa Cecilia, Quetzal; debut album produced by Matt Pierson with standards, Spanish classics and pop; no ticket availability statement.",
+        "url": "https://www.kuumbwajazz.org/calendar/lucia-2/"
+      },
+      {
+        "finding": "Mexican jazz singer from Veracruz; genres jazz, bolero, son jarocho; parents founded Son de Madera; won Sarah Vaughan competition 2022 as first Mexican winner; self-titled debut released 2025.",
+        "url": "https://en.wikipedia.org/wiki/Luc%C3%ADa_Guti%C3%A9rrez_Rebolloso"
+      }
+    ],
+    "fingerprint": "8f23aa223aa6",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "2022 Sarah Vaughan International Jazz Vocal Competition winner; daughter of Son de Madera founders",
+        "name": "Lucia (Lucia Gutierrez Rebolloso)",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Lucia (Lucia Gutierrez Rebolloso) is a young Veracruz jazz singer who in 2022 became the first Mexican to win the Sarah Vaughan International Jazz Vocal Competition, and she grew up singing son jarocho in her parents' celebrated band Son de Madera. Her Matt Pierson-produced debut mixes standards, boleros like 'La Llorona' and pop songs, so this is polished vocal jazz rather than adventurous improvisation. The son jarocho lineage is a real roots connection, but it is a Santa Cruz drive for a mostly crossover vocal set.",
+    "researched_at": "2026-11-02T22:44:35Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Backing band not listed",
+      "How much son jarocho material appears in the live set"
     ]
   },
   "ev_2f32e8713f2d": {
@@ -917,6 +1139,50 @@
       "Cost not stated."
     ]
   },
+  "ev_3b365bf12e4a": {
+    "evidence": [
+      {
+        "finding": "Lists 'Dec. 4: Holly Bowling/Sam Grisman/Max Flansburg Trio - The Freight, Berkeley'.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Sam Grisman is a Mill Valley bassist and bandleader, son of David Grisman, grew up around sessions with Doc Watson, Jerry Garcia, John Hartford, Mike Seeger, Tony Rice; Max Flansburg is listed as a guitarist who has performed with Sam Grisman Project.",
+        "url": "https://californiabluegrass.org/band/sam-grisman-project/"
+      },
+      {
+        "finding": "Holly Bowling is a classically trained pianist known for solo piano Phish and Grateful Dead albums (Better Left Unsung reached Billboard Top 25 Classical), co-founded Ghost Light, performed with Phil Lesh, Bob Weir, Warren Haynes, John Scofield, Branford Marsalis.",
+        "url": "https://www.allaboutjazz.com/musicians/holly-bowling"
+      }
+    ],
+    "fingerprint": "9e0ca657895f",
+    "fit": 80,
+    "performers": [
+      {
+        "known_for": "Solo piano interpretations of Grateful Dead and Phish; Ghost Light",
+        "name": "Holly Bowling",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Bassist, leader of Sam Grisman Project; son of David Grisman",
+        "name": "Sam Grisman",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Guitarist with Sam Grisman Project",
+        "name": "Max Flansburg",
+        "significance": "local"
+      }
+    ],
+    "reason": "Sam Grisman (bassist son of David Grisman, raised around Garcia, Doc Watson, John Hartford and Tony Rice sessions) joins classically trained pianist Holly Bowling, known for solo-piano reimaginings of the Grateful Dead and Phish and for playing with Phil Lesh and Bob Weir, plus guitarist Max Flansburg from the Sam Grisman Project. It is a one-off acoustic Dead-and-Dawg-adjacent improvising trio at the Freight on Friday, Dec 4. Strong countercultural Americana fit, though the piano-led format is more jam-oriented than old-time.",
+    "researched_at": "2026-11-02T22:54:22Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Date, time and price confirmed only by the bgsignal listing, not by a Freight page.",
+      "Repertoire not stated; Dead/Garcia-Grisman material is inference from the performers' projects."
+    ]
+  },
   "ev_3e2662af80af": {
     "evidence": [
       {
@@ -1101,6 +1367,45 @@
       "Forest Bailey unidentified."
     ]
   },
+  "ev_5018baea23ea": {
+    "evidence": [
+      {
+        "finding": "Fetch failed: permission request timed out, page not read.",
+        "url": "https://californiabluegrass.org/event/__trashed/2026-11-13/"
+      },
+      {
+        "finding": "Fetch failed: permission request timed out, page not read.",
+        "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+      },
+      {
+        "finding": "Older (April 2024) listing: every second Friday, The Polish Club, 3040 22nd St; $15 ($15 to 20 donation), kids 12 and under free; live music, all dances taught; band and caller not named; Instagram @feralfridaysfsquaredance.",
+        "url": "https://sf.funcheap.com/feral-friday-square-dance-2/"
+      },
+      {
+        "finding": "Has an Events menu link to a Feral Friday page but no details for November 13, 2026.",
+        "url": "https://californiabluegrass.org/swing/"
+      }
+    ],
+    "fingerprint": "874f4728fde4",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "House band for the dance; not identified",
+        "name": "Unnamed live string band",
+        "significance": "none"
+      }
+    ],
+    "reason": "Feral Friday is a monthly second-Friday community square dance at the Polish Club in the Mission, with a live string band and a caller who teaches every dance, plus a beginners lesson and an old-time jam beforehand. It is a participatory dance rather than a concert, and the band for November is not named, so it suits a social night out more than a show. Past listings put it at about $15 to $20.",
+    "researched_at": "2026-11-02T22:55:14+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "November 13 date taken from the item description and CBA URL; the CBA page fetch failed",
+      "Band and caller for this date unknown",
+      "Description mentions going on to the CBA Camp and Festival, possibly implying an altered schedule (inference)"
+    ]
+  },
   "ev_5254d51b280d": {
     "evidence": [
       {
@@ -1143,6 +1448,40 @@
     "tier": "possible",
     "uncertainties": [
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_55f25ffc10f7": {
+    "evidence": [
+      {
+        "finding": "Thu Mar 25, 2027, 7:00 PM (doors 6:00) at Kuumbwa Jazz Center; advance $34.97, door $36.75; celebrates album Live at Kuumbwa Jazz recorded there; blends Dine circle sounds 'with jazz, funk, and hip-hop'; sidemen not listed; no ticket availability statement.",
+        "url": "https://www.kuumbwajazz.org/calendar/delbert-anderson-quartet-live-at-kuumbwa-album-release-celebration/"
+      },
+      {
+        "finding": "Born in the Navajo Nation (Shiprock, NM); Delbert Anderson Trio formed 2013; hip-hop vocalist Def-i (Christopher Mike-Bidtah) joined around 2015 to form D'DAT; quartet features vocalist James 'Just Jamez' Pakootas; awards from Western Arts Alliance, Doris Duke Charitable Foundation, Chamber Music America.",
+        "url": "https://www.jazztimes.com/features/profiles/delbert-anderson-takes-inspiration-from-navajo-culture/"
+      },
+      {
+        "finding": "Search result shows Delbert Anderson Quartet booked at SFJAZZ 2024 Summer Sessions (page not opened).",
+        "url": "https://www.sfjazz.org/tickets/productions/2024-summer-sessions/delbert-anderson-quartet/"
+      }
+    ],
+    "fingerprint": "5a5069877b98",
+    "fit": 62,
+    "performers": [
+      {
+        "known_for": "Dine jazz trumpeter and composer fusing Navajo spinning songs with jazz, funk and hip-hop; D'DAT with Def-i",
+        "name": "Delbert Anderson",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Dine (Navajo) trumpeter Delbert Anderson blends Navajo spinning songs with jazz, funk and hip-hop, and this is the release show for his album recorded live on the Kuumbwa stage. He has played SFJAZZ and the National Gallery's Jazz in the Garden, with Doris Duke and Chamber Music America support, and his D'DAT project featured hip-hop MC Def-i. Distinctive Indigenous jazz at about $35 in an intimate room, though it is a Santa Cruz drive and leans more groove than free improvisation (inference).",
+    "researched_at": "2026-11-02T22:44:35Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Current quartet lineup not listed; whether a vocalist or MC appears is unconfirmed",
+      "Kuumbwa presenting this as the album release suggests the record is on a small or self label (inference)"
     ]
   },
   "ev_5666244df3ae": {
@@ -1565,6 +1904,45 @@
       "Identity as the UK duo is inference: no source confirms a 2026 US tour, and a Groningen date on Nov 19 and London Dec 1 make a Berkeley Nov 6 stop plausible but unproven. It could be a local act of the same name."
     ]
   },
+  "ev_624ba7d27e79": {
+    "evidence": [
+      {
+        "finding": "Fetch failed: permission request timed out, page not read.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "New album Late to Set (self-released July 24); describes '80s-inspired anthemic style; tour lists 11/7 San Francisco, CA at The Chapel; opened for The Strokes in UK/Europe in October.",
+        "url": "https://www.brooklynvegan.com/alex-cameron-announces-new-album-tour-shares-red-hook-rain/"
+      },
+      {
+        "finding": "Fetch returned only a security check page.",
+        "url": "https://www.stereoboard.com/alex-cameron-tickets/san-francisco/2026-11-07"
+      }
+    ],
+    "fingerprint": "c321ed0b7097",
+    "fit": 22,
+    "performers": [
+      {
+        "known_for": "Australian '80s-styled synth-pop singer-songwriter",
+        "name": "Alex Cameron",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Opener; not researched",
+        "name": "Joss Da Costa",
+        "significance": "none"
+      }
+    ],
+    "reason": "Alex Cameron is an Australian singer-songwriter known for '80s-inspired anthemic synth-pop, touring his self-released album Late to Set after opening for The Strokes in Europe. He is a respected indie act, but his sound sits outside roots, jazz, hip-hop and theater, so this is a pass for Erik.",
+    "researched_at": "2026-11-02T22:55:14+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Opener Joss Da Costa not researched",
+      "Show time not confirmed"
+    ]
+  },
   "ev_632d4268583b": {
     "evidence": [
       {
@@ -1871,6 +2249,51 @@
       "Rules engine 'theater_core: beckett, play' match is a false positive from the venue name."
     ]
   },
+  "ev_6fbc0fdbc1ce": {
+    "evidence": [
+      {
+        "finding": "Sat Nov 21, 2026, doors 6:30, show 7:00 to 8:15 pm, Red Poppy Art House, 2698 Folsom St. Lineup: Chris Bastian bass, Mallar Bhattacharya sarode, Nilan Chaudhuri tabla, Javier Jimenez guitar, Luis Jimenez cajon, Satish Pillai piano, Devi SenGupta vocals. $25 students/seniors, $29 early bird, $35 general online, $40 door. Advises buying advance; limited door tickets may be sold. Debut EP Ragamenco! released 2025.",
+        "url": "https://redpoppyarthouse.org/event/ragamenco/"
+      },
+      {
+        "finding": "Describes the group as Spanish and Indian musicians living in the Bay Area; Javier and Luis Jimenez founded Barrio Manouche; Bhattacharya trained in the Maihar school; Chaudhuri in the Lucknow gharana; SenGupta sings devotional songs in medieval North Indian languages.",
+        "url": "https://sf.funcheap.com/ragamenco/"
+      }
+    ],
+    "fingerprint": "9c02c366d455",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Raga/flamenco/jazz fusion ensemble, debut EP Ragamenco! (2025)",
+        "name": "RagaMenco",
+        "significance": "local"
+      },
+      {
+        "known_for": "Guitar; co-founder of Barrio Manouche",
+        "name": "Javier Jimenez",
+        "significance": "local"
+      },
+      {
+        "known_for": "Sarode, Maihar school",
+        "name": "Mallar Bhattacharya",
+        "significance": "local"
+      },
+      {
+        "known_for": "Tabla, Lucknow gharana",
+        "name": "Nilan Chaudhuri",
+        "significance": "local"
+      }
+    ],
+    "reason": "RagaMenco is a seven-piece Bay Area ensemble that has spent ten years fusing North Indian raga improvisation with flamenco and Jazz Manouche, with sarode (Maihar school), tabla (Lucknow gharana), flamenco guitar and cajon, piano, bass and devotional vocals. It is an unusual traditional collaboration in the intimate Red Poppy Art House, and the group released its debut EP in 2025. Guitarist Javier Jimenez and cajon player Luis Jimenez founded the acoustic septet Barrio Manouche (inference: strong local players rather than nationally known names).",
+    "researched_at": "2026-11-02T22:44:04Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Short 75-minute set",
+      "Rules flag 'musical' is a false positive; this is not musical theater"
+    ]
+  },
   "ev_734039646e89": {
     "evidence": [
       {
@@ -2101,6 +2524,35 @@
       "Two-night run; both nights listed separately."
     ]
   },
+  "ev_7a8e0dd9187a": {
+    "evidence": [
+      {
+        "finding": "Tue Nov 10, 2026, 7 to 9 pm, The Back Room, 1984 Bonita Ave, Berkeley. Pianist with the Dukes of Dixieland 2013 to 2022. Program: Traditional Jazz, Blues to New Orleans R&B. $20 advance, $25 door, $15 students. Page says door tickets available if not sold out; no sold-out notice.",
+        "url": "https://events.humanitix.com/big-joe-kennedy"
+      },
+      {
+        "finding": "Tom McDermott's 2016 OffBeat review calls him 'one of NOLA's better-kept secrets', places him in the Dr. John/James Booker piano tradition, and calls the album 'a fine outing'.",
+        "url": "https://offbeat.com/music/big-joe-kennedy-big-joe-kennedys-504-tified-independent"
+      }
+    ],
+    "fingerprint": "66b5e0e942fc",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "New Orleans pianist/vocalist, Dukes of Dixieland 2013 to 2022, album 504-Tified",
+        "name": "Big Joe Kennedy",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Big Joe Kennedy is a New Orleans pianist and singer who played with the Dukes of Dixieland from 2013 to 2022, working in the Dr. John and James Booker piano tradition. He brings a traditional jazz, blues and New Orleans R&B set to the small BYOB Back Room in Berkeley on a Tuesday for $20 advance. OffBeat called him 'one of NOLA's better-kept secrets', though this reads as an entertaining roots-piano show more than adventurous jazz (inference).",
+    "researched_at": "2026-11-02T22:44:04Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Solo or with band not stated"
+    ]
+  },
   "ev_7c9f31bbeee0": {
     "evidence": [
       {
@@ -2250,6 +2702,66 @@
     "uncertainties": [
       "Third trio member (drummer) not identified.",
       "Two-night run; both nights listed separately."
+    ]
+  },
+  "ev_7fa6091c969e": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission not granted); batch description: party favors, champagne toast, East Coast ball drop at 9 pm; soul, swing, rhythm and blues, jazz, jump.",
+        "url": "https://ranchonicasio.com/event/spike-sikes-and-his-awesome-hotcakes-faux-new-years-eve-2/"
+      },
+      {
+        "finding": "Band plays soul, swing, R&B and jazz; lively, dance-friendly shows; Best Blues Band from The Bohemian and Pacific Sun in 2021 and 2022.",
+        "url": "https://www.sonoma.com/event/spike-sikes-and-his-awesome-hotcakes/"
+      }
+    ],
+    "fingerprint": "034b2a99e9ef",
+    "fit": 28,
+    "performers": [
+      {
+        "known_for": "North Bay jump, swing and R&B dance band",
+        "name": "Spike Sikes and His Awesome Hotcakes",
+        "significance": "local"
+      }
+    ],
+    "reason": "Spike Sikes and His Awesome Hotcakes are a North Bay soul, swing and R&B dance band (named Best Blues Band by The Bohemian and Pacific Sun) playing a 'faux New Year's Eve' party with favors and a champagne toast at Rancho Nicasio. It is a fun roadhouse dance night, but not adventurous jazz or roots music, and Nicasio is a drive.",
+    "researched_at": "2026-11-02T22:54:19Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Start time and price not confirmed"
+    ]
+  },
+  "ev_812e792ae273": {
+    "evidence": [
+      {
+        "finding": "Dinner show Fri Nov 20, 2026; dinner reservations 6 to 8 pm, music 7:30 pm; Rancho Nicasio. Tickets via OvationTix, no price listed, no sold-out notice. Describes blues, soft rock, Americana, funk and psychedelic influences.",
+        "url": "https://ranchonicasio.com/event/wreckless-strangers-4/"
+      },
+      {
+        "finding": "Members Amber Morris, David Noble, Joshua Zucker, Mick Hellman, Rob Anderson, Fletcher Nielsen; HSB performances 2026, 2024, 2022; EP Dirty Souls produced with Dave Way.",
+        "url": "https://hardlystrictlybluegrass.com/artist/wreckless-strangers"
+      }
+    ],
+    "fingerprint": "23f528ec6ff7",
+    "fit": 48,
+    "performers": [
+      {
+        "known_for": "SF/Marin Ameri-Cali Soul rock collective, Hardly Strictly Bluegrass performer",
+        "name": "Wreckless Strangers",
+        "significance": "local"
+      }
+    ],
+    "reason": "Wreckless Strangers is a six-piece San Francisco rock collective (singer Amber Morris, guitarist David Noble) playing 'Ameri-Cali Soul' with harmonies and extended jams, and they played Hardly Strictly Bluegrass in 2022, 2024 and 2026. This is a dinner show at Rancho Nicasio, a long drive from Oakland. It is a well-liked Marin jam-rock band rather than roots or traditional music, so a modest fit (inference); the 'Peter Rowan' seed match likely came from description text, not a billing.",
+    "researched_at": "2026-11-02T22:44:04Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Price not listed",
+      "Feed start time shows midnight; page says music at 7:30 pm",
+      "No Peter Rowan involvement found on the event page"
     ]
   },
   "ev_81ff9def79ca": {
@@ -2428,6 +2940,35 @@
     "tier": "strong",
     "uncertainties": [
       "Humanitix page not reachable this run, so availability is unknown; it's a small room, so check soon."
+    ]
+  },
+  "ev_87860943497b": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission not granted); batch description quotes Diltz and describes his iconic 1960s and 1970s photography.",
+        "url": "https://www.kuumbwajazz.org/calendar/henry-diltz-behind-the-lens/"
+      },
+      {
+        "finding": "Behind the Lens is Diltz's slide show and storytelling experience; lists Nov 7, 2026 at the Kuumbwa Jazz Center, Santa Cruz.",
+        "url": "https://www.musicconnection.com/?p=162647"
+      }
+    ],
+    "fingerprint": "809666dd7a1a",
+    "fit": 35,
+    "performers": [
+      {
+        "known_for": "Photographer of 1960s and 1970s rock and folk-rock musicians",
+        "name": "Henry Diltz",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Henry Diltz, the photographer known for his 'fly on the wall' portraits of 1960s and 1970s musicians, presents his Behind the Lens slideshow and storytelling show at Kuumbwa in Santa Cruz. It is a talk with photos, not a concert, and a long drive, though the countercultural-music history may interest Erik.",
+    "researched_at": "2026-11-02T22:54:19Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Price and whether any music is performed not confirmed"
     ]
   },
   "ev_89963da93768": {
@@ -3147,6 +3688,53 @@
       "Celtic rather than American old-time (inference on fit)."
     ]
   },
+  "ev_ac7761c45a20": {
+    "evidence": [
+      {
+        "finding": "Fetch failed: permission request timed out, page not read.",
+        "url": "https://cafedunord.com/shows/2026-11-04-dice"
+      },
+      {
+        "finding": "Fetch failed: permission request timed out, page not read.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Redirect page titled 'Moved: DICE, Wed Nov 4 | Cafe du Nord'.",
+        "url": "https://cafedunord.com/tm-event/dice-2/"
+      },
+      {
+        "finding": "DICE: Perth four-piece (Ben Hodge, Tom King, Regan Beazley, Sam Barrett-Lennard); began as indie/garage rock, newer single a shift to pop-rock; 2024 debut Midnight Zoo charted on ARIA; second album I Thought The Altitude Would Make It Worth The View.",
+        "url": "https://themusic.com.au/gigs/dice-altitude-tour-hobart/IKsaSIidvzU"
+      },
+      {
+        "finding": "Search result title shows Dice with The Back Alley on the same tour (Sacramento); not opened.",
+        "url": "https://app.discotech.me/events/38245493-dice-with-the-back-alley-at-the-starlit-room"
+      }
+    ],
+    "fingerprint": "d9e9094c2c8e",
+    "fit": 12,
+    "performers": [
+      {
+        "known_for": "Perth indie/pop-rock band",
+        "name": "DICE",
+        "significance": "none"
+      },
+      {
+        "known_for": "Support act; not researched",
+        "name": "The Back Alley",
+        "significance": "none"
+      }
+    ],
+    "reason": "DICE is a four-piece indie and garage rock band from Perth, Australia, now moving toward pop-rock, on tour behind its second album. Nothing in its background touches roots, jazz, hip-hop or theater, so this is not a fit despite the intimate room.",
+    "researched_at": "2026-11-02T22:55:14+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Identity of support act The Back Alley not researched",
+      "Assumes the Perth band DICE is the act (consistent with tour routing, inference)"
+    ]
+  },
   "ev_acc906318347": {
     "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
     "evidence": [
@@ -3517,6 +4105,40 @@
     "tier": "possible",
     "uncertainties": []
   },
+  "ev_b8f9408eb238": {
+    "evidence": [
+      {
+        "finding": "Thu Jan 21, 2027, 7:00 PM (doors 6:00) at Kuumbwa Jazz Center, Santa Cruz; advance $52.45, door $57.75; only Lara Downes listed; no program given; world premiere mentioned is The Declaration Project at Lincoln Center; no availability statement.",
+        "url": "https://www.kuumbwajazz.org/calendar/lara-downes/"
+      },
+      {
+        "finding": "Downes is a concert pianist and host of NPR Music's Amplify with Lara Downes; her Rising Sun Music series spotlights overlooked classical works by Black composers.",
+        "url": "https://www.npr.org/sections/deceptivecadence/2021/03/09/974944412/with-her-recording-series-rising-sun-lara-downes-re-centers-black-composers"
+      },
+      {
+        "finding": "Fetch failed (robots disallowed); not read.",
+        "url": "https://localnewsmatters.org/2026/05/04/pianist-lara-downes-and-friends-explore-american-music-history-at-cal-performances/"
+      }
+    ],
+    "fingerprint": "f7e4d816a73c",
+    "fit": 35,
+    "performers": [
+      {
+        "known_for": "Classical pianist, NPR Amplify host, Rising Sun Music series of Black American composers, Florence Price recordings",
+        "name": "Lara Downes",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Lara Downes is a nationally known classical pianist (NPR Performance Today's Classical Woman of the Year, host of NPR's Amplify) whose recordings champion Black American composers like Florence Price. This is a solo classical piano recital in Santa Cruz at about $52, not a jazz show, and the 'premiere' keyword refers to a Lincoln Center project, not this date. Accomplished artist, but outside Erik's core taste and a long drive.",
+    "researched_at": "2026-11-02T22:44:35Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Program not listed; she has blurred classical and Americana/jazz material on past projects, so the set could be more crossover than a straight recital (inference)",
+      "Solo or with guests not stated"
+    ]
+  },
   "ev_b911249d32be": {
     "evidence": [
       {
@@ -3874,6 +4496,74 @@
       "DICE page could not be fetched"
     ]
   },
+  "ev_d00b6f4d8439": {
+    "evidence": [
+      {
+        "finding": "Monday Jan 25, 2027, 7pm (doors 6pm), Kuumbwa Jazz Center, Santa Cruz; all ages; advance $40.79, member $36.75, door $42, student $21; Thurman on tenor sax and vocals, Green on drums; standards and originals; no sold-out notice.",
+        "url": "https://www.kuumbwajazz.org/calendar/camille-thurman-with-the-darrell-green-quartet-2"
+      }
+    ],
+    "fingerprint": "c9a99efe1566",
+    "fit": 56,
+    "performers": [
+      {
+        "known_for": "Tenor saxophonist and vocalist; NPR's 'classic double threat'",
+        "name": "Camille Thurman",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Drummer; toured with Pharoah Sanders, Wallace Roney, Cassandra Wilson",
+        "name": "Darrell Green",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Camille Thurman is a tenor saxophonist and singer NPR called a 'classic double threat', fronting a quartet led by drummer Darrell Green, who has toured with Pharoah Sanders, Wallace Roney, Cassandra Wilson, George Cables and Stefon Harris. Kuumbwa bills a mix of standards and originals, so expect polished, swinging straight-ahead jazz in one of the best small jazz rooms in the region. It is a Monday night in Santa Cruz and more mainstream than adventurous, which tempers the fit.",
+    "researched_at": "2026-11-02T22:55:14+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Other quartet members not named",
+      "Thurman's broader credits not verified in this pass"
+    ]
+  },
+  "ev_d343ef65af2d": {
+    "evidence": [
+      {
+        "finding": "Sat Nov 7, 2026, 10:30 pm; Simon Rowe Hammond organ (club owner), Kai Lyons guitar, Brian Fishler drums; $20; first come first served seating; 498 Broadway, SF.",
+        "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-72/"
+      },
+      {
+        "finding": "Search results show many recurring 'Late Set: Simon Rowe Organ Trio' listings across months (inference: weekly residency).",
+        "url": "https://www.jazznearyou.com/sanfrancisco/events/late-set-simon-rowe-organ-trio-at-keys-jazz-bistro-on-march-15"
+      }
+    ],
+    "fingerprint": "3a706500c970",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "Hammond organ; owner of Keys Jazz Bistro",
+        "name": "Simon Rowe",
+        "significance": "local"
+      },
+      {
+        "known_for": "Guitar",
+        "name": "Kai Lyons",
+        "significance": "local"
+      },
+      {
+        "known_for": "Drums",
+        "name": "Brian Fishler",
+        "significance": "local"
+      }
+    ],
+    "reason": "Keys Jazz Bistro owner Simon Rowe leads his Hammond organ trio (Kai Lyons on guitar, Brian Fishler on drums) in a 10:30 pm late set on Saturday, Nov 7, $20. It is a recurring weekly house residency of blues, bebop and ballads, solid and intimate but not a special or adventurous date.",
+    "researched_at": "2026-11-02T22:54:22Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": []
+  },
   "ev_d6d17b18a64e": {
     "evidence": [
       {
@@ -4032,6 +4722,49 @@
     "uncertainties": [
       "Ticket page says door sales only 'if the show is not sold out'; no current availability stated",
       "Rhythm section differs from the 2022 article lineup"
+    ]
+  },
+  "ev_dc3727b15aae": {
+    "evidence": [
+      {
+        "finding": "Page title reads 'Crooked Jades @ Otter Opry'; the page lists no date, time, price or availability.",
+        "url": "https://www.tix.com/ticket-sales/OtterOpry/4889/event/1466557"
+      },
+      {
+        "finding": "Fetch failed (permission not granted); could not confirm the Dec 5, 3 pm listing directly.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Fetch failed (permission not granted).",
+        "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+      },
+      {
+        "finding": "San Francisco band that reimagines old-time music; founded by Jeff Kazor to revive dark, hypnotic pre-radio music; members Kazor, Lisa Berman, Erik Pearson; Pearson composed a tune Sean Penn used in Into the Wild.",
+        "url": "https://californiabluegrass.org/band/the-crooked-jades/"
+      },
+      {
+        "finding": "30th anniversary concert on Aug 16, 2024 at the 4 Star Theatre, with co-founders Kazor, Berman and Pearson plus Amy Kassir (fiddle) and Joshua Zucker (bass).",
+        "url": "https://sf.funcheap.com/crooked-jades-perform-30th-anniversary-multimedia-concert/"
+      }
+    ],
+    "fingerprint": "dbf36ff672c6",
+    "fit": 80,
+    "performers": [
+      {
+        "known_for": "San Francisco old-time revival band, around 30 years running; obscure pre-radio repertoire and originals",
+        "name": "The Crooked Jades",
+        "significance": "notable"
+      }
+    ],
+    "reason": "The Crooked Jades are a long-running San Francisco old-time band founded by Jeff Kazor to revive the dark, hypnotic sound of pre-radio music, mixing rare repertoire, originals and vintage instruments with European and African influences. This is a Saturday 3 pm matinee at the Otter Opry in Monterey, squarely in Erik's old-time lane, though it is a long drive from Oakland. The band marked 30 years in 2024 with founding members Kazor, Lisa Berman and Erik Pearson; whose lineup comes to Monterey is not confirmed.",
+    "researched_at": "2026-11-02T22:54:19Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Date and 3 pm start come from the batch listing only; the tix.com page shows no date",
+      "Lineup for this date unknown",
+      "Otter Opry's exact location in Monterey not confirmed"
     ]
   },
   "ev_dcfb36d82ddf": {
@@ -4221,6 +4954,57 @@
       "Ensemble members not identified."
     ]
   },
+  "ev_e21fa83e1175": {
+    "evidence": [
+      {
+        "finding": "Corey Harris and Cedric Watson at The Freight, 2020 Addison St, Berkeley, Wednesday Nov 18, 2026; no time, price or availability listed.",
+        "url": "https://www.jambase.com/show/corey-harris-the-freight-20261118"
+      },
+      {
+        "finding": "Lists 'Nov. 18: Corey Harris & Cedric Watson - The Freight, Berkeley'.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "True Blues is hosted by Corey Harris, an evening of music and conversation about the blues; Harris is a MacArthur Grant recipient, began as a New Orleans street singer, lived in Cameroon, recordings include Mississippi to Mali.",
+        "url": "https://fliartists.com/artists/true-blues/"
+      },
+      {
+        "finding": "Cedric Watson: Louisiana French fiddler, accordionist and singer, four-time Grammy nominee; Pine Leaf Boys, Corey Ledet, Les Amis Creole, Bijou Creole; repertoire includes Dennis McGee reels and old-time string band pieces.",
+        "url": "https://fliartists.com/artists/cedric-watson/"
+      },
+      {
+        "finding": "Fetch failed (permission not granted); Freight ticket page not verified.",
+        "url": "https://secure.thefreight.org/16240/16241"
+      },
+      {
+        "finding": "Not fetched; listing source is an old-time SF calendar per the item record.",
+        "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+      }
+    ],
+    "fingerprint": "543e49fa33be",
+    "fit": 82,
+    "performers": [
+      {
+        "known_for": "MacArthur Fellow acoustic blues guitarist and singer; Mississippi to Mali; featured in Scorsese's The Blues",
+        "name": "Corey Harris",
+        "significance": "major"
+      },
+      {
+        "known_for": "Four-time Grammy-nominated Creole fiddler and accordionist; Pine Leaf Boys, Bijou Creole, Les Amis Creole",
+        "name": "Cedric Watson",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Corey Harris (MacArthur Fellow, acoustic country-blues guitarist who traced the blues to West Africa on Mississippi to Mali) pairs with Cedric Watson, a four-time Grammy-nominated Louisiana Creole fiddler and accordionist from the Pine Leaf Boys and Bijou Creole. Their True Blues show is music plus conversation about the blues as a living culture, a deep roots collaboration in the Freight's listening room on Wednesday, Nov 18. Watson's repertoire also reaches into Dennis McGee reels and old-time string band tunes, which suits Erik's fiddle interests.",
+    "researched_at": "2026-11-02T22:54:22Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Show time and price not confirmed from the Freight's own page (fetch failed).",
+      "Whether this date is the full True Blues film/conversation format or a plain duo concert (inference that it is the touring True Blues duo show)."
+    ]
+  },
   "ev_e30b499c5ea4": {
     "evidence": [
       {
@@ -4244,6 +5028,49 @@
     "tier": "possible",
     "uncertainties": [
       "Band not identified."
+    ]
+  },
+  "ev_e3ec8e46580e": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission not granted); the batch description says Wed Nov 11, 2026, The Back Room, 1984 Bonita Ave, Berkeley.",
+        "url": "https://events.humanitix.com/rick-reyes-featuring-carlos-gogo-gomez"
+      },
+      {
+        "finding": "Rick Reyes: guitar and vocals blending Caribbean Mountain and North American folk traditions; leads the Cosmic Jibaros and the Pasofino Social Club; album Novela sin Tiempo.",
+        "url": "https://westportjournal.com/arts/folk-music-with-latin-accent-set-for-voices-cafe-concert/"
+      },
+      {
+        "finding": "Born in Bridgeport, CT, raised partly in rural Puerto Rico; blends Puerto Rican jibaro folk with rock, salsa, merengue and Latin jazz.",
+        "url": "https://www.psu.edu/news/dubois/story/penn-state-dubois-host-latin-music-night-rick-reyes-sept-16"
+      },
+      {
+        "finding": "Carlos 'Go Go' Gomez: Bronx-raised percussionist who once lived in the Bay Area; credits include Tito Puente, Airto and Flora Purim, Gato Barbieri, Pharoah Sanders, Mickey Hart, Arturo Sandoval; now teaches at Queens College.",
+        "url": "https://remo.com/profile/carlos-gomez"
+      }
+    ],
+    "fingerprint": "0cd45404d66a",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Puerto Rican jibaro and folk singer-songwriter, Cosmic Jibaros",
+        "name": "Rick Reyes",
+        "significance": "local"
+      },
+      {
+        "known_for": "Afro-Cuban and Latin jazz percussionist (Tito Puente, Airto, Pharoah Sanders)",
+        "name": "Carlos 'Go Go' Gomez",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Rick Reyes, a Puerto Rican-rooted singer-songwriter who blends jibaro mountain folk with North American folk, plays The Back Room with percussionist Carlos 'Go Go' Gomez, whose credits include Tito Puente, Airto and Flora Purim, Pharoah Sanders and Mickey Hart. An unusual traditional crossover in an intimate Berkeley room, closer to Latin folk than to Erik's core roots or jazz. Both artists are East Coast based, so the Berkeley date is a rare visit (inference).",
+    "researched_at": "2026-11-02T22:54:19Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Matching this Rick Reyes and this Carlos Gomez to the Berkeley show is inference; no fetched source ties them to this date",
+      "Show format (duo or band) unknown"
     ]
   },
   "ev_e59304c7b6bc": {
@@ -4398,6 +5225,37 @@
       "Ticket Tailor page not reachable this run; capacity and sales status unknown."
     ]
   },
+  "ev_ecdea767cd3a": {
+    "evidence": [
+      {
+        "finding": "WebFetch refused (robots disallowed); a plain curl read of the page lists 'Hillside Echoes presents As Meigas, Sat, Nov 07, Hillside Club, Galician folk music and dance' with a Get Tickets link; no time or price shown in the listing. Past series bookings include Bruce Molsky, Maya de Vitry and Mark Erelli, Colin Cotter & Sumaia Jackson.",
+        "url": "https://www.hillsideclub.org/hillsideechoes"
+      },
+      {
+        "finding": "As Meigas plays traditional Galician music; members Tesser Call, Cathy Chilcott, Donna Denevan (gaitas), Deirdre McCarthy and Brian Walker (percussion); repertoire of lively dance tunes and songs; played the 2023 SF Free Folk Festival.",
+        "url": "https://sffolkfest.org/events-2023/as-meigas/"
+      }
+    ],
+    "fingerprint": "58927686c06f",
+    "fit": 48,
+    "performers": [
+      {
+        "known_for": "Bay Area Galician gaita and percussion ensemble; SF Free Folk Festival 2019 and 2023",
+        "name": "As Meigas",
+        "significance": "local"
+      }
+    ],
+    "reason": "As Meigas, a Bay Area Galician music group (three gaita bagpipers plus pandeireta, tambor and bombo percussion), plays the Hillside Club's Hillside Echoes folk series in Berkeley on Sat Nov 7. It is a local community-style traditional ensemble that has played the SF Free Folk Festival, so expect lively dance tunes and songs rather than a touring master. Close to home and in the same series that booked Bruce Molsky, but a modest fit for his old-time and fiddle focus.",
+    "researched_at": "2026-11-02T22:44:35Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Start time and price not confirmed",
+      "Whether this is the same lineup as the 2023 folk festival listing",
+      "Whether 'dance' means a participatory dance or a performance"
+    ]
+  },
   "ev_f0c0faf0fe5d": {
     "evidence": [
       {
@@ -4460,6 +5318,54 @@
     "uncertainties": [
       "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
       "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
+    ]
+  },
+  "ev_f14e30e8678c": {
+    "evidence": [
+      {
+        "finding": "Nov 28, 2026, 7:30 to 9:30 pm, Bird & Beckett. Jim Peterson sax, Scott Foster guitar, Joe Kyle Jr. bass, Larry Vann drums. $20, students $10, BYOB, phone reservations. No sold-out notice.",
+        "url": "https://birdbeckett.com/event/new-squatoolas_2026-11-28/"
+      },
+      {
+        "finding": "Peterson studied at Berklee, has taught at Blue Bear School since 1996, played with Beaufunk, Mitch Woods and His Rocket 88's, Steve Lucky and the Rumba Bums; founding member/composer of MoFone, Giant Trio, Mumbo Gumbo and The New Squatoolas; played Monterey Jazz and Blues festivals.",
+        "url": "https://birdbeckett.com/jim-peterson-quartet-8-11-19/"
+      },
+      {
+        "finding": "Lists the same lineup for a Nov 29, 2025 Bird & Beckett date; no description of style.",
+        "url": "https://www.sfstation.com/new-squatoolas-e15767345"
+      }
+    ],
+    "fingerprint": "9d50a650920f",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "Bay Area saxophonist, Blue Bear School teacher, Mumbo Gumbo, MoFone",
+        "name": "Jim Peterson",
+        "significance": "local"
+      },
+      {
+        "known_for": "SF jazz guitarist from Chuck Peterson's circle, leads his own groups",
+        "name": "Scott Foster",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bassist",
+        "name": "Joe Kyle, Jr.",
+        "significance": "local"
+      },
+      {
+        "known_for": "Drummer, Bird & Beckett regular",
+        "name": "Larry Vann",
+        "significance": "local"
+      }
+    ],
+    "reason": "The New Squatoolas is a quartet led by Bay Area saxophonist and Blue Bear School teacher Jim Peterson (Berklee-trained; also of Mumbo Gumbo and MoFone, with sideman work for Mitch Woods and His Rocket 88's), with guitarist Scott Foster. It is a $20 BYOB bookshop gig at Bird & Beckett, but no source describes the band's music, and it appears to be a recurring local working band rather than a distinctive event (inference).",
+    "researched_at": "2026-11-02T22:44:04Z",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Musical style of the band not documented (could be jump/R&B or straight jazz)"
     ]
   },
   "ev_f28970a1544d": {
