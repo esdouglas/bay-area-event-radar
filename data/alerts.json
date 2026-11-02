@@ -16,10 +16,26 @@
    "tier": "exceptional",
    "via": "digest"
   },
+  "ev_2d842a042936": {
+   "at": "2026-11-02T23:11:29+00:00",
+   "date": "2027-02-12",
+   "issue": 7,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
   "ev_3b365bf12e4a": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-12-04",
    "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_6c0c361dbcd8": {
+   "at": "2026-11-02T23:11:29+00:00",
+   "date": "2026-11-20",
+   "issue": 7,
    "status": "scheduled",
    "tier": "exceptional",
    "via": "digest"
@@ -47,6 +63,14 @@
    "status": "scheduled",
    "tier": "exceptional",
    "via": "digest"
+  },
+  "ev_e8bac104313a": {
+   "at": "2026-11-02T23:11:29+00:00",
+   "date": "2026-12-16",
+   "issue": 7,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
   }
  },
  "bootstrapped": "2026-11-01T19:21:29+00:00",
@@ -56,6 +80,14 @@
    "issue": 4,
    "new_ahead": 3,
    "soon": 3
+  },
+  {
+   "at": "2026-11-02T23:11:29+00:00",
+   "emailed": false,
+   "issue": 7,
+   "new_ahead": 3,
+   "soon": 3,
+   "subject": "Shows for the week of Nov 2: Dirk & Amelia Powell, Lauryn Hill & Wyclef Jean + 4 more"
   }
  ],
  "picked": {
@@ -67,9 +99,17 @@
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2027-01-16"
   },
+  "ev_2d842a042936": {
+   "at": "2026-11-02T23:11:29+00:00",
+   "date": "2027-02-12"
+  },
   "ev_3b365bf12e4a": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-12-04"
+  },
+  "ev_6c0c361dbcd8": {
+   "at": "2026-11-02T23:11:29+00:00",
+   "date": "2026-11-20"
   },
   "ev_77216bb9cb0c": {
    "at": "2026-11-02T18:33:19+00:00",
@@ -82,6 +122,10 @@
   "ev_da3b1224db08": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-11-11"
+  },
+  "ev_e8bac104313a": {
+   "at": "2026-11-02T23:11:29+00:00",
+   "date": "2026-12-16"
   }
  }
 }
