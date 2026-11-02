@@ -1,7 +1,7 @@
 {
- "backlog": 1389,
+ "backlog": 1391,
  "count": 40,
- "generated_at": "2026-11-02T18:41:34+00:00",
+ "generated_at": "2026-11-02T18:47:22+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -81,6 +81,25 @@
    "start": "2026-11-07T22:30:00-08:00",
    "title": "Late Set: Simon Rowe Organ Trio",
    "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-72/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Kai Lyons-Guitar, the[...]",
+   "fingerprint": "a0b59f93e9f5",
+   "id": "ev_0622a565b20b",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T22:30:00-08:00",
+   "title": "Late Set: Simon Rowe Organ Trio",
+   "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-73/",
    "venue": "Keys Jazz Bistro",
    "why_rules": [
     "jazz_core: jazz (+18)",
@@ -801,29 +820,6 @@
     "intimacy: duo (+5)",
     "intimate room: Rancho Nicasio (+14)",
     "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-02",
-   "description": "Lexi Jayde at The Independent at 2026-11-02T20:00:00-0800",
-   "fingerprint": "b6d31222c7f5",
-   "id": "ev_05686492580a",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-    "https://www.theindependentsf.com/tm-event/lexi-jayde/",
-    "https://apeconcerts.com/events/lexi-jayde-261102/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-11-02T20:00:00-08:00",
-   "title": "Lexi Jayde, Ally Salort",
-   "url": "https://www.songkick.com/concerts/43391670-lexi-jayde-at-independent",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
    ]
   }
  ]
