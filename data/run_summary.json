@@ -1,15 +1,14 @@
 {
- "inventory_total": 3891,
- "inventory_upcoming": 3238,
- "merged_sources": 1,
- "new_events": 10,
- "run_id": "8278cd2a90b9",
- "seconds": 450.5,
+ "inventory_total": 3895,
+ "inventory_upcoming": 3242,
+ "merged_sources": 2,
+ "new_events": 12,
+ "run_id": "6a6930cabb82",
+ "seconds": 448.9,
  "sources_due": 65,
  "sources_failed": [
-  "outsound",
-  "songkick-bay-area"
+  "outsound"
  ],
- "sources_ok": 63,
- "ts": "2026-11-02T18:43:13+00:00"
+ "sources_ok": 64,
+ "ts": "2026-11-02T21:49:05+00:00"
 }

@@ -1,7 +1,7 @@
 {
- "backlog": 1391,
+ "backlog": 1393,
  "count": 40,
- "generated_at": "2026-11-02T18:47:22+00:00",
+ "generated_at": "2026-11-02T21:52:21+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -604,6 +604,25 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-11-21",
+   "description": "Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Dave Macnab-Guitar, the[...]",
+   "fingerprint": "21be1062453e",
+   "id": "ev_7c348009c91a",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-21T22:30:00-08:00",
+   "title": "Late Set: Simon Rowe Organ Trio",
+   "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-74/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
    "city": "Santa Cruz",
    "date": "2026-11-09",
    "description": "In celebration of the centennial of trumpeter Miles Davis, the Marcus Shelby Nonet presents Birth of the Cool: Revisited , featuring music from the groundbreaking Davis recording performed in its original instrumentation. Birth of the Cool was not a singular session, but the composite work of a young innovative genius at the beginning of a long and storied career; surrounded and supported by a gro",
@@ -800,26 +819,6 @@
     "booking signal: Freight & Salvage (+8)",
     "listed by a taste-aligned calendar (+14)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2026-11-13",
-   "description": "FEELING GROOVY With a deep respect for the duo's timeless music, Feeling Groovy reimagines the magic of Paul Simon and Art Garfunkel's collaboration that once dominated the folk scene. Through a blend of powerful vocals, intricate harmonies, and engaging storytelling, the band recreates the magic of their live performances, transporting audiences back to the heyday of one of the most beloved acts ",
-   "fingerprint": "b1a22e909421",
-   "id": "ev_edc85068ba49",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "FEELING GROOVY",
-   "url": "https://ranchonicasio.com/event/feeling-groovy/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: folk (+10)",
-    "intimacy: duo (+5)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
    ]
   }
  ]
