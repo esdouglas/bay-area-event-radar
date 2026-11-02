@@ -1,525 +1,8 @@
 {
- "backlog": 1393,
+ "backlog": 1368,
  "count": 40,
- "generated_at": "2026-11-02T21:52:21+00:00",
+ "generated_at": "2026-11-02T22:58:34+00:00",
  "items": [
-  {
-   "city": "Berkeley",
-   "date": "2026-11-18",
-   "description": "Corey Harris & Cedric Watson \"True Blues\" | The Freight | https://secure.thefreight.org/16240/16241 | 2026 ! Three days of music, special shows, seminars, and dancing at The Hilton Concord. | Friday, November 20 - Sunday, November 22 | West Coast Ragtime Festival | The Easy Winners, many others | The Hilton Concord, 1970 Diamond Blvd, Concord, California 94520 | https://westcoastragtime.com/festiv",
-   "fingerprint": "543e49fa33be",
-   "id": "ev_e21fa83e1175",
-   "other_urls": [
-    "https://www.jambase.com/show/corey-harris-the-freight-20261118",
-    "https://www.bgsignal.com/concerts--festivals.html"
-   ],
-   "rules_score": 82.0,
-   "rules_tier": "strong",
-   "start": "2026-11-18T00:00:00-08:00",
-   "title": "Corey Harris & Cedric Watson \"True Blues\"",
-   "url": "https://sites.google.com/site/davbrown2/oldtimesf",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "roots_adjacent: blues (+10)",
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+18)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-04",
-   "description": "Dec. 4: Holly Bowling/Sam Grisman/Max Flansburg Trio - The Freight, Berkeley",
-   "fingerprint": "9e0ca657895f",
-   "id": "ev_3b365bf12e4a",
-   "other_urls": [],
-   "rules_score": 95.0,
-   "rules_tier": "exceptional",
-   "start": "2026-12-04T00:00:00-08:00",
-   "title": "Holly Bowling/Sam Grisman/Max Flansburg Trio",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "seed artist: Sam Grisman (+30)",
-    "intimacy: trio (+5)",
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-13",
-   "description": "Zoë Lewis at The Back Room on Nov 13, 2026",
-   "fingerprint": "01b42d303bc5",
-   "id": "ev_25130c9dc583",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/",
-    "https://events.humanitix.com/zoe-lewis"
-   ],
-   "rules_score": 67.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T20:00:00-08:00",
-   "title": "Zoe ̈ Lewis & Friends",
-   "url": "https://www.jambase.com/show/zoe-lewis-the-back-room-20261113",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+14)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-07",
-   "description": "Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Kai Lyons-Guitar, the[...]",
-   "fingerprint": "3a706500c970",
-   "id": "ev_d343ef65af2d",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T22:30:00-08:00",
-   "title": "Late Set: Simon Rowe Organ Trio",
-   "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-72/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-14",
-   "description": "Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Kai Lyons-Guitar, the[...]",
-   "fingerprint": "a0b59f93e9f5",
-   "id": "ev_0622a565b20b",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-11-14T22:30:00-08:00",
-   "title": "Late Set: Simon Rowe Organ Trio",
-   "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-73/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-14",
-   "description": "Crying Uncle Bluegrass Band; | follows discussion with producers of Hardly Strictly Bluegrass at 25: The Big Twang | Park Branch Library, SF",
-   "fingerprint": "214010f525ef",
-   "id": "ev_28ba7e512920",
-   "other_urls": [
-    "https://www.bgsignal.com/concerts--festivals.html"
-   ],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-11-14T00:00:00-08:00",
-   "title": "Crying Uncle Bluegrass Band; follows discussion with producers of Hardly Strictly Bluegrass at 25: The Big Twang",
-   "url": "https://sites.google.com/site/davbrown2/oldtimesf",
-   "venue": "Park Branch Library, SF",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "2 independent sources (+4)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-13",
-   "description": "Yes to the dance this month!! We can have the dance AND then go to the CBA Camp and Festival... EVERY 2nd FRIDAY of the MONTH ~ at the Polish Club, 3040 22nd St @ Shotwell, in SF. Bike & Bart friendly and ALL are welcome!! Dance @8:00 Always a live String Band & our Dance Caller teaches all the dances ! Pre-dance beginners lesson and Old-time jam. Come with or without a partner, bring your pals! d",
-   "fingerprint": "874f4728fde4",
-   "id": "ev_5018baea23ea",
-   "other_urls": [
-    "https://sites.google.com/site/davbrown2/oldtimesf",
-    "https://sites.google.com/site/davbrown2/oldtimesf",
-    "https://www.bgsignal.com/concerts--festivals.html",
-    "https://www.bgsignal.com/concerts--festivals.html"
-   ],
-   "rules_score": 66.5,
-   "rules_tier": "strong",
-   "start": "2026-11-13T20:00:00-08:00",
-   "title": "Feral Friday Square Dance at Polish Club",
-   "url": "https://californiabluegrass.org/event/__trashed/2026-11-13/",
-   "venue": "The Polish Club",
-   "why_rules": [
-    "roots_core: old-time, old time, string band, square dance (+38)",
-    "noise_other: lesson, camp (-25)",
-    "listed by a taste-aligned calendar (+18)",
-    "5 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-04",
-   "description": "Dice at Café du Nord at 2026-11-04T20:00:00-0800",
-   "fingerprint": "d9e9094c2c8e",
-   "id": "ev_ac7761c45a20",
-   "other_urls": [
-    "https://cafedunord.com/shows/2026-11-04-dice",
-    "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-04T20:00:00-08:00",
-   "title": "Dice, The Back Alley",
-   "url": "https://www.songkick.com/concerts/43215171-dice-at-cafe-du-nord",
-   "venue": "Cafe du Nord",
-   "why_rules": [
-    "intimate room: Cafe du Nord (+14)",
-    "booking signal: Cafe du Nord (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-01-25",
-   "description": "Referred to as the \"classic double threat\" by NPR , Camille Thurman is a remarkable artist on both the tenor saxophone and vocals. Drummer Darrell Green is one of today's leading and most sought-after musicians in today's jazz scene, having toured with Pharoah Sanders, Wallace Roney, Cassandra Wilson, George Cables, and Stefon Harris. Together, Thurman's dreamy vocals and electrifying saxophone li",
-   "fingerprint": "c9a99efe1566",
-   "id": "ev_d00b6f4d8439",
-   "other_urls": [],
-   "rules_score": 78.5,
-   "rules_tier": "strong",
-   "start": "2027-01-25T19:00:00-08:00",
-   "title": "Camille Thurman with the Darrell Green Quartet",
-   "url": "https://www.kuumbwajazz.org/calendar/camille-thurman-with-the-darrell-green-quartet-2/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz, saxophone (+22)",
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-07",
-   "description": "The Chapel: Alex Cameron, Joss Da Costa",
-   "fingerprint": "c321ed0b7097",
-   "id": "ev_624ba7d27e79",
-   "other_urls": [
-    "https://wl.eventim.us/event/alex-cameron/691429?afflky=TheChapel",
-    "https://wl.seetickets.us/event/alex-cameron/691429?afflky=TheChapel"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T00:00:00-08:00",
-   "title": "Alex Cameron, Joss Da Costa",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "The Chapel",
-   "why_rules": [
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-01-21",
-   "description": "Recently honored as 'Classical Woman of the Year' by NPR 's Performance Today, American pianist Lara Downes is a visionary trailblazer. She has garnered millions of fans spanning diverse communities from her prestigious tour​ schedule,​ her Billboard chart-topping recordings, and her work as a beloved media personality, producer, and host. Major highlights for the coming year include the Lincoln C",
-   "fingerprint": "f7e4d816a73c",
-   "id": "ev_b8f9408eb238",
-   "other_urls": [],
-   "rules_score": 77.5,
-   "rules_tier": "strong",
-   "start": "2027-01-21T19:00:00-08:00",
-   "title": "Lara Downes",
-   "url": "https://www.kuumbwajazz.org/calendar/lara-downes/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "theater_core: world premiere, premiere (+18)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-07",
-   "description": "",
-   "fingerprint": "58927686c06f",
-   "id": "ev_ecdea767cd3a",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T00:00:00-08:00",
-   "title": "Galician folk music and dance",
-   "url": "https://www.hillsideclub.org/hillsideechoes",
-   "venue": "Hillside Club",
-   "why_rules": [
-    "roots_adjacent: folk (+10)",
-    "intimate room: Hillside Club (+14)",
-    "booking signal: Hillside Club (+8)",
-    "listed by a taste-aligned calendar (+10)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-08",
-   "description": "",
-   "fingerprint": "901f1b66e87e",
-   "id": "ev_05137edea8c9",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-08T16:00:00-08:00",
-   "title": "Lieder Alive! – Olivier Zerouali & Ji Youn Lee",
-   "url": "https://www.oldfirstconcerts.org/performance/lieder-alive-olivier-zerouali-ji-youn-lee-sunday-november-8-at-4-pm/",
-   "venue": "Old First Church",
-   "why_rules": [
-    "theater_core: olivier (+14)",
-    "intimate room: Old First Church (+14)",
-    "listed by a taste-aligned calendar (+6)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-03-10",
-   "description": "Lucía is a 24-year-old vocalist from Veracruz, México whose singular artistic vision bridges the gaps between jazz, latin, and pop music. Lucía Gutierrez Rebolloso started her musical career at the age of two, singing and dancing in her parents' son jarocho band, Son de Madera. She began studying voice at the age of thirteen at Universidad Veracruzana, and in 2022 received a Bachelor's degree in J",
-   "fingerprint": "8f23aa223aa6",
-   "id": "ev_2d96d87856a4",
-   "other_urls": [],
-   "rules_score": 84.0,
-   "rules_tier": "strong",
-   "start": "2027-03-10T19:00:00-08:00",
-   "title": "Lucía",
-   "url": "https://www.kuumbwajazz.org/calendar/lucia-2/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "roots_adjacent: son jarocho (+10)",
-    "jazz_core: jazz (+18)",
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-03-25",
-   "description": "Delbert Anderson , a Diné jazz trumpet artist, composer, and educator, stands at the forefront of a vibrant Native American jazz scene. His work, deeply rooted in his Diné heritage, seamlessly integrates Navajo \"spinning songs\" of love, healing, and courtship with jazz and funk. With his Delbert Anderson Quartet, Anderson revives the improvised sounds of the Diné circle, blending them with jazz, f",
-   "fingerprint": "5a5069877b98",
-   "id": "ev_55f25ffc10f7",
-   "other_urls": [],
-   "rules_score": 84.0,
-   "rules_tier": "strong",
-   "start": "2027-03-25T19:00:00-07:00",
-   "title": "Delbert Anderson Quartet – 'Live at Kuumbwa' Album Release Celebration",
-   "url": "https://www.kuumbwajazz.org/calendar/delbert-anderson-quartet-live-at-kuumbwa-album-release-celebration/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz, improvised, trumpet (+27)",
-    "hiphop_classic: hip hop, hip-hop (+15)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-27",
-   "description": "Macy Blackman, piano/vocals; Snakebite, saxophone; Bing Nathan, bass; Larry Vann, drums $25 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
-   "fingerprint": "b47791fc662d",
-   "id": "ev_13755d119929",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-11-27T19:30:00-08:00",
-   "title": "Macy Blackman & the Mighty Fines",
-   "url": "https://birdbeckett.com/event/macy-blackman_2026-11-27/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-21",
-   "description": "Advance tickets are available online . You are advised to purchase advance tickets for this event. RSVP to the Facebook event: Ragamenco A Musical Journey from India to Spain For ten years, RagaMenco has explored the musical pathways connecting India and Spain, bringing together the improvisational traditions of Indian raga with the passion and rhythmic vitality of flamenco and jazz. What began as",
-   "fingerprint": "9c02c366d455",
-   "id": "ev_6fbc0fdbc1ce",
-   "other_urls": [],
-   "rules_score": 59.0,
-   "rules_tier": "strong",
-   "start": "2026-11-21T18:30:00-08:00",
-   "title": "Ragamenco",
-   "url": "https://redpoppyarthouse.org/event/ragamenco/",
-   "venue": "Red Poppy Art House",
-   "why_rules": [
-    "roots_adjacent: flamenco (+10)",
-    "jazz_core: jazz (+18)",
-    "theater_core: musical (+14)",
-    "noise_other: online (-25)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-10",
-   "description": "Get tickets on Humanitix - Big Joe Kennedy ~ A Taste of New Orleans hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Tuesday November 10th 2026. Find event information.",
-   "fingerprint": "66b5e0e942fc",
-   "id": "ev_7a8e0dd9187a",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-10T19:00:00-08:00",
-   "title": "Big Joe Kennedy ~ A Taste of New Orleans",
-   "url": "https://events.humanitix.com/big-joe-kennedy",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-28",
-   "description": "Jim Peterson, saxophone; Scott Foster, guitar; Joe Kyle, Jr., bass; Larry Vann, drums $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
-   "fingerprint": "9d50a650920f",
-   "id": "ev_f14e30e8678c",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-11-28T19:30:00-08:00",
-   "title": "New Squatoolas",
-   "url": "https://birdbeckett.com/event/new-squatoolas_2026-11-28/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2026-11-20",
-   "description": "DINNER SHOW with WRECKLESS STRANGERS Wreckless Strangers is a collective of friends and musicians carrying the torch for San Francisco's grand rock 'n' roll tradition. Their unique blend of \"Ameri-Cali Soul\" melds the contemporary blues stylings of Bonnie Raitt and Boz Scaggs; the songwriting sensibilities of Sons of Champlin and Fleetwood Mac; the swashbuckling Americana of the Lost Planet Airmen",
-   "fingerprint": "23f528ec6ff7",
-   "id": "ev_812e792ae273",
-   "other_urls": [],
-   "rules_score": 63.5,
-   "rules_tier": "strong",
-   "start": "2026-11-20T00:00:00-08:00",
-   "title": "WRECKLESS STRANGERS",
-   "url": "https://ranchonicasio.com/event/wreckless-strangers-4/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "seed artist: Peter Rowan (+9)",
-    "roots_adjacent: americana, blues (+12)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "Monterey",
-   "date": "2026-12-05",
-   "description": "- Dec. 5 (3 pm): Otter Opry, Monterey",
-   "fingerprint": "dbf36ff672c6",
-   "id": "ev_dc3727b15aae",
-   "other_urls": [
-    "https://sites.google.com/site/davbrown2/oldtimesf",
-    "https://www.tix.com/ticket-sales/OtterOpry/4889/event/1466557"
-   ],
-   "rules_score": 84.0,
-   "rules_tier": "exceptional",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Crooked Jades",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Otter Opry, Monterey",
-   "why_rules": [
-    "seed artist: Crooked Jades (+40)",
-    "listed by a taste-aligned calendar (+18)",
-    "4 independent sources (+12)",
-    "outside the core Bay Area (-6)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-11",
-   "description": "Buy Tickets on Humanitix - Rick Reyes featuring Carlos \"Gogo\" Gómez hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Wednesday November 11th 2026. Find event information.",
-   "fingerprint": "0cd45404d66a",
-   "id": "ev_e3ec8e46580e",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-11T19:30:00-08:00",
-   "title": "Rick Reyes featuring Carlos Gogo Gómez",
-   "url": "https://events.humanitix.com/rick-reyes-featuring-carlos-gogo-gomez",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2026-12-30",
-   "description": "SPIKE SIKES AND HIS AWESOME HOTCAKES FAUX NEW YEAR'S CELEBRATION Party Favors, Champagne Toast, East Coast Ball Drop ( 9pm) SWEET & SAVORY! Soul, Swing, Rhythm & Blues, Jazz, Jump.",
-   "fingerprint": "034b2a99e9ef",
-   "id": "ev_7fa6091c969e",
-   "other_urls": [],
-   "rules_score": 70.0,
-   "rules_tier": "strong",
-   "start": "2026-12-30T00:00:00-08:00",
-   "title": "SPIKE SIKES AND HIS AWESOME HOTCAKES FAUX NEW YEAR'S EVE",
-   "url": "https://ranchonicasio.com/event/spike-sikes-and-his-awesome-hotcakes-faux-new-years-eve-2/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: blues (+10)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-07",
-   "description": "spinning the sounds of hip-hop, jazz, funk, disco, and beyond on vinyl for your listening enjoyment; free",
-   "fingerprint": "a92082846f94",
-   "id": "ev_23f29a0d761a",
-   "other_urls": [],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T21:00:00-08:00",
-   "title": "DJ Sangwoo",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "hiphop_classic: hip hop, hip-hop (+15)",
-    "noise_dj: dj (-30)",
-    "intimate room: Little Hill Lounge (+14)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-07",
-   "description": "\"What I do is instinctive, quiet and naturalistic. I want to document unobtrusively. I want to see who people really are. I frame up the situation and then I push the button. I always want it to look exactly the way it looks to me.\" – Henry Diltz Henry Diltz 's work as an iconic photographer in the 1960s and 1970s is celebrated for his unique \"fly on the wall\" style portraits and his ability to ca",
-   "fingerprint": "809666dd7a1a",
-   "id": "ev_87860943497b",
-   "other_urls": [],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T19:00:00-08:00",
-   "title": "Henry Diltz – Behind the Lens",
-   "url": "https://www.kuumbwajazz.org/calendar/henry-diltz-behind-the-lens/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "legacy: influential (+14)",
-    "intimacy: intimate (+5)",
-    "noise_tribute: experience (-18)"
-   ]
-  },
   {
    "city": "Santa Cruz",
    "date": "2026-11-04",
@@ -819,6 +302,534 @@
     "booking signal: Freight & Salvage (+8)",
     "listed by a taste-aligned calendar (+14)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Nicasio",
+   "date": "2026-11-13",
+   "description": "FEELING GROOVY With a deep respect for the duo's timeless music, Feeling Groovy reimagines the magic of Paul Simon and Art Garfunkel's collaboration that once dominated the folk scene. Through a blend of powerful vocals, intricate harmonies, and engaging storytelling, the band recreates the magic of their live performances, transporting audiences back to the heyday of one of the most beloved acts ",
+   "fingerprint": "b1a22e909421",
+   "id": "ev_edc85068ba49",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2026-11-13T00:00:00-08:00",
+   "title": "FEELING GROOVY",
+   "url": "https://ranchonicasio.com/event/feeling-groovy/",
+   "venue": "Rancho Nicasio",
+   "why_rules": [
+    "roots_adjacent: folk (+10)",
+    "intimacy: duo (+5)",
+    "intimate room: Rancho Nicasio (+14)",
+    "booking signal: Rancho Nicasio (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-02",
+   "description": "Lexi Jayde at The Independent at 2026-11-02T20:00:00-0800",
+   "fingerprint": "b6d31222c7f5",
+   "id": "ev_05686492580a",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://www.theindependentsf.com/tm-event/lexi-jayde/",
+    "https://apeconcerts.com/events/lexi-jayde-261102/"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-02T20:00:00-08:00",
+   "title": "Lexi Jayde, Ally Salort",
+   "url": "https://www.songkick.com/concerts/43391670-lexi-jayde-at-independent",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-08",
+   "description": "Ivy Room: Chris Acker, Nikolai Shveitser, Skyway Man, Mikayla McVey Duo",
+   "fingerprint": "e1f480bead3b",
+   "id": "ev_3c39bef97e28",
+   "other_urls": [
+    "https://www.jambase.com/show/chris-acker-ivy-room-20261108",
+    "https://tickets.venuepilot.com/e/chris-acker-2026-11-08-ivy-room-albany-c054a4"
+   ],
+   "rules_score": 62.0,
+   "rules_tier": "strong",
+   "start": "2026-11-08T00:00:00-08:00",
+   "title": "Chris Acker, Nikolai Shveitser, Skyway Man, Mikayla McVey Duo",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "intimacy: duo (+5)",
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-01-14",
+   "description": "Freddie Bryant 's latest recording project is his most intimate and his first complete album of solo guitar. Solo Bossa features 14 of his original compositions written over the last four decades. The title refers to bossa nova and many of the tracks have that classic feel made famous in the early 1960's. The music takes the journey from bossa to samba as well as baiao, bolero, waltz and a sultry ",
+   "fingerprint": "4583e842e2ad",
+   "id": "ev_8708bef5fffe",
+   "other_urls": [],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2027-01-14T19:30:00-08:00",
+   "title": "Freddie Bryant, solo guitar",
+   "url": "https://birdbeckett.com/event/freddie-bryant_2027-01-14/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: intimate (+5)",
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-04",
+   "description": "Team Dresch, The Third Sex, and Longstocking at Bottom of the Hill at 2026-11-04T19:00:00-0800",
+   "fingerprint": "8f0561c4878d",
+   "id": "ev_2ee43226e484",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://dice.fm/event/6a679b1e48d5c300010bd482",
+    "http://www.bottomofthehill.com/20261104.html"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-04T19:00:00-08:00",
+   "title": "Team Dresch ~ Longstocking ~ The Third Sex [WED 11/4/2026=AA]",
+   "url": "https://www.songkick.com/concerts/43296513-team-dresch-at-bottom-of-the-hill",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "intimate room: Bottom of the Hill (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-28",
+   "description": "Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Dave Macnab-Guitar, the[...]",
+   "fingerprint": "71d45a3a3aa7",
+   "id": "ev_5def5c7c8f35",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-28T22:30:00-08:00",
+   "title": "Late Set: Simon Rowe Organ Trio",
+   "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-75/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-23",
+   "description": "",
+   "fingerprint": "7bafbe8837dc",
+   "id": "ev_65a7c7a0066a",
+   "other_urls": [],
+   "rules_score": 56.0,
+   "rules_tier": "strong",
+   "start": "2026-11-23T00:00:00-08:00",
+   "title": "the Dogweeds-Western Swing",
+   "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/",
+   "venue": "Down Home Music",
+   "why_rules": [
+    "roots_adjacent: western swing (+10)",
+    "intimate room: Down Home Music (+14)",
+    "booking signal: Down Home Music (+8)",
+    "listed by a taste-aligned calendar (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-05",
+   "description": "Greg Freeman at The Independent at 2026-11-05T20:00:00-0800",
+   "fingerprint": "44a99817a03f",
+   "id": "ev_fa6a2e9d5c34",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://www.theindependentsf.com/tm-event/greg-freeman/",
+    "https://apeconcerts.com/events/greg-freeman-261105/"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-05T20:00:00-08:00",
+   "title": "Greg Freeman, Trinity Ace",
+   "url": "https://www.songkick.com/concerts/43334067-greg-freeman-at-independent",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-27",
+   "description": "Cosmo Alleycats presents \"Old Sweet Songs\", a show celebrating enduring melodies, a bygone style of songwriting, and original songs that contend for placement in the Great American Canon. The group, Led by jazz vocalist Emily Day, \"one of the major singers in her field\" (Scott Yanow), endears audiences with their inviting musicality and playful improvisation,[...]",
+   "fingerprint": "8dd06b154740",
+   "id": "ev_04ec9e997644",
+   "other_urls": [],
+   "rules_score": 56.5,
+   "rules_tier": "strong",
+   "start": "2026-11-27T19:00:00-08:00",
+   "title": "\"Emily Day & Cosmo Alleycats\"",
+   "url": "https://keysjazzbistro.com/event/emily-day-cosmo-alleycats-8/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz, improvisation (+22)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "Mill Valley",
+   "date": "2026-11-12",
+   "description": "Max Gomez at Sweetwater Music Hall on Nov 12, 2026",
+   "fingerprint": "52f139d0e26f",
+   "id": "ev_b737c76114b4",
+   "other_urls": [
+    "https://www.jambase.com/show/max-gomez-sweetwater-music-hall-20261112",
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 67.0,
+   "rules_tier": "strong",
+   "start": "2026-11-12T20:00:00-08:00",
+   "title": "Max Gomez with Caroline De Lone",
+   "url": "https://sweetwatermusichall.org/event/max-gomez-with-caroline-de-lone/sweetwater-music-hall/mill-valley-california/",
+   "venue": "Sweetwater Music Hall",
+   "why_rules": [
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-06",
+   "description": "King Buffalo at The Independent at 2026-11-06T21:00:00-0800",
+   "fingerprint": "cc600afe466d",
+   "id": "ev_e575ca0c3b47",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://www.theindependentsf.com/tm-event/king-buffalo/",
+    "https://apeconcerts.com/events/king-buffalo-261106/"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-06T21:00:00-08:00",
+   "title": "King Buffalo, L.A. WITCH",
+   "url": "https://www.songkick.com/concerts/43224118-king-buffalo-at-independent",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Petaluma",
+   "date": "2026-12-07",
+   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
+   "fingerprint": "ca57194310e7",
+   "id": "ev_f5de1078fe8a",
+   "other_urls": [],
+   "rules_score": 71.0,
+   "rules_tier": "strong",
+   "start": "2026-12-07T18:00:00-08:00",
+   "title": "Garage Jam",
+   "url": "https://californiabluegrass.org/event/garage-jam/2026-12-07/",
+   "venue": "Out West Garage",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "roots_adjacent: folk (+10)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-08",
+   "description": "femme garage rock group from San Francisco + 2 other live bands TBD; $10 cover",
+   "fingerprint": "2ca99a804207",
+   "id": "ev_1d469f36c677",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-08T20:00:00-08:00",
+   "title": "Medscool + For Horses",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-08",
+   "description": "Thao & The Get Down Stay Down at The Independent at 2026-11-08T20:00:00-0800",
+   "fingerprint": "aa00bd9725da",
+   "id": "ev_409a40269ac4",
+   "other_urls": [
+    "https://www.theindependentsf.com/tm-event/thao/",
+    "https://apeconcerts.com/events/thao-261108/",
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-08T20:00:00-08:00",
+   "title": "Thao & The Get Down Stay Down",
+   "url": "https://www.songkick.com/concerts/43345479-thao-and-the-get-down-stay-down-at-independent",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-15",
+   "description": "Nov. 15 (1 pm): Kathy Kallick, Bethany Sorkey, Greg Booth, Tom Bekeny, and Larry Chung - The Monkey House, Berkeleyc",
+   "fingerprint": "d27d74b2b334",
+   "id": "ev_175dcbd0ac26",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/",
+    "https://sites.google.com/site/davbrown2/oldtimesf"
+   ],
+   "rules_score": 74.0,
+   "rules_tier": "exceptional",
+   "start": "2026-11-15T00:00:00-08:00",
+   "title": "Kathy Kallick, Bethany Sorkey, Greg Booth, Tom Bekeny, and Larry Chung",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "The Monkey House, Berkeleyc",
+   "why_rules": [
+    "seed artist: Kathy Kallick (+25)",
+    "listed by a taste-aligned calendar (+18)",
+    "3 independent sources (+8)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-13",
+   "description": "Lynne Maes, rhythm guitar & vocals; Hank Maninger, lead guitar & vocals; Tim Wagar, bass guitar; Paul Revelli drums You're in for two sets in honky tonk heaven. Mainstays of the Bay Area Americana scene, and the Bird & Beckett bandstand, for nearly a decade, Nashville Honeymoon has traversed country, rockabilly, bluegrass, and pop across four albums, writing songs that uplift the tangled mess of d",
+   "fingerprint": "7a11b0cc4a92",
+   "id": "ev_eb8b74842789",
+   "other_urls": [
+    "https://www.hickswithsticks.com/calendar/",
+    "https://www.hickswithsticks.com/calendar/"
+   ],
+   "rules_score": 58.5,
+   "rules_tier": "strong",
+   "start": "2026-12-13T17:00:00-08:00",
+   "title": "Nashville Honeymoon",
+   "url": "https://birdbeckett.com/event/nashville-honeymoon_2026-12-13/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: americana, country, honky tonk, honky-tonk (+18)",
+    "theater_core: beckett (+14)",
+    "noise: happy hour (-45)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-12",
+   "description": "Buy Tickets on Humanitix - Songwriters Mav Asya and Priyanka Atreya hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday November 12th 2026. Find event information.",
+   "fingerprint": "3fbe7fd29830",
+   "id": "ev_ee6b29b28d5d",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-12T20:00:00-08:00",
+   "title": "Songwriters Mav Asya and Priyanka Atreya",
+   "url": "https://events.humanitix.com/songwriters-mav-asya-and-priyanka-atreya",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-13",
+   "description": "music on at 8:00pm; tickets $15; support local fem indie acts!",
+   "fingerprint": "6945802ae2db",
+   "id": "ev_7a85576a6024",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Fem Indie Night with Holly Voorsanger, Flora Elmcolone, and Bess Hepner",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Novato",
+   "date": "2026-12-19",
+   "description": "Dec. 19: Crying Uncle Bluegrass Band - HopMonk Tavern, Novato",
+   "fingerprint": "deb460d156a8",
+   "id": "ev_c85e14ab0010",
+   "other_urls": [
+    "https://www.jambase.com/show/crying-uncle-bluegrass-band-hopmonk-tavern-novato-20261219",
+    "https://www.jambase.com/show/crying-uncle-bluegrass-band-hopmonk-tavern-novato-20261219",
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 72.0,
+   "rules_tier": "strong",
+   "start": "2026-12-19T00:00:00-08:00",
+   "title": "Crying Uncle Bluegrass Band",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "HopMonk Tavern Novato",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+18)",
+    "5 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2026-11-02",
+   "description": "PROGRAM DESCRIPTION: Helen Sung's debut big band album Oracles (Sunnyside Records, June 2026) pays tribute to the jazz legends who were her mentor-teachers at the Monk Institute of Jazz Performance (now the Herbie Hancock Institute), for which she composed musical portraits ranging from \"A Little Bird Watchin'\" for impish Jimmy Heath, \"Positively CT\" for the indomitable Clark Terry, \"Wayne's World",
+   "fingerprint": "c1810dbfdf73",
+   "id": "ev_0a86f6c96e75",
+   "other_urls": [],
+   "rules_score": 59.0,
+   "rules_tier": "strong",
+   "start": "2026-11-02T19:00:00-08:00",
+   "title": "Helen Sung – Oracles Quartet",
+   "url": "https://www.kuumbwajazz.org/calendar/helen-sung-quartet/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "theater_core: musical (+14)",
+    "noise_tribute: tribute to (-18)",
+    "intimate room: Kuumbwa Jazz (+14)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-20",
+   "description": "",
+   "fingerprint": "d46cd271c4b4",
+   "id": "ev_74050a3940bd",
+   "other_urls": [],
+   "rules_score": 74.0,
+   "rules_tier": "strong",
+   "start": "2026-12-20T00:00:00-08:00",
+   "title": "Crooked Jades 26",
+   "url": "https://fifthstfarms.com/",
+   "venue": "Fifth Street Farms",
+   "why_rules": [
+    "seed artist: Crooked Jades (+40)",
+    "intimate room: Fifth Street Farms (+14)",
+    "booking signal: Fifth Street Farms (+8)",
+    "heuristic text extraction, unverified (-8)"
+   ]
+  },
+  {
+   "city": "Nicasio",
+   "date": "2027-01-17",
+   "description": "KEITH GREENINGER & NINA GERBER together in concert Award winning singer/songwriter Keith Greeninger and legendary guitarist Nina Gerber join forces for a powerful night of music, song and community celebration.",
+   "fingerprint": "d03eec2b52cd",
+   "id": "ev_cc85d7f83c2c",
+   "other_urls": [],
+   "rules_score": 68.5,
+   "rules_tier": "strong",
+   "start": "2027-01-17T00:00:00-08:00",
+   "title": "KEITH GREENINGER & NINA GERBER",
+   "url": "https://ranchonicasio.com/event/keith-greeninger-nina-gerber-3/",
+   "venue": "Rancho Nicasio",
+   "why_rules": [
+    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
+    "legacy: legendary (+14)",
+    "intimate room: Rancho Nicasio (+14)",
+    "booking signal: Rancho Nicasio (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2027-01-23",
+   "description": "Violin, viola da gamba, harpsichord music from 17-century France",
+   "fingerprint": "576e4059ae08",
+   "id": "ev_6c48ae12a392",
+   "other_urls": [
+    "https://www.tickettailor.com/events/fifthstreetfarms",
+    "https://www.tickettailor.com/events/fifthstreetfarms"
+   ],
+   "rules_score": 64.0,
+   "rules_tier": "strong",
+   "start": "2027-01-23T19:00:00-08:00",
+   "title": "David Miller, Frederic Rosselet, Derek Tam--17th-century French chamber music",
+   "url": "https://www.tickettailor.com/events/fifthstreetfarms/2480835",
+   "venue": "Fifth Street Farms",
+   "why_rules": [
+    "intimate room: Fifth Street Farms (+14)",
+    "booking signal: Fifth Street Farms (+8)",
+    "listed by a taste-aligned calendar (+10)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-01-29",
+   "description": "Jinx Jones, guitar; Kenan O'Brien, bass; Ken Owen, drums",
+   "fingerprint": "44b34ca299ad",
+   "id": "ev_6fbd3d0e662d",
+   "other_urls": [],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2027-01-29T19:30:00-08:00",
+   "title": "Jinx Jones Jazz Trio",
+   "url": "https://birdbeckett.com/event/jinx-jones-jazz-trio/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-06",
+   "description": "Ashkenaz: Alasdair Fraser Band",
+   "fingerprint": "0a0c2564d0ab",
+   "id": "ev_7bad9b1aecb1",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/",
+    "https://tickets.venuepilot.com/e/alasdair-fraser-2026-11-06-ashkenaz-music-dance-community-center-berkeley-b10afb"
+   ],
+   "rules_score": 59.0,
+   "rules_tier": "strong",
+   "start": "2026-11-06T00:00:00-08:00",
+   "title": "Alasdair Fraser & Cameron Fraser",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "Ashkenaz",
+   "why_rules": [
+    "intimate room: Ashkenaz (+14)",
+    "listed by a taste-aligned calendar (+14)",
+    "3 independent sources (+8)"
    ]
   }
  ]
