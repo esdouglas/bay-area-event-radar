@@ -28,6 +28,8 @@ jobs:
       EVENTBRITE_TOKEN: ${{ secrets.EVENTBRITE_TOKEN }}
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      RADAR_EMAIL: ${{ secrets.RADAR_EMAIL }}
+      GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       PYTHONUNBUFFERED: '1'
     steps:
       - uses: actions/checkout@v4

@@ -9,7 +9,7 @@ before it happens, not the morning after. See [POSTMORTEM.md](POSTMORTEM.md) for
 - Inventory + search: https://esdouglas.github.io/bay-area-event-radar/ (every plausible event, filter by tier/category/date)
 - Coverage dashboard: https://esdouglas.github.io/bay-area-event-radar/dashboard.html (every source, its health, what it contributed, run history)
 - Calendar feed: https://esdouglas.github.io/bay-area-event-radar/radar.ics (strong + exceptional events; v1 UIDs preserved)
-- Weekly email: a GitHub issue labelled `radar-digest`, Mondays ~8 AM Pacific (assigned to the owner, so
+- Weekly email: Mondays ~8 AM Pacific, sent from your own Gmail when the `RADAR_EMAIL` and `GMAIL_APP_PASSWORD` secrets are set (`radar/mailer.py`); otherwise, or if sending fails, a GitHub issue labelled `radar-digest` (assigned to the owner, so
   GitHub e-mails it). A handful of picks, not a list: up to 3 in the next two weeks, up to 3 new ones
   to book ahead, one-line reminders of earlier picks, and a few near misses. Picks are scored by
   research fit minus a travel penalty from Oakland (`travel` and `digest` in taste.yaml; see
