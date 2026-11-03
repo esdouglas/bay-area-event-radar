@@ -719,6 +719,41 @@
       "Full list of 'friends' beyond Kate Wolf not stated."
     ]
   },
+  "ev_267726303eda": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission request timed out); queue item lists Jan 15, 2027, 7:00 PM at Kuumbwa, describing Rosenwinkel as a highly acclaimed and influential guitarist.",
+        "url": "https://www.kuumbwajazz.org/calendar/gerald-clayton-kurt-rosenwinkel/"
+      },
+      {
+        "finding": "Kurt Rosenwinkel & Gerald Clayton, Thu Jan 14, 2027, 7:30 PM, Miner Auditorium, $35-85; 'Two instrumentalists at the pinnacle of modern jazz meet for this inspired evening of duets'; recent performances drew on Rosenwinkel's 2023 duo album A Lovesome Thing; mentions Clayton's Blue Note release Ones & Twos. No sold-out text.",
+        "url": "https://www.sfjazz.org/tickets/productions/26-27/kurt-rosenwinkel-gerald-clayton/"
+      }
+    ],
+    "fingerprint": "455491e6245f",
+    "fit": 80,
+    "performers": [
+      {
+        "known_for": "Influential modern jazz guitarist and composer; duo album A Lovesome Thing (2023)",
+        "name": "Kurt Rosenwinkel",
+        "significance": "major"
+      },
+      {
+        "known_for": "Acclaimed jazz pianist, Blue Note artist (Ones & Twos)",
+        "name": "Gerald Clayton",
+        "significance": "major"
+      }
+    ],
+    "reason": "Guitarist Kurt Rosenwinkel and pianist Gerald Clayton, two of the most influential improvisers of their generation, play duets in the 200-seat Kuumbwa room in Santa Cruz. Their duo grew out of Rosenwinkel's 2023 album A Lovesome Thing, an intimate, adventurous pairing that suits his taste for emotionally compelling jazz. The same duo plays SFJAZZ's Miner Auditorium the night before (Thu Jan 14, 7:30 PM, $35-85), which is a much shorter drive from Oakland.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Kuumbwa page not fetched, so price and ticket status there are unconfirmed",
+      "Which show is better for him: Kuumbwa is more intimate, SFJAZZ is closer (inference)"
+    ]
+  },
   "ev_27affeded30b": {
     "evidence": [
       {
@@ -919,6 +954,53 @@
       "How much son jarocho material appears in the live set"
     ]
   },
+  "ev_2ee43226e484": {
+    "evidence": [
+      {
+        "finding": "Not fetched; queue says Team Dresch, The Third Sex, Longstocking at Bottom of the Hill 2026-11-04 7pm, all ages.",
+        "url": "https://www.songkick.com/concerts/43296513-team-dresch-at-bottom-of-the-hill"
+      },
+      {
+        "finding": "Furthermore, first album in 30 years, out Sept 26 on Jealous Butcher; Bottom of the Hill SF Nov 4 and 5 with Longstocking and The Third Sex.",
+        "url": "https://www.brooklynvegan.com/team-dresch-announce-first-album-in-30-years-hear-one-song/"
+      },
+      {
+        "finding": "Punk/queercore/riot grrrl band formed 1993 in Olympia; Kill Rock Stars, Chainsaw, Candy Ass releases; Personal Best (1995).",
+        "url": "https://en.wikipedia.org/wiki/Team_Dresch"
+      },
+      {
+        "finding": "Fetch blocked (permission not granted in time).",
+        "url": "http://www.bottomofthehill.com/20261104.html"
+      }
+    ],
+    "fingerprint": "8f0561c4878d",
+    "fit": 32,
+    "performers": [
+      {
+        "known_for": "foundational queercore/riot grrrl punk band",
+        "name": "Team Dresch",
+        "significance": "major"
+      },
+      {
+        "known_for": "unknown (support act)",
+        "name": "Longstocking",
+        "significance": "none"
+      },
+      {
+        "known_for": "Portland queercore punk band (inference)",
+        "name": "The Third Sex",
+        "significance": "local"
+      }
+    ],
+    "reason": "Team Dresch, the 1990s Olympia queercore and riot grrrl punk band, play Bottom of the Hill on tour behind Furthermore, their first album in 30 years (Jealous Butcher). It is a historically meaningful reunion for that scene, but loud punk sits well outside Erik's roots, jazz, hip-hop and theater interests (inference).",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Venue page not fetched; a second night Nov 5 also exists per BrooklynVegan."
+    ]
+  },
   "ev_2f32e8713f2d": {
     "evidence": [
       {
@@ -1066,6 +1148,55 @@
       "Tashi T identification is based on name match with the Swallow Hill listing (inference)."
     ]
   },
+  "ev_30a270279b9a": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read.",
+        "url": "https://www.kuumbwajazz.org/calendar/voyage-hot-club/"
+      },
+      {
+        "finding": "Voyage Hot Club: 'Django Meets French Chanson', Sunday January 24, 2027, 7:00-9:00 PM (doors 6:15), Kuumbwa Jazz, 320 Cedar St, Santa Cruz. Eva Slongo violin and vocals, Jimmy Grant guitar, Simon Planting bass (special guest). Host: Django Masters. No price or sold-out text.",
+        "url": "https://events.humanitix.com/voyage-hot-club-kumbwaa"
+      },
+      {
+        "finding": "2017 article: Jimmy Grant is a Northern California native drawn to Django Reinhardt; has performed with David Grisman, Gonzalo Bergara, Robin Nolan, Tim Kliphuis, Rhythm Future Quartet, Hot Club of San Francisco; played Djangofest Northwest and New York Hot Jazz Festival.",
+        "url": "https://www.kalw.org/post/fog-city-blues-double-header-jimmy-grant-and-royal-jelly-jive"
+      },
+      {
+        "finding": "Search result title only: Eva Slongo Jazz Quartet on the 2025 San Javier International Jazz Festival programme (page not read).",
+        "url": "https://jazz.sanjavier.es/en/programme/2025/eva-slongo-jazz-quartet"
+      }
+    ],
+    "fingerprint": "f77a4d55eb82",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Jazz violinist and vocalist; played the San Javier International Jazz Festival 2025 with her quartet (per search result title)",
+        "name": "Eva Slongo",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Northern California gypsy jazz guitarist; has played with David Grisman and Hot Club of San Francisco",
+        "name": "Jimmy Grant",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Bassist, special guest",
+        "name": "Simon Planting",
+        "significance": "none"
+      }
+    ],
+    "reason": "Voyage Hot Club is violinist Eva Slongo and guitarist Jimmy Grant playing Django Reinhardt and Stephane Grappelli style gypsy jazz mixed with French chanson, with Simon Planting on bass. Grant is a Northern California Django player who has worked with David Grisman and the Hot Club of San Francisco, so this is skilled acoustic string jazz in an intimate room, though it is a fairly traditional repertoire set and Kuumbwa in Santa Cruz is a long drive from Oakland.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Ticket price not stated",
+      "Simon Planting's background not researched",
+      "Eva Slongo's 'award-winning' claim comes from the listing description, not verified"
+    ]
+  },
   "ev_35235a54a0cc": {
     "evidence": [
       {
@@ -1183,6 +1314,60 @@
       "Repertoire not stated; Dead/Garcia-Grisman material is inference from the performers' projects."
     ]
   },
+  "ev_3c39bef97e28": {
+    "evidence": [
+      {
+        "finding": "Not fetched. The queue item says the KALX calendar lists Ivy Room: Chris Acker, Nikolai Shveitser, Skyway Man, Mikayla McVey Duo for Nov 8.",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Fetch blocked (permission not granted in time); ticket URL slug indicates Chris Acker at Ivy Room Albany on 2026-11-08.",
+        "url": "https://tickets.venuepilot.com/e/chris-acker-2026-11-08-ivy-room-albany-c054a4"
+      },
+      {
+        "finding": "Review of Chris Acker's Odd, Ordinary, and Otherwise on Gar Hole Records, recorded in New Orleans; Nikolai Shveitser plays pedal steel; fans of John Prine and Todd Snider will find something to like.",
+        "url": "https://americanahighways.org/2021/08/16/review-chris-acker-odd-ordinary-and-otherwise/"
+      },
+      {
+        "finding": "Skyway Man is James Wallace's persona; psychedelic pop records, a psych-folk opera (The World Only Ends When You Die), 2023 album Flight of the Long Distance Healer; known for work on Joe Pera Talks With You; Spacebomb house band played on his 2017 album.",
+        "url": "https://aquariumdrunkard.com/category/skyway-man"
+      }
+    ],
+    "fingerprint": "e1f480bead3b",
+    "fit": 74,
+    "performers": [
+      {
+        "known_for": "New Orleans-recorded folk songwriter on Gar Hole Records, Prine/Snider comparisons",
+        "name": "Chris Acker",
+        "significance": "notable"
+      },
+      {
+        "known_for": "James Wallace's psych-folk/psych-pop project; Joe Pera Talks With You",
+        "name": "Skyway Man",
+        "significance": "notable"
+      },
+      {
+        "known_for": "pedal steel player on Chris Acker records",
+        "name": "Nikolai Shveitser",
+        "significance": "local"
+      },
+      {
+        "known_for": "unknown",
+        "name": "Mikayla McVey Duo",
+        "significance": "none"
+      }
+    ],
+    "reason": "A four-act cosmic-folk and country bill at the Ivy Room in Albany, headlined by Chris Acker (Gar Hole Records folk songwriter, compared to John Prine and Todd Snider) with his pedal steel player Nikolai Shveitser. Also on the bill is Skyway Man (James Wallace, of Joe Pera Talks With You), whose psych-folk opera and Spacebomb-backed psychedelic pop fit Erik's freak-folk and countercultural Americana taste. A cheap, close-to-home night in a small room with several left-of-center roots songwriters (inference).",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Primary ticket page and KALX page could not be fetched; start time, price and billing order unconfirmed.",
+      "Mikayla McVey Duo not researched beyond a Bandcamp search hit.",
+      "Whether Nikolai Shveitser plays his own set or backs Acker is unclear."
+    ]
+  },
   "ev_3e2662af80af": {
     "evidence": [
       {
@@ -1278,6 +1463,37 @@
       "Worth upgrading only if Erik wants to play."
     ]
   },
+  "ev_43cb5127d7c0": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read. Queue description (from this listing) says she is NYC-based, from San Francisco, sang in aunt's band Lavay Smith & Her Red Hot Skillet Lickers, studied at SFArtsEd, loves Harold Arlen and Kander & Ebb.",
+        "url": "https://birdbeckett.com/event/ella-dair_2026-12-13/"
+      },
+      {
+        "finding": "Search result exists for an Ella Dair booking profile in Astoria (NY); fetch failed, not read.",
+        "url": "https://www.gigsalad.com/ella_dair_astoria"
+      }
+    ],
+    "fingerprint": "2f83ea265d51",
+    "fit": 45,
+    "performers": [
+      {
+        "known_for": "NYC-based jazz vocalist from San Francisco; niece of Lavay Smith",
+        "name": "Ella Dair",
+        "significance": "local"
+      }
+    ],
+    "reason": "Ella Dair is a New York-based jazz vocalist who grew up in San Francisco singing in her aunt Lavay Smith's swing band, the Red Hot Skillet Lickers. She sings the Great American Songbook (Harold Arlen, Kander and Ebb), a homecoming set at the tiny, well-booked Bird & Beckett bookstore, but it is standards singing rather than the adventurous improvised jazz he favors.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Ensemble lineup unknown",
+      "Little independent coverage of Ella Dair found",
+      "Date and time only from the queue item; primary page not read"
+    ]
+  },
   "ev_463902826f67": {
     "evidence": [
       {
@@ -1336,35 +1552,83 @@
       "Open jam, no featured artists."
     ]
   },
+  "ev_4c4500c80268": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read.",
+        "url": "https://allevents.in/oakland/jazz-mafia-strings/100001999283418524"
+      },
+      {
+        "finding": "Calendar lists nothing after October 21, 2026; no 'Jazz Mafia Strings' show at The Sound Room shown. Past Sound Room shows include a 25-Year Retrospective (Nov 15, 2025).",
+        "url": "https://www.jazzmafia.com/calendar"
+      },
+      {
+        "finding": "Cosa Nostra Strings is 'an offshoot of Adam Theis' omnivorous Jazz Mafia conglomeration' blending hip-hop, jazz and classical; has worked with musicians from The Roots and Blackalicious and Richmond rapper Mani Draper.",
+        "url": "https://www.sfcv.org/event/sfjazz/cosa-nostra-strings-hip-hop-meets-classical-w-guest-mani-draper"
+      }
+    ],
+    "fingerprint": "d1bf1fa73714",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Bay Area jazz/hip-hop/orchestral collective led by trombonist Adam Theis; strings offshoot Cosa Nostra Strings",
+        "name": "Jazz Mafia (Adam Theis)",
+        "significance": "local"
+      }
+    ],
+    "reason": "Jazz Mafia Strings is billed at The Sound Room in Oakland, from Adam Theis's long-running Bay Area Jazz Mafia collective, which also runs a strings offshoot (Cosa Nostra Strings) mixing hip-hop, jazz and chamber music with rappers. If it is that strings project it is an unusual, close-to-home hip-hop and jazz crossover, but the lineup and program for this date could not be confirmed.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Not confirmed on Jazz Mafia's own calendar",
+      "Whether 'Jazz Mafia Strings' is the same as Cosa Nostra Strings is inference",
+      "Start time unknown (listed as midnight)",
+      "Lineup and repertoire unknown; Jazz Mafia Sound Room shows are often themed tributes (Stevie Wonder, Beatles) per search results"
+    ]
+  },
   "ev_4c7ac8c8c69f": {
     "evidence": [
       {
-        "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey hosted by The Back Room. Wednesday November 4th 2026.",
+        "finding": "Fetch blocked (permission not granted). Queue item title reads 'ADV TICKETS ARE SOLD OUT! International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey', The Back Room, Wed Nov 4 2026, 8:30 PM.",
         "url": "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey2ndshow"
+      },
+      {
+        "finding": "Fetch blocked (permission not granted); appears in search results as the first-show listing with the same title.",
+        "url": "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey"
+      },
+      {
+        "finding": "Calls Misko a modern fingerstyle guitar prodigy: viral 'Guitar + Pen Tapping Song' (2015), Michael Jackson and George Michael covers with tens of millions of views, MusicRadar Acoustic Guitarist of the Year 2018, Carnegie Hall 2020, duo Alex & Alex with harpist Alexander Boldachev, six albums, moved from Russia to Germany in 2023. Forest Bailey mixes fingerstyle, tapping and percussive guitar, citing Michael Hedges, Andy McKee, Antoine Dufour.",
+        "url": "https://swallowhillmusic.org/events/alexandrmisko"
+      },
+      {
+        "finding": "Search result only: Misko with Forest Bailey also listed at Kuumbwa (date not confirmed).",
+        "url": "https://www.kuumbwajazz.org/calendar/alexandr-misko-the-international-guitar-sensation-with-special-guest-forest-bailey"
       }
     ],
-    "fingerprint": "ff9999dc15c8",
-    "fit": 34,
+    "fingerprint": "16b28cea5b1f",
+    "fit": 40,
     "performers": [
       {
-        "known_for": "Fingerstyle guitarist",
+        "known_for": "viral modern fingerstyle/tapping acoustic guitar, pop covers, Alex & Alex duo",
         "name": "Alexandr Misko",
         "significance": "notable"
       },
       {
-        "known_for": "Guest, not researched successfully",
+        "known_for": "percussive fingerstyle and tapping guitar",
         "name": "Forest Bailey",
         "significance": "none"
       }
     ],
-    "reason": "Alexandr Misko is a Russian-born percussive fingerstyle guitarist with a large online following (background knowledge); Forest Bailey opens. Virtuosic solo-guitar showmanship in a tiny room, but not roots tradition or improvised jazz.",
-    "researched_at": "2026-10-30T21:49:06+00:00",
+    "reason": "Alexandr Misko is a viral modern fingerstyle guitar virtuoso, known for tapping showpieces and pop covers (Michael Jackson, George Michael) with tens of millions of views, opening for himself here with percussive fingerstyle player Forest Bailey. It is a dazzling technique show in the intimate Back Room, but it sits in the YouTube acoustic-guitar world rather than old-time, folk or improvised jazz traditions. The listing title says advance tickets for the first show sold out, and this is the added second show.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
     "tier": "low",
     "uncertainties": [
-      "Two shows that night (a '2ndshow' URL exists).",
-      "Forest Bailey unidentified."
+      "Could not fetch either Humanitix page; the 'ADV TICKETS ARE SOLD OUT' text comes from the listing title and may refer to the first show, not this second show",
+      "Exact time of the second show not confirmed from a primary page"
     ]
   },
   "ev_5018baea23ea": {
@@ -1423,6 +1687,45 @@
     "tier": "low",
     "uncertainties": [
       "Worth upgrading only if Erik plays and wants a jam."
+    ]
+  },
+  "ev_53649273c229": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read.",
+        "url": "https://www.jambase.com/show/chris-smither-the-freight-20261113"
+      },
+      {
+        "finding": "Not fetched; queue item says this taste-aligned folk calendar also lists the show.",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
+      },
+      {
+        "finding": "Search result title: 'Chris Smither - November 13, 2026' (Berkeley); page fetch failed.",
+        "url": "https://www.eventworld.co/berkeley/chris-smither-tickets-2026-11-13-552628/"
+      },
+      {
+        "finding": "A previous Freight show (Dec 10, 2025) featured Smither with The Motivators: David Goodrich, Zak Trojano and BettySoo. Not this date.",
+        "url": "https://www.bandsintown.com/es/e/107023725-chris-smither-at-the-freight"
+      }
+    ],
+    "fingerprint": "1bc0fb8566be",
+    "fit": 72,
+    "performers": [
+      {
+        "known_for": "Folk-blues singer-songwriter and fingerstyle guitarist since the 1960s; songs covered by Bonnie Raitt",
+        "name": "Chris Smither",
+        "significance": "major"
+      }
+    ],
+    "reason": "Chris Smither, the veteran folk-blues singer-songwriter and fingerpicker who came up in the 1960s Cambridge folk scene and was covered by Bonnie Raitt, plays the Freight in Berkeley. He is a foundational figure of the folk revival generation still touring, in the ideal room for him and close to home.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Date and time not confirmed on Freight's own page",
+      "Band or solo format for this date unknown",
+      "Career facts (Cambridge scene, Bonnie Raitt covers) are from general knowledge, not fetched sources"
     ]
   },
   "ev_54d511a3ab7d": {
@@ -1573,6 +1876,53 @@
     "tier": "low",
     "uncertainties": [
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_5811f4e5fea0": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read. The queue description says he is 18, from an Italian-speaking area of Switzerland, and has won awards and played with Del McCoury and Leftover Salmon.",
+        "url": "https://californiabluegrass.org/event/ettore-buzzini-and-faultliner-at-collage/"
+      },
+      {
+        "finding": "Swiss-American banjo player, 17 at writing, also known as Eddie Ray, on Patuxent Music. His single 'Don't Love Me' sets a Rueckert poem (also set by Mahler), with Chris Henry, Mark Schatz, Ella Thomas and Devin Jones.",
+        "url": "https://bluegrasstoday.com/?p=243769"
+      },
+      {
+        "finding": "Search result: Random Lengths News, a San Pedro paper, covers events at Collage (title only).",
+        "url": "https://www.pressreader.com/usa/random-lengths-news/20211209/281565179057280"
+      },
+      {
+        "finding": "COLLAGE: A Place for Art & Culture, 731 South Pacific Avenue (city not stated).",
+        "url": "https://undiscoveredmusic.net/venues/collage:_a_place_for_art_and_culture"
+      },
+      {
+        "finding": "Search result title: Faultliner Bluegrass Band, Los Angeles.",
+        "url": "https://www.gigsalad.com/faultliner_bluegrass_band_los_angeles"
+      }
+    ],
+    "fingerprint": "b5bd2aca5eaa",
+    "fit": 35,
+    "performers": [
+      {
+        "known_for": "Teenage Swiss-American bluegrass banjoist on Patuxent Music; has worked with Chris Henry and Mark Schatz",
+        "name": "Ettore Buzzini",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Los Angeles bluegrass band",
+        "name": "Faultliner",
+        "significance": "local"
+      }
+    ],
+    "reason": "Ettore Buzzini, a young Swiss-American banjo player on Patuxent Music who sets 19th-century poetry to bluegrass, shares a bill with the LA bluegrass band Faultliner. The show is at Collage in San Pedro, Los Angeles, a full day's drive from Oakland, so it barely matters despite the promising young picker. The listing says he has played with Del McCoury and Leftover Salmon.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "The venue's city is not confirmed on the page; San Pedro (Los Angeles) comes from the queue data and the 731 S Pacific Ave address (inference)",
+      "The Del McCoury and Leftover Salmon claims come only from the listing description"
     ]
   },
   "ev_5827c894ce57": {
@@ -1743,6 +2093,45 @@
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
+  "ev_5b4be1733d61": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission request timed out); queue item lists Feb 16, 2027, 7:00 PM, quoting Hunter calling Feingold 'one of the baddest, greasiest guitar players on the planet' and describing the album Different Strokes for Different Folks.",
+        "url": "https://www.kuumbwajazz.org/calendar/charlie-hunter-ella-feingold-700-pm/"
+      },
+      {
+        "finding": "Not fetched; URL indicates a second 9:00 PM set the same night.",
+        "url": "https://www.kuumbwajazz.org/calendar/charlie-hunter-ella-feingold-900-pm/"
+      },
+      {
+        "finding": "Charlie Hunter & Ella Feingold Trio, Wed Feb 17, 2027, 7:30 PM, Miner Auditorium, $35-75; Hunter guitar, Feingold guitar, TBA drums; Hunter 'Berkeley-reared', now in Greensboro, NC; Feingold a Western Massachusetts pioneer of inverted tuning; debut album on Hunter's SideHustle label mixes funk, jazz, soul and ambient. No sold-out text.",
+        "url": "https://www.sfjazz.org/tickets/productions/26-27/charlie-hunter-ella-feingold-trio/"
+      }
+    ],
+    "fingerprint": "aa0a6e0c4418",
+    "fit": 72,
+    "performers": [
+      {
+        "known_for": "Berkeley-reared multi-string guitarist (bass and guitar at once), SideHustle label",
+        "name": "Charlie Hunter",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Inverted-tuning guitarist, Hunter collaborator",
+        "name": "Ella Feingold",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Berkeley-reared guitar innovator Charlie Hunter plays with Ella Feingold, an inverted-tuning guitarist he calls one of the greasiest players on the planet, touring their SideHustle album Different Strokes for Different Folks. It is soulful, funky, exploratory guitar jazz in Kuumbwa's intimate room, with 7 PM and 9 PM sets. The same group plays SFJAZZ's Miner Auditorium the next night (Wed Feb 17, 7:30 PM, $35-75) as a trio, which is closer to Oakland.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Kuumbwa page not fetched; drummer and price there unconfirmed",
+      "Rules score's 'musical' theater match is a false positive (inference)"
+    ]
+  },
   "ev_5d01694156f2": {
     "evidence": [
       {
@@ -1828,6 +2217,45 @@
       "T Patrick Farmer and Willie G could not be identified.",
       "Wikipedia gives two different birthplaces (New Orleans and Baton Rouge).",
       "Fillmore Slim's documented past as a pimp may matter to some listeners."
+    ]
+  },
+  "ev_5def5c7c8f35": {
+    "evidence": [
+      {
+        "finding": "Not fetched; queue text: late-night Saturday sets of Bay Area organ trios, 'Transcendent Trio' from pandemic Jazz on the Patio residency, with Dave Macnab guitar; start 10:30pm Nov 28.",
+        "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-75/"
+      },
+      {
+        "finding": "Same residency (a 2025 listing): Rowe on Hammond B3, Dave McNab guitar, drummer Jason Lewis named in description; $15, 'Blues, Bebop, Ballads and Banter'.",
+        "url": "https://www.jazznearyou.com/sanfrancisco/events/late-set-simon-rowes-organ-trio-at-keys-jazz-bistro-on-november-28"
+      },
+      {
+        "finding": "Rowe is a Sydney-born pianist/organist, played with Dizzy Gillespie and Dianne Schuur, former exec director of the Brubeck Institute and SFCM Roots, Jazz and American Music; Keys is a 125-seat listening room co-founded with Matt Mullenweg.",
+        "url": "https://www.jazztimes.com/?p=191758"
+      }
+    ],
+    "fingerprint": "71d45a3a3aa7",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "pianist/Hammond organist, Keys Jazz Bistro owner, ex-Brubeck Institute director",
+        "name": "Simon Rowe",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bay Area jazz guitarist",
+        "name": "Dave MacNab",
+        "significance": "local"
+      }
+    ],
+    "reason": "Keys Jazz Bistro owner Simon Rowe, a Sydney-born pianist and Hammond organist who has played with Dizzy Gillespie and led the Brubeck Institute, plays his recurring late-night organ trio set with guitarist Dave MacNab. It is a cheap, friendly blues-bebop-ballads hang in a 125-seat North Beach room, but a regular house residency rather than a special occasion (inference).",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "2026 drummer and price unconfirmed (2025 listing named Jason Lewis, $15).",
+      "Recurring residency; this date is one of many."
     ]
   },
   "ev_5ef1ec6dd16e": {
@@ -2032,6 +2460,40 @@
     "uncertainties": [
       "Nakadegawa-Lee's instrument and the duo's style not confirmed (search suggests saxophone).",
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_65a7c7a0066a": {
+    "evidence": [
+      {
+        "finding": "Not fetched; queue lists 'the Dogweeds-Western Swing' as a free in-store on 2026-11-23.",
+        "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/"
+      },
+      {
+        "finding": "Americana roots band from Alameda/Oakland: Joan Wilson Rueter (fiddle, guitar, vocals), Rosie Steffy, Dawn Ellerbeck (bass), Jared Altura, Jamie Duncan; western swing and 70s country plus originals; debut EP Honeymoon (2024).",
+        "url": "https://sf.funcheap.com/dogweeds-evie-ladin-band/"
+      },
+      {
+        "finding": "Bay Area vintage country dance band; members have played Hardly Strictly Bluegrass and European festivals; book for private events.",
+        "url": "https://www.thebash.com/country-band/the-dogweeds"
+      }
+    ],
+    "fingerprint": "7bafbe8837dc",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "East Bay western swing / classic country band",
+        "name": "The Dogweeds",
+        "significance": "local"
+      }
+    ],
+    "reason": "The Dogweeds, an Alameda/Oakland roots band blending western swing and 1970s country with originals and sister-style harmonies, play a free in-store set at Down Home Music in El Cerrito. A pleasant, no-cost, close-to-home roots outing at a beloved record store, though a local dance-band act rather than a must-see (inference).",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Start time not known (listed as midnight placeholder); Nov 23 is a Monday, which is unusual for an in-store.",
+      "Store page not fetched to confirm."
     ]
   },
   "ev_68747aabf855": {
@@ -2553,6 +3015,45 @@
       "Solo or with band not stated"
     ]
   },
+  "ev_7c348009c91a": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read. The queue description names a 'Transcendent Trio' formed for a pandemic patio residency, with Dave MacNab on guitar.",
+        "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-74/"
+      },
+      {
+        "finding": "Rowe is a pianist and Hammond organist from Sydney, a former executive director of the Brubeck Institute and of SFCM's Roots, Jazz and American Music program, and has played with Dizzy Gillespie. He co-owns Keys with Matt Mullenweg. The club has a 125-seat listening room on Broadway in North Beach.",
+        "url": "https://www.jazztimes.com/?p=191758"
+      },
+      {
+        "finding": "Fetch failed. Search shows dozens of 'Late Set: Simon Rowe's Organ Trio' listings across many months, which points to a recurring residency.",
+        "url": "https://www.jazznearyou.com/sanfrancisco/events/late-set-simon-rowes-organ-trio-at-keys-jazz-bistro-on-november-22"
+      }
+    ],
+    "fingerprint": "21be1062453e",
+    "fit": 38,
+    "performers": [
+      {
+        "known_for": "Organist and pianist, co-owner of Keys Jazz Bistro, former Brubeck Institute director",
+        "name": "Simon Rowe",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bay Area jazz guitarist",
+        "name": "Dave MacNab",
+        "significance": "local"
+      }
+    ],
+    "reason": "Simon Rowe, the Hammond organist and pianist who co-owns Keys Jazz Bistro, plays his recurring late Saturday organ trio set in North Beach. He's a respected educator (former head of the Brubeck Institute) and the room is a 125-seat listening room, but this is a weekly house residency of groove-oriented organ trio jazz, not a special date.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Drummer not identified",
+      "Event page not read; the 10:30 PM start comes from the queue data"
+    ]
+  },
   "ev_7c9f31bbeee0": {
     "evidence": [
       {
@@ -2879,6 +3380,44 @@
       "Pras Michel is not billed; this is Lauryn Hill and Wyclef Jean, not a full Fugees lineup."
     ]
   },
+  "ev_85f7a4f3dd7e": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission request timed out); queue item states: 4th annual show, music by Michael James Tapscott playing americana and more, tickets $10, Dec 11, 2026, 8:00 PM.",
+        "url": "https://littlehillelcerrito.com/events/"
+      },
+      {
+        "finding": "Bandcamp: Bay Area musician based in El Cerrito, recording since 2004 under Odawas, More Animals of the Arctic, Royal Geography Society, China the band, Pacific Walker and his own name; releases include Goodbye, Marlene (Donovan Quinn and Michael James Tapscott).",
+        "url": "https://michaeljtapscott.bandcamp.com"
+      },
+      {
+        "finding": "Odawas: Michael Tapscott and Isaac Edwards, formed in Bloomington, Indiana in 2003; most albums on Jagjaguwar (The Aether Eater, Raven and the White Night, The Blue Depths); psychedelic and ambient rock; now in the San Francisco area.",
+        "url": "https://en.wikipedia.org/wiki/Odawas_(band)"
+      },
+      {
+        "finding": "Royal Oakie Records 10th anniversary festival (Oct 2022, Balboa Theatre) featured Whiskerman, Tan Cologne, Michael James Tapscott and others.",
+        "url": "https://sf.funcheap.com/royal-oakie-10th-anniversary-music-festival/"
+      }
+    ],
+    "fingerprint": "9396d29cd45c",
+    "fit": 58,
+    "performers": [
+      {
+        "known_for": "Leader of Jagjaguwar psych-folk band Odawas; collaborator of Donovan Quinn; Royal Oakie Records circle",
+        "name": "Michael James Tapscott",
+        "significance": "local"
+      }
+    ],
+    "reason": "Michael James Tapscott, the El Cerrito songwriter behind Jagjaguwar psych-folk band Odawas, hosts his 4th annual Royal Oakie Holiday Revue at tiny Little Hill Lounge for $10. Tapscott has recorded with Donovan Quinn of freak-folk band the Skygreen Leopards and plays in the Royal Oakie Records circle, so this sits close to the outsider and psychedelic folk lineage he likes. It is a casual neighborhood holiday show a few minutes from Oakland, low-stakes but a good fit for the price.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Other performers on the revue are not listed",
+      "That Donovan Quinn is the Skygreen Leopards member is inference from name and search results, not confirmed on a fetched page"
+    ]
+  },
   "ev_86b8feff18ee": {
     "evidence": [
       {
@@ -2902,6 +3441,40 @@
     "tier": "low",
     "uncertainties": [
       "Rules score inflated by 'jazz' and 'legendary' keywords."
+    ]
+  },
+  "ev_8708bef5fffe": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted in time). Queue description: Solo Bossa is his first complete album of solo guitar, 14 originals spanning bossa, samba, baiao, bolero, waltz; start 2027-01-14 7:30pm.",
+        "url": "https://birdbeckett.com/event/freddie-bryant_2027-01-14/"
+      },
+      {
+        "finding": "Berklee professor; collaborators include Eliane Elias, Tom Harrell, Chris Potter, Max Roach, Lonnie Smith, Salif Keita; Mingus Orchestra about two decades; eight CDs as leader; DownBeat Best CDs of 2023 for Upper West Side Love Story; toured 55 countries.",
+        "url": "https://college.berklee.edu/people/freddie-bryant"
+      },
+      {
+        "finding": "Search result shows Bryant also played Bird & Beckett with a Kaleidoscope West Trio in July 2026 (title only, not fetched).",
+        "url": "https://birdbeckett.com/freddie-bryant-kaleidoscope-west-trio-7-12-26/"
+      }
+    ],
+    "fingerprint": "4583e842e2ad",
+    "fit": 64,
+    "performers": [
+      {
+        "known_for": "NYC/Boston jazz guitarist, Mingus Orchestra, Brazilian jazz, Berklee faculty",
+        "name": "Freddie Bryant",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Freddie Bryant, a Berklee guitar professor who has played with Chris Potter, Tom Harrell, Eliane Elias, Max Roach and the Mingus Orchestra, plays solo guitar at Bird & Beckett. The set draws on his first solo-guitar album, Solo Bossa, 14 originals moving through bossa nova, samba, baiao and bolero, in one of the Bay's most intimate jazz rooms. Lovely and serious musicianship, though gentler Brazilian solo guitar than the adventurous improvised jazz Erik leans toward (inference).",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Event page not fetched; price and format confirmed only via queue text.",
+      "Date is two months out; Bird & Beckett schedules can shift."
     ]
   },
   "ev_8776af6dd60c": {
@@ -2969,6 +3542,71 @@
     "tier": "low",
     "uncertainties": [
       "Price and whether any music is performed not confirmed"
+    ]
+  },
+  "ev_889cf6fa91f3": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read. The queue description promises 'soulful renditions of classics alongside unexpected twists' and a late-night hang.",
+        "url": "https://keysjazzbistro.com/event/cristian-eck-3/"
+      },
+      {
+        "finding": "Search turned up only unrelated musicians (e.g. German guitarist Christian Eckert); nothing on Cristian Eck.",
+        "url": "https://www.allaboutjazz.com/musicians/christian-eckert"
+      }
+    ],
+    "fingerprint": "23bf13e69ef2",
+    "fit": 20,
+    "performers": [
+      {
+        "known_for": "Guitarist, vocalist and multi-instrumentalist from the Chicago blues scene (per the listing)",
+        "name": "Cristian Eck",
+        "significance": "none"
+      }
+    ],
+    "reason": "Cristian Eck is a guitarist and singer from the Chicago blues scene who plays a late-night genre-hopping set of classics at Keys Jazz Bistro. It reads as a lounge hang with familiar covers, and I found no lineage or press for him. The rules engine's theater match came from the word 'play' in the blurb, not from an actual play.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "No independent information found about the performer",
+      "Spelling differs between title (Cristian) and blurb (Christian)"
+    ]
+  },
+  "ev_889ed4cc8856": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read.",
+        "url": "https://www.jambase.com/show/solas-the-freight-20261105"
+      },
+      {
+        "finding": "Reseller listing: Solas, Thursday Nov 5 2026, 8:00 PM, Freight & Salvage, 2020 Addison St, Berkeley. No openers listed.",
+        "url": "https://www.eventticketscenter.com/solas-berkeley-11-05-2026/7890403/t"
+      },
+      {
+        "finding": "30th anniversary tour. Current lineup: founders Seamus Egan, Winifred Horan and John Williams, plus Alan Murray on guitar and a rotating guest (Nuala Kennedy or Moira Smiley). Formed in NYC in 1995, 12 albums. The Boston Globe called them 'the finest Celtic ensemble this country has ever produced.'",
+        "url": "https://celticconnection.com/2026/03/19/solas-30th-anniversary-tour-in-colorado-march-2026/"
+      }
+    ],
+    "fingerprint": "33333e790e71",
+    "fit": 76,
+    "performers": [
+      {
+        "known_for": "Leading Irish-American trad band since 1995 (Seamus Egan, Winifred Horan, John Williams); 12 albums including Shamrock City",
+        "name": "Solas",
+        "significance": "major"
+      }
+    ],
+    "reason": "Solas, the Irish-American band the Boston Globe called the finest Celtic ensemble this country has produced, plays the Freight in Berkeley on Thursday, Nov 5. Founders Seamus Egan, Winifred Horan and John Williams are still in the band, and this tour marks its 30th anniversary. It's a top-tier fiddle tradition act in his favorite intimate room close to home, though it's Irish trad rather than Appalachian or old-time (inference).",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Primary venue page not fetched; date and time come from a reseller listing only",
+      "Which guest vocalist appears on this date is unknown",
+      "Whether this date is part of the 30th anniversary tour is not stated for Berkeley specifically"
     ]
   },
   "ev_89963da93768": {
@@ -4272,6 +4910,52 @@
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
+  "ev_c0fbd41076a8": {
+    "evidence": [
+      {
+        "finding": "Wednesday Nov 4, 7:00 PM (doors 6). Advance $93.24, student $47.25. Page says 'SOLD OUT!' and 'THIS CONCERT IS SOLD OUT - TICKETS ARE NOT AVAILABLE TO PURCHASE AT THE DOOR.' Band members not listed.",
+        "url": "https://www.kuumbwajazz.org/calendar/joshua-redman-quartet-700-pm/"
+      },
+      {
+        "finding": "Joshua Redman Quartet at SFJAZZ Miner Auditorium Thu Nov 5 and Fri Nov 6 2026, 7:30 PM, $35-105; Redman, Paul Cornish (piano), Philip Norris (bass), Nazir Ebo (drums), playing Words Fall Short.",
+        "url": "https://www.sfjazz.org/tickets/productions/26-27/joshua-redman-quartet/"
+      }
+    ],
+    "fingerprint": "75fcc74b26eb",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "tenor saxophone, Blue Note recording artist, Words Fall Short (2025)",
+        "name": "Joshua Redman",
+        "significance": "major"
+      },
+      {
+        "known_for": "piano",
+        "name": "Paul Cornish",
+        "significance": "notable"
+      },
+      {
+        "known_for": "bass",
+        "name": "Philip Norris",
+        "significance": "notable"
+      },
+      {
+        "known_for": "drums",
+        "name": "Nazir Ebo",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Joshua Redman, one of the leading tenor saxophonists of his generation, brings his quartet (Paul Cornish, Philip Norris, Nazir Ebo) and music from his 2025 Blue Note album Words Fall Short to intimate Kuumbwa in Santa Cruz. Kuumbwa's page says this 7 PM show is sold out with no door sales, and the same quartet plays SFJAZZ on Nov 5 and 6, a much easier option from Oakland.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "sold-out",
+    "tier": "possible",
+    "uncertainties": [
+      "Kuumbwa page does not name the band; lineup taken from SFJAZZ listing for the same tour",
+      "Status of the 9 PM Kuumbwa show not checked",
+      "SFJAZZ ticket availability not verified"
+    ]
+  },
   "ev_c1724b0e647c": {
     "evidence": [
       {
@@ -4368,6 +5052,79 @@
     "tier": "low",
     "uncertainties": [
       "Style of the series is inference from the host and series name."
+    ]
+  },
+  "ev_cadee8918518": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted). Queue data: Nov 29 2026, 7:00 PM, standards and originals with blues and swing influence.",
+        "url": "https://keysjazzbistro.com/event/the-brad-leali-jazz-quartet-ft-carla-helmbrecht-8/"
+      },
+      {
+        "finding": "Professor of Jazz Saxophone at UNT since 2008; Harry Connick Jr. Orchestra lead alto and musical director 1989-94; Count Basie Orchestra from 1995; Benny Golson Big Band; Nancy Wilson; Lyle Lovett's Large Band; co-leads the Groove-tet with wife Carla Helmbrecht.",
+        "url": "https://music.unt.edu/people/brad-leali"
+      },
+      {
+        "finding": "Search results show many past Keys Jazz Bistro dates for this group (Jan, Mar, Jun, Jul, Sep, Nov), often two sets at 5 and 7.",
+        "url": "https://www.jazznearyou.com/sanfrancisco/events/the-brad-leali-quartet-feat-carla-helmbrecht-two-sets-5-and-7-at-keys-jazz-bistro-on-march-29"
+      }
+    ],
+    "fingerprint": "97981dda46e8",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "alto sax, Count Basie Orchestra, Harry Connick Jr. musical director, UNT professor",
+        "name": "Brad Leali",
+        "significance": "notable"
+      },
+      {
+        "known_for": "jazz vocalist, co-leads Groove-tet with Leali",
+        "name": "Carla Helmbrecht",
+        "significance": "local"
+      }
+    ],
+    "reason": "Saxophonist Brad Leali is a serious big-band veteran (lead alto and musical director for Harry Connick Jr., Count Basie Orchestra, Benny Golson's big band, Nancy Wilson) and a UNT jazz professor, here with his wife, vocalist Carla Helmbrecht. Expect polished, swinging standards and originals in the small Keys Jazz Bistro room, solid but more mainstream than adventurous. This pairing plays Keys regularly, so it is not a rare date.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Primary event page not fetched; sidemen and price unconfirmed",
+      "Whether there is also a 5 PM set on this date"
+    ]
+  },
+  "ev_cb04f7e8892e": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read. The queue data gives Nov 9 2026 at 7:00 PM and describes the centennial program in its original instrumentation.",
+        "url": "https://www.kuumbwajazz.org/calendar/marcus-shelby-nonet-birth-of-the-cool-revisited/"
+      },
+      {
+        "finding": "Shelby is a Mingus Scholarship recipient who studied at CalArts with Charlie Haden and James Newton and played in Black/Note. The SF Chronicle says he 'illuminates history through jazz.' SFJAZZ presented this program on May 10, 2026.",
+        "url": "https://www.sfjazz.org/tickets/productions/25-26/marcus-shelby-new-orchestra-birth-of-the-cool-revisited/"
+      },
+      {
+        "finding": "June 2025 debut lineup: Mike Olmos (trumpet), Joel Behrman (trombone), Tony Peebles (alto), Melecio Magdaluyo (bari), Jonathan Seiberlich (tuba), Heidi Trefethen (French horn), Greg Jacobs (piano), Jemal Ramirez (drums). The program also included a suite of Shelby originals, as the first show of a year-long 2026 Davis celebration.",
+        "url": "https://www.visithalfmoonbay.org/events/marcus-shelby-nonet-birth-of-the-cool-revisited"
+      }
+    ],
+    "fingerprint": "f7788ead8fcb",
+    "fit": 60,
+    "performers": [
+      {
+        "known_for": "Bay Area bassist, composer and bandleader; Black/Note; large-scale works on African-American history",
+        "name": "Marcus Shelby",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Bassist Marcus Shelby, a Mingus Scholarship winner who studied with Charlie Haden and played in Black/Note, leads a nonet through Miles Davis's Birth of the Cool in its original instrumentation for the Davis centennial. It's a carefully made repertory program from a respected Bay Area bandleader in Kuumbwa's intimate room. Still, it's a recreation rather than adventurous improvisation, and it means a Monday night drive to Santa Cruz.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "The Kuumbwa page was not read, so the Nov 9 personnel is unconfirmed",
+      "The program has already been performed several times around the Bay (Half Moon Bay, San Jose Jazz, SFJAZZ)"
     ]
   },
   "ev_cbe942b05693": {
@@ -4494,6 +5251,54 @@
     "uncertainties": [
       "Bottom of the Hill page has an online ticket link but no explicit availability statement",
       "DICE page could not be fetched"
+    ]
+  },
+  "ev_cef19feafad4": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted). Queue description: Paul Mehling solo guitar and vocals, Evan Price violin, Dexter Williams string bass, Nelsen Hutchison rhythm guitar; $20 cash at the door, BYOB, students $10; Dec 4 2026, 7:30 PM.",
+        "url": "https://birdbeckett.com/event/le-jazz-hot_2026-12-04/"
+      },
+      {
+        "finding": "Mehling leads Hot Club of San Francisco (members include Evan Price, Dexter Williams, Nelsen Hutchison); inspired by Dan Hicks and His Hot Licks and Grisman's Dawg Music; joined Dan Hicks' Acoustic Warriors; called 'one of the first American gypsy jazz bands'; first American band invited to Festival Django Reinhardt in Samois (2000); KQED: 'one of the Godfathers of the Gypsy jazz revival'; 16 albums.",
+        "url": "https://en.wikipedia.org/wiki/Hot_Club_of_San_Francisco"
+      },
+      {
+        "finding": "Search result shows an earlier 2026 Le Jazz Hot date, indicating a recurring series.",
+        "url": "https://offbeatsf.com/event/paul-mehlings-le-jazz-hot/2026-02-26/"
+      }
+    ],
+    "fingerprint": "75942449bd34",
+    "fit": 72,
+    "performers": [
+      {
+        "known_for": "leader of Hot Club of San Francisco, gypsy jazz revival pioneer, Dan Hicks' Acoustic Warriors",
+        "name": "Paul Mehling",
+        "significance": "notable"
+      },
+      {
+        "known_for": "violin, Hot Club of San Francisco",
+        "name": "Evan Price",
+        "significance": "notable"
+      },
+      {
+        "known_for": "string bass, Hot Club of San Francisco",
+        "name": "Dexter Williams",
+        "significance": "local"
+      },
+      {
+        "known_for": "rhythm guitar, Hot Club of San Francisco",
+        "name": "Nelsen Hutchison",
+        "significance": "local"
+      }
+    ],
+    "reason": "Paul \"Pazzo\" Mehling, called one of the godfathers of the gypsy jazz revival by KQED, leads Le Jazz Hot with Hot Club of San Francisco violinist Evan Price at tiny Bird & Beckett bookshop for a $20 cash cover. Mehling came up inspired by Dan Hicks and David Grisman's Dawg Music and later played in Dan Hicks' Acoustic Warriors, so this is string-band swing with real countercultural Bay Area lineage in exactly the kind of small room Erik favors. It is a recurring gig, so special for the room and price more than the date.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Primary Bird & Beckett page not fetched; details from queue description"
     ]
   },
   "ev_d00b6f4d8439": {
@@ -5256,6 +6061,35 @@
       "Whether 'dance' means a participatory dance or a performance"
     ]
   },
+  "ev_edc85068ba49": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission request not answered); not read. Queue description: 'reimagines the magic of Paul Simon and Art Garfunkel's collaboration... recreates the magic of their live performances'.",
+        "url": "https://ranchonicasio.com/event/feeling-groovy/"
+      },
+      {
+        "finding": "Lists Feeling Groovy at Rancho Nicasio, Friday April 24, 2026, 7:30-10 pm, $30, with the same recreation-of-Simon-and-Garfunkel description (a past date).",
+        "url": "https://sf.funcheap.com/feeling-groovy/"
+      }
+    ],
+    "fingerprint": "b1a22e909421",
+    "fit": 12,
+    "performers": [
+      {
+        "known_for": "Simon and Garfunkel tribute act",
+        "name": "Feeling Groovy",
+        "significance": "none"
+      }
+    ],
+    "reason": "Feeling Groovy is a Simon and Garfunkel tribute band at Rancho Nicasio in Marin. It recreates the duo's songs and live show rather than presenting original music, which is outside his taste, and it is a drive.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "November 13, 2026 date and time not confirmed (funcheap shows an earlier April 2026 date)"
+    ]
+  },
   "ev_f0c0faf0fe5d": {
     "evidence": [
       {
@@ -5320,6 +6154,36 @@
       "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
     ]
   },
+  "ev_f0f3b5b47634": {
+    "evidence": [
+      {
+        "finding": "Fetch blocked (permission not granted). Queue description: guitarist, vocalist, multi-instrumentalist from the Chicago blues and rhythm scene, soulful renditions of classics with unexpected twists, late night hang; Nov 20 2026, 10:30 PM.",
+        "url": "https://keysjazzbistro.com/event/cristian-eck-2/"
+      },
+      {
+        "finding": "Search for the performer returned only unrelated names (e.g. Christian Eckert); nothing found on this artist.",
+        "url": "https://www.hofner.com/blog/hofner-artists-4/christian-eckert-70"
+      }
+    ],
+    "fingerprint": "4956631691ff",
+    "fit": 28,
+    "performers": [
+      {
+        "known_for": "Chicago blues-scene guitarist/vocalist playing classics",
+        "name": "Christian Eck",
+        "significance": "none"
+      }
+    ],
+    "reason": "Christian (Cristian) Eck is a guitarist-vocalist from the Chicago blues scene playing a 10:30 PM late-night set of soulful classics with genre twists at Keys Jazz Bistro. It reads as a casual late hang of covers rather than a must-see, and searches turned up no notable recordings or collaborators.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "No independent information found on the performer; name spelling differs between title (Cristian) and description (Christian)",
+      "The 'play' theater rules signal is spurious (from 'play along')"
+    ]
+  },
   "ev_f14e30e8678c": {
     "evidence": [
       {
@@ -5366,6 +6230,40 @@
     "tier": "low",
     "uncertainties": [
       "Musical style of the band not documented (could be jump/R&B or straight jazz)"
+    ]
+  },
+  "ev_f1957ea40615": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission request timed out); queue item lists Dec 17, 2026, 7:00 PM at Kuumbwa, noting she shared stages with Sean Jones, Dee Dee Bridgewater, Rufus Reid and Joshua Redman.",
+        "url": "https://www.kuumbwajazz.org/calendar/skylar-tang-quartet/"
+      },
+      {
+        "finding": "Personnel lists 'Skylar Tang - trumpet (5)', guest on track 5, Icarus, of Joshua Redman's Words Fall Short.",
+        "url": "https://en.wikipedia.org/wiki/Words_Fall_Short"
+      },
+      {
+        "finding": "Teen trumpeter from the SF area; Stanford Jazz Workshop and SFJAZZ; Columbia University with Juilliard study under Tatum Greenblatt; 2022 Essentially Ellington composition award; NYO Jazz 2022-2024; collaborators include Sean Jones, Wynton Marsalis, Terence Blanchard, Joshua Redman.",
+        "url": "https://www.allaboutjazz.com/introducing-trumpeter-skylar-tang"
+      }
+    ],
+    "fingerprint": "8f8be1cce599",
+    "fit": 60,
+    "performers": [
+      {
+        "known_for": "Rising trumpeter/composer, guest on Joshua Redman's Words Fall Short",
+        "name": "Skylar Tang",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Skylar Tang is a Bay Area-raised trumpeter and composer, now at Columbia and studying at Juilliard, who guested on Joshua Redman's Blue Note album Words Fall Short. She won the Essentially Ellington composition award in 2022 and has played alongside Wynton Marsalis, Sean Jones and Terence Blanchard, so this is a homecoming by a serious rising talent in an intimate room. The Santa Cruz drive and her early-career stage keep it below must-see.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Quartet lineup for this date not confirmed",
+      "Price not confirmed"
     ]
   },
   "ev_f28970a1544d": {
@@ -5571,6 +6469,41 @@
     "uncertainties": [
       "No independent coverage of the trio found",
       "Repertoire (originals vs traditional) not stated"
+    ]
+  },
+  "ev_fa05be557668": {
+    "evidence": [
+      {
+        "finding": "Fetch failed (permission request timed out); listing details taken from the queue item only: Nov. 9, Jimmy Touzel Bluegrass Explosion, Blondie's, SF.",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "CBA band page: SF Bay Area band formed in 2024, 'dedicated to revitalizing and preserving traditional bluegrass music'; Jimmy Touzel (bass), Evan Ward (banjo, vocals), Ryan Breen (guitar, vocals); classic bluegrass with old-time fiddle and classic country elements; plays local venues and regional/national festivals.",
+        "url": "https://californiabluegrass.org/band/jimmy-touzel-bluegrass-explosion/"
+      },
+      {
+        "finding": "Search result title only (not fetched): 'bluegrass explosion blondies bar 13 july 2026', suggesting an earlier Blondie's date.",
+        "url": "https://ma.to/event/bluegrass-explosion-blondies-bar-13-july-2026"
+      }
+    ],
+    "fingerprint": "714b0ad390e9",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Young SF traditional bluegrass band led by bassist Jimmy Touzel",
+        "name": "Jimmy Touzel Bluegrass Explosion",
+        "significance": "local"
+      }
+    ],
+    "reason": "The Jimmy Touzel Bluegrass Explosion is a young SF Bay Area traditional bluegrass band (formed 2024) led by bassist Jimmy Touzel with Evan Ward on banjo and Ryan Breen on guitar. It plays classic and obscure bluegrass, old-time and classic country in a Mission bar, a cheap and easy night of the music he loves. It looks like a recurring local bar gig (inference: a July 2026 Blondie's listing also exists), so it is pleasant rather than a must-see.",
+    "researched_at": "2026-11-03T22:49:40+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Start time and cover not confirmed; primary listing page could not be fetched",
+      "Nov 9 date not confirmed against a venue page",
+      "Whether this is a recurring weekly/monthly residency (inference from a July listing)"
     ]
   },
   "ev_fa650ab435fc": {
