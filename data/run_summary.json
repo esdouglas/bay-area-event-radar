@@ -1,14 +1,16 @@
 {
- "inventory_total": 3896,
- "inventory_upcoming": 3243,
- "merged_sources": 2,
- "new_events": 9,
- "run_id": "9bebcf66251a",
- "seconds": 480.8,
+ "inventory_total": 3911,
+ "inventory_upcoming": 3259,
+ "merged_sources": 36,
+ "new_events": 23,
+ "run_id": "9d53668a43a5",
+ "seconds": 279.7,
  "sources_due": 65,
  "sources_failed": [
-  "outsound"
+  "otter-opry",
+  "outsound",
+  "songkick-bay-area"
  ],
- "sources_ok": 64,
- "ts": "2026-11-02T22:55:47+00:00"
+ "sources_ok": 62,
+ "ts": "2026-11-03T06:59:42+00:00"
 }

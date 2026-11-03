@@ -1,8 +1,52 @@
 {
- "backlog": 1368,
+ "backlog": 1372,
  "count": 40,
- "generated_at": "2026-11-02T22:58:34+00:00",
+ "generated_at": "2026-11-03T07:01:18+00:00",
  "items": [
+  {
+   "city": "Berkeley",
+   "date": "2026-11-04",
+   "description": "Buy Tickets on Humanitix - International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Wednesday November 4th 2026. Find event information.",
+   "fingerprint": "16b28cea5b1f",
+   "id": "ev_4c7ac8c8c69f",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey",
+    "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey",
+    "https://www.jambase.com/show/alexandr-misko-the-back-room-20261104"
+   ],
+   "rules_score": 69.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-04T20:30:00-08:00",
+   "title": "ADV TICKETS ARE SOLD OUT! International Guitar Sensation Alexandr Misko with Special Guest Forest Bailey",
+   "url": "https://events.humanitix.com/alexandr-misko-with-special-guest-forest-bailey2ndshow",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "6 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "The sensitive and sophisticated vocal stylings of Carla Helmbrecht are the perfect complement to the soulful, blues- and swing-influenced style of the Brad Leali ensemble. Not only do they explore classic jazz standards and original materials, but they are able to infuse historical and modern components to their unique arrangements. With a unique style and [...]",
+   "fingerprint": "97981dda46e8",
+   "id": "ev_cadee8918518",
+   "other_urls": [],
+   "rules_score": 62.0,
+   "rules_tier": "strong",
+   "start": "2026-11-29T19:00:00-08:00",
+   "title": "The Brad Leali Jazz Quartet ft. Carla Helmbrecht",
+   "url": "https://keysjazzbistro.com/event/the-brad-leali-jazz-quartet-ft-carla-helmbrecht-8/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "roots_adjacent: blues (+10)",
+    "jazz_core: jazz (+18)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
   {
    "city": "Santa Cruz",
    "date": "2026-11-04",
@@ -102,6 +146,25 @@
    "why_rules": [
     "jazz_core: jazz (+18)",
     "intimacy: trio (+5)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-27",
+   "description": "Guitarist Vocalist multi-instrumentalist Christian Eck providing entertainment in the direction of his mental wanderings. Genres are his toys and the audience is invited to play along. Hailing from the Chicago blues and rhythm scene expect soulful renditions of classics alongside unexpected twists. Come join us for music and a late night hang in the[...]",
+   "fingerprint": "23bf13e69ef2",
+   "id": "ev_889cf6fa91f3",
+   "other_urls": [],
+   "rules_score": 58.0,
+   "rules_tier": "strong",
+   "start": "2026-11-27T22:30:00-08:00",
+   "title": "Cristian Eck",
+   "url": "https://keysjazzbistro.com/event/cristian-eck-3/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "roots_adjacent: blues (+10)",
+    "theater_core: play (+14)",
     "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
@@ -333,7 +396,8 @@
    "other_urls": [
     "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
     "https://www.theindependentsf.com/tm-event/lexi-jayde/",
-    "https://apeconcerts.com/events/lexi-jayde-261102/"
+    "https://apeconcerts.com/events/lexi-jayde-261102/",
+    "https://www.jambase.com/show/lexi-jayde-the-independent-20261102"
    ],
    "rules_score": 61.0,
    "rules_tier": "strong",
@@ -344,7 +408,7 @@
    "why_rules": [
     "intimate room: The Independent (+14)",
     "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
+    "5 independent sources (+12)"
    ]
   },
   {
@@ -368,6 +432,29 @@
     "intimate room: Ivy Room (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-02",
+   "description": "Lucy, Nation, and FGS at Kilowatt at 2026-11-02T19:00:00-0800",
+   "fingerprint": "9422a7b8694e",
+   "id": "ev_6c0874ae69d1",
+   "other_urls": [
+    "https://www.songkick.com/concerts/43374837-lucy-at-kilowatt",
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://www.jambase.com/show/lucy-cooper-b-handy-kilowatt-bar-20261102"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-02T19:00:00-08:00",
+   "title": "LUCY (Cooper B. Handy)",
+   "url": "https://dice.fm/event/6a83518bac9bb90001a6f913",
+   "venue": "Kilowatt",
+   "why_rules": [
+    "intimate room: Kilowatt (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
    ]
   },
   {
@@ -399,7 +486,8 @@
    "other_urls": [
     "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
     "https://dice.fm/event/6a679b1e48d5c300010bd482",
-    "http://www.bottomofthehill.com/20261104.html"
+    "http://www.bottomofthehill.com/20261104.html",
+    "https://www.jambase.com/show/longstocking-bottom-of-the-hill-20261104"
    ],
    "rules_score": 61.0,
    "rules_tier": "strong",
@@ -410,7 +498,7 @@
    "why_rules": [
     "intimate room: Bottom of the Hill (+14)",
     "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
+    "5 independent sources (+12)"
    ]
   },
   {
@@ -745,91 +833,6 @@
     "intimate room: Fifth Street Farms (+14)",
     "booking signal: Fifth Street Farms (+8)",
     "heuristic text extraction, unverified (-8)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2027-01-17",
-   "description": "KEITH GREENINGER & NINA GERBER together in concert Award winning singer/songwriter Keith Greeninger and legendary guitarist Nina Gerber join forces for a powerful night of music, song and community celebration.",
-   "fingerprint": "d03eec2b52cd",
-   "id": "ev_cc85d7f83c2c",
-   "other_urls": [],
-   "rules_score": 68.5,
-   "rules_tier": "strong",
-   "start": "2027-01-17T00:00:00-08:00",
-   "title": "KEITH GREENINGER & NINA GERBER",
-   "url": "https://ranchonicasio.com/event/keith-greeninger-nina-gerber-3/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
-    "legacy: legendary (+14)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2027-01-23",
-   "description": "Violin, viola da gamba, harpsichord music from 17-century France",
-   "fingerprint": "576e4059ae08",
-   "id": "ev_6c48ae12a392",
-   "other_urls": [
-    "https://www.tickettailor.com/events/fifthstreetfarms",
-    "https://www.tickettailor.com/events/fifthstreetfarms"
-   ],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2027-01-23T19:00:00-08:00",
-   "title": "David Miller, Frederic Rosselet, Derek Tam--17th-century French chamber music",
-   "url": "https://www.tickettailor.com/events/fifthstreetfarms/2480835",
-   "venue": "Fifth Street Farms",
-   "why_rules": [
-    "intimate room: Fifth Street Farms (+14)",
-    "booking signal: Fifth Street Farms (+8)",
-    "listed by a taste-aligned calendar (+10)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-29",
-   "description": "Jinx Jones, guitar; Kenan O'Brien, bass; Ken Owen, drums",
-   "fingerprint": "44b34ca299ad",
-   "id": "ev_6fbd3d0e662d",
-   "other_urls": [],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2027-01-29T19:30:00-08:00",
-   "title": "Jinx Jones Jazz Trio",
-   "url": "https://birdbeckett.com/event/jinx-jones-jazz-trio/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-06",
-   "description": "Ashkenaz: Alasdair Fraser Band",
-   "fingerprint": "0a0c2564d0ab",
-   "id": "ev_7bad9b1aecb1",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/",
-    "https://tickets.venuepilot.com/e/alasdair-fraser-2026-11-06-ashkenaz-music-dance-community-center-berkeley-b10afb"
-   ],
-   "rules_score": 59.0,
-   "rules_tier": "strong",
-   "start": "2026-11-06T00:00:00-08:00",
-   "title": "Alasdair Fraser & Cameron Fraser",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Ashkenaz",
-   "why_rules": [
-    "intimate room: Ashkenaz (+14)",
-    "listed by a taste-aligned calendar (+14)",
-    "3 independent sources (+8)"
    ]
   }
  ]

@@ -2,10 +2,10 @@
  "act-sf": {
   "consecutive_failures": 0,
   "last_count": 3,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 4,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 4.9,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 4.8,
   "last_status": "ok",
   "method": "theater_run",
   "new_total": 21
@@ -13,31 +13,31 @@
  "allevents-el-cerrito": {
   "consecutive_failures": 0,
   "last_count": 30,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 31,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 3.2,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.4,
   "last_status": "ok",
   "method": "allevents",
-  "new_total": 70
+  "new_total": 71
  },
  "another-planet": {
   "consecutive_failures": 0,
-  "last_count": 301,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_count": 302,
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 321,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.6,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.2,
   "last_status": "ok",
   "method": "cards",
-  "new_total": 521
+  "new_total": 522
  },
  "ashkenaz": {
   "consecutive_failures": 0,
   "last_count": 22,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 22,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.4,
   "last_status": "ok",
   "method": "venuepilot",
@@ -46,10 +46,10 @@
  "aurora-theatre": {
   "consecutive_failures": 0,
   "last_count": 0,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 0,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.5,
   "last_status": "ok",
   "method": "theater_run",
   "new_total": 0
@@ -57,10 +57,10 @@
  "back-room-berkeley": {
   "consecutive_failures": 0,
   "last_count": 24,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 24,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 16.3,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 15.8,
   "last_status": "ok",
   "method": "gpt",
   "new_total": 12
@@ -68,10 +68,10 @@
  "berkeley-old-time-music-convention": {
   "consecutive_failures": 0,
   "last_count": 0,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 1,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.8,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.4,
   "last_status": "ok",
   "method": "html",
   "new_total": 0
@@ -79,10 +79,10 @@
  "berkeley-rep": {
   "consecutive_failures": 0,
   "last_count": 4,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 6,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 7.8,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 7.5,
   "last_status": "ok",
   "method": "theater_run",
   "new_total": 282
@@ -90,21 +90,21 @@
  "bird-and-beckett": {
   "consecutive_failures": 0,
   "last_count": 81,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 81,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 1.0,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.2,
   "last_status": "ok",
   "method": "tribe",
   "new_total": 84
  },
  "black-cat-sf": {
   "consecutive_failures": 0,
-  "last_count": 4,
-  "last_ok": "2026-11-02T22:55:47+00:00",
-  "last_raw": 4,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.5,
+  "last_count": 5,
+  "last_ok": "2026-11-03T06:59:42+00:00",
+  "last_raw": 5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.7,
   "last_status": "ok",
   "method": "cards",
   "new_total": 8
@@ -112,10 +112,10 @@
  "bluegrass-signal": {
   "consecutive_failures": 0,
   "last_count": 70,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 105,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.3,
   "last_status": "ok",
   "method": "gpt",
   "new_total": 162
@@ -123,10 +123,10 @@
  "bottom-of-the-hill": {
   "consecutive_failures": 0,
   "last_count": 43,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 43,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.7,
   "last_status": "ok",
   "method": "cards",
   "new_total": 17
@@ -134,10 +134,10 @@
  "broadway-sf": {
   "consecutive_failures": 0,
   "last_count": 45,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 54,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 1.9,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.0,
   "last_status": "ok",
   "method": "cards",
   "new_total": 81
@@ -145,10 +145,10 @@
  "cafe-du-nord": {
   "consecutive_failures": 0,
   "last_count": 42,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 42,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 1.0,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.6,
   "last_status": "ok",
   "method": "ics",
   "new_total": 49
@@ -156,10 +156,10 @@
  "cal-performances": {
   "consecutive_failures": 0,
   "last_count": 31,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 31,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 3.1,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 3.2,
   "last_status": "ok",
   "method": "jsonld",
   "new_total": 34
@@ -167,13 +167,13 @@
  "california-bluegrass-association": {
   "consecutive_failures": 0,
   "last_count": 313,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 464,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 25.2,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 25.9,
   "last_status": "ok",
   "method": "tribe",
-  "new_total": 311
+  "new_total": 313
  },
  "center-for-new-music": {
   "consecutive_failures": 6,
@@ -201,10 +201,10 @@
  "david-brown-oldtime": {
   "consecutive_failures": 0,
   "last_count": 36,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 47,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.8,
   "last_status": "ok",
   "method": "gpt",
   "new_total": 33
@@ -212,20 +212,20 @@
  "dice-sf": {
   "consecutive_failures": 0,
   "last_count": 53,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 54,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 43.2,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.6,
   "last_status": "ok",
   "method": "dice",
-  "new_total": 66
+  "new_total": 67
  },
  "down-home-music": {
   "consecutive_failures": 0,
   "last_count": 5,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 12,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 1.3,
   "last_status": "ok",
   "last_warnings": [
@@ -237,9 +237,9 @@
  "felton-music-hall": {
   "consecutive_failures": 0,
   "last_count": 58,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 58,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.6,
   "last_status": "ok",
   "method": "jsonld",
@@ -248,9 +248,9 @@
  "fifth-street-farms": {
   "consecutive_failures": 0,
   "last_count": 4,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 4,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.6,
   "last_status": "ok",
   "method": "jsonld",
@@ -259,10 +259,10 @@
  "fifth-street-farms-site": {
   "consecutive_failures": 0,
   "last_count": 4,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 4,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.8,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.0,
   "last_status": "ok",
   "method": "cards",
   "new_total": 26
@@ -270,10 +270,10 @@
  "fifth-street-tickets-tt": {
   "consecutive_failures": 0,
   "last_count": 16,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 16,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 3.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 3.6,
   "last_status": "ok",
   "method": "gpt",
   "new_total": 4
@@ -281,10 +281,10 @@
  "folkyeah": {
   "consecutive_failures": 0,
   "last_count": 54,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 54,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.0,
   "last_status": "ok",
   "method": "cards",
   "new_total": 138
@@ -292,9 +292,9 @@
  "fox-oakland": {
   "consecutive_failures": 0,
   "last_count": 29,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 33,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.4,
   "last_status": "ok",
   "method": "cards",
@@ -303,10 +303,10 @@
  "gamh": {
   "consecutive_failures": 0,
   "last_count": 12,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 12,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.3,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.2,
   "last_status": "ok",
   "method": "cards",
   "new_total": 28
@@ -314,32 +314,32 @@
  "guild-theatre": {
   "consecutive_failures": 0,
   "last_count": 43,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 46,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.2,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.4,
   "last_status": "ok",
   "method": "cards",
-  "new_total": 26
+  "new_total": 27
  },
  "hicks-with-sticks": {
   "consecutive_failures": 0,
   "last_count": 58,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 64,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.7,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.0,
   "last_status": "ok",
   "method": "gpt",
-  "new_total": 108
+  "new_total": 110
  },
  "hillside-club": {
   "consecutive_failures": 0,
   "last_count": 2,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 11,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.6,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.0,
   "last_status": "ok",
   "method": "html",
   "new_total": 13
@@ -358,9 +358,9 @@
  "ivy-room": {
   "consecutive_failures": 0,
   "last_count": 53,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 53,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.6,
   "last_status": "ok",
   "method": "venuepilot",
@@ -368,36 +368,36 @@
  },
  "jambase-bay": {
   "consecutive_failures": 0,
-  "last_count": 31,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_count": 71,
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 112,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 4.1,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 4.3,
   "last_status": "ok",
   "last_warnings": [
-   "truncated: 134 linked pages not fetched this run (page_limit 6)"
+   "truncated: 132 linked pages not fetched this run (page_limit 6)"
   ],
   "method": "gpt",
-  "new_total": 101
+  "new_total": 105
  },
  "kalx-entertainment-calendar": {
   "consecutive_failures": 0,
   "last_count": 226,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 494,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 1.8,
   "last_status": "ok",
   "method": "gpt",
-  "new_total": 443
+  "new_total": 445
  },
  "kc-turner": {
   "consecutive_failures": 0,
   "last_count": 7,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 7,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 5.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 5.2,
   "last_status": "ok",
   "last_warnings": [
    "truncated: 32 linked pages not fetched this run (page_limit 8)"
@@ -407,33 +407,33 @@
  },
  "keys-jazz-bistro": {
   "consecutive_failures": 0,
-  "last_count": 37,
-  "last_ok": "2026-11-02T22:55:47+00:00",
-  "last_raw": 37,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 153.7,
+  "last_count": 41,
+  "last_ok": "2026-11-03T06:59:42+00:00",
+  "last_raw": 41,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 70.6,
   "last_status": "ok",
   "method": "jsonld",
-  "new_total": 38
+  "new_total": 40
  },
  "kpfa-events": {
   "consecutive_failures": 0,
   "last_count": 1,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 1,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.6,
   "last_status": "ok",
   "method": "cards",
   "new_total": 1
  },
  "kuumbwa": {
   "consecutive_failures": 0,
-  "last_count": 66,
-  "last_ok": "2026-11-02T22:55:47+00:00",
-  "last_raw": 66,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 2.4,
+  "last_count": 65,
+  "last_ok": "2026-11-03T06:59:42+00:00",
+  "last_raw": 65,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.1,
   "last_status": "ok",
   "method": "tribe",
   "new_total": 64
@@ -441,10 +441,10 @@
  "little-hill-lounge": {
   "consecutive_failures": 0,
   "last_count": 21,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 21,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.3,
   "last_status": "ok",
   "method": "gcal",
   "new_total": 25
@@ -452,10 +452,10 @@
  "lost-church": {
   "consecutive_failures": 0,
   "last_count": 17,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 17,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 5.1,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 5.2,
   "last_status": "ok",
   "method": "cards",
   "new_total": 14
@@ -463,10 +463,10 @@
  "luther-burbank-center": {
   "consecutive_failures": 0,
   "last_count": 39,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 39,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.9,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.2,
   "last_status": "ok",
   "method": "tribe",
   "new_total": 37
@@ -474,10 +474,10 @@
  "magic-theatre": {
   "consecutive_failures": 0,
   "last_count": 6,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 8,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 1.9,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.6,
   "last_status": "ok",
   "method": "squarespace",
   "new_total": 7
@@ -485,10 +485,10 @@
  "marin-theatre": {
   "consecutive_failures": 0,
   "last_count": 2,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 3,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 3.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 3.5,
   "last_status": "ok",
   "method": "theater_run",
   "new_total": 14
@@ -496,10 +496,10 @@
  "moes-alley": {
   "consecutive_failures": 0,
   "last_count": 37,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 37,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 3.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 4.3,
   "last_status": "ok",
   "method": "ticketweb_wp",
   "new_total": 44
@@ -507,10 +507,10 @@
  "new-parish": {
   "consecutive_failures": 0,
   "last_count": 0,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 0,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 4.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 4.3,
   "last_status": "ok",
   "method": "ticketweb_wp",
   "new_total": 0
@@ -529,10 +529,10 @@
  "odc-theater": {
   "consecutive_failures": 0,
   "last_count": 18,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 18,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.6,
   "last_status": "ok",
   "method": "cards",
   "new_total": 23
@@ -540,30 +540,31 @@
  "old-first-concerts": {
   "consecutive_failures": 0,
   "last_count": 7,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 7,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 2.2,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 3.0,
   "last_status": "ok",
   "method": "cards",
   "new_total": 6
  },
  "otter-opry": {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
   "last_count": 7,
+  "last_error": "bot challenge (HTTP 403)",
   "last_ok": "2026-11-02T22:55:47+00:00",
   "last_raw": 8,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.8,
-  "last_status": "ok",
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.2,
+  "last_status": "blocked",
   "method": "tix",
   "new_total": 0
  },
  "outsound": {
-  "consecutive_failures": 25,
+  "consecutive_failures": 26,
   "last_error": "SSLError: HTTPSConnectionPool(host='www.outsound.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERI",
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 9.9,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 9.8,
   "last_status": "network",
   "method": "gpt",
   "new_total": 0
@@ -571,10 +572,10 @@
  "rancho-nicasio": {
   "consecutive_failures": 0,
   "last_count": 29,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 29,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 11.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 8.0,
   "last_status": "ok",
   "method": "tribe",
   "new_total": 32
@@ -582,9 +583,9 @@
  "red-poppy": {
   "consecutive_failures": 0,
   "last_count": 3,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 3,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.8,
   "last_status": "ok",
   "method": "tribe",
@@ -603,14 +604,14 @@
  },
  "sf-folk-music-club": {
   "consecutive_failures": 0,
-  "last_count": 213,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_count": 210,
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 252,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.9,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.8,
   "last_status": "ok",
   "method": "html",
-  "new_total": 537
+  "new_total": 538
  },
  "sf-opera": {
   "consecutive_failures": 0,
@@ -626,9 +627,9 @@
  "sf-playhouse": {
   "consecutive_failures": 0,
   "last_count": 5,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 6,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 10.9,
   "last_status": "ok",
   "method": "theater_run",
@@ -648,9 +649,9 @@
  "shotgun-players": {
   "consecutive_failures": 0,
   "last_count": 4,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 4,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 4.5,
   "last_status": "ok",
   "last_warnings": [
@@ -671,13 +672,14 @@
   "new_total": 6
  },
  "songkick-bay-area": {
-  "consecutive_failures": 0,
+  "consecutive_failures": 1,
   "last_count": 350,
+  "last_error": "no Songkick page served (CDN cold)",
   "last_ok": "2026-11-02T22:55:47+00:00",
   "last_raw": 350,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 108.0,
-  "last_status": "ok",
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 22.5,
+  "last_status": "partial",
   "last_warnings": [
    "partial: Songkick served 7 pages, refused 18 (HTTP 406 on CDN misses); coverage improves across runs"
   ],
@@ -687,10 +689,10 @@
  "stanford-live": {
   "consecutive_failures": 0,
   "last_count": 82,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 82,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 2.8,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.0,
   "last_status": "ok",
   "method": "localist",
   "new_total": 85
@@ -698,10 +700,10 @@
  "starry-plough": {
   "consecutive_failures": 0,
   "last_count": 6,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 6,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 1.1,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 2.5,
   "last_status": "ok",
   "method": "jsonld",
   "new_total": 7
@@ -709,10 +711,10 @@
  "sweetwater": {
   "consecutive_failures": 0,
   "last_count": 50,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 50,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.2,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.4,
   "last_status": "ok",
   "method": "jsonld",
   "new_total": 56
@@ -720,10 +722,10 @@
  "the-chapel": {
   "consecutive_failures": 0,
   "last_count": 10,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 10,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.7,
   "last_status": "ok",
   "method": "cards",
   "new_total": 21
@@ -731,9 +733,9 @@
  "the-fillmore": {
   "consecutive_failures": 0,
   "last_count": 25,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 25,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 1.2,
   "last_status": "ok",
   "method": "jsonld",
@@ -742,10 +744,10 @@
  "the-independent": {
   "consecutive_failures": 0,
   "last_count": 92,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 96,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 3.5,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 3.8,
   "last_status": "ok",
   "method": "ticketweb_wp",
   "new_total": 21
@@ -753,10 +755,10 @@
  "the-marsh": {
   "consecutive_failures": 0,
   "last_count": 8,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 8,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 9.7,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 13.0,
   "last_status": "ok",
   "last_warnings": [
    "no dates found: https://themarsh.org/shows_and_events/ellen-hoffmans-piano-bar/",
@@ -767,22 +769,22 @@
  },
  "throckmorton": {
   "consecutive_failures": 0,
-  "last_count": 20,
-  "last_ok": "2026-11-02T22:55:47+00:00",
-  "last_raw": 20,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_count": 26,
+  "last_ok": "2026-11-03T06:59:42+00:00",
+  "last_raw": 26,
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.5,
   "last_status": "ok",
   "method": "squarespace",
-  "new_total": 82
+  "new_total": 88
  },
  "uc-theatre": {
   "consecutive_failures": 0,
   "last_count": 17,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 17,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.4,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.5,
   "last_status": "ok",
   "method": "cards",
   "new_total": 3
@@ -790,10 +792,10 @@
  "ybca": {
   "consecutive_failures": 0,
   "last_count": 21,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 21,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 0.3,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 0.5,
   "last_status": "ok",
   "last_warnings": [
    "no date: Dream",
@@ -806,10 +808,10 @@
  "yoshis": {
   "consecutive_failures": 0,
   "last_count": 46,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 46,
-  "last_run": "2026-11-02T22:55:47+00:00",
-  "last_seconds": 1.0,
+  "last_run": "2026-11-03T06:59:42+00:00",
+  "last_seconds": 1.4,
   "last_status": "ok",
   "method": "cards",
   "new_total": 13
@@ -817,9 +819,9 @@
  "z-space": {
   "consecutive_failures": 0,
   "last_count": 9,
-  "last_ok": "2026-11-02T22:55:47+00:00",
+  "last_ok": "2026-11-03T06:59:42+00:00",
   "last_raw": 9,
-  "last_run": "2026-11-02T22:55:47+00:00",
+  "last_run": "2026-11-03T06:59:42+00:00",
   "last_seconds": 0.4,
   "last_status": "ok",
   "method": "ovationtix",
