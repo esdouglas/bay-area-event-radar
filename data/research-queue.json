@@ -1,8 +1,28 @@
 {
- "backlog": 1348,
+ "backlog": 1350,
  "count": 40,
- "generated_at": "2026-11-03T22:52:18+00:00",
+ "generated_at": "2026-11-04T06:45:20+00:00",
  "items": [
+  {
+   "city": "San Francisco",
+   "date": "2026-12-13",
+   "description": "",
+   "fingerprint": "71d8bc9311e9",
+   "id": "ev_745cd042f1f0",
+   "other_urls": [],
+   "rules_score": 86.5,
+   "rules_tier": "strong",
+   "start": "2026-12-13T13:00:00-08:00",
+   "title": "eggcorn / Meredith Edgar / Minor Birds",
+   "url": "http://www.bottomofthehill.com/20261213A.html",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "roots_core: chamber folk (+22)",
+    "roots_adjacent: folk, americana (+12)",
+    "jazz_core: jazz (+18)",
+    "intimate room: Bottom of the Hill (+14)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-12-11",
@@ -805,28 +825,6 @@
     "intimate room: Rickshaw Stop (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-04",
-   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
-   "fingerprint": "ee0751abad0b",
-   "id": "ev_b8cde791a856",
-   "other_urls": [
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-11-04/",
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-11-04/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-04T18:00:00-08:00",
-   "title": "Wednesday East Bay Bluegrassers Jam",
-   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-11-04/",
-   "venue": "Rockin Robbies – El Cerrito",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
    ]
   }
  ]
