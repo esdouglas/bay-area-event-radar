@@ -60,6 +60,36 @@
       "Rules score credited 'musical' as theater, which is spurious; this is a music dinner show."
     ]
   },
+  "ev_04ec9e997644": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Cosmo Alleycats presents \"Old Sweet Songs\", a show celebrating enduring melodies, a bygone style of songwriting, and original songs that contend for placement in the Great American Canon. The group, Led by jazz vocalist Emily Day, \"one of the major singers in her field\" (Scott Yanow), endears audien",
+        "url": "https://keysjazzbistro.com/event/emily-day-cosmo-alleycats-8/"
+      }
+    ],
+    "fingerprint": "8dd06b154740",
+    "fit": 35,
+    "performers": [
+      {
+        "known_for": "SF jazz vocalist",
+        "name": "Emily Day",
+        "significance": "local"
+      },
+      {
+        "known_for": "vintage-style jazz combo",
+        "name": "Cosmo Alleycats",
+        "significance": "local"
+      }
+    ],
+    "reason": "Emily Day leads Cosmo Alleycats in 'Old Sweet Songs', a show of Great American Songbook-style material and originals at Keys Jazz Bistro on Nov 27; the listing quotes Scott Yanow calling her 'one of the major singers in her field'. Polished vintage vocal jazz, not the adventurous improvised jazz he seeks.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_05137edea8c9": {
     "evidence": [
       {
@@ -167,7 +197,7 @@
         "url": "https://californiabluegrass.org/porchtalk-interview-with-avram-frankel/"
       }
     ],
-    "fingerprint": "154268b6299c",
+    "fingerprint": "f3b9b8a2498e",
     "fit": 48,
     "performers": [
       {
@@ -177,13 +207,14 @@
       }
     ],
     "reason": "Avram (AJ) Frankel is a Pacifica dobro and guitar player, a student of Ivan Rosenberg, who per a California Bluegrass Association interview is one half of Maverick, a bluegrass duo with David Thom, and plays in several local bands. A free-feeling 4 pm tavern set of straight Bay Area bluegrass is pleasant community music close to home rather than a must-see (inference).",
-    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researched_at": "2026-11-04T22:49:18+00:00",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
     "tier": "possible",
     "uncertainties": [
       "That 'AJ Frankel' is Avram Frankel of Maverick is inference from name and Pacifica location; the interview does not use 'AJ'.",
-      "Current Maverick lineup unconfirmed; no venue page found for Winters Tavern."
+      "Current Maverick lineup unconfirmed; no venue page found for Winters Tavern.",
+      "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
     ]
   },
   "ev_084d16ec6dea": {
@@ -417,7 +448,7 @@
         "url": "https://www.kathykallick.com/kathy-kallick-band.html"
       }
     ],
-    "fingerprint": "751f112bd5c2",
+    "fingerprint": "d27d74b2b334",
     "fit": 80,
     "performers": [
       {
@@ -447,14 +478,15 @@
       }
     ],
     "reason": "Kathy Kallick co-founded the Good Ol' Persons, one of the first all-women bluegrass bands (with Laurie Lewis), and has led the Kathy Kallick Band since 1996, with a Grammy and two IBMA awards. Tom Bekeny (mandolin) and Greg Booth (dobro, banjo) are her own band members, so this Sunday 1pm set at the tiny Monkey House is close to a Kathy Kallick Band show in a living-room-sized Berkeley venue. The listing showed only surnames, which is why it scored 26.",
-    "researched_at": "2026-11-01T17:48:02+00:00",
-    "researcher": "Claude interactive session",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
     "ticket_status": "unverified",
     "tier": "strong",
     "uncertainties": [
       "No Monkey House page checked; price and reservation process unconfirmed.",
       "Bethany Sorkey and Larry Chung not identified by any source I read.",
-      "Whether this is billed as the Kathy Kallick Band is inference from the shared members."
+      "Whether this is billed as the Kathy Kallick Band is inference from the shared members.",
+      "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
     ]
   },
   "ev_18072512f699": {
@@ -493,6 +525,51 @@
     "tier": "strong",
     "uncertainties": [
       "Freight page not checked; time and price not confirmed."
+    ]
+  },
+  "ev_197ea854c2eb": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Magic Theatre World Premiere A Rashomon By Ashley Smiley Conceived by Joan Osato Directed by Edris Cooper-Anifowoshe THIS IS PERFORMED AT THE AFRICAN AMERICAN ARTIST & CULTURAL COMPLEX 762 Fulton Street, San Francisco",
+        "url": "https://magictheatre.org/calendar/a-rashomon"
+      },
+      {
+        "finding": "Search result title: 'Wed November 25 - Sun December 13, 2026'.",
+        "url": "https://www.sfstation.com/a-rashomon-e15769374"
+      },
+      {
+        "finding": "Search result: a foundation page titled 'A Rashomon'.",
+        "url": "https://krfoundation.org/?p=52005"
+      }
+    ],
+    "fingerprint": "88afae1681d4",
+    "fit": 65,
+    "performers": [
+      {
+        "known_for": "playwright",
+        "name": "Ashley Smiley",
+        "significance": "local"
+      },
+      {
+        "known_for": "Bay Area director",
+        "name": "Edris Cooper-Anifowoshe",
+        "significance": "local"
+      },
+      {
+        "known_for": "conceiver/producer",
+        "name": "Joan Osato",
+        "significance": "local"
+      }
+    ],
+    "reason": "A Rashomon is a world-premiere play by Ashley Smiley, conceived by Joan Osato and directed by Edris Cooper-Anifowoshe, a Magic Theatre production staged at the African American Art & Culture Complex on Fulton Street. A new take on the Rashomon story from the Magic, the Bay Area's premiere house for new plays; SF Station lists the run as Nov 25 to Dec 13.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Queue date Nov 18 vs SF Station run starting Nov 25; Nov 18 may be a preview or the dates differ.",
+      "No reviews yet; quality unknown.",
+      "Runs to about Dec 13, so not urgent."
     ]
   },
   "ev_1bf8cb57892f": {
@@ -585,6 +662,36 @@
     "tier": "possible",
     "uncertainties": [
       "Oakland primary event page/booking status not confirmed."
+    ]
+  },
+  "ev_1d469f36c677": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: femme garage rock group from San Francisco + 2 other live bands TBD; $10 cover",
+        "url": "https://littlehillelcerrito.com/events/"
+      }
+    ],
+    "fingerprint": "2ca99a804207",
+    "fit": 15,
+    "performers": [
+      {
+        "known_for": "SF femme garage rock",
+        "name": "Medscool",
+        "significance": "local"
+      },
+      {
+        "known_for": "unresolved",
+        "name": "For Horses",
+        "significance": "none"
+      }
+    ],
+    "reason": "Medscool is described as a femme garage rock group from San Francisco, with For Horses and other bands TBD, $10 at Little Hill Lounge in El Cerrito on Nov 8. Local garage rock; not a fit.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_1dfb22311ad4": {
@@ -1418,6 +1525,45 @@
       "Beat-driven production may be less 'intimate improvised' than he prefers."
     ]
   },
+  "ev_409a40269ac4": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Thao & The Get Down Stay Down at The Independent at 2026-11-08T20:00:00-0800",
+        "url": "https://www.songkick.com/concerts/43345479-thao-and-the-get-down-stay-down-at-independent"
+      },
+      {
+        "finding": "Search result title: 'THAO to Launch 2027 North American Fall Tour' (Sept 2026).",
+        "url": "https://www.broadwayworld.com/article/THAO-to-Launch-2027-North-American-Fall-Tour-20260922"
+      },
+      {
+        "finding": "Search result: KQED feature on Thao Nguyen and San Francisco songwriting.",
+        "url": "https://www.kqed.org/news/3282/thao-nguyen-on-songwriting-san-francisco-and-sorting-through-her-troubled-relationship-with-her-dad"
+      },
+      {
+        "finding": "Listed by Another Planet for this date (from queue sources).",
+        "url": "https://apeconcerts.com/events/thao-261108/"
+      }
+    ],
+    "fingerprint": "aa00bd9725da",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "SF songwriter, Thao & The Get Down Stay Down",
+        "name": "Thao Nguyen",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Thao & The Get Down Stay Down is Thao Nguyen's acclaimed SF-based indie-folk-rock band (Kill Rock Stars, Ribbon Music), whose banjo- and guitar-driven records grew out of the folk scene; this Independent date on Nov 8 appears to revive the band name after years of her recording solo as Thao. A hometown show by a major Bay Area songwriter is worth flagging even though it leans indie.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Whether this is a full band reunion or a solo Thao show billed under the old name is unconfirmed.",
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_41b2fed2aac5": {
     "evidence": [
       {
@@ -1876,6 +2022,37 @@
     "tier": "low",
     "uncertainties": [
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_56fd2d696699": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Home for the Holidays – An Irish Christmas, is a heartwarming, festive celebration that brings the joyous spirit of a traditional Irish house party to life. It captures the deep sense of community and tradition that defines an Irish Christmas. The production blends dazzling instrumental tunes-jigs, ",
+        "url": "https://www.kuumbwajazz.org/calendar/home-for-the-holidays-an-irish-christmas/"
+      },
+      {
+        "finding": "Listed on the SF Folk Music Club community calendar (from queue sources).",
+        "url": "https://www.sffmc.org/community-folk-calendar/"
+      }
+    ],
+    "fingerprint": "89951decf612",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "touring Irish holiday show",
+        "name": "Home for the Holidays production",
+        "significance": "none"
+      }
+    ],
+    "reason": "Home for the Holidays: An Irish Christmas is a touring holiday production at Kuumbwa in Santa Cruz built around jigs, reels, song and dance in the style of an Irish house party. The performers are not named in the queue text, so its traditional-music depth is unresolved; it is also a long drive from Oakland.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Lineup unknown; could be a polished production show rather than top-tier trad players.",
+      "Santa Cruz, about 90 minutes from Oakland.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_5811f4e5fea0": {
@@ -2509,9 +2686,21 @@
       {
         "finding": "Noelle and the Deserters are led by Taos-raised singer-songwriter Noelle Fiore, members based in the Bay Area and Sacramento; High Desert Daydream rated 7/10, classic country themes with New Mexico flavor, honky-tonk, pedal steel, mandolin, mariachi trumpet, vocals compared to Loretta Lynn.",
         "url": "https://americana-uk.com/?p=139627"
+      },
+      {
+        "finding": "Search result: 'Five Minutes With: Vancouver Band Petunia & The Vipers'.",
+        "url": "https://vancouverguardian.com/vancouver-music-petunia/"
+      },
+      {
+        "finding": "Search result title describes them as a 'swingin country blues rockabilly band'.",
+        "url": "https://bpbpd.wpengine.com/entertainment/swingin-country-blues-rockabilly-band-returns-to-harrison"
+      },
+      {
+        "finding": "Search result: Vancouver Folk Music Festival lineup article returned for the band name.",
+        "url": "https://www.richmond-news.com/local-arts/vancouver-folk-music-festival-announces-this-years-lineup-3074189"
       }
     ],
-    "fingerprint": "1eec9bc96bfa",
+    "fingerprint": "cda6ff5c54e6",
     "fit": 60,
     "performers": [
       {
@@ -2526,14 +2715,15 @@
       }
     ],
     "reason": "Petunia and the Vipers are a Vancouver roots band drawing on country swing, rockabilly, blues and old folk, carrying on Ray Condo's legacy with former Condo sidemen like Jimmy Roy, and they have shared stages with Phil and Dave Alvin, Exene Cervenka and John Doe. Noelle and the Deserters are a Bay Area and Sacramento honky-tonk band led by Taos-raised Noelle Fiore, with pedal steel, mandolin and mariachi trumpet. A $15 Ivy Room double bill with real countercultural roots credentials, though more honky-tonk and rockabilly than old-time.",
-    "researched_at": "2026-10-31T21:51:08+00:00",
+    "researched_at": "2026-11-04T22:49:18+00:00",
     "researcher": "Claude daily research task",
     "ticket_status": "unverified",
     "tier": "possible",
     "uncertainties": [
       "Ticket page could not be fetched directly; date, time and price come from the input's quoted page text.",
       "The input text says 'ADVANCE TICKETS AVAILABLE' but this was not verified by a fetch, so status left unverified.",
-      "The rules engine's 'theater_core: play' match is spurious; this is a concert."
+      "The rules engine's 'theater_core: play' match is spurious; this is a concert.",
+      "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
     ]
   },
   "ev_693c1c27e9e5": {
@@ -2825,6 +3015,87 @@
       "Date conflict: Nov 11 (Bluegrass Signal, Bill Evans) vs Nov 18 (CBA page, likely 2025)."
     ]
   },
+  "ev_74050a3940bd": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: none",
+        "url": "https://fifthstfarms.com/"
+      },
+      {
+        "finding": "Search result: JamBase band page for Crooked Jades (no date seen).",
+        "url": "https://www.jambase.com/band/crooked-jades"
+      }
+    ],
+    "fingerprint": "d46cd271c4b4",
+    "fit": 75,
+    "performers": [
+      {
+        "known_for": "SF old-time string band",
+        "name": "The Crooked Jades",
+        "significance": "notable"
+      }
+    ],
+    "reason": "The Crooked Jades, the San Francisco band central to the 2000s old-time revival, appear on Fifth Street Farms' Berkeley calendar for Dec 20. A seed artist in a small East Bay room, but the date was pulled by heuristic text extraction ('Crooked Jades 26') and could not be confirmed.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "strong",
+    "uncertainties": [
+      "Event title 'Crooked Jades 26' came from heuristic extraction; date, time and whether it is a concert are unconfirmed.",
+      "Searches found no listing for this date.",
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
+  "ev_745cd042f1f0": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: none",
+        "url": "http://www.bottomofthehill.com/20261213A.html"
+      },
+      {
+        "finding": "Search result: Songkick has an artist page for 'eggcorn' with past concerts (titles only seen).",
+        "url": "https://developer.songkick.com/artists/10211831-eggcorn/gigography"
+      },
+      {
+        "finding": "Search result title lists eggcorn on an Ivy Room bill with New Earth Farmers and Brian Mello and the Afterglow.",
+        "url": "https://www.jazznearyou.com/sanfrancisco/events/new-earth-farmers-brian-mello-and-the-afterglow-eggcorn-at-ivy-room-on-october-18"
+      },
+      {
+        "finding": "Search result: a Minor Birds Bandcamp exists; not confirmed to be the same act.",
+        "url": "https://minorbirdsmusic.bandcamp.com"
+      }
+    ],
+    "fingerprint": "71d8bc9311e9",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "small SF band (search listings only)",
+        "name": "eggcorn",
+        "significance": "local"
+      },
+      {
+        "known_for": "unresolved",
+        "name": "Meredith Edgar",
+        "significance": "none"
+      },
+      {
+        "known_for": "unresolved; possibly the Bandcamp act minorbirdsmusic",
+        "name": "Minor Birds",
+        "significance": "none"
+      }
+    ],
+    "reason": "eggcorn, Meredith Edgar and Minor Birds share a Sunday 1 pm bill at Bottom of the Hill on Dec 13; the rules matched chamber folk and jazz keywords but no performer could be identified with confidence. eggcorn appears to be a small SF act that has played the Ivy Room and Brick and Mortar (search listings only).",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "unknown",
+    "uncertainties": [
+      "Genre of all three acts unresolved; chamber folk keyword may come from page text not reviewed.",
+      "Daytime 1 pm show time from queue start field.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_74dc47628519": {
     "evidence": [
       {
@@ -2986,6 +3257,41 @@
       "Two-night run; both nights listed separately."
     ]
   },
+  "ev_7a85576a6024": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: music on at 8:00pm; tickets $15; support local fem indie acts!",
+        "url": "https://littlehillelcerrito.com/events/"
+      }
+    ],
+    "fingerprint": "6945802ae2db",
+    "fit": 15,
+    "performers": [
+      {
+        "known_for": "local indie",
+        "name": "Holly Voorsanger",
+        "significance": "local"
+      },
+      {
+        "known_for": "local indie",
+        "name": "Flora Elmcolone",
+        "significance": "local"
+      },
+      {
+        "known_for": "local indie",
+        "name": "Bess Hepner",
+        "significance": "local"
+      }
+    ],
+    "reason": "Fem Indie Night features local indie acts Holly Voorsanger, Flora Elmcolone and Bess Hepner at Little Hill Lounge, $15, on Nov 13. Local indie songwriter night; not a fit.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_7a8e0dd9187a": {
     "evidence": [
       {
@@ -3013,6 +3319,46 @@
     "tier": "possible",
     "uncertainties": [
       "Solo or with band not stated"
+    ]
+  },
+  "ev_7b9779f74a25": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Bottom of the Hill: Team Dresch, Longstocking, The Third Sex",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Listed by JamBase for this date (from queue sources).",
+        "url": "https://www.jambase.com/show/team-dresch-bottom-of-the-hill-20261105"
+      }
+    ],
+    "fingerprint": "41e847778674",
+    "fit": 30,
+    "performers": [
+      {
+        "known_for": "1990s queercore punk",
+        "name": "Team Dresch",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Portland punk",
+        "name": "The Third Sex",
+        "significance": "local"
+      },
+      {
+        "known_for": "punk",
+        "name": "Longstocking",
+        "significance": "local"
+      }
+    ],
+    "reason": "Team Dresch are the foundational 1990s Portland queercore punk band, with The Third Sex and Longstocking, at Bottom of the Hill on Nov 5. Historically important but outside his roots, jazz, hip-hop and theater taste.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_7c348009c91a": {
@@ -3609,6 +3955,36 @@
       "Whether this date is part of the 30th anniversary tour is not stated for Berkeley specifically"
     ]
   },
+  "ev_894916871173": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: This show kicks off a special Birthday celebration week as Keys celebrates 4 years in San Francisco! \"Hammond Organ Party! is an exceptional collaboration...Rose and De La Cruz have hit a home run!\" – Pete Fallico, Doodlin' Lounge \"Outstanding vocals...Rose hits that jazz & soul sweet spot with Wayn",
+        "url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-4/"
+      }
+    ],
+    "fingerprint": "fc6603c1fbd7",
+    "fit": 35,
+    "performers": [
+      {
+        "known_for": "SF jazz/soul vocalist",
+        "name": "Pamela Rose",
+        "significance": "local"
+      },
+      {
+        "known_for": "Hammond B3 organist",
+        "name": "Wayne De La Cruz",
+        "significance": "local"
+      }
+    ],
+    "reason": "Pamela Rose and Hammond organist Wayne De La Cruz play a jazz-and-soul 'Hammond Organ Party' kicking off Keys Jazz Bistro's 4th anniversary week on Nov 18. Enjoyable supper-club organ soul, but not the adventurous jazz his profile targets.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_89963da93768": {
     "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
     "evidence": [
@@ -3800,6 +4176,41 @@
     "uncertainties": [
       "Genre description is background knowledge.",
       "Show is tonight; lineup not checked."
+    ]
+  },
+  "ev_91cf0c48e613": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Ivy Room: Colleen Green, Still Ruins, Artsick",
+        "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+      },
+      {
+        "finding": "Listed by JamBase for this date (from queue sources).",
+        "url": "https://www.jambase.com/show/colleen-green-ivy-room-20261105"
+      }
+    ],
+    "fingerprint": "3550d614fead",
+    "fit": 25,
+    "performers": [
+      {
+        "known_for": "lo-fi indie pop-punk",
+        "name": "Colleen Green",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Oakland indie pop",
+        "name": "Artsick",
+        "significance": "local"
+      }
+    ],
+    "reason": "Colleen Green is a lo-fi indie pop-punk songwriter on Hardly Art, playing the Ivy Room on Nov 5 with Still Ruins and Artsick. Indie rock, not a fit for his taste profile.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_92de08e48b2c": {
@@ -4503,6 +4914,32 @@
       "Godwaffle lineup for this date unknown"
     ]
   },
+  "ev_b123eb7d18d7": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Nov. 18: Bloomfield Bluegrass Band - Willowbrook Ale House, Petaluma",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      }
+    ],
+    "fingerprint": "3bd5738f9b9c",
+    "fit": 40,
+    "performers": [
+      {
+        "known_for": "North Bay bluegrass (unresolved)",
+        "name": "Bloomfield Bluegrass Band",
+        "significance": "local"
+      }
+    ],
+    "reason": "Bloomfield Bluegrass Band plays Willowbrook Ale House in Petaluma on Nov 18. No information found on the band beyond the BG Signal listing; likely a local North Bay pub bluegrass act (inference).",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_b1c2d55e87c9": {
     "evidence": [
       {
@@ -4718,6 +5155,49 @@
     "uncertainties": [
       "Band lineup not listed.",
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_b737c76114b4": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Max Gomez at Sweetwater Music Hall on Nov 12, 2026",
+        "url": "https://sweetwatermusichall.org/event/max-gomez-with-caroline-de-lone/sweetwater-music-hall/mill-valley-california/"
+      },
+      {
+        "finding": "Search result: Wikipedia article on Max Gomez (musician).",
+        "url": "https://en.wikipedia.org/wiki/Max_Gomez_(musician)"
+      },
+      {
+        "finding": "Search result: Passim (Cambridge folk club) artist page for Max Gomez.",
+        "url": "https://www.passim.org/artists/max-gomez/"
+      },
+      {
+        "finding": "Listed by JamBase for this date (from queue sources).",
+        "url": "https://www.jambase.com/show/max-gomez-sweetwater-music-hall-20261112"
+      }
+    ],
+    "fingerprint": "52f139d0e26f",
+    "fit": 50,
+    "performers": [
+      {
+        "known_for": "Taos singer-songwriter",
+        "name": "Max Gomez",
+        "significance": "notable"
+      },
+      {
+        "known_for": "singer-songwriter, not researched",
+        "name": "Caroline De Lone",
+        "significance": "none"
+      }
+    ],
+    "reason": "Max Gomez is a Taos, New Mexico singer-songwriter with a Wikipedia entry, past SXSW showcases and Passim appearances, playing Sweetwater in Mill Valley on Nov 12 with Caroline De Lone. Solid folk-Americana songwriting rather than the traditional or outsider folk he prizes.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_b7497a38f3bd": {
@@ -5054,6 +5534,48 @@
       "Style of the series is inference from the host and series name."
     ]
   },
+  "ev_c85e14ab0010": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Dec. 19: Crying Uncle Bluegrass Band - HopMonk Tavern, Novato",
+        "url": "https://www.bgsignal.com/concerts--festivals.html"
+      },
+      {
+        "finding": "Search result: Opry artist page for Crying Uncle Bluegrass Band.",
+        "url": "https://www.opry.com/artists/crying-uncle-bluegrass-band"
+      },
+      {
+        "finding": "Search result: CBA 'Crying Uncle Interview'.",
+        "url": "https://californiabluegrass.org/crying-uncle-interview/"
+      },
+      {
+        "finding": "Search result: KC Turner presented them at HopMonk in April 2024.",
+        "url": "https://visitmarin.org/event-calendar/2024/april-2024/kc-turner-presents-crying-uncle-bluegrass-band-at-hopmonk-tavern"
+      },
+      {
+        "finding": "Listed by JamBase for this date (from queue sources).",
+        "url": "https://www.jambase.com/show/crying-uncle-bluegrass-band-hopmonk-tavern-novato-20261219"
+      }
+    ],
+    "fingerprint": "deb460d156a8",
+    "fit": 58,
+    "performers": [
+      {
+        "known_for": "young Marin bluegrass family band",
+        "name": "Crying Uncle",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Crying Uncle is the young Marin bluegrass band that has appeared on the Opry website, been interviewed by the California Bluegrass Association and played the Pinecone and Blueberry festivals; they return to HopMonk Novato on Dec 19. Hot, traditional-leaning young bluegrass, a good North Bay night out.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_cadee8918518": {
     "evidence": [
       {
@@ -5160,6 +5682,45 @@
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
     ]
   },
+  "ev_cc85d7f83c2c": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: KEITH GREENINGER & NINA GERBER together in concert Award winning singer/songwriter Keith Greeninger and legendary guitarist Nina Gerber join forces for a powerful night of music, song and community celebration.",
+        "url": "https://ranchonicasio.com/event/keith-greeninger-nina-gerber-3/"
+      },
+      {
+        "finding": "Search result: Wikipedia article on Nina Gerber.",
+        "url": "https://en.wikipedia.org/wiki/Nina_Gerber"
+      },
+      {
+        "finding": "Search result: Fretboard Journal feature 'Guitar for Introverts: Nina Gerber'.",
+        "url": "https://www.fretboardjournal.com/?p=31004"
+      }
+    ],
+    "fingerprint": "d03eec2b52cd",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "acoustic guitarist, Kate Wolf accompanist",
+        "name": "Nina Gerber",
+        "significance": "notable"
+      },
+      {
+        "known_for": "Santa Cruz singer-songwriter",
+        "name": "Keith Greeninger",
+        "significance": "local"
+      }
+    ],
+    "reason": "Santa Cruz singer-songwriter Keith Greeninger joins guitarist Nina Gerber, long-time accompanist to Kate Wolf and Nanci Griffith, at Rancho Nicasio on Jan 17, 2027. Gerber's tasteful acoustic guitar is the draw; Rancho Nicasio is a far but charming West Marin room.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_cdc8a7bfe767": {
     "evidence": [
       {
@@ -5211,6 +5772,50 @@
     "tier": "possible",
     "uncertainties": [
       "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+    ]
+  },
+  "ev_ce2510a4fd05": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Advance tickets are available online . You are advised to purchase advance tickets for this event. RSVP to the Facebook event: Khachapuri Trio Khachapuri Trio 'Gorgeous Sonorities & Twists' Acoustically Enhanced Chamber Jazz Khachapuri Trio is a delightful combination of cello, guitar, and clarinets",
+        "url": "https://redpoppyarthouse.org/event/khachapuri-trio/"
+      },
+      {
+        "finding": "Search result: Beth Custer's site has a 'Khachapuri Trio' post, linking her to the group.",
+        "url": "https://bethcuster.com/?p=3838"
+      },
+      {
+        "finding": "Search result: SF Public Library hosted a Khachapuri Trio performance on 14 Mar 2026.",
+        "url": "https://sfpl.org/events/2026/03/14/performance-khachapuri-trio"
+      },
+      {
+        "finding": "Search result: Bay Improviser event listing for the trio (title only seen).",
+        "url": "https://www.bayimproviser.com/EventView.aspx?e=22465"
+      }
+    ],
+    "fingerprint": "2816a65a9eb2",
+    "fit": 60,
+    "performers": [
+      {
+        "known_for": "clarinetist/composer, Club Foot Orchestra, Trance Mission (inference from search link to her site)",
+        "name": "Beth Custer",
+        "significance": "notable"
+      },
+      {
+        "known_for": "cello, guitar, clarinets chamber jazz",
+        "name": "Khachapuri Trio",
+        "significance": "local"
+      }
+    ],
+    "reason": "Khachapuri Trio is a cello, guitar and clarinets chamber-jazz group that the Red Poppy listing calls 'Acoustically Enhanced Chamber Jazz'; search results tie it to SF clarinetist and composer Beth Custer (Club Foot Orchestra, Trance Mission), whose site lists the trio. An intimate Mission house concert of composed-improvised acoustic jazz is a reasonable fit for his adventurous-jazz side.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Beth Custer's membership is inferred from her site listing the trio; full lineup not confirmed.",
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_cec22afc87ec": {
@@ -5299,6 +5904,36 @@
     "tier": "strong",
     "uncertainties": [
       "Primary Bird & Beckett page not fetched; details from queue description"
+    ]
+  },
+  "ev_cfadd1749599": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Danny L Harle at Great American Music Hall at 2026-11-05T20:00:00-0800",
+        "url": "https://www.songkick.com/concerts/43388109-danny-l-harle-at-great-american-music-hall"
+      },
+      {
+        "finding": "Listed by JamBase for this date (from queue sources).",
+        "url": "https://www.jambase.com/show/danny-l-harle-great-american-music-hall-20261105"
+      }
+    ],
+    "fingerprint": "7dadd171d2f3",
+    "fit": 10,
+    "performers": [
+      {
+        "known_for": "electronic producer, PC Music",
+        "name": "Danny L Harle",
+        "significance": "notable"
+      }
+    ],
+    "reason": "Danny L Harle is a London electronic producer associated with PC Music and Dua Lipa's production team, playing Great American Music Hall on Nov 5. Club/electronic pop; a poor fit.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_d00b6f4d8439": {
@@ -5878,6 +6513,41 @@
       "Show format (duo or band) unknown"
     ]
   },
+  "ev_e575ca0c3b47": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: King Buffalo at The Independent at 2026-11-06T21:00:00-0800",
+        "url": "https://www.songkick.com/concerts/43224118-king-buffalo-at-independent"
+      },
+      {
+        "finding": "Listed by Another Planet for this date (from queue sources).",
+        "url": "https://apeconcerts.com/events/king-buffalo-261106/"
+      }
+    ],
+    "fingerprint": "cc600afe466d",
+    "fit": 20,
+    "performers": [
+      {
+        "known_for": "psych/stoner rock trio",
+        "name": "King Buffalo",
+        "significance": "notable"
+      },
+      {
+        "known_for": "garage-psych trio",
+        "name": "L.A. Witch",
+        "significance": "notable"
+      }
+    ],
+    "reason": "King Buffalo is a Rochester, New York psych/stoner rock trio, with L.A. Witch, at the Independent on Nov 6. Heavy psych rock, not the psychedelic folk lineage in his profile.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_e59304c7b6bc": {
     "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
     "evidence": [
@@ -6030,6 +6700,36 @@
       "Ticket Tailor page not reachable this run; capacity and sales status unknown."
     ]
   },
+  "ev_eb8b74842789": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Lynne Maes, rhythm guitar & vocals; Hank Maninger, lead guitar & vocals; Tim Wagar, bass guitar; Paul Revelli drums You're in for two sets in honky tonk heaven. Mainstays of the Bay Area Americana scene, and the Bird & Beckett bandstand, for nearly a decade, Nashville Honeymoon has traversed country",
+        "url": "https://birdbeckett.com/event/nashville-honeymoon_2026-12-13/"
+      },
+      {
+        "finding": "Listed on the Hicks With Sticks roots calendar (from queue sources).",
+        "url": "https://www.hickswithsticks.com/calendar/"
+      }
+    ],
+    "fingerprint": "7a11b0cc4a92",
+    "fit": 48,
+    "performers": [
+      {
+        "known_for": "Bay Area honky-tonk band",
+        "name": "Nashville Honeymoon",
+        "significance": "local"
+      }
+    ],
+    "reason": "Nashville Honeymoon (Lynne Maes, Hank Maninger, Tim Wagar, Paul Revelli) are Bay Area honky-tonk mainstays who have played Bird & Beckett for nearly a decade, here for two sets on Sunday Dec 13. Bird & Beckett is a lovely intimate room, but this is a solid local country band rather than a must-see.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "Rules penalty for 'happy hour' and theater match on 'Beckett' are both spurious.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
+    ]
+  },
   "ev_ecdea767cd3a": {
     "evidence": [
       {
@@ -6088,6 +6788,37 @@
     "tier": "low",
     "uncertainties": [
       "November 13, 2026 date and time not confirmed (funcheap shows an earlier April 2026 date)"
+    ]
+  },
+  "ev_ee6b29b28d5d": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Buy Tickets on Humanitix - Songwriters Mav Asya and Priyanka Atreya hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday November 12th 2026. Find event information.",
+        "url": "https://events.humanitix.com/songwriters-mav-asya-and-priyanka-atreya"
+      }
+    ],
+    "fingerprint": "3fbe7fd29830",
+    "fit": 30,
+    "performers": [
+      {
+        "known_for": "songwriter, unresolved",
+        "name": "Mav Asya",
+        "significance": "none"
+      },
+      {
+        "known_for": "songwriter, unresolved",
+        "name": "Priyanka Atreya",
+        "significance": "none"
+      }
+    ],
+    "reason": "Songwriters Mav Asya and Priyanka Atreya share a bill at The Back Room in Berkeley on Nov 12. Neither performer could be identified this run.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_f0c0faf0fe5d": {
@@ -6304,6 +7035,30 @@
     "tier": "possible",
     "uncertainties": [
       "Mother-daughter relationship and Cressman credits are background knowledge."
+    ]
+  },
+  "ev_f5de1078fe8a": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, al",
+        "url": "https://californiabluegrass.org/event/garage-jam/2026-12-07/"
+      },
+      {
+        "finding": "Queue description (from CBA page): open friendly bluegrass circle, beginners to veterans, straight-up traditional bluegrass.",
+        "url": "https://californiabluegrass.org/event/garage-jam/2026-12-07/"
+      }
+    ],
+    "fingerprint": "ca57194310e7",
+    "fit": 20,
+    "performers": [],
+    "reason": "The Garage Jam is an open traditional bluegrass picking circle in Petaluma on first and third Mondays, 6 to 8 pm. A participatory jam, not a performance; only relevant if he wants to play.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "low",
+    "uncertainties": [
+      "Recurring jam; same assessment applies to other dates.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_f65c6ef37dd0": {
@@ -6527,6 +7282,49 @@
     "tier": "strong",
     "uncertainties": [
       "Prior radar recorded this October 16; no new alert absent a meaningful change. Additional artist research needed before claiming exceptional significance."
+    ]
+  },
+  "ev_fa6a2e9d5c34": {
+    "evidence": [
+      {
+        "finding": "Primary page fetch blocked this run (fetch permission not granted); queue description collected by the pipeline from this page: Greg Freeman at The Independent at 2026-11-05T20:00:00-0800",
+        "url": "https://www.songkick.com/concerts/43334067-greg-freeman-at-independent"
+      },
+      {
+        "finding": "Search result title: 'Get Ready for Greg Freeman to Be Your Favorite New Indie Rocker'.",
+        "url": "https://www.rollingstone.com/music/music-features/greg-freeman-vermont-new-album-interview-1235344162/"
+      },
+      {
+        "finding": "Search result title: 'Greg Freeman Is The Latest Great Indie Country-Rock Troubadour'.",
+        "url": "https://uproxx.com/indie/greg-freeman-interview-burnover"
+      },
+      {
+        "finding": "Search result: Stereogum post announcing a new Greg Freeman album, so this is likely a new-album tour (inference).",
+        "url": "https://stereogum.com/2505840/greg-freeman-announces-new-album-all-set-the-bone-hear-indu/music/"
+      }
+    ],
+    "fingerprint": "44a99817a03f",
+    "fit": 55,
+    "performers": [
+      {
+        "known_for": "Vermont indie country-rock songwriter, Burnover (2025)",
+        "name": "Greg Freeman",
+        "significance": "notable"
+      },
+      {
+        "known_for": "opener, not researched",
+        "name": "Trinity Ace",
+        "significance": "none"
+      }
+    ],
+    "reason": "Greg Freeman is a Burlington, Vermont songwriter whose 2025 album Burnover drew strong reviews from Rolling Stone, Paste, Stereogum and Uproxx, the last calling him 'the latest great indie country-rock troubadour'. Ragged, literate country-rock at the Independent on Nov 5; worth a look if he wants a Americana-leaning rock night.",
+    "researched_at": "2026-11-04T22:49:18+00:00",
+    "researcher": "Claude daily research task",
+    "ticket_status": "unverified",
+    "tier": "possible",
+    "uncertainties": [
+      "More indie rock than roots; fit is a judgment call.",
+      "Date, venue and lineup not confirmed against a fetched primary page this run."
     ]
   },
   "ev_fd8a03c84d44": {
