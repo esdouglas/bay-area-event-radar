@@ -1,7 +1,7 @@
 {
- "backlog": 1532,
+ "backlog": 1507,
  "count": 40,
- "generated_at": "2026-11-05T07:06:00+00:00",
+ "generated_at": "2026-11-05T20:14:18+00:00",
  "items": [
   {
    "city": "San Francisco",
@@ -691,6 +691,29 @@
    ]
   },
   {
+   "city": "Mill Valley",
+   "date": "2026-11-19",
+   "description": "Josh Rouse at Sweetwater Music Hall on Nov 19, 2026",
+   "fingerprint": "7e39a4058c2d",
+   "id": "ev_b48fb4ff7812",
+   "other_urls": [
+    "https://www.jambase.com/show/josh-rouse-sweetwater-music-hall-20261119",
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 67.0,
+   "rules_tier": "strong",
+   "start": "2026-11-19T20:00:00-08:00",
+   "title": "Josh Rouse with Mary Bragg",
+   "url": "https://sweetwatermusichall.org/event/josh-rouse-with-mary-bragg/sweetwater-music-hall/mill-valley-california/",
+   "venue": "Sweetwater Music Hall",
+   "why_rules": [
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
    "city": "",
    "date": "2026-11-09",
    "description": "Hillside Club: The Sharp String Quartet",
@@ -860,29 +883,6 @@
    "why_rules": [
     "intimate room: Ashkenaz (+14)",
     "listed by a taste-aligned calendar (+14)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-11-13",
-   "description": "The Smithereens at Sweetwater Music Hall on Nov 13, 2026",
-   "fingerprint": "ab66d2c4668c",
-   "id": "ev_d6e6dceb428e",
-   "other_urls": [
-    "https://www.jambase.com/show/the-smithereens-sweetwater-music-hall-20261113",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-13T20:00:00-08:00",
-   "title": "The Smithereens",
-   "url": "https://sweetwatermusichall.org/event/the-smithereens/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
    ]
   }
