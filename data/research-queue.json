@@ -1,7 +1,7 @@
 {
- "backlog": 1494,
+ "backlog": 1466,
  "count": 40,
- "generated_at": "2026-11-06T07:05:48+00:00",
+ "generated_at": "2026-11-06T19:39:13+00:00",
  "items": [
   {
    "city": "Nicasio",
@@ -21,6 +21,26 @@
     "roots_adjacent: roots (+10)",
     "theater_core: premiere (+14)",
     "intimate room: Rancho Nicasio (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-18",
+   "description": "with Danny Paul Grody Duo | (((folkYEAH!))) Presents and KALW Welcomes",
+   "fingerprint": "416d5a5fc4e4",
+   "id": "ev_73b5e3ec19ae",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2026-11-18T20:00:00-08:00",
+   "title": "John Carroll Kirby",
+   "url": "https://wl.seetickets.us/event/john-carroll-kirby/700565?afflky=TheChapel",
+   "venue": "The Chapel",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: duo (+5)",
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)"
    ]
   },
   {
@@ -90,6 +110,24 @@
   },
   {
    "city": "San Francisco",
+   "date": "2026-11-20",
+   "description": "Join us as one of the Bay Area's most beloved artists helps us celebrate four years at Keys! A true treasure of the Bay Area jazz scene, vocalist Paula West is celebrated for her rich contralto voice and deeply expressive interpretations of song.Her repertoire moves effortlessly from the Great American Songbook to inspired reinventions of [...]",
+   "fingerprint": "df47337b9778",
+   "id": "ev_1932fda57565",
+   "other_urls": [],
+   "rules_score": 55.0,
+   "rules_tier": "strong",
+   "start": "2026-11-20T21:00:00-08:00",
+   "title": "Paula West-A Keys Birthday Celebration!",
+   "url": "https://keysjazzbistro.com/event/paula-west-a-keys-birthday-celebration/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
    "date": "2026-11-09",
    "description": "Weston Estate at The Independent at 2026-11-09T20:00:00-0800",
    "fingerprint": "28eaf2313193",
@@ -109,6 +147,24 @@
     "intimate room: The Independent (+14)",
     "listed by a taste-aligned calendar (+12)",
     "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-12-06",
+   "description": "with genre - jazz, avant garde, experimental, acid jazz, improv | ivy room presents | ivy room presents SUNDAY DECEMBER 6TH (partially seated show) — SCOTT AMENDOLA & FRIENDS Feat. JEFF PARKER PAUL BRYAN BEN GOLDBERG PLUS VERY SPECIAL GUEST — Doors 6:00pm / Show 7:00pm Advance Tickets Available / $20 Day of Show — IVY ROOM 860 San Pablo Ave, Albany • 21+ —",
+   "fingerprint": "15af75f5538e",
+   "id": "ev_a5c8e4576462",
+   "other_urls": [],
+   "rules_score": 65.5,
+   "rules_tier": "strong",
+   "start": "2026-12-06T19:00:00-08:00",
+   "title": "Scott Amendola and Friends with Jeff Parker, Paul Bryan, Ben Goldberg, plus a very special guest",
+   "url": "https://tickets.venuepilot.com/e/scott-amendola-and-friends-with-jeff-parker-paul-bryan-ben-goldberg-plus-a-very-special-guest-2026-12-9c05a0",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "jazz_core: jazz, avant-garde, avant garde, experimental (+32)",
+    "intimate room: Ivy Room (+14)"
    ]
   },
   {
@@ -396,6 +452,25 @@
    ]
   },
   {
+   "city": "El Cerrito",
+   "date": "2026-11-20",
+   "description": "show at 8:00pm; local band Redshift combines elements of rock, downtempo electronic, lounge, groove, and ambient sounds; tickets $10",
+   "fingerprint": "6e8e33123e6c",
+   "id": "ev_275eb9d7f620",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-20T20:00:00-08:00",
+   "title": "Redshift + Big City Trees",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
    "city": "San Francisco",
    "date": "2026-12-05",
    "description": "Sonny & The Sunsets, Kelly McFarling, and Noelle and the Deserters at Bottom of the Hill at 2026-12-05T20:00:00-0800",
@@ -645,24 +720,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "Join us as one of the Bay Area's most beloved artists helps us celebrate four years at Keys! A true treasure of the Bay Area jazz scene, vocalist Paula West is celebrated for her rich contralto voice and deeply expressive interpretations of song.Her repertoire moves effortlessly from the Great American Songbook to inspired reinventions of [...]",
-   "fingerprint": "df47337b9778",
-   "id": "ev_1932fda57565",
-   "other_urls": [],
-   "rules_score": 52.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T21:00:00-08:00",
-   "title": "Paula West-A Keys Birthday Celebration!",
-   "url": "https://keysjazzbistro.com/event/paula-west-a-keys-birthday-celebration/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-11-08",
    "description": "SF Jazz Center: 4pm International Boogie Woogie Festival; 7:30pm Tierney Sutton & Tamir Hendelman Duo",
@@ -784,72 +841,6 @@
    "venue": "Ivy Room",
    "why_rules": [
     "intimate room: Ivy Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-06",
-   "description": "Bottom of the Hill: Loquat, Halou, Steilacoom",
-   "fingerprint": "47429a39ab1e",
-   "id": "ev_da2d0b28596d",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-    "http://www.bottomofthehill.com/20261106.html"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-06T20:00:00-08:00",
-   "title": "Loquat, Halou, Steilacoom",
-   "url": "https://dice.fm/event/6a702b834caba10001f6e035",
-   "venue": "Bottom of the Hill",
-   "why_rules": [
-    "intimate room: Bottom of the Hill (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Albany",
-   "date": "2026-11-07",
-   "description": "Alborosie at Ivy Room on Nov 7, 2026",
-   "fingerprint": "0e1b98bae1db",
-   "id": "ev_367f436cf230",
-   "other_urls": [
-    "https://tickets.venuepilot.com/e/alborosie-7b460b",
-    "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T20:00:00-08:00",
-   "title": "Alborosie, Shengen Clan",
-   "url": "https://www.jambase.com/show/alborosie-ivy-room-20261107",
-   "venue": "Ivy Room",
-   "why_rules": [
-    "intimate room: Ivy Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-07",
-   "description": "The Independent: Karina Rykman, Roni Kaspi",
-   "fingerprint": "9046dfc2577e",
-   "id": "ev_b86e2dee0d3b",
-   "other_urls": [
-    "https://www.theindependentsf.com/tm-event/karina-rykman/",
-    "https://apeconcerts.com/events/karina-rykman-261107/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-07T00:00:00-08:00",
-   "title": "Karina Rykman, Roni Kaspi",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
    ]
