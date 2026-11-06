@@ -1,8 +1,28 @@
 {
- "backlog": 1483,
+ "backlog": 1494,
  "count": 40,
- "generated_at": "2026-11-05T22:54:02+00:00",
+ "generated_at": "2026-11-06T07:05:48+00:00",
  "items": [
+  {
+   "city": "Nicasio",
+   "date": "2026-12-20",
+   "description": "DINNER SHOW with ZYDECO FLAMES The Zydeco Flames have gained a reputation as the West Coast's premiere Zydeco band. The Flames consistently pack the house in venues ranging from contemporary clubs to major festivals and traditional dance halls. Their sizzling roots rhythms are timeless and the execution of them relentless, with a stunningly powerful groove.",
+   "fingerprint": "fed869e9ed68",
+   "id": "ev_f8c7d9a70680",
+   "other_urls": [],
+   "rules_score": 88.0,
+   "rules_tier": "strong",
+   "start": "2026-12-20T00:00:00-08:00",
+   "title": "ZYDECO FLAMES",
+   "url": "https://ranchonicasio.com/event/zydeco-flames-6/",
+   "venue": "Rancho Nicasio",
+   "why_rules": [
+    "roots_core: zydeco (+22)",
+    "roots_adjacent: roots (+10)",
+    "theater_core: premiere (+14)",
+    "intimate room: Rancho Nicasio (+14)"
+   ]
+  },
   {
    "city": "Albany",
    "date": "2026-11-15",
@@ -832,25 +852,6 @@
     "intimate room: The Independent (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-08",
-   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
-   "fingerprint": "71ee21b37fe6",
-   "id": "ev_78f9dc38108a",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-08T16:00:00-08:00",
-   "title": "Horseshoe Jam",
-   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-08/",
-   "venue": "The Lucky Horseshoe San Francisco",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
    ]
   }
  ]
