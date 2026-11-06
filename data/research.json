@@ -253,6 +253,51 @@
   "tier": "low",
   "uncertainties": []
  },
+ "ev_08d26022b2f0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Shakedown Citi at Sweetwater Music Hall on Nov 15, 2026",
+    "url": "https://sweetwatermusichall.org/event/shakedown-citi/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "e0e0f217f354",
+  "fit": 8,
+  "performers": [
+   {
+    "known_for": "Grateful Dead tribute band",
+    "name": "Shakedown Citi",
+    "significance": "none"
+   }
+  ],
+  "reason": "Shakedown Citi is a Grateful Dead tribute band at Sweetwater in Mill Valley. Tribute act; skip.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_09cec6dc1161": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Starry Plough: Fast Jazz Night",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "183f4f58063a",
+  "fit": 35,
+  "performers": [],
+  "reason": "KALX lists a 'Fast Jazz Night' at the Starry Plough in Berkeley with no performers named. It may be a jam or a themed bill; without names there is no way to judge whether it is adventurous improvised jazz.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named in the listing; need the lineup to judge."
+  ]
+ },
  "ev_0d1d9d9c1203": {
   "evidence": [
    {
@@ -623,6 +668,57 @@
    "Freight page not checked; time and price not confirmed."
   ]
  },
+ "ev_18267766d86a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Tyler Hilton at Sweetwater Music Hall on Nov 10, 2026",
+    "url": "https://sweetwatermusichall.org/event/tyler-hilton/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "4005ed95c065",
+  "fit": 14,
+  "performers": [
+   {
+    "known_for": "pop singer-songwriter/actor (background knowledge)",
+    "name": "Tyler Hilton",
+    "significance": "none"
+   }
+  ],
+  "reason": "Tyler Hilton is a pop singer-songwriter and actor (background knowledge) playing Sweetwater in Mill Valley. Mainstream pop-rock, outside Erik's taste.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_1932fda57565": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Join us as one of the Bay Area's most beloved artists helps us celebrate four years at Keys! A true treasure of the Bay Area jazz scene, vocalist Paula West is celebrated for her rich contralto voice and deeply expressive interpretations of song.Her repertoire moves effortlessly from the Great American Songbook to inspired reinventions of [...]",
+    "url": "https://keysjazzbistro.com/event/paula-west-a-keys-birthday-celebration/"
+   }
+  ],
+  "fingerprint": "df47337b9778",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "SF jazz vocalist, Great American Songbook interpreter",
+    "name": "Paula West",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Paula West is a celebrated SF jazz vocalist with a rich contralto, known for fresh takes on the Great American Songbook, here headlining Keys Jazz Bistro's fourth-anniversary night in North Beach. A beloved Bay Area artist in a tiny room, though standards singing is more polished cabaret-jazz than the adventurous improvisation Erik favors.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Backing band not named."
+  ]
+ },
  "ev_197ea854c2eb": {
   "evidence": [
    {
@@ -910,6 +1006,26 @@
    "Identity of this Zoe Lewis is inferred from the folk-calendar listing."
   ]
  },
+ "ev_25f45bc909d5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+    "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2026-12-27/"
+   }
+  ],
+  "fingerprint": "161e14fec6f0",
+  "fit": 32,
+  "performers": [],
+  "reason": "The Marin Bluegrass Sessions is a free monthly open bluegrass jam on the Sweetwater stage for intermediate to advanced pickers, with a support band. Real bluegrass but an open-mic format with no featured artist; worth knowing about only if Erik wants to play or drop in.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Participants vary; no featured act."
+  ]
+ },
  "ev_267726303eda": {
   "evidence": [
    {
@@ -943,6 +1059,36 @@
   "uncertainties": [
    "Kuumbwa page not fetched, so price and ticket status there are unconfirmed",
    "Which show is better for him: Kuumbwa is more intimate, SFJAZZ is closer (inference)"
+  ]
+ },
+ "ev_275eb9d7f620": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: show at 8:00pm; local band Redshift combines elements of rock, downtempo electronic, lounge, groove, and ambient sounds; tickets $10",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "6e8e33123e6c",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "local rock/downtempo band",
+    "name": "Redshift",
+    "significance": "none"
+   },
+   {
+    "known_for": "local band",
+    "name": "Big City Trees",
+    "significance": "none"
+   }
+  ],
+  "reason": "Local band Redshift (rock, downtempo electronic, lounge and ambient) with Big City Trees at the Little Hill Lounge for $10. A neighborhood rock/lounge bill with no roots, jazz or hip-hop draw.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_27affeded30b": {
@@ -1053,6 +1199,31 @@
    "Date, time and Park Branch details not confirmed against an SFPL 2026 listing; the source calendar fetch failed",
    "Whether the event is free (likely for an SFPL program, inference)",
    "Which book producers will speak"
+  ]
+ },
+ "ev_2bd09dd1f5e6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Stop Light Observations at The Independent at 2026-11-11T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43251303-stop-light-observations-at-independent"
+   }
+  ],
+  "fingerprint": "78883d6e693f",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Charleston SC rock band (background knowledge)",
+    "name": "Stop Light Observations",
+    "significance": "none"
+   }
+  ],
+  "reason": "Stop Light Observations is a Charleston, SC rock band (background knowledge), with Runner and Bobby supporting, at The Independent. A young rock bill with no roots, jazz or hip-hop draw for Erik.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_2d4569d94a23": {
@@ -1458,6 +1629,26 @@
    "Date and set format not confirmed on the Freight's page."
   ]
  },
+ "ev_3684509a754e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Little Hill Lounge: Tuesday Bluesday",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "cdfdebadd970",
+  "fit": 30,
+  "performers": [],
+  "reason": "'Tuesday Bluesday' at the Little Hill Lounge in El Cerrito, per KALX, appears to be a recurring blues night with no performers named. Likely a house band or jam; needs names to judge.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named; possibly a recurring jam."
+  ]
+ },
  "ev_3787d335a134": {
   "evidence": [
    {
@@ -1500,6 +1691,26 @@
   "uncertainties": [
    "Dec 26 is the day after Christmas; the date could be skipped (inference).",
    "Cost not stated."
+  ]
+ },
+ "ev_3b2c2bdac16b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - An Evening with The Applestones: Debut Album Release Show hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday November 19th 2026. Find event information.",
+    "url": "https://events.humanitix.com/the-applestones"
+   }
+  ],
+  "fingerprint": "d432b49eb20a",
+  "fit": 40,
+  "performers": [],
+  "reason": "The Applestones play a debut album release show at The Back Room in Berkeley. I do not recognize the band and the listing gives no genre, so fit cannot be judged.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band not recognized; genre and members unknown."
   ]
  },
  "ev_3b365bf12e4a": {
@@ -3007,6 +3218,42 @@
    "Price for the November date not confirmed"
   ]
  },
+ "ev_6c48ae12a392": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Violin, viola da gamba, harpsichord music from 17-century France",
+    "url": "https://www.tickettailor.com/events/fifthstreetfarms/2480835"
+   }
+  ],
+  "fingerprint": "576e4059ae08",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "violinist",
+    "name": "David Miller",
+    "significance": "local"
+   },
+   {
+    "known_for": "viola da gamba",
+    "name": "Frederic Rosselet",
+    "significance": "local"
+   },
+   {
+    "known_for": "harpsichordist",
+    "name": "Derek Tam",
+    "significance": "local"
+   }
+  ],
+  "reason": "Violinist David Miller, gambist Frederic Rosselet and harpsichordist Derek Tam play 17th-century French chamber music at Fifth Street Farms in Berkeley, a tiny listening room. Period-instrument music up close is a rare format, but baroque chamber music sits outside Erik's stated core.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer backgrounds not verified."
+  ]
+ },
  "ev_6c992bfec563": {
   "evidence": [
    {
@@ -3136,6 +3383,71 @@
    "Rules flag 'musical' is a false positive; this is not musical theater"
   ]
  },
+ "ev_6fbd3d0e662d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Jinx Jones, guitar; Kenan O'Brien, bass; Ken Owen, drums",
+    "url": "https://birdbeckett.com/event/jinx-jones-jazz-trio/"
+   }
+  ],
+  "fingerprint": "44b34ca299ad",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "SF rockabilly/surf/jazz guitarist (background knowledge)",
+    "name": "Jinx Jones",
+    "significance": "local"
+   },
+   {
+    "known_for": "bass",
+    "name": "Kenan O'Brien",
+    "significance": "local"
+   },
+   {
+    "known_for": "drums",
+    "name": "Ken Owen",
+    "significance": "local"
+   }
+  ],
+  "reason": "SF guitarist Jinx Jones, best known for rockabilly and surf with the KingTones (background knowledge), leads a jazz guitar trio with Kenan O'Brien on bass and Ken Owen on drums at Bird & Beckett. A friendly bookstore room and a good guitarist, though likely swinging standards rather than adventurous improvisation.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_7003efcb76b0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Jeffrey Martin at Sweetwater Music Hall on Nov 11, 2026",
+    "url": "https://sweetwatermusichall.org/event/jeffrey-martin-with-sam-weber/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "7a3488825e60",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Oregon contemporary folk songwriter (background knowledge)",
+    "name": "Jeffrey Martin",
+    "significance": "notable"
+   },
+   {
+    "known_for": "singer-songwriter",
+    "name": "Sam Weber",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jeffrey Martin is a widely respected Oregon folk songwriter with spare, literate songs (background knowledge), with Sam Weber opening at Sweetwater. Quiet contemporary folk with real emotional weight, though singer-songwriter rather than traditional or psych-folk, and in Mill Valley.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_734039646e89": {
   "evidence": [
    {
@@ -3203,6 +3515,37 @@
    "CBA band page includes John Reischman; the 2026 tour listing names Max Schwartz and Nell Robinson instead, so Reischman is probably not on this run (inference).",
    "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale.",
    "Date conflict: Nov 11 (Bluegrass Signal, Bill Evans) vs Nov 18 (CBA page, likely 2025)."
+  ]
+ },
+ "ev_73b5e3ec19ae": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Danny Paul Grody Duo | (((folkYEAH!))) Presents and KALW Welcomes",
+    "url": "https://wl.seetickets.us/event/john-carroll-kirby/700565?afflky=TheChapel"
+   }
+  ],
+  "fingerprint": "416d5a5fc4e4",
+  "fit": 66,
+  "performers": [
+   {
+    "known_for": "LA keyboardist/producer, ambient spiritual jazz (background knowledge)",
+    "name": "John Carroll Kirby",
+    "significance": "notable"
+   },
+   {
+    "known_for": "SF guitarist, ex-Tarentel, fingerstyle/ambient (background knowledge)",
+    "name": "Danny Paul Grody",
+    "significance": "local"
+   }
+  ],
+  "reason": "John Carroll Kirby is an LA keyboardist and producer (background knowledge: Stones Throw records, sideman/producer for Solange and Frank Ocean) who makes lush, exotica-tinged spiritual jazz, here with SF guitarist Danny Paul Grody's duo opening. A folkYEAH! booking at The Chapel, so a curated, adventurous night, though Kirby leans ambient and groove more than raw improvisation.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Whether Kirby plays solo or with a band is not stated."
   ]
  },
  "ev_74050a3940bd": {
@@ -3511,6 +3854,26 @@
    "Solo or with band not stated"
   ]
  },
+ "ev_7b5b2d740465": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hillside Club: The Sharp String Quartet",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "67a64918c6ee",
+  "fit": 35,
+  "performers": [],
+  "reason": "KALX lists The Sharp String Quartet at Berkeley's Hillside Club with no description. I do not recognize the group, so cannot tell whether this is classical chamber music or a string band.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Group not recognized; genre and personnel unknown."
+  ]
+ },
  "ev_7b9779f74a25": {
   "evidence": [
    {
@@ -3549,6 +3912,38 @@
   "uncertainties": [
    "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_7bad9b1aecb1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Ashkenaz: Alasdair Fraser Band",
+    "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   }
+  ],
+  "fingerprint": "0a0c2564d0ab",
+  "fit": 82,
+  "performers": [
+   {
+    "known_for": "Scottish fiddler, Skyedance, Valley of the Moon fiddle camp (background knowledge)",
+    "name": "Alasdair Fraser",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "billed with Alasdair; relationship not verified",
+    "name": "Cameron Fraser",
+    "significance": "none"
+   }
+  ],
+  "reason": "Alasdair Fraser, the master Scottish fiddler behind Skyedance, his duo with cellist Natalie Haas and the Valley of the Moon fiddle school, plays Ashkenaz in Berkeley tonight (Fri 6 Nov). Background knowledge: Fraser is a foundational figure in the Scottish and California fiddle revival, and Ashkenaz is a dance-hall setting that suits his music; a top fiddle-tradition show close to Oakland.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listings disagree: KALX says 'Alasdair Fraser Band', SFFMC calendar says 'Alasdair Fraser & Cameron Fraser'.",
+   "Show is tonight; may be too late to act on."
   ]
  },
  "ev_7c348009c91a": {
@@ -4715,6 +5110,36 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_9bccde609469": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weston Estate at The Independent at 2026-11-09T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43411479-weston-estate-at-independent"
+   }
+  ],
+  "fingerprint": "28eaf2313193",
+  "fit": 12,
+  "performers": [
+   {
+    "known_for": "indie pop/R&B band (background knowledge)",
+    "name": "Weston Estate",
+    "significance": "none"
+   },
+   {
+    "known_for": "R&B singer-songwriter (background knowledge)",
+    "name": "Hojean",
+    "significance": "none"
+   }
+  ],
+  "reason": "Weston Estate is a young indie-pop/R&B band, with R&B singer Hojean opening, at The Independent. Pop-leaning bill outside Erik's roots, jazz, classic hip-hop and theater interests.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_9bfb916bb18e": {
   "evidence": [
    {
@@ -4906,6 +5331,47 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Content unknown."
+  ]
+ },
+ "ev_a5c8e4576462": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with genre - jazz, avant garde, experimental, acid jazz, improv | ivy room presents | ivy room presents SUNDAY DECEMBER 6TH (partially seated show) — SCOTT AMENDOLA & FRIENDS Feat. JEFF PARKER PAUL BRYAN BEN GOLDBERG PLUS VERY SPECIAL GUEST — Doors 6:00pm / Show 7:00pm Advance Tickets Available / $20 Day of Show — IVY ROOM 860 San Pablo Ave, Albany • 21+ —",
+    "url": "https://tickets.venuepilot.com/e/scott-amendola-and-friends-with-jeff-parker-paul-bryan-ben-goldberg-plus-a-very-special-guest-2026-12-9c05a0"
+   }
+  ],
+  "fingerprint": "15af75f5538e",
+  "fit": 88,
+  "performers": [
+   {
+    "known_for": "Bay Area drummer, Nels Cline Singers, bandleader (background knowledge)",
+    "name": "Scott Amendola",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Tortoise guitarist, International Anthem solo/ETA IVtet (background knowledge)",
+    "name": "Jeff Parker",
+    "significance": "major"
+   },
+   {
+    "known_for": "LA bassist/producer (background knowledge)",
+    "name": "Paul Bryan",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bay Area clarinetist, avant-jazz/klezmer (background knowledge)",
+    "name": "Ben Goldberg",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Bay Area drummer Scott Amendola leads an all-star improvising band with Chicago/LA guitarist Jeff Parker (Tortoise, International Anthem, ETA IVtet), bassist-producer Paul Bryan and clarinetist Ben Goldberg, plus an unnamed special guest, at the Ivy Room for $20. Background knowledge: Amendola (Nels Cline Singers) and Goldberg are pillars of the Bay creative-jazz scene, and Parker is one of the most acclaimed guitarists in adventurous jazz today, so this is exactly the emotionally compelling, improvised music in a small room that Erik looks for. Partially seated, close to Oakland in Albany.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "exceptional",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Special guest unnamed."
   ]
  },
  "ev_a6a480508d3b": {
@@ -5157,6 +5623,33 @@
    "'tribute'/'musical' rules hits are false positives."
   ]
  },
+ "ev_b01b74323a2e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: KRS-One at Yoshi's at 2026-11-13T21:30:00-0800",
+    "url": "https://www.songkick.com/concerts/43336839-krsone-at-yoshis"
+   }
+  ],
+  "fingerprint": "bd99bde7ff18",
+  "fit": 88,
+  "performers": [
+   {
+    "known_for": "Boogie Down Productions; 'The Teacha', golden-age hip-hop pioneer (background knowledge)",
+    "name": "KRS-One",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "KRS-One, founder of Boogie Down Productions and one of the foundational MCs of golden-age hip-hop, plays Yoshi's in Oakland, a seated supper-club room far smaller than his usual venues. This is a seed artist in an intimate local room, very much in the spirit of the Talib Kweli show at the Freight that Erik enjoyed. Background knowledge: KRS-One tours regularly, so it is not a once-in-a-lifetime date, but rarely in a room this close.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "exceptional",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Set length and whether a DJ or live band backs him not known.",
+   "Late 9:30pm show per listing."
+  ]
+ },
  "ev_b025cd98bb00": {
   "evidence": [
    {
@@ -5397,6 +5890,36 @@
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_b48fb4ff7812": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Josh Rouse at Sweetwater Music Hall on Nov 19, 2026",
+    "url": "https://sweetwatermusichall.org/event/josh-rouse-with-mary-bragg/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "7e39a4058c2d",
+  "fit": 42,
+  "performers": [
+   {
+    "known_for": "indie folk-pop singer-songwriter (background knowledge)",
+    "name": "Josh Rouse",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Nashville-based songwriter (background knowledge)",
+    "name": "Mary Bragg",
+    "significance": "none"
+   }
+  ],
+  "reason": "Josh Rouse is a veteran indie singer-songwriter with a gentle folk-pop sound (background knowledge), with Georgia songwriter Mary Bragg opening at Sweetwater in Mill Valley. Pleasant songcraft but polished folk-pop rather than traditional, psychedelic or countercultural folk, and a Marin drive.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
@@ -5703,6 +6226,36 @@
    "Quartet personnel not confirmed.",
    "SFJAZZ dates not confirmed; could be the same tour.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_bfb419066580": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with genre - rock | ivy room presents | IVY ROOM PRESENTS SUNDAY NOVEMBER 15TH — UROMASTYX SPIDER GARAGE SUNFLOWER Food by VEGAN MOB 5pm doors / 6pm show ADVANCE TICKETS AVAILABLE — IVY ROOM 860 San Pablo Avenue, Albany • 21+ — UROMASTYX — Uromastyx is an alternative rock band hailing from Berkeley California. Founded in 2009 by Jon Moses Schickman. SPIDER GARAGE — Spider Garage is an East Bay Roc",
+    "url": "https://tickets.venuepilot.com/e/uromastyx-2026-11-15-ivy-room-albany-f17329"
+   }
+  ],
+  "fingerprint": "075eba75a3b4",
+  "fit": 14,
+  "performers": [
+   {
+    "known_for": "Berkeley alternative rock band founded 2009",
+    "name": "Uromastyx",
+    "significance": "local"
+   },
+   {
+    "known_for": "East Bay rock band",
+    "name": "Spider Garage",
+    "significance": "local"
+   }
+  ],
+  "reason": "Three local alternative/garage rock bands (Uromastyx, Spider Garage, SourFlower) on a Sunday bill at the Ivy Room with vegan food. Nothing here touches roots, jazz or hip-hop; the 'roots' rules match comes from listing boilerplate.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_c0fbd41076a8": {
@@ -6402,6 +6955,62 @@
    "Aggregator shows both Nov 6 and Nov 7."
   ]
  },
+ "ev_d6e6dceb428e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Smithereens at Sweetwater Music Hall on Nov 13, 2026",
+    "url": "https://sweetwatermusichall.org/event/the-smithereens/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "ab66d2c4668c",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "NJ power-pop band (background knowledge)",
+    "name": "The Smithereens",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Smithereens, the New Jersey power-pop band behind 'Blood and Roses', play Sweetwater in Mill Valley; background knowledge: since singer Pat DiNizio died in 2017 they tour with guest vocalists. Nostalgic power-pop, outside Erik's taste.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Guest vocalist for this date unknown."
+  ]
+ },
+ "ev_d9245ffc5de8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weston Estate at The Independent at 2026-11-10T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43371799-weston-estate-at-independent"
+   }
+  ],
+  "fingerprint": "0402c893102f",
+  "fit": 12,
+  "performers": [
+   {
+    "known_for": "indie pop/R&B band (background knowledge)",
+    "name": "Weston Estate",
+    "significance": "none"
+   },
+   {
+    "known_for": "R&B singer-songwriter (background knowledge)",
+    "name": "Hojean",
+    "significance": "none"
+   }
+  ],
+  "reason": "Second night of Weston Estate with Hojean at The Independent, a young indie-pop/R&B bill. Outside Erik's taste.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_d946264d0390": {
   "evidence": [
    {
@@ -6518,6 +7127,41 @@
   "uncertainties": [
    "Ticket page says door sales only 'if the show is not sold out'; no current availability stated",
    "Rhythm section differs from the 2022 article lineup"
+  ]
+ },
+ "ev_db01029096d1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Sonny & The Sunsets, Kelly McFarling, and Noelle and the Deserters at Bottom of the Hill at 2026-12-05T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43372437-sonny-and-the-sunsets-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "bc93ca9b8b9d",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "SF songwriter/artist, Sonny & The Sunsets (background knowledge)",
+    "name": "Sonny Smith",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area folk singer-songwriter (background knowledge)",
+    "name": "Kelly McFarling",
+    "significance": "local"
+   },
+   {
+    "known_for": "band",
+    "name": "Noelle and the Deserters",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sonny & The Sunsets is SF songwriter and artist Sonny Smith's long-running band, playing shaggy garage-folk and country with a countercultural, art-project streak (background knowledge: 100 Records, Polyvinyl), with Bay Area folk singer Kelly McFarling and Noelle and the Deserters at Bottom of the Hill. A good local scene bill in a small room, adjacent to the outsider-folk side of Erik's taste.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_dc3727b15aae": {
@@ -6949,6 +7593,31 @@
   "ticket_status": "unverified",
   "tier": "strong",
   "uncertainties": []
+ },
+ "ev_e5eb3f84ece0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (((folkYEAH!))) Presents",
+    "url": "https://wl.seetickets.us/event/an-evening-with-craig-finn-and-the-band-of-forgiveness/695580?afflky=TheChapel"
+   }
+  ],
+  "fingerprint": "07a97e2aab7a",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "The Hold Steady frontman, narrative songwriter (background knowledge)",
+    "name": "Craig Finn",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Craig Finn, frontman of The Hold Steady, plays a full-band evening with his Band of Forgiveness at The Chapel, presented by folkYEAH!. Literate, story-driven heartland rock (background knowledge), adjacent to Americana but not roots music in Erik's sense.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
  },
  "ev_e61ea4228006": {
   "evidence": [
@@ -7683,6 +8352,33 @@
   "uncertainties": [
    "No independent coverage of the trio found",
    "Repertoire (originals vs traditional) not stated"
+  ]
+ },
+ "ev_f8c7d9a70680": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: DINNER SHOW with ZYDECO FLAMES The Zydeco Flames have gained a reputation as the West Coast's premiere Zydeco band. The Flames consistently pack the house in venues ranging from contemporary clubs to major festivals and traditional dance halls. Their sizzling roots rhythms are timeless and the execution of them relentless, with a stunningly powerful groove.",
+    "url": "https://ranchonicasio.com/event/zydeco-flames-6/"
+   }
+  ],
+  "fingerprint": "fed869e9ed68",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "Bay Area zydeco dance band (background knowledge)",
+    "name": "Zydeco Flames",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Zydeco Flames are a long-running Bay Area zydeco dance band, billed by the venue as the West Coast's premier zydeco band, playing a dinner show at Rancho Nicasio. Real roots dance music in a small roadhouse, but a local working band rather than a foundational Louisiana act, and Nicasio is a long drive from Oakland. The rules 'premiere' theater match is a false positive from the word 'premiere'.",
+  "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Rules theater match on 'premiere' is spurious.",
+   "Long drive to West Marin."
   ]
  },
  "ev_fa05be557668": {
