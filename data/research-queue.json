@@ -1,542 +1,8 @@
 {
- "backlog": 1466,
+ "backlog": 1443,
  "count": 40,
- "generated_at": "2026-11-06T19:39:13+00:00",
+ "generated_at": "2026-11-06T22:46:47+00:00",
  "items": [
-  {
-   "city": "Nicasio",
-   "date": "2026-12-20",
-   "description": "DINNER SHOW with ZYDECO FLAMES The Zydeco Flames have gained a reputation as the West Coast's premiere Zydeco band. The Flames consistently pack the house in venues ranging from contemporary clubs to major festivals and traditional dance halls. Their sizzling roots rhythms are timeless and the execution of them relentless, with a stunningly powerful groove.",
-   "fingerprint": "fed869e9ed68",
-   "id": "ev_f8c7d9a70680",
-   "other_urls": [],
-   "rules_score": 88.0,
-   "rules_tier": "strong",
-   "start": "2026-12-20T00:00:00-08:00",
-   "title": "ZYDECO FLAMES",
-   "url": "https://ranchonicasio.com/event/zydeco-flames-6/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_core: zydeco (+22)",
-    "roots_adjacent: roots (+10)",
-    "theater_core: premiere (+14)",
-    "intimate room: Rancho Nicasio (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-18",
-   "description": "with Danny Paul Grody Duo | (((folkYEAH!))) Presents and KALW Welcomes",
-   "fingerprint": "416d5a5fc4e4",
-   "id": "ev_73b5e3ec19ae",
-   "other_urls": [],
-   "rules_score": 68.0,
-   "rules_tier": "strong",
-   "start": "2026-11-18T20:00:00-08:00",
-   "title": "John Carroll Kirby",
-   "url": "https://wl.seetickets.us/event/john-carroll-kirby/700565?afflky=TheChapel",
-   "venue": "The Chapel",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: duo (+5)",
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)"
-   ]
-  },
-  {
-   "city": "Albany",
-   "date": "2026-11-15",
-   "description": "with genre - rock | ivy room presents | IVY ROOM PRESENTS SUNDAY NOVEMBER 15TH — UROMASTYX SPIDER GARAGE SUNFLOWER Food by VEGAN MOB 5pm doors / 6pm show ADVANCE TICKETS AVAILABLE — IVY ROOM 860 San Pablo Avenue, Albany • 21+ — UROMASTYX — Uromastyx is an alternative rock band hailing from Berkeley California. Founded in 2009 by Jon Moses Schickman. SPIDER GARAGE — Spider Garage is an East Bay Roc",
-   "fingerprint": "075eba75a3b4",
-   "id": "ev_bfb419066580",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 63.0,
-   "rules_tier": "strong",
-   "start": "2026-11-15T18:00:00-08:00",
-   "title": "Uromastyx + Spider Garage + SourFlower - Food by VEGAN MOB",
-   "url": "https://tickets.venuepilot.com/e/uromastyx-2026-11-15-ivy-room-albany-f17329",
-   "venue": "Ivy Room",
-   "why_rules": [
-    "roots_adjacent: roots (+10)",
-    "intimate room: Ivy Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-13",
-   "description": "KRS-One at Yoshi's at 2026-11-13T21:30:00-0800",
-   "fingerprint": "bd99bde7ff18",
-   "id": "ev_b01b74323a2e",
-   "other_urls": [
-    "https://www.jambase.com/show/krs-one-yoshis-20261113",
-    "https://yoshis.com/events/buy-tickets/krs-one-2/detail",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 77.0,
-   "rules_tier": "strong",
-   "start": "2026-11-13T21:30:00-08:00",
-   "title": "KRS-One",
-   "url": "https://www.songkick.com/concerts/43336839-krsone-at-yoshis",
-   "venue": "Yoshi's Oakland",
-   "why_rules": [
-    "seed artist: KRS-One (+30)",
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-14",
-   "description": "The Starry Plough: Fast Jazz Night",
-   "fingerprint": "183f4f58063a",
-   "id": "ev_09cec6dc1161",
-   "other_urls": [],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-11-14T00:00:00-08:00",
-   "title": "Fast Jazz Night",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "The Starry Plough",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: The Starry Plough (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "Join us as one of the Bay Area's most beloved artists helps us celebrate four years at Keys! A true treasure of the Bay Area jazz scene, vocalist Paula West is celebrated for her rich contralto voice and deeply expressive interpretations of song.Her repertoire moves effortlessly from the Great American Songbook to inspired reinventions of [...]",
-   "fingerprint": "df47337b9778",
-   "id": "ev_1932fda57565",
-   "other_urls": [],
-   "rules_score": 55.0,
-   "rules_tier": "strong",
-   "start": "2026-11-20T21:00:00-08:00",
-   "title": "Paula West-A Keys Birthday Celebration!",
-   "url": "https://keysjazzbistro.com/event/paula-west-a-keys-birthday-celebration/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-09",
-   "description": "Weston Estate at The Independent at 2026-11-09T20:00:00-0800",
-   "fingerprint": "28eaf2313193",
-   "id": "ev_9bccde609469",
-   "other_urls": [
-    "https://www.theindependentsf.com/tm-event/weston-estate-2/",
-    "https://apeconcerts.com/events/weston-estate-261109/",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-11-09T20:00:00-08:00",
-   "title": "Weston Estate, Hojean",
-   "url": "https://www.songkick.com/concerts/43411479-weston-estate-at-independent",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Albany",
-   "date": "2026-12-06",
-   "description": "with genre - jazz, avant garde, experimental, acid jazz, improv | ivy room presents | ivy room presents SUNDAY DECEMBER 6TH (partially seated show) — SCOTT AMENDOLA & FRIENDS Feat. JEFF PARKER PAUL BRYAN BEN GOLDBERG PLUS VERY SPECIAL GUEST — Doors 6:00pm / Show 7:00pm Advance Tickets Available / $20 Day of Show — IVY ROOM 860 San Pablo Ave, Albany • 21+ —",
-   "fingerprint": "15af75f5538e",
-   "id": "ev_a5c8e4576462",
-   "other_urls": [],
-   "rules_score": 65.5,
-   "rules_tier": "strong",
-   "start": "2026-12-06T19:00:00-08:00",
-   "title": "Scott Amendola and Friends with Jeff Parker, Paul Bryan, Ben Goldberg, plus a very special guest",
-   "url": "https://tickets.venuepilot.com/e/scott-amendola-and-friends-with-jeff-parker-paul-bryan-ben-goldberg-plus-a-very-special-guest-2026-12-9c05a0",
-   "venue": "Ivy Room",
-   "why_rules": [
-    "jazz_core: jazz, avant-garde, avant garde, experimental (+32)",
-    "intimate room: Ivy Room (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-10",
-   "description": "Weston Estate at The Independent at 2026-11-10T20:00:00-0800",
-   "fingerprint": "0402c893102f",
-   "id": "ev_d9245ffc5de8",
-   "other_urls": [
-    "https://www.theindependentsf.com/tm-event/weston-estate/",
-    "https://apeconcerts.com/events/weston-estate-261110/",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-11-10T20:00:00-08:00",
-   "title": "Weston Estate, Hojean",
-   "url": "https://www.songkick.com/concerts/43371799-weston-estate-at-independent",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-11",
-   "description": "Stop Light Observations at The Independent at 2026-11-11T20:00:00-0800",
-   "fingerprint": "78883d6e693f",
-   "id": "ev_2bd09dd1f5e6",
-   "other_urls": [
-    "https://www.theindependentsf.com/tm-event/stop-light-observation/",
-    "https://apeconcerts.com/events/stop-light-observations-261111/",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-11-11T20:00:00-08:00",
-   "title": "Stop Light Observation, Runner and Bobby",
-   "url": "https://www.songkick.com/concerts/43251303-stop-light-observations-at-independent",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-11-19",
-   "description": "Josh Rouse at Sweetwater Music Hall on Nov 19, 2026",
-   "fingerprint": "7e39a4058c2d",
-   "id": "ev_b48fb4ff7812",
-   "other_urls": [
-    "https://www.jambase.com/show/josh-rouse-sweetwater-music-hall-20261119",
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-11-19T20:00:00-08:00",
-   "title": "Josh Rouse with Mary Bragg",
-   "url": "https://sweetwatermusichall.org/event/josh-rouse-with-mary-bragg/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+14)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-09",
-   "description": "Hillside Club: The Sharp String Quartet",
-   "fingerprint": "67a64918c6ee",
-   "id": "ev_7b5b2d740465",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-09T00:00:00-08:00",
-   "title": "The Sharp String Quartet",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Hillside Club",
-   "why_rules": [
-    "intimate room: Hillside Club (+14)",
-    "booking signal: Hillside Club (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-15",
-   "description": "(((folkYEAH!))) Presents",
-   "fingerprint": "07a97e2aab7a",
-   "id": "ev_e5eb3f84ece0",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-11-15T20:00:00-08:00",
-   "title": "Craig Finn & The Band Of Forgiveness",
-   "url": "https://wl.seetickets.us/event/an-evening-with-craig-finn-and-the-band-of-forgiveness/695580?afflky=TheChapel",
-   "venue": "The Chapel",
-   "why_rules": [
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-11-10",
-   "description": "Tyler Hilton at Sweetwater Music Hall on Nov 10, 2026",
-   "fingerprint": "4005ed95c065",
-   "id": "ev_18267766d86a",
-   "other_urls": [
-    "https://www.jambase.com/show/tyler-hilton-sweetwater-music-hall-20261110",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-10T20:00:00-08:00",
-   "title": "Tyler Hilton",
-   "url": "https://sweetwatermusichall.org/event/tyler-hilton/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-10",
-   "description": "Little Hill Lounge: Tuesday Bluesday",
-   "fingerprint": "cdfdebadd970",
-   "id": "ev_3684509a754e",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-10T00:00:00-08:00",
-   "title": "Tuesday Bluesday",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-11-11",
-   "description": "Jeffrey Martin at Sweetwater Music Hall on Nov 11, 2026",
-   "fingerprint": "7a3488825e60",
-   "id": "ev_7003efcb76b0",
-   "other_urls": [
-    "https://www.jambase.com/show/jeffrey-martin-sweetwater-music-hall-20261111",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-11T20:00:00-08:00",
-   "title": "Jeffrey Martin, Sam Weber",
-   "url": "https://sweetwatermusichall.org/event/jeffrey-martin-with-sam-weber/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2027-01-23",
-   "description": "Violin, viola da gamba, harpsichord music from 17-century France",
-   "fingerprint": "576e4059ae08",
-   "id": "ev_6c48ae12a392",
-   "other_urls": [
-    "https://www.tickettailor.com/events/fifthstreetfarms",
-    "https://www.tickettailor.com/events/fifthstreetfarms"
-   ],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2027-01-23T19:00:00-08:00",
-   "title": "David Miller, Frederic Rosselet, Derek Tam--17th-century French chamber music",
-   "url": "https://www.tickettailor.com/events/fifthstreetfarms/2480835",
-   "venue": "Fifth Street Farms",
-   "why_rules": [
-    "intimate room: Fifth Street Farms (+14)",
-    "booking signal: Fifth Street Farms (+8)",
-    "listed by a taste-aligned calendar (+10)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-29",
-   "description": "Jinx Jones, guitar; Kenan O'Brien, bass; Ken Owen, drums",
-   "fingerprint": "44b34ca299ad",
-   "id": "ev_6fbd3d0e662d",
-   "other_urls": [],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2027-01-29T19:30:00-08:00",
-   "title": "Jinx Jones Jazz Trio",
-   "url": "https://birdbeckett.com/event/jinx-jones-jazz-trio/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-06",
-   "description": "Ashkenaz: Alasdair Fraser Band",
-   "fingerprint": "0a0c2564d0ab",
-   "id": "ev_7bad9b1aecb1",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/",
-    "https://tickets.venuepilot.com/e/alasdair-fraser-2026-11-06-ashkenaz-music-dance-community-center-berkeley-b10afb"
-   ],
-   "rules_score": 59.0,
-   "rules_tier": "strong",
-   "start": "2026-11-06T00:00:00-08:00",
-   "title": "Alasdair Fraser & Cameron Fraser",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Ashkenaz",
-   "why_rules": [
-    "intimate room: Ashkenaz (+14)",
-    "listed by a taste-aligned calendar (+14)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-19",
-   "description": "Buy Tickets on Humanitix - An Evening with The Applestones: Debut Album Release Show hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday November 19th 2026. Find event information.",
-   "fingerprint": "d432b49eb20a",
-   "id": "ev_3b2c2bdac16b",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T20:00:00-08:00",
-   "title": "An Evening with The Applestones: Debut Album Release Show",
-   "url": "https://events.humanitix.com/the-applestones",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-11-13",
-   "description": "The Smithereens at Sweetwater Music Hall on Nov 13, 2026",
-   "fingerprint": "ab66d2c4668c",
-   "id": "ev_d6e6dceb428e",
-   "other_urls": [
-    "https://www.jambase.com/show/the-smithereens-sweetwater-music-hall-20261113",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-13T20:00:00-08:00",
-   "title": "The Smithereens",
-   "url": "https://sweetwatermusichall.org/event/the-smithereens/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-20",
-   "description": "show at 8:00pm; local band Redshift combines elements of rock, downtempo electronic, lounge, groove, and ambient sounds; tickets $10",
-   "fingerprint": "6e8e33123e6c",
-   "id": "ev_275eb9d7f620",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T20:00:00-08:00",
-   "title": "Redshift + Big City Trees",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-05",
-   "description": "Sonny & The Sunsets, Kelly McFarling, and Noelle and the Deserters at Bottom of the Hill at 2026-12-05T20:00:00-0800",
-   "fingerprint": "bc93ca9b8b9d",
-   "id": "ev_db01029096d1",
-   "other_urls": [
-    "http://www.bottomofthehill.com/20261205.html",
-    "https://www.hickswithsticks.com/calendar/",
-    "https://www.hickswithsticks.com/calendar/",
-    "https://dice.fm/event/6a7aa099463dd900017a623f"
-   ],
-   "rules_score": 63.5,
-   "rules_tier": "strong",
-   "start": "2026-12-05T20:00:00-08:00",
-   "title": "Sonny & The Sunsets",
-   "url": "https://www.songkick.com/concerts/43372437-sonny-and-the-sunsets-at-bottom-of-the-hill",
-   "venue": "Bottom of the Hill",
-   "why_rules": [
-    "roots_adjacent: folk, americana, country, honky tonk (+18)",
-    "intimate room: Bottom of the Hill (+14)",
-    "5 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-11-15",
-   "description": "Shakedown Citi at Sweetwater Music Hall on Nov 15, 2026",
-   "fingerprint": "e0e0f217f354",
-   "id": "ev_08d26022b2f0",
-   "other_urls": [
-    "https://www.jambase.com/show/shakedown-citi-sweetwater-music-hall-20261115",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-11-15T20:00:00-08:00",
-   "title": "Shakedown Citi (Grateful Dead Tribute)",
-   "url": "https://sweetwatermusichall.org/event/shakedown-citi/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-12-27",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "161e14fec6f0",
-   "id": "ev_25f45bc909d5",
-   "other_urls": [],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2026-12-27T12:00:00-08:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2026-12-27/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
   {
    "city": "",
    "date": "2026-11-15",
@@ -843,6 +309,525 @@
     "intimate room: Ivy Room (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-06",
+   "description": "Bottom of the Hill: Loquat, Halou, Steilacoom",
+   "fingerprint": "47429a39ab1e",
+   "id": "ev_da2d0b28596d",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "http://www.bottomofthehill.com/20261106.html"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-06T20:00:00-08:00",
+   "title": "Loquat, Halou, Steilacoom",
+   "url": "https://dice.fm/event/6a702b834caba10001f6e035",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "intimate room: Bottom of the Hill (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-07",
+   "description": "Alborosie at Ivy Room on Nov 7, 2026",
+   "fingerprint": "0e1b98bae1db",
+   "id": "ev_367f436cf230",
+   "other_urls": [
+    "https://tickets.venuepilot.com/e/alborosie-7b460b",
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-07T20:00:00-08:00",
+   "title": "Alborosie, Shengen Clan",
+   "url": "https://www.jambase.com/show/alborosie-ivy-room-20261107",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-07",
+   "description": "The Independent: Karina Rykman, Roni Kaspi",
+   "fingerprint": "9046dfc2577e",
+   "id": "ev_b86e2dee0d3b",
+   "other_urls": [
+    "https://www.theindependentsf.com/tm-event/karina-rykman/",
+    "https://apeconcerts.com/events/karina-rykman-261107/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-07T00:00:00-08:00",
+   "title": "Karina Rykman, Roni Kaspi",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-08",
+   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+   "fingerprint": "71ee21b37fe6",
+   "id": "ev_78f9dc38108a",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-08T16:00:00-08:00",
+   "title": "Horseshoe Jam",
+   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-08/",
+   "venue": "The Lucky Horseshoe San Francisco",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-14",
+   "description": "Rexx Life Raj at The UC Theatre on Nov 14, 2026",
+   "fingerprint": "092ed2a39388",
+   "id": "ev_e382583dd4e1",
+   "other_urls": [
+    "https://www.theuctheatre.org/shows/rexx-life-raj-14-nov",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 58.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T20:00:00-08:00",
+   "title": "Rexx Life Raj - Father Figure 10 Year Anniversary",
+   "url": "https://www.jambase.com/show/rexx-life-raj-the-uc-theatre-20261114",
+   "venue": "The UC Theatre",
+   "why_rules": [
+    "hiphop_classic: hip hop, hip-hop (+15)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-28",
+   "description": "Ladies and Gentlemen, introducing Fog City Swing! The bay area's newest and hottest jazz and swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. Enjoy an evening of swing, hard bop, and even some classic pop favorites performed only the way they can! This [...]",
+   "fingerprint": "9e993cdb6801",
+   "id": "ev_2c5dae829b62",
+   "other_urls": [],
+   "rules_score": 52.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T21:00:00-08:00",
+   "title": "Fog City Swing",
+   "url": "https://keysjazzbistro.com/event/fog-city-swing-13/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-28",
+   "description": "(7pm show only) Lavay Smith & Her Red Hot Skillet Lickers have performed at many of the top festivals and concert venues in the US, Europe, Japan and Canada. They have headlined at Jazz At Lincoln Center on New Year's Eve, and were featured at the official Oscars after-party in Hollywood. Performing classics and obscure [...]",
+   "fingerprint": "b31f42ab7ec4",
+   "id": "ev_b88bcb313218",
+   "other_urls": [],
+   "rules_score": 52.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T19:00:00-08:00",
+   "title": "Lavay Smith & Her Red Hot Skillet Lickers",
+   "url": "https://keysjazzbistro.com/event/lavay-smith-her-red-hot-skillet-lickers-20/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-11",
+   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+   "fingerprint": "b53e8b30ac95",
+   "id": "ev_22fa154f8fe1",
+   "other_urls": [
+    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-11-11/",
+    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-11-11/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-11T18:00:00-08:00",
+   "title": "Wednesday East Bay Bluegrassers Jam",
+   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-11-11/",
+   "venue": "Rockin Robbies – El Cerrito",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Petaluma",
+   "date": "2027-01-04",
+   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
+   "fingerprint": "300f85ff984f",
+   "id": "ev_313eeb115be8",
+   "other_urls": [],
+   "rules_score": 71.0,
+   "rules_tier": "strong",
+   "start": "2027-01-04T18:00:00-08:00",
+   "title": "Garage Jam",
+   "url": "https://californiabluegrass.org/event/garage-jam/2027-01-04/",
+   "venue": "Out West Garage",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "roots_adjacent: folk (+10)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-12",
+   "description": "The Self Titled Tour | Please note – there is a delivery delay set for 2 weeks prior to show. VIP ticket will include: (1) admission ticket for the show, Read More",
+   "fingerprint": "b6a629e6e69e",
+   "id": "ev_1f31486c43b2",
+   "other_urls": [
+    "https://apeconcerts.com/events/stephen-day-261112/",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-12T20:00:00-08:00",
+   "title": "Stephen Day, Elysia Biro",
+   "url": "https://www.theindependentsf.com/tm-event/stephen-day/",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-06",
+   "description": "Nov. 6: Laurie Lewis & Nina Gerber - The Side Door, Sacramento",
+   "fingerprint": "a266f70591a2",
+   "id": "ev_606fcdc08070",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 79.0,
+   "rules_tier": "exceptional",
+   "start": "2026-11-06T00:00:00-08:00",
+   "title": "Laurie Lewis & Nina Gerber",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "The Side Door, Sacramento",
+   "why_rules": [
+    "seed artist: Laurie Lewis (+30)",
+    "listed by a taste-aligned calendar (+18)",
+    "3 independent sources (+8)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2027-03-19",
+   "description": "Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover",
+   "fingerprint": "502b27d70410",
+   "id": "ev_64261a706cee",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2027-03-19T20:30:00-07:00",
+   "title": "Asanabenche",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "Please note – there is a delivery delay set for 2 weeks prior to show. Artist Presale: 8/19 at 10am",
+   "fingerprint": "72024759087f",
+   "id": "ev_5e2e372857e3",
+   "other_urls": [
+    "https://apeconcerts.com/events/whitmer-thomas-261113/",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Whitmer Thomas, Clay Tatum",
+   "url": "https://www.theindependentsf.com/tm-event/whitmer-thomas/",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Bottom of the Hill: The Avengers, Pansy Division, Damage Party",
+   "fingerprint": "9e40506ad410",
+   "id": "ev_08e473f9e4de",
+   "other_urls": [
+    "http://www.bottomofthehill.com/20261114.html",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T20:30:00-08:00",
+   "title": "The Avengers, Pansy Division, Damage Party",
+   "url": "https://dice.fm/event/6a6799a18b02ba0001c3c81b",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "intimate room: Bottom of the Hill (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-14",
+   "description": "Drag the River at Ivy Room on Nov 14, 2026",
+   "fingerprint": "bc5797f44168",
+   "id": "ev_425799833e78",
+   "other_urls": [
+    "https://tickets.venuepilot.com/e/drag-the-river-darius-koski-2026-11-14-ivy-room-albany-cec52e",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T20:00:00-08:00",
+   "title": "DRAG THE RIVER + Darius Koski (full band) + LUNCH",
+   "url": "https://www.jambase.com/show/drag-the-river-ivy-room-20261114",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Please note – there is a delivery delay set for 2 weeks prior to show.",
+   "fingerprint": "07a10270d7ce",
+   "id": "ev_46fe21770ab9",
+   "other_urls": [
+    "https://apeconcerts.com/events/sean-hayes-261114/",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T21:00:00-08:00",
+   "title": "Sean Hayes with KATZROAR and Etienne de Rocher (Haunted Shed)",
+   "url": "https://www.theindependentsf.com/tm-event/sean-hayes/",
+   "venue": "The Independent",
+   "why_rules": [
+    "intimate room: The Independent (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "The Cactus Blossoms/Margo Cilker @ The Chapel, 777 Valencia St., SF 9pm $$33.40",
+   "fingerprint": "aec2b4efcf41",
+   "id": "ev_a931c01bcd44",
+   "other_urls": [
+    "https://wl.seetickets.us/event/the-cactus-blossoms/697167?afflky=TheChapel",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Cactus Blossoms, Margo Cilker",
+   "url": "https://www.hickswithsticks.com/calendar/",
+   "venue": "The Chapel, 777 Valencia St., SF 9pm $$33.40",
+   "why_rules": [
+    "roots_adjacent: country (+10)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-08",
+   "description": "Cafe Du Nord: 454",
+   "fingerprint": "098167eddb32",
+   "id": "ev_c7bfe8183c73",
+   "other_urls": [
+    "https://cafedunord.com/shows/2026-11-08-454"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-08T00:00:00-08:00",
+   "title": "454",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "Cafe du Nord",
+   "why_rules": [
+    "intimate room: Cafe du Nord (+14)",
+    "booking signal: Cafe du Nord (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-14",
+   "description": "",
+   "fingerprint": "cfd0645e8a56",
+   "id": "ev_b3184127bcd6",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Farm to Turntable-TBA",
+   "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/",
+   "venue": "Down Home Music",
+   "why_rules": [
+    "intimate room: Down Home Music (+14)",
+    "booking signal: Down Home Music (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "heuristic text extraction, unverified (-8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-21",
+   "description": "Music at 8:30pm; tickets $10",
+   "fingerprint": "8d68a63aeb73",
+   "id": "ev_3e1268e27774",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T20:30:00-08:00",
+   "title": "El Elle + Cardboard People",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-15",
+   "description": "Francisca Valenzuela and Gabi Bravo at Rickshaw Stop at 2026-11-15T20:00:00-0800",
+   "fingerprint": "6a10be87b162",
+   "id": "ev_41f953900576",
+   "other_urls": [
+    "https://apeconcerts.com/events/francisca-valenzuela-2621115/",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-15T20:00:00-08:00",
+   "title": "Francisca Valenzuela, Gabi Bravo",
+   "url": "https://www.songkick.com/concerts/43240648-francisca-valenzuela-at-rickshaw-stop",
+   "venue": "Rickshaw Stop",
+   "why_rules": [
+    "intimate room: Rickshaw Stop (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-11-15",
+   "description": "Contemporary jazz pianist and composer",
+   "fingerprint": "172720cb5b81",
+   "id": "ev_45ee6bc0d476",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-15T19:00:00-08:00",
+   "title": "BRIAN SIMPSON",
+   "url": "https://yoshis.com/events/buy-tickets/brian-simpson-2/detail",
+   "venue": "Yoshi's Oakland",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-15",
+   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+   "fingerprint": "572f7dbbfc09",
+   "id": "ev_8a1756c741a7",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-15T16:00:00-08:00",
+   "title": "Horseshoe Jam",
+   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-15/",
+   "venue": "The Lucky Horseshoe San Francisco",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-21",
+   "description": "with Classical Persian, Kurdish, and Armenian Folk Music, Poetry | Doors 7:30pm Show 8pm An amazing night of Rumi's wisdom set to music. Poems are recited in both Persian and English, accompanied by audience group chanting and percussion led by me. Beyond Borders Ensemble is a collaborative group of musicians dedicated to building cultural connection through music. Drawing from Classical Persian, ",
+   "fingerprint": "a3b7816bf8b9",
+   "id": "ev_9aad340efef6",
+   "other_urls": [],
+   "rules_score": 58.0,
+   "rules_tier": "strong",
+   "start": "2026-11-21T20:00:00-08:00",
+   "title": "Rumi Heartbeat: Rumi's poetry set to music",
+   "url": "https://tickets.venuepilot.com/e/a-night-of-near-eastern-music-with-beyond-borders-ensemble-2026-11-21-ashkenaz-music-dance-community--07d5bd",
+   "venue": "Ashkenaz",
+   "why_rules": [
+    "roots_adjacent: folk (+10)",
+    "theater_core: musical (+14)",
+    "intimate room: Ashkenaz (+14)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-22",
+   "description": "twin peaks themed burlesque show; ticket price TBD",
+   "fingerprint": "b6bc60fe6289",
+   "id": "ev_1da72b18f14b",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T21:00:00-08:00",
+   "title": "Poundcake Productions Burlesque Show",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   }
  ]
