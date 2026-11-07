@@ -921,6 +921,26 @@
    "Show time and price unknown."
   ]
  },
+ "ev_22fa154f8fe1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-11-11/"
+   }
+  ],
+  "fingerprint": "b53e8b30ac95",
+  "fit": 15,
+  "performers": [],
+  "reason": "The long-running East Bay Bluegrassers Jam meets Wednesdays 6 to 8 pm upstairs at Rockin' Robbie's in El Cerrito, open to all ages and skill levels. A participatory jam close to home, not a show.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not a performance; only of interest if he wants to play."
+  ]
+ },
  "ev_23f29a0d761a": {
   "evidence": [
    {
@@ -1201,6 +1221,38 @@
    "Which book producers will speak"
   ]
  },
+ "ev_29657ffe0c2a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: 4pm International Boogie Woogie Festival; 7:30pm Tierney Sutton & Tamir Hendelman Duo",
+    "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   }
+  ],
+  "fingerprint": "cb02dcc15916",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Multiple Grammy-nominated jazz vocalist (background knowledge)",
+    "name": "Tierney Sutton",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Jazz pianist (background knowledge)",
+    "name": "Tamir Hendelman",
+    "significance": "notable"
+   }
+  ],
+  "reason": "SFJAZZ hosts an International Boogie Woogie Festival at 4pm and the Tierney Sutton and Tamir Hendelman duo at 7:30pm on Sun Nov 8. Boogie-woogie piano has roots appeal and Sutton is a respected, inventive standards singer (background knowledge), but neither is the adventurous improvised jazz at the center of his taste.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Festival performers not named.",
+   "These are likely two separate ticketed events."
+  ]
+ },
  "ev_2bd09dd1f5e6": {
   "evidence": [
    {
@@ -1224,6 +1276,32 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_2c5dae829b62": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Ladies and Gentlemen, introducing Fog City Swing! The bay area's newest and hottest jazz and swing band featuring an electrifying three horn front line, stellar crooning vocals, and a swing till you drop rhythm section. Enjoy an evening of swing, hard bop, and even some classic pop favorites performed only the way they can! This [...]",
+    "url": "https://keysjazzbistro.com/event/fog-city-swing-13/"
+   }
+  ],
+  "fingerprint": "9e993cdb6801",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Bay Area swing band",
+    "name": "Fog City Swing",
+    "significance": "local"
+   }
+  ],
+  "reason": "Fog City Swing is a new Bay Area swing band with a three-horn front line and crooning vocals, playing swing, hard bop and classic pop favorites at Keys. A fun dance-band night, but repertoire-and-pop swing is a poor fit.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Members not named."
   ]
  },
  "ev_2d4569d94a23": {
@@ -1559,6 +1637,26 @@
    "Eva Slongo's 'award-winning' claim comes from the listing description, not verified"
   ]
  },
+ "ev_313eeb115be8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
+    "url": "https://californiabluegrass.org/event/garage-jam/2027-01-04/"
+   }
+  ],
+  "fingerprint": "300f85ff984f",
+  "fit": 15,
+  "performers": [],
+  "reason": "The Garage Jam in Petaluma is an open, friendly bluegrass picking circle on the first and third Monday, 6 to 8 pm. It is a participatory jam, not a show, and a long drive from Oakland.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not a performance; only of interest if he wants to play."
+  ]
+ },
  "ev_35235a54a0cc": {
   "evidence": [
    {
@@ -1627,6 +1725,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Date and set format not confirmed on the Freight's page."
+  ]
+ },
+ "ev_367f436cf230": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Alborosie at Ivy Room on Nov 7, 2026",
+    "url": "https://www.jambase.com/show/alborosie-ivy-room-20261107"
+   }
+  ],
+  "fingerprint": "0e1b98bae1db",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Italian-born Jamaica-based reggae artist (background knowledge)",
+    "name": "Alborosie",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Alborosie's backing band (background knowledge)",
+    "name": "Shengen Clan",
+    "significance": "none"
+   }
+  ],
+  "reason": "Alborosie is an Italian-born, Jamaica-based reggae singer and producer (background knowledge), with Shengen Clan, at the Ivy Room in Albany tonight. Reggae is outside his stated taste.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Event is on 7 Nov 2026, the day of this run."
   ]
  },
  "ev_3684509a754e": {
@@ -1809,6 +1938,38 @@
    "Primary ticket page and KALX page could not be fetched; start time, price and billing order unconfirmed.",
    "Mikayla McVey Duo not researched beyond a Bandcamp search hit.",
    "Whether Nikolai Shveitser plays his own set or backs Acker is unclear."
+  ]
+ },
+ "ev_3e1268e27774": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Music at 8:30pm; tickets $10",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "8d68a63aeb73",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "El Elle",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Cardboard People",
+    "significance": "none"
+   }
+  ],
+  "reason": "El Elle and Cardboard People play a $10 show at Little Hill Lounge in El Cerrito. I do not recognize either act and the listing gives no genre, so this is unresolved rather than a pass.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Neither act is known to me; genre and style unknown.",
+   "A live page or artist links would be needed to judge fit."
   ]
  },
  "ev_3e2662af80af": {
@@ -2228,23 +2389,23 @@
     "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
    }
   ],
-  "fingerprint": "b1216e161263",
+  "fingerprint": "683d180f1e05",
   "fit": 30,
   "performers": [
    {
-    "known_for": "Vocal group (background knowledge, uncertain)",
+    "known_for": "SF women's a cappella social-justice vocal group (background knowledge, uncertain)",
     "name": "SongRise",
-    "significance": "none"
+    "significance": "local"
    }
   ],
-  "reason": "An acoustic matinee by SongRise at The Lost Church. SongRise appears to be a women's a cappella/social-justice vocal group (background knowledge, uncertain); not a strong fit.",
-  "researched_at": "2026-11-05T22:48:29+00:00",
+  "reason": "SongRise is, as far as I know, a San Francisco women's a cappella group that sings social-justice songs (background knowledge, uncertain); this is an acoustic matinee at The Lost Church. A community vocal ensemble rather than roots, jazz or theater, so a weak fit despite the intimate room.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Group identity uncertain."
+   "Identity of SongRise is from background knowledge only; the listing says nothing about the program."
   ]
  },
  "ev_54d511a3ab7d": {
@@ -2478,46 +2639,38 @@
  "ev_5827c894ce57": {
   "evidence": [
    {
-    "finding": "Friday November 13, 2026, doors 8:00 PM, music 8:30 PM; $30 advance / $35 door; 21+; page displays a 'SOLD OUT' banner; lineup Jon Spencer (Pussy Galore, Jon Spencer Blues Explosion, Heavy Trash, HITmakers), Genre Is Death (NYC experimental post-punk/noise duo, debut recorded by Martin Bisi), Fuckwolf (SF psych/post-punk/Krautrock), Mike Gabriel playing '60s garage records.",
-    "url": "http://www.bottomofthehill.com/20261113.html"
-   },
-   {
-    "finding": "Songs of Personal Loss and Protest released on Shove Records (founded by Spencer and Julie Cafritz in 1985); he tours as a power trio with drummer Macky 'Spider' Bowman and bassist Kendall Wind of The Bobby Lees.",
-    "url": "https://www.loudersound.com/bands-artists/interviews/jon-spencer-interview-2026"
+    "finding": "Not fetched (offline run). Listing text captured by the collector: JON SPENCER at Bottom of the Hill at 2026-11-13T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43211709-jon-spencer-at-bottom-of-the-hill"
    }
   ],
-  "fingerprint": "c3375c59d144",
+  "fingerprint": "0653fa0c483e",
   "fit": 50,
   "performers": [
    {
-    "known_for": "Pussy Galore, Jon Spencer Blues Explosion, Heavy Trash; punk blues garage",
+    "known_for": "Pussy Galore, Jon Spencer Blues Explosion",
     "name": "Jon Spencer",
-    "significance": "foundational"
+    "significance": "major"
    },
    {
-    "known_for": "NYC experimental post-punk and noise duo",
+    "known_for": "Noise act (per earlier research pass)",
     "name": "Genre Is Death",
     "significance": "none"
    },
    {
-    "known_for": "SF psych rock and post-punk band",
+    "known_for": "SF psych band (per earlier research pass)",
     "name": "Fuckwolf",
     "significance": "local"
-   },
-   {
-    "known_for": "DJ playing '60s garage records",
-    "name": "Mike Gabriel",
-    "significance": "none"
    }
   ],
-  "reason": "Jon Spencer, of Pussy Galore and the Jon Spencer Blues Explosion, is a foundational figure in noise and punk-blues, here as a power trio behind his 2026 album Songs of Personal Loss and Protest on his own Shove Records. Openers are NYC noise duo Genre Is Death and SF Krautrock-psych band Fuckwolf. It is a sweaty garage-rock night in a small club rather than roots or improvised jazz, and the show is sold out.",
-  "researched_at": "2026-10-31T21:51:08+00:00",
-  "researcher": "Claude daily research task",
-  "ticket_status": "sold-out",
+  "reason": "Jon Spencer, of Pussy Galore and the Jon Spencer Blues Explosion, is a foundational figure in noise and punk-blues (background knowledge), headlining Bottom of the Hill with Genre Is Death, Fuckwolf and DJ Mike Gabriel. It is a sweaty garage-rock night in a small club rather than roots or improvised jazz.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": [
-   "Sold out per venue page; resale or door availability unknown.",
-   "Songkick page not fetched."
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "An earlier research pass in data/research.json recorded the show as sold out; not rechecked.",
+   "Opener details are from that earlier pass, not this run."
   ]
  },
  "ev_584ddd7aa200": {
@@ -3338,6 +3491,38 @@
    "Rules engine 'theater_core: beckett, play' match is a false positive from the venue name."
   ]
  },
+ "ev_6e0117813a8a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Grammy Winning Brass Band from New Orleans | DOORS: 7:30 SHOW: 8PM Drawing on the traditional jazz heritage of their hometown of New Orleans, the Hot 8 Brass Band are renowned for including elements of funk, hip hop, rap, and its local variation, \"bounce\" in their music. The collective earned a win in the 64th Annual Grammy Awards 2022 for their feature on John Batiste's 'Album of The Year',",
+    "url": "https://tickets.venuepilot.com/e/hot-8-brass-band-2027-02-27-ashkenaz-music-dance-community-center-berkeley-62ef78"
+   }
+  ],
+  "fingerprint": "6d1f5753469d",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "New Orleans second-line brass band; Grammy for feature on Jon Batiste's album per listing",
+    "name": "Hot 8 Brass Band",
+    "significance": "major"
+   },
+   {
+    "known_for": "Hot 8 leader and sousaphonist (background knowledge)",
+    "name": "Bennie Pete",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Hot 8 Brass Band are one of New Orleans' best-known second-line brass bands, mixing traditional brass-band jazz with funk and hip-hop, here at the Ashkenaz dance hall in Berkeley on Sat Feb 27. Formed in the 1990s and led by sousaphonist Bennie Pete (background knowledge), they are a living tradition at full strength in an intimate room, which suits both his roots and hip-hop leanings.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band history and leader are background knowledge.",
+   "Far-off date (Feb 2027); lineup could change."
+  ]
+ },
  "ev_6fbc0fdbc1ce": {
   "evidence": [
    {
@@ -3755,6 +3940,26 @@
    "Their Jan 2026 Kuumbwa show sold out (inference: buy early)."
   ]
  },
+ "ev_78f9dc38108a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-08/"
+   }
+  ],
+  "fingerprint": "71ee21b37fe6",
+  "fit": 15,
+  "performers": [],
+  "reason": "The Lucky Horseshoe in SF hosts a weekly intermediate bluegrass jam on stage, Sundays 4 to 7 pm, for players who can lead a song. A participatory jam, not a show worth traveling for.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not a performance."
+  ]
+ },
  "ev_7989fc38e087": {
   "evidence": [
    {
@@ -3852,6 +4057,33 @@
   "tier": "possible",
   "uncertainties": [
    "Solo or with band not stated"
+  ]
+ },
+ "ev_7aee8fb12f08": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - David Byrd & Byrds of a Feather - Horace Silver Tribute hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Friday November 20th 2026. Find event information.",
+    "url": "https://events.humanitix.com/david-byrd-nov20"
+   }
+  ],
+  "fingerprint": "50ce25957433",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Bandleader of Byrds of a Feather",
+    "name": "David Byrd",
+    "significance": "local"
+   }
+  ],
+  "reason": "David Byrd & Byrds of a Feather play a Horace Silver repertory night at The Back Room, a small Berkeley listening room. Silver's hard-bop book is great material, but this is a tribute program by a leader I do not recognize, so it is a pleasant local jazz night rather than a must-see.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "I do not recognize David Byrd or the band members (background knowledge has nothing on them).",
+   "Lineup not listed."
   ]
  },
  "ev_7b5b2d740465": {
@@ -4590,6 +4822,38 @@
    "Recurring jam; date-specific details unknown."
   ]
  },
+ "ev_8959d4819201": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Join us as one of the Bay Area's most beloved trios helps us celebrate four years at Keys! Immerse yourself in the electrifying world of \"Ritmo y Voz\", where the deep-rooted traditions of Afro-Cuban jazz meet the power of dynamic vocals. This high-energy performance features an all-star lineup, including guitarist Kai Lyons, percussion master Ernesto, [...]",
+    "url": "https://keysjazzbistro.com/event/ritmo-y-voz-afro-cuban-jazz-ignited-a-keys-birthday-celebration/"
+   }
+  ],
+  "fingerprint": "1c6db6247fc2",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Bay Area Afro-Cuban jazz and vocal trio",
+    "name": "Ritmo y Voz",
+    "significance": "local"
+   },
+   {
+    "known_for": "Guitarist",
+    "name": "Kai Lyons",
+    "significance": "local"
+   }
+  ],
+  "reason": "Ritmo y Voz is a Bay Area Afro-Cuban jazz trio with vocals, playing Keys Jazz Bistro's four-year anniversary night with guitarist Kai Lyons and a percussionist billed as Ernesto. It reads as a festive supper-club Latin jazz set rather than the adventurous improvised jazz he seeks; I do not recognize the players.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "I do not recognize Kai Lyons or the other trio members (background knowledge has nothing on them).",
+   "Full lineup is truncated in the listing."
+  ]
+ },
  "ev_89963da93768": {
   "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
   "evidence": [
@@ -5080,6 +5344,32 @@
    "YOYOKA's role not stated in captured text."
   ]
  },
+ "ev_9aad340efef6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Classical Persian, Kurdish, and Armenian Folk Music, Poetry | Doors 7:30pm Show 8pm An amazing night of Rumi's wisdom set to music. Poems are recited in both Persian and English, accompanied by audience group chanting and percussion led by me. Beyond Borders Ensemble is a collaborative group of musicians dedicated to building cultural connection through music. Drawing from Classical Persian,",
+    "url": "https://tickets.venuepilot.com/e/a-night-of-near-eastern-music-with-beyond-borders-ensemble-2026-11-21-ashkenaz-music-dance-community--07d5bd"
+   }
+  ],
+  "fingerprint": "a3b7816bf8b9",
+  "fit": 42,
+  "performers": [
+   {
+    "known_for": "Bay Area group playing Persian, Kurdish and Armenian folk music",
+    "name": "Beyond Borders Ensemble",
+    "significance": "local"
+   }
+  ],
+  "reason": "Rumi Heartbeat at Ashkenaz sets Rumi's poetry, recited in Persian and English, to classical Persian, Kurdish and Armenian folk music by the Beyond Borders Ensemble, with audience chanting. Unusual traditional music in a close Berkeley room, but it is framed as a participatory spiritual evening more than a performance by notable players.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Ensemble members are not named in the captured text; I do not know the group."
+  ]
+ },
  "ev_9ab68ec866f5": {
   "evidence": [
    {
@@ -5108,6 +5398,32 @@
   "tier": "low",
   "uncertainties": [
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_9b863080c835": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Andy McKee is one of the world's finest acoustic guitarists; evident from the accolades he's received throughout his career. It's his youthful energy, attention to song structure, and melodic content that elevates him to a peerless level. McKee entertains both the eye and the ear as he magically transforms the steel string guitar into a full orchestra via his use of altered tunings, tapping, parti",
+    "url": "https://www.kuumbwajazz.org/calendar/andy-mckee/"
+   }
+  ],
+  "fingerprint": "0969ddbdf473",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Fingerstyle acoustic guitarist",
+    "name": "Andy McKee",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Andy McKee is a fingerstyle acoustic guitarist known for tapping and altered tunings, who broke through with viral YouTube videos (background knowledge), playing Kuumbwa in Santa Cruz. Impressive instrumental technique, but it is solo guitar showcase music rather than roots tradition or improvised jazz, and Santa Cruz is far.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "YouTube history is background knowledge."
   ]
  },
  "ev_9bccde609469": {
@@ -5488,6 +5804,52 @@
    "Celtic rather than American old-time (inference on fit)."
   ]
  },
+ "ev_a7db34e70f60": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hillside Club: Berkeley Symphony presents Night of the Imagination",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "4c88788af44a",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Berkeley orchestra",
+    "name": "Berkeley Symphony",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Berkeley Symphony presents a program called Night of the Imagination at the Hillside Club. Orchestral or chamber classical is outside his stated taste, and the listing gives no program detail that would change that.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Program, performers and whether it is a family event are not in the listing."
+  ]
+ },
+ "ev_ab66cd9adcf3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
+    "url": "https://californiabluegrass.org/event/garage-jam/2026-12-21/"
+   }
+  ],
+  "fingerprint": "2b0169c550be",
+  "fit": 15,
+  "performers": [],
+  "reason": "The Garage Jam in Petaluma is an open, friendly bluegrass picking circle on the first and third Monday, 6 to 8 pm. It is a participatory jam, not a show, and a long drive from Oakland.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not a performance; only of interest if he wants to play."
+  ]
+ },
  "ev_ac7761c45a20": {
   "evidence": [
    {
@@ -5592,6 +5954,33 @@
    "Band members, time and price not confirmed."
   ]
  },
+ "ev_af0f6090b4d7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Fretliners at The Freight on Dec 10, 2026",
+    "url": "https://www.jambase.com/show/the-fretliners-the-freight-20261210"
+   }
+  ],
+  "fingerprint": "c243575779a5",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Unknown; likely an acoustic string band (inferred from name and venue)",
+    "name": "The Fretliners",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Fretliners play Freight & Salvage on Thu Dec 10, also listed on the SF Folk Music Club community calendar. I do not recognize the band; the name and venue suggest an acoustic string band, but nothing in the listing says who they are, so this stays unresolved.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band identity, members and style unknown to me.",
+   "Whether this is a main-stage show or a smaller Freight event is unknown."
+  ]
+ },
  "ev_af2b4f6a3b14": {
   "evidence": [
    {
@@ -5621,6 +6010,33 @@
    "Date, time and personnel not confirmed from primary page.",
    "URL says quartet, title says quintet.",
    "'tribute'/'musical' rules hits are false positives."
+  ]
+ },
+ "ev_b0086939ec4f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Celtic Society is pleased to present Gadan in their first Santa Ctuz appearance! A storming new band, blending the drive of Irish traditional music and bluegrass with the heart and soul of folk and Appalachian music",
+    "url": "https://www.kuumbwajazz.org/calendar/gadan/"
+   }
+  ],
+  "fingerprint": "6ac8b9efd81b",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Italian band blending Irish trad, bluegrass and Appalachian folk",
+    "name": "Gadan",
+    "significance": "none"
+   }
+  ],
+  "reason": "Gadan is a new band of seasoned Italian musicians from the Irish trad and European folk scene, mixing Irish traditional music with bluegrass and Appalachian folk, presented by the Celtic Society in their first Santa Cruz appearance. An unusual cross-tradition collaboration that fits his roots taste, but the players are unknown to me and Santa Cruz is a long trip.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "I do not know the band members (background knowledge has nothing on them).",
+   "Santa Cruz is about 75 miles from Oakland; check for a Bay Area date."
   ]
  },
  "ev_b01b74323a2e": {
@@ -5741,6 +6157,33 @@
   "tier": "possible",
   "uncertainties": [
    "The repertoire for the night is a costume concept and may be covers."
+  ]
+ },
+ "ev_b2201fc5559d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Magosto! A traditional Galician music and dance event to celebrate the chestnut harvest",
+    "url": "https://www.eventbrite.com/e/hillside-echoes-presents-as-meigas-galician-folk-music-tickets-1992738246739"
+   }
+  ],
+  "fingerprint": "9e15c304be22",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Galician traditional music group",
+    "name": "As Meigas",
+    "significance": "none"
+   }
+  ],
+  "reason": "As Meigas play traditional Galician music and dance for a Magosto chestnut-harvest celebration at Berkeley's Hillside Club, presented by the Hillside Echoes series. A rare chance to hear a living Iberian folk tradition (pandeireta-driven song and dance, background knowledge) in an intimate room, though the performers are unknown to me and the date is tonight.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "I do not know As Meigas; the Galician style notes are background knowledge.",
+   "Event is on 7 Nov 2026, the day of this run."
   ]
  },
  "ev_b2904b39647e": {
@@ -6061,6 +6504,63 @@
   "tier": "possible",
   "uncertainties": []
  },
+ "ev_b86e2dee0d3b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Independent: Karina Rykman, Roni Kaspi",
+    "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   }
+  ],
+  "fingerprint": "9046dfc2577e",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "NYC bassist-singer, jam-rock (background knowledge)",
+    "name": "Karina Rykman",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Drummer, ex-Avishai Cohen trio (background knowledge)",
+    "name": "Roni Kaspi",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Karina Rykman is a New York bassist and singer in the jam-rock scene, and Roni Kaspi is an Israeli drummer known from Avishai Cohen's trio who now leads her own project (background knowledge). A skilled, groove-heavy rock bill at The Independent, but not roots, adventurous jazz or hip-hop.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Artist details are background knowledge.",
+   "Event is on 7 Nov 2026, the day of this run."
+  ]
+ },
+ "ev_b88bcb313218": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (7pm show only) Lavay Smith & Her Red Hot Skillet Lickers have performed at many of the top festivals and concert venues in the US, Europe, Japan and Canada. They have headlined at Jazz At Lincoln Center on New Year's Eve, and were featured at the official Oscars after-party in Hollywood. Performing classics and obscure [...]",
+    "url": "https://keysjazzbistro.com/event/lavay-smith-her-red-hot-skillet-lickers-20/"
+   }
+  ],
+  "fingerprint": "b31f42ab7ec4",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "SF swing and jazz-blues singer",
+    "name": "Lavay Smith",
+    "significance": "local"
+   }
+  ],
+  "reason": "Lavay Smith & Her Red Hot Skillet Lickers are a long-running SF retro swing and jazz-blues band that has played Jazz at Lincoln Center (per listing), here for a 7pm show at Keys. Skilled and nostalgic, but period-style swing is a weak fit for him.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_b8f9408eb238": {
   "evidence": [
    {
@@ -6336,6 +6836,33 @@
   "tier": "possible",
   "uncertainties": [
    "Event has passed."
+  ]
+ },
+ "ev_c30ac312a9bf": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Contemporary jazz pianist, keyboardist and composer, Peter Horvath has been perfecting his craft since the age of six when he began taking classical piano lessons. Born in Budapest, Hungary, he attended the BelaBartok Conservatory of Music. At age 17, he won the National Jazz ComboCompetition in Hungary and two years later moved to Austria to [...]",
+    "url": "https://keysjazzbistro.com/event/the-peter-horvath-trio-9/"
+   }
+  ],
+  "fingerprint": "b7f81cc2d4d4",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Hungarian-born Bay Area jazz pianist and composer",
+    "name": "Peter Horvath",
+    "significance": "local"
+   }
+  ],
+  "reason": "Peter Horvath is a Budapest-born, Bay Area-based jazz pianist and composer leading a trio at Keys Jazz Bistro. Accomplished, but from what I know he leans toward polished contemporary and smooth jazz (background knowledge), not the searching improvised music he favors.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Trio sidemen not named.",
+   "Style characterization is background knowledge."
   ]
  },
  "ev_c6f0b66f5e3c": {
@@ -7164,6 +7691,49 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_db6fab8e7852": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Brandon Woody's Upendo, Gabrielle Cavassa, Tierney Sutton & Tamir Hendelman Duo",
+    "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   }
+  ],
+  "fingerprint": "ff26bafed58b",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Baltimore trumpeter, leader of Upendo, Blue Note artist (background knowledge)",
+    "name": "Brandon Woody",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Jazz vocalist on Blue Note (background knowledge)",
+    "name": "Gabrielle Cavassa",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Multiple Grammy-nominated jazz vocalist (background knowledge)",
+    "name": "Tierney Sutton",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Jazz pianist, longtime Sutton collaborator (background knowledge)",
+    "name": "Tamir Hendelman",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Baltimore trumpeter Brandon Woody brings his band Upendo to SFJAZZ, alongside Blue Note vocalist Gabrielle Cavassa and the Tierney Sutton and Tamir Hendelman duo. Woody's Blue Note debut is soulful, spiritually charged, emotionally direct jazz (background knowledge), very close to the adventurous, compelling improvisation he likes; it is tonight, and the acts are probably separate sets in different SFJAZZ rooms.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The KALX listing merges several SFJAZZ events; which room and which set times are unknown.",
+   "Woody, Cavassa and Sutton details are background knowledge.",
+   "Event is on 7 Nov 2026, the day of this run."
+  ]
+ },
  "ev_dc3727b15aae": {
   "evidence": [
    {
@@ -7468,6 +8038,33 @@
   "tier": "possible",
   "uncertainties": [
    "Band not identified."
+  ]
+ },
+ "ev_e382583dd4e1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Rexx Life Raj at The UC Theatre on Nov 14, 2026",
+    "url": "https://www.jambase.com/show/rexx-life-raj-the-uc-theatre-20261114"
+   }
+  ],
+  "fingerprint": "092ed2a39388",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Berkeley rapper, Father Figure series (background knowledge)",
+    "name": "Rexx Life Raj",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Berkeley rapper Rexx Life Raj celebrates the 10-year anniversary of his 2016 project Father Figure at the UC Theatre, a hometown show for a respected Bay Area artist (background knowledge). It is melodic, R&B-leaning modern rap in a 1,400-capacity hall rather than golden-age or underground hip-hop, so a maybe.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Album date and style are background knowledge.",
+   "Openers unknown."
   ]
  },
  "ev_e3ec8e46580e": {
@@ -8187,6 +8784,38 @@
   "uncertainties": [
    "Recurring jam; same assessment applies to other dates.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_f625e114b316": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Molly Tuttle at The Guild Theatre on Dec 22, 2026",
+    "url": "https://www.jambase.com/show/molly-tuttle-the-guild-theatre-20261222"
+   }
+  ],
+  "fingerprint": "95bcd7705fd6",
+  "fit": 86,
+  "performers": [
+   {
+    "known_for": "Two-time Grammy winner for Best Bluegrass Album, IBMA Guitar Player of the Year (background knowledge)",
+    "name": "Molly Tuttle",
+    "significance": "major"
+   },
+   {
+    "known_for": "Palo Alto bluegrass teacher, her father (background knowledge, guest not confirmed)",
+    "name": "Jack Tuttle",
+    "significance": "local"
+   }
+  ],
+  "reason": "Molly Tuttle, the Bay Area-raised bluegrass guitarist and singer with two Grammys for Best Bluegrass Album, plays a hometown holiday show with family and friends at the Guild Theatre in Menlo Park on Tue Dec 22. Family likely means her father, Palo Alto bluegrass teacher Jack Tuttle, and siblings from The Tuttles (background knowledge), which makes this a rare roots homecoming in a mid-size room.",
+  "researched_at": "2026-11-07T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Guest list for 'Family & Friends' not confirmed; family identities are background knowledge.",
+   "Ticket availability unknown; hometown holiday shows can sell out."
   ]
  },
  "ev_f65c6ef37dd0": {
