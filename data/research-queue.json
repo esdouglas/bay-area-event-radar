@@ -1,8 +1,95 @@
 {
- "backlog": 1443,
+ "backlog": 1447,
  "count": 40,
- "generated_at": "2026-11-06T22:46:47+00:00",
+ "generated_at": "2026-11-07T06:16:41+00:00",
  "items": [
+  {
+   "city": "San Francisco",
+   "date": "2026-11-15",
+   "description": "The Lost Church: SongRise Goes Acoustic (Matinee)",
+   "fingerprint": "683d180f1e05",
+   "id": "ev_53c78a4da782",
+   "other_urls": [
+    "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DS945MAD"
+   ],
+   "rules_score": 71.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-15T00:00:00-08:00",
+   "title": "SongRise Goes Acoustic (Matinee) – San Francisco",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "roots_adjacent: acoustic (+10)",
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)",
+    "listed by a taste-aligned calendar (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-06",
+   "description": "Genesis Owusu at Rickshaw Stop at 2026-11-06T21:00:00-0800",
+   "fingerprint": "c53fbf5b764c",
+   "id": "ev_8ccec363d6fb",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+    "https://apeconcerts.com/events/genesis-owusu-261106/",
+    "https://www.jambase.com/show/genesis-owusu-rickshaw-stop-20261106"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-06T21:00:00-08:00",
+   "title": "Genesis Owusu, After Louise, Aaron Axelsen",
+   "url": "https://www.songkick.com/concerts/43236217-genesis-owusu-at-rickshaw-stop",
+   "venue": "Rickshaw Stop",
+   "why_rules": [
+    "intimate room: Rickshaw Stop (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-06",
+   "description": "Ivy Room: Andre Nickatina",
+   "fingerprint": "efdcf9f25fba",
+   "id": "ev_951dad02d186",
+   "other_urls": [
+    "https://www.jambase.com/show/andre-nickatina-ivy-room-20261106",
+    "https://tickets.venuepilot.com/e/andre-nickatina-2026-11-06-ivy-room-albany-23541f",
+    "https://www.jambase.com/show/andre-nickatina-ivy-room-20261106"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-06T00:00:00-08:00",
+   "title": "Andre Nickatina",
+   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-20",
+   "description": "Buy Tickets on Humanitix - David Byrd & Byrds of a Feather - Horace Silver Tribute hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Friday November 20th 2026. Find event information.",
+   "fingerprint": "50ce25957433",
+   "id": "ev_7aee8fb12f08",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-20T20:00:00-08:00",
+   "title": "David Byrd & Byrds of a Feather - Horace Silver Tribute",
+   "url": "https://events.humanitix.com/david-byrd-nov20",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
   {
    "city": "",
    "date": "2026-11-15",
@@ -270,43 +357,43 @@
   {
    "city": "San Francisco",
    "date": "2026-11-06",
-   "description": "Genesis Owusu at Rickshaw Stop at 2026-11-06T21:00:00-0800",
-   "fingerprint": "c53fbf5b764c",
-   "id": "ev_8ccec363d6fb",
+   "description": "Kilowatt: Dylan Thom, Horse Laugh",
+   "fingerprint": "5ca7cbfa468d",
+   "id": "ev_3eddb4f4514e",
    "other_urls": [
     "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-    "https://apeconcerts.com/events/genesis-owusu-261106/"
+    "https://www.jambase.com/show/dylan-thom-kilowatt-bar-20261106"
    ],
    "rules_score": 57.0,
    "rules_tier": "strong",
-   "start": "2026-11-06T21:00:00-08:00",
-   "title": "Genesis Owusu, After Louise, Aaron Axelsen",
-   "url": "https://www.songkick.com/concerts/43236217-genesis-owusu-at-rickshaw-stop",
-   "venue": "Rickshaw Stop",
+   "start": "2026-11-06T19:00:00-08:00",
+   "title": "Dylan Thom, Horse Laugh",
+   "url": "https://dice.fm/event/6ab6efc66081a30001cb9aad",
+   "venue": "Kilowatt",
    "why_rules": [
-    "intimate room: Rickshaw Stop (+14)",
+    "intimate room: Kilowatt (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
    ]
   },
   {
-   "city": "Albany",
+   "city": "San Francisco",
    "date": "2026-11-06",
-   "description": "Ivy Room: Andre Nickatina",
-   "fingerprint": "efdcf9f25fba",
-   "id": "ev_951dad02d186",
+   "description": "Great American Music Hall: Dark N Stormy",
+   "fingerprint": "ea37b2593a6e",
+   "id": "ev_45f05de40ee0",
    "other_urls": [
-    "https://www.jambase.com/show/andre-nickatina-ivy-room-20261106",
-    "https://tickets.venuepilot.com/e/andre-nickatina-2026-11-06-ivy-room-albany-23541f"
+    "https://wl.seetickets.us/event/city-surf-project-presents-dark-n-stormy/700455?afflky=GreatAmericanMusicHall",
+    "https://www.jambase.com/show/dark-n-stormy-great-american-music-hall-20261106"
    ],
    "rules_score": 57.0,
    "rules_tier": "strong",
    "start": "2026-11-06T00:00:00-08:00",
-   "title": "Andre Nickatina",
+   "title": "City Surf Project Presents Dark N Stormy",
    "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Ivy Room",
+   "venue": "Great American Music Hall",
    "why_rules": [
-    "intimate room: Ivy Room (+14)",
+    "intimate room: Great American Music Hall (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
    ]
@@ -750,84 +837,6 @@
     "intimate room: Rickshaw Stop (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-15",
-   "description": "Contemporary jazz pianist and composer",
-   "fingerprint": "172720cb5b81",
-   "id": "ev_45ee6bc0d476",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-15T19:00:00-08:00",
-   "title": "BRIAN SIMPSON",
-   "url": "https://yoshis.com/events/buy-tickets/brian-simpson-2/detail",
-   "venue": "Yoshi's Oakland",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-15",
-   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
-   "fingerprint": "572f7dbbfc09",
-   "id": "ev_8a1756c741a7",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-15T16:00:00-08:00",
-   "title": "Horseshoe Jam",
-   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-15/",
-   "venue": "The Lucky Horseshoe San Francisco",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-21",
-   "description": "with Classical Persian, Kurdish, and Armenian Folk Music, Poetry | Doors 7:30pm Show 8pm An amazing night of Rumi's wisdom set to music. Poems are recited in both Persian and English, accompanied by audience group chanting and percussion led by me. Beyond Borders Ensemble is a collaborative group of musicians dedicated to building cultural connection through music. Drawing from Classical Persian, ",
-   "fingerprint": "a3b7816bf8b9",
-   "id": "ev_9aad340efef6",
-   "other_urls": [],
-   "rules_score": 58.0,
-   "rules_tier": "strong",
-   "start": "2026-11-21T20:00:00-08:00",
-   "title": "Rumi Heartbeat: Rumi's poetry set to music",
-   "url": "https://tickets.venuepilot.com/e/a-night-of-near-eastern-music-with-beyond-borders-ensemble-2026-11-21-ashkenaz-music-dance-community--07d5bd",
-   "venue": "Ashkenaz",
-   "why_rules": [
-    "roots_adjacent: folk (+10)",
-    "theater_core: musical (+14)",
-    "intimate room: Ashkenaz (+14)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-22",
-   "description": "twin peaks themed burlesque show; ticket price TBD",
-   "fingerprint": "b6bc60fe6289",
-   "id": "ev_1da72b18f14b",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-22T21:00:00-08:00",
-   "title": "Poundcake Productions Burlesque Show",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
    ]
   }
  ]

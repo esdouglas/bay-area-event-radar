@@ -1,5 +1,5 @@
 {
- "run_id": "606fecf77f95",
+ "run_id": "da3db7ec5153",
  "sources": {
   "act-sf": {
    "error": null,
@@ -15,25 +15,25 @@
   },
   "allevents-el-cerrito": {
    "error": null,
-   "kept": 32,
-   "new": 1,
+   "kept": 33,
+   "new": 5,
    "out_of_window": 1,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 33,
+   "raw": 34,
    "status": "ok",
    "warnings": null
   },
   "another-planet": {
    "error": null,
-   "kept": 316,
-   "new": 9,
+   "kept": 317,
+   "new": 1,
    "out_of_window": 15,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 331,
+   "raw": 332,
    "status": "ok",
    "warnings": null
   },
@@ -64,137 +64,137 @@
   "back-room-berkeley": {
    "error": null,
    "kept": 24,
-   "new": 0,
+   "new": 1,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": [
     {
-     "bytes": 208931,
+     "bytes": 208600,
      "events": 12,
-     "fetched_at": "2026-11-06T22:44:11+00:00",
+     "fetched_at": "2026-11-07T06:14:13+00:00",
      "final_url": "https://collections.humanitix.com/the-back-room-calendar",
      "links": 12,
-     "sha256": "7094c1395343518000235e966d53a67f56668ac18af4972a8413e5976c7eb3c5",
+     "sha256": "1a1f451a2b5d9ce0fe731b16f05529b1071bf6a34d7c0fb01f008531dc817129",
      "status": "extracted",
      "url": "https://collections.humanitix.com/the-back-room-calendar"
     },
     {
-     "bytes": 247016,
+     "bytes": 246928,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:13+00:00",
+     "fetched_at": "2026-11-07T06:14:15+00:00",
      "final_url": "https://events.humanitix.com/back-porchestra-nov7?hxchl=hex-col",
      "links": 23,
-     "sha256": "cd0b3c8634160b5a83b8ef17258df439f7adafd3f5455f694dc9fba52849aa17",
+     "sha256": "25cf1f297da91410a8880e7589e95cbf16ec7e07bb7d3456da6e7668b789ac2f",
      "status": "extracted",
      "url": "https://events.humanitix.com/back-porchestra-nov7?hxchl=hex-col"
     },
     {
-     "bytes": 242122,
+     "bytes": 242033,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:14+00:00",
+     "fetched_at": "2026-11-07T06:14:16+00:00",
      "final_url": "https://events.humanitix.com/big-joe-kennedy?hxchl=hex-col",
      "links": 23,
-     "sha256": "4351163069957ee1bf9e6f1741ddd2dd2425cd98a546b94d16219427823fd4de",
+     "sha256": "b5f980f49f16c1cd4c846e50958edaccc689841a5cd00b88272932e1f323b957",
      "status": "extracted",
      "url": "https://events.humanitix.com/big-joe-kennedy?hxchl=hex-col"
     },
     {
-     "bytes": 242024,
+     "bytes": 241935,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:15+00:00",
+     "fetched_at": "2026-11-07T06:14:18+00:00",
      "final_url": "https://events.humanitix.com/blues-and-jazz-singers-jam-session-nov7?hxchl=hex-col",
      "links": 23,
-     "sha256": "d518524a52a363918bf70202d53ee2e799008a5d8d032e5d4ca6e26fdb0d9e2f",
+     "sha256": "fff766a34667f9e6ab0c0f3a5514b5c481f3024e863940fcec22e29f34d9e07d",
      "status": "extracted",
      "url": "https://events.humanitix.com/blues-and-jazz-singers-jam-session-nov7?hxchl=hex-col"
     },
     {
-     "bytes": 245872,
+     "bytes": 240618,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:17+00:00",
-     "final_url": "https://events.humanitix.com/jet-black-pearl-rosie-joe?hxchl=hex-col",
+     "fetched_at": "2026-11-07T06:14:19+00:00",
+     "final_url": "https://events.humanitix.com/david-byrd-nov20?hxchl=hex-col",
      "links": 23,
-     "sha256": "5b32f7d8823ab89f89fbefd65830d2215ae395a01bea05b1b142b2f56a6d84db",
+     "sha256": "9d9ddcdf52036d30fb0fa35eb78f44243a8e532e17f33c26a5adfe1b5286342e",
      "status": "extracted",
-     "url": "https://events.humanitix.com/jet-black-pearl-rosie-joe?hxchl=hex-col"
+     "url": "https://events.humanitix.com/david-byrd-nov20?hxchl=hex-col"
     },
     {
-     "bytes": 246532,
+     "bytes": 246444,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:18+00:00",
+     "fetched_at": "2026-11-07T06:14:20+00:00",
      "final_url": "https://events.humanitix.com/joel-harrison?hxchl=hex-col",
      "links": 23,
-     "sha256": "b1b088cc1ec78320336e1370729e9d421d127074e27db7ebf2d4ae42d5aee4dd",
+     "sha256": "a6635e0e883ea92136f7f8e1c309469c556ee3f20c55c794bda9a90364551337",
      "status": "extracted",
      "url": "https://events.humanitix.com/joel-harrison?hxchl=hex-col"
     },
     {
-     "bytes": 243631,
+     "bytes": 243542,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:19+00:00",
+     "fetched_at": "2026-11-07T06:14:21+00:00",
      "final_url": "https://events.humanitix.com/nathan-and-henry-duo?hxchl=hex-col",
      "links": 23,
-     "sha256": "59239086bc660f7e0ae2f62cb244dc16344a8bd43aa81c94c9d8e47b9cd3671c",
+     "sha256": "ff6841ca091f3c4b6b9fe45980b48e86f59c5bd5685cb3106b760355e5dc82a2",
      "status": "extracted",
      "url": "https://events.humanitix.com/nathan-and-henry-duo?hxchl=hex-col"
     },
     {
-     "bytes": 250247,
+     "bytes": 250158,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:21+00:00",
+     "fetched_at": "2026-11-07T06:14:22+00:00",
      "final_url": "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026-2?hxchl=hex-col",
      "links": 23,
-     "sha256": "d133e1c6501b6eb93c24023dc4d112ecd390fb80729c3efdb7633da6eddefb3d",
+     "sha256": "525ecbbe510da0b9ada1895d670bb3e1d3aef49da3a0deaf7b324a301d3706c1",
      "status": "extracted",
      "url": "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026-2?hxchl=hex-col"
     },
     {
-     "bytes": 250204,
+     "bytes": 250115,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:22+00:00",
+     "fetched_at": "2026-11-07T06:14:23+00:00",
      "final_url": "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026?hxchl=hex-col",
      "links": 23,
-     "sha256": "a07c0503176011d32c565ab7eddeb78b3fd29d7e3b7d774b24de1a9461487459",
+     "sha256": "d5dea617f23db01fa3da2487a68e1c0bbbefbb855e3d6dd3932f990b40134a52",
      "status": "extracted",
      "url": "https://events.humanitix.com/pierre-bensusan-the-infinite-guitar-tour-2026?hxchl=hex-col"
     },
     {
-     "bytes": 242565,
+     "bytes": 242477,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:24+00:00",
+     "fetched_at": "2026-11-07T06:14:25+00:00",
      "final_url": "https://events.humanitix.com/rick-reyes-featuring-carlos-gogo-gomez?hxchl=hex-col",
      "links": 23,
-     "sha256": "aea6db3b6f7ba8c9c3a291494c93e97140bc02ba478510b7f4ae4456793dc6dd",
+     "sha256": "cb083562165488d7399bb6701d3c852928a3d2070d3e96e30dc2481b35012920",
      "status": "extracted",
      "url": "https://events.humanitix.com/rick-reyes-featuring-carlos-gogo-gomez?hxchl=hex-col"
     },
     {
-     "bytes": 243672,
+     "bytes": 243583,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:25+00:00",
+     "fetched_at": "2026-11-07T06:14:26+00:00",
      "final_url": "https://events.humanitix.com/songwriters-mav-asya-and-priyanka-atreya?hxchl=hex-col",
      "links": 23,
-     "sha256": "314e3b2a3799862f5b9341e321053fbd5e84b97b310fc7ba124894cbbe08cd9d",
+     "sha256": "d2de950b828c3e44c22658129f1275bf8e89d54eaa7289c0068ce9cc27e5d804",
      "status": "extracted",
      "url": "https://events.humanitix.com/songwriters-mav-asya-and-priyanka-atreya?hxchl=hex-col"
     },
     {
-     "bytes": 240095,
+     "bytes": 240007,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:26+00:00",
+     "fetched_at": "2026-11-07T06:14:27+00:00",
      "final_url": "https://events.humanitix.com/the-applestones?hxchl=hex-col",
      "links": 23,
-     "sha256": "9ec1a7766c44aeb81e4817602cddfc09173e76648e807e173112f8d470be90ff",
+     "sha256": "ca2b17e0f3122818912b1973ec2729ab76ca2ee3904945cd22fd0504f1d1f905",
      "status": "extracted",
      "url": "https://events.humanitix.com/the-applestones?hxchl=hex-col"
     },
     {
-     "bytes": 240194,
+     "bytes": 240105,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:27+00:00",
+     "fetched_at": "2026-11-07T06:14:29+00:00",
      "final_url": "https://events.humanitix.com/zoe-lewis?hxchl=hex-col",
      "links": 23,
-     "sha256": "58f43617e0ffa6e36951a3f0f8469e23dc34ca50abae6e49ab05aec43d0f5a53",
+     "sha256": "dabe1a5b60578497f56a4e5a736e0dfbbfad6aeacace2b0319a71232ddf9d4d7",
      "status": "extracted",
      "url": "https://events.humanitix.com/zoe-lewis?hxchl=hex-col"
     }
@@ -230,25 +230,25 @@
   },
   "bird-and-beckett": {
    "error": null,
-   "kept": 81,
+   "kept": 80,
    "new": 0,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 81,
+   "raw": 80,
    "status": "ok",
    "warnings": null
   },
   "black-cat-sf": {
    "error": null,
-   "kept": 3,
+   "kept": 4,
    "new": 0,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 3,
+   "raw": 4,
    "status": "ok",
    "warnings": null
   },
@@ -262,7 +262,7 @@
     {
      "bytes": 64126,
      "events": 104,
-     "fetched_at": "2026-11-06T22:44:21+00:00",
+     "fetched_at": "2026-11-07T06:14:23+00:00",
      "final_url": "https://www.bgsignal.com/concerts--festivals.html",
      "links": 0,
      "sha256": "b1cf6f82cc275d3cef44239303119143f3dc94a092d88ba1750642cfee7f89ac",
@@ -289,13 +289,13 @@
   },
   "broadway-sf": {
    "error": null,
-   "kept": 46,
+   "kept": 45,
    "new": 0,
    "out_of_window": 8,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 54,
+   "raw": 53,
    "status": "ok",
    "warnings": null
   },
@@ -327,11 +327,11 @@
    "error": null,
    "kept": 311,
    "new": 0,
-   "out_of_window": 0,
+   "out_of_window": 5,
    "outside_region": 149,
    "pages": null,
    "pending_links": null,
-   "raw": 460,
+   "raw": 465,
    "status": "ok",
    "warnings": null
   },
@@ -343,12 +343,12 @@
    "outside_region": 0,
    "pages": [
     {
-     "bytes": 768523,
+     "bytes": 768602,
      "events": 47,
-     "fetched_at": "2026-11-06T22:44:26+00:00",
+     "fetched_at": "2026-11-07T06:14:27+00:00",
      "final_url": "https://sites.google.com/site/davbrown2/oldtimesf",
      "links": 0,
-     "sha256": "cd3cc1a4fa6d3b92169accf924ec63d8e2b4f9f62d64d1b93812e86c8af1f366",
+     "sha256": "020d23603a4465a3feb65e98f34710b5381562a04affba3fb33720e0cd9e7e4a",
      "status": "extracted",
      "url": "https://sites.google.com/site/davbrown2/oldtimesf"
     }
@@ -430,50 +430,50 @@
     {
      "bytes": 51442,
      "events": 4,
-     "fetched_at": "2026-11-06T22:44:27+00:00",
+     "fetched_at": "2026-11-07T06:14:29+00:00",
      "final_url": "https://www.tickettailor.com/events/fifthstreetfarms",
      "links": 5,
-     "sha256": "4df2ea915e8192981c911b012de1eac34d92bb6cf8475cadc38590d0a021fae7",
+     "sha256": "ae749799d4434578a7687ad3faa12e6a6c8b6d12e8b8a5dc522165c77076b586",
      "status": "extracted",
      "url": "https://www.tickettailor.com/events/fifthstreetfarms"
     },
     {
      "bytes": 45616,
      "events": 3,
-     "fetched_at": "2026-11-06T22:44:27+00:00",
+     "fetched_at": "2026-11-07T06:14:29+00:00",
      "final_url": "https://www.tickettailor.com/events/fifthstreetfarms/2431227",
      "links": 2,
-     "sha256": "6a62d6acca5349f3d91e9d5c4d07e69c6347d049dca26ba8b2649ccf6df26ad9",
+     "sha256": "3b1ebd9d958fb4324641dc784ddb97c8a0c3cfe11de53096f28b5a497cfcd4be",
      "status": "extracted",
      "url": "https://www.tickettailor.com/events/fifthstreetfarms/2431227"
     },
     {
      "bytes": 46368,
      "events": 3,
-     "fetched_at": "2026-11-06T22:44:28+00:00",
+     "fetched_at": "2026-11-07T06:14:30+00:00",
      "final_url": "https://www.tickettailor.com/events/fifthstreetfarms/2441591",
      "links": 2,
-     "sha256": "819e7eab9cc61790ada2b6f6e355202c435799b5ecc2b2cd7e48622f6c4756a6",
+     "sha256": "15de4537d16d7614f316d8f36f326dc97b49534b86552d2375b0c2e7a59f05a3",
      "status": "extracted",
      "url": "https://www.tickettailor.com/events/fifthstreetfarms/2441591"
     },
     {
      "bytes": 45446,
      "events": 3,
-     "fetched_at": "2026-11-06T22:44:29+00:00",
+     "fetched_at": "2026-11-07T06:14:30+00:00",
      "final_url": "https://www.tickettailor.com/events/fifthstreetfarms/2466000",
      "links": 2,
-     "sha256": "8c1ddb182fb7422ba874a7ec03ef85da4e65eb4f1a11ac46c033bee50d18eb2a",
+     "sha256": "b4ba6dc43e7c9d15b36d3a8993b78e5632e4fe20b89484c93ae53afbbac1c3f6",
      "status": "extracted",
      "url": "https://www.tickettailor.com/events/fifthstreetfarms/2466000"
     },
     {
      "bytes": 43360,
      "events": 3,
-     "fetched_at": "2026-11-06T22:44:30+00:00",
+     "fetched_at": "2026-11-07T06:14:31+00:00",
      "final_url": "https://www.tickettailor.com/events/fifthstreetfarms/2480835",
      "links": 2,
-     "sha256": "d50fc8b09b356e5c763f297e3c400e96de7e2d39c53ff458094287f7ffe68158",
+     "sha256": "aeb3690910f2c4f035aaa2fdc082c324feb69ad3d8333f80dea7636849745518",
      "status": "extracted",
      "url": "https://www.tickettailor.com/events/fifthstreetfarms/2480835"
     }
@@ -533,24 +533,24 @@
   },
   "hicks-with-sticks": {
    "error": null,
-   "kept": 55,
-   "new": 2,
+   "kept": 61,
+   "new": 8,
    "out_of_window": 6,
    "outside_region": 0,
    "pages": [
     {
-     "bytes": 90774,
-     "events": 61,
-     "fetched_at": "2026-11-06T22:44:26+00:00",
+     "bytes": 91318,
+     "events": 67,
+     "fetched_at": "2026-11-07T06:14:27+00:00",
      "final_url": "https://www.hickswithsticks.com/calendar/",
      "links": 0,
-     "sha256": "59fa7a8946c7a96b7e75eae2cca7a9a58c06a8a6cb08abd5a74254384f58e791",
+     "sha256": "697b9fbc971a7d0d9e22247cf01381b74336a4b3fe004fd934e93c79feccc250",
      "status": "extracted",
      "url": "https://www.hickswithsticks.com/calendar/"
     }
    ],
    "pending_links": 0,
-   "raw": 61,
+   "raw": 67,
    "status": "ok",
    "warnings": null
   },
@@ -568,89 +568,89 @@
   },
   "ivy-room": {
    "error": null,
-   "kept": 55,
+   "kept": 54,
    "new": 0,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 55,
+   "raw": 54,
    "status": "ok",
    "warnings": null
   },
   "jambase-bay": {
    "error": null,
-   "kept": 53,
-   "new": 0,
-   "out_of_window": 56,
+   "kept": 70,
+   "new": 16,
+   "out_of_window": 39,
    "outside_region": 0,
    "pages": [
     {
-     "bytes": 482233,
+     "bytes": 485744,
      "events": 40,
-     "fetched_at": "2026-11-06T22:44:32+00:00",
+     "fetched_at": "2026-11-07T06:14:33+00:00",
      "final_url": "https://www.jambase.com/concerts/us/california/concerts-in-san-francisco-bay-area",
-     "links": 140,
-     "sha256": "7809ac6c72cced311c44ad945e619c467e190855c88d4fafbab8eb6860d7fc0b",
+     "links": 141,
+     "sha256": "92a941e9d2531939ee8ddf20b2f317d146db70328063361103efa7782c35daed",
      "status": "extracted",
      "url": "https://www.jambase.com/concerts/us/california/concerts-in-san-francisco-bay-area"
     },
     {
      "bytes": 218720,
      "events": 0,
-     "fetched_at": "2026-11-06T22:44:32+00:00",
+     "fetched_at": "2026-11-07T06:14:34+00:00",
      "final_url": "https://www.jambase.com/concerts/finder",
      "links": 1,
-     "sha256": "ec3f6a9c3473509f8c0ce0a98237e1cad97ad2d085093daf26f2de1367ae3e5d",
+     "sha256": "cad20c3061f1a1fa9bd665b27cdeccbb841c8ca2853e1f9dccdcd44342ec80d0",
      "status": "fetched-no-events",
      "url": "https://www.jambase.com/concerts/finder"
     },
     {
      "bytes": 279986,
      "events": 0,
-     "fetched_at": "2026-11-06T22:44:33+00:00",
+     "fetched_at": "2026-11-07T06:14:34+00:00",
      "final_url": "https://www.jambase.com/concerts/finder?type-filter=festival&location=San+Francisco+Bay+Area&lat=37.7562&lng=-122.4430&radius=300",
      "links": 2,
-     "sha256": "83aa7702ddaf3c9c58ada6398e8d0bd22cc7607751510ca897dcabdf4c729d1b",
+     "sha256": "64b0ce8a1563cb07bf5de2912719067a02f83bfd1f945b7e6f475a17921fdf2d",
      "status": "fetched-no-events",
      "url": "https://www.jambase.com/concerts/finder?type-filter=festival&location=San+Francisco+Bay+Area&lat=37.7562&lng=-122.4430&radius=300"
     },
     {
      "bytes": 249786,
      "events": 0,
-     "fetched_at": "2026-11-06T22:44:33+00:00",
+     "fetched_at": "2026-11-07T06:14:35+00:00",
      "final_url": "https://www.jambase.com/concerts/us",
      "links": 253,
-     "sha256": "c73234575700df527e59f3511b0c63dfe94aa2b522e5443c083bdd26ba85ee49",
+     "sha256": "7ad36c89a0464b7031ad67217c9b69c1fb641b0642bb53ecb5e6e126fd738364",
      "status": "fetched-no-events",
      "url": "https://www.jambase.com/concerts/us"
     },
     {
      "bytes": 489602,
      "events": 39,
-     "fetched_at": "2026-11-06T22:44:34+00:00",
+     "fetched_at": "2026-11-07T06:14:36+00:00",
      "final_url": "https://www.jambase.com/concerts/us/california",
      "links": 96,
-     "sha256": "2e484cab1ea30522c1ac4111aa09b756dcff71b1a8058a0b201a4365e71f7286",
+     "sha256": "347c2315cd1dce4a90dacb1f387828ee43e2df663f00e9e985b9285e3792a9f7",
      "status": "extracted",
      "url": "https://www.jambase.com/concerts/us/california"
     },
     {
      "bytes": 383721,
      "events": 30,
-     "fetched_at": "2026-11-06T22:44:35+00:00",
+     "fetched_at": "2026-11-07T06:14:37+00:00",
      "final_url": "https://www.jambase.com/concerts/us/california/bluegrass-concerts-in-san-francisco-bay-area",
      "links": 111,
-     "sha256": "3474e51a12d8ea2cbdd80c8fa5697505e343c04eb619eaa772b7b860df778cfa",
+     "sha256": "1c8bac39a370ba6be3d4733d1823c5bb781952fa43282f6a81a837dd2386bf6b",
      "status": "extracted",
      "url": "https://www.jambase.com/concerts/us/california/bluegrass-concerts-in-san-francisco-bay-area"
     }
    ],
-   "pending_links": 134,
+   "pending_links": 135,
    "raw": 109,
    "status": "ok",
    "warnings": [
-    "truncated: 134 linked pages not fetched this run (page_limit 6)"
+    "truncated: 135 linked pages not fetched this run (page_limit 6)"
    ]
   },
   "kalx-entertainment-calendar": {
@@ -663,30 +663,30 @@
     {
      "bytes": 92634,
      "events": 0,
-     "fetched_at": "2026-11-06T22:44:24+00:00",
+     "fetched_at": "2026-11-07T06:14:25+00:00",
      "final_url": "https://kalx.berkeley.edu/events/weekly-entertainment-calendar/",
      "links": 2,
-     "sha256": "2020da850e73cedee139307bbc86ea60006c0ad26e9fee3fcfb2bfb2c56107b1",
+     "sha256": "af90205b6dc4cf545dd57aee67156f32dfd2683107c3482c07be569120e90fae",
      "status": "fetched-no-events",
      "url": "https://kalx.berkeley.edu/events/weekly-entertainment-calendar/"
     },
     {
      "bytes": 108663,
      "events": 226,
-     "fetched_at": "2026-11-06T22:44:24+00:00",
+     "fetched_at": "2026-11-07T06:14:25+00:00",
      "final_url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
      "links": 1,
-     "sha256": "87993c6bd3c800cf27a343c3ba9a23072d18424df2f3146baf299c5726d1e689",
+     "sha256": "10ffb474710e7776cc4a6d7410d6ac189b10031f2d4ceee12a03ca2d1f814fd2",
      "status": "extracted",
      "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
     },
     {
      "bytes": 112082,
      "events": 284,
-     "fetched_at": "2026-11-06T22:44:25+00:00",
+     "fetched_at": "2026-11-07T06:14:26+00:00",
      "final_url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
      "links": 1,
-     "sha256": "8385a70a17ad33637519d5b23f0356074b42befc9fac6316662b9fabddb172ff",
+     "sha256": "a24ce1bd454d7bec395872fe1e7d367ef1a8a34146e730dd78f4e6c7ab37c5cc",
      "status": "extracted",
      "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
     }
@@ -706,67 +706,67 @@
     {
      "bytes": 261700,
      "events": 0,
-     "fetched_at": "2026-11-06T22:44:26+00:00",
+     "fetched_at": "2026-11-07T06:14:28+00:00",
      "final_url": "https://www.kcturnerpresents.com/calendar",
      "links": 39,
-     "sha256": "a0d4d80ece28459bcf8cbf33946fda0cb16f5f24d030a4da112fbf484048cc73",
+     "sha256": "c4664ee0869d9424ebfa2fc974b8ab76168d00a07f7b7d914b701805537337fe",
      "status": "fetched-no-events",
      "url": "https://www.kcturnerpresents.com/calendar"
     },
     {
      "bytes": 56948,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:27+00:00",
+     "fetched_at": "2026-11-07T06:14:29+00:00",
      "final_url": "https://kcturnerpresents.com/event/6463541/753718598/susan-werner",
      "links": 2,
-     "sha256": "f0ba941343033bba305689c45a7969b1b3dbcb44d3cebc7e098d0ae7c9263aee",
+     "sha256": "523a7572cedaa97decc003954b2cceb0e986bb79bbc110013d5d8ab9b058cd9a",
      "status": "extracted",
      "url": "https://kcturnerpresents.com/event/6463541/753718598/susan-werner"
     },
     {
      "bytes": 56950,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:27+00:00",
+     "fetched_at": "2026-11-07T06:14:29+00:00",
      "final_url": "https://kcturnerpresents.com/event/6463565/753718628/susan-werner",
      "links": 2,
-     "sha256": "e08baef5146f734fa1f95ffeef7b4cdc027003ffb4866f5b161f3bcceea449ef",
+     "sha256": "cdcce8d69948dda0e969004783bbd007cbac2b30995b71d6de09a2eca7ff35d4",
      "status": "extracted",
      "url": "https://kcturnerpresents.com/event/6463565/753718628/susan-werner"
     },
     {
      "bytes": 57570,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:28+00:00",
+     "fetched_at": "2026-11-07T06:14:30+00:00",
      "final_url": "https://kcturnerpresents.com/event/6503773/756780235/dragon-smoke-outdoor-venue-tented",
      "links": 2,
-     "sha256": "bf6a29edfbb05659c0af75c1b1a84ce7ac850cdd2b7b64dbb52a2aeca45e8eef",
+     "sha256": "f106375b02b1f139378bda0a75b21ccef8784ccf12b70e78b15d114f9de3da88",
      "status": "extracted",
      "url": "https://kcturnerpresents.com/event/6503773/756780235/dragon-smoke-outdoor-venue-tented"
     },
     {
      "bytes": 57299,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:29+00:00",
+     "fetched_at": "2026-11-07T06:14:31+00:00",
      "final_url": "https://kcturnerpresents.com/event/6508610/757287458/pokey-lafarge-sold-out",
      "links": 2,
-     "sha256": "a0b37f4b8681b3bfd05951b687a8772054e1f9ab331a0fc5cdc35347495d52a0",
+     "sha256": "248f4a0203e77a4e87665db720ca3c283214d5e7099b34fad036f22ff7742560",
      "status": "extracted",
      "url": "https://kcturnerpresents.com/event/6508610/757287458/pokey-lafarge-sold-out"
     },
     {
      "bytes": 57473,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:29+00:00",
+     "fetched_at": "2026-11-07T06:14:31+00:00",
      "final_url": "https://kcturnerpresents.com/event/6519854/758179852/roy-rogers-the-delta-rhythm-kings",
      "links": 2,
-     "sha256": "cd4c38b9bf787631600272639b024c514927b16ecf174b6e624f4b96e88c25ef",
+     "sha256": "48487000f2989823cc947fc96bdbfa9ed48be5127eef0dc1c03b2856f16de5bd",
      "status": "extracted",
      "url": "https://kcturnerpresents.com/event/6519854/758179852/roy-rogers-the-delta-rhythm-kings"
     },
     {
      "bytes": 57150,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:30+00:00",
+     "fetched_at": "2026-11-07T06:14:32+00:00",
      "final_url": "https://kcturnerpresents.com/event/6541730/759992945/lucy-kaplansky",
      "links": 1,
      "sha256": "703e6a4500eb85a19b5650f5ac76b9e7efaed40b7ab85bda1669b86965d88f47",
@@ -776,7 +776,7 @@
     {
      "bytes": 58092,
      "events": 1,
-     "fetched_at": "2026-11-06T22:44:31+00:00",
+     "fetched_at": "2026-11-07T06:14:33+00:00",
      "final_url": "https://kcturnerpresents.com/event/6561922/761783218/craig-finn-the-band-of-forgiveness-craig-finn-of-the-hold-steady",
      "links": 2,
      "sha256": "37a6614a466ae18d2441e592f67946a7b2e478333d673b4dddac743370eaf4e2",
@@ -793,13 +793,13 @@
   },
   "keys-jazz-bistro": {
    "error": null,
-   "kept": 37,
+   "kept": 39,
    "new": 0,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 37,
+   "raw": 39,
    "status": "ok",
    "warnings": null
   },
@@ -829,13 +829,13 @@
   },
   "little-hill-lounge": {
    "error": null,
-   "kept": 24,
+   "kept": 23,
    "new": 1,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 24,
+   "raw": 23,
    "status": "ok",
    "warnings": null
   },
@@ -956,7 +956,7 @@
    "pages": [
     {
      "error": "SSLError: HTTPSConnectionPool(host='www.outsound.org', port=443): Max retries exceeded with url: / (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERI",
-     "fetched_at": "2026-11-06T22:44:27+00:00",
+     "fetched_at": "2026-11-07T06:14:29+00:00",
      "status": "failed",
      "url": "https://www.outsound.org/"
     }
@@ -968,13 +968,13 @@
   },
   "rancho-nicasio": {
    "error": null,
-   "kept": 32,
+   "kept": 31,
    "new": 0,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 32,
+   "raw": 31,
    "status": "ok",
    "warnings": null
   },
@@ -992,9 +992,9 @@
   },
   "sf-folk-music-club": {
    "error": null,
-   "kept": 202,
+   "kept": 197,
    "new": 1,
-   "out_of_window": 50,
+   "out_of_window": 55,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
@@ -1030,16 +1030,18 @@
    ]
   },
   "songkick-bay-area": {
-   "error": "no Songkick page served (CDN cold)",
-   "kept": 0,
-   "new": 0,
+   "error": null,
+   "kept": 150,
+   "new": 1,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 0,
-   "status": "partial",
-   "warnings": null
+   "raw": 150,
+   "status": "ok",
+   "warnings": [
+    "partial: Songkick served 3 pages, refused 22 (HTTP 406 on CDN misses); coverage improves across runs"
+   ]
   },
   "stanford-live": {
    "error": null,
@@ -1130,13 +1132,13 @@
   },
   "throckmorton": {
    "error": null,
-   "kept": 23,
-   "new": 0,
+   "kept": 24,
+   "new": 1,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 23,
+   "raw": 24,
    "status": "ok",
    "warnings": null
   },
@@ -1154,13 +1156,13 @@
   },
   "ybca": {
    "error": null,
-   "kept": 20,
+   "kept": 19,
    "new": 0,
    "out_of_window": 0,
    "outside_region": 0,
    "pages": null,
    "pending_links": null,
-   "raw": 20,
+   "raw": 19,
    "status": "ok",
    "warnings": [
     "no date: Dream",
@@ -1194,19 +1196,18 @@
   }
  },
  "summary": {
-  "inventory_total": 4282,
-  "inventory_upcoming": 3341,
-  "merged_sources": 2,
-  "new_events": 19,
-  "run_id": "606fecf77f95",
-  "seconds": 343.3,
+  "inventory_total": 4313,
+  "inventory_upcoming": 3372,
+  "merged_sources": 28,
+  "new_events": 40,
+  "run_id": "da3db7ec5153",
+  "seconds": 366.5,
   "sources_due": 65,
   "sources_failed": [
-   "outsound",
-   "songkick-bay-area"
+   "outsound"
   ],
-  "sources_ok": 63,
-  "ts": "2026-11-06T22:44:11+00:00"
+  "sources_ok": 64,
+  "ts": "2026-11-07T06:14:13+00:00"
  },
- "ts": "2026-11-06T22:44:11+00:00"
+ "ts": "2026-11-07T06:14:13+00:00"
 }
