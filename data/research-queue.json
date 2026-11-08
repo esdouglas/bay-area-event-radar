@@ -1,7 +1,7 @@
 {
- "backlog": 1397,
+ "backlog": 1347,
  "count": 40,
- "generated_at": "2026-11-08T06:21:25+00:00",
+ "generated_at": "2026-11-08T13:42:04+00:00",
  "items": [
   {
    "city": "San Francisco",
@@ -35,6 +35,44 @@
    "start": "2026-11-21T20:00:00-08:00",
    "title": "Johnny Sansone Band",
    "url": "https://events.humanitix.com/johnny-sansone-band",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-22",
+   "description": "twin peaks themed burlesque show; ticket price TBD",
+   "fingerprint": "b6bc60fe6289",
+   "id": "ev_1da72b18f14b",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T21:00:00-08:00",
+   "title": "Poundcake Productions Burlesque Show",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-22",
+   "description": "Buy Tickets on Humanitix - Manring-Kassin-Burr hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.",
+   "fingerprint": "c28004c12a51",
+   "id": "ev_32d56dc9dd82",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T15:00:00-08:00",
+   "title": "Manring-Kassin-Burr",
+   "url": "https://events.humanitix.com/manring-kassin-burr-nov22",
    "venue": "The Back Room",
    "why_rules": [
     "intimate room: The Back Room (+14)",
@@ -84,46 +122,6 @@
     "intimate room: The Independent (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2027-03-19",
-   "description": "Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover",
-   "fingerprint": "502b27d70410",
-   "id": "ev_64261a706cee",
-   "other_urls": [],
-   "rules_score": 68.0,
-   "rules_tier": "strong",
-   "start": "2027-03-19T20:30:00-07:00",
-   "title": "Asanabenche",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-14",
-   "description": "",
-   "fingerprint": "cfd0645e8a56",
-   "id": "ev_b3184127bcd6",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T00:00:00-08:00",
-   "title": "Farm to Turntable-TBA",
-   "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/",
-   "venue": "Down Home Music",
-   "why_rules": [
-    "intimate room: Down Home Music (+14)",
-    "booking signal: Down Home Music (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "heuristic text extraction, unverified (-8)"
    ]
   },
   {
@@ -193,6 +191,26 @@
    ]
   },
   {
+   "city": "El Cerrito",
+   "date": "2027-03-19",
+   "description": "Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover",
+   "fingerprint": "502b27d70410",
+   "id": "ev_64261a706cee",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2027-03-19T20:30:00-07:00",
+   "title": "Asanabenche",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
    "city": "San Francisco",
    "date": "2026-11-14",
    "description": "The Cactus Blossoms/Margo Cilker @ The Chapel, 777 Valencia St., SF 9pm $$33.40",
@@ -212,6 +230,26 @@
     "roots_adjacent: country (+10)",
     "listed by a taste-aligned calendar (+12)",
     "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-14",
+   "description": "",
+   "fingerprint": "cfd0645e8a56",
+   "id": "ev_b3184127bcd6",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Farm to Turntable-TBA",
+   "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/",
+   "venue": "Down Home Music",
+   "why_rules": [
+    "intimate room: Down Home Music (+14)",
+    "booking signal: Down Home Music (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "heuristic text extraction, unverified (-8)"
    ]
   },
   {
@@ -296,44 +334,6 @@
     "roots_core: bluegrass (+22)",
     "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-22",
-   "description": "twin peaks themed burlesque show; ticket price TBD",
-   "fingerprint": "b6bc60fe6289",
-   "id": "ev_1da72b18f14b",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-22T21:00:00-08:00",
-   "title": "Poundcake Productions Burlesque Show",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-22",
-   "description": "Buy Tickets on Humanitix - Manring-Kassin-Burr hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.",
-   "fingerprint": "c28004c12a51",
-   "id": "ev_32d56dc9dd82",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-22T15:00:00-08:00",
-   "title": "Manring-Kassin-Burr",
-   "url": "https://events.humanitix.com/manring-kassin-burr-nov22",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -479,6 +479,25 @@
     "jazz_core: jazz (+18)",
     "intimate room: Kuumbwa Jazz (+14)",
     "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-22",
+   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+   "fingerprint": "034da5e2bd03",
+   "id": "ev_e6affe8ab12a",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-22T16:00:00-08:00",
+   "title": "Horseshoe Jam",
+   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-22/",
+   "venue": "The Lucky Horseshoe San Francisco",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -685,25 +704,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2027-01-30",
-   "description": "Beth Schenck; Kasey Knudsen; Raffi Garabadian; Cory Wright Original compositions for four saxophones. $25 cover charge (cash at the door, please) / BYOB Students $10 For a reservation, call the bookshop at 415-586-3733",
-   "fingerprint": "8baa5ced692d",
-   "id": "ev_c7801048f1f0",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2027-01-30T19:30:00-08:00",
-   "title": "Beth Schenck Saxophone Quartet",
-   "url": "https://birdbeckett.com/event/beth-schenck_2027-01-30/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
    "city": "Mill Valley",
    "date": "2027-01-24",
    "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
@@ -721,6 +721,25 @@
     "intimate room: Sweetwater Music Hall (+14)",
     "booking signal: Sweetwater Music Hall (+8)",
     "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-01-30",
+   "description": "Beth Schenck; Kasey Knudsen; Raffi Garabadian; Cory Wright Original compositions for four saxophones. $25 cover charge (cash at the door, please) / BYOB Students $10 For a reservation, call the bookshop at 415-586-3733",
+   "fingerprint": "8baa5ced692d",
+   "id": "ev_c7801048f1f0",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2027-01-30T19:30:00-08:00",
+   "title": "Beth Schenck Saxophone Quartet",
+   "url": "https://birdbeckett.com/event/beth-schenck_2027-01-30/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: saxophone (+18)",
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -803,25 +822,6 @@
     "jazz_core: jazz (+18)",
     "noise_tribute: tribute to (-18)",
     "intimate room: Kuumbwa Jazz (+14)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-05",
-   "description": "",
-   "fingerprint": "ab0fefa5f6c2",
-   "id": "ev_a66aee236437",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T20:00:00-08:00",
-   "title": "Prosthetics for Palestine and Watermelon Connections Freakyoke",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
    ]
   }
  ]
