@@ -278,6 +278,42 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_08e473f9e4de": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Bottom of the Hill: The Avengers, Pansy Division, Damage Party",
+    "url": "https://dice.fm/event/6a6799a18b02ba0001c3c81b"
+   }
+  ],
+  "fingerprint": "9e40506ad410",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Founding 1977 SF punk band, Penelope Houston (background knowledge)",
+    "name": "The Avengers",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Pioneering queercore band (background knowledge)",
+    "name": "Pansy Division",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Opener, not identified",
+    "name": "Damage Party",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Avengers, Penelope Houston's band and one of the founding 1977 San Francisco punk groups that opened for the Sex Pistols' last show, with East Bay queercore pioneers Pansy Division (background knowledge). Foundational Bay Area counterculture in a small room, though punk sits outside his stated roots and jazz taste.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Current lineup of the Avengers not checked."
+  ]
+ },
  "ev_09cec6dc1161": {
   "evidence": [
    {
@@ -542,6 +578,41 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Could be a DJ or themed night; performers unknown."
+  ]
+ },
+ "ev_159464424ef1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: New Orleans' Johnny Sansone Band, featuring John Fohl and Tom Worrell",
+    "url": "https://events.humanitix.com/johnny-sansone-band"
+   }
+  ],
+  "fingerprint": "317d0d5ec6af",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "New Orleans blues harmonica/accordion player and songwriter (background knowledge)",
+    "name": "Johnny Sansone",
+    "significance": "notable"
+   },
+   {
+    "known_for": "New Orleans guitarist, Dr. John band (background knowledge)",
+    "name": "John Fohl",
+    "significance": "local"
+   },
+   {
+    "known_for": "New Orleans keyboardist (per listing)",
+    "name": "Tom Worrell",
+    "significance": "local"
+   }
+  ],
+  "reason": "New Orleans singer, harmonica and accordion player Johnny Sansone with guitarist John Fohl (long-time Dr. John sideman) and keyboardist Tom Worrell, per the listing and background knowledge. Swampy Louisiana blues and roots in the tiny Back Room is a fun night, adjacent to rather than inside his core roots taste.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_160ffcf4381d": {
@@ -886,6 +957,26 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_1da72b18f14b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: twin peaks themed burlesque show; ticket price TBD",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "b6bc60fe6289",
+  "fit": 8,
+  "performers": [],
+  "reason": "A Twin Peaks themed burlesque show at Little Hill Lounge in El Cerrito. Burlesque, not music or theater he follows.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Ticket price TBD per listing."
+  ]
+ },
  "ev_1dfb22311ad4": {
   "evidence": [
    {
@@ -919,6 +1010,36 @@
    "Date and venue rest only on the Bluegrass Signal calendar listing, which could not be fetched; no Freight & Salvage page for Jan 16, 2027 was found by search.",
    "Band configuration (solo, Free Mexican Airforce, with Sam Grisman Project, etc.) unknown.",
    "Show time and price unknown."
+  ]
+ },
+ "ev_1f31486c43b2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Self Titled Tour | Please note – there is a delivery delay set for 2 weeks prior to show. VIP ticket will include: (1) admission ticket for the show, Read More",
+    "url": "https://www.theindependentsf.com/tm-event/stephen-day/"
+   }
+  ],
+  "fingerprint": "b6a629e6e69e",
+  "fit": 22,
+  "performers": [
+   {
+    "known_for": "Pop/soul singer-songwriter (background knowledge)",
+    "name": "Stephen Day",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Opener, not identified",
+    "name": "Elysia Biro",
+    "significance": "none"
+   }
+  ],
+  "reason": "Stephen Day is a young Georgia-raised pop and soul singer-songwriter on his 'Self Titled Tour' (background knowledge), with Elysia Biro opening. Mainstream pop-soul at the Independent, outside his roots, jazz and hip-hop taste.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_22fa154f8fe1": {
@@ -1253,6 +1374,26 @@
    "These are likely two separate ticketed events."
   ]
  },
+ "ev_29c8fe6b32a1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Cooler Heads Last Fridays",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "c425cff03d8f",
+  "fit": 20,
+  "performers": [],
+  "reason": "'Cooler Heads Last Fridays' is a monthly residency at Little Hill Lounge with no description in the listing. The name reads like a recurring DJ or house-band night, but nothing confirms who plays.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing has no description or performer names."
+  ]
+ },
  "ev_2bd09dd1f5e6": {
   "evidence": [
    {
@@ -1276,6 +1417,26 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_2c4a6722a1a6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: M 7:30pm: bluegrass/country jam, The Freight: 2020 Addison St, Berkeley",
+    "url": "https://www.sffmc.org/community-folk-calendar/"
+   }
+  ],
+  "fingerprint": "358ee1e5c70e",
+  "fit": 25,
+  "performers": [],
+  "reason": "A Monday 7:30pm bluegrass and country jam at the Freight in Berkeley, from the SFFMC community calendar. A participatory jam rather than a concert, though at his favorite kind of room.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Only of interest if he plays himself; venue and date parsed from calendar text."
   ]
  },
  "ev_2c5dae829b62": {
@@ -1657,6 +1818,43 @@
    "Not a performance; only of interest if he wants to play."
   ]
  },
+ "ev_32d56dc9dd82": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - Manring-Kassin-Burr hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.",
+    "url": "https://events.humanitix.com/manring-kassin-burr-nov22"
+   }
+  ],
+  "fingerprint": "c28004c12a51",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Fretless bass virtuoso, Windham Hill, Michael Hedges collaborator (background knowledge)",
+    "name": "Michael Manring",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Kassin",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Burr",
+    "significance": "none"
+   }
+  ],
+  "reason": "A trio led by name order with Michael Manring, the virtuoso fretless bassist known from his Windham Hill records and work with Michael Hedges (background knowledge), at the small Back Room on a Sunday afternoon. Likely an exploratory instrumental set; Kassin and Burr are not identified from the listing, so the fit depends on who they are.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing gives surnames only; the other two players are not identified.",
+   "Assumed Manring is Michael Manring, who also appears in another Back Room listing this month (Joel Harrison's In a Silent Way project)."
+  ]
+ },
  "ev_35235a54a0cc": {
   "evidence": [
    {
@@ -1940,6 +2138,26 @@
    "Whether Nikolai Shveitser plays his own set or backs Acker is unclear."
   ]
  },
+ "ev_3cddcf4b3b2f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-11-18/"
+   }
+  ],
+  "fingerprint": "a283ca862219",
+  "fit": 20,
+  "performers": [],
+  "reason": "The weekly all-levels East Bay Bluegrassers jam upstairs at Rockin' Robbie's in El Cerrito. A participatory jam, not a show.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Only of interest if he plays bluegrass himself, which is not known."
+  ]
+ },
  "ev_3e1268e27774": {
   "evidence": [
    {
@@ -2087,6 +2305,71 @@
    "Ticket wording on the label page is contradictory."
   ]
  },
+ "ev_41f953900576": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Francisca Valenzuela and Gabi Bravo at Rickshaw Stop at 2026-11-15T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43240648-francisca-valenzuela-at-rickshaw-stop"
+   }
+  ],
+  "fingerprint": "6a10be87b162",
+  "fit": 22,
+  "performers": [
+   {
+    "known_for": "Chilean pop singer-songwriter (background knowledge)",
+    "name": "Francisca Valenzuela",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Opener",
+    "name": "Gabi Bravo",
+    "significance": "none"
+   }
+  ],
+  "reason": "Francisca Valenzuela is a Chilean pop singer-songwriter, with Gabi Bravo (background knowledge). Latin pop at Rickshaw Stop, outside his taste.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_425799833e78": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Drag the River at Ivy Room on Nov 14, 2026",
+    "url": "https://www.jambase.com/show/drag-the-river-ivy-room-20261114"
+   }
+  ],
+  "fingerprint": "bc5797f44168",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Alt-country band, Chad Price and Jon Snodgrass (background knowledge)",
+    "name": "Drag the River",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Swingin' Utters guitarist, solo folk/country (background knowledge)",
+    "name": "Darius Koski",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Opener, not identified",
+    "name": "LUNCH",
+    "significance": "none"
+   }
+  ],
+  "reason": "Drag the River is the long-running alt-country band of Chad Price (All) and Jon Snodgrass, and Darius Koski is the Swingin' Utters guitarist who makes folk and country records on his own, here with a full band (background knowledge). Punk-rooted Americana at the Ivy Room, adjacent to his countercultural Americana taste.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_432df2be2e60": {
   "evidence": [
    {
@@ -2137,6 +2420,31 @@
    "Date and time only from the queue item; primary page not read"
   ]
  },
+ "ev_45ee6bc0d476": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Contemporary jazz pianist and composer",
+    "url": "https://yoshis.com/events/buy-tickets/brian-simpson-2/detail"
+   }
+  ],
+  "fingerprint": "172720cb5b81",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Smooth jazz pianist (background knowledge)",
+    "name": "Brian Simpson",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Brian Simpson is a contemporary (smooth) jazz pianist (background knowledge) at Yoshi's. Polished smooth jazz, not the adventurous improvised jazz he looks for.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_463902826f67": {
   "evidence": [
    {
@@ -2164,6 +2472,42 @@
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": []
+ },
+ "ev_46fe21770ab9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Please note – there is a delivery delay set for 2 weeks prior to show.",
+    "url": "https://www.theindependentsf.com/tm-event/sean-hayes/"
+   }
+  ],
+  "fingerprint": "07a10270d7ce",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "SF folk-soul singer-songwriter (background knowledge)",
+    "name": "Sean Hayes",
+    "significance": "local"
+   },
+   {
+    "known_for": "SF singer-songwriter (background knowledge)",
+    "name": "Etienne de Rocher",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "KATZROAR",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sean Hayes is a long-time San Francisco singer-songwriter known for soulful, rhythmic folk ('Powerful Man', background knowledge), with KATZROAR and SF songwriter Etienne de Rocher. A billing called 'Haunted Shed' suggests a themed local-scene night at the Independent; solid local roots-soul, not a must.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Meaning of 'Haunted Shed' in the title is not explained in the listing."
+  ]
  },
  "ev_49ee9b2a2593": {
   "evidence": [
@@ -2524,6 +2868,32 @@
    "Opener unknown."
   ]
  },
+ "ev_56c3a783f593": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The three-time, GRAMMY-winning Spanish Harlem Orchestra is one of the finest music ensembles around. They have performed at many of the great performing arts centers, festivals, and venues around the world. Salsa Navidad is a show dedicated to classic Latinx music as well as select American Christmas classics done in a salsa style. Part of the show features the Puerto Rican Christmas style known a",
+    "url": "https://www.kuumbwajazz.org/calendar/spanish-harlem-orchestra-salsa-navidad-7-pm/"
+   }
+  ],
+  "fingerprint": "a8eca29d207b",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Grammy-winning NY salsa orchestra (per listing)",
+    "name": "Spanish Harlem Orchestra",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Spanish Harlem Orchestra is a three-time Grammy-winning New York salsa big band, here with a holiday 'Salsa Navidad' show at Kuumbwa in Santa Cruz. Excellent musicianship but salsa and Christmas fare, and a long drive from Oakland.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Two sets listed (7pm and 9pm)."
+  ]
+ },
  "ev_56c8cc18b12d": {
   "evidence": [
    {
@@ -2796,6 +3166,31 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_5b12987710e3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Best experienced live, MARIS ensures audiences feel free to be their happiest, truest selves, blending heartland rock with glam-pop bombast, MARIS crafts arena-sized, sugar-rush choruses built around elastic vocals and diaristic songwriting. MARIS is proud to partner with LIFEBEAT, a program of The Elizabeth Taylor AIDS Foundation, on her upcoming tour. $1 from every ticket sold will benefit the..",
+    "url": "https://cafedunord.com/shows/2026-11-13-maris"
+   }
+  ],
+  "fingerprint": "222cd36c75ff",
+  "fit": 12,
+  "performers": [
+   {
+    "known_for": "Pop singer-songwriter (per listing)",
+    "name": "MARIS",
+    "significance": "none"
+   }
+  ],
+  "reason": "MARIS is a heartland-rock and glam-pop singer-songwriter on a national tour, per the listing. Arena-style pop at Cafe du Nord, outside his taste.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_5b4be1733d61": {
   "evidence": [
    {
@@ -3001,6 +3396,36 @@
    "Recurring residency; this date is one of many."
   ]
  },
+ "ev_5e2e372857e3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Please note – there is a delivery delay set for 2 weeks prior to show. Artist Presale: 8/19 at 10am",
+    "url": "https://www.theindependentsf.com/tm-event/whitmer-thomas/"
+   }
+  ],
+  "fingerprint": "72024759087f",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Comedian/musician (background knowledge)",
+    "name": "Whitmer Thomas",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Comedian/actor (background knowledge)",
+    "name": "Clay Tatum",
+    "significance": "local"
+   }
+  ],
+  "reason": "Whitmer Thomas is a comedian and musician (HBO special 'The Golden One') and Clay Tatum is a comedian and actor (background knowledge). Essentially a comedy-music show, which he does not seek out.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_5ef1ec6dd16e": {
   "evidence": [
    {
@@ -3160,6 +3585,32 @@
    "Santa Cruz is about 75 miles from Oakland; SF date at The Chapel on 2027-01-10 (ev_77216bb9cb0c) per earlier research.",
    "Ticket status for 2027 unknown; prior Jan 2026 Kuumbwa date sold out (inference: buy early).",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_64261a706cee": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "502b27d70410",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Funk/soul/Latin fusion band (per listing)",
+    "name": "Asanabenche",
+    "significance": "none"
+   }
+  ],
+  "reason": "Asanabenche is a local band blending funk, soul, jazz, Caribbean and Latin influences, playing a $10 night at Little Hill Lounge. Not a group I recognize; reads as a groove bar band rather than adventurous improvised jazz.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Queue date is 2027-03-19, unusually far out for a bar listing; the year may be mis-inferred."
   ]
  },
  "ev_64803ab3def8": {
@@ -3633,6 +4084,36 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_71c883eda7a0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hallelujah! The Songs of Leonard Cohen performed by Dan Frechette on guitar, Laurel Thomsen on violin, Dan Robbins on bass, and Bruce Handloff on drums. A benefit concert for Chadeish Yameinu – Jewish Renewal of Santa Cruz Dan & Laurel Website info/tickets/questions: 831-295-8467 | rsvp@cysantacruz.com",
+    "url": "https://www.kuumbwajazz.org/calendar/chadeish-yameinu-presents-hallelujah-the-songs-of-leonard-cohen-featuring-the-dan-laurel-quartet/"
+   }
+  ],
+  "fingerprint": "723eaa8209cf",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Guitarist (per listing)",
+    "name": "Dan Frechette",
+    "significance": "local"
+   },
+   {
+    "known_for": "Violinist (per listing)",
+    "name": "Laurel Thomsen",
+    "significance": "local"
+   }
+  ],
+  "reason": "A Leonard Cohen songbook benefit concert by the Dan & Laurel Quartet in Santa Cruz. A tribute set by a local group, far from Oakland.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_734039646e89": {
   "evidence": [
    {
@@ -3938,6 +4419,48 @@
   "uncertainties": [
    "Chapel primary page not fetched; date from aggregator plus queue.",
    "Their Jan 2026 Kuumbwa show sold out (inference: buy early)."
+  ]
+ },
+ "ev_77d61cd5629a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dedicated to BRAZILIAN music by women composers, Som Dela (\"her sound\" in Portuguese) is a new quartet composed of four outstanding Bay Area musicians: Jane Lenoir, flute; Irene Sazer, violin; Rebecca Hass, piano; and Michaelle Goerlitz, percussion. All virtuosic and eclectic musicians and composers in Brazilian music and other improvised styles, they have forged well-earned careers in many divers",
+    "url": "https://birdbeckett.com/event/som-dela_2026-03-13/"
+   }
+  ],
+  "fingerprint": "5c5f01a4f8b1",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Violinist, founding Turtle Island String Quartet member (background knowledge)",
+    "name": "Irene Sazer",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area Brazilian/Latin percussionist (background knowledge)",
+    "name": "Michaelle Goerlitz",
+    "significance": "local"
+   },
+   {
+    "known_for": "Flutist (per listing)",
+    "name": "Jane Lenoir",
+    "significance": "local"
+   },
+   {
+    "known_for": "Pianist (per listing)",
+    "name": "Rebecca Hass",
+    "significance": "local"
+   }
+  ],
+  "reason": "Som Dela is a new Bay Area quartet playing Brazilian music by women composers, with Irene Sazer on violin (a founding member of the Turtle Island String Quartet, background knowledge), Michaelle Goerlitz on percussion, Jane Lenoir on flute and Rebecca Hass on piano. Intimate, improvising chamber-Brazilian music at Bird & Beckett, a lovely room, but closer to world-jazz than his core roots or adventurous jazz.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The queue date is 2027-03-13 but the URL slug says 2026-03-13; this may be a past event with a mis-inferred year. Check before treating it as upcoming.",
+   "The rules hit 'ballet' and 'trio' look like false keyword matches; this is a quartet with no dance."
   ]
  },
  "ev_78f9dc38108a": {
@@ -4942,6 +5465,26 @@
    "Start time and price not confirmed; Ashkenaz page not checked."
   ]
  },
+ "ev_8a1756c741a7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-15/"
+   }
+  ],
+  "fingerprint": "572f7dbbfc09",
+  "fit": 25,
+  "performers": [],
+  "reason": "A weekly participatory bluegrass jam at the Lucky Horseshoe in SF, where players must lead a song on stage. It is a jam for pickers rather than a concert.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Only of interest if he plays bluegrass himself, which is not known."
+  ]
+ },
  "ev_8a267964e227": {
   "evidence": [
    {
@@ -5830,6 +6373,62 @@
    "Program, performers and whether it is a family event are not in the listing."
   ]
  },
+ "ev_a931c01bcd44": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Cactus Blossoms/Margo Cilker @ The Chapel, 777 Valencia St., SF 9pm $$33.40",
+    "url": "https://www.hickswithsticks.com/calendar/"
+   }
+  ],
+  "fingerprint": "aec2b4efcf41",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Close-harmony country brothers (background knowledge)",
+    "name": "The Cactus Blossoms",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Oregon Americana songwriter (background knowledge)",
+    "name": "Margo Cilker",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Cactus Blossoms are Minneapolis brothers Page Burkum and Jack Torrey, known for Everly Brothers-style close-harmony country, and Margo Cilker is an Oregon songwriter with well-reviewed rootsy records (background knowledge). A strong classic-country harmony bill at the Chapel; good Americana, though not the old-time or freak-folk end he loves most.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing says 9pm, price $33.40; the radar date shows midnight, so exact night (Nov 13 vs 14) should be checked."
+  ]
+ },
+ "ev_ab2cf4c83f2d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dinner Show with PARDON THE INTERRUPTION. Roaring out of the fog-shrouded hills of Sonoma and drowning out the chatter, New Wave/Prog-Pop troubadours Pardon the Interruption (aka PTI) are taking their place — asserting their voice — in the storied musical conversation of the San Francisco Bay Area.",
+    "url": "https://ranchonicasio.com/event/pardon-the-interruption-4/"
+   }
+  ],
+  "fingerprint": "ee94243f48af",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Sonoma new wave/prog-pop band (per listing)",
+    "name": "Pardon the Interruption",
+    "significance": "none"
+   }
+  ],
+  "reason": "Pardon the Interruption is a Sonoma new wave and prog-pop band playing a dinner show at Rancho Nicasio. The 'musical' rules hit is a false match; this is a local pop-rock band.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_ab66cd9adcf3": {
   "evidence": [
    {
@@ -6241,6 +6840,26 @@
    "Record merges two different events; Nov 1 3pm appears to be Andrew Duhon, and the Parlor Greens w/ The GT's date is unconfirmed",
    "Could not find a November Parlor Greens date in search",
    "No primary page fetched"
+  ]
+ },
+ "ev_b3184127bcd6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Farm to Turntable-TBA",
+    "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/"
+   }
+  ],
+  "fingerprint": "cfd0645e8a56",
+  "fit": 30,
+  "performers": [],
+  "reason": "A free in-store 'Farm to Turntable' performance at Down Home Music in El Cerrito with the performer still TBA. Down Home's in-stores can be great roots sets, but nothing to judge until a name is posted.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer TBA; the listing gives no other text."
   ]
  },
  "ev_b3a7dad114f7": {
@@ -6958,6 +7577,32 @@
   "tier": "low",
   "uncertainties": [
    "Style of the series is inference from the host and series name."
+  ]
+ },
+ "ev_c7bfe8183c73": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Cafe Du Nord: 454",
+    "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/"
+   }
+  ],
+  "fingerprint": "098167eddb32",
+  "fit": 22,
+  "performers": [
+   {
+    "known_for": "Florida rapper (background knowledge)",
+    "name": "454",
+    "significance": "notable"
+   }
+  ],
+  "reason": "454 is a Florida rapper from the current internet-era underground (background knowledge), playing Cafe du Nord tonight. Not the golden-age or Bay Area underground hip-hop he follows.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Event is today (8 Nov), so likely too late regardless."
   ]
  },
  "ev_c85e14ab0010": {
@@ -7914,6 +8559,32 @@
    "Genre details are background knowledge."
   ]
  },
+ "ev_dde7842ecfb5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: <span><span>Music at 8:30pm; tickets $10</span></span>",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "f9b030394f01",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Brody Schenk",
+    "significance": "none"
+   }
+  ],
+  "reason": "Brody Schenk plays a $10 night at Little Hill Lounge in El Cerrito. I do not recognize the name and the listing gives no genre, so this cannot be judged yet.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing gives no genre or description."
+  ]
+ },
  "ev_df0376b8d3c8": {
   "evidence": [
    {
@@ -8245,6 +8916,26 @@
    "Kuumbwa page not fetched.",
    "Search results hint at a nearby SF (SFJAZZ) date around Mar 6 2027 (inference).",
    "Grammy and Woody Guthrie claims from general knowledge, not a fetched page."
+  ]
+ },
+ "ev_e6affe8ab12a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-22/"
+   }
+  ],
+  "fingerprint": "034da5e2bd03",
+  "fit": 25,
+  "performers": [],
+  "reason": "A weekly participatory bluegrass jam at the Lucky Horseshoe in SF, where players must lead a song on stage. It is a jam for pickers rather than a concert.",
+  "researched_at": "2026-11-08T22:43:25+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Only of interest if he plays bluegrass himself, which is not known."
   ]
  },
  "ev_e71e25f84768": {
