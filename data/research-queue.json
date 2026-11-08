@@ -1,8 +1,47 @@
 {
- "backlog": 1385,
+ "backlog": 1397,
  "count": 40,
- "generated_at": "2026-11-07T22:46:16+00:00",
+ "generated_at": "2026-11-08T06:21:25+00:00",
  "items": [
+  {
+   "city": "San Francisco",
+   "date": "2027-03-13",
+   "description": "Dedicated to BRAZILIAN music by women composers, Som Dela (\"her sound\" in Portuguese) is a new quartet composed of four outstanding Bay Area musicians: Jane Lenoir, flute; Irene Sazer, violin; Rebecca Hass, piano; and Michaelle Goerlitz, percussion. All virtuosic and eclectic musicians and composers in Brazilian music and other improvised styles, they have forged well-earned careers in many divers",
+   "fingerprint": "5c5f01a4f8b1",
+   "id": "ev_77d61cd5629a",
+   "other_urls": [],
+   "rules_score": 75.0,
+   "rules_tier": "strong",
+   "start": "2027-03-13T19:30:00-08:00",
+   "title": "Som Dela",
+   "url": "https://birdbeckett.com/event/som-dela_2026-03-13/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: improvised (+18)",
+    "dance_arts: ballet (+10)",
+    "intimacy: trio (+5)",
+    "intimate room: Bird & Beckett (+14)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-21",
+   "description": "New Orleans' Johnny Sansone Band, featuring John Fohl and Tom Worrell",
+   "fingerprint": "317d0d5ec6af",
+   "id": "ev_159464424ef1",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T20:00:00-08:00",
+   "title": "Johnny Sansone Band",
+   "url": "https://events.humanitix.com/johnny-sansone-band",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-11-12",
@@ -275,6 +314,25 @@
    "why_rules": [
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-22",
+   "description": "Buy Tickets on Humanitix - Manring-Kassin-Burr hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.",
+   "fingerprint": "c28004c12a51",
+   "id": "ev_32d56dc9dd82",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T15:00:00-08:00",
+   "title": "Manring-Kassin-Burr",
+   "url": "https://events.humanitix.com/manring-kassin-burr-nov22",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
     "listed by a taste-aligned calendar (+8)"
    ]
   },
@@ -764,68 +822,6 @@
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-12",
-   "description": "blues music and jam session; free soul food and entry",
-   "fingerprint": "6ec8118e1c86",
-   "id": "ev_9ddb530547f8",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 46.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-12T19:00:00-08:00",
-   "title": "Jeffery Dukes & Technique feat. Lady E",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "roots_adjacent: blues (+10)",
-    "noise_other: jam session (-25)",
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-06",
-   "description": "",
-   "fingerprint": "43eecc89c19e",
-   "id": "ev_bacea71f56f6",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-06T20:00:00-08:00",
-   "title": "Michael J. O'Connor",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-07",
-   "description": "Thee Stork Club: The Grease Traps, Tori Roze & the Hot Mess",
-   "fingerprint": "3e75530e9075",
-   "id": "ev_03cfaa5584ac",
-   "other_urls": [
-    "https://www.jambase.com/show/the-grease-traps-thee-stork-club-20261107"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-07T00:00:00-08:00",
-   "title": "The Grease Traps, Tori Roze & the Hot Mess",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Thee Stork Club",
-   "why_rules": [
-    "intimate room: Thee Stork Club (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
    ]
   }
  ]
