@@ -1,509 +1,30 @@
 {
- "backlog": 1314,
+ "backlog": 1290,
  "count": 40,
- "generated_at": "2026-11-09T22:34:43+00:00",
+ "generated_at": "2026-11-09T22:48:08+00:00",
  "items": [
   {
-   "city": "Berkeley",
-   "date": "2026-11-15",
-   "description": "What happens when you combine members of the legendary Good Ol' Persons , the powerhouse Kathy Kallick Band , and some of the most active jammers and teachers in the Bay Area? This first-time collaboration includes ... Kathy Kallick (guitar) and Bethany Sorkey (bass) from the Good Ol' Persons ... Kathy, Greg Booth (dobro), & Tom Bekeny (mandolin) from the Kathy Kallick Band ... and jam enthusiasts",
-   "fingerprint": "10695dc6fd00",
-   "id": "ev_23d9adba60d6",
-   "other_urls": [],
-   "rules_score": 95.5,
-   "rules_tier": "strong",
-   "start": "2026-11-15T13:00:00-08:00",
-   "title": "Concert at The Monkey House",
-   "url": "https://californiabluegrass.org/event/concert-at-the-monkey-house/",
-   "venue": "The Monkey House",
-   "why_rules": [
-    "seed artist: Kathy Kallick (+8)",
-    "roots_core: bluegrass, mandolin, dobro (+33)",
-    "roots_adjacent: country (+10)",
-    "legacy: legendary (+14)"
-   ]
-  },
-  {
-   "city": "Nevada City",
-   "date": "2026-11-13",
-   "description": "We have a great night planned that will showcase three of the up and coming all acoustic musicians and bands in Nevada county! Black Barn Trio The New Neighbors Mel Biesecker The bands will be playing a fun mix of classic country, bluegrass, Americana, and original music. 3 acts for $10?!! What a bargain! Come out and support the growing acoustic music scene in our county",
-   "fingerprint": "2c8ad7184f43",
-   "id": "ev_0fe61cbd2415",
-   "other_urls": [],
-   "rules_score": 72.5,
-   "rules_tier": "strong",
-   "start": "2026-11-13T19:00:00-08:00",
-   "title": "Black Barn Trio, The New Neighbors, and Mel Biesecker",
-   "url": "https://californiabluegrass.org/event/black-barn-trio-the-new-neighbors-and-mel-biesecker/",
-   "venue": "Miners Harmony Music",
-   "why_rules": [
-    "roots_core: bluegrass, acoustic music (+28)",
-    "roots_adjacent: americana, country, acoustic (+15)",
-    "intimacy: trio (+5)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-13",
-   "description": "",
-   "fingerprint": "1faf289bf881",
-   "id": "ev_4c4500c80268",
-   "other_urls": [],
-   "rules_score": 55.0,
-   "rules_tier": "strong",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "Jazz Mafia: BRASS & BOWS",
-   "url": "https://allevents.in/oakland/jazz-mafia-strings/100001999283418524",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: The Sound Room (+14)"
-   ]
-  },
-  {
-   "city": "Nevada City",
-   "date": "2026-12-03",
-   "description": "All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
-   "fingerprint": "274f1ed9ba55",
-   "id": "ev_de0b7dc59043",
-   "other_urls": [],
-   "rules_score": 73.0,
-   "rules_tier": "strong",
-   "start": "2026-12-03T18:00:00-08:00",
-   "title": "First Thursday Bluegrass(ish) Jam at the Deer Creek Bar and Grill",
-   "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2026-12-03/",
-   "venue": "Deer Creek Bar and Grill",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "roots_adjacent: folk, americana, country (+15)",
-    "theater_core: musical (+14)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-22",
-   "description": "Buy Tickets on Humanitix - SPAGHETTI hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.",
-   "fingerprint": "a30b4ded5da9",
-   "id": "ev_00c5aa37985b",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-22T19:00:00-08:00",
-   "title": "SPAGHETTI",
-   "url": "https://events.humanitix.com/spaghetti-nov22",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Nevada City",
-   "date": "2027-01-07",
-   "description": "All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
-   "fingerprint": "982516906861",
-   "id": "ev_f9f54b16587f",
-   "other_urls": [],
-   "rules_score": 73.0,
-   "rules_tier": "strong",
-   "start": "2027-01-07T18:00:00-08:00",
-   "title": "First Thursday Bluegrass(ish) Jam at the Deer Creek Bar and Grill",
-   "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-01-07/",
-   "venue": "Deer Creek Bar and Grill",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "roots_adjacent: folk, americana, country (+15)",
-    "theater_core: musical (+14)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-28",
-   "description": "Buy Tickets on Humanitix - Macy Blackman & the Mighty Fines hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday November 28th 2026. Find event information.",
-   "fingerprint": "666de46dbef5",
-   "id": "ev_6d9c704397a8",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-28T20:00:00-08:00",
-   "title": "Macy Blackman & the Mighty Fines",
-   "url": "https://events.humanitix.com/macy-blackman-and-the-mighty-fines-sept26",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
    "city": "San Francisco",
-   "date": "2027-02-09",
-   "description": "Rhiannon Giddens at The Fillmore at 2027-02-09T20:00:00-0800",
-   "fingerprint": "8f7524478e78",
-   "id": "ev_ad3b52f6b1f9",
-   "other_urls": [
-    "https://www.bgsignal.com/concerts--festivals.html",
-    "https://sites.google.com/site/davbrown2/oldtimesf",
-    "https://www.bgsignal.com/concerts--festivals.html"
-   ],
-   "rules_score": 85.0,
-   "rules_tier": "exceptional",
-   "start": "2027-02-09T20:00:00-08:00",
-   "title": "Rhiannon Giddens",
-   "url": "https://www.songkick.com/concerts/43096417-rhiannon-giddens-at-fillmore",
-   "venue": "The Fillmore",
-   "why_rules": [
-    "seed artist: Rhiannon Giddens (+35)",
-    "listed by a taste-aligned calendar (+18)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
    "date": "2026-11-11",
-   "description": "French acoustic guitar virtuoso, vocalist, and composer Pierre Bensusan , surnamed \"Mister DADGAD\", has taken his unique sound to all corners of the globe. Winner of the Independent Music Award for his triple live album \"Encore\", voted Best World Music Guitarist by Guitar Player Magazine readers' Poll, winner of the Rose d'Or at the Montreux Festival for his debut album, Pierre is recognized as on",
-   "fingerprint": "a3dc7d215d09",
-   "id": "ev_fc34801cb484",
-   "other_urls": [],
-   "rules_score": 55.0,
-   "rules_tier": "strong",
-   "start": "2026-11-11T19:30:00-08:00",
-   "title": "Pierre Bensusan – The Infinite Guitar",
-   "url": "https://www.kuumbwajazz.org/calendar/pierre-bensusan-the-infinite-guitar/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "roots_adjacent: acoustic (+10)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-29",
-   "description": "",
-   "fingerprint": "637d4ff900cb",
-   "id": "ev_762e2f34e32e",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-29T20:00:00-08:00",
-   "title": "Gian Achen",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-02-04",
-   "description": "Nicole McCabe is a genre-defying saxophonist and composer bringing the expressive power of modern jazz into dialogue with the sonic worlds of electronic, indie, and experimental music. Through her work as a bandleader, collaborator, and composer, Nicole McCabe continues to expand the possibilities of the saxophone in contemporary music. With a voice that honors tradition while pushing boldly into ",
-   "fingerprint": "845d6e4f84b5",
-   "id": "ev_30c809f01b96",
-   "other_urls": [],
-   "rules_score": 69.0,
-   "rules_tier": "strong",
-   "start": "2027-02-04T19:00:00-08:00",
-   "title": "Nicole McCabe Quartet",
-   "url": "https://www.kuumbwajazz.org/calendar/nicole-mccabe-quartet-2/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz, experimental, saxophone (+27)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-18",
-   "description": "Sueco and Jeris Johnson at Great American Music Hall at 2026-11-18T20:00:00-0800",
-   "fingerprint": "0bbbb9c6e779",
-   "id": "ev_d5ab48e539dc",
+   "description": "Bottom of the Hill: Loercase, Shearling, Wife",
+   "fingerprint": "8712f01419ec",
+   "id": "ev_1c40566a0840",
    "other_urls": [
-    "https://wl.seetickets.us/event/sueco/698670?afflky=GreatAmericanMusicHall"
+    "http://www.bottomofthehill.com/20261111.html",
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+    "https://www.jambase.com/show/lowercase-bottom-of-the-hill-20261111"
    ],
-   "rules_score": 56.0,
+   "rules_score": 57.0,
    "rules_tier": "strong",
-   "start": "2026-11-18T20:00:00-08:00",
-   "title": "Sueco",
-   "url": "https://www.songkick.com/concerts/43323135-sueco-at-great-american-music-hall",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "hiphop_classic: hip hop, hip-hop (+15)",
-    "intimate room: Great American Music Hall (+14)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-30",
-   "description": "Beth Schenck; Kasey Knudsen; Raffi Garabadian; Cory Wright Original compositions for four saxophones. $25 cover charge (cash at the door, please) / BYOB Students $10 For a reservation, call the bookshop at 415-586-3733",
-   "fingerprint": "8baa5ced692d",
-   "id": "ev_c7801048f1f0",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2027-01-30T19:30:00-08:00",
-   "title": "Beth Schenck Saxophone Quartet",
-   "url": "https://birdbeckett.com/event/beth-schenck_2027-01-30/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Petaluma",
-   "date": "2027-01-18",
-   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
-   "fingerprint": "13af6c0fb450",
-   "id": "ev_104f2c9ec683",
-   "other_urls": [],
-   "rules_score": 71.0,
-   "rules_tier": "strong",
-   "start": "2027-01-18T18:00:00-08:00",
-   "title": "Garage Jam",
-   "url": "https://californiabluegrass.org/event/garage-jam/2027-01-18/",
-   "venue": "Out West Garage",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "roots_adjacent: folk (+10)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-12-31",
-   "description": "Hot Buttered Rum at Sweetwater Music Hall on Dec 31, 2026",
-   "fingerprint": "1ddb8a4d61ee",
-   "id": "ev_1d85bb849ea5",
-   "other_urls": [
-    "https://www.jambase.com/show/hot-buttered-rum-sweetwater-music-hall-20261231",
-    "https://www.jambase.com/show/hot-buttered-rum-sweetwater-music-hall-20261231",
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 68.0,
-   "rules_tier": "strong",
-   "start": "2026-12-31T20:00:00-08:00",
-   "title": "New Year's Eve Party with Hot Buttered Rum plus Yoseff Tucker and the Bow Ties",
-   "url": "https://sweetwatermusichall.org/event/new-years-eve-party-with-hot-buttered-rum-plus-yoseff-tucker-and-the-bow-ties/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+14)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Orangevale",
-   "date": "2026-12-13",
-   "description": "The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. Join us Sunday, August 13 for a fun musical time. We'll have a jam session of musicians of all levels playing. We're dedicated to preserving and playing authentic old-time fiddle tunes from many traditions, including Old Time, Bluegrass, Celtic, Americana, folk. Admission is free, family ",
-   "fingerprint": "7b4d7a78d4e7",
-   "id": "ev_616fa2986f82",
-   "other_urls": [],
-   "rules_score": 68.0,
-   "rules_tier": "strong",
-   "start": "2026-12-13T13:00:00-08:00",
-   "title": "California State Old Time Fiddler's Association Jam",
-   "url": "https://californiabluegrass.org/event/california-state-old-time-fiddlers-association-jam/2026-12-13/",
-   "venue": "Orangevale Grange Hall",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass, fiddle (+38)",
-    "roots_adjacent: folk, americana (+12)",
-    "theater_core: musical (+14)",
-    "noise_other: jam session (-25)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2027-01-06",
-   "description": "Jan. 6: AJ Frankel & Maverick Bluegrass - Blondies, SF",
-   "fingerprint": "287cb1fa4cd2",
-   "id": "ev_a5281a240d3a",
-   "other_urls": [],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2027-01-06T00:00:00-08:00",
-   "title": "AJ Frankel & Maverick Bluegrass",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Blondies, SF",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "2 independent sources (+4)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2027-01-24",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "fe2fd40408b0",
-   "id": "ev_f0d974bb98d2",
-   "other_urls": [],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2027-01-24T12:00:00-08:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-01-24/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-11",
-   "description": "Yes to the dance this month!! We can have the dance AND then go to the CBA Camp and Festival... EVERY 2nd FRIDAY of the MONTH ~ at the Polish Club, 3040 22nd St @ Shotwell, in SF. Bike & Bart friendly and ALL are welcome!! Dance @8:00 Always a live String Band & our Dance Caller teaches all the dances ! Pre-dance beginners lesson and Old-time jam. Come with or without a partner, bring your pals! d",
-   "fingerprint": "a8dc37d6add9",
-   "id": "ev_138d58b3c040",
-   "other_urls": [
-    "https://www.bgsignal.com/concerts--festivals.html",
-    "https://www.bgsignal.com/concerts--festivals.html"
-   ],
-   "rules_score": 59.5,
-   "rules_tier": "strong",
-   "start": "2026-12-11T20:00:00-08:00",
-   "title": "Feral Friday Square Dance at Polish Club",
-   "url": "https://californiabluegrass.org/event/__trashed/2026-12-11/",
-   "venue": "The Polish Club",
-   "why_rules": [
-    "roots_core: old-time, old time, string band, square dance (+38)",
-    "noise_other: lesson, camp (-25)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-14",
-   "description": "Dec. 14: Jimmy Touzel Bluegrass Explosion - Blondie's, SF",
-   "fingerprint": "8e2d6e5f68f5",
-   "id": "ev_df865e2412b6",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-12-14T00:00:00-08:00",
-   "title": "Jimmy Touzel Bluegrass Explosion",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Blondie's, SF",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-11-16",
-   "description": "With a career spanning more than twenty years and six studio albums, Las Migas have become one of the most internationally acclaimed Spanish bands. They have performed in more than fifty countries and have been nominated four times for the Latin GRAMMY Award in the Best Flamenco Album category (2016, 2022, 2024, and 2025), winning the award twice. They have also received the prestigious MIN Award ",
-   "fingerprint": "7d826700938d",
-   "id": "ev_922d62c3bff8",
-   "other_urls": [],
-   "rules_score": 55.0,
-   "rules_tier": "strong",
-   "start": "2026-11-16T19:00:00-08:00",
-   "title": "Las Migas",
-   "url": "https://www.kuumbwajazz.org/calendar/las-migas/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "roots_adjacent: flamenco (+10)",
-    "jazz_core: jazz (+18)",
-    "noise_tribute: tribute to (-18)",
-    "intimate room: Kuumbwa Jazz (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-16",
-   "description": "Picture Atlantic and Field Medic at Bottom of the Hill at 2026-11-16T19:00:00-0800",
-   "fingerprint": "bfeb83913b20",
-   "id": "ev_cf431bc6f5ce",
-   "other_urls": [
-    "http://www.bottomofthehill.com/20261116.html",
-    "https://dice.fm/event/6ab5cfe1f25e4900010a227d"
-   ],
-   "rules_score": 55.0,
-   "rules_tier": "strong",
-   "start": "2026-11-16T19:00:00-08:00",
-   "title": "Finish Ticket / Picture Atlantic / Field Medic",
-   "url": "https://www.songkick.com/concerts/43434342-picture-atlantic-at-bottom-of-the-hill",
+   "start": "2026-11-11T20:00:00-08:00",
+   "title": "Loercase, Shearling, Wife",
+   "url": "https://dice.fm/event/6a8e0c44c2a75900014d1c6d",
    "venue": "Bottom of the Hill",
    "why_rules": [
-    "roots_adjacent: folk (+10)",
+    "jazz_core: experimental (+18)",
+    "noise_genre: hardcore (-22)",
     "intimate room: Bottom of the Hill (+14)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-05",
-   "description": "",
-   "fingerprint": "ab0fefa5f6c2",
-   "id": "ev_a66aee236437",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T20:00:00-08:00",
-   "title": "Prosthetics for Palestine and Watermelon Connections Freakyoke",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-12",
-   "description": "blues music and jam session; free soul food and entry",
-   "fingerprint": "6ec8118e1c86",
-   "id": "ev_9ddb530547f8",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 46.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-12T19:00:00-08:00",
-   "title": "Jeffery Dukes & Technique feat. Lady E",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "roots_adjacent: blues (+10)",
-    "noise_other: jam session (-25)",
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-06",
-   "description": "",
-   "fingerprint": "43eecc89c19e",
-   "id": "ev_bacea71f56f6",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-06T20:00:00-08:00",
-   "title": "Michael J. O'Connor",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
+    "listed by a taste-aligned calendar (+12)"
    ]
   },
   {
@@ -687,24 +208,22 @@
   {
    "city": "San Francisco",
    "date": "2026-11-11",
-   "description": "Bottom of the Hill: Loercase, Shearling, Wife",
-   "fingerprint": "8712f01419ec",
-   "id": "ev_1c40566a0840",
+   "description": "Rickshaw Stop: Sparta, Public Opinion",
+   "fingerprint": "d7090a49b0a0",
+   "id": "ev_4f5dec744698",
    "other_urls": [
-    "http://www.bottomofthehill.com/20261111.html",
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+    "https://www.jambase.com/show/public-opinion-rickshaw-stop-20261111"
    ],
    "rules_score": 53.0,
    "rules_tier": "inventory",
-   "start": "2026-11-11T20:00:00-08:00",
-   "title": "Loercase, Shearling, Wife",
-   "url": "https://dice.fm/event/6a8e0c44c2a75900014d1c6d",
-   "venue": "Bottom of the Hill",
+   "start": "2026-11-11T00:00:00-08:00",
+   "title": "Sparta, Public Opinion",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "Rickshaw Stop",
    "why_rules": [
-    "jazz_core: experimental (+18)",
-    "noise_genre: hardcore (-22)",
-    "intimate room: Bottom of the Hill (+14)",
-    "listed by a taste-aligned calendar (+12)"
+    "intimate room: Rickshaw Stop (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -808,6 +327,476 @@
     "intimate room: Thee Stork Club (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-12",
+   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
+   "fingerprint": "f979ec610cf1",
+   "id": "ev_f3bd842596f3",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-12T00:00:00-08:00",
+   "title": "Stanley Clarke and Ron Carter",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "Pianist/vocalist Eric Shifrin performs with a variety of friends on the 2nd Friday every other month (i.e. Jan, March, May, July, September, November). $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
+   "fingerprint": "a54156953444",
+   "id": "ev_301c6fb4cbdc",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T19:30:00-08:00",
+   "title": "Eric & the In Crowd",
+   "url": "https://birdbeckett.com/event/eric-the-in-crowd_2026-11-13/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "",
+   "fingerprint": "3a2ebba69dfb",
+   "id": "ev_dec1933dc137",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T00:00:00-08:00",
+   "title": "Volcano: Jay Wilcox & JP McLean honor Jerry Garcia & John Kahn – SR",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKYdxMAH",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-11-13",
+   "description": "Low Plateau at Thee Stork Club on Nov 13, 2026",
+   "fingerprint": "4ede4ec3bad4",
+   "id": "ev_219628306c39",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T20:00:00-08:00",
+   "title": "Low Plateau, The Dates, Edith's Head",
+   "url": "https://www.jambase.com/show/low-plateau-thee-stork-club-20261113",
+   "venue": "Thee Stork Club",
+   "why_rules": [
+    "intimate room: Thee Stork Club (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "Great American Music Hall: Zenefit 2026",
+   "fingerprint": "a70bb05c4a24",
+   "id": "ev_59fa996d6bb8",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T19:00:00-08:00",
+   "title": "ZENEFIT 2026: A NIGHT OF SONIC EXPLORATION & DEEP LISTENING",
+   "url": "https://wl.seetickets.us/event/zenefit-2026-a-night-of-sonic-exploration-and-deep-listening/704399?afflky=GreatAmericanMusicHall",
+   "venue": "Great American Music Hall",
+   "why_rules": [
+    "intimate room: Great American Music Hall (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "Black Cat: Marc Seales with Ernie Watts",
+   "fingerprint": "c3bdbd182566",
+   "id": "ev_698c4f51ca7a",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13306/2026-11-13"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T00:00:00-08:00",
+   "title": "Marc Seales with Ernie Watts",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-13",
+   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
+   "fingerprint": "a3404bb0097d",
+   "id": "ev_8a1173141fad",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T00:00:00-08:00",
+   "title": "Stanley Clarke and Ron Carter",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "Kilowatt: Strawberry Fuzz, Slumped, Diesel Dudes",
+   "fingerprint": "226870fc3bf2",
+   "id": "ev_98058694367b",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T19:00:00-08:00",
+   "title": "Strawberry Fuzz, Slumped, Diesel Dudes",
+   "url": "https://dice.fm/event/6a8ddc830829bc00012324d0",
+   "venue": "Kilowatt",
+   "why_rules": [
+    "intimate room: Kilowatt (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Black Cat: Marc Seales with Ernie Watts",
+   "fingerprint": "579ec0f8bb6d",
+   "id": "ev_02e5e92ba13e",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13306/2026-11-14"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Marc Seales with Ernie Watts",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Kilowatt: Mugger, Monk, Ingrata, Scam Likely",
+   "fingerprint": "f3d7016c884e",
+   "id": "ev_9e43f364eae2",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T16:30:00-08:00",
+   "title": "FVR WLD FEST feat. Mugger, Monk, Ingrata and Scam Likely",
+   "url": "https://dice.fm/event/6a628ff7bda14200018de075",
+   "venue": "Kilowatt",
+   "why_rules": [
+    "intimate room: Kilowatt (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-14",
+   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
+   "fingerprint": "f8a56e4661f8",
+   "id": "ev_be3b3f986749",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Stanley Clarke and Ron Carter",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-14",
+   "description": "with Comdey/Storytelling",
+   "fingerprint": "b0bc769ae103",
+   "id": "ev_d26faafd285f",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T19:30:00-08:00",
+   "title": "Mortified",
+   "url": "https://tickets.venuepilot.com/e/mortified-2026-11-14-ashkenaz-music-dance-community-center-berkeley-2152d3",
+   "venue": "Ashkenaz",
+   "why_rules": [
+    "intimate room: Ashkenaz (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
+   "fingerprint": "8cd12007bfc1",
+   "id": "ev_490541862f7a",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T19:30:00-08:00",
+   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
+   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-27",
+   "description": "Vienna Teng at The Freight at 2026-12-27T18:00:00-0800",
+   "fingerprint": "ad1b0bfea7df",
+   "id": "ev_05929aa25a87",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2026-12-27T18:00:00-08:00",
+   "title": "Vienna Teng",
+   "url": "https://www.songkick.com/concerts/43223739-vienna-teng-at-freight",
+   "venue": "Freight & Salvage",
+   "why_rules": [
+    "intimate room: Freight & Salvage (+14)",
+    "booking signal: Freight & Salvage (+8)",
+    "listed by a taste-aligned calendar (+14)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Petaluma",
+   "date": "2027-02-01",
+   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
+   "fingerprint": "ee96e473beee",
+   "id": "ev_149b4ec4929b",
+   "other_urls": [],
+   "rules_score": 71.0,
+   "rules_tier": "strong",
+   "start": "2027-02-01T18:00:00-08:00",
+   "title": "Garage Jam",
+   "url": "https://californiabluegrass.org/event/garage-jam/2027-02-01/",
+   "venue": "Out West Garage",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "roots_adjacent: folk (+10)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-09",
+   "description": "The Freight: Bobby McFerrin and MOTION: Circlesongs",
+   "fingerprint": "a6ed98e058a5",
+   "id": "ev_4b24262f1a15",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-09T00:00:00-08:00",
+   "title": "Bobby McFerrin and MOTION: Circlesongs",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "Freight & Salvage",
+   "why_rules": [
+    "intimate room: Freight & Salvage (+14)",
+    "booking signal: Freight & Salvage (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-15",
+   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
+   "fingerprint": "023f539f3560",
+   "id": "ev_4e74821afc6c",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-15T00:00:00-08:00",
+   "title": "Stanley Clarke and Ron Carter",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-02-13",
+   "description": "Kazemde George, saxophone Kai Lyons, guitar $20 cover charge / byob. Students $10. For a reservation, call the bookshop at 415-586-3733.",
+   "fingerprint": "87da2405a266",
+   "id": "ev_c65173ac3ba4",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2027-02-13T19:30:00-08:00",
+   "title": "Kazemde George / Kai Lyons",
+   "url": "https://birdbeckett.com/event/kazemde-george-kai-lyons/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: saxophone (+18)",
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2026-12-04",
+   "description": "Founded by Fattah Abbou and Mohamed Aoualou , AZA unites traditional Tamazight (incorrectly labeled \"Berber\") music, indigenous to North Africa, with the global influences of its diverse members. With elements of indigenous Moroccan musical styles, including Ahwash, Rwais, and Gnawa – among others – AZA's stirring performances feature deep, danceable rhythms, intricate melodies, and soaring, soulf",
+   "fingerprint": "4b5db8f37f73",
+   "id": "ev_1354916f77bd",
+   "other_urls": [],
+   "rules_score": 56.0,
+   "rules_tier": "strong",
+   "start": "2026-12-04T19:00:00-08:00",
+   "title": "AZA – Moroccan Music",
+   "url": "https://www.kuumbwajazz.org/calendar/aza-moroccan-music/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "theater_core: musical (+14)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "Sacramento",
+   "date": "2026-11-22",
+   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+   "fingerprint": "3623da210b1d",
+   "id": "ev_dc78e842cb9b",
+   "other_urls": [],
+   "rules_score": 62.0,
+   "rules_tier": "strong",
+   "start": "2026-11-22T18:00:00-08:00",
+   "title": "Two Rivers Cider Old Time Jam",
+   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-22/",
+   "venue": "Two Rivers Cider",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "outside the core Bay Area (-6)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-17",
+   "description": "",
+   "fingerprint": "61f2da716476",
+   "id": "ev_101182066fc4",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-17T00:00:00-08:00",
+   "title": "Carson Olshansky: Buddy – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000CmJPdMAN",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-12-17",
+   "description": "A live show featuring a <span><span>special collaboration between 3 projects — Palaces, Bobbing, and E. Artifact</span></span>is <span><span><span><span>— playing</span></span></span></span> delicate, melodic at times, heavy, and psychedelic at music consisting of drums, drum machines, keys, synth, guitar, bass, sax, flute, and clarinet; $10 tickets",
+   "fingerprint": "d368ecedc360",
+   "id": "ev_7041a96cd45e",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-17T21:00:00-08:00",
+   "title": "Noise Floor",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-18",
+   "description": "",
+   "fingerprint": "36be48b6c29d",
+   "id": "ev_0c9707ba9df0",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-18T00:00:00-08:00",
+   "title": "The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-12",
+   "description": "The Sound Room: Charles Wheal Band",
+   "fingerprint": "14c875b7e1ad",
+   "id": "ev_6a08083aeb36",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-12T00:00:00-08:00",
+   "title": "Charles Wheal Band",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
    ]
   }
  ]
