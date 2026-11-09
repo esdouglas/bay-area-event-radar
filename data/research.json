@@ -1,4 +1,24 @@
 {
+ "ev_00c5aa37985b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Buy Tickets on Humanitix - SPAGHETTI hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.\"",
+    "url": "https://events.humanitix.com/spaghetti-nov22"
+   }
+  ],
+  "fingerprint": "a30b4ded5da9",
+  "fit": 30,
+  "performers": [],
+  "reason": "SPAGHETTI is a Sunday night show at The Back Room in Berkeley, but the captured listing is only Humanitix boilerplate with no performers or genre. Without knowing who or what SPAGHETTI is, there is no basis to judge fit.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performer, genre or format information in the captured text; needs the event page."
+  ]
+ },
  "ev_011806810aac": {
   "evidence": [
    {
@@ -428,6 +448,61 @@
    "Freight page not fetched."
   ]
  },
+ "ev_0fe61cbd2415": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"We have a great night planned that will showcase three of the up and coming all acoustic musicians and bands in Nevada county! Black Barn Trio The New Neighbors Mel Biesecker The bands will be playing a fun mix of classic country, bluegrass, Americana, and original music. 3 acts for $10?!! What a bargain! Come out and support the growing acoustic music scene in our county\"",
+    "url": "https://californiabluegrass.org/event/black-barn-trio-the-new-neighbors-and-mel-biesecker/"
+   }
+  ],
+  "fingerprint": "2c8ad7184f43",
+  "fit": 28,
+  "performers": [
+   {
+    "known_for": "Nevada County acoustic band",
+    "name": "Black Barn Trio",
+    "significance": "none"
+   },
+   {
+    "known_for": "Nevada County acoustic band",
+    "name": "The New Neighbors",
+    "significance": "none"
+   },
+   {
+    "known_for": "Nevada County acoustic musician",
+    "name": "Mel Biesecker",
+    "significance": "none"
+   }
+  ],
+  "reason": "Three up-and-coming Nevada County acoustic acts (Black Barn Trio, The New Neighbors, Mel Biesecker) playing classic country, bluegrass and originals for $10 in Nevada City. Pleasant local showcase, but nothing distinctive and it is a long drive from Oakland.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized (background knowledge has nothing on them)."
+  ]
+ },
+ "ev_104f2c9ec683": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned\"",
+    "url": "https://californiabluegrass.org/event/garage-jam/2027-01-18/"
+   }
+  ],
+  "fingerprint": "13af6c0fb450",
+  "fit": 12,
+  "performers": [],
+  "reason": "An open, all-levels bluegrass jam circle in Petaluma, first and third Mondays. A participatory jam, not a show.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_1089fd78f2a2": {
   "evidence": [
    {
@@ -527,6 +602,26 @@
   "uncertainties": [
    "Reservation-by-phone room; no availability stated",
    "Recurring local act at this venue, so this date is not singular"
+  ]
+ },
+ "ev_138d58b3c040": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Yes to the dance this month!! We can have the dance AND then go to the CBA Camp and Festival... EVERY 2nd FRIDAY of the MONTH ~ at the Polish Club, 3040 22nd St @ Shotwell, in SF. Bike & Bart friendly and ALL are welcome!! Dance @8:00 Always a live String Band & our Dance Caller teaches all the dances ! Pre-dance beginners lesson and Old-time jam. Come with or without a partner, bring your pals! d\"",
+    "url": "https://californiabluegrass.org/event/__trashed/2026-12-11/"
+   }
+  ],
+  "fingerprint": "a8dc37d6add9",
+  "fit": 52,
+  "performers": [],
+  "reason": "Feral Friday is the monthly old-time square dance at the Polish Club in SF's Mission, always with a live string band and a caller who teaches every dance, plus a pre-dance beginners lesson and old-time jam. A good participatory old-time night that also suits his partner's love of dance.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "String band for this date is not named in the captured text."
   ]
  },
  "ev_1480ea495a7f": {
@@ -957,6 +1052,38 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_1d85bb849ea5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Hot Buttered Rum at Sweetwater Music Hall on Dec 31, 2026\"",
+    "url": "https://sweetwatermusichall.org/event/new-years-eve-party-with-hot-buttered-rum-plus-yoseff-tucker-and-the-bow-ties/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "1ddb8a4d61ee",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Bay Area progressive bluegrass/jamgrass string band (background knowledge)",
+    "name": "Hot Buttered Rum",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not recognized",
+    "name": "Yoseff Tucker and the Bow Ties",
+    "significance": "none"
+   }
+  ],
+  "reason": "Hot Buttered Rum, the long-running Bay Area progressive string band that helped define California jamgrass, play their New Year's Eve party at Sweetwater Music Hall in Mill Valley with Yoseff Tucker and the Bow Ties. A festive, danceable bluegrass-rooted night in a good small room, though more jam-band party than deep tradition. (background knowledge for the band's history.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "NYE pricing and sellout risk unknown.",
+   "Yoseff Tucker and the Bow Ties not recognized."
+  ]
+ },
  "ev_1da72b18f14b": {
   "evidence": [
    {
@@ -1060,6 +1187,48 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Not a performance; only of interest if he wants to play."
+  ]
+ },
+ "ev_23d9adba60d6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"What happens when you combine members of the legendary Good Ol' Persons , the powerhouse Kathy Kallick Band , and some of the most active jammers and teachers in the Bay Area? This first-time collaboration includes ... Kathy Kallick (guitar) and Bethany Sorkey (bass) from the Good Ol' Persons ... Kathy, Greg Booth (dobro), & Tom Bekeny (mandolin) from the Kathy Kallick Band ... and jam enthusiasts\"",
+    "url": "https://californiabluegrass.org/event/concert-at-the-monkey-house/"
+   }
+  ],
+  "fingerprint": "10695dc6fd00",
+  "fit": 82,
+  "performers": [
+   {
+    "known_for": "Co-founder of the Good Ol' Persons; Kathy Kallick Band leader; Bay Area bluegrass singer-songwriter (background knowledge)",
+    "name": "Kathy Kallick",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Bassist, Good Ol' Persons",
+    "name": "Bethany Sorkey",
+    "significance": "local"
+   },
+   {
+    "known_for": "Dobro, Kathy Kallick Band",
+    "name": "Greg Booth",
+    "significance": "local"
+   },
+   {
+    "known_for": "Mandolin, Kathy Kallick Band",
+    "name": "Tom Bekeny",
+    "significance": "local"
+   }
+  ],
+  "reason": "Kathy Kallick, co-founder of the pioneering Bay Area bluegrass band the Good Ol' Persons and leader of the Kathy Kallick Band, plays a first-time collaboration with Good Ol' Persons bassist Bethany Sorkey plus Greg Booth (dobro) and Tom Bekeny (mandolin) from her band. It is a Sunday 1 pm show at The Monkey House, a tiny Berkeley listening room, which is exactly the foundational-player-in-a-small-room case. (background knowledge: Kallick is a seed artist and a long-time pillar of California bluegrass; the Good Ol' Persons date to the mid-1970s.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing mentions 'jam enthusiasts' in the lineup, so part of the set may be loose and jam-like.",
+   "Capacity and price not in the captured text."
   ]
  },
  "ev_23f29a0d761a": {
@@ -1796,6 +1965,33 @@
    "Ticket price not stated",
    "Simon Planting's background not researched",
    "Eva Slongo's 'award-winning' claim comes from the listing description, not verified"
+  ]
+ },
+ "ev_30c809f01b96": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Nicole McCabe is a genre-defying saxophonist and composer bringing the expressive power of modern jazz into dialogue with the sonic worlds of electronic, indie, and experimental music. Through her work as a bandleader, collaborator, and composer, Nicole McCabe continues to expand the possibilities of the saxophone in contemporary music. With a voice that honors tradition while pushing boldly into\"",
+    "url": "https://www.kuumbwajazz.org/calendar/nicole-mccabe-quartet-2/"
+   }
+  ],
+  "fingerprint": "845d6e4f84b5",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Saxophonist/composer mixing jazz, electronic and indie",
+    "name": "Nicole McCabe",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Nicole McCabe is a saxophonist and composer who blends modern jazz with electronic, indie and experimental sounds; her quartet plays Kuumbwa Jazz in Santa Cruz. Adventurous jazz in a fine small room, but she is not someone already on his radar and it is a long weeknight drive.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quartet personnel not in the captured text.",
+   "Background knowledge on McCabe is thin (likely Los Angeles based)."
   ]
  },
  "ev_313eeb115be8": {
@@ -2542,37 +2738,28 @@
  "ev_4c4500c80268": {
   "evidence": [
    {
-    "finding": "Fetch blocked (permission request not answered); not read.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description; title only: \"Jazz Mafia: BRASS & BOWS\")",
     "url": "https://allevents.in/oakland/jazz-mafia-strings/100001999283418524"
-   },
-   {
-    "finding": "Calendar lists nothing after October 21, 2026; no 'Jazz Mafia Strings' show at The Sound Room shown. Past Sound Room shows include a 25-Year Retrospective (Nov 15, 2025).",
-    "url": "https://www.jazzmafia.com/calendar"
-   },
-   {
-    "finding": "Cosa Nostra Strings is 'an offshoot of Adam Theis' omnivorous Jazz Mafia conglomeration' blending hip-hop, jazz and classical; has worked with musicians from The Roots and Blackalicious and Richmond rapper Mani Draper.",
-    "url": "https://www.sfcv.org/event/sfjazz/cosa-nostra-strings-hip-hop-meets-classical-w-guest-mani-draper"
    }
   ],
-  "fingerprint": "d1bf1fa73714",
+  "fingerprint": "1faf289bf881",
   "fit": 55,
   "performers": [
    {
-    "known_for": "Bay Area jazz/hip-hop/orchestral collective led by trombonist Adam Theis; strings offshoot Cosa Nostra Strings",
-    "name": "Jazz Mafia (Adam Theis)",
-    "significance": "local"
+    "known_for": "SF jazz/hip-hop/orchestral collective led by trombonist Adam Theis (background knowledge)",
+    "name": "Jazz Mafia",
+    "significance": "notable"
    }
   ],
-  "reason": "Jazz Mafia Strings is billed at The Sound Room in Oakland, from Adam Theis's long-running Bay Area Jazz Mafia collective, which also runs a strings offshoot (Cosa Nostra Strings) mixing hip-hop, jazz and chamber music with rappers. If it is that strings project it is an unusual, close-to-home hip-hop and jazz crossover, but the lineup and program for this date could not be confirmed.",
-  "researched_at": "2026-11-03T22:49:40+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "Jazz Mafia is Adam Theis's long-running San Francisco collective, known for big genre-blending projects like the Brass, Bows and Beats hip-hop/string ensemble. A brass-and-strings set at The Sound Room in Oakland puts that large-ensemble sound in a close-up local room. (background knowledge for the lineage; the listing itself has no description.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": [
-   "Not confirmed on Jazz Mafia's own calendar",
-   "Whether 'Jazz Mafia Strings' is the same as Cosa Nostra Strings is inference",
-   "Start time unknown (listed as midnight)",
-   "Lineup and repertoire unknown; Jazz Mafia Sound Room shows are often themed tributes (Stevie Wonder, Beatles) per search results"
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing description is empty; the URL slug says 'jazz-mafia-strings', so the exact lineup and format are unclear.",
+   "Start time captured as midnight, so the real set time is unknown."
   ]
  },
  "ev_4c7ac8c8c69f": {
@@ -3466,6 +3653,25 @@
    "No independent review found; how free or composed the music is is unknown."
   ]
  },
+ "ev_616fa2986f82": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. Join us Sunday, August 13 for a fun musical time. We'll have a jam session of musicians of all levels playing. We're dedicated to preserving and playing authentic old-time fiddle tunes from many traditions, including Old Time, Bluegrass, Celtic, Americana, folk. Admission is free, family\"",
+    "url": "https://californiabluegrass.org/event/california-state-old-time-fiddlers-association-jam/2026-12-13/"
+   }
+  ],
+  "fingerprint": "7b4d7a78d4e7",
+  "fit": 12,
+  "performers": [],
+  "reason": "A free monthly old-time fiddlers' jam (California State Old Time Fiddlers Association District 5) at the Orangevale Grange near Sacramento. Participatory jam, far from Oakland.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_6228bcc01e78": {
   "evidence": [
    {
@@ -3942,6 +4148,33 @@
    "Rules engine 'theater_core: beckett, play' match is a false positive from the venue name."
   ]
  },
+ "ev_6d9c704397a8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Buy Tickets on Humanitix - Macy Blackman & the Mighty Fines hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday November 28th 2026. Find event information.\"",
+    "url": "https://events.humanitix.com/macy-blackman-and-the-mighty-fines-sept26"
+   }
+  ],
+  "fingerprint": "666de46dbef5",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Bay Area New Orleans R&B pianist and bandleader (background knowledge)",
+    "name": "Macy Blackman",
+    "significance": "local"
+   }
+  ],
+  "reason": "Macy Blackman & the Mighty Fines play The Back Room in Berkeley; Blackman is a long-time Bay Area pianist working in New Orleans-style R&B and early rock and roll. A fun, well-played roots night, but it sits outside Erik's old-time, jazz and hip-hop core. (background knowledge for who Blackman is.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Captured listing text is only Humanitix boilerplate; genre is from background knowledge, not the page.",
+   "URL slug says 'sept26', so the date should be confirmed."
+  ]
+ },
  "ev_6e0117813a8a": {
   "evidence": [
    {
@@ -4347,6 +4580,32 @@
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": []
+ },
+ "ev_762e2f34e32e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description; title only: \"Gian Achen\")",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "637d4ff900cb",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not recognized",
+    "name": "Gian Achen",
+    "significance": "none"
+   }
+  ],
+  "reason": "Gian Achen plays Little Hill Lounge in El Cerrito, but the captured listing has no description at all. I do not recognize the name, so fit cannot be judged.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description, genre or performer details in the captured text; performer not recognized."
+  ]
  },
  "ev_768c7f638f49": {
   "evidence": [
@@ -5650,6 +5909,33 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_922d62c3bff8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"With a career spanning more than twenty years and six studio albums, Las Migas have become one of the most internationally acclaimed Spanish bands. They have performed in more than fifty countries and have been nominated four times for the Latin GRAMMY Award in the Best Flamenco Album category (2016, 2022, 2024, and 2025), winning the award twice. They have also received the prestigious MIN Award\"",
+    "url": "https://www.kuumbwajazz.org/calendar/las-migas/"
+   }
+  ],
+  "fingerprint": "7d826700938d",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Barcelona flamenco-fusion band, two-time Latin GRAMMY winners",
+    "name": "Las Migas",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Las Migas are a Barcelona flamenco-fusion band with two Latin GRAMMY wins for Best Flamenco Album, playing Kuumbwa Jazz in Santa Cruz. Excellent musicianship in a small room, but flamenco is outside his core and it is a Monday in Santa Cruz.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The 'tribute to' rule hit is probably incidental listing text, not a tribute act.",
+   "Santa Cruz is roughly 1.5 hours from Oakland."
+  ]
+ },
  "ev_92de08e48b2c": {
   "evidence": [
    {
@@ -6056,6 +6342,37 @@
    "Date is past."
   ]
  },
+ "ev_9ddb530547f8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"blues music and jam session; free soul food and entry\"",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "6ec8118e1c86",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Local blues band",
+    "name": "Jeffery Dukes & Technique",
+    "significance": "local"
+   },
+   {
+    "known_for": "Vocalist",
+    "name": "Lady E",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jeffery Dukes & Technique featuring Lady E host a blues music and jam session with free soul food and free entry at Little Hill Lounge in El Cerrito. Friendly neighborhood blues night, but a jam session rather than a featured show.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized."
+  ]
+ },
  "ev_a1b0f4baa257": {
   "evidence": [
    {
@@ -6192,6 +6509,33 @@
    "Content unknown."
   ]
  },
+ "ev_a5281a240d3a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Jan. 6: AJ Frankel & Maverick Bluegrass - Blondies, SF\"",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "287cb1fa4cd2",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Local Bay Area bluegrass band",
+    "name": "AJ Frankel & Maverick Bluegrass",
+    "significance": "local"
+   }
+  ],
+  "reason": "AJ Frankel & Maverick Bluegrass play Blondie's, the Mission bar with a regular bluegrass night. A cheap, casual local bluegrass outing rather than a must-see; the band appears often (the collector also caught Pacifica dates).",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer not recognized beyond these listings.",
+   "No time or price in the captured text."
+  ]
+ },
  "ev_a5c8e4576462": {
   "evidence": [
    {
@@ -6231,6 +6575,25 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Special guest unnamed."
+  ]
+ },
+ "ev_a66aee236437": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description; title only: \"Prosthetics for Palestine and Watermelon Connections Freakyoke\")",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "ab0fefa5f6c2",
+  "fit": 5,
+  "performers": [],
+  "reason": "A 'Freakyoke' karaoke benefit at Little Hill Lounge in El Cerrito. Karaoke is out of scope.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_a6a480508d3b": {
@@ -6551,6 +6914,33 @@
   "tier": "possible",
   "uncertainties": [
    "Band members, time and price not confirmed."
+  ]
+ },
+ "ev_ad3b52f6b1f9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Rhiannon Giddens at The Fillmore at 2027-02-09T20:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43096417-rhiannon-giddens-at-fillmore"
+   }
+  ],
+  "fingerprint": "8f7524478e78",
+  "fit": 88,
+  "performers": [
+   {
+    "known_for": "Carolina Chocolate Drops co-founder; old-time banjo and fiddle; MacArthur Fellow (background knowledge)",
+    "name": "Rhiannon Giddens",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "Rhiannon Giddens, co-founder of the Carolina Chocolate Drops and the leading voice reconnecting old-time and banjo music with its Black roots, headlines The Fillmore on 9 Feb 2027. She is one of his seed artists and her shows draw on fiddle and banjo traditions, collaborations and new work. (background knowledge: MacArthur Fellow and Pulitzer-winning co-composer of the opera Omar.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "exceptional",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The Fillmore is a mid-size room, so this is less intimate than his ideal.",
+   "Band lineup and which project she is touring are not in the captured text."
   ]
  },
  "ev_af0f6090b4d7": {
@@ -7287,6 +7677,32 @@
    "Part of a West Coast tour (search results show Mill Valley Nov 6, Sacramento Nov 10 and Moe's Alley dates), so other Bay Area options may exist"
   ]
  },
+ "ev_bacea71f56f6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description; title only: \"Michael J. O'Connor\")",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "43eecc89c19e",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Michael J. O'Connor",
+    "significance": "none"
+   }
+  ],
+  "reason": "Michael J. O'Connor plays Little Hill Lounge in El Cerrito, but the captured listing has no description. The name is too common to identify, so fit cannot be judged.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description or genre in the captured text; performer cannot be identified."
+  ]
+ },
  "ev_bb7a65c32aca": {
   "evidence": [
    {
@@ -7543,6 +7959,47 @@
   "uncertainties": [
    "Date, time and personnel not confirmed from primary page.",
    "Unknown whether Pete Escovedo appears."
+  ]
+ },
+ "ev_c7801048f1f0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Beth Schenck; Kasey Knudsen; Raffi Garabadian; Cory Wright Original compositions for four saxophones. $25 cover charge (cash at the door, please) / BYOB Students $10 For a reservation, call the bookshop at 415-586-3733\"",
+    "url": "https://birdbeckett.com/event/beth-schenck_2027-01-30/"
+   }
+  ],
+  "fingerprint": "8baa5ced692d",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Bay Area saxophonist/composer",
+    "name": "Beth Schenck",
+    "significance": "local"
+   },
+   {
+    "known_for": "Oakland saxophonist",
+    "name": "Kasey Knudsen",
+    "significance": "local"
+   },
+   {
+    "known_for": "Saxophonist",
+    "name": "Raffi Garabadian",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area saxophonist/clarinetist",
+    "name": "Cory Wright",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bay Area saxophonists Beth Schenck, Kasey Knudsen, Raffi Garabadian and Cory Wright play original compositions for four saxophones at Bird & Beckett, the tiny SF bookshop jazz room ($25, BYOB). It is the kind of adventurous, close-up creative jazz he likes, from players active in the local improvised scene. (background knowledge: Schenck, Knudsen and Wright are working Bay Area improvisers.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Saxophone-quartet chamber jazz can be more compositional than fiery; the vibe is not described."
   ]
  },
  "ev_c78de75964d1": {
@@ -7974,6 +8431,41 @@
    "Primary Bird & Beckett page not fetched; details from queue description"
   ]
  },
+ "ev_cf431bc6f5ce": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Picture Atlantic and Field Medic at Bottom of the Hill at 2026-11-16T19:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43434342-picture-atlantic-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "bfeb83913b20",
+  "fit": 28,
+  "performers": [
+   {
+    "known_for": "Lo-fi folk-punk songwriter Kevin Patrick Sullivan (background knowledge)",
+    "name": "Field Medic",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Alt-pop band",
+    "name": "Finish Ticket",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Indie rock band",
+    "name": "Picture Atlantic",
+    "significance": "none"
+   }
+  ],
+  "reason": "An indie bill at Bottom of the Hill: Finish Ticket (alt-pop), Picture Atlantic (indie rock) and Field Medic, the lo-fi folk-punk songwriter. Only Field Medic touches folk, and not the tradition he cares about. (background knowledge.)",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_cfadd1749599": {
   "evidence": [
    {
@@ -8097,6 +8589,36 @@
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": []
+ },
+ "ev_d5ab48e539dc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Sueco and Jeris Johnson at Great American Music Hall at 2026-11-18T20:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43323135-sueco-at-great-american-music-hall"
+   }
+  ],
+  "fingerprint": "0bbbb9c6e779",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Pop-punk/rap crossover, viral streaming hits (background knowledge)",
+    "name": "Sueco",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Rap-rock crossover artist (background knowledge)",
+    "name": "Jeris Johnson",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sueco is a viral pop-punk/rap crossover artist with Jeris Johnson opening at Great American Music Hall. The hip-hop tag is incidental; this is nowhere near golden-age or Bay Area underground hip-hop.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
  },
  "ev_d6d17b18a64e": {
   "evidence": [
@@ -8585,6 +9107,25 @@
    "Listing gives no genre or description."
   ]
  },
+ "ev_de0b7dc59043": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)\"",
+    "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2026-12-03/"
+   }
+  ],
+  "fingerprint": "274f1ed9ba55",
+  "fit": 10,
+  "performers": [],
+  "reason": "A free, all-levels monthly bluegrass(ish) jam at a bar and grill in Nevada City. It is a participatory jam, not a performance, and far from Oakland.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_df0376b8d3c8": {
   "evidence": [
    {
@@ -8633,6 +9174,33 @@
   "tier": "possible",
   "uncertainties": [
    "Ensemble members not identified."
+  ]
+ },
+ "ev_df865e2412b6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Dec. 14: Jimmy Touzel Bluegrass Explosion - Blondie's, SF\"",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "8e2d6e5f68f5",
+  "fit": 42,
+  "performers": [
+   {
+    "known_for": "Local bluegrass band (not recognized)",
+    "name": "Jimmy Touzel Bluegrass Explosion",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jimmy Touzel Bluegrass Explosion play Blondie's in SF on a Monday. A casual local bluegrass bar night; I do not recognize the band, so this is a low-stakes maybe.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer not recognized.",
+   "No time or price in the captured text."
   ]
  },
  "ev_e21fa83e1175": {
@@ -9275,6 +9843,25 @@
    "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
   ]
  },
+ "ev_f0d974bb98d2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f\"",
+    "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-01-24/"
+   }
+  ],
+  "fingerprint": "fe2fd40408b0",
+  "fit": 20,
+  "performers": [],
+  "reason": "A free open-mic bluegrass jam on the Sweetwater stage in Mill Valley with a backing band. Fun for pickers, but it is a jam, not a show to plan around.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_f0f3b5b47634": {
   "evidence": [
    {
@@ -9701,6 +10288,25 @@
    "Long drive to West Marin."
   ]
  },
+ "ev_f9f54b16587f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)\"",
+    "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-01-07/"
+   }
+  ],
+  "fingerprint": "982516906861",
+  "fit": 10,
+  "performers": [],
+  "reason": "A free, all-levels monthly bluegrass(ish) jam at a bar and grill in Nevada City. It is a participatory jam, not a performance, and far from Oakland.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_fa05be557668": {
   "evidence": [
    {
@@ -9800,6 +10406,32 @@
   "uncertainties": [
    "More indie rock than roots; fit is a judgment call.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_fc34801cb484": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"French acoustic guitar virtuoso, vocalist, and composer Pierre Bensusan , surnamed \"Mister DADGAD\", has taken his unique sound to all corners of the globe. Winner of the Independent Music Award for his triple live album \"Encore\", voted Best World Music Guitarist by Guitar Player Magazine readers' Poll, winner of the Rose d'Or at the Montreux Festival for his debut album, Pierre is recognized as on\"",
+    "url": "https://www.kuumbwajazz.org/calendar/pierre-bensusan-the-infinite-guitar/"
+   }
+  ],
+  "fingerprint": "a3dc7d215d09",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "French fingerstyle guitarist known for DADGAD tuning",
+    "name": "Pierre Bensusan",
+    "significance": "major"
+   }
+  ],
+  "reason": "French guitarist Pierre Bensusan, 'Mister DADGAD', is one of the defining fingerstyle acoustic players, mixing Celtic, French and North African influences. A solo set at Kuumbwa Jazz is a rare chance to hear a master guitarist in a small room, though it is a Santa Cruz weeknight.",
+  "researched_at": "2026-11-09T22:44:36+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Santa Cruz is roughly 1.5 hours from Oakland on a Wednesday."
   ]
  },
  "ev_fd8a03c84d44": {
