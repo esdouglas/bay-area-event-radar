@@ -1,5 +1,13 @@
 {
  "alerted": {
+  "ev_0e6e6b0f16fd": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-11-28",
+   "issue": 9,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
   "ev_18072512f699": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-11-03",
@@ -32,6 +40,14 @@
    "tier": "exceptional",
    "via": "digest"
   },
+  "ev_5ac356181c27": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-12-04",
+   "issue": 9,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
   "ev_6c0c361dbcd8": {
    "at": "2026-11-02T23:11:29+00:00",
    "date": "2026-11-20",
@@ -52,6 +68,22 @@
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-11-04",
    "issue": 4,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_a5c8e4576462": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-12-06",
+   "issue": 9,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_b01b74323a2e": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-11-13",
+   "issue": 9,
    "status": "scheduled",
    "tier": "exceptional",
    "via": "digest"
@@ -88,9 +120,21 @@
    "new_ahead": 3,
    "soon": 3,
    "subject": "Shows for the week of Nov 2: Dirk & Amelia Powell, Lauryn Hill & Wyclef Jean + 4 more"
+  },
+  {
+   "at": "2026-11-09T22:36:06+00:00",
+   "emailed": false,
+   "issue": 9,
+   "new_ahead": 3,
+   "soon": 3,
+   "subject": "Shows for the week of Nov 9: Jake Xerxes Fussell, Dougie Poole, KRS-One + 4 more"
   }
  ],
  "picked": {
+  "ev_0e6e6b0f16fd": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-11-28"
+  },
   "ev_18072512f699": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-11-03"
@@ -107,6 +151,10 @@
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-12-04"
   },
+  "ev_5ac356181c27": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-12-04"
+  },
   "ev_6c0c361dbcd8": {
    "at": "2026-11-02T23:11:29+00:00",
    "date": "2026-11-20"
@@ -118,6 +166,14 @@
   "ev_84dff7547020": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-11-04"
+  },
+  "ev_a5c8e4576462": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-12-06"
+  },
+  "ev_b01b74323a2e": {
+   "at": "2026-11-09T22:36:06+00:00",
+   "date": "2026-11-13"
   },
   "ev_da3b1224db08": {
    "at": "2026-11-02T18:33:19+00:00",
