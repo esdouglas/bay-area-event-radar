@@ -1,8 +1,64 @@
 {
- "backlog": 1328,
+ "backlog": 1333,
  "count": 40,
- "generated_at": "2026-11-08T22:45:30+00:00",
+ "generated_at": "2026-11-09T06:55:38+00:00",
  "items": [
+  {
+   "city": "Oakland",
+   "date": "2026-11-13",
+   "description": "",
+   "fingerprint": "1faf289bf881",
+   "id": "ev_4c4500c80268",
+   "other_urls": [],
+   "rules_score": 55.0,
+   "rules_tier": "strong",
+   "start": "2026-11-13T00:00:00-08:00",
+   "title": "Jazz Mafia: BRASS & BOWS",
+   "url": "https://allevents.in/oakland/jazz-mafia-strings/100001999283418524",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: The Sound Room (+14)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-22",
+   "description": "Buy Tickets on Humanitix - SPAGHETTI hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday November 22nd 2026. Find event information.",
+   "fingerprint": "a30b4ded5da9",
+   "id": "ev_00c5aa37985b",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T19:00:00-08:00",
+   "title": "SPAGHETTI",
+   "url": "https://events.humanitix.com/spaghetti-nov22",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-28",
+   "description": "Buy Tickets on Humanitix - Macy Blackman & the Mighty Fines hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday November 28th 2026. Find event information.",
+   "fingerprint": "666de46dbef5",
+   "id": "ev_6d9c704397a8",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T20:00:00-08:00",
+   "title": "Macy Blackman & the Mighty Fines",
+   "url": "https://events.humanitix.com/macy-blackman-and-the-mighty-fines-sept26",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
   {
    "city": "El Cerrito",
    "date": "2026-11-29",
@@ -751,69 +807,6 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-13",
-   "description": "Low Plateau at Thee Stork Club on Nov 13, 2026",
-   "fingerprint": "4ede4ec3bad4",
-   "id": "ev_219628306c39",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T20:00:00-08:00",
-   "title": "Low Plateau, The Dates, Edith's Head",
-   "url": "https://www.jambase.com/show/low-plateau-thee-stork-club-20261113",
-   "venue": "Thee Stork Club",
-   "why_rules": [
-    "intimate room: Thee Stork Club (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-13",
-   "description": "Great American Music Hall: Zenefit 2026",
-   "fingerprint": "a70bb05c4a24",
-   "id": "ev_59fa996d6bb8",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T19:00:00-08:00",
-   "title": "ZENEFIT 2026: A NIGHT OF SONIC EXPLORATION & DEEP LISTENING",
-   "url": "https://wl.seetickets.us/event/zenefit-2026-a-night-of-sonic-exploration-and-deep-listening/704399?afflky=GreatAmericanMusicHall",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "intimate room: Great American Music Hall (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-13",
-   "description": "Black Cat: Marc Seales with Ernie Watts",
-   "fingerprint": "c3bdbd182566",
-   "id": "ev_698c4f51ca7a",
-   "other_urls": [
-    "https://blackcatsf.turntabletickets.com/shows/13306/2026-11-13"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "Marc Seales with Ernie Watts",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
    ]
   }
  ]
