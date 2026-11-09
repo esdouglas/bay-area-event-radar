@@ -80,6 +80,14 @@
    "tier": "exceptional",
    "via": "digest"
   },
+  "ev_ad3b52f6b1f9": {
+   "at": "2026-11-09T23:50:32+00:00",
+   "date": "2027-02-09",
+   "issue": 10,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
   "ev_b01b74323a2e": {
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-11-13",
@@ -100,6 +108,14 @@
    "at": "2026-11-02T23:11:29+00:00",
    "date": "2026-12-16",
    "issue": 7,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_f625e114b316": {
+   "at": "2026-11-09T23:50:32+00:00",
+   "date": "2026-12-22",
+   "issue": 10,
    "status": "scheduled",
    "tier": "exceptional",
    "via": "digest"
@@ -128,6 +144,14 @@
    "new_ahead": 3,
    "soon": 3,
    "subject": "Shows for the week of Nov 9: Jake Xerxes Fussell, Dougie Poole, KRS-One + 4 more"
+  },
+  {
+   "at": "2026-11-09T23:50:32+00:00",
+   "emailed": false,
+   "issue": 10,
+   "new_ahead": 2,
+   "soon": 3,
+   "subject": "Shows for the week of Nov 9: Jake Xerxes Fussell, Dougie Poole, KRS-One + 3 more"
   }
  ],
  "picked": {
@@ -171,6 +195,10 @@
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-12-06"
   },
+  "ev_ad3b52f6b1f9": {
+   "at": "2026-11-09T23:50:32+00:00",
+   "date": "2027-02-09"
+  },
   "ev_b01b74323a2e": {
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-11-13"
@@ -182,6 +210,10 @@
   "ev_e8bac104313a": {
    "at": "2026-11-02T23:11:29+00:00",
    "date": "2026-12-16"
+  },
+  "ev_f625e114b316": {
+   "at": "2026-11-09T23:50:32+00:00",
+   "date": "2026-12-22"
   }
  }
 }
