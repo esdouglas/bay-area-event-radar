@@ -1,8 +1,48 @@
 {
- "backlog": 1333,
+ "backlog": 1314,
  "count": 40,
- "generated_at": "2026-11-09T06:55:38+00:00",
+ "generated_at": "2026-11-09T22:34:43+00:00",
  "items": [
+  {
+   "city": "Berkeley",
+   "date": "2026-11-15",
+   "description": "What happens when you combine members of the legendary Good Ol' Persons , the powerhouse Kathy Kallick Band , and some of the most active jammers and teachers in the Bay Area? This first-time collaboration includes ... Kathy Kallick (guitar) and Bethany Sorkey (bass) from the Good Ol' Persons ... Kathy, Greg Booth (dobro), & Tom Bekeny (mandolin) from the Kathy Kallick Band ... and jam enthusiasts",
+   "fingerprint": "10695dc6fd00",
+   "id": "ev_23d9adba60d6",
+   "other_urls": [],
+   "rules_score": 95.5,
+   "rules_tier": "strong",
+   "start": "2026-11-15T13:00:00-08:00",
+   "title": "Concert at The Monkey House",
+   "url": "https://californiabluegrass.org/event/concert-at-the-monkey-house/",
+   "venue": "The Monkey House",
+   "why_rules": [
+    "seed artist: Kathy Kallick (+8)",
+    "roots_core: bluegrass, mandolin, dobro (+33)",
+    "roots_adjacent: country (+10)",
+    "legacy: legendary (+14)"
+   ]
+  },
+  {
+   "city": "Nevada City",
+   "date": "2026-11-13",
+   "description": "We have a great night planned that will showcase three of the up and coming all acoustic musicians and bands in Nevada county! Black Barn Trio The New Neighbors Mel Biesecker The bands will be playing a fun mix of classic country, bluegrass, Americana, and original music. 3 acts for $10?!! What a bargain! Come out and support the growing acoustic music scene in our county",
+   "fingerprint": "2c8ad7184f43",
+   "id": "ev_0fe61cbd2415",
+   "other_urls": [],
+   "rules_score": 72.5,
+   "rules_tier": "strong",
+   "start": "2026-11-13T19:00:00-08:00",
+   "title": "Black Barn Trio, The New Neighbors, and Mel Biesecker",
+   "url": "https://californiabluegrass.org/event/black-barn-trio-the-new-neighbors-and-mel-biesecker/",
+   "venue": "Miners Harmony Music",
+   "why_rules": [
+    "roots_core: bluegrass, acoustic music (+28)",
+    "roots_adjacent: americana, country, acoustic (+15)",
+    "intimacy: trio (+5)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
   {
    "city": "Oakland",
    "date": "2026-11-13",
@@ -19,6 +59,26 @@
    "why_rules": [
     "jazz_core: jazz (+18)",
     "intimate room: The Sound Room (+14)"
+   ]
+  },
+  {
+   "city": "Nevada City",
+   "date": "2026-12-03",
+   "description": "All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+   "fingerprint": "274f1ed9ba55",
+   "id": "ev_de0b7dc59043",
+   "other_urls": [],
+   "rules_score": 73.0,
+   "rules_tier": "strong",
+   "start": "2026-12-03T18:00:00-08:00",
+   "title": "First Thursday Bluegrass(ish) Jam at the Deer Creek Bar and Grill",
+   "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2026-12-03/",
+   "venue": "Deer Creek Bar and Grill",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: folk, americana, country (+15)",
+    "theater_core: musical (+14)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -41,6 +101,26 @@
    ]
   },
   {
+   "city": "Nevada City",
+   "date": "2027-01-07",
+   "description": "All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+   "fingerprint": "982516906861",
+   "id": "ev_f9f54b16587f",
+   "other_urls": [],
+   "rules_score": 73.0,
+   "rules_tier": "strong",
+   "start": "2027-01-07T18:00:00-08:00",
+   "title": "First Thursday Bluegrass(ish) Jam at the Deer Creek Bar and Grill",
+   "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-01-07/",
+   "venue": "Deer Creek Bar and Grill",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: folk, americana, country (+15)",
+    "theater_core: musical (+14)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
    "city": "Berkeley",
    "date": "2026-11-28",
    "description": "Buy Tickets on Humanitix - Macy Blackman & the Mighty Fines hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday November 28th 2026. Find event information.",
@@ -56,25 +136,6 @@
    "why_rules": [
     "intimate room: The Back Room (+14)",
     "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-29",
-   "description": "",
-   "fingerprint": "637d4ff900cb",
-   "id": "ev_762e2f34e32e",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-29T20:00:00-08:00",
-   "title": "Gian Achen",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+8)"
    ]
   },
@@ -121,6 +182,25 @@
    ]
   },
   {
+   "city": "El Cerrito",
+   "date": "2026-11-29",
+   "description": "",
+   "fingerprint": "637d4ff900cb",
+   "id": "ev_762e2f34e32e",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T20:00:00-08:00",
+   "title": "Gian Achen",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
    "city": "Santa Cruz",
    "date": "2027-02-04",
    "description": "Nicole McCabe is a genre-defying saxophonist and composer bringing the expressive power of modern jazz into dialogue with the sonic worlds of electronic, indie, and experimental music. Through her work as a bandleader, collaborator, and composer, Nicole McCabe continues to expand the possibilities of the saxophone in contemporary music. With a voice that honors tradition while pushing boldly into ",
@@ -158,6 +238,25 @@
     "hiphop_classic: hip hop, hip-hop (+15)",
     "intimate room: Great American Music Hall (+14)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-01-30",
+   "description": "Beth Schenck; Kasey Knudsen; Raffi Garabadian; Cory Wright Original compositions for four saxophones. $25 cover charge (cash at the door, please) / BYOB Students $10 For a reservation, call the bookshop at 415-586-3733",
+   "fingerprint": "8baa5ced692d",
+   "id": "ev_c7801048f1f0",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2027-01-30T19:30:00-08:00",
+   "title": "Beth Schenck Saxophone Quartet",
+   "url": "https://birdbeckett.com/event/beth-schenck_2027-01-30/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "jazz_core: saxophone (+18)",
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -265,45 +364,6 @@
   },
   {
    "city": "San Francisco",
-   "date": "2027-01-30",
-   "description": "Beth Schenck; Kasey Knudsen; Raffi Garabadian; Cory Wright Original compositions for four saxophones. $25 cover charge (cash at the door, please) / BYOB Students $10 For a reservation, call the bookshop at 415-586-3733",
-   "fingerprint": "8baa5ced692d",
-   "id": "ev_c7801048f1f0",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2027-01-30T19:30:00-08:00",
-   "title": "Beth Schenck Saxophone Quartet",
-   "url": "https://birdbeckett.com/event/beth-schenck_2027-01-30/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Sacramento",
-   "date": "2026-11-08",
-   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
-   "fingerprint": "ee9ff7246f08",
-   "id": "ev_117a14005177",
-   "other_urls": [],
-   "rules_score": 62.0,
-   "rules_tier": "strong",
-   "start": "2026-11-08T18:00:00-08:00",
-   "title": "Two Rivers Cider Old Time Jam",
-   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-08/",
-   "venue": "Two Rivers Cider",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "outside the core Bay Area (-6)"
-   ]
-  },
-  {
-   "city": "San Francisco",
    "date": "2026-12-11",
    "description": "Yes to the dance this month!! We can have the dance AND then go to the CBA Camp and Festival... EVERY 2nd FRIDAY of the MONTH ~ at the Polish Club, 3040 22nd St @ Shotwell, in SF. Bike & Bart friendly and ALL are welcome!! Dance @8:00 Always a live String Band & our Dance Caller teaches all the dances ! Pre-dance beginners lesson and Old-time jam. Come with or without a partner, bring your pals! d",
    "fingerprint": "a8dc37d6add9",
@@ -365,6 +425,28 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-11-16",
+   "description": "Picture Atlantic and Field Medic at Bottom of the Hill at 2026-11-16T19:00:00-0800",
+   "fingerprint": "bfeb83913b20",
+   "id": "ev_cf431bc6f5ce",
+   "other_urls": [
+    "http://www.bottomofthehill.com/20261116.html",
+    "https://dice.fm/event/6ab5cfe1f25e4900010a227d"
+   ],
+   "rules_score": 55.0,
+   "rules_tier": "strong",
+   "start": "2026-11-16T19:00:00-08:00",
+   "title": "Finish Ticket / Picture Atlantic / Field Medic",
+   "url": "https://www.songkick.com/concerts/43434342-picture-atlantic-at-bottom-of-the-hill",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "roots_adjacent: folk (+10)",
+    "intimate room: Bottom of the Hill (+14)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
    "city": "El Cerrito",
    "date": "2026-12-05",
    "description": "",
@@ -416,6 +498,25 @@
    "rules_tier": "inventory",
    "start": "2026-12-06T20:00:00-08:00",
    "title": "Michael J. O'Connor",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-12-07",
+   "description": "$10 cover; music at 8",
+   "fingerprint": "392762579850",
+   "id": "ev_eeacd98a50dc",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-07T20:00:00-08:00",
+   "title": "Local Punk Rock Night with Stay Out, East Brothers, Chiara and the Cobras",
    "url": "https://littlehillelcerrito.com/events/",
    "venue": "Little Hill Lounge",
    "why_rules": [
@@ -484,45 +585,6 @@
    ]
   },
   {
-   "city": "El Cerrito",
-   "date": "2026-12-07",
-   "description": "$10 cover; music at 8",
-   "fingerprint": "392762579850",
-   "id": "ev_eeacd98a50dc",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-07T20:00:00-08:00",
-   "title": "Local Punk Rock Night with Stay Out, East Brothers, Chiara and the Cobras",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-08",
-   "description": "Stookey's Blue Room: Heidi Evelyn: Art Deco Jazz Trio",
-   "fingerprint": "1d8540d92fab",
-   "id": "ev_1a39ca2c0308",
-   "other_urls": [],
-   "rules_score": 58.0,
-   "rules_tier": "strong",
-   "start": "2026-11-08T00:00:00-08:00",
-   "title": "Heidi Evelyn: Art Deco Jazz Trio",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Stookey's Blue Room",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-12-20",
    "description": "Dec. 20: Barbara Higbie & Friends' Winter Solstice Celebration - The Freight, Berkeley",
@@ -563,27 +625,6 @@
   },
   {
    "city": "San Francisco",
-   "date": "2026-11-08",
-   "description": "Kilowatt: Comfort Club, Big Sierra, Danielle Judith",
-   "fingerprint": "3b704bb1f7ed",
-   "id": "ev_88f7ccd80a17",
-   "other_urls": [
-    "https://dice.fm/event/6aa8692bfcb1030001d513eb"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-08T00:00:00-08:00",
-   "title": "Comfort Club, Big Sierra, Danielle Judith",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Kilowatt",
-   "why_rules": [
-    "intimate room: Kilowatt (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
    "date": "2026-12-20",
    "description": "",
    "fingerprint": "a698e2863380",
@@ -600,27 +641,6 @@
    "why_rules": [
     "intimate room: Old First Church (+14)",
     "listed by a taste-aligned calendar (+14)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-08",
-   "description": "Black Cat: Courtney Knott: Celebrating Stevie Wonder & Michael Jackson",
-   "fingerprint": "6e0ad0e527c5",
-   "id": "ev_ca159a403c49",
-   "other_urls": [
-    "https://blackcatsf.turntabletickets.com/shows/13514/2026-11-08"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-08T00:00:00-08:00",
-   "title": "COURTNEY KNOTT: Celebrating Stevie Wonder & Michael Jackson - with Original Soul",
-   "url": "https://kalx.berkeley.edu/event/events-november-2-8-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
    ]
   },
@@ -788,25 +808,6 @@
     "intimate room: Thee Stork Club (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-12",
-   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
-   "fingerprint": "f979ec610cf1",
-   "id": "ev_f3bd842596f3",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-12T00:00:00-08:00",
-   "title": "Stanley Clarke and Ron Carter",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "SF Jazz Center",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   }
  ]
