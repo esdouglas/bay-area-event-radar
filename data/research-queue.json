@@ -1,7 +1,7 @@
 {
- "backlog": 1293,
+ "backlog": 1299,
  "count": 40,
- "generated_at": "2026-11-10T07:34:26+00:00",
+ "generated_at": "2026-11-10T19:55:23+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -18,6 +18,26 @@
    "venue": "The Back Room",
    "why_rules": [
     "roots_adjacent: acoustic (+10)",
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-04",
+   "description": "Get tickets on Humanitix - Scott Amendola Trio with Jeff Parker & Paul Bryan Celebrating the release of their new album PDXMMXVII hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Friday December 4th 2026. Find event information.",
+   "fingerprint": "342892337f55",
+   "id": "ev_3ed583a353ea",
+   "other_urls": [],
+   "rules_score": 55.0,
+   "rules_tier": "strong",
+   "start": "2026-12-04T19:00:00-08:00",
+   "title": "Scott Amendola Trio with Jeff Parker & Paul Bryan Celebrating the release of their new album PDXMMXVII",
+   "url": "https://events.humanitix.com/scott-amendola-trio",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimacy: trio (+5)",
     "intimate room: The Back Room (+14)",
     "booking signal: The Back Room (+8)",
     "listed by a taste-aligned calendar (+8)"
@@ -45,25 +65,6 @@
     "noise_genre: hardcore (-22)",
     "intimate room: Bottom of the Hill (+14)",
     "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-07",
-   "description": "$10 cover; music at 8",
-   "fingerprint": "392762579850",
-   "id": "ev_eeacd98a50dc",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-07T20:00:00-08:00",
-   "title": "Local Punk Rock Night with Stay Out, East Brothers, Chiara and the Cobras",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -106,6 +107,25 @@
    ]
   },
   {
+   "city": "El Cerrito",
+   "date": "2026-12-07",
+   "description": "$10 cover; music at 8",
+   "fingerprint": "392762579850",
+   "id": "ev_eeacd98a50dc",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-07T20:00:00-08:00",
+   "title": "Local Punk Rock Night with Stay Out, East Brothers, Chiara and the Cobras",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
    "city": "Santa Cruz",
    "date": "2027-01-18",
    "description": "In the mid 1990s, The New York Times described Larry Goldings , Peter Bernstein , and Bill Stewart as \"the best organ trio of the last decade.\" The trio, which has now been together for over thirty years, has been recognized for charting new ground, with its synergistic playing and thoughtful music. They have released over a dozen recordings, all of which display their distinctive sound, whether e",
@@ -123,6 +143,27 @@
     "intimacy: trio (+5)",
     "intimate room: Kuumbwa Jazz (+14)",
     "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-20",
+   "description": "",
+   "fingerprint": "a698e2863380",
+   "id": "ev_8cb9d39c2025",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 52.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-20T16:00:00-08:00",
+   "title": "KITKA – Wintersongs: Comfort & Joy",
+   "url": "https://www.oldfirstconcerts.org/performance/kitka-wintersongs-comfort-joy-sunday-december-20-at-4-pm/",
+   "venue": "Old First Church",
+   "why_rules": [
+    "intimate room: Old First Church (+14)",
+    "listed by a taste-aligned calendar (+14)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -162,27 +203,6 @@
     "roots_adjacent: americana, country (+12)",
     "intimate room: Rancho Nicasio (+14)",
     "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-20",
-   "description": "",
-   "fingerprint": "a698e2863380",
-   "id": "ev_8cb9d39c2025",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 52.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-20T16:00:00-08:00",
-   "title": "KITKA – Wintersongs: Comfort & Joy",
-   "url": "https://www.oldfirstconcerts.org/performance/kitka-wintersongs-comfort-joy-sunday-december-20-at-4-pm/",
-   "venue": "Old First Church",
-   "why_rules": [
-    "intimate room: Old First Church (+14)",
-    "listed by a taste-aligned calendar (+14)",
-    "2 independent sources (+4)"
    ]
   },
   {
@@ -268,25 +288,6 @@
    ]
   },
   {
-   "city": "El Cerrito",
-   "date": "2026-12-12",
-   "description": "",
-   "fingerprint": "82af722026d8",
-   "id": "ev_3af054fcf565",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-12T21:00:00-08:00",
-   "title": "Olivine",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
    "city": "San Francisco",
    "date": "2026-11-12",
    "description": "Black Cat: Marc Seales with Ernie Watts",
@@ -369,39 +370,22 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-11-13",
-   "description": "Pianist/vocalist Eric Shifrin performs with a variety of friends on the 2nd Friday every other month (i.e. Jan, March, May, July, September, November). $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
-   "fingerprint": "a54156953444",
-   "id": "ev_301c6fb4cbdc",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T19:30:00-08:00",
-   "title": "Eric & the In Crowd",
-   "url": "https://birdbeckett.com/event/eric-the-in-crowd_2026-11-13/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-13",
+   "city": "El Cerrito",
+   "date": "2026-12-12",
    "description": "",
-   "fingerprint": "3a2ebba69dfb",
-   "id": "ev_dec1933dc137",
+   "fingerprint": "82af722026d8",
+   "id": "ev_3af054fcf565",
    "other_urls": [],
-   "rules_score": 45.0,
+   "rules_score": 50.0,
    "rules_tier": "inventory",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "Volcano: Jay Wilcox & JP McLean honor Jerry Garcia & John Kahn – SR",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKYdxMAH",
-   "venue": "The Lost Church",
+   "start": "2026-12-12T21:00:00-08:00",
+   "title": "Olivine",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
    "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -423,6 +407,24 @@
     "intimate room: Thee Stork Club (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "Pianist/vocalist Eric Shifrin performs with a variety of friends on the 2nd Friday every other month (i.e. Jan, March, May, July, September, November). $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
+   "fingerprint": "a54156953444",
+   "id": "ev_301c6fb4cbdc",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T19:30:00-08:00",
+   "title": "Eric & the In Crowd",
+   "url": "https://birdbeckett.com/event/eric-the-in-crowd_2026-11-13/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -509,6 +511,42 @@
   },
   {
    "city": "San Francisco",
+   "date": "2026-11-13",
+   "description": "",
+   "fingerprint": "3a2ebba69dfb",
+   "id": "ev_dec1933dc137",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-13T00:00:00-08:00",
+   "title": "Volcano: Jay Wilcox & JP McLean honor Jerry Garcia & John Kahn – SR",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKYdxMAH",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
+   "fingerprint": "8cd12007bfc1",
+   "id": "ev_490541862f7a",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T19:30:00-08:00",
+   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
+   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
    "date": "2026-11-14",
    "description": "Black Cat: Marc Seales with Ernie Watts",
    "fingerprint": "579ec0f8bb6d",
@@ -590,24 +628,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-11-14",
-   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
-   "fingerprint": "8cd12007bfc1",
-   "id": "ev_490541862f7a",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T19:30:00-08:00",
-   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
-   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
    "city": "Berkeley",
    "date": "2026-12-27",
    "description": "Vienna Teng at The Freight at 2026-12-27T18:00:00-0800",
@@ -667,26 +687,6 @@
     "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-09",
-   "description": "The Freight: Bobby McFerrin and MOTION: Circlesongs",
-   "fingerprint": "a6ed98e058a5",
-   "id": "ev_4b24262f1a15",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-09T00:00:00-08:00",
-   "title": "Bobby McFerrin and MOTION: Circlesongs",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   },
   {
