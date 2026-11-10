@@ -796,6 +796,33 @@
    "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
   ]
  },
+ "ev_17c278f9772b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Genticorum | Santa Rosa house concert | details TBA | Jan 2027? | Bayou Boogie West -Bay Area Cajun & Zydeco Festival | Ashkenaz",
+    "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+   }
+  ],
+  "fingerprint": "c2a6e14d87cf",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Quebecois traditional trio (background knowledge)",
+    "name": "Genticorum",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Genticorum is (background knowledge) a Quebecois traditional trio known for fiddle, flute, guitar, foot percussion and call-and-response songs, one of the leading bands of that revival. A fiddle-tradition band fits Erik well. The listing is confused: it mentions a Santa Rosa house concert with \"details TBA | Jan 2027?\" and the Bayou Boogie West festival at Ashkenaz, so the Ashkenaz date is uncertain.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing text is ambiguous between a Santa Rosa house concert and Ashkenaz; date marked \"Jan 2027?\".",
+   "Genticorum is Quebecois, not Cajun; the Cajun/zydeco rules match comes from the festival name."
+  ]
+ },
  "ev_18072512f699": {
   "evidence": [
    {
@@ -947,6 +974,42 @@
   "tier": "low",
   "uncertainties": [
    "Support band not named."
+  ]
+ },
+ "ev_1c40566a0840": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Bottom of the Hill: Loercase, Shearling, Wife",
+    "url": "https://dice.fm/event/6a8e0c44c2a75900014d1c6d"
+   }
+  ],
+  "fingerprint": "8712f01419ec",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Loercase",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Shearling",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Wife",
+    "significance": "none"
+   }
+  ],
+  "reason": "A three-band bill at Bottom of the Hill (Loercase, Shearling, Wife); I do not recognize the bands and the listing gives no genre text. The rules matched both experimental and hardcore keywords, which leans away from Erik's taste.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or band information in the listing; performers not recognized."
   ]
  },
  "ev_1cb7fa673c4a": {
@@ -1167,6 +1230,32 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_219628306c39": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Low Plateau at Thee Stork Club on Nov 13, 2026",
+    "url": "https://www.jambase.com/show/low-plateau-thee-stork-club-20261113"
+   }
+  ],
+  "fingerprint": "4ede4ec3bad4",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Low Plateau",
+    "significance": "none"
+   }
+  ],
+  "reason": "Low Plateau, The Dates and Edith's Head at Thee Stork Club in Oakland; I do not recognize the bands and there is no genre text.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized."
   ]
  },
  "ev_22fa154f8fe1": {
@@ -1918,6 +2007,32 @@
    "Tashi T identification is based on name match with the Swallow Hill listing (inference)."
   ]
  },
+ "ev_301c6fb4cbdc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Pianist/vocalist Eric Shifrin performs with a variety of friends on the 2nd Friday every other month (i.e. Jan, March, May, July, September, November). $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
+    "url": "https://birdbeckett.com/event/eric-the-in-crowd_2026-11-13/"
+   }
+  ],
+  "fingerprint": "a54156953444",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Local pianist/vocalist",
+    "name": "Eric Shifrin",
+    "significance": "local"
+   }
+  ],
+  "reason": "Pianist and vocalist Eric Shifrin performs with \"a variety of friends\" in his bimonthly Bird & Beckett slot ($20, BYOB). A cozy bookshop room, but a local standards set with unnamed guests is a modest draw.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Guests not named."
+  ]
+ },
  "ev_30a270279b9a": {
   "evidence": [
    {
@@ -2216,6 +2331,32 @@
    "Cost not stated."
   ]
  },
+ "ev_3af054fcf565": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description)",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "82af722026d8",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Olivine",
+    "significance": "none"
+   }
+  ],
+  "reason": "A show by Olivine at Little Hill Lounge in El Cerrito; the listing has no description and I do not recognize the act.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer not recognized; no description."
+  ]
+ },
  "ev_3b2c2bdac16b": {
   "evidence": [
    {
@@ -2408,6 +2549,42 @@
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": []
+ },
+ "ev_3ed583a353ea": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Get tickets on Humanitix - Scott Amendola Trio with Jeff Parker & Paul Bryan Celebrating the release of their new album PDXMMXVII hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Friday December 4th 2026. Find event information.",
+    "url": "https://events.humanitix.com/scott-amendola-trio"
+   }
+  ],
+  "fingerprint": "342892337f55",
+  "fit": 86,
+  "performers": [
+   {
+    "known_for": "Bay Area drummer, Nels Cline Singers, Frisell and Charlie Hunter collaborator (background knowledge)",
+    "name": "Scott Amendola",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitarist, Tortoise, Chicago Underground, ETA IVtet, International Anthem records (background knowledge)",
+    "name": "Jeff Parker",
+    "significance": "major"
+   },
+   {
+    "known_for": "Bassist and producer, Aimee Mann and others (background knowledge)",
+    "name": "Paul Bryan",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Bay Area drummer Scott Amendola (background knowledge: Nels Cline Singers, Bill Frisell, Charlie Hunter) leads a trio with guitarist Jeff Parker of Tortoise and the ETA IVtet and bassist/producer Paul Bryan, celebrating their album PDXMMXVII. Adventurous, groove-rooted improvised jazz with a major guitarist in a tiny Berkeley room is close to ideal for Erik. An album-release night means the trio will be playing new material together.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Jeff Parker is LA-based; confirm he is on this date (background knowledge only)."
+  ]
  },
  "ev_3fd3b077d537": {
   "evidence": [
@@ -2705,6 +2882,33 @@
    "Meaning of 'Haunted Shed' in the title is not explained in the listing."
   ]
  },
+ "ev_4813d08f10f8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dec. 20: Barbara Higbie & Friends' Winter Solstice Celebration - The Freight, Berkeley",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "bebf2b77c364",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Pianist/fiddler/songwriter, Windham Hill, Montreux band (background knowledge)",
+    "name": "Barbara Higbie",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Barbara Higbie is (background knowledge) a Bay Area pianist, fiddler and songwriter from the Windham Hill and women's-music scenes, with a long history at the Freight. Her solstice show with friends is an annual-feeling acoustic gathering at a favorite room; the guests are what would make it special.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "\"Friends\" not named in the listing.",
+   "Another Higbie date (Dec 19, Occidental) appears in the repo calendars."
+  ]
+ },
  "ev_49ee9b2a2593": {
   "evidence": [
    {
@@ -2823,6 +3027,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Identity of the series is inferred."
+  ]
+ },
+ "ev_4f5dec744698": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Rickshaw Stop: Sparta, Public Opinion",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "d7090a49b0a0",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Post-hardcore band, At the Drive-In offshoot (background knowledge)",
+    "name": "Sparta",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Public Opinion",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sparta is (background knowledge) the post-hardcore band formed by former At the Drive-In members, playing the Rickshaw Stop with Public Opinion. Loud post-hardcore is outside Erik's taste.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not confirmed this is that Sparta."
   ]
  },
  "ev_5018baea23ea": {
@@ -3286,6 +3521,26 @@
    "Running order of the three acts unclear."
   ]
  },
+ "ev_59fa996d6bb8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Great American Music Hall: Zenefit 2026",
+    "url": "https://wl.seetickets.us/event/zenefit-2026-a-night-of-sonic-exploration-and-deep-listening/704399?afflky=GreatAmericanMusicHall"
+   }
+  ],
+  "fingerprint": "a70bb05c4a24",
+  "fit": 35,
+  "performers": [],
+  "reason": "Zenefit 2026 is billed as \"a night of sonic exploration & deep listening\" at Great American Music Hall, but the listing does not name performers. Could be ambient/experimental or a sound-bath benefit; impossible to judge without the lineup.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup not in the listing."
+  ]
+ },
  "ev_5aa52778aca9": {
   "evidence": [
    {
@@ -3613,6 +3868,37 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_5ecd68e623cd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Marc Seales with Ernie Watts",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "f0d81a8b9d7a",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Tenor saxophonist, Quartet West (background knowledge)",
+    "name": "Ernie Watts",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Seattle jazz pianist and educator (background knowledge)",
+    "name": "Marc Seales",
+    "significance": "local"
+   }
+  ],
+  "reason": "Saxophonist Ernie Watts (background knowledge: Charlie Haden's Quartet West, two Grammys, decades of sessions) joins Seattle pianist Marc Seales at Black Cat. A strong-toned veteran tenor player in an intimate SF club; mainstream rather than adventurous, but a real lineage player. Also listed Nov 13.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Rhythm section not named."
+  ]
+ },
  "ev_5ef1ec6dd16e": {
   "evidence": [
    {
@@ -3651,6 +3937,32 @@
   "tier": "possible",
   "uncertainties": [
    "No independent review found; how free or composed the music is is unknown."
+  ]
+ },
+ "ev_61404e3d5a8b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dinner Show with DANNY CLICK & the Hell Yeahs! Birthday Bash! Until a few years ago, Danny Click was one of Austin's best-kept secrets, a musician's musician who'd won the respect of some of alt-country's biggest names but hadn't yet found widespread recognition. That changed when Click's latest CD, Life Is A Good Place, was released in April, 2011 and spent more than 12 consecutive months on the",
+    "url": "https://ranchonicasio.com/event/danny-click-the-hell-yeahs-5/"
+   }
+  ],
+  "fingerprint": "be0a7ba2bfa9",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Austin/Bay Area alt-country and blues-rock guitarist",
+    "name": "Danny Click",
+    "significance": "local"
+   }
+  ],
+  "reason": "Danny Click is an Austin-rooted alt-country/blues-rock guitarist; the listing says he \"won the respect of some of alt-country's biggest names.\" A birthday-bash dinner show at Rancho Nicasio in West Marin is a pleasant roadhouse night but not a strong pull from Oakland.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup of the Hell Yeahs not checked."
   ]
  },
  "ev_616fa2986f82": {
@@ -3960,6 +4272,37 @@
   "tier": "possible",
   "uncertainties": [
    "Song-tradition roots are inference."
+  ]
+ },
+ "ev_698c4f51ca7a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Marc Seales with Ernie Watts",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "c3bdbd182566",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Tenor saxophonist, Quartet West (background knowledge)",
+    "name": "Ernie Watts",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Seattle jazz pianist and educator (background knowledge)",
+    "name": "Marc Seales",
+    "significance": "local"
+   }
+  ],
+  "reason": "Saxophonist Ernie Watts (background knowledge: Charlie Haden's Quartet West, two Grammys) joins Seattle pianist Marc Seales at Black Cat. A veteran lineage tenor player in an intimate SF club; mainstream rather than adventurous. Also listed Nov 12.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Rhythm section not named."
   ]
  },
  "ev_6c0c361dbcd8": {
@@ -5052,6 +5395,42 @@
    "An SFJAZZ date may exist as an alternative; unverified."
   ]
  },
+ "ev_7cbb3b3bc380": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Ockham, Ex Deus Machina, Splendor, Kevito Y Los Bravos",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "f0625a5dae88",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Ockham",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Ex Deus Machina",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Kevito Y Los Bravos",
+    "significance": "none"
+   }
+  ],
+  "reason": "A four-band bill at Kilowatt in SF (Ockham, Ex Deus Machina, Empire Grade, Kevito Y Los Bravos); I do not recognize the bands and there is no genre text. The listing text also names Splendor instead of Empire Grade.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized; lineup differs between title and listing text."
+  ]
+ },
  "ev_7f86de63cbe5": {
   "evidence": [
    {
@@ -5177,6 +5556,37 @@
   "tier": "low",
   "uncertainties": [
    "Start time and price not confirmed"
+  ]
+ },
+ "ev_8011f54ed08c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DkaaTMAR"
+   }
+  ],
+  "fingerprint": "ddc00971d86d",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Unknown folk performer",
+    "name": "John Courage",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown folk performer",
+    "name": "Jade Brodie",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Loud As Folk singer-songwriter night in Santa Rosa with John Courage and Jade Brodie; I do not recognize either performer and the listing has no description. Santa Rosa is also a long trip from Oakland for an unknown bill.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description; performers not recognized."
   ]
  },
  "ev_812e792ae273": {
@@ -5724,6 +6134,37 @@
    "Start time and price not confirmed; Ashkenaz page not checked."
   ]
  },
+ "ev_8a1173141fad": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Stanley Clarke and Ron Carter",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "a3404bb0097d",
+  "fit": 78,
+  "performers": [
+   {
+    "known_for": "Bassist, Miles Davis Quintet (background knowledge)",
+    "name": "Ron Carter",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Bassist, Return to Forever (background knowledge)",
+    "name": "Stanley Clarke",
+    "significance": "major"
+   }
+  ],
+  "reason": "Two bass giants together: Ron Carter (background knowledge: Miles Davis's 1960s quintet, the most recorded bassist in jazz) and Stanley Clarke (Return to Forever). Carter is in his late eighties, so chances to see him are getting scarce; SFJAZZ is bigger than Erik's favorite rooms but still a listening hall. Also listed Nov 12.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (duo or with band) not stated."
+  ]
+ },
  "ev_8a1756c741a7": {
   "evidence": [
    {
@@ -5812,6 +6253,33 @@
   "uncertainties": [
    "Caller name spelled Fisher in one source, Fischer in another.",
    "Eventbrite date not confirmed as Jan 15."
+  ]
+ },
+ "ev_8cb9d39c2025": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description)",
+    "url": "https://www.oldfirstconcerts.org/performance/kitka-wintersongs-comfort-joy-sunday-december-20-at-4-pm/"
+   }
+  ],
+  "fingerprint": "a698e2863380",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Oakland women's vocal ensemble, Eastern European traditional song (background knowledge)",
+    "name": "Kitka",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Kitka is (background knowledge) the Oakland-based women's vocal ensemble that has sung Eastern European and Balkan traditional repertoire for decades; Wintersongs is their annual solstice program. An unusual traditional-music show in a resonant SF church, good for a seasonal outing even if it is not his core roots lane.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Repertoire for this year's program not checked.",
+   "Repo calendars also list other Wintersongs dates (Oakland St Paul's, Santa Cruz)."
   ]
  },
  "ev_8d1e2305607e": {
@@ -6034,6 +6502,32 @@
    "Two separately ticketed events merged in one listing (inference from separate URLs)."
   ]
  },
+ "ev_95e53ea33c22": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Johnny Maraca & The Marockers at Thee Stork Club on Nov 12, 2026",
+    "url": "https://www.jambase.com/show/johnny-maraca-the-marockers-thee-stork-club-20261112"
+   }
+  ],
+  "fingerprint": "7342d9340942",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Johnny Maraca & The Marockers",
+    "significance": "none"
+   }
+  ],
+  "reason": "Johnny Maraca & The Marockers with Celebrity Telethon and Hey Now Now at Thee Stork Club in Oakland; I do not recognize the bands and the listing gives no description. The name suggests a garage or rock-and-roll revival act.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized."
+  ]
+ },
  "ev_96a0d93ff346": {
   "evidence": [
    {
@@ -6171,6 +6665,32 @@
   "tier": "possible",
   "uncertainties": [
    "YOYOKA's role not stated in captured text."
+  ]
+ },
+ "ev_98058694367b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Strawberry Fuzz, Slumped, Diesel Dudes",
+    "url": "https://dice.fm/event/6a8ddc830829bc00012324d0"
+   }
+  ],
+  "fingerprint": "226870fc3bf2",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Strawberry Fuzz",
+    "significance": "none"
+   }
+  ],
+  "reason": "Strawberry Fuzz, Slumped and Diesel Dudes at Kilowatt in SF; I do not recognize the bands and there is no genre text.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized."
   ]
  },
  "ev_9aad340efef6": {
@@ -6507,6 +7027,48 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Content unknown."
+  ]
+ },
+ "ev_a3bc32c6d263": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey, Kenny Washington",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "a9fa2369d4fb",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "SF jazz/soul vocalist (background knowledge, identity unconfirmed)",
+    "name": "Kenny Washington",
+    "significance": "local"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Joe Warner",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Dante \"Taz\" Robinson",
+    "significance": "none"
+   },
+   {
+    "known_for": "Bay Area bassist (background knowledge, unconfirmed)",
+    "name": "Michael \"Tiny\" Lindsey",
+    "significance": "local"
+   }
+  ],
+  "reason": "A Soul Sessions night at Black Cat with Joe Warner, Dante \"Taz\" Robinson and Michael \"Tiny\" Lindsey, plus special guest Kenny Washington, likely (background knowledge) the San Francisco jazz and soul vocalist. A groove-oriented supper-club set more than adventurous improvisation.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Which Kenny Washington is not confirmed (SF vocalist vs. NY drummer).",
+   "Roles of the other players not known."
   ]
  },
  "ev_a5281a240d3a": {
@@ -6999,6 +7561,26 @@
    "Date, time and personnel not confirmed from primary page.",
    "URL says quartet, title says quintet.",
    "'tribute'/'musical' rules hits are false positives."
+  ]
+ },
+ "ev_af2b96b30b91": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-15/"
+   }
+  ],
+  "fingerprint": "69e601784cbc",
+  "fit": 30,
+  "performers": [],
+  "reason": "A weekly all-levels old-time jam at Two Rivers Cider in Sacramento. The music is right on target, but it is a participatory jam, not a show, and it is in Sacramento.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Moves to a private home in December and January per the listing."
   ]
  },
  "ev_b0086939ec4f": {
@@ -7728,6 +8310,32 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_bdb6a5883918": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Starry Plough: Margie Turner and the Outback Blues Band",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "32f17243a4c5",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Unknown local blues band",
+    "name": "Margie Turner and the Outback Blues Band",
+    "significance": "none"
+   }
+  ],
+  "reason": "Margie Turner and the Outback Blues Band at the Starry Plough in Berkeley; I do not recognize the act and the listing says only the band name. It reads like a local bar blues band, which is outside Erik's core taste.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer not recognized; no description beyond the band name."
+  ]
+ },
  "ev_bde6224542f2": {
   "evidence": [
    {
@@ -7871,6 +8479,37 @@
   "tier": "possible",
   "uncertainties": [
    "Event has passed."
+  ]
+ },
+ "ev_c216320155b5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - Jack West - The Acoustic Spank Project featuring James Nash hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday December 3rd 2026. Find event information.",
+    "url": "https://events.humanitix.com/jack-west"
+   }
+  ],
+  "fingerprint": "6fb48f08683e",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Guitarist; project leader (not confidently identified)",
+    "name": "Jack West",
+    "significance": "none"
+   },
+   {
+    "known_for": "Guitarist, The Waybacks (background knowledge)",
+    "name": "James Nash",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Acoustic Spank Project pairs guitarist Jack West with James Nash, who (background knowledge) is the guitarist and co-founder of the Bay Area progressive acoustic band The Waybacks. A small Berkeley listening room and a progressive acoustic guitar pairing make this a plausible fit, though Jack West's own project is less clear to me. Worth a look if the Waybacks connection is the draw.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "I am not sure which Jack West this is or what the Acoustic Spank Project sounds like (background knowledge is thin)."
   ]
  },
  "ev_c30ac312a9bf": {
@@ -9779,6 +10418,42 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_eeacd98a50dc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: $10 cover; music at 8",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "392762579850",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Local punk band",
+    "name": "Stay Out",
+    "significance": "none"
+   },
+   {
+    "known_for": "Local band",
+    "name": "East Brothers",
+    "significance": "none"
+   },
+   {
+    "known_for": "Local band",
+    "name": "Chiara and the Cobras",
+    "significance": "none"
+   }
+  ],
+  "reason": "A local punk night at Little Hill Lounge in El Cerrito with Stay Out, East Brothers and Chiara and the Cobras, $10 cover. Local punk bills are outside Erik's taste.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Bands not recognized."
+  ]
+ },
  "ev_f0c0faf0fe5d": {
   "evidence": [
    {
@@ -10012,6 +10687,37 @@
   "tier": "possible",
   "uncertainties": [
    "Mother-daughter relationship and Cressman credits are background knowledge."
+  ]
+ },
+ "ev_f3bd842596f3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Stanley Clarke and Ron Carter",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "f979ec610cf1",
+  "fit": 78,
+  "performers": [
+   {
+    "known_for": "Bassist, Miles Davis Quintet (background knowledge)",
+    "name": "Ron Carter",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Bassist, Return to Forever (background knowledge)",
+    "name": "Stanley Clarke",
+    "significance": "major"
+   }
+  ],
+  "reason": "Two bass giants together: Ron Carter (background knowledge: Miles Davis's 1960s quintet, the most recorded bassist in jazz) and Stanley Clarke (Return to Forever, fusion pioneer). Carter is in his late eighties, so chances to see him are getting scarce; SFJAZZ is larger than Erik's favorite rooms but still a listening hall. Also listed Nov 13.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (duo or with band) not stated."
   ]
  },
  "ev_f4bb0dd97a72": {
@@ -10340,6 +11046,43 @@
    "Start time and cover not confirmed; primary listing page could not be fetched",
    "Nov 9 date not confirmed against a venue page",
    "Whether this is a recurring weekly/monthly residency (inference from a July listing)"
+  ]
+ },
+ "ev_fa3378259d50": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: In the mid 1990s, The New York Times described Larry Goldings , Peter Bernstein , and Bill Stewart as \"the best organ trio of the last decade.\" The trio, which has now been together for over thirty years, has been recognized for charting new ground, with its synergistic playing and thoughtful music. They have released over a dozen recordings, all of which display their distinctive sound, whether e",
+    "url": "https://www.kuumbwajazz.org/calendar/goldings-bernstein-stewart-organ-trio/"
+   }
+  ],
+  "fingerprint": "285612903a4d",
+  "fit": 74,
+  "performers": [
+   {
+    "known_for": "Organist/pianist, James Taylor band (background knowledge)",
+    "name": "Larry Goldings",
+    "significance": "major"
+   },
+   {
+    "known_for": "Jazz guitarist (background knowledge)",
+    "name": "Peter Bernstein",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Drummer, John Scofield, Pat Metheny (background knowledge)",
+    "name": "Bill Stewart",
+    "significance": "major"
+   }
+  ],
+  "reason": "Larry Goldings, Peter Bernstein and Bill Stewart are the long-running organ trio the listing quotes the New York Times calling \"the best organ trio of the last decade\"; together over thirty years. Bill Stewart is (background knowledge) one of the most inventive drummers in jazz, and Kuumbwa is an intimate room. The catch is the drive to Santa Cruz on a Monday.",
+  "researched_at": "2026-11-10T22:43:34+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Kuumbwa is in Santa Cruz, about 1.5 hours from Oakland.",
+   "Jan 18, 2027 is a Monday (MLK Day)."
   ]
  },
  "ev_fa650ab435fc": {
