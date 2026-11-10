@@ -1,8 +1,28 @@
 {
- "backlog": 1290,
+ "backlog": 1293,
  "count": 40,
- "generated_at": "2026-11-09T22:48:08+00:00",
+ "generated_at": "2026-11-10T07:34:26+00:00",
  "items": [
+  {
+   "city": "Berkeley",
+   "date": "2026-12-03",
+   "description": "Buy Tickets on Humanitix - Jack West - The Acoustic Spank Project featuring James Nash hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday December 3rd 2026. Find event information.",
+   "fingerprint": "6fb48f08683e",
+   "id": "ev_c216320155b5",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2026-12-03T20:00:00-08:00",
+   "title": "Jack West - The Acoustic Spank Project featuring James Nash",
+   "url": "https://events.humanitix.com/jack-west",
+   "venue": "The Back Room",
+   "why_rules": [
+    "roots_adjacent: acoustic (+10)",
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-11-11",
@@ -291,7 +311,7 @@
    "city": "San Francisco",
    "date": "2026-11-12",
    "description": "Kilowatt: Ockham, Ex Deus Machina, Splendor, Kevito Y Los Bravos",
-   "fingerprint": "eb4c02bd34a6",
+   "fingerprint": "f0625a5dae88",
    "id": "ev_7cbb3b3bc380",
    "other_urls": [
     "https://dice.fm/event/6abafcfc1465b70001e5ea0b"
@@ -299,7 +319,7 @@
    "rules_score": 53.0,
    "rules_tier": "inventory",
    "start": "2026-11-12T00:00:00-08:00",
-   "title": "Ockham, Ex Deus Machina, Splendor, Kevito Y Los Bravos",
+   "title": "Ockham, Ex Deus Machina, Empire Grade and Kevito Y Los Bravos",
    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
    "venue": "Kilowatt",
    "why_rules": [
@@ -629,6 +649,27 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-11-15",
+   "description": "Black Cat: Marc Seales with Ernie Watts",
+   "fingerprint": "1fb0acd981ad",
+   "id": "ev_1a1952f90f29",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13307/2026-11-15"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-15T00:00:00-08:00",
+   "title": "Marc Seales with Ernie Watts",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
    "city": "",
    "date": "2026-11-09",
    "description": "The Freight: Bobby McFerrin and MOTION: Circlesongs",
@@ -760,43 +801,6 @@
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-18",
-   "description": "",
-   "fingerprint": "36be48b6c29d",
-   "id": "ev_0c9707ba9df0",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-18T00:00:00-08:00",
-   "title": "The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-12",
-   "description": "The Sound Room: Charles Wheal Band",
-   "fingerprint": "14c875b7e1ad",
-   "id": "ev_6a08083aeb36",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-12T00:00:00-08:00",
-   "title": "Charles Wheal Band",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   }
  ]

@@ -1,14 +1,15 @@
 {
- "inventory_total": 4475,
- "inventory_upcoming": 3161,
- "merged_sources": 40,
+ "inventory_total": 4481,
+ "inventory_upcoming": 3164,
+ "merged_sources": 3,
  "new_events": 12,
- "run_id": "9505f6f12f7d",
- "seconds": 425.0,
+ "run_id": "33c2d230d135",
+ "seconds": 415.0,
  "sources_due": 65,
  "sources_failed": [
-  "outsound"
+  "outsound",
+  "songkick-bay-area"
  ],
- "sources_ok": 64,
- "ts": "2026-11-09T22:45:24+00:00"
+ "sources_ok": 63,
+ "ts": "2026-11-10T07:30:25+00:00"
 }
