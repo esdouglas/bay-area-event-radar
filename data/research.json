@@ -19,6 +19,25 @@
    "No performer, genre or format information in the captured text; needs the event page."
   ]
  },
+ "ev_00f01ae717f8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with YOUNG DEE + THIRTY AUT SICKS + MC PATTY | Bang The Bay presents | Bang The Bay Presents WEDNESDAY NOVEMBER 18TH — BANG THE BAY! Feat. THE CALL OF DUSK DIG YOUR OWN GRAVE DIRTY BROWN NAPKINS YOUNG DEE THIRTY AUT SICKS A MURPHY MC PATTY — Bang The Bay Presents Every First and Third Wednesday At The Ivy Room Early show!!!!!!!!!!!!!!!!!!!!!!!! Doors 6pm / Show 6:30pm $15 Admission / $25 VIP* (*VIP includes a grab bag full of 10 pieces of band merch!!! including A CD, Vinyl, pins, stickers, patches,T-shirts and other new monthly gifts) — IVY ROOM 860 San Pablo Ave, Albany • 21+",
+    "url": "https://tickets.venuepilot.com/e/bang-the-bay-radio-incognito-prior-to-last-season-elegant-trash-tree-speed-2026-11-18-ivy-room-albany-44d24b"
+   }
+  ],
+  "fingerprint": "65cb3428abf6",
+  "fit": 10,
+  "performers": [],
+  "reason": "Bang The Bay's twice-monthly showcase at the Ivy Room with The Call of Dusk, Dig Your Own Grave, Dirty Brown Napkins, Elegant Trash and others. A local rock/punk grab-bag night, not his scene.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_011806810aac": {
   "evidence": [
    {
@@ -886,6 +905,36 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_185b4df74cf8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Margaret Glaspy and Anna Tivel at The Chapel at 2026-11-16T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43254466-margaret-glaspy-at-chapel"
+   }
+  ],
+  "fingerprint": "6114ab7f2a61",
+  "fit": 52,
+  "performers": [
+   {
+    "known_for": "Singer-songwriter-guitarist (background knowledge)",
+    "name": "Margaret Glaspy",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Portland folk songwriter (background knowledge)",
+    "name": "Anna Tivel",
+    "significance": "local"
+   }
+  ],
+  "reason": "Margaret Glaspy plays The Chapel with Anna Tivel opening. (Background knowledge: Glaspy is a sharp guitar-driven songwriter with jazz connections, including work with her husband Julian Lage; Tivel is a Portland folk songwriter with a literary, hushed style.) A strong songwriter double bill, adjacent to rather than inside his roots core.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_1932fda57565": {
   "evidence": [
    {
@@ -1467,22 +1516,22 @@
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "6e8e33123e6c",
+  "fingerprint": "42428d3a0a6b",
   "fit": 15,
   "performers": [
    {
-    "known_for": "local rock/downtempo band",
+    "known_for": "Local rock/downtempo band",
     "name": "Redshift",
     "significance": "none"
    },
    {
-    "known_for": "local band",
+    "known_for": "Not identified",
     "name": "Big City Trees",
     "significance": "none"
    }
   ],
-  "reason": "Local band Redshift (rock, downtempo electronic, lounge and ambient) with Big City Trees at the Little Hill Lounge for $10. A neighborhood rock/lounge bill with no roots, jazz or hip-hop draw.",
-  "researched_at": "2026-11-06T22:43:42+00:00",
+  "reason": "Local band Redshift plays rock, downtempo electronic, lounge and ambient sounds at Little Hill Lounge in El Cerrito, with Big City Trees. Nothing here touches his roots, jazz or hip-hop interests.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
@@ -1813,6 +1862,32 @@
    "How much son jarocho material appears in the live set"
   ]
  },
+ "ev_2ea87e1fe7b9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hillside Club: 3pm Chamber Music Sundaes presents the Navarro Trio",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "f943936d7f40",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Piano trio; not researched",
+    "name": "Navarro Trio",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Navarro Trio plays a 3pm Chamber Music Sundaes concert at the Hillside Club. Classical chamber music, outside his stated interests.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Program not listed."
+  ]
+ },
  "ev_2ee43226e484": {
   "evidence": [
    {
@@ -2136,11 +2211,11 @@
     "url": "https://events.humanitix.com/manring-kassin-burr-nov22"
    }
   ],
-  "fingerprint": "c28004c12a51",
-  "fit": 48,
+  "fingerprint": "87014bc5374e",
+  "fit": 50,
   "performers": [
    {
-    "known_for": "Fretless bass virtuoso, Windham Hill, Michael Hedges collaborator (background knowledge)",
+    "known_for": "Fretless bass virtuoso, Windham Hill (background knowledge; identity assumed from surname)",
     "name": "Michael Manring",
     "significance": "notable"
    },
@@ -2153,17 +2228,22 @@
     "known_for": "Not identified",
     "name": "Burr",
     "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "SPAGHETTI",
+    "significance": "none"
    }
   ],
-  "reason": "A trio led by name order with Michael Manring, the virtuoso fretless bassist known from his Windham Hill records and work with Michael Hedges (background knowledge), at the small Back Room on a Sunday afternoon. Likely an exploratory instrumental set; Kassin and Burr are not identified from the listing, so the fit depends on who they are.",
-  "researched_at": "2026-11-08T22:43:25+00:00",
+  "reason": "Manring-Kassin-Burr play a 3pm Sunday set at The Back Room in Berkeley, followed by SPAGHETTI at 7pm. (Background knowledge: Manring is very likely Michael Manring, the Windham Hill fretless bass virtuoso known for intricate improvised instrumental music; the other two names are not identified.) An intimate-room instrumental improv afternoon that may appeal to his jazz side.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Listing gives surnames only; the other two players are not identified.",
-   "Assumed Manring is Michael Manring, who also appears in another Back Room listing this month (Joel Harrison's In a Silent Way project)."
+   "Manring identity inferred from the trio name only.",
+   "Style of the trio not described."
   ]
  },
  "ev_35235a54a0cc": {
@@ -2364,17 +2444,23 @@
     "url": "https://events.humanitix.com/the-applestones"
    }
   ],
-  "fingerprint": "d432b49eb20a",
-  "fit": 40,
-  "performers": [],
-  "reason": "The Applestones play a debut album release show at The Back Room in Berkeley. I do not recognize the band and the listing gives no genre, so fit cannot be judged.",
-  "researched_at": "2026-11-06T22:43:42+00:00",
+  "fingerprint": "1f1426e6a2c4",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "The Applestones",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Applestones hold a debut album release show at The Back Room in Berkeley. I do not recognize the band and the listing gives no genre or members, so this needs a look at the band before judging.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Band not recognized; genre and members unknown."
+   "Genre, members and sound unknown."
   ]
  },
  "ev_3b365bf12e4a": {
@@ -2502,29 +2588,28 @@
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "8d68a63aeb73",
+  "fingerprint": "cc312ba1c6b1",
   "fit": 30,
   "performers": [
    {
-    "known_for": "Unknown",
+    "known_for": "Not identified",
     "name": "El Elle",
     "significance": "none"
    },
    {
-    "known_for": "Unknown",
+    "known_for": "Not identified",
     "name": "Cardboard People",
     "significance": "none"
    }
   ],
-  "reason": "El Elle and Cardboard People play a $10 show at Little Hill Lounge in El Cerrito. I do not recognize either act and the listing gives no genre, so this is unresolved rather than a pass.",
-  "researched_at": "2026-11-07T22:43:34+00:00",
+  "reason": "El Elle and Cardboard People play Little Hill Lounge in El Cerrito ($10, 8:30pm). Neither act is familiar and the listing gives no genre, so fit cannot be judged offline.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Neither act is known to me; genre and style unknown.",
-   "A live page or artist links would be needed to judge fit."
+   "Genre and performers unknown."
   ]
  },
  "ev_3e2662af80af": {
@@ -3799,6 +3884,26 @@
    "Fillmore Slim's documented past as a pimp may matter to some listeners."
   ]
  },
+ "ev_5dd3704d3736": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hotel Utah: Open Bluegrass Jam",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "9897a867ba91",
+  "fit": 25,
+  "performers": [],
+  "reason": "An open bluegrass jam at Hotel Utah in San Francisco. A pickers' session, only of interest if he wants to play.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Host not listed."
+  ]
+ },
  "ev_5def5c7c8f35": {
   "evidence": [
    {
@@ -4249,6 +4354,26 @@
    "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
   ]
  },
+ "ev_68a1b4262ffd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hillside Club: Bluegrass Jam",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "d26eb49aa543",
+  "fit": 30,
+  "performers": [],
+  "reason": "A Monday bluegrass jam at the Hillside Club in Berkeley. It is a participatory pickers' session, worth knowing only if he wants to play.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No host or format given."
+  ]
+ },
  "ev_693c1c27e9e5": {
   "evidence": [
    {
@@ -4303,6 +4428,41 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Rhythm section not named."
+  ]
+ },
+ "ev_699f7a425723": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with genre - indie, folk, rock | ivy room presents | IVY ROOM PRESENTS THURSDAY NOVEMBER 19TH — El Tee Maiden Mare Hallie Austin — 7 PM DOORS / 7:30 PM SHOW ADVANCE TICKETS AVAILABLE / $18 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ — EL TEE — El Tee writes honest songs about the perennial push-and-pull of holding space for yourself and giving it up for others. Listeners are swept up in stories delivered via introspective lyrics embedded in warm and nostalgic tones of instrumentation. El Tee's songs saunter through intimate moments, and then drive hard and fast straight into the pit of you...",
+    "url": "https://tickets.venuepilot.com/e/el-tee-maiden-mare-hallie-austin-2026-11-19-ivy-room-albany-8643f0"
+   }
+  ],
+  "fingerprint": "5696631abc2a",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Local singer-songwriter",
+    "name": "El Tee",
+    "significance": "none"
+   },
+   {
+    "known_for": "East Bay folk/country-inspired project of Hall McCann",
+    "name": "Maiden Mare",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area folk-grunge songwriter",
+    "name": "Hallie Austin",
+    "significance": "none"
+   }
+  ],
+  "reason": "Three East Bay songwriters play the Ivy Room: El Tee, Maiden Mare (Hall McCann's folk- and country-inspired band) and Hallie Austin's 'folk grunge' band. A friendly local indie-folk bill, but no traditional or foundational players.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_6c0c361dbcd8": {
@@ -4660,6 +4820,32 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_71677d822430": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: UC Jazz Ensembles",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "8521298ac60a",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "UC Berkeley student jazz program",
+    "name": "UC Jazz Ensembles",
+    "significance": "none"
+   }
+  ],
+  "reason": "UC Berkeley's student jazz ensembles play the Freight. A student showcase, pleasant but not a reason to go out.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Time and program not listed."
+  ]
+ },
  "ev_71c883eda7a0": {
   "evidence": [
    {
@@ -4766,28 +4952,28 @@
     "url": "https://wl.seetickets.us/event/john-carroll-kirby/700565?afflky=TheChapel"
    }
   ],
-  "fingerprint": "416d5a5fc4e4",
-  "fit": 66,
+  "fingerprint": "22f2e92fe73a",
+  "fit": 58,
   "performers": [
    {
-    "known_for": "LA keyboardist/producer, ambient spiritual jazz (background knowledge)",
+    "known_for": "Stones Throw keyboardist/producer, ambient jazz (background knowledge)",
     "name": "John Carroll Kirby",
     "significance": "notable"
    },
    {
-    "known_for": "SF guitarist, ex-Tarentel, fingerstyle/ambient (background knowledge)",
+    "known_for": "SF guitarist, Tarentel, American-primitive solo guitar (background knowledge)",
     "name": "Danny Paul Grody",
     "significance": "local"
    }
   ],
-  "reason": "John Carroll Kirby is an LA keyboardist and producer (background knowledge: Stones Throw records, sideman/producer for Solange and Frank Ocean) who makes lush, exotica-tinged spiritual jazz, here with SF guitarist Danny Paul Grody's duo opening. A folkYEAH! booking at The Chapel, so a curated, adventurous night, though Kirby leans ambient and groove more than raw improvisation.",
-  "researched_at": "2026-11-06T22:43:42+00:00",
+  "reason": "John Carroll Kirby plays The Chapel with the Danny Paul Grody Duo opening, presented by (((folkYEAH!))). (Background knowledge: Kirby is an LA keyboardist-producer known for Stones Throw records of lush new-age-leaning jazz and for work with Solange and Frank Ocean; Grody is a San Francisco guitarist from Tarentel and Way Out Lines who plays meditative American-primitive style guitar.) The folkYEAH booking and the Grody set make it a good cosmic-folk and instrumental night, though not a jazz-improv or roots core pick.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Whether Kirby plays solo or with a band is not stated."
+   "Kirby's live band lineup not listed."
   ]
  },
  "ev_74050a3940bd": {
@@ -5589,6 +5775,37 @@
    "No listing description; performers not recognized."
   ]
  },
+ "ev_806656508d4b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Keys Jazz Bistro: 7 & 9pm Paula West; 10:30pm Cristian Eck",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "5e9a22c1554e",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Acclaimed SF jazz/cabaret vocalist (background knowledge)",
+    "name": "Paula West",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Cristian Eck",
+    "significance": "none"
+   }
+  ],
+  "reason": "Paula West sings two sets (7 and 9pm) at Keys Jazz Bistro, with Cristian Eck at 10:30pm. (Background knowledge: West is one of San Francisco's most acclaimed jazz and cabaret vocalists, a longtime fixture at the Plush Room and Jazz at Lincoln Center's Dizzy's.) A strong standards singer in an intimate room, more classic than adventurous.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Backing band not listed."
+  ]
+ },
  "ev_812e792ae273": {
   "evidence": [
    {
@@ -6021,29 +6238,33 @@
     "url": "https://keysjazzbistro.com/event/ritmo-y-voz-afro-cuban-jazz-ignited-a-keys-birthday-celebration/"
    }
   ],
-  "fingerprint": "1c6db6247fc2",
-  "fit": 40,
+  "fingerprint": "cfb25eb49668",
+  "fit": 50,
   "performers": [
    {
-    "known_for": "Bay Area Afro-Cuban jazz and vocal trio",
+    "known_for": "Bay Area jazz vocalist (background knowledge)",
+    "name": "Kenny Washington",
+    "significance": "local"
+   },
+   {
+    "known_for": "Afro-Cuban jazz group with guitarist Kai Lyons",
     "name": "Ritmo y Voz",
     "significance": "local"
    },
    {
-    "known_for": "Guitarist",
-    "name": "Kai Lyons",
+    "known_for": "Bay Area jazz pianist/educator (background knowledge)",
+    "name": "Simon Rowe",
     "significance": "local"
    }
   ],
-  "reason": "Ritmo y Voz is a Bay Area Afro-Cuban jazz trio with vocals, playing Keys Jazz Bistro's four-year anniversary night with guitarist Kai Lyons and a percussionist billed as Ernesto. It reads as a festive supper-club Latin jazz set rather than the adventurous improvised jazz he seeks; I do not recognize the players.",
-  "researched_at": "2026-11-07T22:43:34+00:00",
+  "reason": "Keys Jazz Bistro's fourth-birthday Saturday has three sets: the Kenny Washington Quartet at 7pm, Afro-Cuban group Ritmo y Voz at 9pm, and the Simon Rowe Organ Trio at 10:30pm. (Background knowledge: Kenny Washington is a well-regarded New Orleans-born Bay Area jazz singer and Simon Rowe a respected Bay Area pianist and educator.) Solid mainstream jazz in a small North Beach supper club rather than the adventurous improvising he leans toward.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
-  "tier": "low",
+  "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "I do not recognize Kai Lyons or the other trio members (background knowledge has nothing on them).",
-   "Full lineup is truncated in the listing."
+   "Three separately ticketed sets likely; supper-club minimums may apply."
   ]
  },
  "ev_89963da93768": {
@@ -6310,6 +6531,32 @@
   "tier": "possible",
   "uncertainties": [
    "Band history is background knowledge."
+  ]
+ },
+ "ev_8d7a1ddfff2a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Anthony Paule Soul Orchestra at Sweetwater Music Hall on Nov 22, 2026",
+    "url": "https://sweetwatermusichall.org/event/the-anthony-paule-soul-orchestra/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "3f215651b638",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Bay Area soul revue led by guitarist Anthony Paule (background knowledge)",
+    "name": "Anthony Paule Soul Orchestra",
+    "significance": "local"
+   }
+  ],
+  "reason": "Sweetwater's Sunday pairs the noon Marin Bluegrass Sessions with an evening set by the Anthony Paule Soul Orchestra. (Background knowledge: Paule's horn-driven soul revue is a well-liked Bay Area band but outside his core taste.) The bluegrass session appears to be a local jam-style afternoon rather than a featured act.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Marin Bluegrass Sessions format and performers not listed."
   ]
  },
  "ev_90bf874e3242": {
@@ -7139,6 +7386,32 @@
    "Special guest unnamed."
   ]
  },
+ "ev_a63805013c6e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Starry Plough: Kevito, Silver Shores, Nothing Over Silence, Try Harder",
+    "url": "https://thestarryplough.com/event/blues-night-29/the-starry-plough-pub/california/"
+   }
+  ],
+  "fingerprint": "b850c18eb3c0",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Kevito",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Starry Plough Blues Night with Kevito, Silver Shores, Nothing Over Silence and Try Harder. Local bar-band bill with no recognizable roots names.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genres of the acts not described."
+  ]
+ },
  "ev_a66aee236437": {
   "evidence": [
    {
@@ -7447,35 +7720,33 @@
  "ev_accecbf31981": {
   "evidence": [
    {
-    "finding": "Nov. 20: East Bay Square Dance - Hillside Club, Berkeley; Band: Big Chimney Barn Dance; Caller: Jordan Ruyle; preceded by an old time jam.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Nov. 20: East Bay Square Dance - Hillside Club, Berkeley; ​Band: Big Chimney Barn Dance; Caller: Jordan Ruyle; ​preceded by an old time jam",
     "url": "https://www.bgsignal.com/concerts--festivals.html"
-   },
-   {
-    "finding": "Search result shows a Big Chimney Barn Dance Bandcamp page (not opened).",
-    "url": "https://bigchimneybarndance.bandcamp.com"
    }
   ],
-  "fingerprint": "a7a6afd07946",
-  "fit": 58,
+  "fingerprint": "fdfae417a114",
+  "fit": 74,
   "performers": [
    {
-    "known_for": "Old-time dance band",
+    "known_for": "Bay Area old-time string band for square and barn dances (background knowledge)",
     "name": "Big Chimney Barn Dance",
     "significance": "local"
    },
    {
-    "known_for": "Caller",
+    "known_for": "Bay Area square/contra dance caller (background knowledge)",
     "name": "Jordan Ruyle",
     "significance": "local"
    }
   ],
-  "reason": "The monthly East Bay Square Dance at the Hillside Club, with live old-time music from Big Chimney Barn Dance, Jordan Ruyle calling, and an old-time jam beforehand. A warm community dance in the local old-time scene; on-taste, low stakes.",
-  "researched_at": "2026-10-29T00:10:00+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "Big Chimney Barn Dance plays the East Bay Square Dance at the Hillside Club in Berkeley, with Jordan Ruyle calling and an old-time jam beforehand. This is the living Bay Area old-time community at its most direct: string band, caller and a pre-dance jam in a small Berkeley room. (Background knowledge: Big Chimney is a local old-time band and Ruyle a regular Bay Area dance caller; it is a participatory dance more than a concert.)",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
-  "tier": "possible",
+  "tier": "strong",
   "uncertainties": [
-   "Band members, time and price not confirmed."
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Participatory dance format; better as a night out dancing than as a listening show.",
+   "Band roster not listed."
   ]
  },
  "ev_ad3b52f6b1f9": {
@@ -7503,6 +7774,36 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "The Fillmore is a mid-size room, so this is less intimate than his ideal.",
    "Band lineup and which project she is touring are not in the captured text."
+  ]
+ },
+ "ev_ad46ab174f57": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Ivory Layne | Goldenvoice Presents...",
+    "url": "https://wl.seetickets.us/event/an-evening-with-andrew-mcmahon-and-his-piano/693369?afflky=GreatAmericanMusicHall"
+   }
+  ],
+  "fingerprint": "848f4d0810e6",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Pop-rock songwriter (background knowledge)",
+    "name": "Andrew McMahon",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Singer-songwriter",
+    "name": "Ivory Layne",
+    "significance": "none"
+   }
+  ],
+  "reason": "Andrew McMahon plays an evening alone at the piano at Great American Music Hall, with Ivory Layne. (Background knowledge: McMahon is the pop-rock songwriter behind Something Corporate and Jack's Mannequin.) Outside his taste.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_af0f6090b4d7": {
@@ -7935,22 +8236,22 @@
     "url": "https://sweetwatermusichall.org/event/josh-rouse-with-mary-bragg/sweetwater-music-hall/mill-valley-california/"
    }
   ],
-  "fingerprint": "7e39a4058c2d",
+  "fingerprint": "f9dde595183e",
   "fit": 42,
   "performers": [
    {
-    "known_for": "indie folk-pop singer-songwriter (background knowledge)",
+    "known_for": "Americana/pop singer-songwriter (background knowledge)",
     "name": "Josh Rouse",
     "significance": "notable"
    },
    {
-    "known_for": "Nashville-based songwriter (background knowledge)",
+    "known_for": "Nashville singer-songwriter (background knowledge)",
     "name": "Mary Bragg",
     "significance": "none"
    }
   ],
-  "reason": "Josh Rouse is a veteran indie singer-songwriter with a gentle folk-pop sound (background knowledge), with Georgia songwriter Mary Bragg opening at Sweetwater in Mill Valley. Pleasant songcraft but polished folk-pop rather than traditional, psychedelic or countercultural folk, and a Marin drive.",
-  "researched_at": "2026-11-06T22:43:42+00:00",
+  "reason": "Josh Rouse plays Sweetwater in Mill Valley with Mary Bragg opening. (Background knowledge: Rouse is a warm, soft-rock-leaning Americana songwriter and Bragg a Nashville songwriter.) Pleasant and well crafted, but closer to polished singer-songwriter pop than to the roots traditions he cares about.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
@@ -9073,36 +9374,37 @@
  "ev_cf431bc6f5ce": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Picture Atlantic and Field Medic at Bottom of the Hill at 2026-11-16T19:00:00-0800\"",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Picture Atlantic and Field Medic at Bottom of the Hill at 2026-11-16T19:00:00-0800",
     "url": "https://www.songkick.com/concerts/43434342-picture-atlantic-at-bottom-of-the-hill"
    }
   ],
-  "fingerprint": "bfeb83913b20",
+  "fingerprint": "afe26e98ac24",
   "fit": 28,
   "performers": [
    {
-    "known_for": "Lo-fi folk-punk songwriter Kevin Patrick Sullivan (background knowledge)",
+    "known_for": "Lo-fi folk songwriter, Run For Cover Records (background knowledge)",
     "name": "Field Medic",
     "significance": "notable"
    },
    {
-    "known_for": "Alt-pop band",
+    "known_for": "Indie pop-rock band (background knowledge)",
     "name": "Finish Ticket",
-    "significance": "notable"
+    "significance": "none"
    },
    {
-    "known_for": "Indie rock band",
+    "known_for": "Indie rock band (background knowledge)",
     "name": "Picture Atlantic",
     "significance": "none"
    }
   ],
-  "reason": "An indie bill at Bottom of the Hill: Finish Ticket (alt-pop), Picture Atlantic (indie rock) and Field Medic, the lo-fi folk-punk songwriter. Only Field Medic touches folk, and not the tradition he cares about. (background knowledge.)",
-  "researched_at": "2026-11-09T22:44:36+00:00",
+  "reason": "Finish Ticket, Picture Atlantic and Field Medic play Bottom of the Hill. (Background knowledge: Finish Ticket and Picture Atlantic are indie pop/rock bands; Field Medic is a lo-fi bedroom-folk songwriter on Run For Cover.) Field Medic has a slight folk edge, but this is an indie-rock bill.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": [
-   "Date, venue and lineup not checked against a live page (offline run)."
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Billing order unconfirmed."
   ]
  },
  "ev_cfadd1749599": {
@@ -9164,6 +9466,32 @@
   "uncertainties": [
    "Other quartet members not named",
    "Thurman's broader credits not verified in this pass"
+  ]
+ },
+ "ev_d187af543f96": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Lost Church: 4:45pm Flamenco Libre",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "fb8145a21996",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Not identified; presumably a local flamenco group",
+    "name": "Flamenco Libre",
+    "significance": "none"
+   }
+  ],
+  "reason": "Flamenco Libre plays a 4:45pm Sunday set at The Lost Church in San Francisco. Flamenco is a traditional form and his partner likes dance, but the performers are not named and nothing marks this as a standout date.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers and whether dancers appear are not listed."
   ]
  },
  "ev_d21502a84609": {
@@ -9763,6 +10091,37 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_de1f24a2216a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Center for New Music: Brent Miller & Adam Fong",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "631f861ac628",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Composer, founding director of Center for New Music (background knowledge)",
+    "name": "Adam Fong",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Brent Miller",
+    "significance": "none"
+   }
+  ],
+  "reason": "Brent Miller and Adam Fong play the Center for New Music in San Francisco. (Background knowledge: Fong is a composer and the founding director of the Center for New Music; Brent Miller is not identified.) Likely experimental or new-music improvisation in a tiny room, which could suit his adventurous side, but the listing gives no instrumentation or style.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description of the music; style is a guess."
   ]
  },
  "ev_df0376b8d3c8": {
@@ -10649,6 +11008,37 @@
    "Price not confirmed"
   ]
  },
+ "ev_f2145f01d2c5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Emily Scott Robinson at Sweetwater Music Hall at 2026-11-16",
+    "url": "https://sweetwatermusichall.org/event/emily-scott-robinson-with-lvdy/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "be66412c1c8f",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Americana songwriter, Oh Boy Records (background knowledge)",
+    "name": "Emily Scott Robinson",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "LVDY",
+    "significance": "none"
+   }
+  ],
+  "reason": "Emily Scott Robinson plays Sweetwater in Mill Valley with LVDY. (Background knowledge: Robinson is a Colorado-based Americana songwriter signed to Oh Boy Records, John Prine's label, praised for vivid story songs.) A good contemporary folk songwriter show, though more singer-songwriter than old-time.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Mill Valley is a longer trip from Oakland."
+  ]
+ },
  "ev_f28970a1544d": {
   "evidence": [
    {
@@ -10935,6 +11325,26 @@
    "Opener not confirmed.",
    "Biography details are background knowledge.",
    "Felton date seen only via collector; GAMH date from a search-result URL."
+  ]
+ },
+ "ev_f77eb4a058cb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Starry Plough: Berkeley Balkan Bacchanal",
+    "url": "https://thestarryplough.com/event/berkeley-balkan-bacchanal-27/the-starry-plough-pub/california/"
+   }
+  ],
+  "fingerprint": "a6f9df3783f9",
+  "fit": 48,
+  "performers": [],
+  "reason": "The recurring Berkeley Balkan Bacchanal returns to the Starry Plough. (Background knowledge: it is a long-running Balkan music and folk-dance night with local brass and village bands.) A lively traditional-music night that fits his taste for unusual traditions, though not a featured-artist show.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Bands for this edition not listed."
   ]
  },
  "ev_f832cb15ac80": {
@@ -11279,6 +11689,43 @@
   "uncertainties": [
    "Bird & Beckett page not fetched; date, 7:30 pm time and price unconfirmed against primary source.",
    "No independent bio found for Chris Trinidad or for Naima Shalhoub in this pass."
+  ]
+ },
+ "ev_fff9f29a80cb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: 12pm Bobby McFerrin and MOTION: Circlesongs; 7pm Country Bluegrass Jam with Richard Brandenburg",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "a6b8c014f3e0",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Vocal improviser, Circlesongs, 'Don't Worry Be Happy' (background knowledge)",
+    "name": "Bobby McFerrin",
+    "significance": "major"
+   },
+   {
+    "known_for": "Vocal ensemble appearing with McFerrin; not identified",
+    "name": "MOTION",
+    "significance": "none"
+   },
+   {
+    "known_for": "Hosts the evening jam; not identified",
+    "name": "Richard Brandenburg",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bobby McFerrin leads a noon Circlesongs session with MOTION at the Freight, followed by an evening country/bluegrass jam with Richard Brandenburg. (Background knowledge: McFerrin is a ten-time Grammy-winning vocal improviser, and Circlesongs are his improvised, largely participatory group-singing pieces, so this may be closer to a sing-along session than a concert.) A rare chance to be in a room with a foundational improviser, but a Monday midday slot and an uncertain format keep it from ranking higher.",
+  "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Unclear whether the noon Circlesongs is a performance, a workshop or an audience sing.",
+   "Monday 12pm timing may be impractical."
   ]
  }
 }
