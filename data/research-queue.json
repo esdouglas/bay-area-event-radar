@@ -1,7 +1,7 @@
 {
- "backlog": 1431,
+ "backlog": 1442,
  "count": 40,
- "generated_at": "2026-11-11T22:47:08+00:00",
+ "generated_at": "2026-11-12T07:31:48+00:00",
  "items": [
   {
    "city": "",
@@ -323,6 +323,25 @@
   },
   {
    "city": "",
+   "date": "2026-11-14",
+   "description": "Nov. 14 (2 pm): Crying Uncle Bluegrass Band; follows discussion with producers of Hardly Strictly Bluegrass at 25: The Big Twang - Park Branch Nov. 14 (5:30 pm): Keystone Canyon - Depot Cafe & Bookstore, Mill Valley",
+   "fingerprint": "4de1f9ddce44",
+   "id": "ev_5f59d1b05df4",
+   "other_urls": [],
+   "rules_score": 63.0,
+   "rules_tier": "strong",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Crying Uncle Bluegrass Band; follows discussion with producers of Hardly Strictly Bluegrass at 25: The Big Twang",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Park Branch Nov. 14 (5:30 pm): Keystone Canyon - Depot Cafe & Bookstore, Mill Valley",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+18)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
    "date": "2026-11-17",
    "description": "The Freight: Las Migas",
    "fingerprint": "37b59185b36f",
@@ -425,6 +444,28 @@
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-18",
+   "description": "Bottom of the Hill: Mild Universe, Joel Robinow, Pateka",
+   "fingerprint": "9603e12e7ad8",
+   "id": "ev_234432b15b46",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+    "https://dice.fm/event/6aab933c5e29a700014d7229"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-18T20:00:00-08:00",
+   "title": "Mild Universe, Joel Robinow, Pateka",
+   "url": "http://www.bottomofthehill.com/20261118.html",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "intimate room: Bottom of the Hill (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
    ]
   },
   {
@@ -793,45 +834,6 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-12-04",
-   "description": "Founded by Fattah Abbou and Mohamed Aoualou , AZA unites traditional Tamazight (incorrectly labeled \"Berber\") music, indigenous to North Africa, with the global influences of its diverse members. With elements of indigenous Moroccan musical styles, including Ahwash, Rwais, and Gnawa – among others – AZA's stirring performances feature deep, danceable rhythms, intricate melodies, and soaring, soulf",
-   "fingerprint": "4b5db8f37f73",
-   "id": "ev_1354916f77bd",
-   "other_urls": [],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2026-12-04T19:00:00-08:00",
-   "title": "AZA – Moroccan Music",
-   "url": "https://www.kuumbwajazz.org/calendar/aza-moroccan-music/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Sacramento",
-   "date": "2026-11-22",
-   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
-   "fingerprint": "3623da210b1d",
-   "id": "ev_dc78e842cb9b",
-   "other_urls": [],
-   "rules_score": 62.0,
-   "rules_tier": "strong",
-   "start": "2026-11-22T18:00:00-08:00",
-   "title": "Two Rivers Cider Old Time Jam",
-   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-22/",
-   "venue": "Two Rivers Cider",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "outside the core Bay Area (-6)"
    ]
   }
  ]
