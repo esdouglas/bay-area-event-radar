@@ -219,6 +219,42 @@
    "Listing conflates two sets; which is this event is unclear."
   ]
  },
+ "ev_0652498dab27": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Bottom of the Hill: 4:30pm Verst, Browntown West, Sweet Chariot\"",
+    "url": "http://www.bottomofthehill.com/20261122.html"
+   }
+  ],
+  "fingerprint": "2aaca4d0a0b8",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Verst",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Browntown West",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Sweet Chariot",
+    "significance": "none"
+   }
+  ],
+  "reason": "An early 4:30 pm show at Bottom of the Hill on Sun Nov 22 with Verst, Browntown West and Sweet Chariot. I don't recognize these acts and the listing gives no genre; an afternoon bill like this is often local or all-ages rock.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or description captured."
+  ]
+ },
  "ev_0743b6f714c5": {
   "evidence": [
    {
@@ -467,6 +503,33 @@
    "Freight page not fetched."
   ]
  },
+ "ev_0e88755cfd09": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Louisiana born-and-raised living legend Jules Broussard has been blowing away Bay Area audiences with his double-saxophone serenades and soulful solos for over 60 years. He's been stage and studio mates with everyone from Alice Coltrane to Van Morrisson to Carlos Santana – it's often joked that in his 89 years, there's really no one Jules [...]\"",
+    "url": "https://keysjazzbistro.com/event/jules-broussard-7/"
+   }
+  ],
+  "fingerprint": "8d352982ccac",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Bay Area saxophonist, collaborator of Alice Coltrane, Van Morrison, Santana",
+    "name": "Jules Broussard",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Jules Broussard, an 89-year-old Louisiana-born saxophonist and a fixture of the Bay Area scene for over 60 years, plays Keys Jazz Bistro in North Beach on Thu Dec 3 ($35). The listing notes stage and studio work with Alice Coltrane, Van Morrison and Carlos Santana; (background knowledge) he is best known as a soulful R&B-leaning jazz player rather than an adventurous improviser, so this is a chance to see a living local legend in a small room more than a cutting-edge set.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Repertoire and band lineup not stated in the captured text.",
+   "Ages 89; worth catching while possible, but no indication this is a special or farewell date."
+  ]
+ },
  "ev_0fe61cbd2415": {
   "evidence": [
    {
@@ -641,6 +704,39 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "String band for this date is not named in the captured text."
+  ]
+ },
+ "ev_1393af181f1e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Davies Symphony Hall: Alonzo King LINES Ballet and Appalachian Spring\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "55f5e65bc229",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "San Francisco contemporary ballet company founded 1982",
+    "name": "Alonzo King LINES Ballet",
+    "significance": "major"
+   },
+   {
+    "known_for": "Major orchestra; presumably performing Copland's Appalachian Spring",
+    "name": "San Francisco Symphony",
+    "significance": "major"
+   }
+  ],
+  "reason": "Alonzo King LINES Ballet joins the San Francisco Symphony at Davies Hall for a program built around Copland's Appalachian Spring (Thu Nov 19; also Nov 20 and 21). (Background knowledge) LINES is SF's acclaimed contemporary ballet company, so this is a strong pick for his partner's love of dance; note the 'Appalachian' here is Copland's orchestral score, not old-time music.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Assumed SF Symphony program with LINES dancing; not confirmed from captured text (listing gives only title and venue).",
+   "Rest of the program, conductor and prices unknown.",
+   "Same program also listed for Nov 20 and Nov 21."
   ]
  },
  "ev_1480ea495a7f": {
@@ -931,6 +1027,31 @@
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_18dfb9ff978a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Icona Pop at The Independent at 2026-11-18T20:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43411327-icona-pop-at-independent"
+   }
+  ],
+  "fingerprint": "6b349809a772",
+  "fit": 8,
+  "performers": [
+   {
+    "known_for": "Swedish electropop duo",
+    "name": "Icona Pop",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Icona Pop plays The Independent on Wed Nov 18. (Background knowledge) They are the Swedish electropop duo behind 'I Love It'; club pop, far outside his taste.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
@@ -1325,6 +1446,42 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Not a performance; only of interest if he wants to play."
+  ]
+ },
+ "ev_234432b15b46": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Bottom of the Hill: Mild Universe, Joel Robinow, Pateka\"",
+    "url": "http://www.bottomofthehill.com/20261118.html"
+   }
+  ],
+  "fingerprint": "9603e12e7ad8",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "Mild Universe",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Joel Robinow",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Pateka",
+    "significance": "none"
+   }
+  ],
+  "reason": "Mild Universe, Joel Robinow and Pateka at Bottom of the Hill on Wed Nov 18. None of these acts is one I can place with confidence, and the listing gives no genre.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or description captured."
   ]
  },
  "ev_23d9adba60d6": {
@@ -2437,6 +2594,36 @@
    "Performer not recognized; no description."
   ]
  },
+ "ev_3b0079642a71": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"with OSTON\"",
+    "url": "https://wl.seetickets.us/event/maddie-zahm/694208?afflky=TheChapel"
+   }
+  ],
+  "fingerprint": "9bd7cac7c804",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "Pop singer-songwriter",
+    "name": "Maddie Zahm",
+    "significance": "local"
+   },
+   {
+    "known_for": "Unknown opener",
+    "name": "OSTON",
+    "significance": "none"
+   }
+  ],
+  "reason": "Maddie Zahm, with OSTON, at The Chapel on Fri Nov 20. (Background knowledge) Zahm is a pop singer-songwriter who broke through on TikTok and American Idol; confessional pop, not his taste.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_3b2c2bdac16b": {
   "evidence": [
    {
@@ -2579,6 +2766,63 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Only of interest if he plays bluegrass himself, which is not known."
+  ]
+ },
+ "ev_3d1472fdc415": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Biscuits and Blues: The Funky Jazz All-Stars\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "3fe2da796a13",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "The Funky Jazz All-Stars",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Funky Jazz All-Stars at Biscuits and Blues in San Francisco on Wed Nov 18, per KALX. The name and room point to a funk and jazz-standards dinner set, not adventurous improvisation, and I don't recognize the group.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No personnel named."
+  ]
+ },
+ "ev_3e0803eba261": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Lost Church: The Mirrorr, Lost Ethos\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "1dec202eb24e",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Unknown",
+    "name": "The Mirrorr",
+    "significance": "none"
+   },
+   {
+    "known_for": "Unknown",
+    "name": "Lost Ethos",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Mirrorr and Lost Ethos at The Lost Church in San Francisco on Wed Nov 18, per KALX. Neither act is one I recognize and the listing gives no genre.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or description captured."
   ]
  },
  "ev_3e1268e27774": {
@@ -2828,6 +3072,32 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_427cfdc0f52f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Freight: Las Migas\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "37b59185b36f",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Barcelona flamenco-fusion group, Latin GRAMMY winners",
+    "name": "Las Migas",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Las Migas play the Freight on Tue Nov 17, per KALX. (Background knowledge) The Barcelona flamenco-fusion band has won Latin GRAMMYs for Best Flamenco Album; excellent musicianship in an intimate room, though flamenco-pop sits outside his core roots and jazz lanes.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup and price not captured."
+  ]
+ },
  "ev_432df2be2e60": {
   "evidence": [
    {
@@ -2876,6 +3146,27 @@
    "Ensemble lineup unknown",
    "Little independent coverage of Ella Dair found",
    "Date and time only from the queue item; primary page not read"
+  ]
+ },
+ "ev_45cf3c8be2c3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Make Out Room: Jazz at the Make Out Room\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "be15a2db80d7",
+  "fit": 40,
+  "performers": [],
+  "reason": "A 'Jazz at the Make Out Room' night in the Mission on Tue Nov 17, per the KALX calendar, with no performers named. The room is small and cheap, which suits Erik, but without a lineup there is no way to judge the music.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named in the captured text; may be a recurring house series or jam.",
+   "Price and start time not captured."
   ]
  },
  "ev_45ee6bc0d476": {
@@ -2965,6 +3256,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Meaning of 'Haunted Shed' in the title is not explained in the listing."
+  ]
+ },
+ "ev_4797dbcc7c71": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover\"",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "b0ba9a002aa9",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Local funk/soul/jazz band",
+    "name": "Asanabenche",
+    "significance": "none"
+   }
+  ],
+  "reason": "Asanabenche, a local band blending funk, soul, jazz, Caribbean and Latin influences, plays a $10 night at Little Hill Lounge in El Cerrito on Wed Apr 14, 2027. Not a group I recognize; reads as a friendly groove band rather than the adventurous jazz Erik seeks.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Date far out (April 2027); may change."
   ]
  },
  "ev_4813d08f10f8": {
@@ -3112,6 +3429,36 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Identity of the series is inferred."
+  ]
+ },
+ "ev_4f1fa780a91b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Pretty Sick at The Independent at 2026-11-19T20:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43365396-pretty-sick-at-independent"
+   }
+  ],
+  "fingerprint": "d8cc2890868c",
+  "fit": 12,
+  "performers": [
+   {
+    "known_for": "NYC grunge-pop band",
+    "name": "Pretty Sick",
+    "significance": "local"
+   },
+   {
+    "known_for": "Unknown opener",
+    "name": "Sex Week",
+    "significance": "none"
+   }
+  ],
+  "reason": "Pretty Sick, with Sex Week, at The Independent on Thu Nov 19. (Background knowledge) Pretty Sick is a New York grunge-pop band led by Sabrina Fuentes; young indie rock with no roots, jazz or hip-hop angle.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_4f5dec744698": {
@@ -3797,6 +4144,33 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_5c10ac3ca875": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Sound Room: Angela LaFlamme: Wild Women of the Blues\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "106639225643",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Unknown to me; likely Bay Area blues/jazz vocalist",
+    "name": "Angela LaFlamme",
+    "significance": "none"
+   }
+  ],
+  "reason": "Angela LaFlamme presents 'Wild Women of the Blues' at The Sound Room in Oakland on Fri Nov 20, per KALX. The title suggests a themed revue of classic women blues singers (likely the Bessie Smith and Ma Rainey era), closer to a tribute set than original work, and LaFlamme is not a performer I recognize.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Only title and venue captured; format inferred from the title.",
+   "Band and repertoire unknown."
+  ]
+ },
  "ev_5d01694156f2": {
   "evidence": [
    {
@@ -4004,6 +4378,32 @@
    "Rhythm section not named."
   ]
  },
+ "ev_5edc77e9a36b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Freight: Lucy Kaplansky\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "c47b125aa59d",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "NYC folk singer-songwriter; Cry Cry Cry",
+    "name": "Lucy Kaplansky",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Lucy Kaplansky plays the Freight on Sat Nov 21. (Background knowledge) A Greenwich Village folk mainstay on Red House Records, she sang in Cry Cry Cry with Dar Williams and Richard Shindell and is known for gorgeous harmony singing; solid coffeehouse folk rather than anything wild.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Price and accompaniment not captured."
+  ]
+ },
  "ev_5ef1ec6dd16e": {
   "evidence": [
    {
@@ -4042,6 +4442,34 @@
   "tier": "possible",
   "uncertainties": [
    "No independent review found; how free or composed the music is is unknown."
+  ]
+ },
+ "ev_5f59d1b05df4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Nov. 14 (2 pm): Crying Uncle Bluegrass Band; follows discussion with producers of Hardly Strictly Bluegrass at 25: The Big Twang - Park Branch Nov. 14 (5:30 pm): Keystone Canyon - Depot Cafe & Bookstore, Mill Valley\"",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "4de1f9ddce44",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Young Northern California bluegrass band",
+    "name": "Crying Uncle Bluegrass Band",
+    "significance": "local"
+   }
+  ],
+  "reason": "Crying Uncle, the young Marin bluegrass band, plays a free 2 pm set at the SF Public Library's Park Branch on Sat Nov 14, after a discussion with the producers of 'Hardly Strictly Bluegrass at 25: The Big Twang'. A chance to hear one of the area's best young bluegrass bands plus Hardly Strictly history in a tiny room, though it is a library program, not a full concert.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The collector merged two listings: the venue field also contains a separate Nov 14 5:30 pm Keystone Canyon show at Depot Cafe & Bookstore, Mill Valley.",
+   "Assumed Park Branch is the SF Public Library branch on Cole St.",
+   "'The Big Twang' assumed to be a Hardly Strictly 25th-anniversary book or film; not confirmed."
   ]
  },
  "ev_61404e3d5a8b": {
@@ -4820,6 +5248,33 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_7016e2e08dc1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Join us as one of the Bay Area's prominent band leaders helps us celebrate four years at Keys! Marcus Anthony Shelby is a composer, bassist, bandleader, and educator who currently lives in San Francisco, California. His work focuses on the history, present, and future of African American lives social movements and music education. In 1990,[...]\"",
+    "url": "https://keysjazzbistro.com/event/marcus-shelby-quartet-a-keys-birthday-celebration/"
+   }
+  ],
+  "fingerprint": "f86db3d0cdd6",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Bay Area bassist, composer, bandleader; Black/Note, studied with Charlie Haden",
+    "name": "Marcus Shelby",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Bassist and composer Marcus Shelby leads a quartet for Keys Jazz Bistro's fourth-anniversary party in North Beach on Thu Nov 19 (two sets listed, 7 and 9 pm; $45). (Background knowledge) Shelby studied with Charlie Haden, came up in Black/Note, and writes ambitious suites on African American history; a quartet in a small room is a good way to hear him, though the birthday framing suggests a celebratory rather than adventurous set.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quartet sidemen not named in the captured text.",
+   "Program unknown."
+  ]
+ },
  "ev_71677d822430": {
   "evidence": [
    {
@@ -5251,6 +5706,27 @@
    "The rules hit 'ballet' and 'trio' look like false keyword matches; this is a quartet with no dance."
   ]
  },
+ "ev_780c6518418a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Little Hill Lounge: Tuesday Bluesday\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "197c1da0919b",
+  "fit": 30,
+  "performers": [],
+  "reason": "'Tuesday Bluesday' at the Little Hill Lounge in El Cerrito on Tue Nov 17, per KALX, appears to be a recurring blues night with no performers named. Likely a house band or jam; nothing to judge without a lineup.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named.",
+   "Recurring weekly night, not a special date."
+  ]
+ },
  "ev_78f9dc38108a": {
   "evidence": [
    {
@@ -5615,6 +6091,36 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized; lineup differs between title and listing text."
+  ]
+ },
+ "ev_7f796058bad7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"mark william lewis at The Independent at 2026-11-22T20:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43337407-mark-william-lewis-at-independent"
+   }
+  ],
+  "fingerprint": "8d2943d44a78",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "London indie singer-songwriter",
+    "name": "Mark William Lewis",
+    "significance": "local"
+   },
+   {
+    "known_for": "Ambient/experimental musician",
+    "name": "claire rousay",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Mark William Lewis with claire rousay at The Independent on Sun Nov 22. (Background knowledge) Lewis is a London singer-songwriter on A24's music label and rousay is a Texas ambient and experimental artist; moody contemporary indie, interesting but outside his roots, jazz and hip-hop lanes.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_7f86de63cbe5": {
@@ -6940,6 +7446,38 @@
    "Performers not recognized."
   ]
  },
+ "ev_9a6402a7a048": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Davies Symphony Hall: Alonzo King LINES Ballet and Appalachian Spring\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "adc6a81482d2",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "San Francisco contemporary ballet company founded 1982",
+    "name": "Alonzo King LINES Ballet",
+    "significance": "major"
+   },
+   {
+    "known_for": "Major orchestra",
+    "name": "San Francisco Symphony",
+    "significance": "major"
+   }
+  ],
+  "reason": "Final performance of Alonzo King LINES Ballet with the San Francisco Symphony at Davies Hall, centered on Copland's Appalachian Spring (Sat Nov 21). (Background knowledge) A strong dance pick for his partner; the 'Appalachian' is Copland's score, not old-time music.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Assumed SF Symphony program with LINES dancing; listing gives only title and venue.",
+   "Duplicate of the Nov 19 and Nov 20 dates; pick one."
+  ]
+ },
  "ev_9aad340efef6": {
   "evidence": [
    {
@@ -7316,6 +7854,48 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Which Kenny Washington is not confirmed (SF vocalist vs. NY drummer).",
    "Roles of the other players not known."
+  ]
+ },
+ "ev_a4839e9f9910": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"with Balkan Music for All (free show) | Doors 7:30 7:30 PM for a dance workshop Music: 8pm Sunday night is better with live Balkan brass sessions. Join us for Balkan Sundays—a night of bold brass, driving rhythms, and Balkan classics, hosted by our house band: Noah Levitt on Trumpet, Joey Friedman on Saxophone,Paul Marini on Sousaphone - Marco Peris on Tupan Special guests will drop in throughout\"",
+    "url": "https://tickets.venuepilot.com/e/balkan-jam-2026-11-22-ashkenaz-music-dance-community-center-berkeley-1a9ec0"
+   }
+  ],
+  "fingerprint": "30efd96c4931",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Trumpet, house band",
+    "name": "Noah Levitt",
+    "significance": "local"
+   },
+   {
+    "known_for": "Saxophone, house band",
+    "name": "Joey Friedman",
+    "significance": "local"
+   },
+   {
+    "known_for": "Sousaphone, house band",
+    "name": "Paul Marini",
+    "significance": "local"
+   },
+   {
+    "known_for": "Tupan, house band",
+    "name": "Marco Peris",
+    "significance": "local"
+   }
+  ],
+  "reason": "Balkan Jam at Ashkenaz in Berkeley on Sun Nov 22: a free Balkan brass session with a house band (Noah Levitt, trumpet; Joey Friedman, sax; Paul Marini, sousaphone; Marco Peris, tupan), dance workshop at 7:30 and music at 8. A fun, participatory community night in a storied folk-dance hall rather than a concert to plan around.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Special guests unnamed.",
+   "Recurring Sunday series."
   ]
  },
  "ev_a5281a240d3a": {
@@ -8611,6 +9191,38 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_bcc54fa1f807": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"with Archer Monk | (((folkYEAH!))) Presents\"",
+    "url": "https://wl.seetickets.us/event/poi-dog-pondering/705787?afflky=TheChapel"
+   }
+  ],
+  "fingerprint": "bed61e7cd109",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "Frank Orrall's eclectic folk-to-soul ensemble, since 1984",
+    "name": "Poi Dog Pondering",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Unknown opener",
+    "name": "Archer Monk",
+    "significance": "none"
+   }
+  ],
+  "reason": "Poi Dog Pondering, with Archer Monk, at The Chapel on Sat Nov 21, presented by folkYEAH!. (Background knowledge) Frank Orrall's band started as a busking acoustic folk collective in Hawaii and Austin in the 1980s before growing into a Chicago soul-and-groove ensemble; a beloved cult act and a fun night, though not core roots or jazz.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Which era of the band's sound this tour leans on is unknown.",
+   "Price not captured."
+  ]
+ },
  "ev_bdb6a5883918": {
   "evidence": [
    {
@@ -9284,6 +9896,38 @@
    "Beth Custer's membership is inferred from her site listing the trio; full lineup not confirmed.",
    "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_ce8111121ef1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Davies Symphony Hall: Alonzo King LINES Ballet and Appalachian Spring\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "a45ebe2f9620",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "San Francisco contemporary ballet company founded 1982",
+    "name": "Alonzo King LINES Ballet",
+    "significance": "major"
+   },
+   {
+    "known_for": "Major orchestra",
+    "name": "San Francisco Symphony",
+    "significance": "major"
+   }
+  ],
+  "reason": "Second of three performances of Alonzo King LINES Ballet with the San Francisco Symphony at Davies Hall, centered on Copland's Appalachian Spring (Fri Nov 20). (Background knowledge) A strong dance pick for his partner; the 'Appalachian' is Copland's score, not old-time music.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Assumed SF Symphony program with LINES dancing; listing gives only title and venue.",
+   "Duplicate of the Nov 19 and Nov 21 dates; pick one."
   ]
  },
  "ev_cec22afc87ec": {
@@ -10813,6 +11457,38 @@
    "Bands not recognized."
   ]
  },
+ "ev_ef97d77a3722": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Freight: Haley Heynderickx, Greg Mendez\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "41cc6156a044",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Portland fingerpicking singer-songwriter",
+    "name": "Haley Heynderickx",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Philadelphia lo-fi singer-songwriter",
+    "name": "Greg Mendez",
+    "significance": "local"
+   }
+  ],
+  "reason": "Haley Heynderickx, with Greg Mendez, at the Freight on Fri Nov 20. (Background knowledge) The Portland songwriter's fingerpicked, folk-rooted songs ('I Need to Start a Garden') have made her a favorite of the acoustic indie world, and Mendez is a Philadelphia lo-fi songwriter; a good intimate-room singer-songwriter bill, more indie folk than tradition.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Solo or with band not stated.",
+   "Price not captured."
+  ]
+ },
  "ev_f0c0faf0fe5d": {
   "evidence": [
    {
@@ -11587,6 +12263,32 @@
    "Santa Cruz is roughly 1.5 hours from Oakland on a Wednesday."
   ]
  },
+ "ev_fc43d65cea4b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Funk. Jazz. Fusion. Culbertson.\"",
+    "url": "https://allevents.in/oakland/brian-culbertson-in-oakland/3300029956701447"
+   }
+  ],
+  "fingerprint": "93db20de9b70",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Smooth-jazz/funk keyboardist and trombonist",
+    "name": "Brian Culbertson",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Brian Culbertson plays Yoshi's Oakland on Tue Nov 17. (Background knowledge) He is a long-running smooth-jazz and funk keyboardist, polished and commercial rather than the adventurous improvised jazz Erik looks for.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Exact show times and prices not captured."
+  ]
+ },
  "ev_fd8a03c84d44": {
   "evidence": [
    {
@@ -11639,6 +12341,37 @@
    "Host fiddler not named.",
    "Schedule conflict between sources (3rd Sunday vs older 3rd Saturday).",
    "Participatory jam."
+  ]
+ },
+ "ev_fe1edf794c5d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"DO YOU SEE ME? | Please note – there is a delivery delay set for 2 weeks prior to show.\"",
+    "url": "https://www.theindependentsf.com/tm-event/q-marsden/"
+   }
+  ],
+  "fingerprint": "52304a98bb80",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Young pop/R&B singer-songwriter (low confidence)",
+    "name": "Q Marsden",
+    "significance": "local"
+   },
+   {
+    "known_for": "Unknown opener",
+    "name": "RAHM",
+    "significance": "none"
+   }
+  ],
+  "reason": "Q Marsden, with RAHM, on the 'DO YOU SEE ME?' tour at The Independent on Sat Nov 21. (Background knowledge, low confidence) Marsden is a young pop and R&B singer-songwriter; nothing here points to classic hip-hop, roots or jazz.",
+  "researched_at": "2026-11-12T22:43:19+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre identification from background knowledge is low confidence."
   ]
  },
  "ev_fe42f85bca82": {
