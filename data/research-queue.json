@@ -1,8 +1,27 @@
 {
- "backlog": 1442,
+ "backlog": 1407,
  "count": 40,
- "generated_at": "2026-11-12T07:31:48+00:00",
+ "generated_at": "2026-11-12T20:13:05+00:00",
  "items": [
+  {
+   "city": "San Francisco",
+   "date": "2026-12-03",
+   "description": "Louisiana born-and-raised living legend Jules Broussard has been blowing away Bay Area audiences with his double-saxophone serenades and soulful solos for over 60 years. He's been stage and studio mates with everyone from Alice Coltrane to Van Morrisson to Carlos Santana – it's often joked that in his 89 years, there's really no one Jules [...]",
+   "fingerprint": "8d352982ccac",
+   "id": "ev_0e88755cfd09",
+   "other_urls": [],
+   "rules_score": 66.0,
+   "rules_tier": "strong",
+   "start": "2026-12-03T19:00:00-08:00",
+   "title": "Jules Broussard",
+   "url": "https://keysjazzbistro.com/event/jules-broussard-7/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: saxophone (+18)",
+    "legacy: legend (+14)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
   {
    "city": "",
    "date": "2026-11-17",
@@ -427,26 +446,6 @@
    ]
   },
   {
-   "city": "El Cerrito",
-   "date": "2027-04-14",
-   "description": "Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover",
-   "fingerprint": "b0ba9a002aa9",
-   "id": "ev_4797dbcc7c71",
-   "other_urls": [],
-   "rules_score": 68.0,
-   "rules_tier": "strong",
-   "start": "2027-04-14T20:30:00-07:00",
-   "title": "Asanabenche",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
    "city": "San Francisco",
    "date": "2026-11-18",
    "description": "Bottom of the Hill: Mild Universe, Joel Robinow, Pateka",
@@ -466,6 +465,26 @@
     "intimate room: Bottom of the Hill (+14)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2027-04-14",
+   "description": "Asanabenche weaves together funk, soul, jazz, Caribbean, and Latin influences, creating a sonic landscape as diverse as the many species of birds that share this beautiful world of ours; music at 8:30; $10 cover",
+   "fingerprint": "b0ba9a002aa9",
+   "id": "ev_4797dbcc7c71",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2027-04-14T20:30:00-07:00",
+   "title": "Asanabenche",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -513,25 +532,6 @@
    ]
   },
   {
-   "city": "El Cerrito",
-   "date": "2026-11-29",
-   "description": "",
-   "fingerprint": "0d6e8959d9c9",
-   "id": "ev_762e2f34e32e",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-29T20:00:00-08:00",
-   "title": "Gian Achen + Larisa Roberts + Michael Bowman",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
    "city": "Albany",
    "date": "2027-01-16",
    "description": "with genre - swing punk, indie, alternative | ivy room presents | IVY ROOM PRESENTS SATURDAY NOVEMBER 16TH DOUBLE RECORD RELEASE — VAN GOAT BIG SURPRISE — DOORS 7PM / SHOW 8 PM ADVANCE TICKETS AVAILABLE / $20 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ VAN GOAT — Van Goat's latest release \"Nobody Cares\" still sits squarely in their self prescribed genre of 'swing punk,' but is a more mature an",
@@ -551,6 +551,25 @@
     "jazz_core: jazz (+18)",
     "intimate room: Ivy Room (+14)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-11-29",
+   "description": "",
+   "fingerprint": "0d6e8959d9c9",
+   "id": "ev_762e2f34e32e",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T20:00:00-08:00",
+   "title": "Gian Achen + Larisa Roberts + Michael Bowman",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -638,24 +657,6 @@
   {
    "city": "San Francisco",
    "date": "2026-11-14",
-   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
-   "fingerprint": "8cd12007bfc1",
-   "id": "ev_490541862f7a",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T19:30:00-08:00",
-   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
-   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-14",
    "description": "Kilowatt: Mugger, Monk, Ingrata, Scam Likely",
    "fingerprint": "f3d7016c884e",
    "id": "ev_9e43f364eae2",
@@ -738,19 +739,18 @@
   },
   {
    "city": "San Francisco",
-   "date": "2027-02-13",
-   "description": "Kazemde George, saxophone Kai Lyons, guitar $20 cover charge / byob. Students $10. For a reservation, call the bookshop at 415-586-3733.",
-   "fingerprint": "87da2405a266",
-   "id": "ev_c65173ac3ba4",
+   "date": "2026-11-14",
+   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
+   "fingerprint": "8cd12007bfc1",
+   "id": "ev_490541862f7a",
    "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2027-02-13T19:30:00-08:00",
-   "title": "Kazemde George / Kai Lyons",
-   "url": "https://birdbeckett.com/event/kazemde-george-kai-lyons/",
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T19:30:00-08:00",
+   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
+   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
    "venue": "Bird & Beckett",
    "why_rules": [
-    "jazz_core: saxophone (+18)",
     "intimate room: Bird & Beckett (+14)",
     "booking signal: Bird & Beckett (+8)"
    ]
