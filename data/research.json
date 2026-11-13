@@ -69,6 +69,37 @@
    "Tolling's Grammys came with Turtle Island Quartet (background knowledge, not checked against a source this run)."
   ]
  },
+ "ev_02e5e92ba13e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Marc Seales with Ernie Watts (title: Marc Seales with Ernie Watts)",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "579ec0f8bb6d",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Tenor saxophonist; Charlie Haden Quartet West, Grammy winner (background knowledge)",
+    "name": "Ernie Watts",
+    "significance": "major"
+   },
+   {
+    "known_for": "Seattle jazz pianist and educator (background knowledge)",
+    "name": "Marc Seales",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Seattle pianist Marc Seales plays Black Cat in San Francisco with tenor saxophonist Ernie Watts on 14 Nov (also 15 Nov). (Background knowledge: Watts is a two-time Grammy winner and longtime member of Charlie Haden's Quartet West; Seales is a respected Seattle educator-pianist.) A big-toned jazz master in an intimate supper club.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Rhythm section not listed."
+  ]
+ },
  "ev_03514e12754a": {
   "evidence": [
    {
@@ -191,6 +222,31 @@
   "tier": "low",
   "uncertainties": [
    "Ji Youn Lee's background not researched"
+  ]
+ },
+ "ev_05929aa25a87": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Vienna Teng at The Freight at 2026-12-27T18:00:00-0800 (title: Vienna Teng)",
+    "url": "https://www.songkick.com/concerts/43223739-vienna-teng-at-freight"
+   }
+  ],
+  "fingerprint": "ad1b0bfea7df",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Pianist, singer-songwriter (background knowledge)",
+    "name": "Vienna Teng",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Vienna Teng plays the Freight & Salvage on 27 Dec. (Background knowledge: a Bay Area-raised pianist and singer-songwriter with a devoted following and an intricate, literate style.) A fine listening-room show, but piano-led singer-songwriter pop sits outside his roots/jazz core.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_0622a565b20b": {
@@ -641,6 +697,37 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_1354916f77bd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Founded by Fattah Abbou and Mohamed Aoualou , AZA unites traditional Tamazight (incorrectly labeled \"Berber\") music, indigenous to North Africa, with the global influences of its diverse members. With elements of indigenous Moroccan musical styles, including Ahwash, Rwais, and Gnawa – among others – AZA's stirring performances feature deep, danceable rhythms, intricate melodies, and soaring, soulf (title: AZA – Moroccan Music)",
+    "url": "https://www.kuumbwajazz.org/calendar/aza-moroccan-music/"
+   }
+  ],
+  "fingerprint": "4b5db8f37f73",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Bay Area-based Moroccan Tamazight ensemble",
+    "name": "AZA",
+    "significance": "local"
+   },
+   {
+    "known_for": "Co-founder, Moroccan musician",
+    "name": "Fattah Abbou",
+    "significance": "local"
+   }
+  ],
+  "reason": "AZA, founded by Fattah Abbou and Mohamed Aoualou, plays Tamazight (Amazigh) music drawing on Ahwash, Rwais and Gnawa traditions at Kuumbwa Jazz on 4 Dec. A deep traditional music in a beloved small jazz room, but Kuumbwa is in Santa Cruz, a long drive from Oakland.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Santa Cruz is about 75 miles from Oakland; check for a Bay Area date."
+  ]
+ },
  "ev_13755d119929": {
   "evidence": [
    {
@@ -764,6 +851,26 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_149b4ec4929b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned (title: Garage Jam)",
+    "url": "https://californiabluegrass.org/event/garage-jam/2027-02-01/"
+   }
+  ],
+  "fingerprint": "ee96e473beee",
+  "fit": 30,
+  "performers": [],
+  "reason": "The Garage Jam, a traditional bluegrass circle on the first and third Mondays, 6 to 8 pm, open to all levels. A participatory jam rather than a show.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring jam, not a performance; location city not captured."
+  ]
+ },
  "ev_157ef0c35df6": {
   "evidence": [
    {
@@ -849,6 +956,26 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Founder Pete Shelley died in 2018 (background knowledge)."
+  ]
+ },
+ "ev_16a484bd5c4e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli (title: Wednesday East Bay Bluegrassers Jam)",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-11-25/"
+   }
+  ],
+  "fingerprint": "8b2e01734e36",
+  "fit": 35,
+  "performers": [],
+  "reason": "The weekly East Bay Bluegrassers jam, Wednesdays 6 to 8 pm upstairs at Rockin' Robbie's in El Cerrito, all levels welcome. It is a participatory picking circle rather than a show, so it matters only if he wants to bring an instrument.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring jam, not a performance."
   ]
  },
  "ev_175dcbd0ac26": {
@@ -1125,6 +1252,37 @@
    "Queue date Nov 18 vs SF Station run starting Nov 25; Nov 18 may be a preview or the dates differ.",
    "No reviews yet; quality unknown.",
    "Runs to about Dec 13, so not urgent."
+  ]
+ },
+ "ev_1a1952f90f29": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Marc Seales with Ernie Watts (title: Marc Seales with Ernie Watts)",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "1fb0acd981ad",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Tenor saxophonist; Charlie Haden Quartet West, Grammy winner (background knowledge)",
+    "name": "Ernie Watts",
+    "significance": "major"
+   },
+   {
+    "known_for": "Seattle jazz pianist and educator (background knowledge)",
+    "name": "Marc Seales",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Seattle pianist Marc Seales plays Black Cat in San Francisco with tenor saxophonist Ernie Watts on 15 Nov (also 14 Nov). (Background knowledge: Watts is a two-time Grammy winner and longtime member of Charlie Haden's Quartet West.) A big-toned jazz master in an intimate supper club.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Rhythm section not listed."
   ]
  },
  "ev_1bf8cb57892f": {
@@ -2524,6 +2682,32 @@
    "No performers named; possibly a recurring jam."
   ]
  },
+ "ev_37450b80f140": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Flamenco Libre (Matinée) – San Francisco",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DcQhxMAF"
+   }
+  ],
+  "fingerprint": "73db5b478c41",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Flamenco ensemble; not identified",
+    "name": "Flamenco Libre",
+    "significance": "none"
+   }
+  ],
+  "reason": "Flamenco Libre plays a Sunday matinee at The Lost Church in San Francisco on 22 Nov. Flamenco in a tiny room can be thrilling, but the ensemble is not described in the listing and flamenco sits at the edge of his taste.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup and whether there is dance not stated."
+  ]
+ },
  "ev_3787d335a134": {
   "evidence": [
    {
@@ -3311,6 +3495,47 @@
    "Another Higbie date (Dec 19, Occidental) appears in the repo calendars."
   ]
  },
+ "ev_490541862f7a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re (title: In a Silent Way: Joel Harrison Quintet plays Miles Davis)",
+    "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/"
+   }
+  ],
+  "fingerprint": "8cd12007bfc1",
+  "fit": 82,
+  "performers": [
+   {
+    "known_for": "Guitarist/composer, jazz meets Americana; Guggenheim fellow (background knowledge)",
+    "name": "Joel Harrison",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bassoon/sax improviser (background knowledge)",
+    "name": "Paul Hanson",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Fretless bass innovator, Windham Hill (background knowledge)",
+    "name": "Michael Manring",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bay Area drummer; Nels Cline, Charlie Hunter collaborator (background knowledge)",
+    "name": "Scott Amendola",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Guitarist Joel Harrison returns to the Bay Area with Paul Hanson (reeds), Michael Manring (bass) and Scott Amendola (drums) to reimagine Miles Davis's In a Silent Way, plus Harrison originals, at Bird & Beckett on 14 Nov. (Background knowledge: Harrison is a Guggenheim-fellow guitarist known for mixing jazz with American roots music; Manring is a fretless-bass innovator and Amendola a central figure in Bay Area creative jazz.) Exactly his kind of adventurous improvised jazz in a bookstore-sized room.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Bird & Beckett is small; seating may be limited."
+  ]
+ },
  "ev_49ee9b2a2593": {
   "evidence": [
    {
@@ -3429,6 +3654,64 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Identity of the series is inferred."
+  ]
+ },
+ "ev_4d81558db942": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Andre Nickatina at Great American Music Hall at 2026-11-25T20:00:00-0800 (title: Andre Nickatina)",
+    "url": "https://www.songkick.com/concerts/43423707-andre-nickatina-at-great-american-music-hall"
+   }
+  ],
+  "fingerprint": "667e0f850b29",
+  "fit": 74,
+  "performers": [
+   {
+    "known_for": "SF rapper, formerly Dre Dog; independent Bay Area hip-hop since the early 1990s (background knowledge)",
+    "name": "Andre Nickatina",
+    "significance": "major"
+   }
+  ],
+  "reason": "Andre Nickatina, the San Francisco rap cult hero (formerly Dre Dog) and a pillar of Bay Area independent hip-hop since the early 1990s, plays the Great American Music Hall on 25 Nov. (Background knowledge.) A hometown underground legend in a gorgeous 600-capacity room; fits his classic and Bay Area underground hip-hop interest.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Night before Thanksgiving; may sell out."
+  ]
+ },
+ "ev_4e74821afc6c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Stanley Clarke and Ron Carter (title: Stanley Clarke and Ron Carter)",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "023f539f3560",
+  "fit": 78,
+  "performers": [
+   {
+    "known_for": "Bassist, Miles Davis Second Great Quintet (background knowledge)",
+    "name": "Ron Carter",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Bassist, Return to Forever (background knowledge)",
+    "name": "Stanley Clarke",
+    "significance": "major"
+   }
+  ],
+  "reason": "Bass legends Stanley Clarke and Ron Carter share the stage at the SFJAZZ Center on 15 Nov (also 14 Nov). (Background knowledge: Carter anchored Miles Davis's Second Great Quintet; Clarke co-founded Return to Forever.) A rare meeting of two foundational figures, in a larger but excellent hall.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (duo, joint bands or split bill) not stated.",
+   "Likely Miner Auditorium, larger than his ideal room."
   ]
  },
  "ev_4f1fa780a91b": {
@@ -4729,6 +5012,37 @@
    "Store page not fetched to confirm."
   ]
  },
+ "ev_67e1762cab4b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Hot Club of San Francisco is an American gypsy jazz band, led by guitarist, songwriter, and arranger Paul 'Pazzo' Mehling. The band features a lineup inspired by Django Reinhardt and Stephane Grappelli's Quintette du Hot Club de France, with violin, bass, and guitars. They perform a mix of gypsy jazz standards, pop songs, and [...] (title: The Quintet of the Hot Club of San Francisco- celebrating 39 years!)",
+    "url": "https://keysjazzbistro.com/event/the-quintet-of-the-hot-club-of-san-francisco-celebrating-39-years/"
+   }
+  ],
+  "fingerprint": "472362895e2e",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Gypsy jazz quintet led by Paul Mehling since the late 1980s",
+    "name": "Hot Club of San Francisco",
+    "significance": "local"
+   },
+   {
+    "known_for": "Guitarist, arranger, bandleader",
+    "name": "Paul Mehling",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Hot Club of San Francisco, Paul 'Pazzo' Mehling's Django-and-Grappelli style quintet with violin, guitars and bass, celebrates 39 years at Keys Jazz Bistro on 10 Dec. A Bay Area acoustic-string institution in a small room; skillful and fun, though more swing repertoire than adventurous improvisation.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Exact quintet lineup for this date not listed."
+  ]
+ },
  "ev_68747aabf855": {
   "evidence": [
    {
@@ -5275,6 +5589,42 @@
    "Program unknown."
   ]
  },
+ "ev_7041a96cd45e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: A live show featuring a special collaboration between 3 projects — Palaces, Bobbing, and E. Artifactis — playing delicate, melodic at times, heavy, and psychedelic at music consisting of drums, drum machines, keys, synth, guitar, bass, sax, flute, and clarinet; $10 tickets (title: Noise Floor)",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "d368ecedc360",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Palaces",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Bobbing",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "E. Artifact",
+    "significance": "none"
+   }
+  ],
+  "reason": "Noise Floor at Little Hill Lounge on 17 Dec is a one-off collaboration between Palaces, Bobbing and E. Artifact, playing delicate-to-heavy psychedelic music with drums, synths, guitar, sax, flute and clarinet, $10. I do not know the projects, but an experimental psych collaboration with winds in a small room is a plausible adventurous night.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Projects not identified."
+  ]
+ },
  "ev_71677d822430": {
   "evidence": [
    {
@@ -5568,27 +5918,37 @@
  "ev_762e2f34e32e": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description; title only: \"Gian Achen\")",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Gian Achen + Larisa Roberts + Michael Bowman",
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "637d4ff900cb",
-  "fit": 30,
+  "fingerprint": "0d6e8959d9c9",
+  "fit": 40,
   "performers": [
    {
-    "known_for": "Not recognized",
+    "known_for": "not identified",
     "name": "Gian Achen",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Larisa Roberts",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Michael Bowman",
     "significance": "none"
    }
   ],
-  "reason": "Gian Achen plays Little Hill Lounge in El Cerrito, but the captured listing has no description at all. I do not recognize the name, so fit cannot be judged.",
-  "researched_at": "2026-11-09T22:44:36+00:00",
+  "reason": "Gian Achen, Larisa Roberts and Michael Bowman share a bill at Little Hill Lounge in El Cerrito on 29 Nov. None of the three is described in the captured listing and I do not recognize them, so genre and fit are unresolved.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "No description, genre or performer details in the captured text; performer not recognized."
+   "No genre or bio text captured; needs a look at the venue page."
   ]
  },
  "ev_768c7f638f49": {
@@ -5780,6 +6140,37 @@
   "uncertainties": [
    "Third trio member (drummer) not identified.",
    "Two-night run; both nights listed separately."
+  ]
+ },
+ "ev_7a813edd1f72": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with genre - swing punk, indie, alternative | ivy room presents | IVY ROOM PRESENTS SATURDAY NOVEMBER 16TH DOUBLE RECORD RELEASE — VAN GOAT BIG SURPRISE — DOORS 7PM / SHOW 8 PM ADVANCE TICKETS AVAILABLE / $20 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ VAN GOAT — Van Goat's latest release \"Nobody Cares\" still sits squarely in their self prescribed genre of 'swing punk,' but is a more mature an (title: VAN GOAT + BIG SURPRISE + SPECIAL GUESTS)",
+    "url": "https://tickets.venuepilot.com/e/van-goat-big-surprise-special-guests-2027-01-16-ivy-room-albany-457fd5"
+   }
+  ],
+  "fingerprint": "28c77482ed87",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Self-described swing-punk band",
+    "name": "Van Goat",
+    "significance": "local"
+   },
+   {
+    "known_for": "Indie band; not identified",
+    "name": "Big Surprise",
+    "significance": "none"
+   }
+  ],
+  "reason": "Van Goat and Big Surprise share a double record release at the Ivy Room in Albany. Van Goat describes itself as 'swing punk' and the bill is indie/alternative; the jazz and country keyword hits are incidental, so this is unlikely to be his kind of night.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing text says 'Saturday November 16th' while the event is dated 16 Jan 2027; the date needs checking."
   ]
  },
  "ev_7a85576a6024": {
@@ -7678,6 +8069,47 @@
    "Performers not recognized."
   ]
  },
+ "ev_9e43f364eae2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Mugger, Monk, Ingrata, Scam Likely (title: FVR WLD FEST feat. Mugger, Monk, Ingrata and Scam Likely)",
+    "url": "https://dice.fm/event/6a628ff7bda14200018de075"
+   }
+  ],
+  "fingerprint": "f3d7016c884e",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Mugger",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Monk",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Ingrata",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Scam Likely",
+    "significance": "none"
+   }
+  ],
+  "reason": "FVR WLD FEST at Kilowatt in SF on 14 Nov with Mugger, Monk, Ingrata and Scam Likely. I do not recognize the bands and the listing gives no genre; the bill and the room suggest a punk or heavy show, which would be outside his taste.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre not stated."
+  ]
+ },
  "ev_a1b0f4baa257": {
   "evidence": [
    {
@@ -9140,6 +9572,31 @@
    "Part of a West Coast tour (search results show Mill Valley Nov 6, Sacramento Nov 10 and Moe's Alley dates), so other Bay Area options may exist"
   ]
  },
+ "ev_ba87f6c1c0ae": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Memphis LK has become a defining force in Australia's next generation of electronic voices. Emerging from Melbourne's world-class club scene, her music taps into the sanctuary and transcendence of the dancefloor, a space to let go, reconnect, and escape. Her transportive live sets fuse DJing with live vocals and saxophone, creating an immersive, euphoric experience that mirrors the emotional... (title: Memphis LK at Cafe du Nord)",
+    "url": "https://cafedunord.com/shows/2026-11-20-memphis-lk"
+   }
+  ],
+  "fingerprint": "8a2e8f5da4a8",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Australian electronic artist/DJ",
+    "name": "Memphis LK",
+    "significance": "none"
+   }
+  ],
+  "reason": "Memphis LK, a Melbourne electronic artist who blends DJing with live vocals and saxophone, plays Cafe du Nord on 20 Nov. A dance-floor electronic set, which falls outside his taste.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_bacea71f56f6": {
   "evidence": [
    {
@@ -9223,6 +9680,36 @@
    "Price not captured."
   ]
  },
+ "ev_bccad707095b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: This show kicks off a special Birthday celebration week as Keys celebrates 4 years in San Francisco! \"Hammond Organ Party! is an exceptional collaboration...Rose and De La Cruz have hit a home run!\" – Pete Fallico, Doodlin' Lounge \"Outstanding vocals...Rose hits that jazz & soul sweet spot with Wayne De La Cruz and Hammond Organ [...] (title: Pamela Rose & Wayne De La Cruz: Hammond Organ Party!)",
+    "url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-5/"
+   }
+  ],
+  "fingerprint": "68f7e3d43e1c",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Bay Area jazz and soul vocalist (background knowledge)",
+    "name": "Pamela Rose",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area Hammond B3 organist (background knowledge)",
+    "name": "Wayne De La Cruz",
+    "significance": "local"
+   }
+  ],
+  "reason": "SF vocalist Pamela Rose and organist Wayne De La Cruz bring their Hammond Organ Party to Keys Jazz Bistro on 9 Dec, opening the club's fourth-anniversary week. (Background knowledge: Rose is a long-running Bay Area jazz-and-soul singer; this is polished, groove-oriented supper-club fare rather than the adventurous improvised jazz he seeks.)",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_bdb6a5883918": {
   "evidence": [
    {
@@ -9282,6 +9769,38 @@
    "Quartet personnel not confirmed.",
    "SFJAZZ dates not confirmed; could be the same tour.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_be3b3f986749": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Stanley Clarke and Ron Carter (title: Stanley Clarke and Ron Carter)",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "f8a56e4661f8",
+  "fit": 78,
+  "performers": [
+   {
+    "known_for": "Bassist, Miles Davis Second Great Quintet (background knowledge)",
+    "name": "Ron Carter",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Bassist, Return to Forever (background knowledge)",
+    "name": "Stanley Clarke",
+    "significance": "major"
+   }
+  ],
+  "reason": "Bass legends Stanley Clarke and Ron Carter share the stage at the SFJAZZ Center on 14 Nov (also 15 Nov). (Background knowledge: Carter anchored Miles Davis's Second Great Quintet and is among the most recorded bassists in history; Clarke co-founded Return to Forever.) A rare meeting of two foundational figures, in a larger but excellent hall.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (duo, joint bands or split bill) not stated.",
+   "Likely Miner Auditorium, larger than his ideal room."
   ]
  },
  "ev_bfb419066580": {
@@ -9450,6 +9969,37 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Trio sidemen not named.",
    "Style characterization is background knowledge."
+  ]
+ },
+ "ev_c65173ac3ba4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kazemde George, saxophone Kai Lyons, guitar $20 cover charge / byob. Students $10. For a reservation, call the bookshop at 415-586-3733. (title: Kazemde George / Kai Lyons)",
+    "url": "https://birdbeckett.com/event/kazemde-george-kai-lyons/"
+   }
+  ],
+  "fingerprint": "87da2405a266",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "NYC tenor saxophonist (background knowledge)",
+    "name": "Kazemde George",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitarist; not identified",
+    "name": "Kai Lyons",
+    "significance": "none"
+   }
+  ],
+  "reason": "Saxophonist Kazemde George and guitarist Kai Lyons play a $20 BYOB duo set at Bird & Beckett on 13 Feb. (Background knowledge: George is a New York tenor player with a well-reviewed Greenleaf Music debut; Lyons I do not know.) A sax-guitar duo in a bookstore is the kind of intimate, exploratory setting he likes.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Kai Lyons not identified."
   ]
  },
  "ev_c6f0b66f5e3c": {
@@ -10164,6 +10714,25 @@
    "Could be a cover band."
   ]
  },
+ "ev_d26faafd285f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Comdey/Storytelling (title: Mortified)",
+    "url": "https://tickets.venuepilot.com/e/mortified-2026-11-14-ashkenaz-music-dance-community-center-berkeley-2152d3"
+   }
+  ],
+  "fingerprint": "b0bc769ae103",
+  "fit": 10,
+  "performers": [],
+  "reason": "Mortified, the storytelling show where adults read their teenage diaries on stage, at Ashkenaz on 14 Nov. Comedy and storytelling are outside his taste.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_d343ef65af2d": {
   "evidence": [
    {
@@ -10555,6 +11124,26 @@
    "Otter Opry's exact location in Monterey not confirmed"
   ]
  },
+ "ev_dc78e842cb9b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com (title: Two Rivers Cider Old Time Jam)",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-22/"
+   }
+  ],
+  "fingerprint": "3623da210b1d",
+  "fit": 15,
+  "performers": [],
+  "reason": "A weekly old-time jam at Two Rivers Cider in Sacramento. Participatory, all levels, and far from Oakland.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sacramento; moves to a private home in Dec and Jan."
+  ]
+ },
  "ev_dcfb36d82ddf": {
   "evidence": [
    {
@@ -10766,6 +11355,38 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No description of the music; style is a guess."
+  ]
+ },
+ "ev_dec1933dc137": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Volcano: Jay Wilcox & JP McLean honor Jerry Garcia & John Kahn – SR",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKYdxMAH"
+   }
+  ],
+  "fingerprint": "3a2ebba69dfb",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Jay Wilcox",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "JP McLean",
+    "significance": "none"
+   }
+  ],
+  "reason": "Volcano, a duo of Jay Wilcox and JP McLean, plays a tribute to the Jerry Garcia and John Kahn acoustic duo at The Lost Church (the 'SR' suggests the Santa Rosa room) tonight, 13 Nov. It is a tribute act, and the performers are not ones I recognize.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "'SR' likely means the Santa Rosa location, an hour-plus drive.",
+   "Event is today, likely too late to plan."
   ]
  },
  "ev_df0376b8d3c8": {
@@ -11755,6 +12376,27 @@
    "Mother-daughter relationship and Cressman credits are background knowledge."
   ]
  },
+ "ev_f39d01fb85e8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: A night of Celtic music and dance to celebrate the season.",
+    "url": "https://www.hillsideclub.org/hillsideechoes"
+   }
+  ],
+  "fingerprint": "8529523dc0e1",
+  "fit": 50,
+  "performers": [],
+  "reason": "A seasonal evening of Celtic music and dance at Berkeley's Hillside Club on 17 Dec, a warm, small Arts and Crafts hall. The performers are not named in the captured listing, so this is a genre-and-room bet rather than a known act.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not named in the listing.",
+   "Unclear whether it is a concert, a ceili or a participatory dance."
+  ]
+ },
  "ev_f3bd842596f3": {
   "evidence": [
    {
@@ -12171,27 +12813,61 @@
    "Jan 18, 2027 is a Monday (MLK Day)."
   ]
  },
- "ev_fa650ab435fc": {
-  "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
+ "ev_fa5a3fc374c0": {
   "evidence": [
    {
-    "finding": "Presenter lists Kendl Winter December 12 and links primary booking and artist site.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - The Greg Abate Quartet hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday December 5th 2026. Find event information. (title: The Greg Abate Quartet)",
+    "url": "https://events.humanitix.com/the-greg-abate-quartet"
+   }
+  ],
+  "fingerprint": "69b6ffbcb3ed",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Alto/soprano saxophonist, bebop; ex-Ray Charles Orchestra (background knowledge)",
+    "name": "Greg Abate",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Saxophonist Greg Abate leads a quartet at The Back Room in Berkeley on 5 Dec. (Background knowledge: Abate is a veteran Rhode Island alto player and former Ray Charles and Artie Shaw band member who plays hard-driving bebop.) Solid, swinging straight-ahead jazz in a tiny room, though not especially exploratory.",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quartet sidemen not listed."
+  ]
+ },
+ "ev_fa650ab435fc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kendl Winter--banjo, guitar and vocals--is one of the reasons we began having shows here. She's been coming in various roles since 2005. Hal (title: Kendl Winter (Blackberry Bushes, Lowest Pair))",
+    "url": "https://www.tickettailor.com/events/fifthstreetfarms/2441591"
+   },
+   {
+    "finding": "(From an earlier research pass, kept for reference) Presenter lists Kendl Winter December 12 and links primary booking and artist site.",
     "url": "https://fifthstfarms.com/"
    }
   ],
-  "fingerprint": "9a0669cc6a75",
-  "fit": 75,
-  "imported_from": "main:data/research.json",
-  "lead_days_at_research": 48,
-  "legacy_notification_record": "Existing daily task watch record dated October 16, 2026; not new discovery",
-  "primary_event_url": "https://fifthstfarms.com/",
-  "reason": "A solo acoustic artist at Fifth Street Farms merits a close listen; intimate roots venue and banjo-oriented adjacency fit the radar.",
-  "researched_at": "2026-10-25T23:32:46.396304+00:00",
-  "researcher": "ChatGPT interactive bootstrap",
+  "fingerprint": "bec0edaa4d3b",
+  "fit": 90,
+  "performers": [
+   {
+    "known_for": "Banjo/guitar songwriter; The Lowest Pair (with Palmer T. Lee), Blackberry Bushes Stringband (background knowledge)",
+    "name": "Kendl Winter",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Kendl Winter, the Olympia banjo player and songwriter from The Lowest Pair and the Blackberry Bushes Stringband, plays the intimate Fifth Street Farms house-concert series in Berkeley on Saturday 12 Dec. She is one of his seed artists, and the listing says she is one of the reasons the series began and has played there since 2005. (Background knowledge: her clawhammer-driven, plainspoken old-time songwriting is exactly the small-room roots music he prizes.)",
+  "researched_at": "2026-11-13T22:42:50+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
-  "tier": "strong",
+  "tier": "exceptional",
   "uncertainties": [
-   "Prior radar recorded this October 16; no new alert absent a meaningful change. Additional artist research needed before claiming exceptional significance."
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Supporting players, if any, not listed.",
+   "Listing price of 32.5 USD comes from the collector's cache, not a live check."
   ]
  },
  "ev_fa6a2e9d5c34": {
