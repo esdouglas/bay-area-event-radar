@@ -1,8 +1,90 @@
 {
- "backlog": 1383,
+ "backlog": 1395,
  "count": 40,
- "generated_at": "2026-11-12T22:47:19+00:00",
+ "generated_at": "2026-11-13T07:03:02+00:00",
  "items": [
+  {
+   "city": "Berkeley",
+   "date": "2026-12-12",
+   "description": "Kendl Winter--banjo, guitar and vocals--is one of the reasons we began having shows here. She's been coming in various roles since 2005. Hal",
+   "fingerprint": "bec0edaa4d3b",
+   "id": "ev_fa650ab435fc",
+   "other_urls": [
+    "https://fifthstfarms.com/",
+    "https://www.tickettailor.com/events/fifthstreetfarms",
+    "https://www.tickettailor.com/events/fifthstreetfarms",
+    "https://sites.google.com/site/davbrown2/oldtimesf"
+   ],
+   "rules_score": 100.0,
+   "rules_tier": "exceptional",
+   "start": "2026-12-12T19:00:00-08:00",
+   "title": "Kendl Winter (Blackberry Bushes, Lowest Pair)",
+   "url": "https://www.tickettailor.com/events/fifthstreetfarms/2441591",
+   "venue": "Fifth Street Farms",
+   "why_rules": [
+    "seed artist: Kendl Winter (+20)",
+    "roots_core: banjo (+22)",
+    "intimate room: Fifth Street Farms (+14)",
+    "booking signal: Fifth Street Farms (+8)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-17",
+   "description": "",
+   "fingerprint": "8529523dc0e1",
+   "id": "ev_f39d01fb85e8",
+   "other_urls": [],
+   "rules_score": 66.0,
+   "rules_tier": "strong",
+   "start": "2026-12-17T00:00:00-08:00",
+   "title": "A night of Celtic music and dance to celebrate the season.",
+   "url": "https://www.hillsideclub.org/hillsideechoes",
+   "venue": "Hillside Club",
+   "why_rules": [
+    "roots_core: celtic (+22)",
+    "intimate room: Hillside Club (+14)",
+    "booking signal: Hillside Club (+8)",
+    "listed by a taste-aligned calendar (+10)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-22",
+   "description": "",
+   "fingerprint": "73db5b478c41",
+   "id": "ev_37450b80f140",
+   "other_urls": [],
+   "rules_score": 55.0,
+   "rules_tier": "strong",
+   "start": "2026-11-22T00:00:00-08:00",
+   "title": "Flamenco Libre (Matinée) – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DcQhxMAF",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "roots_adjacent: flamenco (+10)",
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-09",
+   "description": "This show kicks off a special Birthday celebration week as Keys celebrates 4 years in San Francisco! \"Hammond Organ Party! is an exceptional collaboration...Rose and De La Cruz have hit a home run!\" – Pete Fallico, Doodlin' Lounge \"Outstanding vocals...Rose hits that jazz & soul sweet spot with Wayne De La Cruz and Hammond Organ [...]",
+   "fingerprint": "68f7e3d43e1c",
+   "id": "ev_bccad707095b",
+   "other_urls": [],
+   "rules_score": 52.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-09T19:00:00-08:00",
+   "title": "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!",
+   "url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-5/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
   {
    "city": "Albany",
    "date": "2027-01-16",
@@ -64,6 +146,25 @@
     "roots_core: bluegrass (+22)",
     "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-05",
+   "description": "Buy Tickets on Humanitix - The Greg Abate Quartet hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday December 5th 2026. Find event information.",
+   "fingerprint": "69b6ffbcb3ed",
+   "id": "ev_fa5a3fc374c0",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T20:00:00-08:00",
+   "title": "The Greg Abate Quartet",
+   "url": "https://events.humanitix.com/the-greg-abate-quartet",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -707,108 +808,6 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-20",
-   "description": "The Jazz School: UC Berkeley Nu Jazz Septet, Melford-Goldberg-Muntz Trio",
-   "fingerprint": "d3522aae5acc",
-   "id": "ev_802732ce1b00",
-   "other_urls": [],
-   "rules_score": 58.0,
-   "rules_tier": "strong",
-   "start": "2026-11-20T00:00:00-08:00",
-   "title": "UC Berkeley Nu Jazz Septet, Melford-Goldberg-Muntz Trio",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "The Jazz School",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Albany",
-   "date": "2026-11-20",
-   "description": "with w/ SYNAPSE + FAST FRIENDS | CIDERUP SHOWS XXVI presents | CIDERUP SHOWS XXVI presents FRIDAY NOVEMBER 20TH ---- MDC SHATTERED FAITH SYNAPSE FAST FRIENDS ---- Doors 8pm / Show 8:30pm ADVANCE TICKETS AVAILABLE ---- IVY ROOM 860 San Pablo Ave, Albany • 21+",
-   "fingerprint": "cf8bc360fe67",
-   "id": "ev_8bcb250bbc07",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T20:30:00-08:00",
-   "title": "MDC + SHATTERED FAITH",
-   "url": "https://tickets.venuepilot.com/e/mdc-fang-2026-11-20-ivy-room-albany-65f59e",
-   "venue": "Ivy Room",
-   "why_rules": [
-    "intimate room: Ivy Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "Natural Child at Rickshaw Stop at 2026-11-20T21:00:00-0800",
-   "fingerprint": "3ee8b73c5bfd",
-   "id": "ev_aac5f6fae5d8",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T21:00:00-08:00",
-   "title": "Natural Child, Buzzed Lightbeer, Milk for the Angry, Catnip",
-   "url": "https://www.songkick.com/concerts/43169314-natural-child-at-rickshaw-stop",
-   "venue": "Rickshaw Stop",
-   "why_rules": [
-    "intimate room: Rickshaw Stop (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "Great American Music Hall: Jayski & the Dawn featuring Jay Lane & Dave Ellis",
-   "fingerprint": "1c4ea954bc96",
-   "id": "ev_dfbdb43e371f",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T20:00:00-08:00",
-   "title": "Jayski & the Dawn featuring Jay Lane & Dave Ellis",
-   "url": "https://wl.seetickets.us/event/jayski-and-the-dawn-featuring-jay-lane-and-dave-ellis/705754?afflky=GreatAmericanMusicHall",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "intimate room: Great American Music Hall (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2027-01-16",
-   "description": "Dinner Show with JACKIE GREENE SOLO PERFORMANCE Americana and roots singer-songwriter Jackie Greene is a jack-of-all-trades, and an artist who can croon over soulful piano ballads as much as he can shred a bluesy guitar solo (like he did as the lead guitarist for The Black Crowes in 2013).",
-   "fingerprint": "5c0681f7acc2",
-   "id": "ev_042e3c13ae9a",
-   "other_urls": [],
-   "rules_score": 59.5,
-   "rules_tier": "strong",
-   "start": "2027-01-16T00:00:00-08:00",
-   "title": "JACKIE GREENE WEEKEND",
-   "url": "https://ranchonicasio.com/event/jackie-greene-weekend-4/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "roots_adjacent: americana, roots, singer-songwriter, singer songwriter (+18)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
    ]
   }
  ]

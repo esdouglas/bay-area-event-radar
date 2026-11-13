@@ -1,14 +1,15 @@
 {
- "inventory_total": 4837,
- "inventory_upcoming": 3320,
- "merged_sources": 1,
- "new_events": 9,
- "run_id": "fbfd195a0385",
- "seconds": 522.9,
- "sources_due": 69,
+ "inventory_total": 4867,
+ "inventory_upcoming": 3347,
+ "merged_sources": 8,
+ "new_events": 36,
+ "run_id": "1fd860fe2ae3",
+ "seconds": 580.1,
+ "sources_due": 65,
  "sources_failed": [
+  "down-home-music",
   "outsound"
  ],
- "sources_ok": 68,
- "ts": "2026-11-12T22:43:59+00:00"
+ "sources_ok": 63,
+ "ts": "2026-11-13T06:57:37+00:00"
 }
