@@ -119,6 +119,13 @@
    "status": "scheduled",
    "tier": "exceptional",
    "via": "digest"
+  },
+  "ev_fa650ab435fc": {
+   "at": "2026-11-13T22:48:06+00:00",
+   "date": "2026-12-12",
+   "issue": 11,
+   "status": "scheduled",
+   "tier": "exceptional"
   }
  },
  "bootstrapped": "2026-11-01T19:21:29+00:00",
@@ -214,6 +221,10 @@
   "ev_f625e114b316": {
    "at": "2026-11-09T23:50:32+00:00",
    "date": "2026-12-22"
+  },
+  "ev_fa650ab435fc": {
+   "at": "2026-11-13T22:48:06+00:00",
+   "date": "2026-12-12"
   }
  }
 }

@@ -1,507 +1,25 @@
 {
- "backlog": 1362,
+ "backlog": 1340,
  "count": 40,
- "generated_at": "2026-11-13T19:59:09+00:00",
+ "generated_at": "2026-11-13T22:48:06+00:00",
  "items": [
   {
-   "city": "Berkeley",
-   "date": "2026-12-12",
-   "description": "Kendl Winter--banjo, guitar and vocals--is one of the reasons we began having shows here. She's been coming in various roles since 2005. Hal",
-   "fingerprint": "bec0edaa4d3b",
-   "id": "ev_fa650ab435fc",
-   "other_urls": [
-    "https://fifthstfarms.com/",
-    "https://www.tickettailor.com/events/fifthstreetfarms",
-    "https://www.tickettailor.com/events/fifthstreetfarms",
-    "https://sites.google.com/site/davbrown2/oldtimesf"
-   ],
-   "rules_score": 100.0,
-   "rules_tier": "exceptional",
-   "start": "2026-12-12T19:00:00-08:00",
-   "title": "Kendl Winter (Blackberry Bushes, Lowest Pair)",
-   "url": "https://www.tickettailor.com/events/fifthstreetfarms/2441591",
-   "venue": "Fifth Street Farms",
-   "why_rules": [
-    "seed artist: Kendl Winter (+20)",
-    "roots_core: banjo (+22)",
-    "intimate room: Fifth Street Farms (+14)",
-    "booking signal: Fifth Street Farms (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-17",
-   "description": "",
-   "fingerprint": "8529523dc0e1",
-   "id": "ev_f39d01fb85e8",
-   "other_urls": [],
-   "rules_score": 66.0,
-   "rules_tier": "strong",
-   "start": "2026-12-17T00:00:00-08:00",
-   "title": "A night of Celtic music and dance to celebrate the season.",
-   "url": "https://www.hillsideclub.org/hillsideechoes",
-   "venue": "Hillside Club",
-   "why_rules": [
-    "roots_core: celtic (+22)",
-    "intimate room: Hillside Club (+14)",
-    "booking signal: Hillside Club (+8)",
-    "listed by a taste-aligned calendar (+10)"
-   ]
-  },
-  {
    "city": "San Francisco",
-   "date": "2026-11-22",
-   "description": "",
-   "fingerprint": "73db5b478c41",
-   "id": "ev_37450b80f140",
+   "date": "2026-12-13",
+   "description": "Keys Jazz Bistro welcomes Dutch-born vocalist Lara Louise for an evening of classic songs, characterized by a soft, sultry voice blending her folk roots with French chanson, Bossa Nova, and the Great American Songbook. Lara Louise and guitarist Gawain Mathews have been making music together since 2020, and their renditions of jazz standards have quietly [...]",
+   "fingerprint": "251e5242138e",
+   "id": "ev_a9725458c9b2",
    "other_urls": [],
-   "rules_score": 55.0,
+   "rules_score": 67.0,
    "rules_tier": "strong",
-   "start": "2026-11-22T00:00:00-08:00",
-   "title": "Flamenco Libre (Matinée) – San Francisco",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DcQhxMAF",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "roots_adjacent: flamenco (+10)",
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-09",
-   "description": "This show kicks off a special Birthday celebration week as Keys celebrates 4 years in San Francisco! \"Hammond Organ Party! is an exceptional collaboration...Rose and De La Cruz have hit a home run!\" – Pete Fallico, Doodlin' Lounge \"Outstanding vocals...Rose hits that jazz & soul sweet spot with Wayne De La Cruz and Hammond Organ [...]",
-   "fingerprint": "68f7e3d43e1c",
-   "id": "ev_bccad707095b",
-   "other_urls": [],
-   "rules_score": 52.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-09T19:00:00-08:00",
-   "title": "Pamela Rose & Wayne De La Cruz: Hammond Organ Party!",
-   "url": "https://keysjazzbistro.com/event/pamela-rose-wayne-de-la-cruz-hammond-organ-party-5/",
+   "start": "2026-12-13T19:00:00-08:00",
+   "title": "Lara Louise",
+   "url": "https://keysjazzbistro.com/event/lara-louise-8/",
    "venue": "Keys Jazz Bistro",
    "why_rules": [
+    "roots_adjacent: folk, roots, chanson (+15)",
     "jazz_core: jazz (+18)",
     "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-10",
-   "description": "The Hot Club of San Francisco is an American gypsy jazz band, led by guitarist, songwriter, and arranger Paul 'Pazzo' Mehling. The band features a lineup inspired by Django Reinhardt and Stephane Grappelli's Quintette du Hot Club de France, with violin, bass, and guitars. They perform a mix of gypsy jazz standards, pop songs, and [...]",
-   "fingerprint": "472362895e2e",
-   "id": "ev_67e1762cab4b",
-   "other_urls": [],
-   "rules_score": 52.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-10T19:00:00-08:00",
-   "title": "The Quintet of the Hot Club of San Francisco- celebrating 39 years!",
-   "url": "https://keysjazzbistro.com/event/the-quintet-of-the-hot-club-of-san-francisco-celebrating-39-years/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-29",
-   "description": "",
-   "fingerprint": "0d6e8959d9c9",
-   "id": "ev_762e2f34e32e",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-29T20:00:00-08:00",
-   "title": "Gian Achen + Larisa Roberts + Michael Bowman",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Albany",
-   "date": "2027-01-16",
-   "description": "with genre - swing punk, indie, alternative | ivy room presents | IVY ROOM PRESENTS SATURDAY NOVEMBER 16TH DOUBLE RECORD RELEASE — VAN GOAT BIG SURPRISE — DOORS 7PM / SHOW 8 PM ADVANCE TICKETS AVAILABLE / $20 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ VAN GOAT — Van Goat's latest release \"Nobody Cares\" still sits squarely in their self prescribed genre of 'swing punk,' but is a more mature an",
-   "fingerprint": "28c77482ed87",
-   "id": "ev_7a813edd1f72",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43508483-van-goat-at-ivy-room"
-   ],
-   "rules_score": 66.0,
-   "rules_tier": "strong",
-   "start": "2027-01-16T20:00:00-08:00",
-   "title": "VAN GOAT + BIG SURPRISE + SPECIAL GUESTS",
-   "url": "https://tickets.venuepilot.com/e/van-goat-big-surprise-special-guests-2027-01-16-ivy-room-albany-457fd5",
-   "venue": "Ivy Room",
-   "why_rules": [
-    "roots_adjacent: country (+10)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Ivy Room (+14)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-11-25",
-   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
-   "fingerprint": "8b2e01734e36",
-   "id": "ev_16a484bd5c4e",
-   "other_urls": [
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-11-25/",
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-11-25/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-25T18:00:00-08:00",
-   "title": "Wednesday East Bay Bluegrassers Jam",
-   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-11-25/",
-   "venue": "Rockin Robbies – El Cerrito",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-05",
-   "description": "Buy Tickets on Humanitix - The Greg Abate Quartet hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday December 5th 2026. Find event information.",
-   "fingerprint": "69b6ffbcb3ed",
-   "id": "ev_fa5a3fc374c0",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T20:00:00-08:00",
-   "title": "The Greg Abate Quartet",
-   "url": "https://events.humanitix.com/the-greg-abate-quartet",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-25",
-   "description": "Andre Nickatina at Great American Music Hall at 2026-11-25T20:00:00-0800",
-   "fingerprint": "667e0f850b29",
-   "id": "ev_4d81558db942",
-   "other_urls": [
-    "https://wl.seetickets.us/event/andre-nickatina/705864?afflky=GreatAmericanMusicHall"
-   ],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2026-11-25T20:00:00-08:00",
-   "title": "Andre Nickatina",
-   "url": "https://www.songkick.com/concerts/43423707-andre-nickatina-at-great-american-music-hall",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "hiphop_classic: hip hop, hip-hop (+15)",
-    "intimate room: Great American Music Hall (+14)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-13",
-   "description": "",
-   "fingerprint": "3a2ebba69dfb",
-   "id": "ev_dec1933dc137",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "Volcano: Jay Wilcox & JP McLean honor Jerry Garcia & John Kahn – SR",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DKYdxMAH",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-14",
-   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
-   "fingerprint": "8cd12007bfc1",
-   "id": "ev_490541862f7a",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T19:30:00-08:00",
-   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
-   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-14",
-   "description": "Black Cat: Marc Seales with Ernie Watts",
-   "fingerprint": "579ec0f8bb6d",
-   "id": "ev_02e5e92ba13e",
-   "other_urls": [
-    "https://blackcatsf.turntabletickets.com/shows/13306/2026-11-14"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T00:00:00-08:00",
-   "title": "Marc Seales with Ernie Watts",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-14",
-   "description": "Kilowatt: Mugger, Monk, Ingrata, Scam Likely",
-   "fingerprint": "f3d7016c884e",
-   "id": "ev_9e43f364eae2",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T16:30:00-08:00",
-   "title": "FVR WLD FEST feat. Mugger, Monk, Ingrata and Scam Likely",
-   "url": "https://dice.fm/event/6a628ff7bda14200018de075",
-   "venue": "Kilowatt",
-   "why_rules": [
-    "intimate room: Kilowatt (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "Memphis LK has become a defining force in Australia's next generation of electronic voices. Emerging from Melbourne's world-class club scene, her music taps into the sanctuary and transcendence of the dancefloor, a space to let go, reconnect, and escape. Her transportive live sets fuse DJing with live vocals and saxophone, creating an immersive, euphoric experience that mirrors the emotional...",
-   "fingerprint": "8a2e8f5da4a8",
-   "id": "ev_ba87f6c1c0ae",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T21:00:00-08:00",
-   "title": "Memphis LK at Cafe du Nord",
-   "url": "https://cafedunord.com/shows/2026-11-20-memphis-lk",
-   "venue": "Cafe du Nord",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "theater_core: immersive (+14)",
-    "noise_tribute: experience (-18)",
-    "noise_other: class (-25)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-14",
-   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
-   "fingerprint": "f8a56e4661f8",
-   "id": "ev_be3b3f986749",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T00:00:00-08:00",
-   "title": "Stanley Clarke and Ron Carter",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "SF Jazz Center",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-14",
-   "description": "with Comdey/Storytelling",
-   "fingerprint": "b0bc769ae103",
-   "id": "ev_d26faafd285f",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T19:30:00-08:00",
-   "title": "Mortified",
-   "url": "https://tickets.venuepilot.com/e/mortified-2026-11-14-ashkenaz-music-dance-community-center-berkeley-2152d3",
-   "venue": "Ashkenaz",
-   "why_rules": [
-    "intimate room: Ashkenaz (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-27",
-   "description": "Vienna Teng at The Freight at 2026-12-27T18:00:00-0800",
-   "fingerprint": "ad1b0bfea7df",
-   "id": "ev_05929aa25a87",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2026-12-27T18:00:00-08:00",
-   "title": "Vienna Teng",
-   "url": "https://www.songkick.com/concerts/43223739-vienna-teng-at-freight",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+14)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Petaluma",
-   "date": "2027-02-01",
-   "description": "The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm. All kinds of pickers show up, from rank beginners to grizzled veterans, plus folks who just come to listen and socialize. The repertoire is straight-up traditional bluegrass, although the occasional old-time or folk-inflected choice will pop up. The format is the old-fashioned",
-   "fingerprint": "ee96e473beee",
-   "id": "ev_149b4ec4929b",
-   "other_urls": [],
-   "rules_score": 71.0,
-   "rules_tier": "strong",
-   "start": "2027-02-01T18:00:00-08:00",
-   "title": "Garage Jam",
-   "url": "https://californiabluegrass.org/event/garage-jam/2027-02-01/",
-   "venue": "Out West Garage",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "roots_adjacent: folk (+10)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-15",
-   "description": "Black Cat: Marc Seales with Ernie Watts",
-   "fingerprint": "1fb0acd981ad",
-   "id": "ev_1a1952f90f29",
-   "other_urls": [
-    "https://blackcatsf.turntabletickets.com/shows/13307/2026-11-15"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-15T00:00:00-08:00",
-   "title": "Marc Seales with Ernie Watts",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-15",
-   "description": "SF Jazz Center: Stanley Clarke and Ron Carter",
-   "fingerprint": "023f539f3560",
-   "id": "ev_4e74821afc6c",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-15T00:00:00-08:00",
-   "title": "Stanley Clarke and Ron Carter",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "SF Jazz Center",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-02-13",
-   "description": "Kazemde George, saxophone Kai Lyons, guitar $20 cover charge / byob. Students $10. For a reservation, call the bookshop at 415-586-3733.",
-   "fingerprint": "87da2405a266",
-   "id": "ev_c65173ac3ba4",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2027-02-13T19:30:00-08:00",
-   "title": "Kazemde George / Kai Lyons",
-   "url": "https://birdbeckett.com/event/kazemde-george-kai-lyons/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "jazz_core: saxophone (+18)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2026-12-04",
-   "description": "Founded by Fattah Abbou and Mohamed Aoualou , AZA unites traditional Tamazight (incorrectly labeled \"Berber\") music, indigenous to North Africa, with the global influences of its diverse members. With elements of indigenous Moroccan musical styles, including Ahwash, Rwais, and Gnawa – among others – AZA's stirring performances feature deep, danceable rhythms, intricate melodies, and soaring, soulf",
-   "fingerprint": "4b5db8f37f73",
-   "id": "ev_1354916f77bd",
-   "other_urls": [],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2026-12-04T19:00:00-08:00",
-   "title": "AZA – Moroccan Music",
-   "url": "https://www.kuumbwajazz.org/calendar/aza-moroccan-music/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "theater_core: musical (+14)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Sacramento",
-   "date": "2026-11-22",
-   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
-   "fingerprint": "3623da210b1d",
-   "id": "ev_dc78e842cb9b",
-   "other_urls": [],
-   "rules_score": 62.0,
-   "rules_tier": "strong",
-   "start": "2026-11-22T18:00:00-08:00",
-   "title": "Two Rivers Cider Old Time Jam",
-   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-22/",
-   "venue": "Two Rivers Cider",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "outside the core Bay Area (-6)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-17",
-   "description": "A live show featuring a <span><span>special collaboration between 3 projects — Palaces, Bobbing, and E. Artifact</span></span>is <span><span><span><span>— playing</span></span></span></span> delicate, melodic at times, heavy, and psychedelic at music consisting of drums, drum machines, keys, synth, guitar, bass, sax, flute, and clarinet; $10 tickets",
-   "fingerprint": "d368ecedc360",
-   "id": "ev_7041a96cd45e",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-17T21:00:00-08:00",
-   "title": "Noise Floor",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -806,6 +324,492 @@
     "intimate room: Kilowatt (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-20",
+   "description": "SF Jazz Center: Django Festival Allstars, Brittany Davis",
+   "fingerprint": "8cbca4bf1f5c",
+   "id": "ev_53f7ddbe1d75",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-20T00:00:00-08:00",
+   "title": "Django Festival Allstars, Brittany Davis",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-20",
+   "description": "The Jazz School: UC Berkeley Nu Jazz Septet, Melford-Goldberg-Muntz Trio",
+   "fingerprint": "d3522aae5acc",
+   "id": "ev_802732ce1b00",
+   "other_urls": [],
+   "rules_score": 58.0,
+   "rules_tier": "strong",
+   "start": "2026-11-20T00:00:00-08:00",
+   "title": "UC Berkeley Nu Jazz Septet, Melford-Goldberg-Muntz Trio",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "The Jazz School",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-20",
+   "description": "with w/ SYNAPSE + FAST FRIENDS | CIDERUP SHOWS XXVI presents | CIDERUP SHOWS XXVI presents FRIDAY NOVEMBER 20TH ---- MDC SHATTERED FAITH SYNAPSE FAST FRIENDS ---- Doors 8pm / Show 8:30pm ADVANCE TICKETS AVAILABLE ---- IVY ROOM 860 San Pablo Ave, Albany • 21+",
+   "fingerprint": "cf8bc360fe67",
+   "id": "ev_8bcb250bbc07",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-20T20:30:00-08:00",
+   "title": "MDC + SHATTERED FAITH",
+   "url": "https://tickets.venuepilot.com/e/mdc-fang-2026-11-20-ivy-room-albany-65f59e",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-20",
+   "description": "Natural Child at Rickshaw Stop at 2026-11-20T21:00:00-0800",
+   "fingerprint": "3ee8b73c5bfd",
+   "id": "ev_aac5f6fae5d8",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-20T21:00:00-08:00",
+   "title": "Natural Child, Buzzed Lightbeer, Milk for the Angry, Catnip",
+   "url": "https://www.songkick.com/concerts/43169314-natural-child-at-rickshaw-stop",
+   "venue": "Rickshaw Stop",
+   "why_rules": [
+    "intimate room: Rickshaw Stop (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-20",
+   "description": "Great American Music Hall: Jayski & the Dawn featuring Jay Lane & Dave Ellis",
+   "fingerprint": "1c4ea954bc96",
+   "id": "ev_dfbdb43e371f",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-20T20:00:00-08:00",
+   "title": "Jayski & the Dawn featuring Jay Lane & Dave Ellis",
+   "url": "https://wl.seetickets.us/event/jayski-and-the-dawn-featuring-jay-lane-and-dave-ellis/705754?afflky=GreatAmericanMusicHall",
+   "venue": "Great American Music Hall",
+   "why_rules": [
+    "intimate room: Great American Music Hall (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-15",
+   "description": "It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+   "fingerprint": "ac287ae9c648",
+   "id": "ev_6777cc574fa4",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-15T18:00:00-08:00",
+   "title": "Hooked On Bluegrass with Terry Brewer",
+   "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-11-15/",
+   "venue": "The Bluegrass Jamboree",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-21",
+   "description": "Kilowatt: Paul Collins: The Best of The Nerves, The Beat & The Exploding Hearts",
+   "fingerprint": "d8995d3c58f1",
+   "id": "ev_c000510194e9",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T19:00:00-08:00",
+   "title": "Paul Collins: The Best of The Nerves, The Beat & The Exploding Hearts",
+   "url": "https://dice.fm/event/6a57f5e1b2072f0001b1f5f6",
+   "venue": "Kilowatt",
+   "why_rules": [
+    "intimate room: Kilowatt (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-21",
+   "description": "SF Jazz Center: 11am Mariachi Flor de Toloache; Sarah Hanahan Quartet, Mireya Ramos & Flor de Toloache",
+   "fingerprint": "4ab2fc810c03",
+   "id": "ev_d3fb91ef9bd8",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T00:00:00-08:00",
+   "title": "11am Mariachi Flor de Toloache; Sarah Hanahan Quartet, Mireya Ramos & Flor de Toloache",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-22",
+   "description": "GAMH & Psyched! Fest 2026 presents....",
+   "fingerprint": "dcc47415b854",
+   "id": "ev_0ba210191496",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T20:00:00-08:00",
+   "title": "Divine Offering: Celebrating the Legacy of Alice Coltrane",
+   "url": "https://wl.seetickets.us/event/divine-offering-celebrating-the-legacy-of-alice-coltrane/704843?afflky=GreatAmericanMusicHall",
+   "venue": "Great American Music Hall",
+   "why_rules": [
+    "intimate room: Great American Music Hall (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-22",
+   "description": "Qendresa at Rickshaw Stop at 2026-11-22T20:00:00-0800",
+   "fingerprint": "767e7ff9a798",
+   "id": "ev_847cdb0aaf87",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T20:00:00-08:00",
+   "title": "Qendresa",
+   "url": "https://www.songkick.com/concerts/43357632-qendresa-at-rickshaw-stop",
+   "venue": "Rickshaw Stop",
+   "why_rules": [
+    "intimate room: Rickshaw Stop (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2026-11-22",
+   "description": "Motorbäbe at Ivy Room on Nov 22, 2026",
+   "fingerprint": "68e6e1724852",
+   "id": "ev_b8338508a310",
+   "other_urls": [
+    "https://tickets.venuepilot.com/e/motorbabe-all-6c9ad9",
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T18:00:00-08:00",
+   "title": "Motorbäbe (Motörhead Tribute), A Rock Legend (Thin Lizzy Tribute), Three Towers",
+   "url": "https://www.jambase.com/show/motorbabe-ivy-room-20261122",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "legacy: legend (+14)",
+    "noise_tribute: tribute band (-18)",
+    "intimate room: Ivy Room (+14)",
+    "listed by a taste-aligned calendar (+12)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-22",
+   "description": "SF Jazz Center: Brian Blade & The Fellowship Band, Sarah Hanahan Quartet",
+   "fingerprint": "de8c7aa89f0d",
+   "id": "ev_d87d19190ff6",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T00:00:00-08:00",
+   "title": "Brian Blade & The Fellowship Band, Sarah Hanahan Quartet",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "SF Jazz Center",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2026-11-17",
+   "description": "Though John Carroll Kirby 's background is steeped in jazz, his signature sound blends genres and styles. A sought-after collaborator, he's worked with the likes of Miley Cyrus, Frank Ocean, Harry Styles, and Solange. Kirby earned a Song of the Year Grammy nomination in 2023 for his contribution to Steve Lacy's \"Bad Habit.\" Since 2020, he's focused on his vibrant solo career—releasing 8 LPs and ea",
+   "fingerprint": "66b0e7292a09",
+   "id": "ev_696b42b01075",
+   "other_urls": [
+    "https://www.eventbrite.com/e/john-carroll-kirby-kuumbwa-jazz-center-santa-cruz-1117-tickets-1996174829651?aff=oddtdtcreator"
+   ],
+   "rules_score": 52.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-17T19:30:00-08:00",
+   "title": "John Carroll Kirby Santa Cruz 11/17",
+   "url": "https://www.kuumbwajazz.org/calendar/folkyeah-presents-john-carroll-kirby/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "noise_other: film (-25)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+   "fingerprint": "66353b777f7a",
+   "id": "ev_8994dd2a9409",
+   "other_urls": [],
+   "rules_score": 54.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T16:00:00-08:00",
+   "title": "Horseshoe Jam",
+   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-29/",
+   "venue": "The Lucky Horseshoe San Francisco",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Nevada City",
+   "date": "2027-02-04",
+   "description": "All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+   "fingerprint": "a62546eaa2c1",
+   "id": "ev_a71bb1567a36",
+   "other_urls": [],
+   "rules_score": 73.0,
+   "rules_tier": "strong",
+   "start": "2027-02-04T18:00:00-08:00",
+   "title": "First Thursday Bluegrass(ish) Jam at the Deer Creek Bar and Grill",
+   "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-02-04/",
+   "venue": "Deer Creek Bar and Grill",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: folk, americana, country (+15)",
+    "theater_core: musical (+14)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-25",
+   "description": "Moonalice at The Chapel at 2026-11-25T20:00:00-0800",
+   "fingerprint": "b70af59c2a0a",
+   "id": "ev_13d25915cb19",
+   "other_urls": [
+    "https://wl.eventim.us/event/moonalice/708306?afflky=TheChapel",
+    "https://wl.seetickets.us/event/moonalice/708306?afflky=TheChapel"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-25T20:00:00-08:00",
+   "title": "Moonalice",
+   "url": "https://www.songkick.com/concerts/43469728-moonalice-at-chapel",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)",
+    "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-19",
+   "description": "The Sound Room: Dann Zinn Quartet",
+   "fingerprint": "d1018bcdfeae",
+   "id": "ev_3503948607b8",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-19T00:00:00-08:00",
+   "title": "Dann Zinn Quartet",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Grass Valley",
+   "date": "2026-11-26",
+   "description": "Come on down and pick a spell. The Wild Eye Pub offers food and drinks. Bring your instrument and play or just hang out and listen. All levels welcome.",
+   "fingerprint": "4393e1289d2f",
+   "id": "ev_5b073ddd57d8",
+   "other_urls": [],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-26T17:30:00-08:00",
+   "title": "Bluegrass Jam at The Wild Eye Pub",
+   "url": "https://californiabluegrass.org/event/bluegrass-jam-at-the-wild-eye-pub/2026-11-26/",
+   "venue": "Wild Eye Pub",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "theater_core: play (+14)",
+    "listed by a taste-aligned calendar (+8)",
+    "outside the core Bay Area (-6)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-12-02",
+   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+   "fingerprint": "27ba79a30ff4",
+   "id": "ev_933556b0a95a",
+   "other_urls": [
+    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-02/",
+    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-02/"
+   ],
+   "rules_score": 54.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T18:00:00-08:00",
+   "title": "Wednesday East Bay Bluegrassers Jam",
+   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-02/",
+   "venue": "Rockin Robbies – El Cerrito",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-15",
+   "description": "",
+   "fingerprint": "b32806dacac3",
+   "id": "ev_55799ae9e0e3",
+   "other_urls": [],
+   "rules_score": 43.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-15T16:00:00-08:00",
+   "title": "Ensemble for These Times – Exile | Banishment | Home",
+   "url": "https://www.oldfirstconcerts.org/performance/ensemble-for-these-times-exile-banishment-home-sunday-november-15-at-4-pm/",
+   "venue": "Old First Church",
+   "why_rules": [
+    "intimate room: Old First Church (+14)",
+    "listed by a taste-aligned calendar (+6)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-03-04",
+   "description": "Born and raised in Madrid, Spain, pianist and composer Marta Sánchez is actively working in the contemporary creative music scene in New York City and around the globe. Charting a significant path through her innovative and original music, she has reached an international audience and gained significant global recognition. Sánchez, the 2025 DownBeat Critics Poll 'Rising Star' in piano, leads a qui",
+   "fingerprint": "0a1f1612aed9",
+   "id": "ev_3ee4a4c76c3b",
+   "other_urls": [],
+   "rules_score": 69.0,
+   "rules_tier": "strong",
+   "start": "2027-03-04T19:00:00-08:00",
+   "title": "Marta Sánchez Sextet",
+   "url": "https://www.kuumbwajazz.org/calendar/marta-sanchez/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz, creative music, saxophone (+27)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-02-08",
+   "description": "Honored by The National Endowment for the Arts as a 2010 Jazz Master, Kenny Barron has an unmatched ability to mesmerize audiences with his elegant playing, sensitive melodies and infectious rhythms. The Los Angeles Times named him \"one of the top jazz pianists in the world\" and Jazz Weekly calls him \"The most lyrical piano player of our time.\" The Philadelphia native started playing professionall",
+   "fingerprint": "3a47286cdefe",
+   "id": "ev_4b3b984c2a8e",
+   "other_urls": [],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2027-02-08T19:00:00-08:00",
+   "title": "Kenny Barron Trio",
+   "url": "https://www.kuumbwajazz.org/calendar/kenny-barron-trio-2/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-22",
+   "description": "It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+   "fingerprint": "63a4f307bbfe",
+   "id": "ev_d881f4b18f2e",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-22T18:00:00-08:00",
+   "title": "Hooked On Bluegrass with Terry Brewer",
+   "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-11-22/",
+   "venue": "The Bluegrass Jamboree",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-12-29",
+   "description": "",
+   "fingerprint": "8a4602596b70",
+   "id": "ev_2d2199ebd5a1",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-29T20:00:00-08:00",
+   "title": "Gian Achen",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   }
  ]

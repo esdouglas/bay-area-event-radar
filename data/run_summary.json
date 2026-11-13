@@ -1,15 +1,16 @@
 {
- "inventory_total": 4909,
- "inventory_upcoming": 3293,
- "merged_sources": 9,
- "new_events": 49,
- "run_id": "009ab3d49cc6",
- "seconds": 612.9,
- "sources_due": 65,
+ "inventory_total": 4912,
+ "inventory_upcoming": 3296,
+ "merged_sources": 2,
+ "new_events": 10,
+ "run_id": "94bb166e570d",
+ "seconds": 491.8,
+ "sources_due": 69,
  "sources_failed": [
   "down-home-music",
-  "outsound"
+  "outsound",
+  "songkick-bay-area"
  ],
- "sources_ok": 63,
- "ts": "2026-11-13T19:53:28+00:00"
+ "sources_ok": 66,
+ "ts": "2026-11-13T22:43:27+00:00"
 }
