@@ -1,7 +1,7 @@
 {
- "backlog": 1395,
+ "backlog": 1362,
  "count": 40,
- "generated_at": "2026-11-13T07:03:02+00:00",
+ "generated_at": "2026-11-13T19:59:09+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -86,25 +86,21 @@
    ]
   },
   {
-   "city": "Albany",
-   "date": "2027-01-16",
-   "description": "with genre - swing punk, indie, alternative | ivy room presents | IVY ROOM PRESENTS SATURDAY NOVEMBER 16TH DOUBLE RECORD RELEASE — VAN GOAT BIG SURPRISE — DOORS 7PM / SHOW 8 PM ADVANCE TICKETS AVAILABLE / $20 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ VAN GOAT — Van Goat's latest release \"Nobody Cares\" still sits squarely in their self prescribed genre of 'swing punk,' but is a more mature an",
-   "fingerprint": "28c77482ed87",
-   "id": "ev_7a813edd1f72",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43508483-van-goat-at-ivy-room"
-   ],
-   "rules_score": 66.0,
-   "rules_tier": "strong",
-   "start": "2027-01-16T20:00:00-08:00",
-   "title": "VAN GOAT + BIG SURPRISE + SPECIAL GUESTS",
-   "url": "https://tickets.venuepilot.com/e/van-goat-big-surprise-special-guests-2027-01-16-ivy-room-albany-457fd5",
-   "venue": "Ivy Room",
+   "city": "San Francisco",
+   "date": "2026-12-10",
+   "description": "The Hot Club of San Francisco is an American gypsy jazz band, led by guitarist, songwriter, and arranger Paul 'Pazzo' Mehling. The band features a lineup inspired by Django Reinhardt and Stephane Grappelli's Quintette du Hot Club de France, with violin, bass, and guitars. They perform a mix of gypsy jazz standards, pop songs, and [...]",
+   "fingerprint": "472362895e2e",
+   "id": "ev_67e1762cab4b",
+   "other_urls": [],
+   "rules_score": 52.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-10T19:00:00-08:00",
+   "title": "The Quintet of the Hot Club of San Francisco- celebrating 39 years!",
+   "url": "https://keysjazzbistro.com/event/the-quintet-of-the-hot-club-of-san-francisco-celebrating-39-years/",
+   "venue": "Keys Jazz Bistro",
    "why_rules": [
-    "roots_adjacent: country (+10)",
     "jazz_core: jazz (+18)",
-    "intimate room: Ivy Room (+14)",
-    "2 independent sources (+4)"
+    "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
   {
@@ -124,6 +120,28 @@
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "Albany",
+   "date": "2027-01-16",
+   "description": "with genre - swing punk, indie, alternative | ivy room presents | IVY ROOM PRESENTS SATURDAY NOVEMBER 16TH DOUBLE RECORD RELEASE — VAN GOAT BIG SURPRISE — DOORS 7PM / SHOW 8 PM ADVANCE TICKETS AVAILABLE / $20 DOOR — IVY ROOM 860 San Pablo Ave, Albany • 21+ VAN GOAT — Van Goat's latest release \"Nobody Cares\" still sits squarely in their self prescribed genre of 'swing punk,' but is a more mature an",
+   "fingerprint": "28c77482ed87",
+   "id": "ev_7a813edd1f72",
+   "other_urls": [
+    "https://www.songkick.com/concerts/43508483-van-goat-at-ivy-room"
+   ],
+   "rules_score": 66.0,
+   "rules_tier": "strong",
+   "start": "2027-01-16T20:00:00-08:00",
+   "title": "VAN GOAT + BIG SURPRISE + SPECIAL GUESTS",
+   "url": "https://tickets.venuepilot.com/e/van-goat-big-surprise-special-guests-2027-01-16-ivy-room-albany-457fd5",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "roots_adjacent: country (+10)",
+    "jazz_core: jazz (+18)",
+    "intimate room: Ivy Room (+14)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -204,6 +222,24 @@
    "why_rules": [
     "intimate room: The Lost Church (+14)",
     "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-14",
+   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
+   "fingerprint": "8cd12007bfc1",
+   "id": "ev_490541862f7a",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T19:30:00-08:00",
+   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
+   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -308,24 +344,6 @@
     "intimate room: Ashkenaz (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-14",
-   "description": "Paul Hanson, reeds; Joel Harrison, guitar; Michael Manring, bass; Scott Amendola, drums Former Berkeley resident, guitarist Joel Harrison, returns to the Bay Area to journey into Miles Davis' iconic 1970 record, \"In a Silent Way.\" The band consists of old allies, some of the Bay Area's finest and most creative musicians—they will also perform some of Harrison's original music. Harrison recently re",
-   "fingerprint": "8cd12007bfc1",
-   "id": "ev_490541862f7a",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T19:30:00-08:00",
-   "title": "In a Silent Way: Joel Harrison Quintet plays Miles Davis",
-   "url": "https://birdbeckett.com/event/in-a-silent-way_2026-11-14/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -489,43 +507,6 @@
   {
    "city": "San Francisco",
    "date": "2026-11-18",
-   "description": "",
-   "fingerprint": "36be48b6c29d",
-   "id": "ev_0c9707ba9df0",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-18T00:00:00-08:00",
-   "title": "The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-12",
-   "description": "The Sound Room: Charles Wheal Band",
-   "fingerprint": "14c875b7e1ad",
-   "id": "ev_6a08083aeb36",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-12T00:00:00-08:00",
-   "title": "Charles Wheal Band",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-18",
    "description": "Jamila Woods and Hannah Mayree at Rickshaw Stop at 2026-11-18T20:00:00-0800",
    "fingerprint": "fa0444615076",
    "id": "ev_79245f3e578d",
@@ -542,26 +523,6 @@
     "intimate room: Rickshaw Stop (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-12",
-   "description": "The Freight: Tuba Skinny",
-   "fingerprint": "39b4013f07ae",
-   "id": "ev_832694116400",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-12T00:00:00-08:00",
-   "title": "Tuba Skinny",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   },
   {
@@ -629,6 +590,24 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-11-18",
+   "description": "",
+   "fingerprint": "36be48b6c29d",
+   "id": "ev_0c9707ba9df0",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-18T00:00:00-08:00",
+   "title": "The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
    "city": "Nicasio",
    "date": "2027-01-15",
    "description": "Dinner Show with JACKIE GREENE SOLO PERFORMANCE Americana and roots singer-songwriter Jackie Greene is a jack-of-all-trades, and an artist who can croon over soulful piano ballads as much as he can shred a bluesy guitar solo (like he did as the lead guitarist for The Black Crowes in 2013).",
@@ -645,24 +624,6 @@
     "roots_adjacent: americana, roots, singer-songwriter, singer songwriter (+18)",
     "intimate room: Rancho Nicasio (+14)",
     "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-19",
-   "description": "An almost-monthly series of talks by Walker Brents III (9 or 10 talks a year for more than two decades) on various topics in poetry, mythology, folklore, philosophy, etc. Although primarily a live stream viewable on our YouTube channel and Facebook page, it's also fine if you slip into the darkened shop to listen in person.",
-   "fingerprint": "a009c2b52af4",
-   "id": "ev_fb10fffdd4db",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T19:30:00-08:00",
-   "title": "Walker Talks",
-   "url": "https://birdbeckett.com/event/walker-talks_2026-11-19/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -729,6 +690,62 @@
   },
   {
    "city": "San Francisco",
+   "date": "2026-11-19",
+   "description": "An almost-monthly series of talks by Walker Brents III (9 or 10 talks a year for more than two decades) on various topics in poetry, mythology, folklore, philosophy, etc. Although primarily a live stream viewable on our YouTube channel and Facebook page, it's also fine if you slip into the darkened shop to listen in person.",
+   "fingerprint": "a009c2b52af4",
+   "id": "ev_fb10fffdd4db",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-19T19:30:00-08:00",
+   "title": "Walker Talks",
+   "url": "https://birdbeckett.com/event/walker-talks_2026-11-19/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "Nicasio",
+   "date": "2027-01-16",
+   "description": "Dinner Show with JACKIE GREENE SOLO PERFORMANCE Americana and roots singer-songwriter Jackie Greene is a jack-of-all-trades, and an artist who can croon over soulful piano ballads as much as he can shred a bluesy guitar solo (like he did as the lead guitarist for The Black Crowes in 2013).",
+   "fingerprint": "5c0681f7acc2",
+   "id": "ev_042e3c13ae9a",
+   "other_urls": [],
+   "rules_score": 59.5,
+   "rules_tier": "strong",
+   "start": "2027-01-16T00:00:00-08:00",
+   "title": "JACKIE GREENE WEEKEND",
+   "url": "https://ranchonicasio.com/event/jackie-greene-weekend-4/",
+   "venue": "Rancho Nicasio",
+   "why_rules": [
+    "roots_adjacent: americana, roots, singer-songwriter, singer songwriter (+18)",
+    "intimate room: Rancho Nicasio (+14)",
+    "booking signal: Rancho Nicasio (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-14",
+   "description": "The Sound Room: Mads Tolling & Patrick Martin",
+   "fingerprint": "d7fa8f750312",
+   "id": "ev_baca11dc941c",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Mads Tolling & Patrick Martin",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
    "date": "2026-11-20",
    "description": "Earthless and Carlton Melton at Bottom of the Hill at 2026-11-20T19:30:00-0800",
    "fingerprint": "96d9b16f5624",
@@ -789,25 +806,6 @@
     "intimate room: Kilowatt (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-20",
-   "description": "SF Jazz Center: Django Festival Allstars, Brittany Davis",
-   "fingerprint": "8cbca4bf1f5c",
-   "id": "ev_53f7ddbe1d75",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T00:00:00-08:00",
-   "title": "Django Festival Allstars, Brittany Davis",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "SF Jazz Center",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   }
  ]
