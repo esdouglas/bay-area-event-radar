@@ -1,17 +1,16 @@
 {
- "inventory_total": 4968,
+ "inventory_total": 4971,
  "inventory_upcoming": 3209,
- "merged_sources": 6,
- "new_events": 33,
- "run_id": "8d16bc160a3d",
- "seconds": 314.1,
- "sources_due": 65,
+ "merged_sources": 3,
+ "new_events": 10,
+ "run_id": "0beadec83109",
+ "seconds": 390.4,
+ "sources_due": 69,
  "sources_failed": [
   "down-home-music",
-  "luther-burbank-center",
   "outsound",
   "broadway-sf"
  ],
- "sources_ok": 61,
- "ts": "2026-11-14T18:18:18+00:00"
+ "sources_ok": 66,
+ "ts": "2026-11-14T22:35:56+00:00"
 }
