@@ -1,7 +1,7 @@
 {
- "backlog": 1349,
+ "backlog": 1309,
  "count": 40,
- "generated_at": "2026-11-14T06:46:55+00:00",
+ "generated_at": "2026-11-14T18:20:27+00:00",
  "items": [
   {
    "city": "San Francisco",
@@ -46,6 +46,30 @@
   },
   {
    "city": "San Francisco",
+   "date": "2026-11-20",
+   "description": "Earthless and Carlton Melton at Bottom of the Hill at 2026-11-20T19:30:00-0800",
+   "fingerprint": "96d9b16f5624",
+   "id": "ev_2182bcac1bec",
+   "other_urls": [
+    "http://www.bottomofthehill.com/20261120.html",
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+    "https://dice.fm/event/6a679970bc315a0001aa7f0f"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-20T19:30:00-08:00",
+   "title": "Earthless, Terry Gross, Carlton Melton, Sasquatch Borracho",
+   "url": "https://www.songkick.com/concerts/43292296-earthless-at-bottom-of-the-hill",
+   "venue": "Bottom of the Hill",
+   "why_rules": [
+    "jazz_core: experimental (+18)",
+    "noise_genre: metal (-22)",
+    "intimate room: Bottom of the Hill (+14)",
+    "listed by a taste-aligned calendar (+12)"
+   ]
+  },
+  {
+   "city": "San Francisco",
    "date": "2026-12-12",
    "description": "Immerse yourself in the electrifying world of \"Ritmo y Voz\", where the deep-rooted traditions of Afro-Cuban jazz meet the power of dynamic vocals. This high-energy performance features an all-star lineup, including guitarist Kai Lyons, percussion master Ernesto, bassist Mazar, and the incomparable Einar Leliebre Nuñez, whose fiery rhythms and soaring voice bring the soul of [...]",
    "fingerprint": "7385a3523ac5",
@@ -63,44 +87,21 @@
    ]
   },
   {
-   "city": "Berkeley",
-   "date": "2026-11-13",
-   "description": "",
-   "fingerprint": "b54ac36bd780",
-   "id": "ev_d2f25e4cde40",
-   "other_urls": [],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "Hillside Club, 2286 Cedar St, Berkeley, CA 94709, USA",
-   "url": "https://www.hillsideclub.org/hillsideechoes",
-   "venue": "Hillside Club",
-   "why_rules": [
-    "intimate room: Hillside Club (+14)",
-    "booking signal: Hillside Club (+8)",
-    "listed by a taste-aligned calendar (+10)",
-    "heuristic text extraction, unverified (-8)"
-   ]
-  },
-  {
    "city": "San Francisco",
-   "date": "2026-11-13",
-   "description": "Rickshaw Stop: The Hails, Meldrop",
-   "fingerprint": "5ef7720018ff",
-   "id": "ev_2018708ed3b1",
-   "other_urls": [
-    "https://www.jambase.com/show/the-hails-rickshaw-stop-20261113"
-   ],
-   "rules_score": 53.0,
+   "date": "2026-11-18",
+   "description": "",
+   "fingerprint": "36be48b6c29d",
+   "id": "ev_0c9707ba9df0",
+   "other_urls": [],
+   "rules_score": 45.0,
    "rules_tier": "inventory",
-   "start": "2026-11-13T00:00:00-08:00",
-   "title": "The Hails, Meldrop",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "Rickshaw Stop",
+   "start": "2026-11-18T00:00:00-08:00",
+   "title": "The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH",
+   "venue": "The Lost Church",
    "why_rules": [
-    "intimate room: Rickshaw Stop (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -207,24 +208,6 @@
     "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-18",
-   "description": "",
-   "fingerprint": "36be48b6c29d",
-   "id": "ev_0c9707ba9df0",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-18T00:00:00-08:00",
-   "title": "The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -367,48 +350,6 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-11-14",
-   "description": "The Sound Room: Mads Tolling & Patrick Martin",
-   "fingerprint": "d7fa8f750312",
-   "id": "ev_baca11dc941c",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-14T00:00:00-08:00",
-   "title": "Mads Tolling & Patrick Martin",
-   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "Earthless and Carlton Melton at Bottom of the Hill at 2026-11-20T19:30:00-0800",
-   "fingerprint": "96d9b16f5624",
-   "id": "ev_2182bcac1bec",
-   "other_urls": [
-    "http://www.bottomofthehill.com/20261120.html",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T19:30:00-08:00",
-   "title": "Earthless, Terry Gross, Carlton Melton, Sasquatch Borracho",
-   "url": "https://www.songkick.com/concerts/43292296-earthless-at-bottom-of-the-hill",
-   "venue": "Bottom of the Hill",
-   "why_rules": [
-    "jazz_core: experimental (+18)",
-    "noise_genre: metal (-22)",
-    "intimate room: Bottom of the Hill (+14)",
-    "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
    "city": "Berkeley",
    "date": "2026-12-02",
    "description": "with Zydeco/Funk | Doors 7pm Beginner-Friendly Dance Lesson 7:30pm Show 8pm MotorDude Zydeco brings the high-energy sounds of South Louisiana to the Bay Area with a hard-driving mix of traditional Zydeco, rhythm & blues, funk, two-steps, waltzes, and dance-floor grooves. Born in Oakland and named after a racehorse owned by Zydeco legend Bozoo Chavis, MotorDude has been a fixture of the Bay Area Zy",
@@ -531,6 +472,25 @@
    ]
   },
   {
+   "city": "",
+   "date": "2026-11-14",
+   "description": "The Sound Room: Mads Tolling & Patrick Martin",
+   "fingerprint": "d7fa8f750312",
+   "id": "ev_baca11dc941c",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-14T00:00:00-08:00",
+   "title": "Mads Tolling & Patrick Martin",
+   "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
    "city": "San Francisco",
    "date": "2026-11-20",
    "description": "Great American Music Hall: Jayski & the Dawn featuring Jay Lane & Dave Ellis",
@@ -549,6 +509,26 @@
     "intimate room: Great American Music Hall (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-06",
+   "description": "Keys Jazz Bistro presents Hella Fitzgerald for a rare, one-night-only appearance in the heart of North Beach. Led by vocalist and bandleader Lilan Kane, the Bay Area collective brings its signature blend of sophistication, groove, and spontaneity to an evening spanning soul, jazz, funk, R&B, and reimagined classics. Their chemistry, versatility, and high-energy musicianship have[...]",
+   "fingerprint": "1720de7fafb7",
+   "id": "ev_87301655ce44",
+   "other_urls": [],
+   "rules_score": 47.5,
+   "rules_tier": "inventory",
+   "start": "2026-12-06T19:00:00-08:00",
+   "title": "Hella Fitzgerald feat.Lilan Kane",
+   "url": "https://keysjazzbistro.com/event/hella-fitzgerald-feat-lilan-kane-2/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "theater_core: one-night-only, one night only (+18)",
+    "noise_genre: r&b (-22)",
+    "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
   {
@@ -609,26 +589,6 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-06",
-   "description": "Keys Jazz Bistro presents Hella Fitzgerald for a rare, one-night-only appearance in the heart of North Beach. Led by vocalist and bandleader Lilan Kane, the Bay Area collective brings its signature blend of sophistication, groove, and spontaneity to an evening spanning soul, jazz, funk, R&B, and reimagined classics. Their chemistry, versatility, and high-energy musicianship have[...]",
-   "fingerprint": "1720de7fafb7",
-   "id": "ev_87301655ce44",
-   "other_urls": [],
-   "rules_score": 47.5,
-   "rules_tier": "inventory",
-   "start": "2026-12-06T19:00:00-08:00",
-   "title": "Hella Fitzgerald feat.Lilan Kane",
-   "url": "https://keysjazzbistro.com/event/hella-fitzgerald-feat-lilan-kane-2/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "theater_core: one-night-only, one night only (+18)",
-    "noise_genre: r&b (-22)",
-    "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
   {
@@ -716,24 +676,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-11-23",
-   "description": "",
-   "fingerprint": "98adef58495b",
-   "id": "ev_debe98f53e2a",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-23T00:00:00-08:00",
-   "title": "Elena Gabrielle – Disturb the Vibe – San Francisco",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000D1KEvMAN",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
    "city": "Santa Cruz",
    "date": "2026-11-17",
    "description": "Though John Carroll Kirby 's background is steeped in jazz, his signature sound blends genres and styles. A sought-after collaborator, he's worked with the likes of Miley Cyrus, Frank Ocean, Harry Styles, and Solange. Kirby earned a Song of the Year Grammy nomination in 2023 for his contribution to Steve Lacy's \"Bad Habit.\" Since 2020, he's focused on his vibrant solo career—releasing 8 LPs and ea",
@@ -772,6 +714,24 @@
     "roots_core: bluegrass (+22)",
     "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-23",
+   "description": "",
+   "fingerprint": "98adef58495b",
+   "id": "ev_debe98f53e2a",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-23T00:00:00-08:00",
+   "title": "Elena Gabrielle – Disturb the Vibe – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000D1KEvMAN",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -814,6 +774,45 @@
     "intimate room: The Chapel (+14)",
     "booking signal: The Chapel (+8)",
     "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-19",
+   "description": "The Sound Room: Dann Zinn Quartet",
+   "fingerprint": "d1018bcdfeae",
+   "id": "ev_3503948607b8",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-19T00:00:00-08:00",
+   "title": "Dann Zinn Quartet",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Grass Valley",
+   "date": "2026-11-26",
+   "description": "Come on down and pick a spell. The Wild Eye Pub offers food and drinks. Bring your instrument and play or just hang out and listen. All levels welcome.",
+   "fingerprint": "4393e1289d2f",
+   "id": "ev_5b073ddd57d8",
+   "other_urls": [],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-26T17:30:00-08:00",
+   "title": "Bluegrass Jam at The Wild Eye Pub",
+   "url": "https://californiabluegrass.org/event/bluegrass-jam-at-the-wild-eye-pub/2026-11-26/",
+   "venue": "Wild Eye Pub",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "theater_core: play (+14)",
+    "listed by a taste-aligned calendar (+8)",
+    "outside the core Bay Area (-6)"
    ]
   }
  ]
