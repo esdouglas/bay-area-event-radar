@@ -160,6 +160,32 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_042e3c13ae9a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dinner Show with JACKIE GREENE SOLO PERFORMANCE Americana and roots singer-songwriter Jackie Greene is a jack-of-all-trades, and an artist who can croon over soulful piano ballads as much as he can shred a bluesy guitar solo (like he did as the lead guitarist for The Black Crowes in 2013).",
+    "url": "https://ranchonicasio.com/event/jackie-greene-weekend-4/"
+   }
+  ],
+  "fingerprint": "5c0681f7acc2",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Americana singer-songwriter; Black Crowes lead guitarist in 2013 per listing",
+    "name": "Jackie Greene",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Americana singer-songwriter Jackie Greene plays a solo dinner show at Rancho Nicasio in Marin on 16 January, the second night of a weekend run. Greene is a strong roots songwriter and guitarist who has played with the Black Crowes, but this is mainstream Americana and Nicasio is a long drive from Oakland.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "First night on 15 January is listed separately."
+  ]
+ },
  "ev_04ec9e997644": {
   "evidence": [
    {
@@ -463,6 +489,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No performers named in the listing; need the lineup to judge."
+  ]
+ },
+ "ev_0c9707ba9df0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Mirrorr Part II: The First Listen w/ Lost Ethos – San Francisco",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DSJ54MAH"
+   }
+  ],
+  "fingerprint": "36be48b6c29d",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Lost Ethos",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Mirrorr Part II: The First Listen with Lost Ethos is at The Lost Church in San Francisco on 18 November. No description was captured and I do not recognize Lost Ethos; the title suggests an album listening or release event.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured.",
+   "Format (live set versus album listening) unclear."
   ]
  },
  "ev_0d1d9d9c1203": {
@@ -1560,6 +1613,47 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_2182bcac1bec": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Earthless and Carlton Melton at Bottom of the Hill at 2026-11-20T19:30:00-0800",
+    "url": "https://www.songkick.com/concerts/43292296-earthless-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "96d9b16f5624",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "San Diego instrumental heavy-psych power trio, long improvised jams (background knowledge)",
+    "name": "Earthless",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Northern California drone/space-rock band (background knowledge)",
+    "name": "Carlton Melton",
+    "significance": "local"
+   },
+   {
+    "known_for": "SF psych-rock trio (background knowledge)",
+    "name": "Terry Gross",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Sasquatch Borracho",
+    "significance": "none"
+   }
+  ],
+  "reason": "San Diego heavy-psych jam trio Earthless headlines Bottom of the Hill with NorCal drone-psych band Carlton Melton and SF's Terry Gross (background knowledge). It is a strong heavy-psychedelic bill in a small room, but it is loud guitar rock rather than the freak-folk side of psychedelia he favors.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Collector applied a metal penalty; heaviness of the bill not confirmed."
+  ]
+ },
  "ev_219628306c39": {
   "evidence": [
    {
@@ -1822,6 +1916,32 @@
   "uncertainties": [
    "Kuumbwa page not fetched, so price and ticket status there are unconfirmed",
    "Which show is better for him: Kuumbwa is more intimate, SFJAZZ is closer (inference)"
+  ]
+ },
+ "ev_269692c6b0b7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Zydeco/Funk | Doors 7pm Beginner-Friendly Dance Lesson 7:30pm Show 8pm MotorDude Zydeco brings the high-energy sounds of South Louisiana to the Bay Area with a hard-driving mix of traditional Zydeco, rhythm & blues, funk, two-steps, waltzes, and dance-floor grooves. Born in Oakland and named after a racehorse owned by Zydeco legend Bozoo Chavis, MotorDude has been a fixture of the Bay Area Zy",
+    "url": "https://tickets.venuepilot.com/e/motordude-zydeco-2026-12-02-ashkenaz-music-dance-community-center-berkeley-c20e2d"
+   }
+  ],
+  "fingerprint": "16bc7d2b8910",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Bay Area zydeco band per listing",
+    "name": "MotorDude Zydeco",
+    "significance": "local"
+   }
+  ],
+  "reason": "MotorDude Zydeco, a long-running Oakland-born band named after a Boozoo Chavis racehorse, plays a zydeco dance night at Ashkenaz with a beginner lesson first, per the listing. Real roots music in a great community room, but it is a local dance night rather than a singular concert.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lesson precedes the show; the collector penalized it as a lesson."
   ]
  },
  "ev_275eb9d7f620": {
@@ -2631,6 +2751,32 @@
    "Date and set format not confirmed on the Freight's page."
   ]
  },
+ "ev_3645c3abfa1a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dinner Show with JACKIE GREENE SOLO PERFORMANCE Americana and roots singer-songwriter Jackie Greene is a jack-of-all-trades, and an artist who can croon over soulful piano ballads as much as he can shred a bluesy guitar solo (like he did as the lead guitarist for The Black Crowes in 2013).",
+    "url": "https://ranchonicasio.com/event/jackie-greene-weekend-3/"
+   }
+  ],
+  "fingerprint": "6071c35e9fdd",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Americana singer-songwriter; Black Crowes lead guitarist in 2013 per listing",
+    "name": "Jackie Greene",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Americana singer-songwriter Jackie Greene plays a solo dinner show at Rancho Nicasio in Marin on 15 January, the first of a weekend run. Greene is a strong roots songwriter and guitarist who has played with the Black Crowes and Phil Lesh (background knowledge for Lesh), but this is mainstream Americana and Nicasio is a long drive from Oakland.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Second night on 16 January is listed separately."
+  ]
+ },
  "ev_367f436cf230": {
   "evidence": [
    {
@@ -2750,6 +2896,32 @@
   "uncertainties": [
    "Dec 26 is the day after Christmas; the date could be skipped (inference).",
    "Cost not stated."
+  ]
+ },
+ "ev_379f35e5cdc8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Lemon Twigs at The Chapel at 2026-12-31T21:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43472037-lemon-twigs-at-chapel"
+   }
+  ],
+  "fingerprint": "48f6da88c725",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Brothers Brian and Michael D'Addario, retro pop/rock band (background knowledge)",
+    "name": "The Lemon Twigs",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Lemon Twigs, the D'Addario brothers' 60s and 70s pop-revival band (background knowledge), play a New Year's Eve show at The Chapel. A well-regarded live band in a mid-size room, but baroque power-pop sits outside his roots, jazz and hip-hop core, and NYE pricing is likely high.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "NYE ticket price not known."
   ]
  },
  "ev_3af054fcf565": {
@@ -3833,6 +4005,32 @@
    "Worth upgrading only if Erik plays and wants a jam."
   ]
  },
+ "ev_52a75275f895": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Paul Collins: The Best of The Nerves, The Beat & The Exploding Hearts",
+    "url": "https://dice.fm/event/6a57f599907b48000105818a"
+   }
+  ],
+  "fingerprint": "4bbcd31d3671",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "The Nerves and The Beat, power-pop pioneer (background knowledge)",
+    "name": "Paul Collins",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "Paul Collins, a founding figure of power pop with The Nerves and The Beat (background knowledge), plays songs from The Nerves, The Beat and The Exploding Hearts at tiny Kilowatt. It fits the foundational-musician-in-a-small-room rule, though power pop is outside his main genres.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Dice title says Night 1, so there may be a second night."
+  ]
+ },
  "ev_53649273c229": {
   "evidence": [
    {
@@ -3887,6 +4085,38 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Identity of SongRise is from background knowledge only; the listing says nothing about the program."
+  ]
+ },
+ "ev_53f7ddbe1d75": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Django Festival Allstars, Brittany Davis",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "8cbca4bf1f5c",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Touring Gypsy jazz ensemble associated with the Samois Django Reinhardt festival (background knowledge)",
+    "name": "Django Festival Allstars",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Brittany Davis",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Django Festival Allstars, a touring Gypsy jazz group led by Samson Schmitt of the Schmitt family (background knowledge), play SFJAZZ with Brittany Davis. Virtuosic Manouche string music from a living family tradition is a good fit for his interest in deep instrumental traditions, though SFJAZZ is a larger, more formal hall.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup and leader not confirmed.",
+   "Venue location unresolved by the collector."
   ]
  },
  "ev_54d511a3ab7d": {
@@ -4234,6 +4464,33 @@
   "tier": "low",
   "uncertainties": [
    "Running order of the three acts unclear."
+  ]
+ },
+ "ev_59b31999c5a5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - Don't Look Now hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday December 6th 2026. Find event information.",
+    "url": "https://events.humanitix.com/don-t-look-now"
+   }
+  ],
+  "fingerprint": "080c53b7ea29",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Not identified; listed by the SF Folk Music Club community calendar",
+    "name": "Don't Look Now",
+    "significance": "none"
+   }
+  ],
+  "reason": "Don't Look Now plays The Back Room in Berkeley on Sunday 6 December, and the show is also on the SF Folk Music Club calendar. The listing gives no description of who the act is or what they play, so fit cannot be judged offline.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description of the act in the captured listing.",
+   "Several bands share this name; cannot tell which one."
   ]
  },
  "ev_59fa996d6bb8": {
@@ -4685,6 +4942,26 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Price and accompaniment not captured."
+  ]
+ },
+ "ev_5ef190df93ca": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every 1st Tuesday from 6:00 PM there is jamming outside Round Table pizza while waiting for the FREE concert. At 7:00 PM there is an opening band playing inside until the headliner band starts at 8:00 PM. NCBFC Concert and jam is held at Round Table Pizza , 1161 E. Washington Ave, Corner Ash & Washington Streets, Escondido, CA 92025. All ages from beginner to advanced players welcome.",
+    "url": "https://californiabluegrass.org/event/north-county-bluegrass-and-folk-club-1st-tuesday-rt-jam-and-free-concert/2026-12-01/"
+   }
+  ],
+  "fingerprint": "5e842291cf16",
+  "fit": 5,
+  "performers": [],
+  "reason": "A monthly bluegrass jam and free concert at a Round Table Pizza in Escondido, per the listing. Escondido is in San Diego County, so this is not a Bay Area event.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Headlining band not named in listing."
   ]
  },
  "ev_5ef1ec6dd16e": {
@@ -6107,6 +6384,38 @@
    "Not a performance."
   ]
  },
+ "ev_79245f3e578d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Jamila Woods and Hannah Mayree at Rickshaw Stop at 2026-11-18T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43363407-jamila-woods-at-rickshaw-stop"
+   }
+  ],
+  "fingerprint": "fa0444615076",
+  "fit": 70,
+  "performers": [
+   {
+    "known_for": "Chicago poet and singer, Jagjaguwar albums HEAVN and LEGACY! LEGACY! (background knowledge)",
+    "name": "Jamila Woods",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Oakland banjo player and singer, Black Banjo Reclamation Project (background knowledge)",
+    "name": "Hannah Mayree",
+    "significance": "local"
+   }
+  ],
+  "reason": "Chicago poet and singer Jamila Woods (Jagjaguwar; the voice on Chance the Rapper's \"Sunday Candy\") plays the small Rickshaw Stop, with Oakland banjo player and singer Hannah Mayree opening (background knowledge). Woods sits between neo-soul and conscious hip-hop, and Mayree, linked to the Black Banjo Reclamation Project, brings a roots connection. A good small-room chance for an acclaimed artist.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Opener identification and Black Banjo Reclamation Project link are from background knowledge.",
+   "Woods is closer to R&B than to classic hip-hop."
+  ]
+ },
  "ev_7989fc38e087": {
   "evidence": [
    {
@@ -6672,6 +6981,49 @@
    "No listing description; performers not recognized."
   ]
  },
+ "ev_802732ce1b00": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Jazz School: UC Berkeley Nu Jazz Septet, Melford-Goldberg-Muntz Trio",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "d3522aae5acc",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Avant-garde jazz pianist, UC Berkeley faculty (background knowledge)",
+    "name": "Myra Melford",
+    "significance": "major"
+   },
+   {
+    "known_for": "Bay Area clarinetist and composer, New Klezmer Trio (background knowledge)",
+    "name": "Ben Goldberg",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Third trio member, not identified",
+    "name": "Muntz",
+    "significance": "none"
+   },
+   {
+    "known_for": "Student ensemble",
+    "name": "UC Berkeley Nu Jazz Septet",
+    "significance": "none"
+   }
+  ],
+  "reason": "Pianist Myra Melford and clarinetist Ben Goldberg, two leading figures of adventurous improvised jazz (background knowledge), play as a trio at the Jazz School in Berkeley, sharing the bill with the UC Berkeley Nu Jazz Septet. Melford teaches at UC Berkeley and Goldberg anchors the Bay Area improv scene, so this is the kind of intimate, emotionally serious improvising he wants, close to home.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identities of Melford and Goldberg inferred from surnames on the listing (background knowledge).",
+   "Third trio member not identified.",
+   "Student ensemble may take half the evening."
+  ]
+ },
  "ev_806656508d4b": {
   "evidence": [
    {
@@ -6847,6 +7199,32 @@
    "Erik reports the show is nominally sold out; the venue page does not say so.",
    "Show time: venue says 7:00 pm, a resale listing says 8:00 pm; trust the venue.",
    "Pras Michel is not billed; this is Lauryn Hill and Wyclef Jean, not a full Fugees lineup."
+  ]
+ },
+ "ev_853887708cb6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Sami Stevens Band",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "65af3af838d1",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Not confidently identified",
+    "name": "Sami Stevens",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Sami Stevens Band plays Black Cat in San Francisco on 19 November. The listing gives only the name; I cannot confidently identify the bandleader, so style and fit are unknown beyond Black Cat being a solid jazz room.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured."
   ]
  },
  "ev_85f7a4f3dd7e": {
@@ -7371,6 +7749,36 @@
   "uncertainties": [
    "Caller name spelled Fisher in one source, Fischer in another.",
    "Eventbrite date not confirmed as Jan 15."
+  ]
+ },
+ "ev_8bcb250bbc07": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with w/ SYNAPSE + FAST FRIENDS | CIDERUP SHOWS XXVI presents | CIDERUP SHOWS XXVI presents FRIDAY NOVEMBER 20TH ---- MDC SHATTERED FAITH SYNAPSE FAST FRIENDS ---- Doors 8pm / Show 8:30pm ADVANCE TICKETS AVAILABLE ---- IVY ROOM 860 San Pablo Ave, Albany • 21+",
+    "url": "https://tickets.venuepilot.com/e/mdc-fang-2026-11-20-ivy-room-albany-65f59e"
+   }
+  ],
+  "fingerprint": "cf8bc360fe67",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Austin/SF hardcore punk band since the early 1980s (background knowledge)",
+    "name": "MDC",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Southern California punk band (background knowledge)",
+    "name": "Shattered Faith",
+    "significance": "local"
+   }
+  ],
+  "reason": "Veteran hardcore punk band MDC (background knowledge) with Shattered Faith, Synapse and Fast Friends at the Ivy Room in Albany. Historically important punk, but outside his taste.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_8cb9d39c2025": {
@@ -8110,6 +8518,43 @@
    "Genre not stated."
   ]
  },
+ "ev_a107ea61e5b2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Crop Top and Mark Eitzel at Bottom of the Hill at 2026-12-27T16:00:00-0800",
+    "url": "https://dice.fm/event/6ad56d8015438100015b99a8"
+   }
+  ],
+  "fingerprint": "343b17890ec1",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Frontman of American Music Club, acclaimed SF songwriter (background knowledge)",
+    "name": "Mark Eitzel",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Funeral Cake",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Cowboy Beauty Queen",
+    "significance": "none"
+   }
+  ],
+  "reason": "A long Sunday-afternoon multi-band bill at Bottom of the Hill on 27 December that includes Mark Eitzel, the acclaimed American Music Club songwriter (background knowledge), alongside many local bands. Eitzel is a significant SF songwriter, but on a nine-act holiday bill his set is likely short.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Bill includes TBA slots; set times and Eitzel's set length unknown.",
+   "Purpose of the bill (benefit, showcase) not stated."
+  ]
+ },
  "ev_a1b0f4baa257": {
   "evidence": [
    {
@@ -8612,6 +9057,62 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Listing says 9pm, price $33.40; the radar date shows midnight, so exact night (Nov 13 vs 14) should be checked."
+  ]
+ },
+ "ev_a9725458c9b2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Keys Jazz Bistro welcomes Dutch-born vocalist Lara Louise for an evening of classic songs, characterized by a soft, sultry voice blending her folk roots with French chanson, Bossa Nova, and the Great American Songbook. Lara Louise and guitarist Gawain Mathews have been making music together since 2020, and their renditions of jazz standards have quietly [...]",
+    "url": "https://keysjazzbistro.com/event/lara-louise-8/"
+   }
+  ],
+  "fingerprint": "251e5242138e",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Vocalist; standards, chanson and bossa nova per listing",
+    "name": "Lara Louise",
+    "significance": "local"
+   },
+   {
+    "known_for": "Guitarist, her duo partner per listing",
+    "name": "Gawain Mathews",
+    "significance": "local"
+   }
+  ],
+  "reason": "Dutch-born vocalist Lara Louise sings jazz standards, chanson and bossa nova with guitarist Gawain Mathews at Keys Jazz Bistro, per the listing. It reads as a pleasant supper-club standards set rather than adventurous improvised jazz or roots music. Not a performer I recognize; a recurring booking at this room.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized; judged from listing text only."
+  ]
+ },
+ "ev_aac5f6fae5d8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Natural Child at Rickshaw Stop at 2026-11-20T21:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43169314-natural-child-at-rickshaw-stop"
+   }
+  ],
+  "fingerprint": "3ee8b73c5bfd",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Nashville garage/boogie rock band (background knowledge)",
+    "name": "Natural Child",
+    "significance": "local"
+   }
+  ],
+  "reason": "Nashville band Natural Child, known for boogie garage rock with country leanings (background knowledge), headlines Rickshaw Stop with three openers. A fun bar-band bill but not a strong roots or jazz fit.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_ab2cf4c83f2d": {
@@ -9597,6 +10098,38 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_baca11dc941c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: Mads Tolling & Patrick Martin",
+    "url": "https://kalx.berkeley.edu/event/events-november-9-15-2026/"
+   }
+  ],
+  "fingerprint": "d7fa8f750312",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Jazz violinist, ex-Turtle Island Quartet (background knowledge)",
+    "name": "Mads Tolling",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Duo partner, not identified",
+    "name": "Patrick Martin",
+    "significance": "none"
+   }
+  ],
+  "reason": "Danish jazz violinist Mads Tolling, a former Turtle Island Quartet member (background knowledge), plays a duo with Patrick Martin at The Sound Room in Oakland on 14 November. Jazz fiddle in an intimate Oakland room hits both his fiddle and improvised-jazz interests; note the date is today, so it may be too late.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Show date is 14 November 2026, the day of this run.",
+   "Patrick Martin's instrument not known."
+  ]
+ },
  "ev_bacea71f56f6": {
   "evidence": [
    {
@@ -9803,6 +10336,32 @@
    "Likely Miner Auditorium, larger than his ideal room."
   ]
  },
+ "ev_bee924b5bd0e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with A Grateful Dead Night | Doors officially open at 7:30pm! Show 8pm A tradition started back in the 20th century, Ashkenaz's Grateful Dead Night is always evolving. Led by acclaimed guitarist-singer Allen (of Phil Lesh & Friends, Melvin Seals & JGB, Ghosts of Electricity), a revolving cast of incredibly talented musicians inhabits Mars Hotel, drawing from the Grateful Dead's vast catalog to del",
+    "url": "https://tickets.venuepilot.com/e/stu-allen-mars-hotel-2026-11-18-ashkenaz-music-dance-community-center-berkeley-3b643d"
+   }
+  ],
+  "fingerprint": "38aa0cf55448",
+  "fit": 28,
+  "performers": [
+   {
+    "known_for": "Guitarist-singer, Phil Lesh & Friends, Melvin Seals & JGB per listing",
+    "name": "Stu Allen",
+    "significance": "local"
+   }
+  ],
+  "reason": "Ashkenaz's long-running Grateful Dead Night with guitarist Stu Allen (Phil Lesh & Friends, Melvin Seals & JGB) leading Mars Hotel, per the listing. Skilled players, but it is a Dead tribute night, which falls under tribute acts.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring weekly-style tribute night."
+  ]
+ },
  "ev_bfb419066580": {
   "evidence": [
    {
@@ -9969,6 +10528,63 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Trio sidemen not named.",
    "Style characterization is background knowledge."
+  ]
+ },
+ "ev_c310f67ec5ce": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Lapses, Half Rotten Goddess, E.F. Luka",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "9f270ec1ae02",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Lapses",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Half Rotten Goddess",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "E.F. Luka",
+    "significance": "none"
+   }
+  ],
+  "reason": "Lapses, Half Rotten Goddess and E.F. Luka play Kilowatt in San Francisco on 18 November. I do not recognize any of these acts and the listing gives only names, so style and fit are unknown; Kilowatt bills usually lean punk, noise or indie.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured; genre unknown."
+  ]
+ },
+ "ev_c58bfa7bcc36": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Discover Jazz: Impressions of John Coltrane",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "4b3021c3d6dc",
+  "fit": 35,
+  "performers": [],
+  "reason": "SFJAZZ's Discover Jazz program on the music of John Coltrane. Discover Jazz is SFJAZZ's educational, lecture-and-performance series (background knowledge), so this is closer to a class or tribute than a must-see set.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not listed.",
+   "Series format from background knowledge."
   ]
  },
  "ev_c65173ac3ba4": {
@@ -10855,6 +11471,38 @@
    "Guest vocalist for this date unknown."
   ]
  },
+ "ev_d76e760f2374": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Immerse yourself in the electrifying world of \"Ritmo y Voz\", where the deep-rooted traditions of Afro-Cuban jazz meet the power of dynamic vocals. This high-energy performance features an all-star lineup, including guitarist Kai Lyons, percussion master Ernesto, bassist Mazar, and the incomparable Einar Leliebre Nuñez, whose fiery rhythms and soaring voice bring the soul of [...]",
+    "url": "https://keysjazzbistro.com/event/ritmo-y-voz-afro-cuban-jazz-ignited-21/"
+   }
+  ],
+  "fingerprint": "7385a3523ac5",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Vocalist/percussionist per listing",
+    "name": "Einar Leliebre Nunez",
+    "significance": "local"
+   },
+   {
+    "known_for": "Guitarist per listing",
+    "name": "Kai Lyons",
+    "significance": "local"
+   }
+  ],
+  "reason": "Ritmo y Voz is a recurring Afro-Cuban jazz night at Keys Jazz Bistro with guitarist Kai Lyons, a percussionist billed as Ernesto, bassist Mazar and vocalist Einar Leliebre Nunez, per the listing. It is an energetic house-band style residency in a dinner club rather than a notable or adventurous booking.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized beyond listing text.",
+   "Event URL suffix suggests this is one of many repeat dates."
+  ]
+ },
  "ev_d9245ffc5de8": {
   "evidence": [
    {
@@ -11464,6 +12112,42 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performer not recognized.",
    "No time or price in the captured text."
+  ]
+ },
+ "ev_dfbdb43e371f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Great American Music Hall: Jayski & the Dawn featuring Jay Lane & Dave Ellis",
+    "url": "https://wl.seetickets.us/event/jayski-and-the-dawn-featuring-jay-lane-and-dave-ellis/705754?afflky=GreatAmericanMusicHall"
+   }
+  ],
+  "fingerprint": "1c4ea954bc96",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Drummer, Primus and RatDog (background knowledge)",
+    "name": "Jay Lane",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Saxophonist, RatDog (background knowledge)",
+    "name": "Dave Ellis",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bandleader, not identified",
+    "name": "Jayski",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jayski & the Dawn features drummer Jay Lane (Primus, RatDog) and saxophonist Dave Ellis (RatDog) (background knowledge) at the Great American Music Hall. A Dead-world jam-rock bill with capable players, but jam rock is not a core interest.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Bandleader Jayski not identified."
   ]
  },
  "ev_e21fa83e1175": {
@@ -12913,6 +13597,31 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_fb10fffdd4db": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: An almost-monthly series of talks by Walker Brents III (9 or 10 talks a year for more than two decades) on various topics in poetry, mythology, folklore, philosophy, etc. Although primarily a live stream viewable on our YouTube channel and Facebook page, it's also fine if you slip into the darkened shop to listen in person.",
+    "url": "https://birdbeckett.com/event/walker-talks_2026-11-19/"
+   }
+  ],
+  "fingerprint": "a009c2b52af4",
+  "fit": 12,
+  "performers": [
+   {
+    "known_for": "Speaker; long-running talk series per listing",
+    "name": "Walker Brents III",
+    "significance": "local"
+   }
+  ],
+  "reason": "Walker Brents III gives one of his long-running talks on poetry, mythology and folklore at Bird & Beckett, per the listing. It is a talk, mainly livestreamed, not a concert.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_fc34801cb484": {
   "evidence": [
    {
@@ -13098,6 +13807,42 @@
   "uncertainties": [
    "Bird & Beckett page not fetched; date, 7:30 pm time and price unconfirmed against primary source.",
    "No independent bio found for Chris Trinidad or for Naima Shalhoub in this pass."
+  ]
+ },
+ "ev_ffe4b925a214": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey PLUS Special Guests Charles McNeal & Angelo Luster",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "f115418834d3",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Bay Area saxophonist (background knowledge)",
+    "name": "Charles McNeal",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Joe Warner",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Angelo Luster",
+    "significance": "none"
+   }
+  ],
+  "reason": "Black Cat's Soul Sessions series with Joe Warner, Dante \"Taz\" Robinson and Michael \"Tiny\" Lindsey, plus special guests including saxophonist Charles McNeal. It reads as a soul-jazz jam in a good SF jazz room; McNeal is a respected Bay Area saxophonist (background knowledge), but this is a recurring series rather than a singular date.",
+  "researched_at": "2026-11-14T22:43:13+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Roles of the house players not confirmed."
   ]
  },
  "ev_fff9f29a80cb": {
