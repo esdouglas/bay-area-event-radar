@@ -1,8 +1,8 @@
 # Historical discoverability benchmark
 
-Generated 2026-11-13T22:48:10+00:00 (live Wayback checks: False).
+Generated 2026-11-14T06:46:58+00:00 (live Wayback checks: False).
 
-29 benchmark events: 18 proven discoverable by registered sources (median lead 114 days, range 14..245), 9 plausible via the venue's own feed, 2 reachable only through aggregators, 0 only via blocked sources, 0 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
+29 benchmark events: 18 proven discoverable by registered sources (median lead 114 days, range 14..245), 8 plausible via the venue's own feed, 2 reachable only through aggregators, 0 only via blocked sources, 1 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
 
 Evidence classes are defined in `benchmark/events.yaml`. 'Proven' lead times come from primary-source timestamps (Google Calendar CREATED, The Events Calendar creation stamps, Squarespace addedOn) or Wayback snapshots; they are lower bounds on how early the system would have seen the listing, assuming the source had been registered at the time.
 
@@ -18,7 +18,6 @@ Nora Brown with Stephanie Coleman                          2026-01-08 plausible 
 The Mountain Grass Unit                                    2026-10-05 plausible            85.0 exceptional the venue's own feed (cafe-du-nord) is a healthy registry source; no pre-dated artifact captured
 IPHIGENIA, Sharp & Fine                                    2026-10-23 plausible            30.0 inventory   the venue's own feed (z-space) is a healthy registry source; no pre-dated artifact captured
 Steve Reich at 90, Bang on a Can All-Stars / Ensemble Sign 2026-10-24 plausible            32.0 inventory   the venue's own feed (cal-performances) is a healthy registry source; no pre-dated artifact captured
-Alan Cumming at the Curran                                 2026-10-25 plausible            20.0 inventory   the venue's own feed (broadway-sf) is a healthy registry source; no pre-dated artifact captured
 Magic World Premiere Aztlán by Luis Alfaro                 2025-06-25 proven         245   59.5 strong      primary-source timestamp 2024-10-23 (magictheatre.org/calendar?format=json past item addedOn 2024-10-23)
 Nora Brown with Stephanie Coleman                          2026-01-07 proven         117   87.0 exceptional primary-source timestamp 2025-09-12 13:19:58 (kuumbwajazz.org tribe REST event, date_utc 2025-09-12 13:19:58 (
 Charlie Hunter Trio                                        2026-03-16 proven         132   47.0 inventory   primary-source timestamp 2025-11-04 (kuumbwajazz.org tribe REST, date_utc 2025-11-04)
@@ -37,6 +36,7 @@ Supersonic Symbiotic, Fuzz Kitt, Wonderland Rejects        2026-10-01 proven    
 Haymaker, a Ben Goldberg joint                             2026-10-04 proven          27   42.0 inventory   primary-source timestamp 2026-09-07 (birdbeckett.com tribe REST, date_utc 2026-09-07)
 30 Years of Campo Santo                                    2026-10-17 proven          27   42.0 inventory   primary-source timestamp 2026-09-20 (magictheatre.org/calendar?format=json past item addedOn 2026-09-20)
 Peter Stampfel & the Atomic Meta-Pagans (listed as "Peter  2026-10-24 proven          33  100.0 exceptional primary-source timestamp 2026-09-21 22:46:04 (Google Calendar feed VEVENT UID 3s9tg4bacu65fbuv2bdol31g3r@googl
+Alan Cumming at the Curran                                 2026-10-25 unverifiable         20.0 inventory   registered source(s) broadway-sf not currently healthy
 ```
 
 ## Honest limitations
