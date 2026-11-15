@@ -1,8 +1,70 @@
 {
- "backlog": 1286,
+ "backlog": 1228,
  "count": 40,
- "generated_at": "2026-11-15T06:52:39+00:00",
+ "generated_at": "2026-11-15T19:00:38+00:00",
  "items": [
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+   "fingerprint": "66353b777f7a",
+   "id": "ev_8994dd2a9409",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-29T16:00:00-08:00",
+   "title": "Horseshoe Jam",
+   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-29/",
+   "venue": "The Lucky Horseshoe San Francisco",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-29",
+   "description": "- Nov. 29: Occidental Center For the Arts",
+   "fingerprint": "6f931596bd7d",
+   "id": "ev_165cbcd8e070",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 79.0,
+   "rules_tier": "exceptional",
+   "start": "2026-11-29T00:00:00-08:00",
+   "title": "Laurie Lewis with Brandon Godman, Haysee Ciaccio, Evan Ward, and Nina Gerber",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Occidental Center For the Arts",
+   "why_rules": [
+    "seed artist: Laurie Lewis (+30)",
+    "listed by a taste-aligned calendar (+18)",
+    "3 independent sources (+8)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-06",
+   "description": "John Zorn at Great American Music Hall at 2026-12-06T16:00:00-0800",
+   "fingerprint": "be1748333411",
+   "id": "ev_8b0e7dc97b67",
+   "other_urls": [
+    "https://wl.seetickets.us/event/zorn-medeski-lombardo-awakening-ground-matinee/694421?afflky=GreatAmericanMusicHall"
+   ],
+   "rules_score": 56.0,
+   "rules_tier": "strong",
+   "start": "2026-12-06T16:00:00-08:00",
+   "title": "John Zorn",
+   "url": "https://www.songkick.com/concerts/43258726-john-zorn-at-great-american-music-hall",
+   "venue": "Great American Music Hall",
+   "why_rules": [
+    "jazz_core: experimental (+18)",
+    "intimate room: Great American Music Hall (+14)",
+    "2 independent sources (+4)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-11-20",
@@ -25,26 +87,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-12-06",
-   "description": "Keys Jazz Bistro presents Hella Fitzgerald for a rare, one-night-only appearance in the heart of North Beach. Led by vocalist and bandleader Lilan Kane, the Bay Area collective brings its signature blend of sophistication, groove, and spontaneity to an evening spanning soul, jazz, funk, R&B, and reimagined classics. Their chemistry, versatility, and high-energy musicianship have[...]",
-   "fingerprint": "1720de7fafb7",
-   "id": "ev_87301655ce44",
-   "other_urls": [],
-   "rules_score": 47.5,
-   "rules_tier": "inventory",
-   "start": "2026-12-06T19:00:00-08:00",
-   "title": "Hella Fitzgerald feat.Lilan Kane",
-   "url": "https://keysjazzbistro.com/event/hella-fitzgerald-feat-lilan-kane-2/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "theater_core: one-night-only, one night only (+18)",
-    "noise_genre: r&b (-22)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-11-15",
    "description": "It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
@@ -62,6 +104,26 @@
     "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-06",
+   "description": "Keys Jazz Bistro presents Hella Fitzgerald for a rare, one-night-only appearance in the heart of North Beach. Led by vocalist and bandleader Lilan Kane, the Bay Area collective brings its signature blend of sophistication, groove, and spontaneity to an evening spanning soul, jazz, funk, R&B, and reimagined classics. Their chemistry, versatility, and high-energy musicianship have[...]",
+   "fingerprint": "1720de7fafb7",
+   "id": "ev_87301655ce44",
+   "other_urls": [],
+   "rules_score": 47.5,
+   "rules_tier": "inventory",
+   "start": "2026-12-06T19:00:00-08:00",
+   "title": "Hella Fitzgerald feat.Lilan Kane",
+   "url": "https://keysjazzbistro.com/event/hella-fitzgerald-feat-lilan-kane-2/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "theater_core: one-night-only, one night only (+18)",
+    "noise_genre: r&b (-22)",
+    "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
   {
@@ -211,22 +273,23 @@
    ]
   },
   {
-   "city": "San Francisco",
+   "city": "Sacramento",
    "date": "2026-11-29",
-   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
-   "fingerprint": "66353b777f7a",
-   "id": "ev_8994dd2a9409",
+   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+   "fingerprint": "93cb0faa4a12",
+   "id": "ev_dd156850d597",
    "other_urls": [],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-29T16:00:00-08:00",
-   "title": "Horseshoe Jam",
-   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-29/",
-   "venue": "The Lucky Horseshoe San Francisco",
+   "rules_score": 62.0,
+   "rules_tier": "strong",
+   "start": "2026-11-29T18:00:00-08:00",
+   "title": "Two Rivers Cider Old Time Jam",
+   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-29/",
+   "venue": "Two Rivers Cider",
    "why_rules": [
-    "roots_core: bluegrass (+22)",
+    "roots_core: old-time, old time, bluegrass (+33)",
     "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
+    "2 independent sources (+4)",
+    "outside the core Bay Area (-6)"
    ]
   },
   {
@@ -286,6 +349,25 @@
    ]
   },
   {
+   "city": "",
+   "date": "2026-11-19",
+   "description": "The Sound Room: Dann Zinn Quartet",
+   "fingerprint": "d1018bcdfeae",
+   "id": "ev_3503948607b8",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-19T00:00:00-08:00",
+   "title": "Dann Zinn Quartet",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
    "city": "San Francisco",
    "date": "2026-11-25",
    "description": "Moonalice at The Chapel at 2026-11-25T20:00:00-0800",
@@ -305,25 +387,6 @@
     "intimate room: The Chapel (+14)",
     "booking signal: The Chapel (+8)",
     "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-19",
-   "description": "The Sound Room: Dann Zinn Quartet",
-   "fingerprint": "d1018bcdfeae",
-   "id": "ev_3503948607b8",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T00:00:00-08:00",
-   "title": "Dann Zinn Quartet",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   },
   {
@@ -446,28 +509,6 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-11-29",
-   "description": "- Nov. 29: Occidental Center For the Arts",
-   "fingerprint": "6f931596bd7d",
-   "id": "ev_165cbcd8e070",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/"
-   ],
-   "rules_score": 76.0,
-   "rules_tier": "strong",
-   "start": "2026-11-29T00:00:00-08:00",
-   "title": "Laurie Lewis with Brandon Godman, Haysee Ciaccio, Evan Ward, and Nina Gerber",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Occidental Center For the Arts",
-   "why_rules": [
-    "seed artist: Laurie Lewis (+30)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
    "city": "Orangevale",
    "date": "2027-01-10",
    "description": "The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. Join us Sunday, August 13 for a fun musical time. We'll have a jam session of musicians of all levels playing. We're dedicated to preserving and playing authentic old-time fiddle tunes from many traditions, including Old Time, Bluegrass, Celtic, Americana, folk. Admission is free, family ",
@@ -504,6 +545,24 @@
     "roots_core: old-time, old time, bluegrass (+33)",
     "roots_adjacent: folk (+10)",
     "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "Presented by Rootstock Arts .",
+   "fingerprint": "cb14121ade08",
+   "id": "ev_52bad56940ff",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T09:00:00-08:00",
+   "title": "Monthly Morning Ragas",
+   "url": "https://birdbeckett.com/event/monthly-morning-ragas_2026-11-29/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -712,6 +771,26 @@
    ]
   },
   {
+   "city": "",
+   "date": "2026-11-29",
+   "description": "It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+   "fingerprint": "8a4dd2cac30e",
+   "id": "ev_68d9d469508a",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-29T18:00:00-08:00",
+   "title": "Hooked On Bluegrass with Terry Brewer",
+   "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-11-29/",
+   "venue": "The Bluegrass Jamboree",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
    "city": "Nicasio",
    "date": "2027-01-10",
    "description": "MCQ'S BIRTHDAY BASH 2! Featuring Michael McQuilkin, Rebecca Chourre, Kevin Frazier, Howie Cort, John Cunningham, David Russ, and Alexander McQuilkin Come celebrate the McQuilkin family birthdays at Marin's legendary Rancho Nicasio nightclub on Sunday, Jan 10th. Alexander turns 36 on the 17th and his Mom, Grandpa Wally, and Cousin Nolan all have their birthdays the same week. This special show will",
@@ -728,90 +807,6 @@
     "legacy: legendary (+14)",
     "intimate room: Rancho Nicasio (+14)",
     "booking signal: Rancho Nicasio (+8)"
-   ]
-  },
-  {
-   "city": "Oakland, CA",
-   "date": "2027-01-23",
-   "description": "Come join Robin Fischer and Rowan McCallister and their talented friends every fourth Saturday at the friendliest pub in Oakland! Old Time tunes, drinks, and food – kid friendly too.",
-   "fingerprint": "9dcdbe33b2a6",
-   "id": "ev_7e2915e6253d",
-   "other_urls": [],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2027-01-23T14:00:00-08:00",
-   "title": "Bearcat Stringband and Friends at Cato's Alehouse",
-   "url": "https://californiabluegrass.org/event/bearcat-stringband-and-friends-at-catos-alehouse/2027-01-23/",
-   "venue": "Cato's Alehouse",
-   "why_rules": [
-    "roots_core: old-time, old time, stringband (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2027-02-28",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "5ab1639683f5",
-   "id": "ev_f961e71e21f9",
-   "other_urls": [],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2027-02-28T12:00:00-08:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-02-28/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-19",
-   "description": "Bottom of the Hill: Ruby Ibarra with The Balikbayans, Carl Angelo, Amihan",
-   "fingerprint": "9abe69d01492",
-   "id": "ev_5a87687e90e8",
-   "other_urls": [
-    "http://www.bottomofthehill.com/20261119.html",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T19:30:00-08:00",
-   "title": "Ruby Ibarra with The Balikbayans, Carl Angelo, Amihan",
-   "url": "https://dice.fm/event/6abb2cd5206f750001d56d20",
-   "venue": "Bottom of the Hill",
-   "why_rules": [
-    "hiphop_classic: hip hop, hip-hop (+15)",
-    "noise_genre: r&b (-22)",
-    "intimate room: Bottom of the Hill (+14)",
-    "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
-   "city": "Monterey",
-   "date": "2027-01-30",
-   "description": "Jan. 30: Jesse Appleman's West Coast Stringband Project - Otter Opry, Monterey",
-   "fingerprint": "839ae162be86",
-   "id": "ev_76cd10b90ee4",
-   "other_urls": [
-    "https://www.tix.com/ticket-sales/OtterOpry/4889/event/1484446"
-   ],
-   "rules_score": 62.0,
-   "rules_tier": "strong",
-   "start": "2027-01-30T00:00:00-08:00",
-   "title": "Jesse Appleman's West Coast Stringband Project",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Otter Opry, Monterey",
-   "why_rules": [
-    "roots_core: stringband (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "3 independent sources (+8)",
-    "outside the core Bay Area (-6)"
    ]
   }
  ]
