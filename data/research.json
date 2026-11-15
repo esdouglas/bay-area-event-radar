@@ -491,6 +491,27 @@
    "No performers named in the listing; need the lineup to judge."
   ]
  },
+ "ev_0ba210191496": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: GAMH & Psyched! Fest 2026 presents....",
+    "url": "https://wl.seetickets.us/event/divine-offering-celebrating-the-legacy-of-alice-coltrane/704843?afflky=GreatAmericanMusicHall"
+   }
+  ],
+  "fingerprint": "dcc47415b854",
+  "fit": 55,
+  "performers": [],
+  "reason": "A tribute evening, 'Divine Offering', celebrating Alice Coltrane's spiritual-jazz legacy, presented by Great American Music Hall and Psyched! Fest 2026. The listing names no performers, so whether this is a serious band of Coltrane-lineage players or a looser homage cannot be judged.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named in captured text; lineup is the deciding question.",
+   "Tribute format; quality depends entirely on who plays."
+  ]
+ },
  "ev_0c9707ba9df0": {
   "evidence": [
    {
@@ -879,6 +900,31 @@
    "Same program also listed for Nov 20 and Nov 21."
   ]
  },
+ "ev_13d25915cb19": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Moonalice at The Chapel at 2026-11-25T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43469728-moonalice-at-chapel"
+   }
+  ],
+  "fingerprint": "b70af59c2a0a",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Bay Area psychedelic jam band, Roger McNamee (background knowledge)",
+    "name": "Moonalice",
+    "significance": "local"
+   }
+  ],
+  "reason": "Moonalice, the Bay Area psychedelic jam band co-founded by Roger McNamee, plays The Chapel the night before Thanksgiving. (Background knowledge: they are rooted in Grateful Dead-style improvisation and hippie counterculture.) Pleasant countercultural fare but a jam band, not the folk or jazz depth Erik looks for; they also play frequent Sweetwater matinees per other listings in the repo.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_1480ea495a7f": {
   "evidence": [
    {
@@ -1009,6 +1055,53 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Founder Pete Shelley died in 2018 (background knowledge)."
+  ]
+ },
+ "ev_165cbcd8e070": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: - Nov. 29: Occidental Center For the Arts",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "6f931596bd7d",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Bay Area bluegrass singer, fiddler and songwriter; IBMA award winner (background knowledge)",
+    "name": "Laurie Lewis",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Acclaimed folk/acoustic guitar accompanist (background knowledge)",
+    "name": "Nina Gerber",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Fiddler in Laurie Lewis's band (background knowledge)",
+    "name": "Brandon Godman",
+    "significance": "local"
+   },
+   {
+    "known_for": "Band member; not identified",
+    "name": "Haysee Ciaccio",
+    "significance": "none"
+   },
+   {
+    "known_for": "Band member; not identified",
+    "name": "Evan Ward",
+    "significance": "none"
+   }
+  ],
+  "reason": "Laurie Lewis, one of the defining Bay Area bluegrass voices and a seed artist on his list, plays Occidental Center for the Arts with fiddler Brandon Godman, Evan Ward and guitarist Nina Gerber among the band. (Background knowledge: Lewis is a two-time IBMA Female Vocalist of the Year with deep roots in the California bluegrass and old-time scene, and Gerber is a revered folk accompanist.) Occidental is a long drive into west Sonoma, and the SFFMC calendar in the repo also lists Laurie Lewis at the Freight in Berkeley on 28 Nov, which may be the easier way to catch her.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing text is only a date and venue; start time and price unknown.",
+   "A separate SFFMC listing in the repo shows Laurie Lewis at The Freight, Berkeley, 28 Nov 2026 8pm; not verified."
   ]
  },
  "ev_16a484bd5c4e": {
@@ -2681,6 +2774,32 @@
    "Style of the trio not described."
   ]
  },
+ "ev_3503948607b8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: Dann Zinn Quartet",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "d1018bcdfeae",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Bay Area saxophonist and educator (background knowledge)",
+    "name": "Dann Zinn",
+    "significance": "local"
+   }
+  ],
+  "reason": "Saxophonist Dann Zinn leads his quartet at The Sound Room in Oakland. (Background knowledge: Zinn is a long-standing Bay Area tenor player and educator.) A solid, close-to-home local jazz night rather than a must-see.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sidemen not named."
+  ]
+ },
  "ev_35235a54a0cc": {
   "evidence": [
    {
@@ -3271,6 +3390,32 @@
    "Jeff Parker is LA-based; confirm he is on this date (background knowledge only)."
   ]
  },
+ "ev_3ee4a4c76c3b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Born and raised in Madrid, Spain, pianist and composer Marta Sánchez is actively working in the contemporary creative music scene in New York City and around the globe. Charting a significant path through her innovative and original music, she has reached an international audience and gained significant global recognition. Sánchez, the 2025 DownBeat Critics Poll 'Rising Star' in piano, leads a qui",
+    "url": "https://www.kuumbwajazz.org/calendar/marta-sanchez/"
+   }
+  ],
+  "fingerprint": "0a1f1612aed9",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Pianist/composer; 2025 DownBeat Rising Star, piano per listing",
+    "name": "Marta Sánchez",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Madrid-born, New York-based pianist and composer Marta Sánchez brings her sextet to Kuumbwa; the listing notes she was the 2025 DownBeat Critics Poll Rising Star in piano. Exciting, intricate contemporary creative jazz in an intimate room, held back only by the Santa Cruz drive.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sextet members not named in captured text."
+  ]
+ },
  "ev_3fd3b077d537": {
   "evidence": [
    {
@@ -3738,6 +3883,32 @@
    "Open jam, no featured artists."
   ]
  },
+ "ev_4b3b984c2a8e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Honored by The National Endowment for the Arts as a 2010 Jazz Master, Kenny Barron has an unmatched ability to mesmerize audiences with his elegant playing, sensitive melodies and infectious rhythms. The Los Angeles Times named him \"one of the top jazz pianists in the world\" and Jazz Weekly calls him \"The most lyrical piano player of our time.\" The Philadelphia native started playing professionall",
+    "url": "https://www.kuumbwajazz.org/calendar/kenny-barron-trio-2/"
+   }
+  ],
+  "fingerprint": "3a47286cdefe",
+  "fit": 66,
+  "performers": [
+   {
+    "known_for": "NEA Jazz Master pianist; Getz, Gillespie, Sphere (background knowledge)",
+    "name": "Kenny Barron",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "NEA Jazz Master Kenny Barron leads his trio at Kuumbwa, one of the most lyrical pianists alive per the listing. (Background knowledge: Barron played with Dizzy Gillespie and Stan Getz and co-led Sphere.) A beautiful chance to hear a living master in a small room; the distance to Santa Cruz on a Monday is the main cost.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Trio members not named."
+  ]
+ },
  "ev_4c4500c80268": {
   "evidence": [
    {
@@ -3986,6 +4157,37 @@
    "Description mentions going on to the CBA Camp and Festival, possibly implying an altered schedule (inference)"
   ]
  },
+ "ev_511b50c6854e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "0ed7805fe246",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "New York alto saxophonist and composer (background knowledge)",
+    "name": "David Binney",
+    "significance": "notable"
+   },
+   {
+    "known_for": "European co-leaders; not identified",
+    "name": "Herak/Bulatkin",
+    "significance": "none"
+   }
+  ],
+  "reason": "A European group led by Herak and Bulatkin presenting their 'Elysium' project at Black Cat, with New York alto saxophonist David Binney as featured guest. (Background knowledge: Binney is a respected, adventurous modern-jazz saxophonist and producer; I do not recognize Herak/Bulatkin.) Worth a look for the intimate room and Binney, but the leaders are an unknown quantity.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Leaders' backgrounds unknown."
+  ]
+ },
  "ev_5254d51b280d": {
   "evidence": [
    {
@@ -4142,6 +4344,32 @@
   "tier": "possible",
   "uncertainties": [
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_55799ae9e0e3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Title only: Ensemble for These Times – Exile | Banishment | Home at Old First Church on 2026-11-15",
+    "url": "https://www.oldfirstconcerts.org/performance/ensemble-for-these-times-exile-banishment-home-sunday-november-15-at-4-pm/"
+   }
+  ],
+  "fingerprint": "b32806dacac3",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "San Francisco contemporary classical ensemble (background knowledge)",
+    "name": "Ensemble for These Times",
+    "significance": "local"
+   }
+  ],
+  "reason": "Ensemble for These Times presents 'Exile | Banishment | Home' at Old First Church. (Background knowledge: a San Francisco new-music ensemble performing contemporary classical programs on social themes.) Thoughtful chamber music, but outside his core, and it is today at 4pm per the listing URL.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Program and performers not captured."
   ]
  },
  "ev_55f25ffc10f7": {
@@ -4578,6 +4806,26 @@
    "Band history and rarity of shows are background knowledge.",
    "Lineup, start time and price not confirmed.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_5b073ddd57d8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Come on down and pick a spell. The Wild Eye Pub offers food and drinks. Bring your instrument and play or just hang out and listen. All levels welcome.",
+    "url": "https://californiabluegrass.org/event/bluegrass-jam-at-the-wild-eye-pub/2026-11-26/"
+   }
+  ],
+  "fingerprint": "4393e1289d2f",
+  "fit": 15,
+  "performers": [],
+  "reason": "An open bluegrass jam at the Wild Eye Pub in Grass Valley. A participatory session far from Oakland with no featured artist.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "26 Nov is Thanksgiving; confirm it is on."
   ]
  },
  "ev_5b12987710e3": {
@@ -5289,6 +5537,31 @@
    "Store page not fetched to confirm."
   ]
  },
+ "ev_6777cc574fa4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+    "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-11-15/"
+   }
+  ],
+  "fingerprint": "ac287ae9c648",
+  "fit": 8,
+  "performers": [
+   {
+    "known_for": "Radio host; not identified",
+    "name": "Terry Brewer",
+    "significance": "none"
+   }
+  ],
+  "reason": "'Hooked On Bluegrass' is a weekly internet radio broadcast hosted by Terry Brewer on thebluegrassjamboree.com, not an in-person show. Nothing to attend.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_67e1762cab4b": {
   "evidence": [
    {
@@ -5416,6 +5689,31 @@
   "tier": "possible",
   "uncertainties": [
    "Song-tradition roots are inference."
+  ]
+ },
+ "ev_696b42b01075": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Though John Carroll Kirby 's background is steeped in jazz, his signature sound blends genres and styles. A sought-after collaborator, he's worked with the likes of Miley Cyrus, Frank Ocean, Harry Styles, and Solange. Kirby earned a Song of the Year Grammy nomination in 2023 for his contribution to Steve Lacy's \"Bad Habit.\" Since 2020, he's focused on his vibrant solo career—releasing 8 LPs and ea",
+    "url": "https://www.kuumbwajazz.org/calendar/folkyeah-presents-john-carroll-kirby/"
+   }
+  ],
+  "fingerprint": "66b0e7292a09",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "LA keyboardist/producer; Solange, Frank Ocean collaborator; 8 solo LPs per listing",
+    "name": "John Carroll Kirby",
+    "significance": "notable"
+   }
+  ],
+  "reason": "John Carroll Kirby, the Los Angeles keyboardist and producer behind lush, ambient jazz-funk records and collaborations with Solange, Frank Ocean and Steve Lacy, plays Kuumbwa in Santa Cruz. Atmospheric and pleasant rather than fiery improvisation, and Santa Cruz on a Tuesday is a long trip from Oakland.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_698c4f51ca7a": {
@@ -7125,6 +7423,32 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_847cdb0aaf87": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Qendresa at Rickshaw Stop at 2026-11-22T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43357632-qendresa-at-rickshaw-stop"
+   }
+  ],
+  "fingerprint": "767e7ff9a798",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Qendresa",
+    "significance": "none"
+   }
+  ],
+  "reason": "Qendresa plays Rickshaw Stop. I do not recognize the artist and the listing gives no genre or description, so fit cannot be judged.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre and background of the artist unknown."
+  ]
+ },
  "ev_84b84fc883ca": {
   "evidence": [
    {
@@ -7322,6 +7646,32 @@
   "uncertainties": [
    "Event page not fetched; price and format confirmed only via queue text.",
    "Date is two months out; Bird & Beckett schedules can shift."
+  ]
+ },
+ "ev_87301655ce44": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Keys Jazz Bistro presents Hella Fitzgerald for a rare, one-night-only appearance in the heart of North Beach. Led by vocalist and bandleader Lilan Kane, the Bay Area collective brings its signature blend of sophistication, groove, and spontaneity to an evening spanning soul, jazz, funk, R&B, and reimagined classics. Their chemistry, versatility, and high-energy musicianship have[...]",
+    "url": "https://keysjazzbistro.com/event/hella-fitzgerald-feat-lilan-kane-2/"
+   }
+  ],
+  "fingerprint": "1720de7fafb7",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Bay Area soul/jazz/R&B collective per listing",
+    "name": "Hella Fitzgerald / Lilan Kane",
+    "significance": "local"
+   }
+  ],
+  "reason": "Hella Fitzgerald is a Bay Area soul, funk and R&B party band led by vocalist Lilan Kane, playing reimagined classics at Keys Jazz Bistro in North Beach. A polished covers-style evening rather than adventurous jazz, so a weak fit.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing price $40 per captured page data."
   ]
  },
  "ev_8776af6dd60c": {
@@ -7542,6 +7892,26 @@
    "Three separately ticketed sets likely; supper-club minimums may apply."
   ]
  },
+ "ev_8994dd2a9409": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-11-29/"
+   }
+  ],
+  "fingerprint": "66353b777f7a",
+  "fit": 28,
+  "performers": [],
+  "reason": "A weekly intermediate 'performance' bluegrass jam at the Lucky Horseshoe bar in Bernal Heights, where pickers take turns leading songs on stage. It is a participatory jam with no featured artist, so it only makes sense if Erik wants to play or drop in casually for a drink.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing does not name hosts or regular players."
+  ]
+ },
  "ev_89963da93768": {
   "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
   "evidence": [
@@ -7749,6 +8119,47 @@
   "uncertainties": [
    "Caller name spelled Fisher in one source, Fischer in another.",
    "Eventbrite date not confirmed as Jan 15."
+  ]
+ },
+ "ev_8b0e7dc97b67": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: John Zorn at Great American Music Hall at 2026-12-06T16:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43258726-john-zorn-at-great-american-music-hall"
+   },
+   {
+    "finding": "Not fetched (offline run). Ticket URL slug captured by the collector reads 'zorn-medeski-lombardo-awakening-ground-matinee'.",
+    "url": "https://wl.seetickets.us/event/zorn-medeski-lombardo-awakening-ground-matinee/694421?afflky=GreatAmericanMusicHall"
+   }
+  ],
+  "fingerprint": "be1748333411",
+  "fit": 85,
+  "performers": [
+   {
+    "known_for": "Saxophonist, composer, Tzadik label founder, Masada, Naked City (background knowledge)",
+    "name": "John Zorn",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Keyboardist, Medeski Martin & Wood (background knowledge)",
+    "name": "John Medeski",
+    "significance": "major"
+   },
+   {
+    "known_for": "Drummer, ex-Slayer, Zorn collaborator (background knowledge)",
+    "name": "Dave Lombardo",
+    "significance": "major"
+   }
+  ],
+  "reason": "John Zorn plays a Sunday matinee at Great American Music Hall; the ticket link in the listing names it 'Zorn Medeski Lombardo Awakening Ground matinee', which points to Zorn with keyboardist John Medeski and drummer Dave Lombardo. (Background knowledge: Zorn is a foundational figure of downtown New York improvised music and the Tzadik label, Medeski is of Medeski Martin & Wood, and Lombardo, ex-Slayer, has long played in Zorn's harder-edged bands.) A rare Bay Area appearance by Zorn himself in a mid-size room; expect intense, loud improvisation rather than something gentle.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup inferred only from the ticket URL slug; whether Zorn himself performs or only presents is unconfirmed.",
+   "4pm matinee per listing."
   ]
  },
  "ev_8bcb250bbc07": {
@@ -7978,6 +8389,25 @@
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": []
+ },
+ "ev_933556b0a95a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-02/"
+   }
+  ],
+  "fingerprint": "27ba79a30ff4",
+  "fit": 30,
+  "performers": [],
+  "reason": "The long-running East Bay Bluegrassers Jam, every Wednesday 6-8pm upstairs at Rockin' Robbie's music store in El Cerrito. Close to home and friendly, but a learning/participation jam, not a show.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
  },
  "ev_947c291563f1": {
   "evidence": [
@@ -8418,6 +8848,32 @@
    "Performer identity and genre not established.",
    "Event is on the day of research.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_9cb7aab9b243": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Title only: CANCELED Ebril – San Francisco at The Lost Church on 2026-11-24",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000BrGt7MAF"
+   }
+  ],
+  "fingerprint": "d262b314a060",
+  "fit": 0,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Ebril",
+    "significance": "none"
+   }
+  ],
+  "reason": "The listing title marks this Lost Church show by Ebril as CANCELED. Nothing to attend.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Cancellation taken from listing title only."
   ]
  },
  "ev_9d01fe02e71a": {
@@ -8925,6 +9381,25 @@
   "tier": "strong",
   "uncertainties": [
    "Kuumbwa page shows a Buy Tickets button but does not state availability."
+  ]
+ },
+ "ev_a71bb1567a36": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+    "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-02-04/"
+   }
+  ],
+  "fingerprint": "a62546eaa2c1",
+  "fit": 15,
+  "performers": [],
+  "reason": "A monthly all-ages bluegrass-ish jam at Deer Creek Bar and Grill in Nevada City. A participatory session far from Oakland with no featured artist.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_a756bb877eb3": {
@@ -9909,6 +10384,36 @@
   "tier": "possible",
   "uncertainties": []
  },
+ "ev_b8338508a310": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Motorbäbe at Ivy Room on Nov 22, 2026",
+    "url": "https://www.jambase.com/show/motorbabe-ivy-room-20261122"
+   }
+  ],
+  "fingerprint": "68e6e1724852",
+  "fit": 3,
+  "performers": [
+   {
+    "known_for": "Motörhead tribute band",
+    "name": "Motorbäbe",
+    "significance": "none"
+   },
+   {
+    "known_for": "Thin Lizzy tribute band",
+    "name": "A Rock Legend",
+    "significance": "none"
+   }
+  ],
+  "reason": "A double tribute bill (Motörhead and Thin Lizzy tribute bands) with Three Towers at the Ivy Room. Tribute acts are exactly what Erik skips.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_b86e2dee0d3b": {
   "evidence": [
    {
@@ -10385,6 +10890,31 @@
   ],
   "reason": "Three local alternative/garage rock bands (Uromastyx, Spider Garage, SourFlower) on a Sunday bill at the Ivy Room with vegan food. Nothing here touches roots, jazz or hip-hop; the 'roots' rules match comes from listing boilerplate.",
   "researched_at": "2026-11-06T22:43:42+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_c000510194e9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Paul Collins: The Best of The Nerves, The Beat & The Exploding Hearts",
+    "url": "https://dice.fm/event/6a57f5e1b2072f0001b1f5f6"
+   }
+  ],
+  "fingerprint": "d8995d3c58f1",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "The Nerves, The Beat (Paul Collins' Beat), power pop (background knowledge)",
+    "name": "Paul Collins",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Paul Collins, the power-pop songwriter behind The Nerves and The Beat, plays a career set at Kilowatt. (Background knowledge: The Nerves wrote 'Hanging on the Telephone'; this is 70s power pop and punk, outside Erik's roots, jazz and hip-hop core.)",
+  "researched_at": "2026-11-15T22:43:59+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
@@ -11386,6 +11916,43 @@
   "tier": "low",
   "uncertainties": []
  },
+ "ev_d3fb91ef9bd8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: 11am Mariachi Flor de Toloache; Sarah Hanahan Quartet, Mireya Ramos & Flor de Toloache",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "4ab2fc810c03",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Latin Grammy-winning all-women mariachi (background knowledge)",
+    "name": "Flor de Toloache",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Co-founder of Flor de Toloache (background knowledge)",
+    "name": "Mireya Ramos",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Young alto saxophonist (background knowledge)",
+    "name": "Sarah Hanahan",
+    "significance": "notable"
+   }
+  ],
+  "reason": "A double day at SFJAZZ: a family-friendly 11am set by Mariachi Flor de Toloache, then an evening bill of the Sarah Hanahan Quartet with Mireya Ramos and Flor de Toloache. (Background knowledge: Flor de Toloache is a Latin Grammy-winning all-women mariachi from New York co-founded by Mireya Ramos; Hanahan is a rising young hard-bop alto saxophonist.) Enjoyable and well-made, but more of a crossover showcase than the adventurous small-room jazz he favors.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Which hall and how the bill is split is unclear from the listing.",
+   "11am set may be a family/kids program."
+  ]
+ },
  "ev_d5ab48e539dc": {
   "evidence": [
    {
@@ -11501,6 +12068,63 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized beyond listing text.",
    "Event URL suffix suggests this is one of many repeat dates."
+  ]
+ },
+ "ev_d87d19190ff6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Brian Blade & The Fellowship Band, Sarah Hanahan Quartet",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "de8c7aa89f0d",
+  "fit": 82,
+  "performers": [
+   {
+    "known_for": "Drummer, Wayne Shorter Quartet, leader of the Fellowship Band (background knowledge)",
+    "name": "Brian Blade",
+    "significance": "major"
+   },
+   {
+    "known_for": "Young alto saxophonist (background knowledge)",
+    "name": "Sarah Hanahan",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Brian Blade & The Fellowship Band play SFJAZZ, with the Sarah Hanahan Quartet also on the bill. (Background knowledge: Blade is one of the great jazz drummers of his generation, long-time member of Wayne Shorter's quartet, and the Fellowship Band is his hymn-like, deeply emotional ensemble with Jon Cowherd and Myron Walden.) Fellowship gigs are infrequent and exactly the emotionally compelling, improvisational jazz Erik likes.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Whether this is the large Miner Auditorium or the smaller Joe Henderson Lab is unknown.",
+   "Pairing with Hanahan on the same bill not confirmed."
+  ]
+ },
+ "ev_d881f4b18f2e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+    "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-11-22/"
+   }
+  ],
+  "fingerprint": "63a4f307bbfe",
+  "fit": 8,
+  "performers": [
+   {
+    "known_for": "Radio host; not identified",
+    "name": "Terry Brewer",
+    "significance": "none"
+   }
+  ],
+  "reason": "'Hooked On Bluegrass' is a weekly internet radio broadcast hosted by Terry Brewer on thebluegrassjamboree.com, not an in-person show. Nothing to attend.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_d9245ffc5de8": {
@@ -11826,6 +12450,26 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_dd156850d597": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-11-29/"
+   }
+  ],
+  "fingerprint": "93cb0faa4a12",
+  "fit": 18,
+  "performers": [],
+  "reason": "A weekly all-levels old-time jam at Two Rivers Cider in Sacramento. A participatory session far from Oakland, with no featured performers.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing says the jam moves to a private home in December and January."
+  ]
+ },
  "ev_dd475aee0f28": {
   "evidence": [
    {
@@ -12003,6 +12647,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No description of the music; style is a guess."
+  ]
+ },
+ "ev_debe98f53e2a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Title only: Elena Gabrielle – Disturb the Vibe – San Francisco at The Lost Church on 2026-11-23",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000D1KEvMAN"
+   }
+  ],
+  "fingerprint": "98adef58495b",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Singer-songwriter; identification uncertain (background knowledge)",
+    "name": "Elena Gabrielle",
+    "significance": "none"
+   }
+  ],
+  "reason": "Elena Gabrielle brings her 'Disturb the Vibe' show to The Lost Church. (Background knowledge, low confidence: she is a singer-songwriter known for comedic, jazz-tinged songs online.) The listing has no description, so genre and fit are unclear; if it is mainly musical comedy, it is a poor fit.",
+  "researched_at": "2026-11-15T22:43:59+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description captured.",
+   "Identity of the performer not confirmed."
   ]
  },
  "ev_dec1933dc137": {
