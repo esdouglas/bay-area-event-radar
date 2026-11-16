@@ -1,8 +1,53 @@
 {
- "backlog": 1212,
+ "backlog": 1188,
  "count": 40,
- "generated_at": "2026-11-16T06:51:26+00:00",
+ "generated_at": "2026-11-16T22:22:33+00:00",
  "items": [
+  {
+   "city": "",
+   "date": "2026-11-20",
+   "description": "Nov. 20: East Bay Square Dance - Hillside Club, Berkeley; ​Band: Danny C & the Hot Nows; Caller: Jordan Ruyle; ​preceded by an old time jam",
+   "fingerprint": "ff903e912a55",
+   "id": "ev_4370ef5fdbc7",
+   "other_urls": [
+    "https://sites.google.com/site/davbrown2/oldtimesf"
+   ],
+   "rules_score": 78.0,
+   "rules_tier": "strong",
+   "start": "2026-11-20T00:00:00-08:00",
+   "title": "East Bay Square Dance",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Hillside Club, Berkeley; ​Band: Danny C & the Hot Nows; Caller: Jordan Ruyle; ​preceded by an old time jam",
+   "why_rules": [
+    "roots_core: old-time, old time, square dance (+33)",
+    "listed by a taste-aligned calendar (+18)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-11-20",
+   "description": "with A Grateful Dead Night | Doors 7:30pm Show 8pm Legendary flatpicker Eric Thompson (Black Mountain Boys, David Nelson, David Grisman) has assembled a dream team for a fresh approach to the music of his teenage years, when he was a spitting distance witness to the birth of the Warlocks, soon to become the Grateful Dead. Thompson (at age 17) had been playing in several bluegrass bands with Jerry ",
+   "fingerprint": "aa71650115c8",
+   "id": "ev_6c0c361dbcd8",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+    "https://www.bgsignal.com/concerts--festivals.html"
+   ],
+   "rules_score": 100.0,
+   "rules_tier": "exceptional",
+   "start": "2026-11-20T20:00:00-08:00",
+   "title": "Eric Thompson & Dead Roots Revival (w/ Paul Kotapish, Mark Schatz, Corbin Pagter, Suzy Thompson, Brian Rice)",
+   "url": "https://tickets.venuepilot.com/e/eric-thompson-s-dead-roots-revival-2026-11-20-ashkenaz-music-dance-community-center-berkeley-ff9298",
+   "venue": "Ashkenaz",
+   "why_rules": [
+    "seed artist: Suzy Thompson (+25)",
+    "4 seed artists on the bill (+5)",
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: roots (+10)"
+   ]
+  },
   {
    "city": "Monterey",
    "date": "2026-12-05",
@@ -26,6 +71,48 @@
    ]
   },
   {
+   "city": "El Cerrito",
+   "date": "2026-11-28",
+   "description": "<span><span>Music at 8:30pm; tickets $10</span></span>",
+   "fingerprint": "1d501a69f439",
+   "id": "ev_dde7842ecfb5",
+   "other_urls": [
+    "https://allevents.in/el-cerrito/brody-schenk-sean-forth-and-david-coppin-lanegan-~-little-hill-lounge-~-el-cerrito-ca/200031056464907"
+   ],
+   "rules_score": 57.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T20:30:00-08:00",
+   "title": "Brody Schenk, Sean Forth, & David Coppin Lanegan ~ Little Hill Lounge ~ El Cerrito, CA",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-04-08",
+   "description": "Born in Mexico City and currently based out of New York City, Magos Herrera is a dazzling singer-songwriter, producer, and educator declared as \"One of the greatest contemporary interpreters of song\" by The Latin Jazz Networ k. With a sultry voice and an unparalleled presence in the contemporary Latin American jazz scene, she is best known for her eloquent vocal improvisation and her singular bold",
+   "fingerprint": "43424fe57db6",
+   "id": "ev_6918ea39b538",
+   "other_urls": [],
+   "rules_score": 77.0,
+   "rules_tier": "strong",
+   "start": "2027-04-08T19:00:00-07:00",
+   "title": "Magos Herrera",
+   "url": "https://www.kuumbwajazz.org/calendar/magos-herrera/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
+    "jazz_core: jazz, improvisation (+22)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
    "city": "Berkeley",
    "date": "2026-12-06",
    "description": "Buy Tickets on Humanitix - Sam's Corner hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday December 6th 2026. Find event information.",
@@ -42,6 +129,26 @@
     "intimate room: The Back Room (+14)",
     "booking signal: The Back Room (+8)",
     "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-30",
+   "description": "",
+   "fingerprint": "63b6f5604db6",
+   "id": "ev_9233b14b84a0",
+   "other_urls": [],
+   "rules_score": 61.0,
+   "rules_tier": "strong",
+   "start": "2026-11-30T00:00:00-08:00",
+   "title": "M 7:30pm: bluegrass/country jam, The Freight: 2020 Addison St, Berkeley",
+   "url": "https://www.sffmc.org/community-folk-calendar/",
+   "venue": "",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: country (+10)",
+    "listed by a taste-aligned calendar (+14)",
+    "location unresolved (no penalty)"
    ]
   },
   {
@@ -63,6 +170,42 @@
     "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "Presented by Rootstock Arts .",
+   "fingerprint": "cb14121ade08",
+   "id": "ev_52bad56940ff",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T09:00:00-08:00",
+   "title": "Monthly Morning Ragas",
+   "url": "https://birdbeckett.com/event/monthly-morning-ragas_2026-11-29/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "",
+   "fingerprint": "dba294cb8400",
+   "id": "ev_9aeca3bf3f37",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T00:00:00-08:00",
+   "title": "Gregg & Katie Present Hollywood Nights: A Classic Cabaret Revue – SF",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Di7CnMAJ",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -106,38 +249,41 @@
   },
   {
    "city": "San Francisco",
-   "date": "2026-11-29",
-   "description": "Presented by Rootstock Arts .",
-   "fingerprint": "cb14121ade08",
-   "id": "ev_52bad56940ff",
+   "date": "2026-12-06",
+   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+   "fingerprint": "be21e9cca4fd",
+   "id": "ev_8ee83f604a15",
    "other_urls": [],
-   "rules_score": 45.0,
+   "rules_score": 54.0,
    "rules_tier": "inventory",
-   "start": "2026-11-29T09:00:00-08:00",
-   "title": "Monthly Morning Ragas",
-   "url": "https://birdbeckett.com/event/monthly-morning-ragas_2026-11-29/",
-   "venue": "Bird & Beckett",
+   "start": "2026-12-06T16:00:00-08:00",
+   "title": "Horseshoe Jam",
+   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-12-06/",
+   "venue": "The Lucky Horseshoe San Francisco",
    "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)"
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-11-29",
-   "description": "",
-   "fingerprint": "dba294cb8400",
-   "id": "ev_9aeca3bf3f37",
+   "city": "",
+   "date": "2026-12-18",
+   "description": "Dec. 18 (4 pm): AJ Frankel & Maverick Bluegrass - Winters Tavern, Pacifica",
+   "fingerprint": "7060f8b50a98",
+   "id": "ev_ff519a10b99d",
    "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-29T00:00:00-08:00",
-   "title": "Gregg & Katie Present Hollywood Nights: A Classic Cabaret Revue – SF",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Di7CnMAJ",
-   "venue": "The Lost Church",
+   "rules_score": 64.0,
+   "rules_tier": "strong",
+   "start": "2026-12-18T00:00:00-08:00",
+   "title": "AJ Frankel & Maverick Bluegrass",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Winters Tavern, Pacifica",
    "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+18)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
    ]
   },
   {
@@ -161,18 +307,21 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-12-06",
-   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
-   "fingerprint": "be21e9cca4fd",
-   "id": "ev_8ee83f604a15",
-   "other_urls": [],
+   "city": "El Cerrito",
+   "date": "2026-12-09",
+   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+   "fingerprint": "e57147ed5634",
+   "id": "ev_b2a4ebc1e894",
+   "other_urls": [
+    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-09/",
+    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-09/"
+   ],
    "rules_score": 54.0,
    "rules_tier": "inventory",
-   "start": "2026-12-06T16:00:00-08:00",
-   "title": "Horseshoe Jam",
-   "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-12-06/",
-   "venue": "The Lucky Horseshoe San Francisco",
+   "start": "2026-12-09T18:00:00-08:00",
+   "title": "Wednesday East Bay Bluegrassers Jam",
+   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-09/",
+   "venue": "Rockin Robbies – El Cerrito",
    "why_rules": [
     "roots_core: bluegrass (+22)",
     "listed by a taste-aligned calendar (+8)",
@@ -180,43 +329,25 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-11-30",
-   "description": "",
-   "fingerprint": "63b6f5604db6",
-   "id": "ev_9233b14b84a0",
-   "other_urls": [],
-   "rules_score": 58.0,
-   "rules_tier": "strong",
-   "start": "2026-11-30T00:00:00-08:00",
-   "title": "M 7:30pm: bluegrass/country jam, The Freight: 2020 Addison St, Berkeley",
-   "url": "https://www.sffmc.org/community-folk-calendar/",
-   "venue": "",
+   "city": "Berkeley",
+   "date": "2026-11-21",
+   "description": "Zellerbach Hall: Jason Moran and the Harlem Hellfighters, James Reese Europe and the Absence of Ruin",
+   "fingerprint": "afc3d3a1e48c",
+   "id": "ev_b836db1d7dd3",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+    "https://allevents.in/berkeley/jason-moran-and-the-harlem-hell-fighters-james-reese-europe-and-the-absence-of-ruin/210001864637187"
+   ],
+   "rules_score": 51.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T19:30:00-08:00",
+   "title": "Jason Moran and the Harlem Hell Fighters: James Reese Europe and the Absence of Ruin",
+   "url": "https://calperformances.org/events/2026-27/illuminations-innocence-experience/jason-moran-and-the-harlem-hellfighters-james-reese-europe-and-the-absence-of-ruin/",
+   "venue": "Zellerbach Hall",
    "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "roots_adjacent: country (+10)",
-    "listed by a taste-aligned calendar (+14)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-18",
-   "description": "Dec. 18 (4 pm): AJ Frankel & Maverick Bluegrass - Winters Tavern, Pacifica",
-   "fingerprint": "7060f8b50a98",
-   "id": "ev_ff519a10b99d",
-   "other_urls": [],
-   "rules_score": 64.0,
-   "rules_tier": "strong",
-   "start": "2026-12-18T00:00:00-08:00",
-   "title": "AJ Frankel & Maverick Bluegrass",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Winters Tavern, Pacifica",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "2 independent sources (+4)",
-    "location unresolved (no penalty)"
+    "booking signal: Zellerbach Hall (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "3 independent sources (+8)"
    ]
   },
   {
@@ -264,47 +395,22 @@
    ]
   },
   {
-   "city": "El Cerrito",
-   "date": "2026-12-09",
-   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
-   "fingerprint": "e57147ed5634",
-   "id": "ev_b2a4ebc1e894",
-   "other_urls": [
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-09/",
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-09/"
-   ],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-09T18:00:00-08:00",
-   "title": "Wednesday East Bay Bluegrassers Jam",
-   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-09/",
-   "venue": "Rockin Robbies – El Cerrito",
+   "city": "Nicasio",
+   "date": "2027-01-10",
+   "description": "MCQ'S BIRTHDAY BASH 2! Featuring Michael McQuilkin, Rebecca Chourre, Kevin Frazier, Howie Cort, John Cunningham, David Russ, and Alexander McQuilkin Come celebrate the McQuilkin family birthdays at Marin's legendary Rancho Nicasio nightclub on Sunday, Jan 10th. Alexander turns 36 on the 17th and his Mom, Grandpa Wally, and Cousin Nolan all have their birthdays the same week. This special show will",
+   "fingerprint": "f6f1e2c8489e",
+   "id": "ev_c985af4b74ea",
+   "other_urls": [],
+   "rules_score": 56.0,
+   "rules_tier": "strong",
+   "start": "2027-01-10T00:00:00-08:00",
+   "title": "MCQ'S BIRTHDAY BASH 2!",
+   "url": "https://ranchonicasio.com/event/mcqs-birthday-bash-2/",
+   "venue": "Rancho Nicasio",
    "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-21",
-   "description": "Zellerbach Hall: Jason Moran and the Harlem Hellfighters, James Reese Europe and the Absence of Ruin",
-   "fingerprint": "afc3d3a1e48c",
-   "id": "ev_b836db1d7dd3",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://allevents.in/berkeley/jason-moran-and-the-harlem-hell-fighters-james-reese-europe-and-the-absence-of-ruin/210001864637187"
-   ],
-   "rules_score": 51.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-21T19:30:00-08:00",
-   "title": "Jason Moran and the Harlem Hell Fighters: James Reese Europe and the Absence of Ruin",
-   "url": "https://calperformances.org/events/2026-27/illuminations-innocence-experience/jason-moran-and-the-harlem-hellfighters-james-reese-europe-and-the-absence-of-ruin/",
-   "venue": "Zellerbach Hall",
-   "why_rules": [
-    "booking signal: Zellerbach Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
+    "legacy: legendary (+14)",
+    "intimate room: Rancho Nicasio (+14)",
+    "booking signal: Rancho Nicasio (+8)"
    ]
   },
   {
@@ -363,25 +469,6 @@
     "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Nicasio",
-   "date": "2027-01-10",
-   "description": "MCQ'S BIRTHDAY BASH 2! Featuring Michael McQuilkin, Rebecca Chourre, Kevin Frazier, Howie Cort, John Cunningham, David Russ, and Alexander McQuilkin Come celebrate the McQuilkin family birthdays at Marin's legendary Rancho Nicasio nightclub on Sunday, Jan 10th. Alexander turns 36 on the 17th and his Mom, Grandpa Wally, and Cousin Nolan all have their birthdays the same week. This special show will",
-   "fingerprint": "f6f1e2c8489e",
-   "id": "ev_c985af4b74ea",
-   "other_urls": [],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2027-01-10T00:00:00-08:00",
-   "title": "MCQ'S BIRTHDAY BASH 2!",
-   "url": "https://ranchonicasio.com/event/mcqs-birthday-bash-2/",
-   "venue": "Rancho Nicasio",
-   "why_rules": [
-    "legacy: legendary (+14)",
-    "intimate room: Rancho Nicasio (+14)",
-    "booking signal: Rancho Nicasio (+8)"
    ]
   },
   {
@@ -685,28 +772,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-12-31",
-   "description": "",
-   "fingerprint": "7fbfaaf5bdf1",
-   "id": "ev_f77cedb301c5",
-   "other_urls": [
-    "http://www.bottomofthehill.com/20261231.html"
-   ],
-   "rules_score": 70.5,
-   "rules_tier": "strong",
-   "start": "2026-12-31T20:00:00-08:00",
-   "title": "Shannon Shaw / Will Sprott / / Sid Presley / / Classic Bar Music",
-   "url": "https://dice.fm/event/6ad5763e7139940001d5823b",
-   "venue": "Bottom of the Hill",
-   "why_rules": [
-    "seed artist: Will Sprott (+20)",
-    "roots_adjacent: folk, country (+12)",
-    "intimate room: Bottom of the Hill (+14)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-11-16",
    "description": "The DeLuxe: DeLuxe Jazz Collective",
@@ -726,84 +791,25 @@
    ]
   },
   {
-   "city": "Sonoma",
-   "date": "2026-11-23",
-   "description": "At the Sonoma Community Center 6:30 – 8:30pm on the 2nd and 4th Monday of each month. 276 E. Napa St. room 210, Sonoma All bluegrass instruments and levels are welcome to come and pick! (Formerly called the Reel Roadhouse jam.)",
-   "fingerprint": "7e9399b621d3",
-   "id": "ev_90e9c88bffed",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-23T18:30:00-08:00",
-   "title": "Sonoma Town Bluegrass Jam",
-   "url": "https://californiabluegrass.org/event/sonoma-town-bluegrass-jam-formerly-the-reel-roadhouse-jamnew-time-and-place/2026-11-23/",
-   "venue": "Sonoma Community Center",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-23",
-   "description": "The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
-   "fingerprint": "4c3badc4681e",
-   "id": "ev_9135afa7892a",
-   "other_urls": [
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-23/",
-    "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam-2/2026-12-23/"
-   ],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-23T18:00:00-08:00",
-   "title": "Wednesday East Bay Bluegrassers Jam",
-   "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-23/",
-   "venue": "Rockin Robbies – El Cerrito",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
    "city": "San Francisco",
-   "date": "2026-12-17",
+   "date": "2026-12-31",
    "description": "",
-   "fingerprint": "6dc64b1938bd",
-   "id": "ev_cc7d95ac0d4b",
+   "fingerprint": "7fbfaaf5bdf1",
+   "id": "ev_f77cedb301c5",
    "other_urls": [
-    "http://www.bottomofthehill.com/20261217.html"
+    "http://www.bottomofthehill.com/20261231.html"
    ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-17T19:30:00-08:00",
-   "title": "Christopher Owens ~ TBA ~ TBA",
-   "url": "https://dice.fm/event/6abb2e3d0afa8e0001168bc9",
+   "rules_score": 70.5,
+   "rules_tier": "strong",
+   "start": "2026-12-31T20:00:00-08:00",
+   "title": "Shannon Shaw / Will Sprott / / Sid Presley / / Classic Bar Music",
+   "url": "https://dice.fm/event/6ad5763e7139940001d5823b",
    "venue": "Bottom of the Hill",
    "why_rules": [
-    "roots_adjacent: folk, americana, country (+15)",
+    "seed artist: Will Sprott (+20)",
+    "roots_adjacent: folk, country (+12)",
     "intimate room: Bottom of the Hill (+14)",
     "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2027-01-16",
-   "description": "",
-   "fingerprint": "1c54f2fc6f04",
-   "id": "ev_dc553ee52604",
-   "other_urls": [],
-   "rules_score": 50.0,
-   "rules_tier": "inventory",
-   "start": "2027-01-16T21:00:00-08:00",
-   "title": "Beafsteek, Maggie Gently, and Good Friends",
-   "url": "https://littlehillelcerrito.com/events/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+8)"
    ]
   }
  ]
