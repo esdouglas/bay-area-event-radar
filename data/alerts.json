@@ -56,6 +56,14 @@
    "tier": "exceptional",
    "via": "digest"
   },
+  "ev_6d3ab50b7f24": {
+   "at": "2026-11-16T22:23:10+00:00",
+   "date": "2026-12-05",
+   "issue": 12,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
   "ev_77216bb9cb0c": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2027-01-10",
@@ -70,6 +78,14 @@
    "issue": 4,
    "status": "scheduled",
    "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_8b0e7dc97b67": {
+   "at": "2026-11-16T22:23:10+00:00",
+   "date": "2026-12-06",
+   "issue": 12,
+   "status": "scheduled",
+   "tier": "strong",
    "via": "digest"
   },
   "ev_a5c8e4576462": {
@@ -94,6 +110,14 @@
    "issue": 9,
    "status": "scheduled",
    "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_d87d19190ff6": {
+   "at": "2026-11-16T22:23:10+00:00",
+   "date": "2026-11-22",
+   "issue": 12,
+   "status": "scheduled",
+   "tier": "strong",
    "via": "digest"
   },
   "ev_da3b1224db08": {
@@ -159,6 +183,14 @@
    "new_ahead": 2,
    "soon": 3,
    "subject": "Shows for the week of Nov 9: Jake Xerxes Fussell, Dougie Poole, KRS-One + 3 more"
+  },
+  {
+   "at": "2026-11-16T22:23:10+00:00",
+   "emailed": false,
+   "issue": 12,
+   "new_ahead": 2,
+   "soon": 3,
+   "subject": "Shows for the week of Nov 16: Eric Thompson & Dead Roots Revival (w/..., Brian Blade & The Fellowship Band... + 3 more"
   }
  ],
  "picked": {
@@ -190,6 +222,10 @@
    "at": "2026-11-02T23:11:29+00:00",
    "date": "2026-11-20"
   },
+  "ev_6d3ab50b7f24": {
+   "at": "2026-11-16T22:23:10+00:00",
+   "date": "2026-12-05"
+  },
   "ev_77216bb9cb0c": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2027-01-10"
@@ -197,6 +233,10 @@
   "ev_84dff7547020": {
    "at": "2026-11-02T18:33:19+00:00",
    "date": "2026-11-04"
+  },
+  "ev_8b0e7dc97b67": {
+   "at": "2026-11-16T22:23:10+00:00",
+   "date": "2026-12-06"
   },
   "ev_a5c8e4576462": {
    "at": "2026-11-09T22:36:06+00:00",
@@ -209,6 +249,10 @@
   "ev_b01b74323a2e": {
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-11-13"
+  },
+  "ev_d87d19190ff6": {
+   "at": "2026-11-16T22:23:10+00:00",
+   "date": "2026-11-22"
   },
   "ev_da3b1224db08": {
    "at": "2026-11-02T18:33:19+00:00",
