@@ -1,8 +1,70 @@
 {
- "backlog": 1204,
+ "backlog": 1212,
  "count": 40,
- "generated_at": "2026-11-15T22:46:43+00:00",
+ "generated_at": "2026-11-16T06:51:26+00:00",
  "items": [
+  {
+   "city": "Monterey",
+   "date": "2026-12-05",
+   "description": "THE CROOKED JADES WITH OTTER OPRY AT MONTEREY UNITED METHODIST CHURCH The highly acclaimed bluegrass ensemble, The Crooked Jades, will be at Monterey United Methodist Church on Saturday, December 5th for a foot-stompin' Otter Opry matinee performance. This unique band explores the roots of rural Americana, pushing boundaries and blurring categories with their fiery, soulful performances. As descri",
+   "fingerprint": "c018df82241c",
+   "id": "ev_6d3ab50b7f24",
+   "other_urls": [
+    "https://www.sffmc.org/community-folk-calendar/"
+   ],
+   "rules_score": 100.0,
+   "rules_tier": "exceptional",
+   "start": "2026-12-05T15:00:00-08:00",
+   "title": "Crooked Jades at the Otter Opry",
+   "url": "https://californiabluegrass.org/event/crooked-jades-at-the-otter-opry/",
+   "venue": "Monterey United Methodist Church",
+   "why_rules": [
+    "seed artist: Crooked Jades (+40)",
+    "2 seed artists on the bill (+5)",
+    "roots_core: bluegrass (+22)",
+    "roots_adjacent: americana, roots (+12)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-06",
+   "description": "Buy Tickets on Humanitix - Sam's Corner hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday December 6th 2026. Find event information.",
+   "fingerprint": "7bbd65f24c76",
+   "id": "ev_675ffac0ad08",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-06T19:00:00-08:00",
+   "title": "Sam's Corner",
+   "url": "https://events.humanitix.com/sams-corner-dec6",
+   "venue": "The Back Room",
+   "why_rules": [
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-21",
+   "description": "Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
+   "fingerprint": "231407e94990",
+   "id": "ev_61b5ce18751b",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13490/2026-11-21"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T00:00:00-08:00",
+   "title": "Europe's Herak/Bulatkin 'Elysium', ft/ Sax Visionary David Binney",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
   {
    "city": "Orangevale",
    "date": "2027-01-10",
@@ -58,6 +120,24 @@
    "why_rules": [
     "intimate room: Bird & Beckett (+14)",
     "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-29",
+   "description": "",
+   "fingerprint": "dba294cb8400",
+   "id": "ev_9aeca3bf3f37",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-29T00:00:00-08:00",
+   "title": "Gregg & Katie Present Hollywood Nights: A Classic Cabaret Revue – SF",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Di7CnMAJ",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -548,25 +628,6 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-11-21",
-   "description": "Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
-   "fingerprint": "3d7806ef0ad6",
-   "id": "ev_61b5ce18751b",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-21T00:00:00-08:00",
-   "title": "Herak/Bulatkin 'Elysium' featuring David Binney",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
    "city": "Cotati",
    "date": "2026-12-06",
    "description": "The jam is led by Chris Carney and Janette Duncan, first Sundays at the Church of the Oaks in Cotati, from 3 pm to 5 pm.",
@@ -743,63 +804,6 @@
     "intimate room: Little Hill Lounge (+14)",
     "booking signal: Little Hill Lounge (+8)",
     "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-18",
-   "description": "The Jazz School: 12:30pm Steve Adams on Wayne Shorter",
-   "fingerprint": "d44b189d0ad8",
-   "id": "ev_5bd26e69e817",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-18T00:00:00-08:00",
-   "title": "12:30pm Steve Adams on Wayne Shorter",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "The Jazz School",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Sacramento",
-   "date": "2026-12-06",
-   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
-   "fingerprint": "794b657d4be1",
-   "id": "ev_75a5625c335c",
-   "other_urls": [],
-   "rules_score": 59.0,
-   "rules_tier": "strong",
-   "start": "2026-12-06T18:00:00-08:00",
-   "title": "Two Rivers Cider Old Time Jam",
-   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-06/",
-   "venue": "Two Rivers Cider",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "outside the core Bay Area (-6)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-27",
-   "description": "with Cinder Well",
-   "fingerprint": "dfe20f673d1f",
-   "id": "ev_dd0335c434fa",
-   "other_urls": [],
-   "rules_score": 49.5,
-   "rules_tier": "inventory",
-   "start": "2026-11-27T20:00:00-08:00",
-   "title": "EMMA RUTH RUNDLE",
-   "url": "https://wl.seetickets.us/event/emma-ruth-rundle/699875?afflky=GreatAmericanMusicHall",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
-    "intimate room: Great American Music Hall (+14)"
    ]
   }
  ]
