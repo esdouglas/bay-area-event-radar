@@ -1706,6 +1706,33 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_206052f131ad": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: GRAMMY- and TONY-winning jazz giant Dee Dee Bridgewater ... She earned her first professional experience as a member of the legendary Thad Jones/Mel Louis Big Band, and throughout the '70s she performed with such jazz notables as Max Roach, Sonny Rollins, Dexter Gordon, and Dizzy Gillespie.",
+    "url": "https://www.kuumbwajazz.org/calendar/dee-dee-bridgewater/"
+   }
+  ],
+  "fingerprint": "cee136978b93",
+  "fit": 66,
+  "performers": [
+   {
+    "known_for": "Grammy- and Tony-winning jazz vocalist",
+    "name": "Dee Dee Bridgewater",
+    "significance": "major"
+   }
+  ],
+  "reason": "Jazz vocal giant Dee Dee Bridgewater brings her 'We Exist!' quartet to Kuumbwa in Santa Cruz on Mar 22, 2027 (7pm, with a 9pm show also listed). She came up in the Thad Jones/Mel Lewis band and worked with Max Roach, Sonny Rollins and Dizzy Gillespie, and her Tony for The Wiz could appeal to his partner. A legend in a small room, but a long drive and a vocal-jazz bill rather than the exploratory improvising he favors.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quartet lineup not listed.",
+   "The Tony being for The Wiz and 'We Exist!' being her protest-song album are background knowledge."
+  ]
+ },
  "ev_2182bcac1bec": {
   "evidence": [
    {
@@ -3223,6 +3250,26 @@
    "Whether Nikolai Shveitser plays his own set or backs Acker is unclear."
   ]
  },
+ "ev_3c767e9bfe4e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. ... We'll have a jam session of musicians of all levels playing.",
+    "url": "https://californiabluegrass.org/event/california-state-old-time-fiddlers-association-jam/2027-01-10/"
+   }
+  ],
+  "fingerprint": "f591a8066998",
+  "fit": 10,
+  "performers": [],
+  "reason": "A monthly California State Old Time Fiddlers Association open jam at the Orangevale Grange near Sacramento. Free, all-levels participatory jam two hours from Oakland; not a show.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing text mentions an August date; it is a recurring template."
+  ]
+ },
  "ev_3cddcf4b3b2f": {
   "evidence": [
    {
@@ -3618,6 +3665,38 @@
    "Worth upgrading only if Erik wants to play."
   ]
  },
+ "ev_4370ef5fdbc7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Nov. 20: East Bay Square Dance - Hillside Club, Berkeley; Band: Danny C & the Hot Nows; Caller: Jordan Ruyle; preceded by an old time jam",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "ff903e912a55",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Dance band for this square dance; not identified",
+    "name": "Danny C & the Hot Nows",
+    "significance": "none"
+   },
+   {
+    "known_for": "Bay Area square-dance caller (background knowledge)",
+    "name": "Jordan Ruyle",
+    "significance": "local"
+   }
+  ],
+  "reason": "The monthly East Bay Square Dance at the Hillside Club in Berkeley, with Danny C & the Hot Nows playing, Jordan Ruyle calling, and an old-time jam beforehand. A warm, participatory night in the local old-time community a short trip from Oakland; worth it if he wants to dance or join the jam rather than sit and listen. I do not recognize Danny C & the Hot Nows, so the band itself is the open question.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band members and style of Danny C & the Hot Nows unknown.",
+   "Participatory dance format; time and price not listed."
+  ]
+ },
  "ev_43cb5127d7c0": {
   "evidence": [
    {
@@ -3647,6 +3726,32 @@
    "Ensemble lineup unknown",
    "Little independent coverage of Ella Dair found",
    "Date and time only from the queue item; primary page not read"
+  ]
+ },
+ "ev_444bf4536494": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dec. 17: Bloomfield Bluegrass Band - Willowbrook Ale House, Petaluma",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "db0a491fa481",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Local Petaluma-area bluegrass band; not identified",
+    "name": "Bloomfield Bluegrass Band",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bloomfield Bluegrass Band plays Willowbrook Ale House in Petaluma on Dec 17. Earlier research found nothing on the band beyond pub listings; likely a local North Bay pub bluegrass act.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Members unknown."
   ]
  },
  "ev_45cf3c8be2c3": {
@@ -4157,6 +4262,47 @@
    "Description mentions going on to the CBA Camp and Festival, possibly implying an altered schedule (inference)"
   ]
  },
+ "ev_50696cb2eeab": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hal Richards, reeds; Henry Hung, trumpet; Rumi Abe, piano; Ron Belcher, bass; tbd, drums",
+    "url": "https://birdbeckett.com/event/hal-richards_2027-03-05/"
+   }
+  ],
+  "fingerprint": "89efb804a733",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Reeds; not identified",
+    "name": "Hal Richards",
+    "significance": "none"
+   },
+   {
+    "known_for": "Trumpet; not identified",
+    "name": "Henry Hung",
+    "significance": "none"
+   },
+   {
+    "known_for": "Piano; not identified",
+    "name": "Rumi Abe",
+    "significance": "none"
+   },
+   {
+    "known_for": "Bass; SF jazz bassist (background knowledge)",
+    "name": "Ron Belcher",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Hal Richards Quintet plays Bird & Beckett in SF on Mar 5, 2027: Hal Richards on reeds, Henry Hung on trumpet, Rumi Abe on piano, Ron Belcher on bass. Bird & Beckett is exactly the kind of intimate jazz room he likes, but I do not know these players well enough to say whether the music is adventurous or straight-ahead.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Style of the quintet unknown; drummer TBD."
+  ]
+ },
  "ev_511b50c6854e": {
   "evidence": [
    {
@@ -4207,6 +4353,26 @@
    "Worth upgrading only if Erik plays and wants a jam."
   ]
  },
+ "ev_529b1294010b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Farm to Turntable-TBA (title only; no description captured)",
+    "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/"
+   }
+  ],
+  "fingerprint": "34792aa0a6f2",
+  "fit": 30,
+  "performers": [],
+  "reason": "A free 'Farm to Turntable' in-store at Down Home Music in El Cerrito on Dec 6, performer still TBA. Down Home in-stores can be great roots sets, but there is nothing to judge until a name is posted.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer TBA."
+  ]
+ },
  "ev_52a75275f895": {
   "evidence": [
    {
@@ -4231,6 +4397,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Dice title says Night 1, so there may be a second night."
+  ]
+ },
+ "ev_52bad56940ff": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Presented by Rootstock Arts .",
+    "url": "https://birdbeckett.com/event/monthly-morning-ragas_2026-11-29/"
+   }
+  ],
+  "fingerprint": "cb14121ade08",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Presenter; not identified",
+    "name": "Rootstock Arts",
+    "significance": "none"
+   }
+  ],
+  "reason": "A monthly Sunday 9am raga session at Bird & Beckett in SF, presented by Rootstock Arts. Indian classical music in a lovely small bookstore room, but no performers are named and it sits outside his core tastes.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers and tradition (Hindustani or Carnatic) not listed."
   ]
  },
  "ev_53649273c229": {
@@ -4552,6 +4744,33 @@
    "Lineup unknown; could be a polished production show rather than top-tier trad players.",
    "Santa Cruz, about 90 minutes from Oakland.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_57cf0eab1e02": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Meshell Ndegeocello's first two Blue Note albums - The Omnichord Real Book (2023) and No More Water: The Gospel Of James Baldwin (2024) - have persuasively reasserted her status as an unparalleled force in modern music, earning her the first two GRAMMY Awards to honor her own albums",
+    "url": "https://www.kuumbwajazz.org/calendar/meshell-ndegeocello-700-pm-2/"
+   }
+  ],
+  "fingerprint": "e2ac765bfab7",
+  "fit": 76,
+  "performers": [
+   {
+    "known_for": "Bassist, singer, bandleader; Blue Note artist",
+    "name": "Meshell Ndegeocello",
+    "significance": "major"
+   }
+  ],
+  "reason": "Meshell Ndegeocello plays Kuumbwa Jazz in Santa Cruz on Mar 30, 2027 (7pm; a 9pm show is also listed). Fresh off two Grammy-winning Blue Note albums, she leads a genre-dissolving band that spans folk, soul, jazz and hip-hop, and seeing her in a 200-seat jazz room is rare. Worth the drive if he can make a weeknight trip.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Kuumbwa capacity (about 200) and Santa Cruz distance are background knowledge.",
+   "Band lineup not listed."
   ]
  },
  "ev_5811f4e5fea0": {
@@ -5325,6 +5544,38 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_61b5ce18751b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "231407e94990",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "New York alto saxophonist and composer (background knowledge)",
+    "name": "David Binney",
+    "significance": "notable"
+   },
+   {
+    "known_for": "European duo leading the 'Elysium' project; not identified",
+    "name": "Herak/Bulatkin",
+    "significance": "none"
+   }
+  ],
+  "reason": "European duo Herak/Bulatkin bring their 'Elysium' project to Black Cat in SF on Nov 21, featuring alto saxophonist David Binney. Binney is a restless, compositional New York improviser (background knowledge: long-time Mythology Records leader, collaborator of Chris Potter, Donny McCaslin and Wayne Krantz), which makes this more adventurous than a typical supper-club booking. I do not know Herak/Bulatkin, so how open the music is depends on them.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Herak/Bulatkin not identified; time and price not listed.",
+   "Binney background is background knowledge."
+  ]
+ },
  "ev_6228bcc01e78": {
   "evidence": [
    {
@@ -5537,6 +5788,33 @@
    "Store page not fetched to confirm."
   ]
  },
+ "ev_675ffac0ad08": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Sam's Corner hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday December 6th 2026.",
+    "url": "https://events.humanitix.com/sams-corner-dec6"
+   }
+  ],
+  "fingerprint": "7bbd65f24c76",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Back Room owner and host (from earlier research)",
+    "name": "Sam Rudin",
+    "significance": "local"
+   }
+  ],
+  "reason": "Sam's Corner is the Back Room's recurring Sunday jazz hang in Berkeley; this Dec 6 listing names no players. An earlier research entry for this series described it as a friendly standards session hosted by owner Sam Rudin, not the adventurous improvised jazz he looks for.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup for this date not listed.",
+   "Series character comes from an earlier research entry, not this listing."
+  ]
+ },
  "ev_6777cc574fa4": {
   "evidence": [
    {
@@ -5666,6 +5944,53 @@
    "No host or format given."
   ]
  },
+ "ev_68d9d469508a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+    "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-11-29/"
+   }
+  ],
+  "fingerprint": "8a4dd2cac30e",
+  "fit": 5,
+  "performers": [],
+  "reason": "A Sunday-night internet radio show, Hooked On Bluegrass with Terry Brewer, not a live event.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not an in-person event."
+  ]
+ },
+ "ev_6918ea39b538": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Magos Herrera is a dazzling singer-songwriter, producer, and educator ... best known for her eloquent vocal improvisation and her singular bold style, which embraces elements of contemporary jazz with Ibero-American melodies and rhythms",
+    "url": "https://www.kuumbwajazz.org/calendar/magos-herrera/"
+   }
+  ],
+  "fingerprint": "43424fe57db6",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Mexican jazz vocalist, nine albums",
+    "name": "Magos Herrera",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Mexico City-born, New York-based vocalist Magos Herrera plays Kuumbwa Jazz in Santa Cruz on Apr 8, 2027. She blends contemporary jazz and vocal improvisation with Ibero-American song (background knowledge: she has worked with Brooklyn Rider and on Blue Note/Sony releases). A fine artist in a great small room, but polished Latin jazz song is a step off his core, and Santa Cruz is a long drive.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band lineup not listed.",
+   "Collaborator details are background knowledge."
+  ]
+ },
  "ev_693c1c27e9e5": {
   "evidence": [
    {
@@ -5785,67 +6110,53 @@
  "ev_6c0c361dbcd8": {
   "evidence": [
    {
-    "finding": "WebFetch permission request timed out; page not read; input description says doors 7:30pm, show 8pm, 'with A Grateful Dead Night', and calls Thompson a legendary flatpicker (Black Mountain Boys, David Nelson, David Grisman) who was a witness to the birth of the Warlocks.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Legendary flatpicker Eric Thompson (Black Mountain Boys, David Nelson, David Grisman) has assembled a dream team for a fresh approach to the music of his teenage years ... Dead Roots Revival includes: Multi-instrumentalist Paul Kotapish (Wake the Dead, New Vintage Revelers) Bassist Mark Schatz (Tony Rice, Bela Fleck, John Hartford, Nickel Creek, Sarah Jarosz.) Percussionist Brian Rice (Wake the Dead) Lifetime bluegrass insider Corbin Pagter (Crooked Jades, Country Ham, Mt. Diablo String Band) Special guest fiddler an[d ...] | Doors 7:30pm Show 8pm",
     "url": "https://tickets.venuepilot.com/e/eric-thompson-s-dead-roots-revival-2026-11-20-ashkenaz-music-dance-community-center-berkeley-ff9298"
-   },
-   {
-    "finding": "Earlier edition: Eric Thompson & Dead Roots Revival at Ashkenaz Friday June 12, 8pm, with Sam Reider, Corbin Pagter, Keith Terry, Paul Kotapish, Mark Schatz and Suzy Thompson; $20 adv / $25 door / $15 students.",
-    "url": "https://www.gratefulweb.com/articles/ashkenaz-announces-grateful-dead-nights-world-music-zydeco-dylan-after-party-more/"
-   },
-   {
-    "finding": "Bio lists Black Mountain Boys (with Jerry Garcia and David Nelson), Mother McCree's Uptown Jug Champions, New York Ramblers (with David Grisman; Union Grove championship), Charles River Valley Boys, Blue Flame Stringband, California Cajun Orchestra, Kleptograss; sideman work with Mike Seeger and Alice Gerrard; Tony Rice on his first solo LP.",
-    "url": "https://www.ericandsuzy.com/eric-bio.html"
    }
   ],
-  "fingerprint": "c7be1521c0fc",
-  "fit": 89,
+  "fingerprint": "aa71650115c8",
+  "fit": 90,
   "performers": [
    {
-    "known_for": "Flatpicking guitarist; Black Mountain Boys with Jerry Garcia, New York Ramblers with David Grisman, California Cajun Orchestra, Kleptograss",
+    "known_for": "Flatpicker; Black Mountain Boys with Jerry Garcia, California Cajun Orchestra",
     "name": "Eric Thompson",
     "significance": "foundational"
    },
    {
-    "known_for": "Fiddler and singer; Blue Flame Stringband, California Cajun Orchestra, duo with Eric (per June lineup)",
+    "known_for": "Fiddler and singer; Blue Flame Stringband, California Cajun Orchestra (background knowledge)",
     "name": "Suzy Thompson",
     "significance": "notable"
    },
    {
-    "known_for": "Kleptograss bandmate of Eric Thompson (per bio); June Dead Roots Revival lineup",
-    "name": "Paul Kotapish",
-    "significance": "local"
-   },
-   {
-    "known_for": "Bassist; Kleptograss bandmate of Eric Thompson (per bio); June lineup",
+    "known_for": "Bassist with Tony Rice, Bela Fleck, John Hartford",
     "name": "Mark Schatz",
     "significance": "notable"
    },
    {
-    "known_for": "Kleptograss bandmate of Eric Thompson (per bio); June lineup",
+    "known_for": "Multi-instrumentalist; Wake the Dead",
+    "name": "Paul Kotapish",
+    "significance": "local"
+   },
+   {
+    "known_for": "Crooked Jades, Country Ham, Mt. Diablo String Band",
     "name": "Corbin Pagter",
     "significance": "local"
    },
    {
-    "known_for": "June Dead Roots Revival lineup",
-    "name": "Sam Reider",
-    "significance": "local"
-   },
-   {
-    "known_for": "June Dead Roots Revival lineup",
-    "name": "Keith Terry",
+    "known_for": "Percussionist; Wake the Dead",
+    "name": "Brian Rice",
     "significance": "local"
    }
   ],
-  "reason": "Eric Thompson is a foundational Bay Area flatpicker who played in the Black Mountain Boys with Jerry Garcia and David Nelson, then in the New York Ramblers with David Grisman, Blue Flame Stringband, California Cajun Orchestra and Kleptograss. Dead Roots Revival reframes early Dead repertoire through acoustic string-band players; the June 2026 Ashkenaz edition featured Suzy Thompson, Paul Kotapish, Mark Schatz, Corbin Pagter, Sam Reider and Keith Terry. A $20-ish night at Ashkenaz with a living link to the Garcia bluegrass years is squarely in Erik's lane, though it leans on Dead material rather than originals.",
-  "researched_at": "2026-10-31T21:51:08+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "Legendary flatpicker Eric Thompson, who played bluegrass with Jerry Garcia in the Black Mountain Boys and in Mother McCree's Uptown Jug Champions with Pigpen, leads Dead Roots Revival at Ashkenaz this Friday, Nov 20. The band is a Bay Area acoustic dream team: Suzy Thompson on fiddle, Paul Kotapish, Mark Schatz (Tony Rice, Bela Fleck, John Hartford), Corbin Pagter (Crooked Jades) and Brian Rice, playing early Dead repertoire as string-band music. A living link to the 1960s Palo Alto folk and bluegrass scene in a community dance hall close to home; it leans on Dead material rather than originals, but this lineup is exactly his lane.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "exceptional",
   "uncertainties": [
-   "Primary venuepilot page for Nov 20 could not be fetched; date and time come from the input record only",
-   "November lineup not confirmed; it may differ from the June lineup",
-   "'with A Grateful Dead Night' wording is ambiguous: may indicate a second act or just the night's theme",
-   "Price for the November date not confirmed"
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "'with A Grateful Dead Night' wording may mean a second act or just the theme of the night.",
+   "Price not in the captured text."
   ]
  },
  "ev_6c48ae12a392": {
@@ -5916,6 +6227,43 @@
   "uncertainties": [
    "Current lineup unknown.",
    "Reels-and-jigs description is background knowledge."
+  ]
+ },
+ "ev_6d3ab50b7f24": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Crooked Jades are known for their rare and obscure repertoire, beautiful original compositions, inspired arrangements and eclectic, often vintage instrumentation. Band members include Jeff Kazor (vocals/guitar/ukulele), Joshua Zucker (bass), Lisa Berman (vocals/slide guitar/banjo/harmonium), Amy Kassir (fiddle) and Erik Pearson (vocals/banjos/ukulele/harmonium/slide guitar).",
+    "url": "https://californiabluegrass.org/event/crooked-jades-at-the-otter-opry/"
+   }
+  ],
+  "fingerprint": "c018df82241c",
+  "fit": 76,
+  "performers": [
+   {
+    "known_for": "SF old-time/pre-radio string band led by Jeff Kazor",
+    "name": "The Crooked Jades",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Banjo player, Crooked Jades",
+    "name": "Erik Pearson",
+    "significance": "local"
+   },
+   {
+    "known_for": "Fiddle, Crooked Jades",
+    "name": "Amy Kassir",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Crooked Jades, one of his seed bands, play an Otter Opry Saturday matinee (3pm) at Monterey United Methodist Church on Dec 5. Jeff Kazor's band revives pre-radio string music with rare repertoire and vintage instrumentation, with Erik Pearson on banjos and Amy Kassir on fiddle. A great band in a small church room, but Monterey is roughly a two-hour drive from Oakland, so this is a day trip rather than a night out.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Distance from Oakland (about two hours) is background knowledge.",
+   "Price not in the captured text."
   ]
  },
  "ev_6d9bd99ae897": {
@@ -7089,6 +7437,42 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized; lineup differs between title and listing text."
+  ]
+ },
+ "ev_7e2915e6253d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Come join Robin Fischer and Rowan McCallister and their talented friends every fourth Saturday at the friendliest pub in Oakland! Old Time tunes, drinks, and food",
+    "url": "https://californiabluegrass.org/event/bearcat-stringband-and-friends-at-catos-alehouse/2027-01-23/"
+   }
+  ],
+  "fingerprint": "9dcdbe33b2a6",
+  "fit": 52,
+  "performers": [
+   {
+    "known_for": "Bay Area old-time band",
+    "name": "Bearcat Stringband",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bearcat Stringband",
+    "name": "Robin Fischer",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bearcat Stringband",
+    "name": "Rowan McCallister",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bearcat Stringband (Robin Fischer, Rowan McCallister and friends) play old-time tunes on the fourth Saturday afternoon at Cato's Ale House in Oakland, Jan 23. Squarely his genre a few minutes from home in a casual pub; a nice low-stakes afternoon rather than a destination show.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Members beyond the two named are not identified."
   ]
  },
  "ev_7f796058bad7": {
@@ -8275,6 +8659,25 @@
    "Marin Bluegrass Sessions format and performers not listed."
   ]
  },
+ "ev_8ee83f604a15": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-12-06/"
+   }
+  ],
+  "fingerprint": "be21e9cca4fd",
+  "fit": 15,
+  "performers": [],
+  "reason": "The Lucky Horseshoe's weekly Sunday bluegrass performance jam in SF. Players take turns on stage; fun if he picks, but not a show to plan around.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_90bf874e3242": {
   "evidence": [
    {
@@ -8365,6 +8768,26 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "The 'tribute to' rule hit is probably incidental listing text, not a tribute act.",
    "Santa Cruz is roughly 1.5 hours from Oakland."
+  ]
+ },
+ "ev_9233b14b84a0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: M 7:30pm: bluegrass/country jam, The Freight: 2020 Addison St, Berkeley",
+    "url": "https://www.sffmc.org/community-folk-calendar/"
+   }
+  ],
+  "fingerprint": "63b6f5604db6",
+  "fit": 20,
+  "performers": [],
+  "reason": "A Monday 7:30pm bluegrass/country jam at the Freight in Berkeley. A participatory pickers' session, not a show.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No host or format details captured."
   ]
  },
  "ev_92de08e48b2c": {
@@ -8761,6 +9184,51 @@
   "tier": "low",
   "uncertainties": [
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_9aeca3bf3f37": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Gregg & Katie Present Hollywood Nights: A Classic Cabaret Revue - SF (title only; no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Di7CnMAJ"
+   }
+  ],
+  "fingerprint": "dba294cb8400",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "Cabaret performers; not identified",
+    "name": "Gregg & Katie",
+    "significance": "none"
+   }
+  ],
+  "reason": "Gregg & Katie's 'Hollywood Nights' classic cabaret revue at The Lost Church in SF on Nov 29. A show-tune style revue could appeal to his partner's love of musicals, but it reads as a standards cabaret by unknown performers rather than a real production.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not identified; no description."
+  ]
+ },
+ "ev_9af7c6a3fa72": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Garage Jam is an open, friendly bluegrass circle that meets the first and third Monday of every month, from 6 to 8 pm.",
+    "url": "https://californiabluegrass.org/event/garage-jam/2027-02-15/"
+   }
+  ],
+  "fingerprint": "522527689da6",
+  "fit": 10,
+  "performers": [],
+  "reason": "The Garage Jam, an open bluegrass circle in Petaluma on the first and third Mondays. A participatory pickers' jam, not a show.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_9b863080c835": {
@@ -10103,6 +10571,25 @@
    "No primary page fetched"
   ]
  },
+ "ev_b2a4ebc1e894": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome.",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-09/"
+   }
+  ],
+  "fingerprint": "e57147ed5634",
+  "fit": 12,
+  "performers": [],
+  "reason": "The weekly East Bay Bluegrassers jam upstairs at Rockin' Robbie's in El Cerrito. All-levels participatory jam, not a show.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_b3184127bcd6": {
   "evidence": [
    {
@@ -10412,6 +10899,38 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_b836db1d7dd3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Zellerbach Hall: Jason Moran and the Harlem Hellfighters, James Reese Europe and the Absence of Ruin",
+    "url": "https://calperformances.org/events/2026-27/illuminations-innocence-experience/jason-moran-and-the-harlem-hellfighters-james-reese-europe-and-the-absence-of-ruin/"
+   }
+  ],
+  "fingerprint": "afc3d3a1e48c",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Jazz pianist and composer, MacArthur Fellow (background knowledge)",
+    "name": "Jason Moran",
+    "significance": "major"
+   },
+   {
+    "known_for": "Bandleader of the 369th 'Harlem Hellfighters' band, early jazz pioneer (subject of the work; background knowledge)",
+    "name": "James Reese Europe",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "Pianist Jason Moran brings his Harlem Hellfighters project, a tribute to James Reese Europe and his WWI 369th Infantry band, to Zellerbach Hall on Nov 21. Moran is one of the most inventive jazz musicians of his generation (background knowledge: MacArthur Fellow, Blue Note artist, Kennedy Center jazz adviser), and this work treats Europe's band as a root of jazz, mixing history, brass-band music and improvisation. A big hall rather than an intimate room, but a serious, emotionally charged jazz event this Saturday in Berkeley.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Project details and Moran's credits are background knowledge.",
+   "Price and seating not captured."
   ]
  },
  "ev_b86e2dee0d3b": {
@@ -11350,6 +11869,37 @@
   "uncertainties": [
    "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_c985af4b74ea": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Come celebrate the McQuilkin family birthdays at Marin's legendary Rancho Nicasio nightclub ... Enjoy great music, food, and dancing to the sounds of HOWIE'S PERSUASION.",
+    "url": "https://ranchonicasio.com/event/mcqs-birthday-bash-2/"
+   }
+  ],
+  "fingerprint": "f6f1e2c8489e",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Marin family-music performer",
+    "name": "Michael McQuilkin",
+    "significance": "local"
+   },
+   {
+    "known_for": "Dance band; not identified",
+    "name": "Howie's Persuasion",
+    "significance": "none"
+   }
+  ],
+  "reason": "A family birthday benefit at Rancho Nicasio with Michael McQuilkin and friends and dancing to Howie's Persuasion, Jan 10 at 5pm. A friendly Marin community party, not a roots or jazz show for him.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Style of Howie's Persuasion not stated."
   ]
  },
  "ev_cadee8918518": {
@@ -12576,27 +13126,37 @@
  "ev_dde7842ecfb5": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: <span><span>Music at 8:30pm; tickets $10</span></span>",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Music at 8:30pm; tickets $10",
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "f9b030394f01",
+  "fingerprint": "1d501a69f439",
   "fit": 30,
   "performers": [
    {
     "known_for": "Not identified",
     "name": "Brody Schenk",
     "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Sean Forth",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "David Coppin Lanegan",
+    "significance": "none"
    }
   ],
-  "reason": "Brody Schenk plays a $10 night at Little Hill Lounge in El Cerrito. I do not recognize the name and the listing gives no genre, so this cannot be judged yet.",
-  "researched_at": "2026-11-08T22:43:25+00:00",
+  "reason": "Brody Schenk, Sean Forth and David Coppin Lanegan share a $10 bill at Little Hill Lounge in El Cerrito on Nov 28. I do not recognize any of the three names and the listing gives no genre, so this cannot be judged yet.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Listing gives no genre or description."
+   "Listing gives no genre or description of the performers."
   ]
  },
  "ev_de0b7dc59043": {
@@ -14077,6 +14637,25 @@
    "Long drive to West Marin."
   ]
  },
+ "ev_f961e71e21f9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing.",
+    "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-02-28/"
+   }
+  ],
+  "fingerprint": "5ab1639683f5",
+  "fit": 15,
+  "performers": [],
+  "reason": "The Marin Bluegrass Sessions, a monthly open-mic bluegrass jam with a backing band on the Sweetwater stage in Mill Valley. Participatory, not a show.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_f9f54b16587f": {
   "evidence": [
    {
@@ -14478,6 +15057,38 @@
   "uncertainties": [
    "Bird & Beckett page not fetched; date, 7:30 pm time and price unconfirmed against primary source.",
    "No independent bio found for Chris Trinidad or for Naima Shalhoub in this pass."
+  ]
+ },
+ "ev_ff519a10b99d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dec. 18 (4 pm): AJ Frankel & Maverick Bluegrass - Winters Tavern, Pacifica",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "7060f8b50a98",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Pacifica dobro/guitar player (from earlier research)",
+    "name": "AJ Frankel",
+    "significance": "local"
+   },
+   {
+    "known_for": "Local bluegrass duo (from earlier research)",
+    "name": "Maverick",
+    "significance": "local"
+   }
+  ],
+  "reason": "AJ Frankel & Maverick Bluegrass play a 4pm set at Winters Tavern in Pacifica on Dec 18. An earlier research entry identified Avram (AJ) Frankel as a Pacifica dobro and guitar player in the duo Maverick with David Thom; pleasant local bluegrass close to the coast rather than a must-see.",
+  "researched_at": "2026-11-16T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identification of AJ Frankel comes from an earlier research entry and is itself inference.",
+   "Lineup and price not listed."
   ]
  },
  "ev_ffe4b925a214": {
