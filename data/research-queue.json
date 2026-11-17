@@ -1,8 +1,47 @@
 {
- "backlog": 1167,
+ "backlog": 1161,
  "count": 40,
- "generated_at": "2026-11-16T22:46:49+00:00",
+ "generated_at": "2026-11-17T08:11:11+00:00",
  "items": [
+  {
+   "city": "San Francisco",
+   "date": "2026-11-22",
+   "description": "Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
+   "fingerprint": "75b6fff8f44b",
+   "id": "ev_9513ad6c2c01",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13491/2026-11-22"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T00:00:00-08:00",
+   "title": "Europe's Herak/Bulatkin 'Elysium', ft/ Sax Visionary David Binney",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-23",
+   "description": "",
+   "fingerprint": "1ca4b84b771e",
+   "id": "ev_debe98f53e2a",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-23T00:00:00-08:00",
+   "title": "CANCELED Elena Gabrielle – Disturb the Vibe – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000D1KEvMAN",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-11-19",
@@ -227,44 +266,6 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-11-22",
-   "description": "Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
-   "fingerprint": "daa572823fd3",
-   "id": "ev_9513ad6c2c01",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-22T00:00:00-08:00",
-   "title": "Herak/Bulatkin 'Elysium' featuring David Binney",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-16",
-   "description": "The DeLuxe: DeLuxe Jazz Collective",
-   "fingerprint": "48b35025622a",
-   "id": "ev_9e76a3df31ad",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-16T00:00:00-08:00",
-   "title": "DeLuxe Jazz Collective",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "The DeLuxe",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
    "city": "San Francisco",
    "date": "2026-12-31",
    "description": "",
@@ -283,6 +284,25 @@
     "seed artist: Will Sprott (+20)",
     "roots_adjacent: folk, country (+12)",
     "intimate room: Bottom of the Hill (+14)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "Sonoma",
+   "date": "2026-11-23",
+   "description": "At the Sonoma Community Center 6:30 – 8:30pm on the 2nd and 4th Monday of each month. 276 E. Napa St. room 210, Sonoma All bluegrass instruments and levels are welcome to come and pick! (Formerly called the Reel Roadhouse jam.)",
+   "fingerprint": "7e9399b621d3",
+   "id": "ev_90e9c88bffed",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-23T18:30:00-08:00",
+   "title": "Sonoma Town Bluegrass Jam",
+   "url": "https://californiabluegrass.org/event/sonoma-town-bluegrass-jam-formerly-the-reel-roadhouse-jamnew-time-and-place/2026-11-23/",
+   "venue": "Sonoma Community Center",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)"
    ]
   },
@@ -349,22 +369,21 @@
    ]
   },
   {
-   "city": "Sonoma",
-   "date": "2026-11-23",
-   "description": "At the Sonoma Community Center 6:30 – 8:30pm on the 2nd and 4th Monday of each month. 276 E. Napa St. room 210, Sonoma All bluegrass instruments and levels are welcome to come and pick! (Formerly called the Reel Roadhouse jam.)",
-   "fingerprint": "7e9399b621d3",
-   "id": "ev_90e9c88bffed",
+   "city": "San Francisco",
+   "date": "2026-11-27",
+   "description": "with Cinder Well",
+   "fingerprint": "dfe20f673d1f",
+   "id": "ev_dd0335c434fa",
    "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-23T18:30:00-08:00",
-   "title": "Sonoma Town Bluegrass Jam",
-   "url": "https://californiabluegrass.org/event/sonoma-town-bluegrass-jam-formerly-the-reel-roadhouse-jamnew-time-and-place/2026-11-23/",
-   "venue": "Sonoma Community Center",
+   "rules_score": 49.5,
+   "rules_tier": "inventory",
+   "start": "2026-11-27T20:00:00-08:00",
+   "title": "EMMA RUTH RUNDLE",
+   "url": "https://wl.seetickets.us/event/emma-ruth-rundle/699875?afflky=GreatAmericanMusicHall",
+   "venue": "Great American Music Hall",
    "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
+    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
+    "intimate room: Great American Music Hall (+14)"
    ]
   },
   {
@@ -408,24 +427,6 @@
   },
   {
    "city": "San Francisco",
-   "date": "2026-11-27",
-   "description": "with Cinder Well",
-   "fingerprint": "dfe20f673d1f",
-   "id": "ev_dd0335c434fa",
-   "other_urls": [],
-   "rules_score": 49.5,
-   "rules_tier": "inventory",
-   "start": "2026-11-27T20:00:00-08:00",
-   "title": "EMMA RUTH RUNDLE",
-   "url": "https://wl.seetickets.us/event/emma-ruth-rundle/699875?afflky=GreatAmericanMusicHall",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
-    "intimate room: Great American Music Hall (+14)"
-   ]
-  },
-  {
-   "city": "San Francisco",
    "date": "2026-11-19",
    "description": "Two Runner at Kilowatt Bar on Nov 19, 2026",
    "fingerprint": "8131cad645ba",
@@ -462,44 +463,6 @@
    "why_rules": [
     "intimate room: Bird & Beckett (+14)",
     "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-21",
-   "description": "Open for all ages and abilities, a get-together to have fun playing and singing (not strictly) bluegrass. Contact cnharvey@citlink.net for more info.",
-   "fingerprint": "db455af0e63f",
-   "id": "ev_e809b36dace2",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-21T14:00:00-08:00",
-   "title": "Bluegrass Jam in Mount Shasta",
-   "url": "https://californiabluegrass.org/event/bluegrass-jam-in-mount-shasta/",
-   "venue": "",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-21",
-   "description": "The Jazz School: Dave Eshelman's Jazz Garden Big Band",
-   "fingerprint": "207ad53acdb4",
-   "id": "ev_f8548e0717ac",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-21T00:00:00-08:00",
-   "title": "Dave Eshelman's Jazz Garden Big Band",
-   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-   "venue": "The Jazz School",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   },
   {
@@ -597,65 +560,41 @@
    ]
   },
   {
-   "city": "Mill Valley",
-   "date": "2027-03-28",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "76dce34bc0d2",
-   "id": "ev_02dbb31c4de8",
+   "city": "",
+   "date": "2026-11-21",
+   "description": "Open for all ages and abilities, a get-together to have fun playing and singing (not strictly) bluegrass. Contact cnharvey@citlink.net for more info.",
+   "fingerprint": "db455af0e63f",
+   "id": "ev_e809b36dace2",
    "other_urls": [],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2027-03-28T12:00:00-07:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-03-28/",
-   "venue": "Sweetwater Music Hall",
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T14:00:00-08:00",
+   "title": "Bluegrass Jam in Mount Shasta",
+   "url": "https://californiabluegrass.org/event/bluegrass-jam-in-mount-shasta/",
+   "venue": "",
    "why_rules": [
     "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
+    "listed by a taste-aligned calendar (+8)",
+    "location unresolved (no penalty)"
    ]
   },
   {
-   "city": "Mill Valley",
-   "date": "2027-04-25",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "038a6db7b5a3",
-   "id": "ev_1e72cf52c774",
+   "city": "",
+   "date": "2026-11-21",
+   "description": "The Jazz School: Dave Eshelman's Jazz Garden Big Band",
+   "fingerprint": "207ad53acdb4",
+   "id": "ev_f8548e0717ac",
    "other_urls": [],
-   "rules_score": 72.0,
-   "rules_tier": "strong",
-   "start": "2027-04-25T12:00:00-07:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-04-25/",
-   "venue": "Sweetwater Music Hall",
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-21T00:00:00-08:00",
+   "title": "Dave Eshelman's Jazz Garden Big Band",
+   "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
+   "venue": "The Jazz School",
    "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-09",
-   "description": "SEKO at The Chapel at 2027-01-09T20:00:00-0800",
-   "fingerprint": "09f7578b990c",
-   "id": "ev_445e692b5cc8",
-   "other_urls": [
-    "https://wl.eventim.us/event/swirlies/706410?afflky=TheChapel"
-   ],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2027-01-09T20:00:00-08:00",
-   "title": "SEKO",
-   "url": "https://www.songkick.com/concerts/43444087-seko-at-chapel",
-   "venue": "The Chapel",
-   "why_rules": [
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)",
-    "listed by a taste-aligned calendar (+10)",
-    "2 independent sources (+4)"
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
    ]
   },
   {
@@ -698,6 +637,28 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2027-01-09",
+   "description": "SEKO at The Chapel at 2027-01-09T20:00:00-0800",
+   "fingerprint": "09f7578b990c",
+   "id": "ev_445e692b5cc8",
+   "other_urls": [
+    "https://wl.eventim.us/event/swirlies/706410?afflky=TheChapel"
+   ],
+   "rules_score": 56.0,
+   "rules_tier": "strong",
+   "start": "2027-01-09T20:00:00-08:00",
+   "title": "SEKO",
+   "url": "https://www.songkick.com/concerts/43444087-seko-at-chapel",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)",
+    "listed by a taste-aligned calendar (+10)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
    "city": "Oakland",
    "date": "2026-11-22",
    "description": "Oz Noy at Yoshi's at 2026-11-22T19:00:00-0800",
@@ -720,47 +681,23 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-11-16",
-   "description": "The Mountain Goats at The Fillmore at 2026-11-16T20:00:00-0800",
-   "fingerprint": "eee05be66923",
-   "id": "ev_a8f504565225",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43261700-mountain-goats-at-fillmore",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://www.jambase.com/show/the-mountain-goats-the-fillmore-20261116"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-16T20:00:00-08:00",
-   "title": "The Mountain Goats - Night Two: Alpha",
-   "url": "https://www.ticketmaster.com/the-mountain-goats-night-two-alpha-san-francisco-california-11-16-2026/event/1C0064C40B8DB3FE",
-   "venue": "The Fillmore",
+   "city": "Mill Valley",
+   "date": "2027-03-28",
+   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+   "fingerprint": "76dce34bc0d2",
+   "id": "ev_02dbb31c4de8",
+   "other_urls": [],
+   "rules_score": 72.0,
+   "rules_tier": "strong",
+   "start": "2027-03-28T12:00:00-07:00",
+   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
+   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-03-28/",
+   "venue": "Sweetwater Music Hall",
    "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-16",
-   "description": "Jorja Smith and Wesley Joseph at Castro Theatre at 2026-11-16T20:00:00-0800",
-   "fingerprint": "c475bb6c2332",
-   "id": "ev_dc22cd837a87",
-   "other_urls": [
-    "https://apeconcerts.com/events/jorja-smith-261116/",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://www.jambase.com/show/jorja-smith-castro-theatre-20261116"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-16T20:00:00-08:00",
-   "title": "Jorja Smith, Wesley Joseph",
-   "url": "https://www.songkick.com/concerts/43353131-jorja-smith-at-castro-theatre",
-   "venue": "Castro Theatre",
-   "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
+    "roots_core: bluegrass (+22)",
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   },
   {
@@ -782,6 +719,26 @@
    ]
   },
   {
+   "city": "Mill Valley",
+   "date": "2027-04-25",
+   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+   "fingerprint": "038a6db7b5a3",
+   "id": "ev_1e72cf52c774",
+   "other_urls": [],
+   "rules_score": 72.0,
+   "rules_tier": "strong",
+   "start": "2027-04-25T12:00:00-07:00",
+   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
+   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-04-25/",
+   "venue": "Sweetwater Music Hall",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
    "city": "El Cerrito",
    "date": "2026-12-05",
    "description": "",
@@ -799,6 +756,47 @@
     "noise_tribute: tribute to (-18)",
     "intimate room: Down Home Music (+14)",
     "booking signal: Down Home Music (+8)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-11-17",
+   "description": "Thundercat at Fox Theater at 2026-11-17T20:00:00-0800",
+   "fingerprint": "f3b80fb91f20",
+   "id": "ev_f190f9ceac52",
+   "other_urls": [
+    "https://thefoxoakland.com/events/thundercat-261117",
+    "https://apeconcerts.com/events/thundercat-261117/",
+    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   ],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-17T20:00:00-08:00",
+   "title": "Thundercat, fera",
+   "url": "https://www.songkick.com/concerts/43322177-thundercat-at-fox-theater",
+   "venue": "Fox Theater Oakland",
+   "why_rules": [
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2027-01-23",
+   "description": "",
+   "fingerprint": "ec19eae866f0",
+   "id": "ev_0578d30345e1",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2027-01-23T12:00:00-08:00",
+   "title": "CLOSED FOR PRIVATE PARTY",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+8)"
    ]
   }
  ]

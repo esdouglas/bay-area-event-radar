@@ -1,16 +1,17 @@
 {
- "inventory_total": 5060,
- "inventory_upcoming": 3047,
- "merged_sources": 16,
- "new_events": 17,
- "run_id": "33cf01b57c11",
- "seconds": 280.9,
+ "inventory_total": 5077,
+ "inventory_upcoming": 3018,
+ "merged_sources": 7,
+ "new_events": 24,
+ "run_id": "d42161ef00e2",
+ "seconds": 295.1,
  "sources_due": 65,
  "sources_failed": [
   "down-home-music",
+  "kuumbwa",
   "outsound",
   "broadway-sf"
  ],
- "sources_ok": 62,
- "ts": "2026-11-16T22:44:30+00:00"
+ "sources_ok": 61,
+ "ts": "2026-11-17T08:08:53+00:00"
 }
