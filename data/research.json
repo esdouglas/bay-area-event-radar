@@ -69,6 +69,26 @@
    "Tolling's Grammys came with Turtle Island Quartet (background knowledge, not checked against a source this run)."
   ]
  },
+ "ev_01ba4fd7b6c3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-12-20/"
+   }
+  ],
+  "fingerprint": "9e86c4f327e2",
+  "fit": 20,
+  "performers": [],
+  "reason": "The weekly Sunday bluegrass performance jam at the Lucky Horseshoe in SF on 20 Dec. A participatory jam rather than a show.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring weekly event."
+  ]
+ },
  "ev_02e5e92ba13e": {
   "evidence": [
    {
@@ -128,6 +148,43 @@
   "uncertainties": [
    "Price not listed; band lineup for the date not named.",
    "Rules score credited 'musical' as theater, which is spurious; this is a music dinner show."
+  ]
+ },
+ "ev_0352cf234706": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Bottom of the Hill: Warp, Dinner Date, Crosswords",
+    "url": "http://www.bottomofthehill.com/20261117.html"
+   }
+  ],
+  "fingerprint": "c8706419e8ac",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Warp",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Dinner Date",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Crosswords",
+    "significance": "none"
+   }
+  ],
+  "reason": "Warp, Dinner Date and Crosswords play Bottom of the Hill tonight, 17 Nov. I do not recognize them and the collector's genre tags point to thrash or hardcore, far from his taste.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No bio text captured; genre inferred from collector tags.",
+   "Tonight's show."
   ]
  },
  "ev_03a9268c7c6c": {
@@ -2204,6 +2261,32 @@
    "Which book producers will speak"
   ]
  },
+ "ev_29039760e751": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Andre Nickatina at Bottom of the Hill at 2026-12-11T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43282056-andre-nickatina-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "8decb3c464ef",
+  "fit": 74,
+  "performers": [
+   {
+    "known_for": "San Francisco underground rapper since the early 1990s (background knowledge)",
+    "name": "Andre Nickatina",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Andre Nickatina plays Bottom of the Hill on 11 Dec. (Background knowledge: Nickatina, originally Dre Dog, is a Fillmore-born SF rap original whose 1990s independent records like 'Ayo for Yayo' made him a cult Bay Area underground legend.) Seeing him in a 350-capacity room is exactly the classic Bay Area hip-hop he asked for.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Openers and ticket status unknown."
+  ]
+ },
  "ev_29657ffe0c2a": {
   "evidence": [
    {
@@ -3490,6 +3573,26 @@
    "Beat-driven production may be less 'intimate improvised' than he prefers."
   ]
  },
+ "ev_40011cab7ea9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-16/"
+   }
+  ],
+  "fingerprint": "b135060572c3",
+  "fit": 22,
+  "performers": [],
+  "reason": "The long-running all-levels East Bay Bluegrassers Jam meets Wednesday 16 Dec upstairs at Rockin' Robbie's in El Cerrito. A weekly participatory jam close to home, not a performance.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring weekly event."
+  ]
+ },
  "ev_409a40269ac4": {
   "evidence": [
    {
@@ -3917,6 +4020,33 @@
    "Another Higbie date (Dec 19, Occidental) appears in the repo calendars."
   ]
  },
+ "ev_48a31dde5ae9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Silverada at The Independent at 2026-11-17T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43279584-silverada-at-independent"
+   }
+  ],
+  "fingerprint": "12d91af0ed99",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Austin country band, formerly Mike and the Moonpies (background knowledge)",
+    "name": "Silverada",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Silverada plays The Independent tonight, 17 Nov. (Background knowledge: Silverada is the renamed Mike and the Moonpies, an Austin honky-tonk and cosmic-country band with strong songwriting.) Solid countercultural-leaning Americana, though country-rock is at the edge of his roots taste.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identity as the former Mike and the Moonpies is background knowledge.",
+   "Tonight's show."
+  ]
+ },
  "ev_490541862f7a": {
   "evidence": [
    {
@@ -4332,6 +4462,42 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Leaders' backgrounds unknown."
+  ]
+ },
+ "ev_52043313bc2b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Nov. 29: Next-Generation of Deadhead Musicians (Spencer Krenz, Scott Guberman, members of Broken Compass, DeadSet805, & Lydia Cooley) - Sweetwater, Mill Valley; 5:30-7 pm: pre-show CBA-sponsored bluegrass jam; 7-8 pm: pre-show open Grateful Dead jam",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "a16318d33376",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Spencer Krenz",
+    "significance": "local"
+   },
+   {
+    "known_for": "Keyboardist in the Dead-family scene (background knowledge, unconfirmed)",
+    "name": "Scott Guberman",
+    "significance": "local"
+   },
+   {
+    "known_for": "Grateful Dead cover band (per name)",
+    "name": "DeadSet805",
+    "significance": "none"
+   }
+  ],
+  "reason": "A 'Next-Generation of Deadhead Musicians' night at Sweetwater on 29 Nov, with a CBA-sponsored bluegrass jam and an open Grateful Dead jam before the show. This is essentially a Dead-repertoire night by local players, which leans tribute; the pre-show bluegrass jam is the most on-taste part.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Players (Spencer Krenz, Scott Guberman, Broken Compass, DeadSet805, Lydia Cooley) not recognized beyond the listing."
   ]
  },
  "ev_5254d51b280d": {
@@ -4960,6 +5126,38 @@
    "Lineup not in the listing."
   ]
  },
+ "ev_5a87687e90e8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Bottom of the Hill: Ruby Ibarra with The Balikbayans, Carl Angelo, Amihan",
+    "url": "https://dice.fm/event/6abb2cd5206f750001d56d20"
+   }
+  ],
+  "fingerprint": "9abe69d01492",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Bay Area Filipina-American rapper, Circa91 (background knowledge)",
+    "name": "Ruby Ibarra",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Her backing band (assumed from billing)",
+    "name": "The Balikbayans",
+    "significance": "none"
+   }
+  ],
+  "reason": "Ruby Ibarra headlines Bottom of the Hill on 19 Nov with The Balikbayans, Carl Angelo and Amihan. (Background knowledge: Ibarra is a Bay Area Filipina-American rapper whose 2017 album Circa91 earned wide praise for sharp, conscious bilingual verses.) A Bay Area underground hip-hop act in a small room is a plausible fit, though she is newer than his golden-age touchstones.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Openers not recognized.",
+   "Rules' R&B penalty likely from the collector's genre tags."
+  ]
+ },
  "ev_5aa52778aca9": {
   "evidence": [
    {
@@ -5149,6 +5347,43 @@
   "tier": "strong",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_5bc8921d9e67": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Sugar Candy Mountain / The Breathing Room / Marika Christine",
+    "url": "http://www.bottomofthehill.com/20261216.html"
+   }
+  ],
+  "fingerprint": "5d13b83529af",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Psych-pop band, Oakland/Joshua Tree (background knowledge)",
+    "name": "Sugar Candy Mountain",
+    "significance": "local"
+   },
+   {
+    "known_for": "not identified",
+    "name": "The Breathing Room",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Marika Christine",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sugar Candy Mountain headline Bottom of the Hill on 16 Dec with The Breathing Room and Marika Christine. (Background knowledge: Sugar Candy Mountain is the Ash Reiter and Will Halsey psych-pop project with Oakland roots, warm and Tropicalia-tinged rather than folk.) A good-vibes psych night in a small room; not core roots or freak-folk despite the rules' 'psychedelic folk' match.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured; genre tag matched by the collector is unexplained.",
+   "Openers not recognized."
   ]
  },
  "ev_5c10ac3ca875": {
@@ -6512,6 +6747,38 @@
    "Program unknown."
   ]
  },
+ "ev_7016e9f3d4cb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: KEEP THE BLUES with THE MUD STOMPERS featuring LESTER CHAMBERS",
+    "url": "https://sweetwatermusichall.org/event/keep-the-blues-with-the-mud-stompers-featuring-lester-chambers/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "15b7afd77dea",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "The Chambers Brothers, 'Time Has Come Today' (background knowledge)",
+    "name": "Lester Chambers",
+    "significance": "major"
+   },
+   {
+    "known_for": "not identified",
+    "name": "The Mud Stompers",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Mud Stompers' 'Keep the Blues' afternoon at Sweetwater in Mill Valley on 21 Nov (1 pm) features Lester Chambers. (Background knowledge: Chambers sang and played harmonica in the Chambers Brothers, whose 'Time Has Come Today' is a psychedelic-soul landmark, and he lives in Marin.) A rare chance to see a 1960s countercultural voice in a small room, though a blues matinee with an unknown band is a hedge.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The Mud Stompers not recognized.",
+   "How much Chambers sings is not stated."
+  ]
+ },
  "ev_7041a96cd45e": {
   "evidence": [
    {
@@ -6546,6 +6813,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Projects not identified."
+  ]
+ },
+ "ev_70dad888cd63": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Rose's Pawn Shop",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "f6bbcef419b8",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "LA roots/bluegrass-rock band (background knowledge)",
+    "name": "Rose's Pawn Shop",
+    "significance": "local"
+   }
+  ],
+  "reason": "Rose's Pawn Shop plays Little Hill Lounge in El Cerrito on 10 Jan. (Background knowledge: a Los Angeles roots band mixing bluegrass instrumentation, fiddle and banjo with rock energy.) A fun string-band-flavored night in a small room near home, not a must-see.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured; band identity from background knowledge."
   ]
  },
  "ev_71677d822430": {
@@ -6841,16 +7134,16 @@
  "ev_762e2f34e32e": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: Gian Achen + Larisa Roberts + Michael Bowman",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Live Music at Little Hill Lounge: Gian Achen and Future Past, Larisa Roberts and Michael Guy Bowman",
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "0d6e8959d9c9",
+  "fingerprint": "e2250d790216",
   "fit": 40,
   "performers": [
    {
     "known_for": "not identified",
-    "name": "Gian Achen",
+    "name": "Gian Achen and Future Past",
     "significance": "none"
    },
    {
@@ -6860,18 +7153,19 @@
    },
    {
     "known_for": "not identified",
-    "name": "Michael Bowman",
+    "name": "Michael Guy Bowman",
     "significance": "none"
    }
   ],
-  "reason": "Gian Achen, Larisa Roberts and Michael Bowman share a bill at Little Hill Lounge in El Cerrito on 29 Nov. None of the three is described in the captured listing and I do not recognize them, so genre and fit are unresolved.",
-  "researched_at": "2026-11-13T22:42:50+00:00",
+  "reason": "Gian Achen and Future Past share a Little Hill Lounge bill in El Cerrito on 29 Nov with the duo Larisa Roberts and Michael Guy Bowman. The listing now names Achen's band but still gives no genre or bios, and I do not recognize any of them, so fit is unresolved.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "No genre or bio text captured; needs a look at the venue page."
+   "No genre or bio text captured; needs a look at the venue page.",
+   "Lineup wording changed since the last pass (now 'Gian Achen and Future Past')."
   ]
  },
  "ev_768c7f638f49": {
@@ -6906,6 +7200,33 @@
   "tier": "low",
   "uncertainties": [
    "Walking Mirrors not researched."
+  ]
+ },
+ "ev_76cd10b90ee4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Jan. 30: Jesse Appleman's West Coast Stringband Project - Otter Opry, Monterey",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "839ae162be86",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Jesse Appleman",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jesse Appleman's West Coast Stringband Project plays the Otter Opry in Monterey on 30 Jan. The name points to old-time or string-band music, his core genre, but I do not recognize Appleman and Monterey is a long trip from Oakland.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Appleman and band members not recognized; no bio captured.",
+   "Monterey is about 110 miles from Oakland."
   ]
  },
  "ev_77216bb9cb0c": {
@@ -7008,6 +7329,38 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "No performers named.",
    "Recurring weekly night, not a special date."
+  ]
+ },
+ "ev_78c7fab49a7a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: AVOTCJA's poetry is music and Avotcja's music is poetry. Both are as hot as fire and as soothing as snow flakes. And in both she brings the best of her talent in Spanish and English. Listen to her. Read her. Enjoy her. Celebrate her.\" • Camincha – Peruvian Poet/Novelist; & Pacifica Poet Laureate, 2017-2021. Poet / Playwright / Essayist / Fiction Writer / Multi-Percussionist / Photographer / Teache",
+    "url": "https://birdbeckett.com/event/avotcja-modupue_2027-01-03/"
+   }
+  ],
+  "fingerprint": "549cf9be8263",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Bay Area poet, multi-percussionist, playwright (per listing)",
+    "name": "Avotcja",
+    "significance": "local"
+   },
+   {
+    "known_for": "Avotcja's ensemble (assumed from billing)",
+    "name": "Modúpue",
+    "significance": "none"
+   }
+  ],
+  "reason": "Avotcja and Modúpue play Afro-Latin jazz and poetry at Bird & Beckett on 3 Jan. (Background knowledge: Avotcja is a veteran Bay Area poet, percussionist and community radio host.) An intimate, distinctly Bay Area jazz-and-word evening; poetry readings are not his usual draw.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Modúpue band lineup not captured.",
+   "Rules' 'reading' penalty reflects the poetry element."
   ]
  },
  "ev_78f9dc38108a": {
@@ -8659,6 +9012,33 @@
    "Marin Bluegrass Sessions format and performers not listed."
   ]
  },
+ "ev_8e0049bd174c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Lenny Carlson Music Collective is a unique chamber ensemble that performs Carlson's original compositions along with standards. His musical directions converge in the genre of Americana, blending Jazz, pop, folk, and classical. A Los Angeles native and award-winning composer, Carlson has also been an accomplished jazz guitarist, producer, music professor and author. Since 2009, he has been res",
+    "url": "https://birdbeckett.com/event/lenny-carlson_2027-02-26/"
+   }
+  ],
+  "fingerprint": "a2fbdeacb3ac",
+  "fit": 47,
+  "performers": [
+   {
+    "known_for": "Composer, jazz guitarist, music professor (per listing)",
+    "name": "Lenny Carlson",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Lenny Carlson Music Collective plays Carlson's original chamber compositions and standards at Bird & Beckett on 26 Feb, a mix the listing describes as Americana blending jazz, pop, folk and classical. Carlson is an LA-born composer, jazz guitarist and music professor; I do not recognize him beyond the listing. A pleasant intimate-room evening, but chamber Americana-jazz is on the gentle side of his taste.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Carlson not recognized; all detail comes from the listing text.",
+   "Rules score inflated by 'Beckett' and 'premiere'/'musical' keyword matches from the venue name and bio."
+  ]
+ },
  "ev_8ee83f604a15": {
   "evidence": [
    {
@@ -8706,6 +9086,26 @@
   "uncertainties": [
    "Genre description is background knowledge.",
    "Show is tonight; lineup not checked."
+  ]
+ },
+ "ev_90e9c88bffed": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: At the Sonoma Community Center 6:30 – 8:30pm on the 2nd and 4th Monday of each month. 276 E. Napa St. room 210, Sonoma All bluegrass instruments and levels are welcome to come and pick! (Formerly called the Reel Roadhouse jam.)",
+    "url": "https://californiabluegrass.org/event/sonoma-town-bluegrass-jam-formerly-the-reel-roadhouse-jamnew-time-and-place/2026-11-23/"
+   }
+  ],
+  "fingerprint": "7e9399b621d3",
+  "fit": 20,
+  "performers": [],
+  "reason": "The Sonoma Town Bluegrass Jam meets 23 Nov at the Sonoma Community Center. An all-levels participatory jam well north of Oakland, not a show.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring twice-monthly event."
   ]
  },
  "ev_91cf0c48e613": {
@@ -8866,6 +9266,38 @@
    "No start time, price, or description found",
    "Web searches found nothing identifying Jill Morgan Brenner or Paul Dab",
    "Genre unknown; the 'new music' rule score is from venue name only"
+  ]
+ },
+ "ev_9513ad6c2c01": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Herak/Bulatkin 'Elysium' featuring David Binney",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "75b6fff8f44b",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Modern jazz alto saxophonist, composer, Mythology Records (background knowledge)",
+    "name": "David Binney",
+    "significance": "notable"
+   },
+   {
+    "known_for": "European duo leading the 'Elysium' project (per listing)",
+    "name": "Herak/Bulatkin",
+    "significance": "none"
+   }
+  ],
+  "reason": "European duo Herak/Bulatkin bring their 'Elysium' project to Black Cat in SF on 22 Nov with alto saxophonist David Binney featured. (Background knowledge: Binney is a fearless, long-running New York modern-jazz voice with a deep catalog on Criss Cross and his own Mythology label.) Adventurous improvised jazz in an intimate supper-club room is squarely what he likes.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Herak/Bulatkin not recognized; only Binney is known to me.",
+   "Set times and ticket price not captured."
   ]
  },
  "ev_954539cf75b5": {
@@ -9595,6 +10027,33 @@
    "Bill Evans's schedule page footer reads 2011-2022, so it may be partly stale."
   ]
  },
+ "ev_a34296a22124": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Ekep Nkwelle is a force in today's jazz scene, charting a remarkable journey from the vibrant culture of Washington D.C. to the iconic stages of New York City and beyond. She refined her musical gifts through rigorous academic training, earning a diploma from the Duke Ellington School of the Arts, a Bachelors degree from Howard University, and a Masters from The Juilliard School. In 2023, Nkwelle",
+    "url": "https://www.kuumbwajazz.org/calendar/ekep-nkwelle-3/"
+   }
+  ],
+  "fingerprint": "28b49fca4c9b",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Jazz vocalist; Ellington School, Howard, Juilliard (per listing)",
+    "name": "Ekep Nkwelle",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Ekep Nkwelle, a young Juilliard- and Howard-trained jazz vocalist out of DC and New York, plays Kuumbwa in Santa Cruz on 28 Apr. (Background knowledge: she is a rising straight-ahead singer who I believe has won a major vocal competition; the listing breaks off at 'In 2023, Nkwelle'.) Kuumbwa is a great room, but this is polished standards singing rather than adventurous improvisation, and Santa Cruz is a long trip from Oakland.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Her 2023 accomplishment is cut off in the captured text; my recollection of a competition win is unconfirmed.",
+   "Kuumbwa is in Santa Cruz, about 75 miles from Oakland."
+  ]
+ },
  "ev_a355dfc89336": {
   "evidence": [
    {
@@ -9613,6 +10072,34 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Content unknown."
+  ]
+ },
+ "ev_a36a430ca6af": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Bangalore-based GRAMMY nominated singer-songwriter Varijashree Venugopal , was widely recognised as a child prodigy who could identify 100 Carnatic Ragas at the tender age of 18 months, and began performing concerts at the age of 4. Coming from a rich background of an intricate classical form of music such as Carnatic music, Varijashree is one of the pioneering artists in applying the techniques,",
+    "url": "https://www.kuumbwajazz.org/calendar/varijashree-venugopal/"
+   }
+  ],
+  "fingerprint": "471c758ce7bf",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Carnatic vocalist and flutist, GRAMMY-nominated, Carnatic-jazz fusion",
+    "name": "Varijashree Venugopal",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Varijashree Venugopal, a GRAMMY-nominated Carnatic vocalist from Bangalore, brings her raga-into-jazz work to Kuumbwa in Santa Cruz on 14 Apr. (Background knowledge: she is known for applying Carnatic konnakol and improvisation to jazz and has collaborated with Western jazz players.) An unusual cross-tradition collaboration in an intimate jazz room fits his taste, tempered by the drive to Santa Cruz.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band lineup for this date not in the captured text.",
+   "Kuumbwa is in Santa Cruz, about 75 miles from Oakland.",
+   "Collaborator details are background knowledge."
   ]
  },
  "ev_a3bc32c6d263": {
@@ -10610,6 +11097,48 @@
    "Performer TBA; the listing gives no other text."
   ]
  },
+ "ev_b3595c833552": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Ivy Room: Shark In The Water, Beyond Obsession, Penny Poundcake, Cinnamon Maxxine & More",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "fadfff04b0d3",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "not identified",
+    "name": "Shark In The Water",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Beyond Obsession",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Penny Poundcake",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Cinnamon Maxxine",
+    "significance": "none"
+   }
+  ],
+  "reason": "Shark In The Water, Beyond Obsession, Penny Poundcake and Cinnamon Maxxine play the Ivy Room in Albany tonight, 17 Nov. The KALX listing gives only names; I do not recognize them and cannot tell the genre, though nothing suggests roots or jazz.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or bio text captured.",
+   "Tonight's show; likely past by the time Erik reads this."
+  ]
+ },
  "ev_b3a7dad114f7": {
   "evidence": [
    {
@@ -11267,6 +11796,32 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_bd3369ed65e6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Isaiah Sharkey stands at the confluence of modern soul, jazz, R&B, and Black American guitar tradition, carrying forward a lineage that links George Benson, Curtis Mayfield, Wes Montgomery, and Jimi Hendrix, while forging a vocabulary entirely his own. A GRAMMY award-winning guitarist, vocalist, composer, and producer, Sharkey has become one of the most respected musicians of his generation – cele",
+    "url": "https://www.kuumbwajazz.org/calendar/isaiah-sharkey/"
+   }
+  ],
+  "fingerprint": "8bc3798e540d",
+  "fit": 3,
+  "performers": [
+   {
+    "known_for": "GRAMMY-winning soul-jazz guitarist and vocalist (per listing)",
+    "name": "Isaiah Sharkey",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Isaiah Sharkey's 3 Dec Kuumbwa show is marked CANCELLED in the listing. Nothing to attend.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Cancellation taken from the listing title only."
+  ]
+ },
  "ev_bdb6a5883918": {
   "evidence": [
    {
@@ -11439,6 +11994,26 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_c04a605b2593": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2026-12-13/"
+   }
+  ],
+  "fingerprint": "4eda9dc1af5d",
+  "fit": 20,
+  "performers": [],
+  "reason": "The weekly Sunday bluegrass performance jam at the Lucky Horseshoe in SF on 13 Dec, where pickers take turns leading songs. A participatory jam rather than a show, worth knowing about only if he wants to play.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring weekly event."
   ]
  },
  "ev_c0fbd41076a8": {
@@ -13212,28 +13787,27 @@
  "ev_debe98f53e2a": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: Title only: Elena Gabrielle – Disturb the Vibe – San Francisco at The Lost Church on 2026-11-23",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: CANCELED Elena Gabrielle – Disturb the Vibe – San Francisco",
     "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000D1KEvMAN"
    }
   ],
-  "fingerprint": "98adef58495b",
-  "fit": 30,
+  "fingerprint": "1ca4b84b771e",
+  "fit": 3,
   "performers": [
    {
-    "known_for": "Singer-songwriter; identification uncertain (background knowledge)",
+    "known_for": "not identified",
     "name": "Elena Gabrielle",
     "significance": "none"
    }
   ],
-  "reason": "Elena Gabrielle brings her 'Disturb the Vibe' show to The Lost Church. (Background knowledge, low confidence: she is a singer-songwriter known for comedic, jazz-tinged songs online.) The listing has no description, so genre and fit are unclear; if it is mainly musical comedy, it is a poor fit.",
-  "researched_at": "2026-11-15T22:43:59+00:00",
+  "reason": "This Elena Gabrielle show at The Lost Church on 23 Nov is marked CANCELED in the listing. Nothing to attend.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
-  "tier": "unknown",
+  "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "No listing description captured.",
-   "Identity of the performer not confirmed."
+   "Cancellation taken from the listing title only."
   ]
  },
  "ev_dec1933dc137": {
@@ -13430,6 +14004,31 @@
   "uncertainties": [
    "Show time and price not confirmed from the Freight's own page (fetch failed).",
    "Whether this date is the full True Blues film/conversation format or a plain duo concert (inference that it is the touring True Blues duo show)."
+  ]
+ },
+ "ev_e236a52836d4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: LAYA is a singer, songwriter, producer, and creative visionary whose artistry blends R&B, soul, and contemporary music with a distinctive voice and fearless approach to self-expression. Combining infectious melodies, imaginative production, and honest storytelling, her music explores love, confidence, vulnerability, and personal freedom while her bold visual identity brings together fashion...",
+    "url": "https://cafedunord.com/shows/2026-11-18-laya"
+   }
+  ],
+  "fingerprint": "ed0b612ef7ce",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "R&B/soul singer-songwriter (per listing)",
+    "name": "LAYA",
+    "significance": "none"
+   }
+  ],
+  "reason": "LAYA, an R&B and soul singer-songwriter, plays Cafe du Nord on 18 Nov. Contemporary R&B-pop with a fashion-forward image, outside his roots, jazz and classic hip-hop lanes.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_e30b499c5ea4": {
@@ -13955,6 +14554,37 @@
   "uncertainties": [
    "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_ee8594a2eca6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The jam is led by Chris Carney and Janette Duncan, first Sundays at the Church of the Oaks in Cotati, from 3 pm to 5 pm.",
+    "url": "https://californiabluegrass.org/event/north-bay-old-time-music-jam/2026-12-06/"
+   }
+  ],
+  "fingerprint": "41f8f0417197",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Session leader (per listing)",
+    "name": "Chris Carney",
+    "significance": "local"
+   },
+   {
+    "known_for": "Session leader (per listing)",
+    "name": "Janette Duncan",
+    "significance": "local"
+   }
+  ],
+  "reason": "The North Bay Old-Time Session, led by Chris Carney and Janette Duncan, meets 6 Dec at the Church of the Oaks in Cotati. An old-time jam is right in his genre, but it is a participatory session an hour north, not a performance.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring monthly event."
   ]
  },
  "ev_eeacd98a50dc": {
@@ -14558,6 +15188,48 @@
    "Opener not confirmed.",
    "Biography details are background knowledge.",
    "Felton date seen only via collector; GAMH date from a search-result URL."
+  ]
+ },
+ "ev_f77cedb301c5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Shannon Shaw / Will Sprott / / Sid Presley / / Classic Bar Music",
+    "url": "https://dice.fm/event/6ad5763e7139940001d5823b"
+   }
+  ],
+  "fingerprint": "7fbfaaf5bdf1",
+  "fit": 75,
+  "performers": [
+   {
+    "known_for": "Songwriter, The Mumlers; toured with Peter Stampfel 2026 (taste.yaml)",
+    "name": "Will Sprott",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Shannon and the Clams (background knowledge)",
+    "name": "Shannon Shaw",
+    "significance": "notable"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Sid Presley",
+    "significance": "none"
+   },
+   {
+    "known_for": "not identified",
+    "name": "Classic Bar Music",
+    "significance": "none"
+   }
+  ],
+  "reason": "New Year's Eve at Bottom of the Hill: Shannon Shaw, seed artist Will Sprott, Sid Presley and Classic Bar Music. (Background knowledge: Shaw fronts Oakland garage favorites Shannon and the Clams; Sprott, of The Mumlers, toured with Peter Stampfel in 2026 per his taste profile.) A Stampfel-network songwriter on a fun local NYE bill in a small room.",
+  "researched_at": "2026-11-17T22:43:00+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Billing order and set lengths not captured.",
+   "Sid Presley and Classic Bar Music not recognized."
   ]
  },
  "ev_f77eb4a058cb": {
