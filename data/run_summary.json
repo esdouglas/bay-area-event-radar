@@ -1,21 +1,16 @@
 {
  "inventory_total": 5202,
- "inventory_upcoming": 3143,
- "merged_sources": 52,
- "new_events": 132,
- "run_id": "e0b49f85b72d",
- "seconds": 304.3,
- "sources_due": 69,
+ "inventory_upcoming": 3138,
+ "merged_sources": 3,
+ "new_events": 7,
+ "run_id": "4ef72f927b3d",
+ "seconds": 477.9,
+ "sources_due": 66,
  "sources_failed": [
-  "fifth-street-farms-site",
   "down-home-music",
-  "old-first-concerts",
-  "luther-burbank-center",
-  "california-bluegrass-association",
   "outsound",
-  "the-marsh",
-  "sf-opera"
+  "broadway-sf"
  ],
- "sources_ok": 61,
- "ts": "2026-11-17T21:06:00+00:00"
+ "sources_ok": 63,
+ "ts": "2026-11-17T22:44:28+00:00"
 }
