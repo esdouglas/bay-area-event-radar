@@ -1,19 +1,17 @@
 {
- "inventory_total": 5273,
- "inventory_upcoming": 3117,
- "merged_sources": 26,
- "new_events": 59,
- "run_id": "8feb55c9a9a3",
- "seconds": 499.7,
- "sources_due": 68,
+ "inventory_total": 5276,
+ "inventory_upcoming": 3119,
+ "merged_sources": 2,
+ "new_events": 10,
+ "run_id": "9082b8bc3cc2",
+ "seconds": 216.0,
+ "sources_due": 66,
  "sources_failed": [
-  "fifth-street-farms-site",
   "down-home-music",
-  "old-first-concerts",
   "outsound",
-  "the-marsh",
-  "bottom-of-the-hill"
+  "broadway-sf",
+  "songkick-bay-area"
  ],
  "sources_ok": 62,
- "ts": "2026-11-18T20:43:04+00:00"
+ "ts": "2026-11-18T22:43:31+00:00"
 }
