@@ -1,16 +1,17 @@
 {
- "inventory_total": 5202,
- "inventory_upcoming": 3138,
- "merged_sources": 3,
- "new_events": 7,
- "run_id": "4ef72f927b3d",
- "seconds": 477.9,
- "sources_due": 66,
+ "inventory_total": 5221,
+ "inventory_upcoming": 3157,
+ "merged_sources": 11,
+ "new_events": 25,
+ "run_id": "cc80cc9023b7",
+ "seconds": 483.7,
+ "sources_due": 65,
  "sources_failed": [
   "down-home-music",
   "outsound",
-  "broadway-sf"
+  "broadway-sf",
+  "rancho-nicasio"
  ],
- "sources_ok": 63,
- "ts": "2026-11-17T22:44:28+00:00"
+ "sources_ok": 61,
+ "ts": "2026-11-18T07:43:00+00:00"
 }
