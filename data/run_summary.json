@@ -1,17 +1,19 @@
 {
- "inventory_total": 5221,
- "inventory_upcoming": 3157,
- "merged_sources": 11,
- "new_events": 25,
- "run_id": "cc80cc9023b7",
- "seconds": 483.7,
- "sources_due": 65,
+ "inventory_total": 5273,
+ "inventory_upcoming": 3117,
+ "merged_sources": 26,
+ "new_events": 59,
+ "run_id": "8feb55c9a9a3",
+ "seconds": 499.7,
+ "sources_due": 68,
  "sources_failed": [
+  "fifth-street-farms-site",
   "down-home-music",
+  "old-first-concerts",
   "outsound",
-  "broadway-sf",
-  "rancho-nicasio"
+  "the-marsh",
+  "bottom-of-the-hill"
  ],
- "sources_ok": 61,
- "ts": "2026-11-18T07:43:00+00:00"
+ "sources_ok": 62,
+ "ts": "2026-11-18T20:43:04+00:00"
 }
