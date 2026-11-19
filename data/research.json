@@ -38,6 +38,31 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_00f8a2eecf07": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Time Spent Driving at Kilowatt at 2026-11-29T19:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43495877-time-spent-driving-at-kilowatt"
+   }
+  ],
+  "fingerprint": "894141f37cfb",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "Santa Cruz emo band (background knowledge)",
+    "name": "Time Spent Driving",
+    "significance": "local"
+   }
+  ],
+  "reason": "An all-day emo and pop-punk bill at Kilowatt headed by Time Spent Driving, the Santa Cruz emo band (background knowledge). Not a fit.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_011806810aac": {
   "evidence": [
    {
@@ -148,6 +173,31 @@
   "uncertainties": [
    "Price not listed; band lineup for the date not named.",
    "Rules score credited 'musical' as theater, which is spurious; this is a music dinner show."
+  ]
+ },
+ "ev_0352bb080878": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Wonder Bread 5 at Sweetwater Music Hall on Nov 28, 2026\"",
+    "url": "https://sweetwatermusichall.org/event/wonder-bread-5-5/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "825a14bc8f4f",
+  "fit": 3,
+  "performers": [
+   {
+    "known_for": "Bay Area party cover band (background knowledge)",
+    "name": "Wonder Bread 5",
+    "significance": "local"
+   }
+  ],
+  "reason": "Wonder Bread 5 is a long-running Bay Area party cover band (background knowledge) at Sweetwater. Skip.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_0352cf234706": {
@@ -665,56 +715,48 @@
  "ev_0e6e6b0f16fd": {
   "evidence": [
    {
-    "finding": "Fetch blocked this run (permission timeout); listing text the radar collector captured: Laurie Lewis with Brandon Godman, Haysee Ciaccio, Evan Ward, and Nina Gerber. Nov. 28: The Freight, Berkeley.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"- Nov. 28: The Freight, Berkeley\"",
     "url": "https://www.bgsignal.com/concerts--festivals.html"
-   },
-   {
-    "finding": "Search result title: Sonoma County Bluegrass & Folk Festival brings Laurie Lewis, Nina Gerber to Sebastopol (Feb 2026).",
-    "url": "https://www.pressdemocrat.com/2026/02/25/laurie-lewis-nina-gerber-headline-bluegrass-folk-fest-in-sebastopol/"
-   },
-   {
-    "finding": "From prior research: Grammy Award-winning; twice voted IBMA Female Vocalist of the Year.",
-    "url": "https://hardlystrictlybluegrass.com/artist/laurie-lewis-the-right-hands/"
    }
   ],
-  "fingerprint": "b9a05e637401",
+  "fingerprint": "6a2e4d81f4f5",
   "fit": 82,
   "performers": [
    {
-    "known_for": "Bluegrass singer/fiddler, Grammy winner, 2x IBMA Female Vocalist",
+    "known_for": "Grammy-winning bluegrass fiddler, singer and songwriter; West Coast bluegrass pillar (background knowledge)",
     "name": "Laurie Lewis",
     "significance": "major"
    },
    {
-    "known_for": "Acoustic guitarist, frequent Lewis duo partner",
+    "known_for": "Acoustic guitarist, longtime Lewis and Kate Wolf collaborator (background knowledge)",
     "name": "Nina Gerber",
     "significance": "notable"
    },
    {
-    "known_for": "Fiddler (inference: role not stated in listing)",
+    "known_for": "Fiddler",
     "name": "Brandon Godman",
     "significance": "local"
    },
    {
-    "known_for": "Band member, role not stated",
-    "name": "Haysee Ciaccio",
+    "known_for": "Musician in Lewis's band",
+    "name": "Evan Ward",
     "significance": "local"
    },
    {
-    "known_for": "Band member, role not stated",
-    "name": "Evan Ward",
+    "known_for": "Musician in Lewis's band",
+    "name": "Hasee Ciaccio",
     "significance": "local"
    }
   ],
-  "reason": "Laurie Lewis, Grammy winner and twice IBMA Female Vocalist of the Year, a pillar of West Coast bluegrass and co-curator of the Freight's Berkeley Bluegrass Festival. This listing now names a specific band: Brandon Godman, Haysee Ciaccio, Evan Ward and longtime duo partner Nina Gerber on guitar. A Thanksgiving-weekend hometown show at the Freight.",
-  "researched_at": "2026-10-30T21:49:06+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "Laurie Lewis, Grammy winner and twice IBMA Female Vocalist of the Year, plays her Thanksgiving-weekend hometown show at the Freight with Nina Gerber, fiddler Brandon Godman, Evan Ward and Hasee Ciaccio. She is a pillar of West Coast bluegrass and old-time, and this is a seed artist in a 440-seat listening room. (background knowledge for her credits and Gerber's long partnership with her.)",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "strong",
   "uncertainties": [
-   "Listing re-fingerprinted because the lineup changed; earlier listing said Laurie Lewis & The Right Hands, so Tom Rozum may not appear.",
-   "Instruments for Godman, Ciaccio and Ward not confirmed.",
-   "Freight page not fetched."
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing text is only a date line; lineup comes from the title.",
+   "Previously researched under an older fingerprint; the title now names the full band."
   ]
  },
  "ev_0e88755cfd09": {
@@ -1078,6 +1120,47 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Could be a DJ or themed night; performers unknown."
+  ]
+ },
+ "ev_15924887d5db": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Gretchen Menn at Ivy Room on Nov 25, 2026\"",
+    "url": "https://www.jambase.com/show/gretchen-menn-ivy-room-20261125"
+   }
+  ],
+  "fingerprint": "a7e7f20858f3",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Bay Area jazz drummer; Nels Cline, Charlie Hunter collaborator (background knowledge)",
+    "name": "Scott Amendola",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Fretless bass virtuoso, Windham Hill (background knowledge)",
+    "name": "Michael Manring",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Guitarist, Zepparella (background knowledge)",
+    "name": "Gretchen Menn",
+    "significance": "local"
+   },
+   {
+    "known_for": "Italian virtuoso guitarist (background knowledge)",
+    "name": "Daniele Gottardo",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Ghost Engineers is a virtuoso instrumental quartet: guitarists Gretchen Menn and Daniele Gottardo, fretless bassist Michael Manring and drummer Scott Amendola, at the Ivy Room in Albany. (background knowledge) Amendola is a key Bay Area improviser (Nels Cline, Charlie Hunter) and Manring a Windham Hill-era bass innovator; the music likely leans prog and fusion rather than emotionally searching jazz.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Style inferred from the players; the listing has no description."
   ]
  },
  "ev_159464424ef1": {
@@ -3165,6 +3248,31 @@
    "No performers named; possibly a recurring jam."
   ]
  },
+ "ev_36d78eefa434": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"O'Flynn at The Independent at 2026-11-27T21:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43375226-oflynn-at-independent"
+   }
+  ],
+  "fingerprint": "54b51d2ec6aa",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "UK electronic producer (background knowledge)",
+    "name": "O'Flynn",
+    "significance": "notable"
+   }
+  ],
+  "reason": "O'Flynn is a UK electronic and house producer (background knowledge) playing a club night at The Independent. Outside Erik's taste.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_37450b80f140": {
   "evidence": [
    {
@@ -4305,6 +4413,31 @@
    "Trio members not named."
   ]
  },
+ "ev_4b409bd2cf17": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Sweetwater Music Hall: Vinyl's Annual Black Wednesday Bash\"",
+    "url": "https://sweetwatermusichall.org/event/vinyls-annual-black-wednesday-bash/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "604cb5dbf430",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Marin funk and jam band (background knowledge)",
+    "name": "Vinyl",
+    "significance": "local"
+   }
+  ],
+  "reason": "Vinyl, a Marin funk and jam band (background knowledge), hosts its annual Thanksgiving-eve party at Sweetwater. A party night, not a fit.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_4c4500c80268": {
   "evidence": [
    {
@@ -4750,6 +4883,43 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers and tradition (Hindustani or Carnatic) not listed."
+  ]
+ },
+ "ev_534705a0ccc2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Magic Theatre World Premiere A Rashomon By Ashley Smiley Conceived by Joan Osato Directed by Edris Cooper-Anifowoshe THIS IS PERFORMED AT THE AFRICAN AMERICAN ART & CULTURE COMPLEX 762 Fulton Street, San Francisco\"",
+    "url": "https://magictheatre.org/calendar/a-rashomon"
+   }
+  ],
+  "fingerprint": "cc41302334a6",
+  "fit": 65,
+  "performers": [
+   {
+    "known_for": "Playwright",
+    "name": "Ashley Smiley",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area theater maker and producer",
+    "name": "Joan Osato",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area director",
+    "name": "Edris Cooper-Anifowoshe",
+    "significance": "local"
+   }
+  ],
+  "reason": "Magic Theatre's world premiere of A Rashomon by Ashley Smiley, conceived by Joan Osato and directed by Edris Cooper-Anifowoshe, staged at the African American Art & Culture Complex on Fulton St. Magic is the Bay Area's leading new-play house, and a new take on the Rashomon story in an offsite community venue is the kind of unusual premiere that fits. Opening-week date; the run likely continues.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Run length, cast and reviews unknown.",
+   "Performed at AAACC (762 Fulton St), not Magic's Fort Mason home."
   ]
  },
  "ev_53649273c229": {
@@ -5627,6 +5797,25 @@
    "Same day as this research run."
   ]
  },
+ "ev_5bfeecf252f6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Sweetwater Music Hall: Next-Gen Dead Jam\"",
+    "url": "https://sweetwatermusichall.org/event/next-gen-dead-jam-2/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "becbf7851791",
+  "fit": 8,
+  "performers": [],
+  "reason": "Next-Gen Dead Jam is a Grateful Dead covers night at Sweetwater. Tribute format; skip.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_5c10ac3ca875": {
   "evidence": [
    {
@@ -5764,40 +5953,41 @@
  "ev_5def5c7c8f35": {
   "evidence": [
    {
-    "finding": "Not fetched; queue text: late-night Saturday sets of Bay Area organ trios, 'Transcendent Trio' from pandemic Jazz on the Patio residency, with Dave Macnab guitar; start 10:30pm Nov 28.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Dave Macnab-Guitar, the[...]\"",
     "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-75/"
    },
    {
-    "finding": "Same residency (a 2025 listing): Rowe on Hammond B3, Dave McNab guitar, drummer Jason Lewis named in description; $15, 'Blues, Bebop, Ballads and Banter'.",
-    "url": "https://www.jazznearyou.com/sanfrancisco/events/late-set-simon-rowes-organ-trio-at-keys-jazz-bistro-on-november-28"
-   },
-   {
-    "finding": "Rowe is a Sydney-born pianist/organist, played with Dizzy Gillespie and Dianne Schuur, former exec director of the Brubeck Institute and SFCM Roots, Jazz and American Music; Keys is a 125-seat listening room co-founded with Matt Mullenweg.",
-    "url": "https://www.jazztimes.com/?p=191758"
+    "finding": "Not fetched (offline run). Text from the collector cache in data/cache/: \"(7pm show only) Lavay Smith & Her Red Hot Skillet Lickers have performed at many of the top festivals and concert venues in the US, Europe, Japan and Canada. They have headlined at Jazz At Lincoln Center on New Year's Eve\"",
+    "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-75/"
    }
   ],
-  "fingerprint": "71d45a3a3aa7",
-  "fit": 40,
+  "fingerprint": "f4e43a3f47bd",
+  "fit": 48,
   "performers": [
    {
-    "known_for": "pianist/Hammond organist, Keys Jazz Bistro owner, ex-Brubeck Institute director",
+    "known_for": "SF jump blues and swing band",
+    "name": "Lavay Smith & Her Red Hot Skillet Lickers",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Keys owner, pianist and Hammond organist",
     "name": "Simon Rowe",
     "significance": "local"
    },
    {
-    "known_for": "Bay Area jazz guitarist",
-    "name": "Dave MacNab",
+    "known_for": "Bay Area swing band",
+    "name": "Fog City Swing",
     "significance": "local"
    }
   ],
-  "reason": "Keys Jazz Bistro owner Simon Rowe, a Sydney-born pianist and Hammond organist who has played with Dizzy Gillespie and led the Brubeck Institute, plays his recurring late-night organ trio set with guitarist Dave MacNab. It is a cheap, friendly blues-bebop-ballads hang in a 125-seat North Beach room, but a regular house residency rather than a special occasion (inference).",
-  "researched_at": "2026-11-03T22:49:40+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "A Saturday at Keys Jazz Bistro bundling Lavay Smith & Her Red Hot Skillet Lickers (7pm), Fog City Swing, and Simon Rowe's late organ trio. Lavay Smith's band is a long-running SF jump-blues and swing institution that has headlined Jazz at Lincoln Center on New Year's Eve, which makes this more of an occasion than the usual Rowe residency. Fun and cheap, but swing nostalgia rather than adventurous jazz.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
-  "tier": "low",
+  "tier": "possible",
   "uncertainties": [
-   "2026 drummer and price unconfirmed (2025 listing named Jason Lewis, $15).",
-   "Recurring residency; this date is one of many."
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Three sets merged into one event; likely separate tickets."
   ]
  },
  "ev_5e2e372857e3": {
@@ -7163,6 +7353,31 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_71f32179946a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Somehow It Flies US Album Tour | Please note – there is a delivery delay set for 2 weeks prior to show.\"",
+    "url": "https://www.theindependentsf.com/tm-event/oden-fatzo-live/"
+   }
+  ],
+  "fingerprint": "8bf63d3d0455",
+  "fit": 8,
+  "performers": [
+   {
+    "known_for": "UK electronic duo (background knowledge)",
+    "name": "Oden & Fatzo",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Oden & Fatzo are a UK house and electronic duo (background knowledge) on an album tour at The Independent. Outside Erik's taste.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_734039646e89": {
   "evidence": [
    {
@@ -7397,6 +7612,27 @@
   "tier": "low",
   "uncertainties": []
  },
+ "ev_7563858354ee": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"all ticket proceeds go to Bay Area \"No Kings\"\"",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "1e025a697c42",
+  "fit": 30,
+  "performers": [],
+  "reason": "Z-Trane Electric Band plays a benefit for the Bay Area 'No Kings' effort at Little Hill Lounge. The name suggests electric Coltrane-inspired jazz, but I don't recognize the group and the listing says nothing about the music.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Group and members not identified.",
+   "Coltrane connection is only inferred from the name."
+  ]
+ },
  "ev_75a5625c335c": {
   "evidence": [
    {
@@ -7512,6 +7748,41 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Appleman and band members not recognized; no bio captured.",
    "Monterey is about 110 miles from Oakland."
+  ]
+ },
+ "ev_76f312b0f5bc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Patrick Wolff's newest band is a swinging organ quartet that draws from the style of the late 50s/early 60s collaborations of Shirley Scott/ \"Lockjaw\" Davis and Lou Donaldson/ Big John Patton. Featuring two of the Bay's experts in this idiom, pianist/organist Adam Shulman and guitarist Jack Tone Riordan, and the talented up and coming drummer Miles Turk, [...]\"",
+    "url": "https://keysjazzbistro.com/event/patrick-wolffs-swinging-organ-quartet-2/"
+   }
+  ],
+  "fingerprint": "dc81c0b4396d",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "SF saxophonist",
+    "name": "Patrick Wolff",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area pianist and organist",
+    "name": "Adam Shulman",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area guitarist",
+    "name": "Jack Tone Riordan",
+    "significance": "local"
+   }
+  ],
+  "reason": "Saxophonist Patrick Wolff's new organ quartet plays late-50s soul-jazz in the Shirley Scott and Lou Donaldson mold, with Adam Shulman on organ and Jack Tone Riordan on guitar, at Keys Jazz Bistro. Solid, swinging and intimate, but a repertory style rather than adventurous improvisation.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_77216bb9cb0c": {
@@ -7735,6 +8006,38 @@
    "Two-night run; both nights listed separately."
   ]
  },
+ "ev_79a68769ea4f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Center for New Music: GOODBYE 55: Oliveros Memorial with The Cornelius Cardew Choir\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "1c5c1f4832e5",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "SF experimental choir performing text and graphic scores (background knowledge)",
+    "name": "The Cornelius Cardew Choir",
+    "significance": "local"
+   },
+   {
+    "known_for": "Deep Listening founder, SF Tape Music Center (background knowledge)",
+    "name": "Pauline Oliveros (memorial)",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "The Cornelius Cardew Choir, SF's experimental vocal ensemble for graphic and text scores, leads a memorial program for Pauline Oliveros at Center for New Music, apparently a farewell to its 55 Taylor St room. Oliveros (background knowledge) was the founder of Deep Listening and a foundational figure in Bay Area improvised and experimental music. Not jazz, but an intimate, participatory, one-off night of adventurous improvisation.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "'GOODBYE 55' read as a farewell to the 55 Taylor St space; not confirmed.",
+   "Program and whether audience participation is expected are unknown."
+  ]
+ },
  "ev_7a813edd1f72": {
   "evidence": [
    {
@@ -7952,40 +8255,31 @@
  "ev_7c348009c91a": {
   "evidence": [
    {
-    "finding": "Fetch blocked (permission request not answered); not read. The queue description names a 'Transcendent Trio' formed for a pandemic patio residency, with Dave MacNab on guitar.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Keeping folks up past 10 pm in SF is no easy feat, but Key's owner Simon Rowe has been showcasing the best of the Bay Area's organ trios in his late night Saturday sets. His 'Transcendent Trio', formed for a \"Jazz on the Patio\" residency during the pandemic will feature the dynamic Dave Macnab-Guitar, the[...]\"",
     "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-74/"
    },
    {
-    "finding": "Rowe is a pianist and Hammond organist from Sydney, a former executive director of the Brubeck Institute and of SFCM's Roots, Jazz and American Music program, and has played with Dizzy Gillespie. He co-owns Keys with Matt Mullenweg. The club has a 125-seat listening room on Broadway in North Beach.",
-    "url": "https://www.jazztimes.com/?p=191758"
-   },
-   {
-    "finding": "Fetch failed. Search shows dozens of 'Late Set: Simon Rowe's Organ Trio' listings across many months, which points to a recurring residency.",
-    "url": "https://www.jazznearyou.com/sanfrancisco/events/late-set-simon-rowes-organ-trio-at-keys-jazz-bistro-on-november-22"
+    "finding": "Not fetched (offline run). Text from the collector cache in data/cache/: \"CONVERSATION CORNER AT KEYS CAFÉ: \"Building an Analog Community in a Digital World\" Marking the four-year Birthday Celebration, Keys Owner, Simon Rowe discusses the growth and evolution of the Keys Community\"",
+    "url": "https://keysjazzbistro.com/event/late-set-simon-rowe-organ-trio-74/"
    }
   ],
-  "fingerprint": "21be1062453e",
-  "fit": 38,
+  "fingerprint": "1c6c8a83653a",
+  "fit": 8,
   "performers": [
    {
-    "known_for": "Organist and pianist, co-owner of Keys Jazz Bistro, former Brubeck Institute director",
+    "known_for": "Keys owner, pianist and organist",
     "name": "Simon Rowe",
-    "significance": "local"
-   },
-   {
-    "known_for": "Bay Area jazz guitarist",
-    "name": "Dave MacNab",
     "significance": "local"
    }
   ],
-  "reason": "Simon Rowe, the Hammond organist and pianist who co-owns Keys Jazz Bistro, plays his recurring late Saturday organ trio set in North Beach. He's a respected educator (former head of the Brubeck Institute) and the room is a 125-seat listening room, but this is a weekly house residency of groove-oriented organ trio jazz, not a special date.",
-  "researched_at": "2026-11-03T22:49:40+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "Not a concert: a Saturday brunch talk at Keys where owner Simon Rowe discusses 'Building an Analog Community in a Digital World.' The queue's organ-trio blurb was attached by mistake. Skip.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": [
-   "Drummer not identified",
-   "Event page not read; the 10:30 PM start comes from the queue data"
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The queue description belongs to a different event (the late organ trio set)."
   ]
  },
  "ev_7c9f31bbeee0": {
@@ -8791,31 +9085,42 @@
  "ev_889cf6fa91f3": {
   "evidence": [
    {
-    "finding": "Fetch blocked (permission request not answered); not read. The queue description promises 'soulful renditions of classics alongside unexpected twists' and a late-night hang.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Guitarist Vocalist multi-instrumentalist Christian Eck providing entertainment in the direction of his mental wanderings. Genres are his toys and the audience is invited to play along. Hailing from the Chicago blues and rhythm scene expect soulful renditions of classics alongside unexpected twists. Come join us for music and a late night hang in the[...]\"",
     "url": "https://keysjazzbistro.com/event/cristian-eck-3/"
    },
    {
-    "finding": "Search turned up only unrelated musicians (e.g. German guitarist Christian Eckert); nothing on Cristian Eck.",
-    "url": "https://www.allaboutjazz.com/musicians/christian-eckert"
+    "finding": "Not fetched (offline run). Text from the collector cache in data/cache/: \"Howard Wiley presents a celebration of soul-jazz, funk, gospel, and R&B steeped in West Coast flavor, combining Wiley's hard-driving originals with a funkified selection of classics.\"",
+    "url": "https://keysjazzbistro.com/event/cristian-eck-3/"
    }
   ],
-  "fingerprint": "23bf13e69ef2",
-  "fit": 20,
+  "fingerprint": "e37fc333c5e0",
+  "fit": 50,
   "performers": [
    {
-    "known_for": "Guitarist, vocalist and multi-instrumentalist from the Chicago blues scene (per the listing)",
+    "known_for": "Oakland tenor saxophonist; soul-jazz and gospel; Angola Project (background knowledge)",
+    "name": "Howard Wiley",
+    "significance": "local"
+   },
+   {
+    "known_for": "SF jazz vocalist leading Cosmo Alleycats",
+    "name": "Emily Day",
+    "significance": "local"
+   },
+   {
+    "known_for": "Chicago-blues-rooted guitarist and singer",
     "name": "Cristian Eck",
     "significance": "none"
    }
   ],
-  "reason": "Cristian Eck is a guitarist and singer from the Chicago blues scene who plays a late-night genre-hopping set of classics at Keys Jazz Bistro. It reads as a lounge hang with familiar covers, and I found no lineage or press for him. The rules engine's theater match came from the word 'play' in the blurb, not from an actual play.",
-  "researched_at": "2026-11-03T22:49:40+00:00",
-  "researcher": "Claude daily research task",
+  "reason": "A merged Keys Jazz Bistro night after Thanksgiving: Howard Wiley's soul-jazz, funk and gospel set, Emily Day with Cosmo Alleycats doing old standards at 7pm, and Cristian Eck's late-night blues covers. Wiley is the draw: a longtime Oakland saxophonist (background knowledge: his Angola Project reworked Southern prison work songs), playing a 125-seat room. The rules engine's theater match came from the word 'play' in a blurb, not an actual play.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
-  "tier": "low",
+  "tier": "possible",
   "uncertainties": [
-   "No independent information found about the performer",
-   "Spelling differs between title (Cristian) and blurb (Christian)"
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The collector merged three separate Keys sets (7pm, 9pm, 10:30pm) into one event; each is likely a separate ticket.",
+   "Howard Wiley's Angola Project background is from memory, not from the listing."
   ]
  },
  "ev_889ed4cc8856": {
@@ -9347,6 +9652,31 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Carlson not recognized; all detail comes from the listing text.",
    "Rules score inflated by 'Beckett' and 'premiere'/'musical' keyword matches from the venue name and bio."
+  ]
+ },
+ "ev_8e0633533c90": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"An Evening With\"",
+    "url": "https://wl.seetickets.us/event/Petty-Theft/705785?afflky=TheChapel"
+   }
+  ],
+  "fingerprint": "3804b372c960",
+  "fit": 4,
+  "performers": [
+   {
+    "known_for": "Tom Petty tribute band",
+    "name": "Petty Theft",
+    "significance": "local"
+   }
+  ],
+  "reason": "Petty Theft is a Tom Petty tribute band at The Chapel. Tribute act; skip.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_8ee83f604a15": {
@@ -10297,6 +10627,26 @@
    "Both bands unidentified."
   ]
  },
+ "ev_a1d00b7941d6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Get tickets on Humanitix - The Guitar Trifecta hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Friday November 27th 2026. Find event information.\"",
+    "url": "https://events.humanitix.com/the-guitar-trifecta-nov27"
+   }
+  ],
+  "fingerprint": "d13d444dcb3c",
+  "fit": 35,
+  "performers": [],
+  "reason": "A guitar showcase called The Guitar Trifecta at The Back Room in Berkeley, a small listening room that books a lot of acoustic and roots players. The listing names no performers, so there is no way to judge it yet.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers are not named anywhere in the captured text."
+  ]
+ },
  "ev_a2360c1639f0": {
   "evidence": [
    {
@@ -10498,6 +10848,26 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Which Kenny Washington is not confirmed (SF vocalist vs. NY drummer).",
    "Roles of the other players not known."
+  ]
+ },
+ "ev_a400483dd877": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Hotel Utah: Open Bluegrass Jam\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "1d67a7804b44",
+  "fit": 25,
+  "performers": [],
+  "reason": "An open bluegrass jam at Hotel Utah in SoMa. It is a participatory pick, good if Erik wants to play, but there is no featured act and nothing special about this date.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Possibly recurring; host not named."
   ]
  },
  "ev_a4839e9f9910": {
@@ -11046,6 +11416,26 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Participatory dance format; better as a night out dancing than as a listening show.",
    "Band roster not listed."
+  ]
+ },
+ "ev_acff5476d195": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Little Hill Lounge: Tuesday Bluesday\"",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "2cfab50f4c1b",
+  "fit": 20,
+  "performers": [],
+  "reason": "Tuesday Bluesday is a recurring blues night at Little Hill Lounge with no featured act named. Nothing special about this date.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not named."
   ]
  },
  "ev_ad3b52f6b1f9": {
@@ -11689,6 +12079,26 @@
   "tier": "low",
   "uncertainties": [
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_b5a4e79e8e76": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Minds Without A Face at Ivy Room at 2026-11-29T16:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43456286-minds-without-a-face-at-ivy-room"
+   }
+  ],
+  "fingerprint": "3437c0dd5d0e",
+  "fit": 20,
+  "performers": [],
+  "reason": "Minds Without A Face, Parentz and Nite Swimmer at the Ivy Room. I don't recognize these acts and the listing says nothing about their style.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description of the bands' genre."
   ]
  },
  "ev_b61ba3abf1b5": {
@@ -12688,6 +13098,26 @@
    "Kai Lyons not identified."
   ]
  },
+ "ev_c65c57ad3aad": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Clarke Nova at Bottom of the Hill at 2026-11-29T18:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43432372-clarke-nova-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "4c1bab06c796",
+  "fit": 20,
+  "performers": [],
+  "reason": "The Clarke Nova, Floorists and Very Paranoia at Bottom of the Hill. I don't recognize these acts and the listing gives no genre, so there is no basis to judge.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description of the bands' genre."
+  ]
+ },
  "ev_c6f0b66f5e3c": {
   "evidence": [
    {
@@ -12890,6 +13320,26 @@
   "uncertainties": [
    "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_c8809f90b035": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Sweetwater Music Hall: Crossroads Showcase: Electric Owl, The Young Funksters, Strawberry Jam, Bubba's Taxi\"",
+    "url": "https://sweetwatermusichall.org/event/crossroads-showcase-6/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "0069dc0f95d1",
+  "fit": 3,
+  "performers": [],
+  "reason": "A student showcase of young bands (Electric Owl, The Young Funksters and others) at Sweetwater. Skip.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Inferred from the band names and 'Showcase' title that this is a youth music-school showcase."
   ]
  },
  "ev_c985af4b74ea": {
@@ -13416,6 +13866,33 @@
    "Thurman's broader credits not verified in this pass"
   ]
  },
+ "ev_d1235863041d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"IVY ROOM PRESENTS SUNDAY JAN 31ST\"; \"3pm DOORS / 4:00 PM SHOW ADV TIX AVAILABLE - $25 DOOR\"; \"Since forming in 1988 in Southern California, Big Sandy and His Fly-Rite Boys have become one of the world's most beloved Americana/R\"",
+    "url": "https://tickets.venuepilot.com/e/big-sandy-his-fly-rite-boys-89d9b8"
+   }
+  ],
+  "fingerprint": "fe24b0f2192f",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Rockabilly and western swing band since 1988",
+    "name": "Big Sandy & His Fly-Rite Boys",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Big Sandy & His Fly-Rite Boys, Southern California's long-running rockabilly and western swing band, play a Sunday afternoon show at the Ivy Room in Albany. (background knowledge) They are a beloved roots act on HighTone and Yep Roc, a cheap ($25 door) early show in a small room; more honky-tonk dance hall than old-time, but a credible roots night.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The listing text says 'SUNDAY JAN 31ST' while the event date is 2027-01-03; one of them is wrong.",
+   "The 'musical' theater match is a false positive."
+  ]
+ },
  "ev_d187af543f96": {
   "evidence": [
    {
@@ -13729,6 +14206,31 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized beyond listing text.",
    "Event URL suffix suggests this is one of many repeat dates."
+  ]
+ },
+ "ev_d8439806aac8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Dr. Know at Bottom of the Hill at 2026-11-27T20:00:00-0800\"",
+    "url": "https://www.songkick.com/concerts/43372426-dr-know-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "70f96474be78",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Oxnard hardcore punk band (background knowledge)",
+    "name": "Dr. Know",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Dr. Know, the 1980s Oxnard hardcore punk band (background knowledge), with local punk openers at Bottom of the Hill. Not a roots, jazz or hip-hop fit.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_d87d19190ff6": {
@@ -14149,28 +14651,28 @@
     "url": "https://wl.seetickets.us/event/emma-ruth-rundle/699875?afflky=GreatAmericanMusicHall"
    }
   ],
-  "fingerprint": "dfe20f673d1f",
+  "fingerprint": "b77111e1fd5b",
   "fit": 62,
   "performers": [
    {
-    "known_for": "Dark folk / post-rock singer-songwriter",
+    "known_for": "Dark folk and post-rock singer-songwriter (background knowledge)",
     "name": "Emma Ruth Rundle",
     "significance": "notable"
    },
    {
-    "known_for": "Amelia Baker; Appalachian and Irish-rooted folk ballads",
+    "known_for": "Amelia Baker's Appalachian and Irish ballad-rooted project (background knowledge)",
     "name": "Cinder Well",
     "significance": "notable"
    }
   ],
-  "reason": "Emma Ruth Rundle plays Great American Music Hall with Cinder Well opening, the night after Thanksgiving. (background knowledge) Rundle writes dark, heavy-leaning folk; Cinder Well is Amelia Baker's project rooted in Appalachian and Irish ballad singing, which is the closer fit to Erik's old-time taste. Worth a look for the opener as much as the headliner.",
-  "researched_at": "2026-11-18T22:42:57+00:00",
+  "reason": "Emma Ruth Rundle plays Great American Music Hall with Cinder Well opening, the night after Thanksgiving. (background knowledge) Rundle writes dark, heavy-leaning folk; Cinder Well is Amelia Baker's project rooted in Appalachian and Irish ballad singing, the closer fit to Erik's old-time taste.",
+  "researched_at": "2026-11-19T22:44:10+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Set times and whether Cinder Well plays solo or with band unknown."
+   "Previously researched under an older fingerprint; assessment unchanged."
   ]
  },
  "ev_dd156850d597": {
