@@ -1,7 +1,7 @@
 {
- "backlog": 1276,
+ "backlog": 1267,
  "count": 40,
- "generated_at": "2026-11-19T07:41:53+00:00",
+ "generated_at": "2026-11-19T20:51:04+00:00",
  "items": [
   {
    "city": "San Francisco",
@@ -351,6 +351,25 @@
    ]
   },
   {
+   "city": "Albany",
+   "date": "2027-01-03",
+   "description": "with plus special guests | ivy room presents | IVY ROOM PRESENTS SUNDAY JAN 31ST — BIG SANDY & HIS FLY-RITE BOYS PLUS SPECIAL GUESTS — 3pm DOORS / 4:00 PM SHOW ADV TIX AVAILABLE - $25 DOOR — IVY ROOM 860 San Pablo Avenue, Albany • 21+ Big Sandy & His Fly-Rite Boys — Since forming in 1988 in Southern California, Big Sandy and His Fly-Rite Boys have become one of the world's most beloved Americana/R",
+   "fingerprint": "fe24b0f2192f",
+   "id": "ev_d1235863041d",
+   "other_urls": [],
+   "rules_score": 65.5,
+   "rules_tier": "strong",
+   "start": "2027-01-03T16:00:00-08:00",
+   "title": "Big Sandy & His Fly-Rite Boys",
+   "url": "https://tickets.venuepilot.com/e/big-sandy-his-fly-rite-boys-89d9b8",
+   "venue": "Ivy Room",
+   "why_rules": [
+    "roots_adjacent: americana, roots, country, blues (+18)",
+    "theater_core: musical (+14)",
+    "intimate room: Ivy Room (+14)"
+   ]
+  },
+  {
    "city": "San Francisco",
    "date": "2026-11-28",
    "description": "Somehow It Flies US Album Tour | Please note – there is a delivery delay set for 2 weeks prior to show.",
@@ -524,6 +543,27 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-11-25",
+   "description": "Kilowatt: Plaster, Lil Dude & The Dorks, HeyKujo & The Homies",
+   "fingerprint": "faad1cdac199",
+   "id": "ev_fa85235b76ef",
+   "other_urls": [
+    "https://dice.fm/event/6af21babdc27ff000131b56d"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-25T00:00:00-08:00",
+   "title": "Plaster, Lil Dude & The Dorks, HeyKujo & The Homies",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Kilowatt",
+   "why_rules": [
+    "intimate room: Kilowatt (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
    "city": "",
    "date": "2026-11-27",
    "description": "SF Jazz Center: Jason Marsalis Quartet",
@@ -684,6 +724,24 @@
   },
   {
    "city": "San Francisco",
+   "date": "2026-12-02",
+   "description": "",
+   "fingerprint": "39f5dd80ed23",
+   "id": "ev_465a8d6d69be",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T00:00:00-08:00",
+   "title": "Davia Schendel and Phillip Greenlief with Citta Di Vitti – SF",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DiWj3MAF",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
    "date": "2026-11-23",
    "description": "Pedro the Lion at Bottom of the Hill at 2026-11-23T19:30:00-0800",
    "fingerprint": "45bb1874f2df",
@@ -704,24 +762,6 @@
     "noise_genre: emo (-22)",
     "intimate room: Bottom of the Hill (+14)",
     "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-02",
-   "description": "",
-   "fingerprint": "39f5dd80ed23",
-   "id": "ev_465a8d6d69be",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-02T00:00:00-08:00",
-   "title": "Davia Schendel and Phillip Greenlief with Citta Di Vitti – SF",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DiWj3MAF",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -803,44 +843,6 @@
     "noise_other: kids (-25)",
     "intimate room: Ashkenaz (+14)",
     "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-25",
-   "description": "Black Cat: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-   "fingerprint": "25d23bc17e58",
-   "id": "ev_6a1c2484f6f2",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-25T00:00:00-08:00",
-   "title": "Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-27",
-   "description": "Black Cat: Eric Wyatt",
-   "fingerprint": "aa026bd57e9b",
-   "id": "ev_14cd59444f0e",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-27T00:00:00-08:00",
-   "title": "Eric Wyatt",
-   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
    ]
   }
  ]
