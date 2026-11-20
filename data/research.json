@@ -1096,6 +1096,33 @@
    "Recurring jam, not a performance; location city not captured."
   ]
  },
+ "ev_14cd59444f0e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Eric Wyatt",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "aa026bd57e9b",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Brooklyn tenor saxophonist in the Sonny Rollins lineage (background knowledge)",
+    "name": "Eric Wyatt",
+    "significance": "notable"
+   }
+  ],
+  "reason": "New York tenor saxophonist Eric Wyatt plays Black Cat in SF on 27 Nov. (Background knowledge: a hard-driving Brooklyn tenor player mentored by Sonny Rollins, a family friend.) Muscular, soulful straight-ahead tenor in an intimate supper club; a good bet for a jazz night.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band lineup not listed.",
+   "Whether he also plays other nights is unknown."
+  ]
+ },
  "ev_157ef0c35df6": {
   "evidence": [
    {
@@ -2530,6 +2557,33 @@
    "Ticket availability unchecked; show is tomorrow."
   ]
  },
+ "ev_2b9bb50150ed": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). No listing text was captured by the collector; only the title 'Robert Goleman \"The Joy of Astonishment\" – San Francisco' at The Lost Church.",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DQgk5MAD"
+   }
+  ],
+  "fingerprint": "194505c631d4",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Robert Goleman",
+    "significance": "none"
+   }
+  ],
+  "reason": "Robert Goleman presents 'The Joy of Astonishment' at The Lost Church in SF on 3 Dec. I do not recognize the performer and no description was captured, so it is unclear whether this is music, a talk or a theatrical piece.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing text captured.",
+   "Performer and format unknown."
+  ]
+ },
  "ev_2bd09dd1f5e6": {
   "evidence": [
    {
@@ -2599,6 +2653,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Members not named."
+  ]
+ },
+ "ev_2d2fb622c2d6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). No listing text was captured by the collector; only the title 'Claudio Sanna – Lands End' at Old First Church.",
+    "url": "https://www.oldfirstconcerts.org/performance/claudio-sanna-lands-end-friday-december-4-at-8-pm/"
+   }
+  ],
+  "fingerprint": "e80489d27ee7",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Claudio Sanna",
+    "significance": "none"
+   }
+  ],
+  "reason": "Claudio Sanna presents 'Lands End' at Old First Church in SF on Fri 4 Dec at 8pm. I do not recognize the performer and no description was captured; Old First mostly books classical and new music.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing text captured.",
+   "Instrument and genre unknown."
   ]
  },
  "ev_2d4569d94a23": {
@@ -2824,6 +2905,36 @@
   "tier": "possible",
   "uncertainties": [
    "Band personnel unknown."
+  ]
+ },
+ "ev_2f506f489e92": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Chapel: Moonalice, Mad Alchemy Liquid Light Show",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "d9f4fbc2cdc8",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Bay Area psychedelic jam band (background knowledge)",
+    "name": "Moonalice",
+    "significance": "local"
+   },
+   {
+    "known_for": "Psychedelic light show (background knowledge)",
+    "name": "Mad Alchemy Liquid Light Show",
+    "significance": "local"
+   }
+  ],
+  "reason": "Moonalice, the Bay Area psychedelic jam band co-founded by Roger McNamee, plays The Chapel the night before Thanksgiving with the Mad Alchemy liquid light show. (Background knowledge: Grateful Dead-style improvisation and hippie counterculture.) Pleasant countercultural fare but a jam band, not the folk or jazz depth Erik looks for.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_2f7285cb655b": {
@@ -3073,6 +3184,36 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Manring identity inferred from the trio name only.",
    "Style of the trio not described."
+  ]
+ },
+ "ev_330428f6ab7b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Pedro the Lion at Bottom of the Hill at 2026-11-23T19:30:00-0800",
+    "url": "https://www.songkick.com/concerts/43406606-pedro-the-lion-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "45bb1874f2df",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "David Bazan's indie rock project (background knowledge)",
+    "name": "Pedro the Lion",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Singer-songwriter; not identified with confidence",
+    "name": "Karli Fairbanks",
+    "significance": "none"
+   }
+  ],
+  "reason": "Pedro the Lion, David Bazan's long-running indie rock project, plays Bottom of the Hill with Karli Fairbanks opening. (Background knowledge.) Thoughtful songwriting, but slowcore and indie rock sit outside Erik's roots, jazz and hip-hop core.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_3503948607b8": {
@@ -4100,6 +4241,32 @@
    "Members unknown."
   ]
  },
+ "ev_445e692b5cc8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SEKO at The Chapel at 2027-01-09T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43444087-seko-at-chapel"
+   }
+  ],
+  "fingerprint": "09f7578b990c",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "SEKO",
+    "significance": "none"
+   }
+  ],
+  "reason": "SEKO plays The Chapel in SF on 9 Jan 2027. I do not recognize this act and the listing gives no genre, so fit cannot be judged.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer and genre unknown."
+  ]
+ },
  "ev_45cf3c8be2c3": {
   "evidence": [
    {
@@ -4174,6 +4341,43 @@
   "tier": "possible",
   "uncertainties": []
  },
+ "ev_465a8d6d69be": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). No listing text was captured by the collector; only the title 'Davia Schendel and Phillip Greenlief with Citta Di Vitti – SF' at The Lost Church.",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DiWj3MAF"
+   }
+  ],
+  "fingerprint": "39f5dd80ed23",
+  "fit": 52,
+  "performers": [
+   {
+    "known_for": "Bay Area improvising saxophonist/composer (background knowledge)",
+    "name": "Phillip Greenlief",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Davia Schendel",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Citta Di Vitti",
+    "significance": "none"
+   }
+  ],
+  "reason": "Oakland saxophonist Phillip Greenlief plays The Lost Church in SF with Davia Schendel and Citta Di Vitti on 2 Dec. (Background knowledge: Greenlief is a long-standing figure in the Bay Area creative and free-improvised music scene.) An intimate improvised-music evening that could suit Erik's adventurous jazz side, but I cannot place Schendel or Citta Di Vitti, so the nature of the set is unclear.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing text captured; billing and style unknown.",
+   "Identity of the co-billed performers unknown."
+  ]
+ },
  "ev_46fe21770ab9": {
   "evidence": [
    {
@@ -4208,6 +4412,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Meaning of 'Haunted Shed' in the title is not explained in the listing."
+  ]
+ },
+ "ev_4739188c4754": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). No listing text was captured by the collector; only the title 'The Dogweeds at Down Home Music' at Down Home Music.",
+    "url": "https://allevents.in/el-cerrito/the-dogweeds-at-down-home-music/200031088479741"
+   }
+  ],
+  "fingerprint": "4a3a37f4debf",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "East Bay western swing / classic country band",
+    "name": "The Dogweeds",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Dogweeds, the East Bay western swing and classic country band, play an in-store set at Down Home Music in El Cerrito on Sunday 22 Nov. (Background knowledge, consistent with earlier findings.) A low-key, close-to-home roots outing at a beloved record store rather than a must-see; they also headline the 3 Dec Toys for Tots benefit at the Ivy Room.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing text captured; start time unknown (midnight placeholder).",
+   "Cost not stated; in-stores are usually free."
   ]
  },
  "ev_4797dbcc7c71": {
@@ -5010,6 +5241,38 @@
    "Venue location unresolved by the collector."
   ]
  },
+ "ev_54b662dca924": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Hosted by Jasper Manning | Doors: 7PM Jam 7-8PM Showcase Performance 8-9PM Jam 9-11PM The Berkeley Bluegrass Barn Jam returns yet again to the Ashkenaz stage. Join us for an evening of community music-making and lively jam sessions! We are pleased to offer free admission to this community-oriented event for students and musicians with student ID and/or instruments. Tickets: Tickets offered on",
+    "url": "https://tickets.venuepilot.com/e/berkeley-bluegrass-barn-jam-2026-11-24-ashkenaz-music-dance-community-center-berkeley-04a3c2"
+   }
+  ],
+  "fingerprint": "9d35d384c755",
+  "fit": 52,
+  "performers": [
+   {
+    "known_for": "Jam host; not identified",
+    "name": "Jasper Manning",
+    "significance": "local"
+   },
+   {
+    "known_for": "Showcase band; not identified",
+    "name": "Blue Blossom",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Berkeley Bluegrass Barn Jam at Ashkenaz, hosted by Jasper Manning, with a showcase set by Blue Blossom from 8 to 9pm between open jams. Listing says $10-15 sliding scale and free for students and musicians with instruments, so Erik could bring a fiddle or banjo and sit in. A community bluegrass night five minutes from home rather than a headline concert; I do not know Blue Blossom.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The rules 'kids' penalty looks like a false match on 'students'; nothing suggests a kids' show.",
+   "Blue Blossom not identified."
+  ]
+ },
  "ev_54d511a3ab7d": {
   "evidence": [
    {
@@ -5609,6 +5872,32 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_5ae4e8b4408c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: Edgardo Cambón *KALX Co-Announce*",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "5be644a39d11",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Uruguayan-born Bay Area candombe/Afro-Latin musician (background knowledge)",
+    "name": "Edgardo Cambón",
+    "significance": "local"
+   }
+  ],
+  "reason": "Uruguayan-born Bay Area singer and percussionist Edgardo Cambón plays the Freight, a KALX co-presented show. (Background knowledge: he leads Candela and plays candombe and Afro-Latin music.) A warm, rhythm-rich roots night from a respected local tradition-bearer, close to home.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band lineup not listed."
+  ]
+ },
  "ev_5b073ddd57d8": {
   "evidence": [
    {
@@ -6020,6 +6309,42 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_5e58355ce222": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: Peter Smith Quartet (4pm), Jules Leyhe & The Family Jules with Nancy Wright (8pm)",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "3a3292b694dd",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Peter Smith Quartet",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Jules Leyhe & The Family Jules",
+    "significance": "none"
+   },
+   {
+    "known_for": "Bay Area blues/R&B saxophonist (background knowledge)",
+    "name": "Nancy Wright",
+    "significance": "local"
+   }
+  ],
+  "reason": "An Oakland Sound Room double: the Peter Smith Quartet at 4pm, then Jules Leyhe & The Family Jules with Bay Area blues saxophonist Nancy Wright at 8pm. (Background knowledge on Wright only.) A solid local evening in a small room, but nothing on the bill stands out as special.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Styles of both sets not stated."
+  ]
+ },
  "ev_5ecd68e623cd": {
   "evidence": [
    {
@@ -6135,6 +6460,38 @@
   "tier": "possible",
   "uncertainties": [
    "No independent review found; how free or composed the music is is unknown."
+  ]
+ },
+ "ev_5f11ab12ca7c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Edmar Castañeda, Germán López",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "1e0591280540",
+  "fit": 74,
+  "performers": [
+   {
+    "known_for": "Colombian jazz harpist, llanera harp (background knowledge)",
+    "name": "Edmar Castañeda",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Canarian timple virtuoso (background knowledge)",
+    "name": "Germán López",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Colombian jazz harpist Edmar Castañeda plays SFJAZZ with Germán López, the Canary Islands virtuoso of the timple, a small five-string folk guitar. (Background knowledge: Castañeda turned the Colombian llanera harp into a jazz instrument and has worked with Wynton Marsalis, Grégoire Maret and Hiromi.) A rare, unusual pairing of two folk string traditions reshaped through improvisation, exactly the kind of traditional collaboration Erik seeks out.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Which SFJAZZ room is not stated.",
+   "That this is a duo is inferred from the two names in the KALX listing."
   ]
  },
  "ev_5f59d1b05df4": {
@@ -6798,6 +7155,43 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_6a1c2484f6f2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "25d23bc17e58",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Joe Warner",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Dante 'Taz' Robinson",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Michael 'Tiny' Lindsey",
+    "significance": "none"
+   }
+  ],
+  "reason": "Joe Warner, Dante 'Taz' Robinson and Michael 'Tiny' Lindsey play Black Cat in SF the night before Thanksgiving. I cannot place these musicians with confidence; Black Cat books serious straight-ahead jazz, so it may be a good trio set, but the listing gives no instruments or leader.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Instruments and leader unknown.",
+   "Performers not identified."
+  ]
+ },
  "ev_6c0c361dbcd8": {
   "evidence": [
    {
@@ -6884,6 +7278,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performer backgrounds not verified."
+  ]
+ },
+ "ev_6c856a8e42c1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Swing Into The Holidays with Caity Gyorgy & Christian Wiggs",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "910102c45056",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Juno-winning Canadian bebop vocalist (background knowledge)",
+    "name": "Caity Gyorgy",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not identified with confidence",
+    "name": "Christian Wiggs",
+    "significance": "none"
+   }
+  ],
+  "reason": "Canadian jazz singer Caity Gyorgy and Christian Wiggs present a holiday swing program at SFJAZZ on 29 Nov. (Background knowledge: Gyorgy is a Juno-winning bebop vocalist and songwriter.) Skilled but a seasonal standards show, not the adventurous improvised jazz Erik looks for.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (holiday standards program) inferred from the title."
   ]
  },
  "ev_6c992bfec563": {
@@ -7064,6 +7489,26 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Band history and leader are background knowledge.",
    "Far-off date (Feb 2027); lineup could change."
+  ]
+ },
+ "ev_6e42655d2a70": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+    "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-03-04/"
+   }
+  ],
+  "fingerprint": "ce5df9de6dd8",
+  "fit": 15,
+  "performers": [],
+  "reason": "A monthly all-ages bluegrass-ish jam at Deer Creek Bar and Grill in Nevada City. A participatory session far from Oakland with no featured artist.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The 'musical' rule match is spurious (from 'musical focus')."
   ]
  },
  "ev_6fbc0fdbc1ce": {
@@ -7476,6 +7921,42 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Kirby's live band lineup not listed."
+  ]
+ },
+ "ev_73f7ce94c60a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Joe Rut, Maurice Tani, Aaron Burnham, Cindy Emch, John Harris, Danny Allen | EL CERRITO FIRE DEPT + IVY ROOM PRESENTS | EL CERRITO FIRE DEPT + IVY ROOM PRESENTS THURSDAY DECEMBER 3RD BENEFIT FOR TOYS FOR TOTS — THE DOGWEEDS & SPECIAL GUESTS THE ST. IGNATIUS HOLIDAY BLUES BAND ALSO FEAT. JOE RUT MARGARET BELTON MAURICE TANI AARON BURNHAM CINDY EMCH JOHN HARRIS DANNY ALLEN — 7:00 PM DOORS / SHO",
+    "url": "https://tickets.venuepilot.com/e/the-dogweeds-the-st-ignatius-holiday-blues-band-a-benefit-for-toys-for-tots-2026-12-03-ivy-room-alban-8a042e"
+   }
+  ],
+  "fingerprint": "2ca757cafcf5",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "East Bay western swing / classic country band",
+    "name": "The Dogweeds",
+    "significance": "local"
+   },
+   {
+    "known_for": "East Bay roots/country songwriter (background knowledge)",
+    "name": "Maurice Tani",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "The St. Ignatius Holiday Blues Band",
+    "significance": "none"
+   }
+  ],
+  "reason": "A $10 Toys for Tots benefit at the Ivy Room in Albany on Thu 3 Dec, headlined by the Dogweeds and the St. Ignatius Holiday Blues Band with Maurice Tani, Margaret Belton and others. (Background knowledge: the Dogweeds play western swing and classic country, and Tani is a long-time East Bay roots songwriter.) A cheap, friendly local roots-community night near home rather than a must-see.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing says 21+."
   ]
  },
  "ev_74050a3940bd": {
@@ -7917,6 +8398,31 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Modúpue band lineup not captured.",
    "Rules' 'reading' penalty reflects the poetry element."
+  ]
+ },
+ "ev_78dc2c0143e8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: An Evening with...",
+    "url": "https://wl.seetickets.us/event/zepparella-the-led-zeppelin-powerhouse/703222?afflky=GreatAmericanMusicHall"
+   }
+  ],
+  "fingerprint": "deab1bc7449a",
+  "fit": 8,
+  "performers": [
+   {
+    "known_for": "Led Zeppelin tribute band (background knowledge)",
+    "name": "Zepparella",
+    "significance": "local"
+   }
+  ],
+  "reason": "Zepparella is an all-female Led Zeppelin tribute band playing the Great American Music Hall. A tribute act, which Erik avoids.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_78f9dc38108a": {
@@ -8723,6 +9229,42 @@
    "Price not listed",
    "Feed start time shows midnight; page says music at 7:30 pm",
    "No Peter Rowan involvement found on the event page"
+  ]
+ },
+ "ev_812f629d9867": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The DeLuxe: 3pm The Silver Bell Jazz Band featuring Jonathan Doyle; 6:30pm Liza Silva!",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "aa82cc7e5fb8",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Trad jazz band; not identified",
+    "name": "The Silver Bell Jazz Band",
+    "significance": "none"
+   },
+   {
+    "known_for": "Trad/swing reedman (background knowledge)",
+    "name": "Jonathan Doyle",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Liza Silva",
+    "significance": "none"
+   }
+  ],
+  "reason": "At The DeLuxe on Sun 22 Nov: the Silver Bell Jazz Band with reedman Jonathan Doyle at 3pm, then Liza Silva at 6:30pm. (Background knowledge: Doyle is a trad and swing-era clarinetist and saxophonist.) Early-jazz dance music, enjoyable but not the improvised jazz Erik prioritizes.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Location of The DeLuxe not stated in the listing."
   ]
  },
  "ev_81ff9def79ca": {
@@ -12564,6 +13106,37 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_bc9a22762009": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: Tito Puente Jr. & Nestor Torres",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "066461d2de17",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Percussionist leading his father's Latin jazz repertoire (background knowledge)",
+    "name": "Tito Puente Jr.",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Latin Grammy-winning Latin jazz flutist (background knowledge)",
+    "name": "Nestor Torres",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Tito Puente Jr., who carries on his father's mambo and Latin jazz book, shares the Freight stage with Puerto Rican flutist Nestor Torres. (Background knowledge: Torres is a Latin Grammy-winning Latin jazz flautist.) A festive, danceable Latin jazz night in a good room; more celebration of a legacy than adventurous improvisation.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Whether they play as one band or a double bill is unclear."
+  ]
+ },
  "ev_bcc54fa1f807": {
   "evidence": [
    {
@@ -13721,6 +14294,38 @@
    "The rules score credited jazz keywords that may not apply to these bands."
   ]
  },
+ "ev_cedb96f4f482": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: Bobby McFerrin and MOTION: Circlesongs (Noon)",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "b0c4d506e499",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Vocal improviser, Circlesongs (background knowledge)",
+    "name": "Bobby McFerrin",
+    "significance": "major"
+   },
+   {
+    "known_for": "Vocal ensemble appearing with McFerrin; not identified",
+    "name": "MOTION",
+    "significance": "none"
+   }
+  ],
+  "reason": "Bobby McFerrin leads a noon Circlesongs session with his vocal group MOTION at the Freight on Monday 23 Nov. (Background knowledge: McFerrin is a ten-time Grammy-winning vocal improviser, and Circlesongs are improvised, often participatory group-singing pieces.) A chance to share a small room with a foundational improviser, though it may be closer to a sing-along than a concert, and it is a weekday noon slot.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Whether this is a performance or a participatory session is unclear.",
+   "Weekday noon timing."
+  ]
+ },
  "ev_cef19feafad4": {
   "evidence": [
    {
@@ -13917,6 +14522,41 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers and whether dancers appear are not listed."
+  ]
+ },
+ "ev_d20c90ab0338": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hippie Death Cult at Thee Stork Club at 2026-11-29T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43455199-hippie-death-cult-at-thee-stork-club"
+   }
+  ],
+  "fingerprint": "f1529f011c03",
+  "fit": 22,
+  "performers": [
+   {
+    "known_for": "Portland heavy psych/stoner rock band (background knowledge)",
+    "name": "Hippie Death Cult",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Rotterdam",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "KIM",
+    "significance": "none"
+   }
+  ],
+  "reason": "Portland heavy psych/stoner rock band Hippie Death Cult headlines Thee Stork Club in Oakland with Rotterdam and KIM. (Background knowledge on the headliner.) Loud riff rock rather than the psychedelic folk Erik means by freak/outsider.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_d21502a84609": {
@@ -15534,6 +16174,33 @@
    "Ticket Tailor page not reachable this run; capacity and sales status unknown."
   ]
  },
+ "ev_e9f416757102": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Jason Marsalis Quartet",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "915ecd2b90fc",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "New Orleans vibraphonist/drummer, son of Ellis Marsalis (background knowledge)",
+    "name": "Jason Marsalis",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Jason Marsalis, the youngest of the Marsalis brothers and a New Orleans vibraphonist and drummer, leads his quartet at SFJAZZ the day after Thanksgiving. (Background knowledge: he has recorded vibes-led quartet albums on Basin Street and played drums with Marcus Roberts and Ellis Marsalis.) Polished, swinging modern mainstream jazz from a serious player; worth it if the date is in the small Joe Henderson Lab rather than Miner Auditorium.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Which SFJAZZ room (Joe Henderson Lab vs Miner) is not stated.",
+   "Showtimes and ticket price unknown."
+  ]
+ },
  "ev_eb8b74842789": {
   "evidence": [
    {
@@ -16402,6 +17069,33 @@
    "Bands for this edition not listed."
   ]
  },
+ "ev_f7ed8da25236": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Sweetwater Music Hall: Josh Zee And Friends Black Friday Edition",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "db66e6a8baf6",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Bay Area guitarist; identification uncertain",
+    "name": "Josh Zee",
+    "significance": "local"
+   }
+  ],
+  "reason": "Guitarist Josh Zee and friends play a Black Friday show at Sweetwater Music Hall in Mill Valley. (Background knowledge, uncertain: Zee is known locally from cover and yacht-rock projects.) Likely a jam/cover evening, far from Oakland.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identity of Josh Zee and the guests not confirmed.",
+   "Guest lineup not listed."
+  ]
+ },
  "ev_f832cb15ac80": {
   "evidence": [
    {
@@ -16430,6 +17124,32 @@
   "uncertainties": [
    "No independent coverage of the trio found",
    "Repertoire (originals vs traditional) not stated"
+  ]
+ },
+ "ev_f8548e0717ac": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Jazz School: Dave Eshelman's Jazz Garden Big Band",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "207ad53acdb4",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Long-running Bay Area big band (background knowledge)",
+    "name": "Dave Eshelman's Jazz Garden Big Band",
+    "significance": "local"
+   }
+  ],
+  "reason": "Dave Eshelman's Jazz Garden Big Band plays the Jazz School (California Jazz Conservatory) in Berkeley on Sat 21 Nov. (Background knowledge: a long-running Bay Area big band playing Eshelman's originals and arrangements.) A well-crafted local big-band night close to home, more polished than adventurous.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Showtime not listed."
   ]
  },
  "ev_f8c7d9a70680": {
@@ -16667,6 +17387,43 @@
   "uncertainties": [
    "More indie rock than roots; fit is a judgment call.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_fa85235b76ef": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Plaster, Lil Dude & The Dorks, HeyKujo & The Homies",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "faad1cdac199",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Plaster",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Lil Dude & The Dorks",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "HeyKujo & The Homies",
+    "significance": "none"
+   }
+  ],
+  "reason": "A three-band bill at Kilowatt in SF: Plaster, Lil Dude & The Dorks, and HeyKujo & The Homies. I do not recognize any of these acts and the listing gives no genre, so I cannot judge fit; Kilowatt mostly books punk and indie rock, which makes a strong fit unlikely.",
+  "researched_at": "2026-11-20T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not recognized and no genre in the listing.",
+   "Kilowatt usually books punk/indie (background knowledge)."
   ]
  },
  "ev_fb10fffdd4db": {
