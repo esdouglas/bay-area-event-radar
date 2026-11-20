@@ -1,16 +1,16 @@
 {
- "inventory_total": 5443,
- "inventory_upcoming": 3174,
- "merged_sources": 12,
- "new_events": 24,
- "run_id": "d16558145411",
- "seconds": 408.4,
- "sources_due": 65,
+ "inventory_total": 5467,
+ "inventory_upcoming": 3109,
+ "merged_sources": 6,
+ "new_events": 32,
+ "run_id": "af4ba58e5cec",
+ "seconds": 356.2,
+ "sources_due": 69,
  "sources_failed": [
+  "down-home-music",
   "outsound",
-  "broadway-sf",
-  "down-home-music"
+  "broadway-sf"
  ],
- "sources_ok": 62,
- "ts": "2026-11-20T07:29:59+00:00"
+ "sources_ok": 66,
+ "ts": "2026-11-20T20:32:43+00:00"
 }

@@ -1,25 +1,24 @@
 {
- "backlog": 1243,
+ "backlog": 1221,
  "count": 40,
- "generated_at": "2026-11-20T07:32:46+00:00",
+ "generated_at": "2026-11-20T20:35:17+00:00",
  "items": [
   {
-   "city": "",
-   "date": "2026-11-19",
-   "description": "Nov. 19: Bloomfield Bluegrass Band - Willowbrook Ale House, Petaluma",
-   "fingerprint": "d34eb5c177e4",
-   "id": "ev_c04062d19a95",
+   "city": "El Cerrito",
+   "date": "2026-11-22",
+   "description": "",
+   "fingerprint": "4a3a37f4debf",
+   "id": "ev_4739188c4754",
    "other_urls": [],
-   "rules_score": 63.0,
-   "rules_tier": "strong",
-   "start": "2026-11-19T00:00:00-08:00",
-   "title": "Bloomfield Bluegrass Band",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Willowbrook Ale House, Petaluma",
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-22T00:00:00-08:00",
+   "title": "The Dogweeds at Down Home Music",
+   "url": "https://allevents.in/el-cerrito/the-dogweeds-at-down-home-music/200031088479741",
+   "venue": "Down Home Music",
    "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+18)",
-    "location unresolved (no penalty)"
+    "intimate room: Down Home Music (+14)",
+    "booking signal: Down Home Music (+8)"
    ]
   },
   {
@@ -204,24 +203,6 @@
   },
   {
    "city": "San Francisco",
-   "date": "2026-12-02",
-   "description": "",
-   "fingerprint": "39f5dd80ed23",
-   "id": "ev_465a8d6d69be",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-02T00:00:00-08:00",
-   "title": "Davia Schendel and Phillip Greenlief with Citta Di Vitti – SF",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DiWj3MAF",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
    "date": "2026-11-23",
    "description": "Pedro the Lion at Bottom of the Hill at 2026-11-23T19:30:00-0800",
    "fingerprint": "45bb1874f2df",
@@ -245,23 +226,21 @@
    ]
   },
   {
-   "city": "",
-   "date": "2026-11-27",
-   "description": "Sweetwater Music Hall: Josh Zee And Friends Black Friday Edition",
-   "fingerprint": "db66e6a8baf6",
-   "id": "ev_f7ed8da25236",
+   "city": "San Francisco",
+   "date": "2026-12-02",
+   "description": "",
+   "fingerprint": "39f5dd80ed23",
+   "id": "ev_465a8d6d69be",
    "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-11-27T00:00:00-08:00",
-   "title": "Josh Zee And Friends Black Friday Edition",
-   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-   "venue": "Sweetwater Music Hall",
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T00:00:00-08:00",
+   "title": "Davia Schendel and Phillip Greenlief with Citta Di Vitti – SF",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DiWj3MAF",
+   "venue": "The Lost Church",
    "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -280,6 +259,26 @@
    "why_rules": [
     "intimate room: The Lost Church (+14)",
     "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-27",
+   "description": "Sweetwater Music Hall: Josh Zee And Friends Black Friday Edition",
+   "fingerprint": "db66e6a8baf6",
+   "id": "ev_f7ed8da25236",
+   "other_urls": [],
+   "rules_score": 57.0,
+   "rules_tier": "strong",
+   "start": "2026-11-27T00:00:00-08:00",
+   "title": "Josh Zee And Friends Black Friday Edition",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Sweetwater Music Hall",
+   "why_rules": [
+    "intimate room: Sweetwater Music Hall (+14)",
+    "booking signal: Sweetwater Music Hall (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
    ]
   },
   {
@@ -365,6 +364,24 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-12-04",
+   "description": "",
+   "fingerprint": "e80489d27ee7",
+   "id": "ev_2d2fb622c2d6",
+   "other_urls": [],
+   "rules_score": 43.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-04T20:00:00-08:00",
+   "title": "Claudio Sanna – Lands End",
+   "url": "https://www.oldfirstconcerts.org/performance/claudio-sanna-lands-end-friday-december-4-at-8-pm/",
+   "venue": "Old First Church",
+   "why_rules": [
+    "intimate room: Old First Church (+14)",
+    "listed by a taste-aligned calendar (+6)"
+   ]
+  },
+  {
    "city": "",
    "date": "2026-11-25",
    "description": "Black Cat: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
@@ -375,6 +392,25 @@
    "rules_tier": "inventory",
    "start": "2026-11-25T00:00:00-08:00",
    "title": "Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-27",
+   "description": "Black Cat: Eric Wyatt",
+   "fingerprint": "aa026bd57e9b",
+   "id": "ev_14cd59444f0e",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-27T00:00:00-08:00",
+   "title": "Eric Wyatt",
    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
    "venue": "Black Cat SF",
    "why_rules": [
@@ -400,47 +436,6 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-27",
-   "description": "Black Cat: Eric Wyatt",
-   "fingerprint": "aa026bd57e9b",
-   "id": "ev_14cd59444f0e",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-27T00:00:00-08:00",
-   "title": "Eric Wyatt",
-   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-09",
-   "description": "SEKO at The Chapel at 2027-01-09T20:00:00-0800",
-   "fingerprint": "09f7578b990c",
-   "id": "ev_445e692b5cc8",
-   "other_urls": [
-    "https://wl.eventim.us/event/swirlies/706410?afflky=TheChapel"
-   ],
-   "rules_score": 56.0,
-   "rules_tier": "strong",
-   "start": "2027-01-09T20:00:00-08:00",
-   "title": "SEKO",
-   "url": "https://www.songkick.com/concerts/43444087-seko-at-chapel",
-   "venue": "The Chapel",
-   "why_rules": [
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)",
-    "listed by a taste-aligned calendar (+10)",
-    "2 independent sources (+4)"
    ]
   },
   {
@@ -480,6 +475,28 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-01-09",
+   "description": "SEKO at The Chapel at 2027-01-09T20:00:00-0800",
+   "fingerprint": "09f7578b990c",
+   "id": "ev_445e692b5cc8",
+   "other_urls": [
+    "https://wl.eventim.us/event/swirlies/706410?afflky=TheChapel"
+   ],
+   "rules_score": 56.0,
+   "rules_tier": "strong",
+   "start": "2027-01-09T20:00:00-08:00",
+   "title": "SEKO",
+   "url": "https://www.songkick.com/concerts/43444087-seko-at-chapel",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)",
+    "listed by a taste-aligned calendar (+10)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -542,6 +559,25 @@
    ]
   },
   {
+   "city": "",
+   "date": "2026-11-23",
+   "description": "The DeLuxe: DeLuxe Jazz Collective",
+   "fingerprint": "8f3d180f4776",
+   "id": "ev_360fc0cfafb9",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-23T00:00:00-08:00",
+   "title": "DeLuxe Jazz Collective",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "The DeLuxe",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
    "city": "El Cerrito",
    "date": "2026-12-05",
    "description": "",
@@ -598,45 +634,6 @@
    "why_rules": [
     "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-11-23",
-   "description": "The DeLuxe: DeLuxe Jazz Collective",
-   "fingerprint": "8f3d180f4776",
-   "id": "ev_360fc0cfafb9",
-   "other_urls": [],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-23T00:00:00-08:00",
-   "title": "DeLuxe Jazz Collective",
-   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-   "venue": "The DeLuxe",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2027-01-05",
-   "description": "Every 1st Tuesday from 6:00 PM there is jamming outside Round Table pizza while waiting for the FREE concert. At 7:00 PM there is an opening band playing inside until the headliner band starts at 8:00 PM. NCBFC Concert and jam is held at Round Table Pizza , 1161 E. Washington Ave, Corner Ash & Washington Streets, Escondido, CA 92025. All ages from beginner to advanced players welcome.",
-   "fingerprint": "360d0f9f2020",
-   "id": "ev_e15fb5c84d6f",
-   "other_urls": [],
-   "rules_score": 60.0,
-   "rules_tier": "strong",
-   "start": "2027-01-05T18:00:00-08:00",
-   "title": "North County Bluegrass and Folk Club 1st Tuesday RT jam and FREE concert",
-   "url": "https://californiabluegrass.org/event/north-county-bluegrass-and-folk-club-1st-tuesday-rt-jam-and-free-concert/2027-01-05/",
-   "venue": "",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "roots_adjacent: folk (+10)",
-    "listed by a taste-aligned calendar (+8)",
     "location unresolved (no penalty)"
    ]
   },
@@ -701,45 +698,43 @@
    ]
   },
   {
-   "city": "Mill Valley",
-   "date": "2027-03-28",
-   "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "76dce34bc0d2",
-   "id": "ev_02dbb31c4de8",
+   "city": "",
+   "date": "2027-01-05",
+   "description": "Every 1st Tuesday from 6:00 PM there is jamming outside Round Table pizza while waiting for the FREE concert. At 7:00 PM there is an opening band playing inside until the headliner band starts at 8:00 PM. NCBFC Concert and jam is held at Round Table Pizza , 1161 E. Washington Ave, Corner Ash & Washington Streets, Escondido, CA 92025. All ages from beginner to advanced players welcome.",
+   "fingerprint": "360d0f9f2020",
+   "id": "ev_e15fb5c84d6f",
    "other_urls": [],
-   "rules_score": 72.0,
+   "rules_score": 60.0,
    "rules_tier": "strong",
-   "start": "2027-03-28T12:00:00-07:00",
-   "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-03-28/",
-   "venue": "Sweetwater Music Hall",
+   "start": "2027-01-05T18:00:00-08:00",
+   "title": "North County Bluegrass and Folk Club 1st Tuesday RT jam and FREE concert",
+   "url": "https://californiabluegrass.org/event/north-county-bluegrass-and-folk-club-1st-tuesday-rt-jam-and-free-concert/2027-01-05/",
+   "venue": "",
    "why_rules": [
     "roots_core: bluegrass (+22)",
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+8)"
+    "roots_adjacent: folk (+10)",
+    "listed by a taste-aligned calendar (+8)",
+    "location unresolved (no penalty)"
    ]
   },
   {
-   "city": "Oakland",
-   "date": "2026-11-19",
-   "description": "Brian Culbertson at Yoshi's at 2026-11-19T19:30:00-0800",
-   "fingerprint": "c3b8d1dd62c6",
-   "id": "ev_150aae8ef7a2",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://www.jambase.com/show/brian-culbertson-yoshis-20261119",
-    "https://allevents.in/oakland/brian-culbertson-in-oakland/3300029956701447"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T19:30:00-08:00",
-   "title": "Brian Culbertson in Oakland",
-   "url": "https://www.songkick.com/concerts/43086507-brian-culbertson-at-yoshis",
-   "venue": "Yoshi's Oakland",
+   "city": "Sacramento",
+   "date": "2026-12-13",
+   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+   "fingerprint": "d606daab9c10",
+   "id": "ev_675601ddc31e",
+   "other_urls": [],
+   "rules_score": 59.0,
+   "rules_tier": "strong",
+   "start": "2026-12-13T18:00:00-08:00",
+   "title": "Two Rivers Cider Old Time Jam",
+   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-13/",
+   "venue": "Two Rivers Cider",
    "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "outside the core Bay Area (-6)"
    ]
   },
   {
@@ -762,43 +757,42 @@
    ]
   },
   {
+   "city": "Santa Cruz",
+   "date": "2027-02-05",
+   "description": "Born in Norman, Oklahoma in 1985, Champian Fulton was recognized by The Detroit Free Press as the \"most gifted pure Jazz singer of her generation.\" A pianist and vocalist with a career spanning more than twenty years, Fulton has released twenty albums as a bandleader and has performed in more than twenty-five countries. She has been recognized with numerous awards, including 'Album of the Year' in",
+   "fingerprint": "f540e8418255",
+   "id": "ev_d653043fd3cb",
+   "other_urls": [],
+   "rules_score": 60.0,
+   "rules_tier": "strong",
+   "start": "2027-02-05T19:00:00-08:00",
+   "title": "Champian Fulton",
+   "url": "https://www.kuumbwajazz.org/calendar/champian-fulton-2/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
    "city": "Mill Valley",
-   "date": "2027-04-25",
+   "date": "2027-03-28",
    "description": "Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
-   "fingerprint": "038a6db7b5a3",
-   "id": "ev_1e72cf52c774",
+   "fingerprint": "76dce34bc0d2",
+   "id": "ev_02dbb31c4de8",
    "other_urls": [],
    "rules_score": 72.0,
    "rules_tier": "strong",
-   "start": "2027-04-25T12:00:00-07:00",
+   "start": "2027-03-28T12:00:00-07:00",
    "title": "The Marin Bluegrass Sessions at Sweetwater Music Hall",
-   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-04-25/",
+   "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-03-28/",
    "venue": "Sweetwater Music Hall",
    "why_rules": [
     "roots_core: bluegrass (+22)",
     "intimate room: Sweetwater Music Hall (+14)",
     "booking signal: Sweetwater Music Hall (+8)",
     "listed by a taste-aligned calendar (+8)"
-   ]
-  },
-  {
-   "city": "Sacramento",
-   "date": "2026-12-13",
-   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
-   "fingerprint": "d606daab9c10",
-   "id": "ev_675601ddc31e",
-   "other_urls": [],
-   "rules_score": 59.0,
-   "rules_tier": "strong",
-   "start": "2026-12-13T18:00:00-08:00",
-   "title": "Two Rivers Cider Old Time Jam",
-   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-13/",
-   "venue": "Two Rivers Cider",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "outside the core Bay Area (-6)"
    ]
   }
  ]
