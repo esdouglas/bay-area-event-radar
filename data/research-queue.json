@@ -1,8 +1,27 @@
 {
- "backlog": 1240,
+ "backlog": 1243,
  "count": 40,
- "generated_at": "2026-11-19T22:47:20+00:00",
+ "generated_at": "2026-11-20T07:32:46+00:00",
  "items": [
+  {
+   "city": "",
+   "date": "2026-11-19",
+   "description": "Nov. 19: Bloomfield Bluegrass Band - Willowbrook Ale House, Petaluma",
+   "fingerprint": "d34eb5c177e4",
+   "id": "ev_c04062d19a95",
+   "other_urls": [],
+   "rules_score": 63.0,
+   "rules_tier": "strong",
+   "start": "2026-11-19T00:00:00-08:00",
+   "title": "Bloomfield Bluegrass Band",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Willowbrook Ale House, Petaluma",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+18)",
+    "location unresolved (no penalty)"
+   ]
+  },
   {
    "city": "San Francisco",
    "date": "2026-11-25",
@@ -243,6 +262,24 @@
     "booking signal: Sweetwater Music Hall (+8)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-03",
+   "description": "",
+   "fingerprint": "194505c631d4",
+   "id": "ev_2b9bb50150ed",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-03T00:00:00-08:00",
+   "title": "Robert Goleman \"The Joy of Astonishment\" – San Francisco",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DQgk5MAD",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
    ]
   },
   {
@@ -762,50 +799,6 @@
     "listed by a taste-aligned calendar (+8)",
     "2 independent sources (+4)",
     "outside the core Bay Area (-6)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-19",
-   "description": "Live Nation presents Doors 7 PM · Show 8 PM Cafe du Nord · Downstairs All ages Tickets $30.36 Tickets: https://www.ticketweb.com/event/internet-girl-cafe-du-nord-tickets/15010183?pl=cafedunord&REFID=clientsitewp https://cafedunord.com/shows/2026-11-19-internet-girl",
-   "fingerprint": "cad9f37c7bb5",
-   "id": "ev_7d402876da0f",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://www.jambase.com/show/internet-girl-cafe-du-nord-20261119"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T19:00:00-08:00",
-   "title": "Internet Girl at Cafe du Nord",
-   "url": "https://cafedunord.com/shows/2026-11-19-internet-girl",
-   "venue": "Cafe du Nord, 2174 Market St, San Francisco, CA 94114",
-   "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-19",
-   "description": "Pretty Lights at Fox Theater at 2026-11-19T19:30:00-0800",
-   "fingerprint": "d3a4bb48979f",
-   "id": "ev_d4b0f1d02f86",
-   "other_urls": [
-    "https://thefoxoakland.com/events/pretty-lights-261119",
-    "https://apeconcerts.com/events/pretty-lights-261119/",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://www.jambase.com/show/pretty-lights-fox-theater-20261119"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-19T19:30:00-08:00",
-   "title": "Pretty Lights",
-   "url": "https://www.songkick.com/concerts/43304273-pretty-lights-at-fox-theater",
-   "venue": "Fox Theater Oakland",
-   "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "5 independent sources (+12)"
    ]
   }
  ]
