@@ -114,6 +114,25 @@
    "Recurring weekly event."
   ]
  },
+ "ev_02dbb31c4de8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+    "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-03-28/"
+   }
+  ],
+  "fingerprint": "76dce34bc0d2",
+  "fit": 30,
+  "performers": [],
+  "reason": "The Marin Bluegrass Sessions: a free open-mic bluegrass jam with a support band on the Sweetwater stage in Mill Valley. Participatory, not a featured act.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_02e5e92ba13e": {
   "evidence": [
    {
@@ -355,6 +374,25 @@
   "tier": "low",
   "uncertainties": [
    "Ji Youn Lee's background not researched"
+  ]
+ },
+ "ev_0578d30345e1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: title 'CLOSED FOR PRIVATE PARTY', venue 'Little Hill Lounge', date 2027-01-23 (no description captured)",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "ec19eae866f0",
+  "fit": 0,
+  "performers": [],
+  "reason": "Not a public event: Little Hill Lounge is closed for a private party. Ignore.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_05929aa25a87": {
@@ -1378,6 +1416,25 @@
    "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
   ]
  },
+ "ev_17bbbfd405c4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2026-12-30/"
+   }
+  ],
+  "fingerprint": "db9ea464aa0c",
+  "fit": 25,
+  "performers": [],
+  "reason": "The weekly East Bay Bluegrassers participatory jam upstairs at Rockin' Robbie's in El Cerrito. A beginner-friendly picking circle, not a show; only of interest if he wants to play.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_17c278f9772b": {
   "evidence": [
    {
@@ -1625,6 +1682,32 @@
    "Rhythm section not listed."
   ]
  },
+ "ev_1a5af03d39a6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: title 'Crunk Witch', venue 'Little Hill Lounge', date 2027-01-24 (no description captured)",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "94d07701c6cc",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Electro-pop duo (background knowledge, uncertain)",
+    "name": "Crunk Witch",
+    "significance": "none"
+   }
+  ],
+  "reason": "Crunk Witch at Little Hill Lounge in El Cerrito. (Background knowledge, not certain: Crunk Witch is a husband-and-wife electro-pop duo.) Nothing points to his roots, jazz or hip-hop lanes.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured; identification from background knowledge."
+  ]
+ },
  "ev_1bf8cb57892f": {
   "evidence": [
    {
@@ -1725,6 +1808,26 @@
    "Venue ticket page (wl.eventim.us) was blocked; lineup and format not confirmed from a primary source.",
    "Program assumed to be Grateful Dead material based on title and performers (inference).",
    "Wally Ingram and Elliott Peck backgrounds not verified in this pass."
+  ]
+ },
+ "ev_1d2b097e28b2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: title 'Furthest Waves Guitars Showcase Singers/Songwriters~ Benefit for The Lost Church', venue 'The Lost Church', date 2026-12-05 (no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Ds8E1MAJ"
+   }
+  ],
+  "fingerprint": "822f3cb26d74",
+  "fit": 28,
+  "performers": [],
+  "reason": "A Furthest Waves Guitars singer-songwriter showcase, a benefit for The Lost Church in SF. No performers are named, and a sponsor-branded songwriter showcase is rarely the kind of night that rewards a trip. Good cause, low fit.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named; no description captured."
   ]
  },
  "ev_1d3aee106307": {
@@ -1868,6 +1971,25 @@
    "Date and venue rest only on the Bluegrass Signal calendar listing, which could not be fetched; no Freight & Salvage page for Jan 16, 2027 was found by search.",
    "Band configuration (solo, Free Mexican Airforce, with Sam Grisman Project, etc.) unknown.",
    "Show time and price unknown."
+  ]
+ },
+ "ev_1e72cf52c774": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+    "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-04-25/"
+   }
+  ],
+  "fingerprint": "038a6db7b5a3",
+  "fit": 30,
+  "performers": [],
+  "reason": "The Marin Bluegrass Sessions: a free open-mic bluegrass jam with a support band on the Sweetwater stage in Mill Valley (April date). Participatory, not a featured act.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_1f31486c43b2": {
@@ -3271,6 +3393,32 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_360fc0cfafb9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The DeLuxe: DeLuxe Jazz Collective",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "8f3d180f4776",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "House/residency band; not identified",
+    "name": "DeLuxe Jazz Collective",
+    "significance": "local"
+   }
+  ],
+  "reason": "The DeLuxe Jazz Collective, apparently a house or residency band at The DeLuxe. No players are named and I cannot identify the group. Likely a casual bar jazz night.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No players named; location unresolved."
+  ]
+ },
  "ev_36183d40ccf7": {
   "evidence": [
    {
@@ -3901,6 +4049,38 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Sextet members not named in captured text."
+  ]
+ },
+ "ev_3f981e4f39bd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dec. 5: Sam Grisman & Max Flansburg - Old Western Saloon, Pt. Reyes",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "251d707547ce",
+  "fit": 70,
+  "performers": [
+   {
+    "known_for": "Bassist, son of David Grisman, Sam Grisman Project (background knowledge)",
+    "name": "Sam Grisman",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Not confidently identified",
+    "name": "Max Flansburg",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sam Grisman with Max Flansburg at the tiny Old Western Saloon in Point Reyes Station. (Background knowledge: Sam Grisman is David Grisman's bassist son, whose Sam Grisman Project carries the Garcia/Grisman acoustic repertoire.) A seed-artist duo in a funky West Marin bar is exactly the small-room roots night he likes; the long drive keeps it from the top tier.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Max Flansburg not identified.",
+   "Point Reyes is roughly an hour-plus drive from Oakland."
   ]
  },
  "ev_3fd3b077d537": {
@@ -6672,6 +6852,42 @@
    "Show time not confirmed"
   ]
  },
+ "ev_62b44efb8e04": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kilowatt: Federale, El Radio Fantastique, Noelle And The Deserters",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "077e57704f78",
+  "fit": 47,
+  "performers": [
+   {
+    "known_for": "Cinematic spaghetti-western band, Collin Hegna (Brian Jonestown Massacre) (background knowledge)",
+    "name": "Federale",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bay Area theatrical folk/cabaret band (background knowledge)",
+    "name": "El Radio Fantastique",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Noelle and the Deserters",
+    "significance": "none"
+   }
+  ],
+  "reason": "Federale, El Radio Fantastique and Noelle and the Deserters at Kilowatt in SF. (Background knowledge: Federale is a Portland spaghetti-western/cinematic instrumental band led by Collin Hegna of the Brian Jonestown Massacre; El Radio Fantastique is a Bay Area theatrical, circus-folk outfit.) Atmospheric, countercultural-Americana-adjacent bill in a small bar; fun but not roots-core.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identification of Federale and El Radio Fantastique is from background knowledge."
+  ]
+ },
  "ev_632d4268583b": {
   "evidence": [
    {
@@ -6829,6 +7045,25 @@
   ],
   "reason": "Esmail Rahimian reads from a book of literary fiction at Bird & Beckett bookstore. A book event, not music or theater.",
   "researched_at": "2026-11-18T22:42:57+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_675601ddc31e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-13/"
+   }
+  ],
+  "fingerprint": "d606daab9c10",
+  "fit": 10,
+  "performers": [],
+  "reason": "A weekly old-time jam in Sacramento that is moving to a private home for December and January. A participatory jam far from Oakland; skip.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
@@ -7162,8 +7397,8 @@
     "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
    }
   ],
-  "fingerprint": "25d23bc17e58",
-  "fit": 45,
+  "fingerprint": "0166f6eccb4c",
+  "fit": 40,
   "performers": [
    {
     "known_for": "Not identified",
@@ -7172,24 +7407,23 @@
    },
    {
     "known_for": "Not identified",
-    "name": "Dante 'Taz' Robinson",
+    "name": "Dante \"Taz\" Robinson",
     "significance": "none"
    },
    {
     "known_for": "Not identified",
-    "name": "Michael 'Tiny' Lindsey",
+    "name": "Michael \"Tiny\" Lindsey",
     "significance": "none"
    }
   ],
-  "reason": "Joe Warner, Dante 'Taz' Robinson and Michael 'Tiny' Lindsey play Black Cat in SF the night before Thanksgiving. I cannot place these musicians with confidence; Black Cat books serious straight-ahead jazz, so it may be a good trio set, but the listing gives no instruments or leader.",
-  "researched_at": "2026-11-20T22:43:24+00:00",
+  "reason": "The Soul Sessions, a recurring soul night at Black Cat SF with Joe Warner, Dante \"Taz\" Robinson and Michael \"Tiny\" Lindsey plus guests. I cannot identify these players, and the title suggests a soul/R&B residency jam rather than adventurous jazz. Fine room, but nothing here signals a must-see.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Instruments and leader unknown.",
-   "Performers not identified."
+   "Performers not identified; genre inferred from the series title only."
   ]
  },
  "ev_6c0c361dbcd8": {
@@ -7991,6 +8225,42 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_74345be9fdac": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: title 'Jaime Tjahaja w/ Special Guest: Jake Sucher + Ephemerald – SF', venue 'The Lost Church', date 2026-12-04 (no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000E6FnVMAV"
+   }
+  ],
+  "fingerprint": "27e2fa0fc657",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Jaime Tjahaja",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not confidently identified",
+    "name": "Jake Sucher",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Ephemerald",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jaime Tjahaja with special guest Jake Sucher and Ephemerald at The Lost Church in SF. I cannot identify the headliner and the listing carries no description. Unresolved: needs the artists' genre before it can be ranked.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description captured; genre unknown."
+  ]
+ },
  "ev_745cd042f1f0": {
   "evidence": [
    {
@@ -8637,6 +8907,43 @@
   "tier": "possible",
   "uncertainties": [
    "Solo or with band not stated"
+  ]
+ },
+ "ev_7abf159b5a31": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: On this special concert date, renowned pianist Benny Green will be joined by a remarkable rhythm section featuring bassist Christian McBride and drummer Carl Allen . A successful bandleader for over thirty-five years, Green has released a string of fine records played on scores of dates with the likes of Etta Jones, Ralph Moore, and Milt Jackson. In 1993, the late great Oscar Peterson picked Green",
+    "url": "https://www.kuumbwajazz.org/calendar/benny-green-trio-feat-christian-mcbride-carl-allen-700-pm/"
+   }
+  ],
+  "fingerprint": "2801d5895fb7",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Pianist, Art Blakey/Ray Brown alumnus, Oscar Peterson protege",
+    "name": "Benny Green",
+    "significance": "major"
+   },
+   {
+    "known_for": "Bassist, multiple Grammy winner (background knowledge)",
+    "name": "Christian McBride",
+    "significance": "major"
+   },
+   {
+    "known_for": "Drummer (background knowledge)",
+    "name": "Carl Allen",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Pianist Benny Green's trio with Christian McBride on bass and Carl Allen on drums at Kuumbwa in Santa Cruz (7 and 9 pm sets). The listing notes Oscar Peterson picked Green as an heir; McBride is among the most celebrated bassists alive (background knowledge). A top-tier straight-ahead trio in a 200-seat room, worth the Santa Cruz drive for a swinging night.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Santa Cruz is 1.5+ hours from Oakland.",
+   "Straight-ahead rather than adventurous; a quality pick, not an exploratory one."
   ]
  },
  "ev_7aee8fb12f08": {
@@ -10056,6 +10363,33 @@
    "4pm matinee per listing."
   ]
  },
+ "ev_8bc4fb0fe234": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: DINNER SHOW with BARRY \"THE FISH\" MELTON BAND – Rancho Debut! HAVING PLAYED TOGETHER SINCE THE EARLY 1980s, THE BARRY \"THE FISH\" MELTON BAND CONTINUES TO UPHOLD THE TRADITION OF SAN FRANCISCO ROCK & ROLL THAT PUT THE BAY AREA ON THE MUSICAL MAP IN THE MID 1960s. THEIR MUSIC IS BEST SUMMED UP BY A LINE FROM ONE OF THEIR SONGS \"WHEN THE BAND STARTS PLAYING, I DON'T WANT TO STOP!!\"",
+    "url": "https://ranchonicasio.com/event/barry-the-fish-melton-band-rancho-debut/"
+   }
+  ],
+  "fingerprint": "8bb1b87e424d",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Country Joe and the Fish guitarist (background knowledge)",
+    "name": "Barry \"The Fish\" Melton",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Barry \"The Fish\" Melton's band plays a dinner show at Rancho Nicasio. (Background knowledge: Melton was the lead guitarist of Country Joe and the Fish, a cornerstone of the 1960s SF counterculture.) A living link to the psychedelic era in a roadhouse room, though the band is a later SF-rock outfit and Nicasio is a long drive.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "The rules' 'musical' match is spurious; this is a rock band.",
+   "Nicasio is about an hour from Oakland."
+  ]
+ },
  "ev_8bcb250bbc07": {
   "evidence": [
    {
@@ -10846,6 +11180,25 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_9ac56671dba0": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2027-01-03/"
+   }
+  ],
+  "fingerprint": "2737ccf9ff8c",
+  "fit": 25,
+  "performers": [],
+  "reason": "The Lucky Horseshoe's weekly Sunday performance bluegrass jam in Bernal Heights, SF. A bar jam for players, not a featured show.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_9aeca3bf3f37": {
   "evidence": [
    {
@@ -11100,6 +11453,36 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Genre not stated."
+  ]
+ },
+ "ev_9e7ada582667": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Oz Noy at Yoshi's at 2026-11-22T19:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43317143-oz-noy-at-yoshis"
+   }
+  ],
+  "fingerprint": "fefa500645f1",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Jazz-funk fusion guitarist (background knowledge)",
+    "name": "Oz Noy",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Fusion drummer, Chick Corea Elektric Band (background knowledge)",
+    "name": "Dave Weckl",
+    "significance": "major"
+   }
+  ],
+  "reason": "Guitarist Oz Noy's trio with drummer Dave Weckl at Yoshi's Oakland. (Background knowledge: Noy is a New York jazz-funk fusion guitarist and Weckl a famous Chick Corea Elektric Band drummer.) High-chops fusion rather than the emotionally searching, intimate improvising he favors.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_a107ea61e5b2": {
@@ -11454,6 +11837,60 @@
    "Recurring Sunday series."
   ]
  },
+ "ev_a4b67109084c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Lisa Mezzacappa is a San Francisco Bay Area-based composer, bassist, bandleader, and producer. Called \"one of the most imaginative figures on the Bay Area creative jazz scene\" by The Mercury News and \"a Bay Area treasure\" by KQED public radio, she has been an active part of California's vibrant music community for nearly 20 years. Mezzacappa's activities as a composer and bandleader include ethere",
+    "url": "https://birdbeckett.com/event/lisa-mezzacappa-quintet/"
+   }
+  ],
+  "fingerprint": "c263a0d6c51a",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Bay Area creative-jazz bassist, composer, bandleader",
+    "name": "Lisa Mezzacappa",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Bassist-composer Lisa Mezzacappa's quintet at Bird & Beckett, the tiny Glen Park bookstore jazz room. The listing calls her \"one of the most imaginative figures on the Bay Area creative jazz scene\"; her projects range from avant-garde chamber jazz to genre-bending suites (background knowledge). Exactly the adventurous, intimate improvised jazz he likes.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quintet lineup not named.",
+   "The rules' 'film' penalty likely comes from her film-inspired projects; it does not indicate a screening."
+  ]
+ },
+ "ev_a4e459b2f2a2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Eric Wyatt",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "48284e88259e",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Hard-bop tenor saxophonist, Sonny Rollins circle (background knowledge)",
+    "name": "Eric Wyatt",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Brooklyn tenor saxophonist Eric Wyatt at Black Cat SF (he also plays the next night). (Background knowledge: Wyatt is a muscular hard-bop tenor player who came up under the wing of Sonny Rollins and his father, saxophonist Charles Wyatt.) Real-deal straight-ahead tenor in an intimate supper club; good, though more tradition than adventure.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sidemen not listed.",
+   "Location field unresolved in the listing."
+  ]
+ },
  "ev_a5281a240d3a": {
   "evidence": [
    {
@@ -11786,6 +12223,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized; judged from listing text only."
+  ]
+ },
+ "ev_aa02d62c8ac6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: title 'Tribute to Lalo Guerrero-Pachuco Legend', venue 'Down Home Music', date 2026-12-05 (no description captured)",
+    "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/"
+   }
+  ],
+  "fingerprint": "2cabce9ec0b4",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "Father of Chicano music, pachuco-era songwriter (background knowledge)",
+    "name": "Lalo Guerrero (honoree)",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "A free in-store tribute to Lalo Guerrero at Down Home Music in El Cerrito. (Background knowledge: Guerrero, often called the father of Chicano music, wrote the pachuco-era songs of Zoot Suit, and Down Home is the Arhoolie-linked store that has long documented regional Mexican-American music.) A cultural-roots tribute in a tiny, free room rather than a tribute band, but the performers are not named.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not named in the listing.",
+   "No description captured."
   ]
  },
  "ev_aac5f6fae5d8": {
@@ -13691,6 +14155,37 @@
    "No description of the bands' genre."
   ]
  },
+ "ev_c69fd0c13e17": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - A Cozy Evening of Bluegrass with The Sticky Thistles & Ghost Pine hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Wednesday December 9th 2026. Find event information.",
+    "url": "https://events.humanitix.com/sticky-thistles-and-ghost-pine"
+   }
+  ],
+  "fingerprint": "71fcec6c383c",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Bluegrass band; not identified",
+    "name": "The Sticky Thistles",
+    "significance": "none"
+   },
+   {
+    "known_for": "Bluegrass band; not identified",
+    "name": "Ghost Pine",
+    "significance": "none"
+   }
+  ],
+  "reason": "A bluegrass double bill of The Sticky Thistles and Ghost Pine at The Back Room in Berkeley on a Wednesday. Neither band is one I can identify, so this is a genre-and-room match only: right style, right size, close to home. Worth a look at the bands' recordings before committing.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Neither band identified; quality and style (traditional vs. newgrass) unknown."
+  ]
+ },
  "ev_c6f0b66f5e3c": {
   "evidence": [
    {
@@ -13913,6 +14408,53 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Inferred from the band names and 'Showcase' title that this is a youth music-school showcase."
+  ]
+ },
+ "ev_c8895b3e953a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Grouch at Cornerstone at 2026-11-29T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43454966-grouch-at-cornerstone"
+   }
+  ],
+  "fingerprint": "fe5367fcdcc9",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Living Legends, Bay underground (background knowledge)",
+    "name": "The Grouch",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Living Legends (background knowledge)",
+    "name": "Eligh",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Producer, Zion I (background knowledge)",
+    "name": "Amp Live",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Rhymesayers MC (background knowledge)",
+    "name": "Brother Ali",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Quannum, Latyrx (background knowledge)",
+    "name": "Lyrics Born",
+    "significance": "notable"
+   }
+  ],
+  "reason": "A Bay Area underground hip-hop summit at Cornerstone in Berkeley: The Grouch and Eligh (Living Legends), Amp Live (Zion I), Brother Ali and Lyrics Born (background knowledge). This is close to a who's-who of the Bay's late-90s/2000s indie rap scene plus Rhymesayers' Brother Ali, in a mid-size room near home. Squarely his classic/Bay underground lane.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Full bill comes from the queue title; Songkick listing names only The Grouch.",
+   "Whether all five perform full sets or this is a package show is unknown."
   ]
  },
  "ev_c985af4b74ea": {
@@ -14759,6 +15301,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Cancellation taken from the listing title only."
+  ]
+ },
+ "ev_d653043fd3cb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Born in Norman, Oklahoma in 1985, Champian Fulton was recognized by The Detroit Free Press as the \"most gifted pure Jazz singer of her generation.\" A pianist and vocalist with a career spanning more than twenty years, Fulton has released twenty albums as a bandleader and has performed in more than twenty-five countries. She has been recognized with numerous awards, including 'Album of the Year' in",
+    "url": "https://www.kuumbwajazz.org/calendar/champian-fulton-2/"
+   }
+  ],
+  "fingerprint": "f540e8418255",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Jazz pianist and vocalist, twenty albums as leader",
+    "name": "Champian Fulton",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Pianist-singer Champian Fulton at Kuumbwa Jazz in Santa Cruz. The listing calls her the \"most gifted pure Jazz singer of her generation\"; she is a swing-rooted mainstream stylist with twenty albums. Lovely room and craft, but classic-standards jazz and a Santa Cruz drive make it a maybe.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Santa Cruz is 1.5+ hours from Oakland."
   ]
  },
  "ev_d6d17b18a64e": {
@@ -15724,6 +16292,26 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Bandleader Jayski not identified."
+  ]
+ },
+ "ev_e15fb5c84d6f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every 1st Tuesday from 6:00 PM there is jamming outside Round Table pizza while waiting for the FREE concert. At 7:00 PM there is an opening band playing inside until the headliner band starts at 8:00 PM. NCBFC Concert and jam is held at Round Table Pizza , 1161 E. Washington Ave, Corner Ash & Washington Streets, Escondido, CA 92025. All ages from beginner to advanced players welcome.",
+    "url": "https://californiabluegrass.org/event/north-county-bluegrass-and-folk-club-1st-tuesday-rt-jam-and-free-concert/2027-01-05/"
+   }
+  ],
+  "fingerprint": "360d0f9f2020",
+  "fit": 5,
+  "performers": [],
+  "reason": "A bluegrass club jam and free concert at a Round Table Pizza in Escondido, in San Diego County. Out of area.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Headliner not named."
   ]
  },
  "ev_e21fa83e1175": {
@@ -16790,6 +17378,33 @@
    "Format (duo or with band) not stated."
   ]
  },
+ "ev_f47cdee9aee5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: Eric Wyatt",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "e56e87ac0585",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Hard-bop tenor saxophonist, Sonny Rollins circle (background knowledge)",
+    "name": "Eric Wyatt",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Brooklyn tenor saxophonist Eric Wyatt at Black Cat SF, second of two nights. (Background knowledge: Wyatt is a hard-bop tenor from the Sonny Rollins circle.) Same assessment as the 28 Nov night: strong straight-ahead tenor in an intimate room; pick one night.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sidemen not listed.",
+   "Location field unresolved in the listing."
+  ]
+ },
  "ev_f4bb0dd97a72": {
   "evidence": [
    {
@@ -17501,6 +18116,31 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Exact show times and prices not captured."
+  ]
+ },
+ "ev_fc9589d180bd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Pretty Lights at Fox Theater at 2026-11-21T19:30:00-0800",
+    "url": "https://www.songkick.com/concerts/43304318-pretty-lights-at-fox-theater"
+   }
+  ],
+  "fingerprint": "8426f4ad2ad1",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "Electronic/EDM producer (background knowledge)",
+    "name": "Pretty Lights",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Pretty Lights, an electronic/EDM act, at the Fox Theater Oakland. Large-room electronic show, outside his taste.",
+  "researched_at": "2026-11-21T22:44:11+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_fd8a03c84d44": {
