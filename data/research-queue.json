@@ -1,7 +1,7 @@
 {
- "backlog": 1204,
+ "backlog": 1169,
  "count": 40,
- "generated_at": "2026-11-21T07:28:39+00:00",
+ "generated_at": "2026-11-21T19:32:03+00:00",
  "items": [
   {
    "city": "Berkeley",
@@ -84,6 +84,63 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-12-05",
+   "description": "",
+   "fingerprint": "822f3cb26d74",
+   "id": "ev_1d2b097e28b2",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "Furthest Waves Guitars Showcase Singers/Songwriters~ Benefit for The Lost Church",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Ds8E1MAJ",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
+  {
+   "city": "El Cerrito",
+   "date": "2026-12-05",
+   "description": "",
+   "fingerprint": "2cabce9ec0b4",
+   "id": "ev_aa02d62c8ac6",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "Tribute to Lalo Guerrero-Pachuco Legend",
+   "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/",
+   "venue": "Down Home Music",
+   "why_rules": [
+    "legacy: legend (+14)",
+    "noise_tribute: tribute to (-18)",
+    "intimate room: Down Home Music (+14)",
+    "booking signal: Down Home Music (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-05",
+   "description": "Dec. 5: Sam Grisman & Max Flansburg - Old Western Saloon, Pt. Reyes",
+   "fingerprint": "251d707547ce",
+   "id": "ev_3f981e4f39bd",
+   "other_urls": [],
+   "rules_score": 71.0,
+   "rules_tier": "strong",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "Sam Grisman & Max Flansburg",
+   "url": "https://www.bgsignal.com/concerts--festivals.html",
+   "venue": "Old Western Saloon, Pt. Reyes",
+   "why_rules": [
+    "seed artist: Sam Grisman (+30)",
+    "listed by a taste-aligned calendar (+18)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
    "city": "Oakland",
    "date": "2026-11-22",
    "description": "Oz Noy at Yoshi's at 2026-11-22T19:00:00-0800",
@@ -125,24 +182,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-12-05",
-   "description": "",
-   "fingerprint": "822f3cb26d74",
-   "id": "ev_1d2b097e28b2",
-   "other_urls": [],
-   "rules_score": 42.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Furthest Waves Guitars Showcase Singers/Songwriters~ Benefit for The Lost Church",
-   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000Ds8E1MAJ",
-   "venue": "The Lost Church",
-   "why_rules": [
-    "intimate room: The Lost Church (+14)",
-    "booking signal: The Lost Church (+8)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-11-23",
    "description": "The DeLuxe: DeLuxe Jazz Collective",
@@ -159,26 +198,6 @@
     "jazz_core: jazz (+18)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "El Cerrito",
-   "date": "2026-12-05",
-   "description": "",
-   "fingerprint": "2cabce9ec0b4",
-   "id": "ev_aa02d62c8ac6",
-   "other_urls": [],
-   "rules_score": 42.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Tribute to Lalo Guerrero-Pachuco Legend",
-   "url": "https://www.downhomemusic.com/up-coming-free-in-store-performances-at-down-home-music-store/",
-   "venue": "Down Home Music",
-   "why_rules": [
-    "legacy: legend (+14)",
-    "noise_tribute: tribute to (-18)",
-    "intimate room: Down Home Music (+14)",
-    "booking signal: Down Home Music (+8)"
    ]
   },
   {
@@ -302,26 +321,6 @@
    ]
   },
   {
-   "city": "Sacramento",
-   "date": "2026-12-13",
-   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
-   "fingerprint": "d606daab9c10",
-   "id": "ev_675601ddc31e",
-   "other_urls": [],
-   "rules_score": 59.0,
-   "rules_tier": "strong",
-   "start": "2026-12-13T18:00:00-08:00",
-   "title": "Two Rivers Cider Old Time Jam",
-   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-13/",
-   "venue": "Two Rivers Cider",
-   "why_rules": [
-    "roots_core: old-time, old time, bluegrass (+33)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "outside the core Bay Area (-6)"
-   ]
-  },
-  {
    "city": "El Cerrito",
    "date": "2027-01-24",
    "description": "",
@@ -355,6 +354,48 @@
    "venue": "Kuumbwa Jazz",
    "why_rules": [
     "jazz_core: jazz (+18)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "Sacramento",
+   "date": "2026-12-13",
+   "description": "Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+   "fingerprint": "d606daab9c10",
+   "id": "ev_675601ddc31e",
+   "other_urls": [],
+   "rules_score": 59.0,
+   "rules_tier": "strong",
+   "start": "2026-12-13T18:00:00-08:00",
+   "title": "Two Rivers Cider Old Time Jam",
+   "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-13/",
+   "venue": "Two Rivers Cider",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass (+33)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "outside the core Bay Area (-6)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-03-08",
+   "description": "On this special concert date, renowned pianist Benny Green will be joined by a remarkable rhythm section featuring bassist Christian McBride and drummer Carl Allen . A successful bandleader for over thirty-five years, Green has released a string of fine records played on scores of dates with the likes of Etta Jones, Ralph Moore, and Milt Jackson. In 1993, the late great Oscar Peterson picked Green",
+   "fingerprint": "2801d5895fb7",
+   "id": "ev_7abf159b5a31",
+   "other_urls": [
+    "https://www.kuumbwajazz.org/calendar/benny-green-trio-feat-christian-mcbride-carl-allen-900-pm/"
+   ],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2027-03-08T19:00:00-08:00",
+   "title": "Benny Green Trio feat. Christian McBride & Carl Allen – 7:00 PM",
+   "url": "https://www.kuumbwajazz.org/calendar/benny-green-trio-feat-christian-mcbride-carl-allen-700-pm/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: trio (+5)",
     "intimate room: Kuumbwa Jazz (+14)",
     "booking signal: Kuumbwa Jazz (+8)"
    ]
@@ -400,91 +441,23 @@
    ]
   },
   {
-   "city": "Oakland",
-   "date": "2026-11-20",
-   "description": "Pretty Lights at Fox Theater at 2026-11-19T03:30:00-0800",
-   "fingerprint": "67d4850f4fa8",
-   "id": "ev_589706d409a6",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43306316-pretty-lights-at-fox-theater",
-    "https://thefoxoakland.com/events/pretty-lights-261120",
-    "https://apeconcerts.com/events/pretty-lights-261120/",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T00:00:00-08:00",
-   "title": "Pretty Lights (18+) - 11/20",
-   "url": "https://allevents.in/oakland/pretty-lights-18-11-20/210001462587991",
-   "venue": "Fox Theater Oakland",
-   "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "6 independent sources (+12)"
-   ]
-  },
-  {
-   "city": "Santa Cruz",
-   "date": "2027-03-08",
-   "description": "On this special concert date, renowned pianist Benny Green will be joined by a remarkable rhythm section featuring bassist Christian McBride and drummer Carl Allen . A successful bandleader for over thirty-five years, Green has released a string of fine records played on scores of dates with the likes of Etta Jones, Ralph Moore, and Milt Jackson. In 1993, the late great Oscar Peterson picked Green",
-   "fingerprint": "2801d5895fb7",
-   "id": "ev_7abf159b5a31",
-   "other_urls": [
-    "https://www.kuumbwajazz.org/calendar/benny-green-trio-feat-christian-mcbride-carl-allen-900-pm/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2027-03-08T19:00:00-08:00",
-   "title": "Benny Green Trio feat. Christian McBride & Carl Allen – 7:00 PM",
-   "url": "https://www.kuumbwajazz.org/calendar/benny-green-trio-feat-christian-mcbride-carl-allen-700-pm/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "intimacy: trio (+5)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-11-20",
-   "description": "Zellerbach Hall: The Complete Philip Glass Piano Etudes",
-   "fingerprint": "864020450b9a",
-   "id": "ev_a772b3c8f2af",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T19:30:00-08:00",
-   "title": "The Complete Philip Glass Piano Etudes",
-   "url": "https://calperformances.org/events/2026-27/new-music/the-complete-philip-glass-piano-etudes/",
-   "venue": "Zellerbach Hall",
-   "why_rules": [
-    "booking signal: Zellerbach Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
    "city": "San Francisco",
-   "date": "2026-11-20",
-   "description": "The Mountain Goats at The Fillmore at 2026-11-20T20:00:00-0800",
-   "fingerprint": "057cd1a2d563",
-   "id": "ev_c8c4949cc701",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43261708-mountain-goats-at-fillmore",
-    "https://kalx.berkeley.edu/event/events-november-16-22-2026/",
-    "https://www.jambase.com/show/the-mountain-goats-the-fillmore-20261120"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-20T20:00:00-08:00",
-   "title": "The Mountain Goats - Night Five: Cast of Thousands",
-   "url": "https://www.ticketmaster.com/the-mountain-goats-night-five-cast-san-francisco-california-11-20-2026/event/1C0064C40B9AB433",
-   "venue": "The Fillmore",
+   "date": "2027-04-09",
+   "description": "Lisa Mezzacappa is a San Francisco Bay Area-based composer, bassist, bandleader, and producer. Called \"one of the most imaginative figures on the Bay Area creative jazz scene\" by The Mercury News and \"a Bay Area treasure\" by KQED public radio, she has been an active part of California's vibrant music community for nearly 20 years. Mezzacappa's activities as a composer and bandleader include ethere",
+   "fingerprint": "c263a0d6c51a",
+   "id": "ev_a4b67109084c",
+   "other_urls": [],
+   "rules_score": 59.0,
+   "rules_tier": "strong",
+   "start": "2027-04-09T19:30:00-07:00",
+   "title": "Lisa Mezzacappa Quintet",
+   "url": "https://birdbeckett.com/event/lisa-mezzacappa-quintet/",
+   "venue": "Bird & Beckett",
    "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
+    "roots_adjacent: acoustic (+10)",
+    "jazz_core: jazz, avant-garde, avant garde (+27)",
+    "intimacy: duo (+5)",
+    "noise_other: film (-25)"
    ]
   },
   {
@@ -530,20 +503,23 @@
   },
   {
    "city": "San Francisco",
-   "date": "2026-12-11",
-   "description": "",
-   "fingerprint": "81e234730b21",
-   "id": "ev_29e8a46e38ac",
-   "other_urls": [],
-   "rules_score": 42.0,
+   "date": "2026-12-13",
+   "description": "Matt Hansen at Great American Music Hall at 2026-12-13T20:00:00-0800",
+   "fingerprint": "0e12b48e7e38",
+   "id": "ev_bc7481cecbad",
+   "other_urls": [
+    "https://wl.seetickets.us/event/matt-hansen/692696?afflky=GreatAmericanMusicHall"
+   ],
+   "rules_score": 50.5,
    "rules_tier": "inventory",
-   "start": "2026-12-11T19:30:00-08:00",
-   "title": "John Calloway's Fall to Winter Musings",
-   "url": "https://birdbeckett.com/event/john-calloway_2026-12-11/",
-   "venue": "Bird & Beckett",
+   "start": "2026-12-13T20:00:00-08:00",
+   "title": "Matt Hansen",
+   "url": "https://www.songkick.com/concerts/43237991-matt-hansen-at-great-american-music-hall",
+   "venue": "Great American Music Hall",
    "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
+    "roots_adjacent: singer-songwriter, singer songwriter (+12)",
+    "intimate room: Great American Music Hall (+14)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -564,6 +540,24 @@
     "roots_core: string band (+22)",
     "intimate room: Freight & Salvage (+14)",
     "booking signal: Freight & Salvage (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-11",
+   "description": "",
+   "fingerprint": "81e234730b21",
+   "id": "ev_29e8a46e38ac",
+   "other_urls": [],
+   "rules_score": 42.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-11T19:30:00-08:00",
+   "title": "John Calloway's Fall to Winter Musings",
+   "url": "https://birdbeckett.com/event/john-calloway_2026-12-11/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
    ]
   },
   {
@@ -709,26 +703,6 @@
    ]
   },
   {
-   "city": "Santa Cruz",
-   "date": "2027-04-21",
-   "description": "María Grand is a saxophonist, composer, educator, and vocalist. She has performed with her ensembles all over Europe and North America. Her debut EP TetraWind was picked as \"one of the 2017's best debuts\" by the NYC Jazz Record and her full-length albums Magdalena and Reciprocity were praised by major publications such as the New York Times, Downbeat, JazzTimes, Billboard, JazzIz, and others. The ",
-   "fingerprint": "89bd47e0f924",
-   "id": "ev_c45df7a54d0c",
-   "other_urls": [],
-   "rules_score": 66.0,
-   "rules_tier": "strong",
-   "start": "2027-04-21T19:00:00-07:00",
-   "title": "María Grand Quartet",
-   "url": "https://www.kuumbwajazz.org/calendar/maria-grand-quartet/",
-   "venue": "Kuumbwa Jazz",
-   "why_rules": [
-    "seed artist: Vijay Iyer (+6)",
-    "jazz_core: jazz (+18)",
-    "intimate room: Kuumbwa Jazz (+14)",
-    "booking signal: Kuumbwa Jazz (+8)"
-   ]
-  },
-  {
    "city": "San Francisco",
    "date": "2026-12-18",
    "description": "Two Gallants at Bottom of the Hill at 2026-12-18T20:00:00-0800",
@@ -750,23 +724,23 @@
    ]
   },
   {
-   "city": "Orangevale",
-   "date": "2027-02-14",
-   "description": "The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. Join us Sunday, August 13 for a fun musical time. We'll have a jam session of musicians of all levels playing. We're dedicated to preserving and playing authentic old-time fiddle tunes from many traditions, including Old Time, Bluegrass, Celtic, Americana, folk. Admission is free, family ",
-   "fingerprint": "8d20d594cfc4",
-   "id": "ev_2165469ae9e7",
+   "city": "Santa Cruz",
+   "date": "2027-04-21",
+   "description": "María Grand is a saxophonist, composer, educator, and vocalist. She has performed with her ensembles all over Europe and North America. Her debut EP TetraWind was picked as \"one of the 2017's best debuts\" by the NYC Jazz Record and her full-length albums Magdalena and Reciprocity were praised by major publications such as the New York Times, Downbeat, JazzTimes, Billboard, JazzIz, and others. The ",
+   "fingerprint": "89bd47e0f924",
+   "id": "ev_c45df7a54d0c",
    "other_urls": [],
-   "rules_score": 68.0,
+   "rules_score": 66.0,
    "rules_tier": "strong",
-   "start": "2027-02-14T13:00:00-08:00",
-   "title": "California State Old Time Fiddler's Association Jam",
-   "url": "https://californiabluegrass.org/event/california-state-old-time-fiddlers-association-jam/2027-02-14/",
-   "venue": "Orangevale Grange Hall",
+   "start": "2027-04-21T19:00:00-07:00",
+   "title": "María Grand Quartet",
+   "url": "https://www.kuumbwajazz.org/calendar/maria-grand-quartet/",
+   "venue": "Kuumbwa Jazz",
    "why_rules": [
-    "roots_core: old-time, old time, bluegrass, fiddle (+38)",
-    "roots_adjacent: folk, americana (+12)",
-    "theater_core: musical (+14)",
-    "noise_other: jam session (-25)"
+    "seed artist: Vijay Iyer (+6)",
+    "jazz_core: jazz (+18)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
    ]
   },
   {
@@ -803,6 +777,26 @@
    "why_rules": [
     "seed artist: Crooked Jades (+40)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Orangevale",
+   "date": "2027-02-14",
+   "description": "The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. Join us Sunday, August 13 for a fun musical time. We'll have a jam session of musicians of all levels playing. We're dedicated to preserving and playing authentic old-time fiddle tunes from many traditions, including Old Time, Bluegrass, Celtic, Americana, folk. Admission is free, family ",
+   "fingerprint": "8d20d594cfc4",
+   "id": "ev_2165469ae9e7",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2027-02-14T13:00:00-08:00",
+   "title": "California State Old Time Fiddler's Association Jam",
+   "url": "https://californiabluegrass.org/event/california-state-old-time-fiddlers-association-jam/2027-02-14/",
+   "venue": "Orangevale Grange Hall",
+   "why_rules": [
+    "roots_core: old-time, old time, bluegrass, fiddle (+38)",
+    "roots_adjacent: folk, americana (+12)",
+    "theater_core: musical (+14)",
+    "noise_other: jam session (-25)"
    ]
   }
  ]
