@@ -1,8 +1,88 @@
 {
- "backlog": 1196,
+ "backlog": 1204,
  "count": 40,
- "generated_at": "2026-11-20T22:44:57+00:00",
+ "generated_at": "2026-11-21T07:28:39+00:00",
  "items": [
+  {
+   "city": "Berkeley",
+   "date": "2026-12-09",
+   "description": "Buy Tickets on Humanitix - A Cozy Evening of Bluegrass with The Sticky Thistles & Ghost Pine hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Wednesday December 9th 2026. Find event information.",
+   "fingerprint": "71fcec6c383c",
+   "id": "ev_c69fd0c13e17",
+   "other_urls": [],
+   "rules_score": 72.0,
+   "rules_tier": "strong",
+   "start": "2026-12-09T19:00:00-08:00",
+   "title": "A Cozy Evening of Bluegrass with The Sticky Thistles & Ghost Pine",
+   "url": "https://events.humanitix.com/sticky-thistles-and-ghost-pine",
+   "venue": "The Back Room",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "intimate room: The Back Room (+14)",
+    "booking signal: The Back Room (+8)",
+    "listed by a taste-aligned calendar (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-25",
+   "description": "Black Cat: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+   "fingerprint": "0166f6eccb4c",
+   "id": "ev_6a1c2484f6f2",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13271/2026-11-25"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-25T00:00:00-08:00",
+   "title": "The Soul Sessions 11/25: Joe Warner, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey + Special Guests",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-28",
+   "description": "Kilowatt: Federale, El Radio Fantastique, Noelle And The Deserters",
+   "fingerprint": "077e57704f78",
+   "id": "ev_62b44efb8e04",
+   "other_urls": [
+    "https://dice.fm/event/6abd8c677b8ef300015c5c8a"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T00:00:00-08:00",
+   "title": "Federale, El Radio Fantastique, Noelle And The Deserters",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Kilowatt",
+   "why_rules": [
+    "intimate room: Kilowatt (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-04",
+   "description": "",
+   "fingerprint": "27e2fa0fc657",
+   "id": "ev_74345be9fdac",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-04T00:00:00-08:00",
+   "title": "Jaime Tjahaja w/ Special Guest: Jake Sucher + Ephemerald – SF",
+   "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000E6FnVMAV",
+   "venue": "The Lost Church",
+   "why_rules": [
+    "intimate room: The Lost Church (+14)",
+    "booking signal: The Lost Church (+8)"
+   ]
+  },
   {
    "city": "Oakland",
    "date": "2026-11-22",
@@ -723,81 +803,6 @@
    "why_rules": [
     "seed artist: Crooked Jades (+40)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-17",
-   "description": "An almost-monthly series of talks by Walker Brents III (9 or 10 talks a year for more than two decades) on various topics in poetry, mythology, folklore, philosophy, etc. Although primarily a live stream viewable on our YouTube channel and Facebook page, it's also fine if you slip into the darkened shop to listen in person.",
-   "fingerprint": "920041ce7450",
-   "id": "ev_04bb37a370df",
-   "other_urls": [],
-   "rules_score": 42.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-17T19:30:00-08:00",
-   "title": "Walker Talks",
-   "url": "https://birdbeckett.com/event/walker-talks_2026-12-17/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-05",
-   "description": "Dec. 5: Sam Grisman & Max Flansburg - Old Western Saloon, Pt. Reyes",
-   "fingerprint": "251d707547ce",
-   "id": "ev_3f981e4f39bd",
-   "other_urls": [],
-   "rules_score": 68.0,
-   "rules_tier": "strong",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Sam Grisman & Max Flansburg",
-   "url": "https://www.bgsignal.com/concerts--festivals.html",
-   "venue": "Old Western Saloon, Pt. Reyes",
-   "why_rules": [
-    "seed artist: Sam Grisman (+30)",
-    "listed by a taste-aligned calendar (+18)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-10",
-   "description": "Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
-   "fingerprint": "367b089abd8f",
-   "id": "ev_719acee15572",
-   "other_urls": [],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2027-01-10T16:00:00-08:00",
-   "title": "Horseshoe Jam",
-   "url": "https://californiabluegrass.org/event/horseshoe-jam/2027-01-10/",
-   "venue": "The Lucky Horseshoe San Francisco",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2027-01-17",
-   "description": "Ben Stolorow, piano; Peter Barshay, bass; Vince Lateano, drums Drummer Vince Lateano performs with his trio on the 3rd Sudnay every other month (i.e. January, March, May, July, September, November).",
-   "fingerprint": "6da30fcd4f5c",
-   "id": "ev_173a06af46ca",
-   "other_urls": [],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2027-01-17T17:00:00-08:00",
-   "title": "Vince Lateano Trio",
-   "url": "https://birdbeckett.com/event/vince-lateano_2027-01-17/",
-   "venue": "Bird & Beckett",
-   "why_rules": [
-    "intimacy: trio (+5)",
-    "intimate room: Bird & Beckett (+14)",
-    "booking signal: Bird & Beckett (+8)"
    ]
   }
  ]
