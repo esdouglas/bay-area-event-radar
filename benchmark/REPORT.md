@@ -1,6 +1,6 @@
 # Historical discoverability benchmark
 
-Generated 2026-11-21T22:47:11+00:00 (live Wayback checks: False).
+Generated 2026-11-22T07:08:06+00:00 (live Wayback checks: False).
 
 29 benchmark events: 18 proven discoverable by registered sources (median lead 114 days, range 14..245), 8 plausible via the venue's own feed, 2 reachable only through aggregators, 0 only via blocked sources, 1 unverifiable. Rules-only ranking would have put 13/29 in the digest/alert tiers and 0 in noise.
 
