@@ -1,17 +1,16 @@
 {
- "inventory_total": 5559,
- "inventory_upcoming": 3065,
- "merged_sources": 4,
- "new_events": 17,
- "run_id": "3051584a263a",
- "seconds": 198.6,
- "sources_due": 65,
+ "inventory_total": 5587,
+ "inventory_upcoming": 2952,
+ "merged_sources": 11,
+ "new_events": 33,
+ "run_id": "9897cd2828b6",
+ "seconds": 337.8,
+ "sources_due": 69,
  "sources_failed": [
   "down-home-music",
   "outsound",
-  "broadway-sf",
-  "songkick-bay-area"
+  "broadway-sf"
  ],
- "sources_ok": 61,
- "ts": "2026-11-22T07:07:04+00:00"
+ "sources_ok": 66,
+ "ts": "2026-11-22T19:51:14+00:00"
 }
