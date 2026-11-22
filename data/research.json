@@ -312,6 +312,57 @@
    "First night on 15 January is listed separately."
   ]
  },
+ "ev_04bb37a370df": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Walker Talks\" at Bird & Beckett, 2026-12-17; description: An almost-monthly series of talks by Walker Brents III (9 or 10 talks a year for more than two decades) on various topics in poetry, mythology, folklore, philosophy, etc. Although primarily a live stream viewable on our YouTube channel and Facebook page, it's also fine if you slip into the darkened shop to listen in person.",
+    "url": "https://birdbeckett.com/event/walker-talks_2026-12-17/"
+   }
+  ],
+  "fingerprint": "920041ce7450",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "lecturer",
+    "name": "Walker Brents III",
+    "significance": "local"
+   }
+  ],
+  "reason": "Walker Brents III gives one of his long-running talks on poetry, mythology and folklore at Bird & Beckett. A lecture, mainly live-streamed, not a performance.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_04bb9419e49f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Christmas Jug Band\" at Freight & Salvage, 2026-12-22; description: The Christmas Jug Band at The Freight at 2026-12-22T19:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43533428-christmas-jug-band-at-freight"
+   }
+  ],
+  "fingerprint": "e06999593394",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Bay Area holiday jug band, historically tied to Dan Hicks and the Marin scene (background knowledge)",
+    "name": "The Christmas Jug Band",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Christmas Jug Band, the long-running Bay Area holiday jug band, plays its seasonal show at the Freight in Berkeley. Background knowledge: the band grew out of the Marin jug-band scene and was long associated with Dan Hicks, so it carries real countercultural Bay Area roots lineage, though it is a festive novelty set rather than a serious concert.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Current lineup not given; my recollection of the Dan Hicks connection is background knowledge, not checked."
+  ]
+ },
  "ev_04ec9e997644": {
   "evidence": [
    {
@@ -641,6 +692,31 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Current lineup of the Avengers not checked."
+  ]
+ },
+ "ev_097407cbb43f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Fog City Groove\" at Bird & Beckett, 2026-12-12; description: Shelley Sorenson, vocals/flute; Lisa Hartmayer, tenor; Lear Blitzstein, bari; Matt Flynn, guitar; Brian Bishop, congas; John Brixie, keys; John Sweet, bass; Tom Misage, drums Fog City Groove : Soul/Funk/Worldbeat",
+    "url": "https://birdbeckett.com/event/fog-city-groove_2026-12-12/"
+   }
+  ],
+  "fingerprint": "d1b5ab0986f7",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "local soul/funk/worldbeat band",
+    "name": "Fog City Groove",
+    "significance": "none"
+   }
+  ],
+  "reason": "Fog City Groove, an eight-piece local soul, funk and worldbeat band, plays Bird & Beckett. Competent party band, but not the improvised jazz or roots he looks for.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_09cec6dc1161": {
@@ -1921,21 +1997,21 @@
  "ev_1da72b18f14b": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: twin peaks themed burlesque show; ticket price TBD",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Poundcake Productions Red Room Revue Burlesque Show\" at Little Hill Lounge, 2026-11-22; description: twin peaks themed burlesque show; ticket price TBD",
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "b6bc60fe6289",
+  "fingerprint": "490febed894d",
   "fit": 8,
   "performers": [],
-  "reason": "A Twin Peaks themed burlesque show at Little Hill Lounge in El Cerrito. Burlesque, not music or theater he follows.",
-  "researched_at": "2026-11-08T22:43:25+00:00",
+  "reason": "A Twin Peaks themed burlesque revue at Little Hill Lounge in El Cerrito. Burlesque night, not the music or theater he follows.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "Ticket price TBD per listing."
+   "Performers not listed."
   ]
  },
  "ev_1dfb22311ad4": {
@@ -2049,6 +2125,26 @@
    "The Tony being for The Wiz and 'We Exist!' being her protest-song album are background knowledge."
   ]
  },
+ "ev_2165469ae9e7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"California State Old Time Fiddler's Association Jam\" at Orangevale Grange Hall, 2027-02-14; description: The California State Old Time Fiddlers Association District 5 meets on the 2nd Sunday of every Month from 1-4. Join us Sunday, August 13 for a fun musical time. We'll have a jam session of musicians of all levels playing. We're dedicated to preserving and playing authentic old-time fiddle tunes from many traditions, including Old Time, Bluegrass, Celtic, Americana, folk. Admission is free, family ",
+    "url": "https://californiabluegrass.org/event/california-state-old-time-fiddlers-association-jam/2027-02-14/"
+   }
+  ],
+  "fingerprint": "8d20d594cfc4",
+  "fit": 18,
+  "performers": [],
+  "reason": "A monthly all-levels fiddle jam of the California State Old Time Fiddlers Association, District 5, in Orangevale near Sacramento. Right tradition but a participatory jam two hours away.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Description mentions an August date, likely stale recurring text."
+  ]
+ },
  "ev_2182bcac1bec": {
   "evidence": [
    {
@@ -2114,6 +2210,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized."
+  ]
+ },
+ "ev_21f2ef2f25e5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Fireworks\" at The Independent, 2026-12-06; description: Gospel 15-Year Anniversary | Please note – there is a delivery delay set for 2 weeks prior to show.",
+    "url": "https://www.theindependentsf.com/tm-event/fireworks/"
+   }
+  ],
+  "fingerprint": "8a5d1f2f766a",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Detroit pop-punk band (background knowledge)",
+    "name": "Fireworks",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Fireworks play a 15-year anniversary show for their album Gospel at The Independent. Background knowledge: Fireworks are a Detroit pop-punk band and Gospel is their 2011 record, so the 'gospel' keyword is a false match.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identification as the pop-punk band is background knowledge; listing text says only 'Gospel 15-Year Anniversary'."
   ]
  },
  "ev_22fa154f8fe1": {
@@ -2352,6 +2474,41 @@
   "uncertainties": [
    "Kuumbwa page not fetched, so price and ticket status there are unconfirmed",
    "Which show is better for him: Kuumbwa is more intimate, SFJAZZ is closer (inference)"
+  ]
+ },
+ "ev_267932832b87": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"WALKING MIRRORS Benefitting Dominican University of California\" at Rancho Nicasio, 2026-12-04; description: Dinner Show with WALKING MIRRORS Featuring: Craig Bartock (Rock n Roll Hall of Fame Band Heart) David Sikes (former decade long bass player/vocalist/songwriter for rock n roll band BOSTON) Jeff Campitelli (50th Greatest Drummer of all-time: Rolling Stone) \"For me, our music is a creative collaboration of stories that musically connect to community. Stories that reflect what is going on in the worl",
+    "url": "https://ranchonicasio.com/event/walking-mirrors-benefitting-dominican-university-of-california/"
+   }
+  ],
+  "fingerprint": "a623cb5bf101",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "guitarist with Heart",
+    "name": "Craig Bartock",
+    "significance": "none"
+   },
+   {
+    "known_for": "former Boston bassist",
+    "name": "David Sikes",
+    "significance": "none"
+   },
+   {
+    "known_for": "drummer",
+    "name": "Jeff Campitelli",
+    "significance": "none"
+   }
+  ],
+  "reason": "Walking Mirrors, a rock band of veterans from Heart, Boston and Joe Satriani's group, play a benefit dinner show at Rancho Nicasio. Classic-rock pedigree, not his taste.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_269692c6b0b7": {
@@ -2635,6 +2792,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Listing has no description or performer names."
+  ]
+ },
+ "ev_29e8a46e38ac": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"John Calloway's Fall to Winter Musings\" at Bird & Beckett, 2026-12-11; description: (no description captured)",
+    "url": "https://birdbeckett.com/event/john-calloway_2026-12-11/"
+   }
+  ],
+  "fingerprint": "81e234730b21",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "SF flutist, pianist, Latin jazz bandleader (background knowledge)",
+    "name": "John Calloway",
+    "significance": "local"
+   }
+  ],
+  "reason": "John Calloway presents 'Fall to Winter Musings' at Bird & Beckett, the Glen Park bookstore jazz room. Background knowledge: Calloway is a veteran San Francisco flutist, pianist and Latin jazz bandleader and educator, a solid local player in an intimate room, though the listing gives no lineup.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description or lineup captured."
   ]
  },
  "ev_2a65e2b882d9": {
@@ -3784,6 +3967,38 @@
    "Repertoire not stated; Dead/Garcia-Grisman material is inference from the performers' projects."
   ]
  },
+ "ev_3b4c9d970fcd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Falco & Book Play Garcia\" at Sweetwater Music Hall, 2027-02-06; description: Andy Falco at Sweetwater Music Hall on Feb 6, 2027",
+    "url": "https://sweetwatermusichall.org/event/falco-book-play-garcia/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "ac0691bb1cb8",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Infamous Stringdusters guitarist (background knowledge)",
+    "name": "Andy Falco",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Infamous Stringdusters bassist (background knowledge, inferred from billing)",
+    "name": "Travis Book",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Andy Falco and Travis Book of the Infamous Stringdusters play Jerry Garcia's songbook at Sweetwater in Mill Valley (background knowledge on who 'Book' is). Top-tier progressive bluegrass players in a small room with Garcia's acoustic lineage, but it is a themed repertoire night, so less than a Stringdusters show.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "'Book' identified as Travis Book from background knowledge; not confirmed in captured text.",
+   "'Play' in title is a false theater match."
+  ]
+ },
  "ev_3c39bef97e28": {
   "evidence": [
    {
@@ -4796,6 +5011,33 @@
   "uncertainties": [
    "Details taken from the Dec 21 instance of the same series.",
    "Open jam, no featured artists."
+  ]
+ },
+ "ev_4a07b8437ac5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Yonder Mountain String Band\" at Freight & Salvage, 2027-03-06; description: Yonder Mountain String Band at The Freight on Mar 6, 2027",
+    "url": "https://www.jambase.com/show/yonder-mountain-string-band-the-freight-20270306"
+   }
+  ],
+  "fingerprint": "ebc1a73a4eb3",
+  "fit": 70,
+  "performers": [
+   {
+    "known_for": "Colorado jamgrass string band (background knowledge)",
+    "name": "Yonder Mountain String Band",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Yonder Mountain String Band, the Colorado jamgrass band from his seed list, play the second of two nights at the Freight in Berkeley (Sat Mar 6). Same draw as Friday: a seed band in a listening room; pick whichever night works.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Current lineup not given.",
+   "Duplicate of the Mar 5 show."
   ]
  },
  "ev_4b3b984c2a8e": {
@@ -8057,6 +8299,56 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_7205859a819b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Two Gallants / The Wind-Ups\" at Bottom of the Hill, 2026-12-18; description: Two Gallants at Bottom of the Hill at 2026-12-18T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43467341-two-gallants-at-bottom-of-the-hill"
+   }
+  ],
+  "fingerprint": "3d635c22bdd9",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "SF folk-punk/blues duo, Saddle Creek (background knowledge)",
+    "name": "Two Gallants",
+    "significance": "notable"
+   },
+   {
+    "known_for": "not recognized",
+    "name": "The Wind-Ups",
+    "significance": "none"
+   }
+  ],
+  "reason": "Two Gallants, the San Francisco folk-punk and blues duo of Adam Stephens and Tyson Vogel, play a hometown show at Bottom of the Hill with The Wind-Ups. Background knowledge: their raw Saddle Creek records of the mid-2000s draw on murder ballads and old blues, a gritty cousin of the Americana he likes.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_723c5e6290de": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Setup – San Francisco\" at The Lost Church, 2026-12-05; description: (no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000E2fztMAB"
+   }
+  ],
+  "fingerprint": "625460e30dc6",
+  "fit": 10,
+  "performers": [],
+  "reason": "The Setup at The Lost Church in San Francisco. Background knowledge: The Setup is a San Francisco stand-up comedy showcase series, which he does not go for.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing has no description; identification as a comedy series is background knowledge, not checked."
+  ]
+ },
  "ev_734039646e89": {
   "evidence": [
    {
@@ -8362,6 +8654,26 @@
   "ticket_status": "unverified",
   "tier": "low",
   "uncertainties": []
+ },
+ "ev_7513a2566277": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Two Rivers Cider Old Time Jam\" at Two Rivers Cider, 2026-12-20; description: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-20/"
+   }
+  ],
+  "fingerprint": "48a2228d8754",
+  "fit": 15,
+  "performers": [],
+  "reason": "A weekly all-levels old-time jam from Sacramento's Two Rivers Cider, which per the listing moves to a private home in December and January. Participatory and far from Oakland.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Private address only by email."
+  ]
  },
  "ev_7563858354ee": {
   "evidence": [
@@ -9220,6 +9532,32 @@
    "Members beyond the two named are not identified."
   ]
  },
+ "ev_7f21a59dd4e4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Amigo the Devil\" at Great American Music Hall, 2026-12-16; description: Amigo the Devil at Great American Music Hall at 2026-12-16T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43477667-amigo-the-devil-at-great-american-music-hall"
+   }
+  ],
+  "fingerprint": "c47158017a31",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "dark folk songwriter Danny Kiranos (background knowledge)",
+    "name": "Amigo the Devil",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Amigo the Devil (Danny Kiranos) plays Great American Music Hall, apparently solo per the ticket link. Background knowledge: dark, macabre 'murderfolk' with banjo and acoustic guitar, adjacent to countercultural Americana but more goth-folk than his core lineage.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Solo format inferred from the ticket URL slug 'amigo-the-devil-solo'."
+  ]
+ },
  "ev_7f796058bad7": {
   "evidence": [
    {
@@ -9611,6 +9949,32 @@
   "uncertainties": [
    "Possible conflict: early and late shows, or a different headliner (Michael Weston King) the same night.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_8360715bb1d7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Supersonic Symbiotic\" at Little Hill Lounge, 2027-01-30; description: (no description captured)",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "396b02ed326d",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "not recognized",
+    "name": "Supersonic Symbiotic",
+    "significance": "none"
+   }
+  ],
+  "reason": "Supersonic Symbiotic plays Little Hill Lounge in El Cerrito. No description was captured and I do not recognize the act, so fit is unresolved.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or performer information."
   ]
  },
  "ev_847cdb0aaf87": {
@@ -10322,6 +10686,32 @@
    "Eventbrite date not confirmed as Jan 15."
   ]
  },
+ "ev_8ad0b85b2815": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Hooked On Bluegrass with Terry Brewer\" at The Bluegrass Jamboree, 2026-12-06; description: It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+    "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-12-06/"
+   }
+  ],
+  "fingerprint": "0ad7b34d5d92",
+  "fit": 10,
+  "performers": [
+   {
+    "known_for": "radio host",
+    "name": "Terry Brewer",
+    "significance": "none"
+   }
+  ],
+  "reason": "Hooked On Bluegrass with Terry Brewer is a weekly Sunday night bluegrass radio broadcast streamed on thebluegrassjamboree.com, not a live show he could attend. Fine listening, nothing to buy a ticket for.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing says 'broadcasted live from California'; no in-person venue."
+  ]
+ },
  "ev_8b0e7dc97b67": {
   "evidence": [
    {
@@ -10792,6 +11182,26 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_93ab5329f8ec": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Wednesday East Bay Bluegrassers Jam\" at Rockin Robbies – El Cerrito, 2027-01-06; description: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2027-01-06/"
+   }
+  ],
+  "fingerprint": "132dcb70757c",
+  "fit": 25,
+  "performers": [],
+  "reason": "The weekly East Bay Bluegrassers jam upstairs at Rockin' Robbie's in El Cerrito, open to all levels. A participatory jam rather than a show; only worth it if he wants to bring an instrument.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring weekly event."
   ]
  },
  "ev_947c291563f1": {
@@ -11918,6 +12328,34 @@
    "No time or price in the captured text."
   ]
  },
+ "ev_a5793cb96eeb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"The Crooked Jades, Fifth St Farms house, Berkeley\" at RSVP, 2026-12-06; description: (no description captured)",
+    "url": "https://www.sffmc.org/community-folk-calendar/"
+   }
+  ],
+  "fingerprint": "b38ed2f0a3a5",
+  "fit": 76,
+  "performers": [
+   {
+    "known_for": "SF old-time revival band led by Jeff Kazor (background knowledge)",
+    "name": "The Crooked Jades",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Crooked Jades, the San Francisco old-time band from his seed list, play a house show at Fifth St Farms in Berkeley on Sun Dec 6 (RSVP). A seed band in a tiny East Bay room; background knowledge: Jeff Kazor's group revives pre-radio string music with rare repertoire.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Earlier research recorded a Fifth St Farms Crooked Jades date of Dec 20; the dates conflict and need checking.",
+   "RSVP house concert; address and capacity unknown.",
+   "Captured by heuristic text extraction."
+  ]
+ },
  "ev_a5c8e4576462": {
   "evidence": [
    {
@@ -11959,6 +12397,32 @@
    "Special guest unnamed."
   ]
  },
+ "ev_a5df9a15dca8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Ben Goldberg\" at Bird & Beckett, 2027-04-18; description: Beginning in 1992, when his group New Klezmer Trio \"kicked open the door for radical experiments with Ashkenazi roots music\" (SF Chronicle), clarinetist Ben Goldberg has established himself as \"one of the most vibrant, flexible, and inventive clarinetists in jazz and improvised music\" (Downbeat). NPR calls Ben \"an artist who seems to find beautiful melodies at the end of every path,\" and The New Y",
+    "url": "https://birdbeckett.com/event/ben-goldberg/"
+   }
+  ],
+  "fingerprint": "16f1a63ed8a4",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "clarinetist; New Klezmer Trio, collaborator of Nels Cline, Myra Melford, Scott Amendola (background knowledge)",
+    "name": "Ben Goldberg",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Clarinetist Ben Goldberg, the Bay Area improviser whose New Klezmer Trio reinvented Ashkenazi roots music in the 1990s, plays Bird & Beckett, the tiny Glen Park bookstore jazz room. Background knowledge: he works with Nels Cline, Myra Melford, Scott Amendola and Tin Hat, and his writing is melodic, warm and adventurous. Exactly the intimate improvised jazz he likes; the lineup for this date is not stated.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band lineup and format (solo, trio, ensemble) not given in the captured text."
+  ]
+ },
  "ev_a63805013c6e": {
   "evidence": [
    {
@@ -11983,6 +12447,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Genres of the acts not described."
+  ]
+ },
+ "ev_a65b226440f9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Kyran Daniel - Like The Night Itself Tour 2026\" at The Back Room, 2026-12-11; description: Buy Tickets on Humanitix - Kyran Daniel - Like The Night Itself Tour 2026 hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Friday December 11th 2026. Find event information.",
+    "url": "https://events.humanitix.com/kyran-daniel-dec11"
+   }
+  ],
+  "fingerprint": "daa14afa2550",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "not recognized",
+    "name": "Kyran Daniel",
+    "significance": "none"
+   }
+  ],
+  "reason": "Kyran Daniel plays The Back Room in Berkeley on a 'Like The Night Itself' tour. The captured listing is ticketing boilerplate with no genre or background, and I do not recognize the artist, so fit cannot be judged.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or performer information in the captured text; needs the event page."
   ]
  },
  "ev_a66aee236437": {
@@ -12302,6 +12792,33 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_ab5971d234f3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Crooked Jades album release party\" at 4 Star Theater 2200 Clement Street, San Francisco, CA, 2026-12-04; description: Crooked Jades album release party | 4 Star Theater 2200 Clement Street, San Francisco, CA | https://crookedjades.com/shows/",
+    "url": "https://sites.google.com/site/davbrown2/oldtimesf"
+   }
+  ],
+  "fingerprint": "0f0859eb35d9",
+  "fit": 84,
+  "performers": [
+   {
+    "known_for": "SF old-time revival band led by Jeff Kazor (background knowledge)",
+    "name": "The Crooked Jades",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Crooked Jades, the San Francisco old-time band from his seed list, celebrate a new album at the 4 Star Theater on Clement Street on Fri Dec 4. A seed band's album release in a small SF room is about as good as their calendar gets.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Likely the same show already researched as ev_5ac356181c27.",
+   "Album title and time not captured."
+  ]
+ },
  "ev_ab66cd9adcf3": {
   "evidence": [
    {
@@ -12499,6 +13016,42 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_aeb0fd4739f2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Guy Capecelatro III, The Tofanas, and Anne McGuire\" at Little Hill Lounge, 2027-01-14; description: (no description captured)",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "a69e70cdcb3b",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "possibly a Bay Area singer-songwriter (uncertain background knowledge)",
+    "name": "Guy Capecelatro III",
+    "significance": "local"
+   },
+   {
+    "known_for": "not recognized",
+    "name": "The Tofanas",
+    "significance": "none"
+   },
+   {
+    "known_for": "not recognized",
+    "name": "Anne McGuire",
+    "significance": "none"
+   }
+  ],
+  "reason": "A triple bill of Guy Capecelatro III, The Tofanas and Anne McGuire at Little Hill Lounge in El Cerrito, a small taste-aligned room. The listing has no description and I cannot place these acts confidently, so this stays unresolved.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured; genres unknown."
   ]
  },
  "ev_af0f6090b4d7": {
@@ -13570,6 +14123,32 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_bc7481cecbad": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Matt Hansen\" at Great American Music Hall, 2026-12-13; description: Matt Hansen at Great American Music Hall at 2026-12-13T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43237991-matt-hansen-at-great-american-music-hall"
+   }
+  ],
+  "fingerprint": "0e12b48e7e38",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "pop singer-songwriter (background knowledge)",
+    "name": "Matt Hansen",
+    "significance": "none"
+   }
+  ],
+  "reason": "Matt Hansen headlines Great American Music Hall. Background knowledge: he is a young pop singer-songwriter who broke through on social media, not a roots or folk act in his lane.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre identification is background knowledge."
+  ]
+ },
  "ev_bc9a22762009": {
   "evidence": [
    {
@@ -13780,6 +14359,33 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Format (duo, joint bands or split bill) not stated.",
    "Likely Miner Auditorium, larger than his ideal room."
+  ]
+ },
+ "ev_be44988d8749": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"Yonder Mountain String Band\" at Freight & Salvage, 2027-03-05; description: Yonder Mountain String Band at The Freight on Mar 5, 2027",
+    "url": "https://www.jambase.com/show/yonder-mountain-string-band-the-freight-20270305"
+   }
+  ],
+  "fingerprint": "b1dfde4e298a",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Colorado jamgrass string band (background knowledge)",
+    "name": "Yonder Mountain String Band",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Yonder Mountain String Band, the Colorado jamgrass band from his seed list, play the first of two nights at the Freight in Berkeley (Fri Mar 5). Seeing them in a 400-seat listening room rather than a festival field is the draw; background knowledge: founding mandolinist Jeff Austin left in 2014, so the current lineup differs from the classic era.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Current lineup not given.",
+   "Second night is Mar 6; he only needs one."
   ]
  },
  "ev_bee924b5bd0e": {
@@ -14055,6 +14661,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No description captured; genre unknown."
+  ]
+ },
+ "ev_c45df7a54d0c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: \"María Grand Quartet\" at Kuumbwa Jazz, 2027-04-21; description: María Grand is a saxophonist, composer, educator, and vocalist. She has performed with her ensembles all over Europe and North America. Her debut EP TetraWind was picked as \"one of the 2017's best debuts\" by the NYC Jazz Record and her full-length albums Magdalena and Reciprocity were praised by major publications such as the New York Times, Downbeat, JazzTimes, Billboard, JazzIz, and others. The ",
+    "url": "https://www.kuumbwajazz.org/calendar/maria-grand-quartet/"
+   }
+  ],
+  "fingerprint": "89bd47e0f924",
+  "fit": 66,
+  "performers": [
+   {
+    "known_for": "saxophonist, composer; Steve Coleman alumna (background knowledge)",
+    "name": "María Grand",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Tenor saxophonist María Grand brings her quartet to Kuumbwa in Santa Cruz. Background knowledge: she came up in Steve Coleman's Five Elements and works with Vijay Iyer and Mary Halvorson, making searching, spiritual modern jazz; the room is ideal but it is a long drive from Oakland on a Wednesday.",
+  "researched_at": "2026-11-22T22:43:07+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quartet lineup not captured.",
+   "Santa Cruz, roughly 90 minutes from Oakland."
   ]
  },
  "ev_c512ef26141c": {
