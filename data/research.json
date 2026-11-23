@@ -760,6 +760,37 @@
    "Tribute format; quality depends entirely on who plays."
   ]
  },
+ "ev_0c0c679c2d4b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: CANCELED Beaucoup Dolores + Anna Laura Quinn – Santa Rosa",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DT1qrMAD"
+   }
+  ],
+  "fingerprint": "fdfc78f9b082",
+  "fit": 0,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Beaucoup Dolores",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Anna Laura Quinn",
+    "significance": "none"
+   }
+  ],
+  "reason": "This Beaucoup Dolores and Anna Laura Quinn show is marked CANCELED in its title. Nothing to attend.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Title says Santa Rosa while the venue field says The Lost Church."
+  ]
+ },
  "ev_0c9707ba9df0": {
   "evidence": [
    {
@@ -1432,6 +1463,42 @@
    "Recurring jam, not a performance."
   ]
  },
+ "ev_173a06af46ca": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Ben Stolorow, piano; Peter Barshay, bass; Vince Lateano, drums Drummer Vince Lateano performs with his trio on the 3rd Sudnay every other month (i.e. January, March, May, July, September, November).",
+    "url": "https://birdbeckett.com/event/vince-lateano_2027-01-17/"
+   }
+  ],
+  "fingerprint": "6da30fcd4f5c",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "Veteran SF jazz drummer (background knowledge)",
+    "name": "Vince Lateano",
+    "significance": "local"
+   },
+   {
+    "known_for": "Pianist (per listing)",
+    "name": "Ben Stolorow",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bassist (per listing)",
+    "name": "Peter Barshay",
+    "significance": "local"
+   }
+  ],
+  "reason": "Drummer Vince Lateano leads his trio with Ben Stolorow on piano and Peter Barshay on bass at Bird & Beckett, a recurring every-other-month Sunday slot. (Background knowledge: Lateano is a veteran San Francisco straight-ahead jazz drummer.) Solid local mainstream jazz in an intimate room, but a routine residency rather than an occasion.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring residency; nothing marks this date as special."
+  ]
+ },
  "ev_175dcbd0ac26": {
   "evidence": [
    {
@@ -1803,6 +1870,32 @@
    "Support band not named."
   ]
  },
+ "ev_1c09a43fa883": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Field Season",
+    "url": "https://littlehillelcerrito.com/events/"
+   }
+  ],
+  "fingerprint": "fb57258387ee",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Field Season",
+    "significance": "none"
+   }
+  ],
+  "reason": "Field Season plays Little Hill Lounge in El Cerrito. No description was captured and I do not recognize the act, so genre and fit are unresolved.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description; act not recognized, genre unknown."
+  ]
+ },
  "ev_1c40566a0840": {
   "evidence": [
    {
@@ -1960,6 +2053,26 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_1d5f51b2a59b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+    "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-05-06/"
+   }
+  ],
+  "fingerprint": "ba82670de953",
+  "fit": 6,
+  "performers": [],
+  "reason": "A free first-Thursday bluegrass-ish jam at the Deer Creek Bar and Grill, apparently outside the Bay Area. Participatory jam, not a show; the 'musical' theater match is a false positive.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Venue town not stated in the listing."
   ]
  },
  "ev_1d85bb849ea5": {
@@ -2535,6 +2648,38 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Lesson precedes the show; the collector penalized it as a lesson."
+  ]
+ },
+ "ev_270038b1b448": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Zander Schloss (Circle Jerks) w/ Ronan Mulligan (The Hooks) – San Francisco",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DsCSvMAN"
+   }
+  ],
+  "fingerprint": "a9e8d8f0d729",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Circle Jerks guitarist, Repo Man, Joe Strummer collaborator (background knowledge)",
+    "name": "Zander Schloss",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Of The Hooks (per title); not identified",
+    "name": "Ronan Mulligan",
+    "significance": "none"
+   }
+  ],
+  "reason": "Zander Schloss, longtime guitarist of the Circle Jerks, plays The Lost Church in San Francisco with Ronan Mulligan of The Hooks. (Background knowledge: Schloss is also a Repo Man actor, played with Joe Strummer, and makes acoustic singer-songwriter records, so this is probably a stripped-down set rather than punk.) Countercultural lineage and a tiny room, but not squarely roots, folk or jazz.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description captured; set format (solo acoustic or band) unknown.",
+   "Ronan Mulligan and The Hooks not recognized."
   ]
  },
  "ev_273ec75b2ede": {
@@ -3521,6 +3666,41 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_348dac3c4cc4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Nick Otis is the scion of the great Johnny Otis clan, carrier of the big, swingin' beat, a drummer like his dad was, but with a younger take on rock and roll. With vocalist Li'l Bit Gail Muldrow and bassist Paul Lamb, and making a big nod to brother Shuggie's legacy, this will be a great evening to brighten your holidays. $20 cover charge; byob Students $10 For a reservation, call the bookshop at",
+    "url": "https://birdbeckett.com/event/nick-otis_2026-12-19/"
+   }
+  ],
+  "fingerprint": "941dfe77af71",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Drummer, son of Johnny Otis (per listing)",
+    "name": "Nick Otis",
+    "significance": "local"
+   },
+   {
+    "known_for": "Vocalist (per listing)",
+    "name": "Li'l Bit Gail Muldrow",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bassist (per listing)",
+    "name": "Paul Lamb",
+    "significance": "none"
+   }
+  ],
+  "reason": "Drummer Nick Otis, son of R&B pioneer Johnny Otis, plays Bird & Beckett with vocalist Li'l Bit Gail Muldrow and bassist Paul Lamb, with a nod to his brother Shuggie Otis. A family line that runs through foundational West Coast R&B, in a $20 bookstore room, though the music is rock and roll and R&B rather than his core roots or jazz.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_3503948607b8": {
   "evidence": [
    {
@@ -3574,6 +3754,53 @@
   "tier": "low",
   "uncertainties": [
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_3546845d139d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Maria Muldaur at Sweetwater Music Hall on Dec 22, 2026",
+    "url": "https://sweetwatermusichall.org/event/maria-muldaurs-holiday-swing-3/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "c5c70ccd8aaa",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Jim Kweskin Jug Band, early folk revival, 'Midnight at the Oasis' (background knowledge)",
+    "name": "Maria Muldaur",
+    "significance": "foundational"
+   }
+  ],
+  "reason": "Maria Muldaur, a seed artist straight out of the early folk revival, plays her holiday swing show at Sweetwater Music Hall in Mill Valley. (Background knowledge: she sang with the Jim Kweskin Jug Band and the Even Dozen Jug Band alongside John Sebastian and Stefan Grossman, before 'Midnight at the Oasis'.) A living link to the Village and Cambridge revival in a mid-sized room; the holiday swing set is more jazz-standards than jug band, which keeps it short of exceptional.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Backing band not named.",
+   "Holiday swing repertoire may be mostly seasonal standards."
+  ]
+ },
+ "ev_3554dee56e4e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can email the jam host for the address in December and January. The time on Sunday night, is the same. Please contact us at nfbrilliant@gmail.com",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2026-12-27/"
+   }
+  ],
+  "fingerprint": "9a4fd2680d4d",
+  "fit": 8,
+  "performers": [],
+  "reason": "A weekly old-time jam in Sacramento, temporarily moved to a private home in December and January. Participatory, far from Oakland, and address only by e-mail.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Location is a private home for this date."
   ]
  },
  "ev_360fc0cfafb9": {
@@ -3720,6 +3947,26 @@
    "No performers named; possibly a recurring jam."
   ]
  },
+ "ev_36a093fbc933": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: All ages and skill levels are welcome Positive and supportive environment with a strict \"no bad vibes\" rule 🙂 The jam is free, but please support our host venue by buying a drink and/or some food Musical focus is Bluegrass or Bluegrass adjacent music(folk, Americana, classic country)",
+    "url": "https://californiabluegrass.org/event/first-thursday-bluegrassish-jam-at-the-deer-creek-bar-and-grill/2027-04-01/"
+   }
+  ],
+  "fingerprint": "8d2ad572d82c",
+  "fit": 6,
+  "performers": [],
+  "reason": "A free first-Thursday bluegrass-ish jam at the Deer Creek Bar and Grill, apparently outside the Bay Area. Participatory jam, not a show; the 'musical' theater match is a false positive.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Venue town not stated in the listing."
+  ]
+ },
  "ev_36d78eefa434": {
   "evidence": [
    {
@@ -3769,6 +4016,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Lineup and whether there is dance not stated."
+  ]
+ },
+ "ev_37842b5d5bbe": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buy Tickets on Humanitix - HowellDevine hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Saturday December 12th 2026. Find event information.",
+    "url": "https://events.humanitix.com/howelldevine-dec12"
+   }
+  ],
+  "fingerprint": "38605644f453",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Bay Area pre-war blues trio, Arhoolie Records (background knowledge)",
+    "name": "HowellDevine",
+    "significance": "local"
+   }
+  ],
+  "reason": "HowellDevine is a Bay Area acoustic trio playing pre-war Delta and Piedmont blues, at the small Back Room in Berkeley. (Background knowledge: Joshua Howell on guitar and harmonica, Pete Devine on washboard and drums, Joe Kyle Jr. on bass; they have recorded for Arhoolie, the label of the folk and blues revival.) Raw, traditional string-band-adjacent blues in a listening room 15 minutes from Oakland is a good roots fit.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Lineup for this date not stated in the listing."
   ]
  },
  "ev_3787d335a134": {
@@ -3839,6 +4112,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "NYE ticket price not known."
+  ]
+ },
+ "ev_38124822c977": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Oblique Americana Noir Singer/Songwriter & His Band",
+    "url": "https://birdbeckett.com/event/maurice-tani/"
+   }
+  ],
+  "fingerprint": "a5ee76293915",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Bay Area Americana singer-songwriter (per listing; background knowledge)",
+    "name": "Maurice Tani",
+    "significance": "local"
+   }
+  ],
+  "reason": "Maurice Tani, a San Francisco 'oblique Americana noir' songwriter, plays Bird & Beckett with his band. (Background knowledge: a longtime Bay Area Americana figure who has led the country outfit 77 El Deora.) Literate local Americana in a tiny room; pleasant rather than essential.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band members not named."
   ]
  },
  "ev_3af054fcf565": {
@@ -8244,6 +8543,26 @@
    "Time and program not listed."
   ]
  },
+ "ev_719acee15572": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2027-01-10/"
+   }
+  ],
+  "fingerprint": "367b089abd8f",
+  "fit": 22,
+  "performers": [],
+  "reason": "A weekly Sunday afternoon bluegrass performance jam at the Lucky Horseshoe bar in Bernal Heights, SF. Participants must be able to lead a song on stage; it is a jam, not a booked show.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Who shows up on a given Sunday is unknown."
+  ]
+ },
  "ev_71c883eda7a0": {
   "evidence": [
    {
@@ -10478,28 +10797,49 @@
   ]
  },
  "ev_89963da93768": {
-  "event_verified_at": "2026-10-25T23:32:46.396304+00:00",
   "evidence": [
    {
-    "finding": "Presenter names Caleb Klauder, Reeb Willms and the Cali Cutups for Friday March 12 in its next-year season; describes rural country/bluegrass harmonies.",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: March 12: Caleb & Reeb and the Cali Cutups - Otter Opry, Monterey",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   },
+   {
+    "finding": "From an earlier research pass (ChatGPT interactive bootstrap, 2026-10-25), already in the repo: Presenter names Caleb Klauder, Reeb Willms and the Cali Cutups for Friday March 12 in its next-year season; describes rural country/bluegrass harmonies.",
     "url": "https://otteropry.org/"
    },
    {
-    "finding": "Calendar lists March 12, 2027 at Otter Opry.",
+    "finding": "From an earlier research pass (ChatGPT interactive bootstrap, 2026-10-25), already in the repo: Calendar lists March 12, 2027 at Otter Opry.",
     "url": "https://www.bgsignal.com/concerts--festivals.html"
    }
   ],
-  "fingerprint": "7044c390f500",
-  "fit": 75,
-  "imported_from": "main:data/research.json",
-  "lead_days_at_research": 138,
-  "primary_event_url": "https://otteropry.org/",
-  "reason": "Traditional country and bluegrass harmonies with the Cali Cutups; promising destination show for roots music rather than a generic touring recommendation.",
-  "researched_at": "2026-10-25T23:32:46.396304+00:00",
-  "researcher": "ChatGPT interactive bootstrap",
+  "fingerprint": "4cb858b58fdf",
+  "fit": 76,
+  "performers": [
+   {
+    "known_for": "Foghorn Stringband, old-time and honky-tonk singer, fiddler and mandolinist (background knowledge)",
+    "name": "Caleb Klauder",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Traditional country singer, duet partner of Caleb Klauder (background knowledge)",
+    "name": "Reeb Willms",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Backing band; not identified",
+    "name": "Cali Cutups",
+    "significance": "none"
+   }
+  ],
+  "reason": "Caleb Klauder and Reeb Willms, two seed artists from the Portland old-time and honky-tonk scene, play the Otter Opry in Monterey with the Cali Cutups. (Background knowledge: Klauder was a mainstay of the Foghorn Stringband, and his duets with Willms are some of the best traditional country harmony singing around.) A direct taste hit in a small room; the catch is the two-hour drive to Monterey, so worth checking whether they add a Bay Area date on the same swing.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "strong",
-  "uncertainties": []
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Venue is in Monterey, outside the core Bay Area.",
+   "Cali Cutups not identified; start time and price not in the listing."
+  ]
  },
  "ev_89f3ee29b029": {
   "evidence": [
@@ -11164,6 +11504,26 @@
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": []
+ },
+ "ev_930ebe4548f8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Come on down and pick a spell. The Wild Eye Pub offers food and drinks. Bring your instrument and play or just hang out and listen. All levels welcome.",
+    "url": "https://californiabluegrass.org/event/bluegrass-jam-at-the-wild-eye-pub/2026-12-24/"
+   }
+  ],
+  "fingerprint": "06470efdfbe7",
+  "fit": 6,
+  "performers": [],
+  "reason": "An open bluegrass jam at the Wild Eye Pub, outside the core Bay Area. Bring-your-instrument session; the 'play' theater match is a false positive.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Venue town not stated in the listing."
+  ]
  },
  "ev_933556b0a95a": {
   "evidence": [
@@ -12205,6 +12565,38 @@
    "Possibly recurring; host not named."
   ]
  },
+ "ev_a45f3fde9b49": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Dec. 6 (2 pm): Sullivan Tuttle and Scott Gates - house concert in Half Moon Bay; Concerts-at-hillstra-dot-com",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "001a00228bd9",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Bay Area bluegrass guitarist, Tuttle family, AJ Lee & Blue Summit (background knowledge)",
+    "name": "Sullivan Tuttle",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bay Area bluegrass mandolinist (background knowledge)",
+    "name": "Scott Gates",
+    "significance": "local"
+   }
+  ],
+  "reason": "Sullivan Tuttle and Scott Gates play a Sunday 2 pm house concert in Half Moon Bay. (Background knowledge: Sullivan Tuttle is a flatpicking guitarist from the Bay Area's Tuttle bluegrass family, brother of Molly Tuttle, and Gates is a Bay Area mandolinist; both have played in AJ Lee & Blue Summit.) Top-tier young bluegrass pickers in a living room, but the drive to Half Moon Bay and a duo house-concert format temper it.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identification of both performers is from background knowledge only.",
+   "House concert address and reservation details not in the listing."
+  ]
+ },
  "ev_a4839e9f9910": {
   "evidence": [
    {
@@ -12581,6 +12973,37 @@
    "Show is tonight.",
    "Support act unknown.",
    "Rounder affiliation from search snippets."
+  ]
+ },
+ "ev_a78a8f4565a5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Come join Robin Fischer and Rowan McCallister and their talented friends every fourth Saturday at the friendliest pub in Oakland! Old Time tunes, drinks, and food – kid friendly too.",
+    "url": "https://californiabluegrass.org/event/bearcat-stringband-and-friends-at-catos-alehouse/2027-02-27/"
+   }
+  ],
+  "fingerprint": "94b197fb6b24",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Old-time musician (per listing)",
+    "name": "Robin Fischer",
+    "significance": "local"
+   },
+   {
+    "known_for": "Old-time musician (per listing)",
+    "name": "Rowan McCallister",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bearcat Stringband, led by Robin Fischer and Rowan McCallister, plays old-time tunes with friends at Cato's Alehouse in Oakland, a fourth-Saturday regular. Real old-time string band music at a neighborhood pub close to home; casual and low-key rather than a concert.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring session; may function more as a jam than a show."
   ]
  },
  "ev_a7ce4959dd2d": {
@@ -13157,6 +13580,32 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "I do not know the band members (background knowledge has nothing on them).",
    "Santa Cruz is about 75 miles from Oakland; check for a Bay Area date."
+  ]
+ },
+ "ev_b01a10482033": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Benny Amón is a prominent and passionate classic jazz and New Orleans drummer and bandleader. Benny lived full time in New Orleans from 2011-2021. In New Orleans, Benny performed regularly at Preservation Hall, Snug Harbor Jazz Bistro, The Palm Court Jazz Cafe, and aboard the Steamboat Natchez. He has toured the United States, Brazil, Argentina, Mexico, Japan, Belgium, Germany, Denmark, and Sweden",
+    "url": "https://birdbeckett.com/event/benny-amon_2027-01-23/"
+   }
+  ],
+  "fingerprint": "e611450415d8",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Classic jazz and New Orleans drummer and bandleader (per listing)",
+    "name": "Benny Amon",
+    "significance": "local"
+   }
+  ],
+  "reason": "Drummer Benny Amon brings a New Orleans traditional jazz band to Bird & Beckett for a Mardi Gras-themed night. The listing says he lived in New Orleans 2011-2021 and played regularly at Preservation Hall, Snug Harbor and the Palm Court Jazz Cafe. Joyful, well-credentialed trad jazz in a tiny bookstore room, though it is repertory New Orleans music rather than the adventurous improvised jazz he leans toward.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sidemen in the New Orleans Pearls not named."
   ]
  },
  "ev_b01b74323a2e": {
@@ -14327,6 +14776,25 @@
    "Quartet personnel not confirmed.",
    "SFJAZZ dates not confirmed; could be the same tour.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_bde6f89cbd58": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The long-running East Bay Bluegrassers Jam continues on Wednesday evenings in El Cerrito . All ages and skill levels are welcome. The jam is held every Wednesday, 6-8pm, on the second floor of Rockin' Robbie's Music Store (formerly The Music Works) at 11231 San Pablo Ave, El Cerrito, CA. (Three blocks from the El Cerrito Del Norte BART Station.) Entrance is to the right of the store and up one fli",
+    "url": "https://californiabluegrass.org/event/wednesday-east-bay-bluegrassers-jam/2027-01-13/"
+   }
+  ],
+  "fingerprint": "439869afa4dd",
+  "fit": 22,
+  "performers": [],
+  "reason": "The long-running East Bay Bluegrassers weekly jam upstairs at Rockin' Robbie's Music Store in El Cerrito, all levels welcome. A participatory jam close to home, only worth it if he wants to pick.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_be3b3f986749": {
@@ -15936,6 +16404,32 @@
    "Cancellation taken from the listing title only."
   ]
  },
+ "ev_d5aec17e9ee3": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Guitarist Scott Foster performs with an ever evolving cast of collaborators on the 3rd Friday of every month. $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
+    "url": "https://birdbeckett.com/event/scott-foster_2026-12-18/"
+   }
+  ],
+  "fingerprint": "73a94708313f",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Guitarist (per listing); not identified",
+    "name": "Scott Foster",
+    "significance": "none"
+   }
+  ],
+  "reason": "Guitarist Scott Foster leads a combo with a rotating cast at Bird & Beckett, his monthly third-Friday slot ($20, BYOB). I do not recognize Foster and the listing does not name the collaborators or style, so fit cannot be judged.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performer not recognized; collaborators and style not stated."
+  ]
+ },
  "ev_d653043fd3cb": {
   "evidence": [
    {
@@ -16233,6 +16727,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Opener billing and set times not confirmed."
+  ]
+ },
+ "ev_da49fddd200e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+    "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-12-13/"
+   }
+  ],
+  "fingerprint": "94c86175682a",
+  "fit": 3,
+  "performers": [
+   {
+    "known_for": "Radio host (per listing)",
+    "name": "Terry Brewer",
+    "significance": "none"
+   }
+  ],
+  "reason": "Hooked On Bluegrass is a weekly Sunday-night internet radio broadcast hosted by Terry Brewer, not a live event he can attend.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Not an in-person event."
   ]
  },
  "ev_da7894878455": {
@@ -16927,6 +17447,59 @@
    "Bandleader Jayski not identified."
   ]
  },
+ "ev_dfed718399f1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Matthew Whitaker is a GRAMMY award-winning multi-instrumentalist, bandleader, composer, and arranger. His passion for music was sparked at the age of three, when his grandfather gifted him a keyboard. Over the years, his artistry has reached audiences around the world. Whitaker's work as a performer and collaborator spans a wide range of stages and ensembles. He has appeared as a guest soloist wit",
+    "url": "https://www.kuumbwajazz.org/calendar/matthew-whitaker-quintet/"
+   }
+  ],
+  "fingerprint": "b26ba6822d4d",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Pianist, organist and bandleader (per listing; background knowledge)",
+    "name": "Matthew Whitaker",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Multi-instrumentalist Matthew Whitaker brings his quintet to Kuumbwa Jazz in Santa Cruz. (Background knowledge: Whitaker is a young blind pianist and Hammond organist who came up through the Jazz at Lincoln Center orbit and plays soulful, groove-heavy jazz.) Kuumbwa is a great intimate room, but the music leans polished and the venue is a long drive.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Venue in Santa Cruz, outside the core Bay Area.",
+   "Quintet members not named in the captured text."
+  ]
+ },
+ "ev_e0d190ff8b5e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Greensky Bluegrass at Fox Theater on Jan 16, 2027",
+    "url": "https://www.jambase.com/show/greensky-bluegrass-fox-theater-20270116"
+   }
+  ],
+  "fingerprint": "ce445ac54b0c",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Michigan jamgrass band (background knowledge)",
+    "name": "Greensky Bluegrass",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Greensky Bluegrass, a seed artist and one of the biggest jamgrass bands, headlines the Fox Theater in Oakland. (Background knowledge: Michigan quintet known for long improvised sets in the Grateful Dead mold, with Anders Beck on dobro.) Easy to get to and a solid fit on the progressive end, but a 2,800-capacity room is the opposite of the intimate shows he values most.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Opener not listed."
+  ]
+ },
  "ev_e15fb5c84d6f": {
   "evidence": [
    {
@@ -17324,6 +17897,26 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_e82dc60300eb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Open to all ages and abilities, a get-together to have fun playing and singing (not strictly) bluegrass. Contact cnharvey@citlink.net for more info.",
+    "url": "https://californiabluegrass.org/event/bluegrass-jam-in-mount-shasta-2/"
+   }
+  ],
+  "fingerprint": "ab82f9c6fbf2",
+  "fit": 5,
+  "performers": [],
+  "reason": "An all-ages bluegrass jam in Mount Shasta, far north of the Bay Area. A participatory jam several hours' drive away.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Exact venue not given."
+  ]
+ },
  "ev_e8baac679bee": {
   "evidence": [
    {
@@ -17393,6 +17986,33 @@
   "tier": "strong",
   "uncertainties": [
    "Ticket Tailor page not reachable this run; capacity and sales status unknown."
+  ]
+ },
+ "ev_e960cd8cfd07": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Raga Music on a Sunday morning with the rare, transformative beauty of a live time specific Morning Raga. In the Indian classical tradition, ragas are intimate expressions aligned with specific times of day, a concept known as samay raga . Because most modern concerts take place in the evening, hearing morning ragas performed live during their intended hours is a rarity. When done properly, the mus",
+    "url": "https://birdbeckett.com/event/morning-ragas-bansuri-player-akshay-naresh-with-tabla-accompaniment/"
+   }
+  ],
+  "fingerprint": "63d4fdde6eff",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Bansuri player (per listing); not identified",
+    "name": "Akshay Naresh",
+    "significance": "none"
+   }
+  ],
+  "reason": "Bansuri flutist Akshay Naresh plays a Sunday-morning raga set with tabla at Bird & Beckett, timed so the morning ragas are heard at their intended hour. A rare format for Hindustani music in a tiny room, appealing as an unusual traditional performance, though I do not recognize the performer.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Tabla accompanist not named; performer's standing unknown.",
+   "Rules matched 'beckett' as theater and 'experience' as tribute; both are false positives."
   ]
  },
  "ev_e9f416757102": {
@@ -17804,6 +18424,26 @@
   "uncertainties": [
    "No independent information found on the performer; name spelling differs between title (Cristian) and description (Christian)",
    "The 'play' theater rules signal is spurious (from 'play along')"
+  ]
+ },
+ "ev_f149e0442ec9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Every Sunday from 4- 7 pm , Age: 21 and over jam- The Lucky Horseshoe Bar (453 Cortland, SF) hosts an intermediate \"performance\" bluegrass jam (on stage, playing into a mic and to a crowd) 4-7 pm. Must be able to lead a vocal or instrumental song.",
+    "url": "https://californiabluegrass.org/event/horseshoe-jam/2027-01-17/"
+   }
+  ],
+  "fingerprint": "71550400fddc",
+  "fit": 22,
+  "performers": [],
+  "reason": "A weekly Sunday afternoon bluegrass performance jam at the Lucky Horseshoe bar in Bernal Heights, SF. Participants must be able to lead a song on stage; it is a jam, not a booked show.",
+  "researched_at": "2026-11-23T22:43:08+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Who shows up on a given Sunday is unknown."
   ]
  },
  "ev_f14e30e8678c": {
