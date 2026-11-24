@@ -2238,6 +2238,25 @@
    "The Tony being for The Wiz and 'We Exist!' being her protest-song album are background knowledge."
   ]
  },
+ "ev_20c8da43ec33": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Weekly old time jam at Two Rivers Cider in Sacramento's Hollywood Park neighborhood. All levels welcome. Occasional bluegrass songs are called. The jam is moving to a private home during the month of December and January. Interested attendees can ema",
+    "url": "https://californiabluegrass.org/event/two-rivers-cider-old-time-jam/2027-01-03/"
+   }
+  ],
+  "fingerprint": "c2b09ab31ec3",
+  "fit": 15,
+  "performers": [],
+  "reason": "The weekly all-levels old-time jam from Two Rivers Cider in Sacramento, which moves to a private home in December and January. Participatory and far from Oakland.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_2165469ae9e7": {
   "evidence": [
    {
@@ -4503,6 +4522,32 @@
   "tier": "low",
   "uncertainties": []
  },
+ "ev_3e91a4603587": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: W 6pm: A Celtic Christmas, Santa Cruz Civic Auditorium (same calendar: Tomaseen Foley's A Celtic Christmas, Dec 18 7:30pm, UICC, 2700 45th Ave, SF)",
+    "url": "https://www.sffmc.org/community-folk-calendar/"
+   }
+  ],
+  "fingerprint": "af6b02af973a",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Irish storyteller whose A Celtic Christmas tours each December (background knowledge)",
+    "name": "Tomaseen Foley",
+    "significance": "notable"
+   }
+  ],
+  "reason": "A Celtic Christmas at the Santa Cruz Civic Auditorium on Wed Dec 2, likely Tomaseen Foley's touring Irish holiday show of storytelling, music and step dance (the SFFMC calendar also lists 'Tomaseen Foley's A Celtic Christmas' for Dec 18 at UICC in SF). A gentle family holiday revue; if his partner wants the dance element, the SF date is far closer than Santa Cruz.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Heuristic text extraction; identification with Foley's show inferred from the same calendar."
+  ]
+ },
  "ev_3ed583a353ea": {
   "evidence": [
    {
@@ -5070,6 +5115,32 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "No listing text captured; billing and style unknown.",
    "Identity of the co-billed performers unknown."
+  ]
+ },
+ "ev_46b30c2df8d9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Choir! Choir! Choir!, The Freight, 2020 Addison St, Berkeley, Dec 1 8pm (a Dec 2 date also appears on the SFFMC calendar)",
+    "url": "https://www.sffmc.org/community-folk-calendar/"
+   }
+  ],
+  "fingerprint": "771dfc07929c",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Toronto participatory sing-along group (background knowledge)",
+    "name": "Choir! Choir! Choir!",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Choir! Choir! Choir! is the Toronto-based drop-in sing-along led by Daveed Goldman and Nobu Adilman, where the audience learns and sings a pop song together (background knowledge). Fun and communal, but participatory rather than a performance in his lanes.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing has no description; format assumed from background knowledge."
   ]
  },
  "ev_46fe21770ab9": {
@@ -5677,6 +5748,36 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Style of the quintet unknown; drummer TBD."
+  ]
+ },
+ "ev_50f2ce5fdf50": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The jam is led by Chris Carney and Janette Duncan, first Sundays at the Church of the Oaks in Cotati, from 3 pm to 5 pm.",
+    "url": "https://californiabluegrass.org/event/north-bay-old-time-music-jam/2027-01-03/"
+   }
+  ],
+  "fingerprint": "1fd046a73233",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Jam co-leader",
+    "name": "Chris Carney",
+    "significance": "local"
+   },
+   {
+    "known_for": "Jam co-leader",
+    "name": "Janette Duncan",
+    "significance": "local"
+   }
+  ],
+  "reason": "The monthly North Bay Old-Time Session in Cotati, led by Chris Carney and Janette Duncan, on Sunday Jan 3, 3 to 5pm. Right genre, but a participatory jam about an hour north of Oakland, not a show.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_511b50c6854e": {
@@ -6474,6 +6575,31 @@
    "Several bands share this name; cannot tell which one."
   ]
  },
+ "ev_59f3cb2160a4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: MC Lars at Ivy Room at 2026-12-27",
+    "url": "https://www.songkick.com/concerts/43395976-mc-lars-at-ivy-room"
+   }
+  ],
+  "fingerprint": "df345f064a60",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "Nerdcore / lit-hop rapper (background knowledge)",
+    "name": "MC Lars",
+    "significance": "notable"
+   }
+  ],
+  "reason": "MC Lars, the Bay Area-raised 'lit-hop' and nerdcore rapper known for comic, literature-themed songs (background knowledge), plays the Ivy Room in Albany on Sun Dec 27. It is novelty-leaning rap rather than the golden-age or Bay Area underground hip-hop he goes for.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_59fa996d6bb8": {
   "evidence": [
    {
@@ -6662,6 +6788,43 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_5b3489bfddff": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Make Out Room: Whitney's Playland, Hectorine, Tony Jay",
+    "url": "https://kalx.berkeley.edu/event/events-november-16-22-2026/"
+   }
+  ],
+  "fingerprint": "a7e9def4b380",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Whitney's Playland",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Hectorine",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Tony Jay",
+    "significance": "none"
+   }
+  ],
+  "reason": "Whitney's Playland, Hectorine and Tony Jay at the Make Out Room in SF on Sun Nov 22, per KALX. I do not recognize these acts and the date has already passed.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Date (Nov 22) has passed.",
+   "Genre of all three acts unknown."
   ]
  },
  "ev_5b4be1733d61": {
@@ -7241,6 +7404,33 @@
    "The collector merged two listings: the venue field also contains a separate Nov 14 5:30 pm Keystone Canyon show at Depot Cafe & Bookstore, Mill Valley.",
    "Assumed Park Branch is the SF Public Library branch on Cole St.",
    "'The Big Twang' assumed to be a Hardly Strictly 25th-anniversary book or film; not confirmed."
+  ]
+ },
+ "ev_613607cc03d9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: opens Nov 28, 2026 (printed start date)",
+    "url": "https://shotgunplayers.org/show/meyerhold/"
+   }
+  ],
+  "fingerprint": "dc0b3fba0032",
+  "fit": 65,
+  "performers": [
+   {
+    "known_for": "Berkeley company known for adventurous new and rarely staged plays (background knowledge)",
+    "name": "Shotgun Players",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Shotgun Players opens The Death of Meyerhold at the Ashby Stage in Berkeley on Nov 28. The title points to the Soviet avant-garde director Vsevolod Meyerhold, executed in Stalin's purges in 1940 (background knowledge), which suggests an ambitious historical play about art under tyranny, the kind of unusual, serious work Shotgun does well, close to home.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Playwright, cast, run length and whether this is a premiere not captured.",
+   "Subject inferred from the title."
   ]
  },
  "ev_61404e3d5a8b": {
@@ -9694,6 +9884,37 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Listings disagree: KALX says 'Alasdair Fraser Band', SFFMC calendar says 'Alasdair Fraser & Cameron Fraser'.",
    "Show is tonight; may be too late to act on."
+  ]
+ },
+ "ev_7c264e5e92ec": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Seb El Zin + Orion Rush – Santa Rosa (no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DtgQXMAZ"
+   }
+  ],
+  "fingerprint": "614fb7dcd56d",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Seb El Zin",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Orion Rush",
+    "significance": "none"
+   }
+  ],
+  "reason": "Seb El Zin and Orion Rush play The Lost Church in Santa Rosa on Wed Nov 25. I do not recognize either act and no description was captured, so genre and reputation are unresolved; the Santa Rosa location is a long trip regardless.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Need the performers' genre and background before this can be ranked."
   ]
  },
  "ev_7c348009c91a": {
@@ -13190,6 +13411,31 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_ab12a29cc04c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+    "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-12-20/"
+   }
+  ],
+  "fingerprint": "6406e07c3eff",
+  "fit": 5,
+  "performers": [
+   {
+    "known_for": "Radio host",
+    "name": "Terry Brewer",
+    "significance": "none"
+   }
+  ],
+  "reason": "Hooked On Bluegrass with Terry Brewer is a weekly Sunday-night internet radio broadcast on thebluegrassjamboree.com, not a live event he can attend.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_ab2cf4c83f2d": {
   "evidence": [
    {
@@ -13434,6 +13680,31 @@
   ],
   "reason": "Andrew McMahon plays an evening alone at the piano at Great American Music Hall, with Ivory Layne. (Background knowledge: McMahon is the pop-rock songwriter behind Something Corporate and Jack's Mannequin.) Outside his taste.",
   "researched_at": "2026-11-11T22:43:35+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_adb9bc68837b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The soulful singer-songwriter who brought Celine Dion to tears, turned all four chairs on The Voice , and landed a spot on the soundtrack of Love Island All-Stars . Troy Ramey , a folk/Americana/heartland singer- songwriter, performs with his band in an intimate, storyteller-style show, weaving each",
+    "url": "https://www.kuumbwajazz.org/calendar/troy-ramey-an-evening-of-songs-stories/"
+   }
+  ],
+  "fingerprint": "95eb049718c0",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Folk/Americana singer-songwriter; The Voice contestant (per listing)",
+    "name": "Troy Ramey",
+    "significance": "none"
+   }
+  ],
+  "reason": "Troy Ramey, the heartland singer-songwriter known from The Voice (four-chair turn) and the Love Island All-Stars soundtrack, plays a songs-and-stories set with his band at Kuumbwa in Santa Cruz on Feb 27. Reality-TV-launched contemporary Americana in a jazz club an hour and a half away; not his kind of roots.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
@@ -15158,6 +15429,33 @@
    "Santa Cruz, roughly 90 minutes from Oakland."
   ]
  },
+ "ev_c47ed8e57f3c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Willi Carlisle, Felton Music Hall, 6275 Hwy 9, Felton, 2026-12-15 8pm (SFFMC calendar; also Prekindle and Songkick listings)",
+    "url": "http://www.prekindle.com/event/56647-willi-carlisle-felton"
+   }
+  ],
+  "fingerprint": "a0a2647e90b2",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Arkansas folksinger, old-time multi-instrumentalist and performance poet; Signature Sounds artist (background knowledge)",
+    "name": "Willi Carlisle",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Willi Carlisle, the Arkansas-based folksinger, banjo and fiddle player and poet, plays Felton Music Hall on Tue Dec 15. (Background knowledge) His records on Signature Sounds (Peculiar, Missouri; Critterland) mix old-time ballads, square-dance tunes and wild countercultural storytelling, very much in the Stampfel-ish outsider-folk spirit Erik likes. The catch is the drive: Felton is in the Santa Cruz mountains, about 90 minutes from Oakland on a weeknight.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Whether he has a closer Bay Area date on this run is unknown.",
+   "Opener not listed."
+  ]
+ },
  "ev_c512ef26141c": {
   "evidence": [
    {
@@ -16051,6 +16349,42 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Billing order unconfirmed."
+  ]
+ },
+ "ev_cf7bdfa89e34": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Larry Chinn, piano; Carla Kaufman, bass; Bob Blankenship, drums $20 cover charge; byob Students $10 For a reservation, call the bookshop at 415-586-3733",
+    "url": "https://birdbeckett.com/event/duncan-james_2026-12-26/"
+   }
+  ],
+  "fingerprint": "32fcaddacfef",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Bay Area jazz pianist",
+    "name": "Larry Chinn",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bassist",
+    "name": "Carla Kaufman",
+    "significance": "local"
+   },
+   {
+    "known_for": "Drummer",
+    "name": "Bob Blankenship",
+    "significance": "local"
+   }
+  ],
+  "reason": "A Duncan James memorial quartet set at Bird & Beckett in Glen Park on Sat Dec 26, with Larry Chinn on piano, Carla Kaufman on bass and Bob Blankenship on drums ($20, BYOB). A warm local straight-ahead tribute in a lovely small room, but not the adventurous improvising he looks for.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Who Duncan James was, and the fourth quartet member, not stated in the listing."
   ]
  },
  "ev_cfadd1749599": {
@@ -17878,6 +18212,25 @@
    "Trio members not identified."
   ]
  },
+ "ev_e7caa6703917": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: CLOSED FOR THANKSGIVING",
+    "url": "https://keysjazzbistro.com/event/closed-for-thanksgiving-2/"
+   }
+  ],
+  "fingerprint": "2f2024671300",
+  "fit": 0,
+  "performers": [],
+  "reason": "Keys Jazz Bistro is closed for Thanksgiving on Nov 26. Not an event.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_e809b36dace2": {
   "evidence": [
    {
@@ -18704,6 +19057,42 @@
    "Genre unknown."
   ]
  },
+ "ev_f5cfc0352660": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: with Cajun/Zydeco | Doors 7pm Beginner-Friendly Dance Lesson 7:30pm Show 8pm The Midnite Ramblers are Agi Ban (Aux Cajunals) on fiddle and vocals, Mark Marcin on accordion and fiddle (Mark also plays occasionally with The California Bluerunners), Karen Celia Heil (Knuckle Knockers, KC & the MooNshine Band and Plaid Strangers. Karen is a San Francisco Bay Area musician who plays Old-time and Cajun ",
+    "url": "https://tickets.venuepilot.com/e/midnite-ramblers-2026-12-10-ashkenaz-music-dance-community-center-berkeley-0b1037"
+   }
+  ],
+  "fingerprint": "bf14e66bfe0e",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Bay Area old-time and Cajun musician; Knuckle Knockers, KC & the MooNshine Band, Plaid Strangers (per listing)",
+    "name": "Karen Celia Heil",
+    "significance": "local"
+   },
+   {
+    "known_for": "Fiddle and vocals, Aux Cajunals (per listing)",
+    "name": "Agi Ban",
+    "significance": "local"
+   },
+   {
+    "known_for": "Accordion and fiddle; also plays with The California Bluerunners (per listing)",
+    "name": "Mark Marcin",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Midnite Ramblers play a Cajun and old-time dance night at Ashkenaz in Berkeley on Thu Dec 10, with Agi Ban (Aux Cajunals) on fiddle, Mark Marcin on accordion and fiddle, and Karen Celia Heil (Knuckle Knockers, Plaid Strangers). Seasoned local roots players in a short hop from Oakland; it is a dance night with a beginner lesson at 7:30, so best if he wants to dance rather than sit and listen.",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing text is truncated; full lineup not captured."
+  ]
+ },
  "ev_f5de1078fe8a": {
   "evidence": [
    {
@@ -18858,6 +19247,33 @@
   "uncertainties": [
    "Exact date not confirmed from a fetched page.",
    "Participatory sessions, not concerts."
+  ]
+ },
+ "ev_f767e18218e9": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Nov. 24 (5 pm): Skillet Licorice (and guests) - The Page, SF",
+    "url": "https://www.bgsignal.com/concerts--festivals.html"
+   }
+  ],
+  "fingerprint": "6716e71ab5a2",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Bay Area old-time string band; played the Lord of the Rings Halloween Square Dance at Ashkenaz as Denethor's Supper (per repo listings)",
+    "name": "Skillet Licorice",
+    "significance": "local"
+   }
+  ],
+  "reason": "Skillet Licorice, the SF old-time string band behind Denethor's Supper at the Ashkenaz Halloween square dance, plays its recurring 5pm Tuesday set with guests at The Page in SF. On-genre, free-feeling happy-hour old-time in a neighborhood bar, but a weekly residency rather than a special date, and this one is today (Nov 24).",
+  "researched_at": "2026-11-24T22:43:45+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring weekly date; guests not named.",
+   "Date is today, so it will have passed by the Monday email."
   ]
  },
  "ev_f773edf5faff": {
