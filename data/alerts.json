@@ -48,6 +48,14 @@
    "tier": "exceptional",
    "via": "digest"
   },
+  "ev_4938e3d9e914": {
+   "at": "2026-11-24T02:30:43+00:00",
+   "date": "2026-12-16",
+   "issue": 14,
+   "status": "scheduled",
+   "tier": "strong",
+   "via": "digest"
+  },
   "ev_5ac356181c27": {
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-12-04",
@@ -100,6 +108,14 @@
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-12-06",
    "issue": 9,
+   "status": "scheduled",
+   "tier": "exceptional",
+   "via": "digest"
+  },
+  "ev_ab5971d234f3": {
+   "at": "2026-11-24T02:30:43+00:00",
+   "date": "2026-12-04",
+   "issue": 14,
    "status": "scheduled",
    "tier": "exceptional",
    "via": "digest"
@@ -207,6 +223,14 @@
    "new_ahead": 1,
    "soon": 3,
    "subject": "Shows for the week of Nov 16: Eric Thompson & Dead Roots Revival (w/..., Brian Blade & The Fellowship Band... + 2 more"
+  },
+  {
+   "at": "2026-11-24T02:30:43+00:00",
+   "emailed": false,
+   "issue": 14,
+   "new_ahead": 1,
+   "soon": 3,
+   "subject": "Shows for the week of Nov 23: Crooked Jades album release party, Scott Amendola Trio with Jeff Parker... + 2 more"
   }
  ],
  "picked": {
@@ -233,6 +257,10 @@
   "ev_3ed583a353ea": {
    "at": "2026-11-16T23:49:25+00:00",
    "date": "2026-12-04"
+  },
+  "ev_4938e3d9e914": {
+   "at": "2026-11-24T02:30:43+00:00",
+   "date": "2026-12-16"
   },
   "ev_5ac356181c27": {
    "at": "2026-11-09T22:36:06+00:00",
@@ -261,6 +289,10 @@
   "ev_a5c8e4576462": {
    "at": "2026-11-09T22:36:06+00:00",
    "date": "2026-12-06"
+  },
+  "ev_ab5971d234f3": {
+   "at": "2026-11-24T02:30:43+00:00",
+   "date": "2026-12-04"
   },
   "ev_ad3b52f6b1f9": {
    "at": "2026-11-09T23:50:32+00:00",
