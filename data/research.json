@@ -114,6 +114,33 @@
    "Recurring weekly event."
   ]
  },
+ "ev_022a41f4e2f6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: While preserving her musical past, vocalist and kora player Sona Jobarteh innovates to support a more humanitarian future. The spirit of Jobarteh's musical work stands on the mighty shoulders of the West African Griot tradition; she is a living archive of the Gambian people. With one ear on her family's historic reputation, one on its future legacy, and her heart in both places, she is preparing a",
+    "url": "https://www.kuumbwajazz.org/calendar/sona-jobarteh-3/"
+   }
+  ],
+  "fingerprint": "f738a09e22bd",
+  "fit": 76,
+  "performers": [
+   {
+    "known_for": "Kora player and singer from the Jobarteh/Suso griot lineage (background knowledge)",
+    "name": "Sona Jobarteh",
+    "significance": "major"
+   }
+  ],
+  "reason": "Sona Jobarteh is the Gambian-British kora virtuoso from a prominent griot family, widely described as the first female kora master in that hereditary tradition (background knowledge). Seeing her deep traditional lineage in Kuumbwa's intimate room is a rare, emotionally strong unusual-traditional pick, worth the Santa Cruz drive.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Santa Cruz is a long trip from Oakland.",
+   "Rules tagged 'musical' spuriously; this is a concert."
+  ]
+ },
  "ev_02dbb31c4de8": {
   "evidence": [
    {
@@ -1019,6 +1046,61 @@
   "uncertainties": [
    "House concert: time, price and address by contact only.",
    "Amelia is presumably his daughter (inference from the shared surname and family album credits)."
+  ]
+ },
+ "ev_118fc40028d4": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Horse Feathers at Sweetwater Music Hall at 2026-12-07",
+    "url": "https://sweetwatermusichall.org/event/horse-feathers-with-the-hackles/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "4c5b9097e2b8",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Portland chamber-folk band led by Justin Ringle (background knowledge)",
+    "name": "Horse Feathers",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Pacific Northwest folk act (background knowledge, limited)",
+    "name": "The Hackles",
+    "significance": "local"
+   }
+  ],
+  "reason": "Horse Feathers is Justin Ringle's Portland chamber-folk project with fiddle and cello textures, long on Kill Rock Stars (background knowledge), with The Hackles opening. Gentle, well-crafted indie folk in an intimate room; tangential to his old-time and outsider-folk core.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_12077b29aa9d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Buttertones at The Independent at 2026-12-02T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43407433-buttertones-at-independent"
+   }
+  ],
+  "fingerprint": "db91e23584e7",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "LA surf/garage rock band (background knowledge)",
+    "name": "The Buttertones",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Buttertones are an LA surf and garage-rock band (background knowledge). Fun rock show but outside his roots, jazz and hip-hop interests.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_12646e10c1e4": {
@@ -2209,6 +2291,53 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_1f3afe7493b6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Django Festival All-Stars have grown into a brilliantly cohesive group of musicians who've taken the world by storm, performing at top concert halls and festivals to packed houses and standing ovations. The group's music speaks of Paris in the 1920s and 1930s, when \"gitane\" music filled the air, in the cafés, the streets, in the countryside, a romantic Paris with lovers, campfires, a time of M",
+    "url": "https://www.kuumbwajazz.org/calendar/django-festival-all-stars/"
+   }
+  ],
+  "fingerprint": "9186ecb41e3f",
+  "fit": 62,
+  "performers": [
+   {
+    "known_for": "Touring Manouche/gypsy-jazz ensemble (background knowledge)",
+    "name": "Django Festival All-Stars",
+    "significance": "notable"
+   }
+  ],
+  "reason": "The Django Festival All-Stars are a touring gypsy-jazz ensemble rooted in the Django Reinhardt tradition, associated with the Schmitt family of Manouche guitarists (background knowledge). Virtuosic acoustic string music with violin in a small room, though the format is a polished heritage show rather than something new.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Current lineup not named in listing.",
+   "Santa Cruz is a long trip from Oakland."
+  ]
+ },
+ "ev_1f678f984b51": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Live mic, open bluegrass jam on the fourth Sunday of the month, in a casual performance-oriented format on the famed Sweetwater Music Hall stage. For Intermediate to Advanced players, with support band backing. Restaurant and bar are open, and free admittance for all ages. Bring your friends and family, so they can see you step up to the mic and shine! Participating musicians get a complimentary f",
+    "url": "https://californiabluegrass.org/event/the-marin-bluegrass-sessions-at-sweetwater-music-hall/2027-05-23/"
+   }
+  ],
+  "fingerprint": "3ad9d8518094",
+  "fit": 38,
+  "performers": [],
+  "reason": "A free monthly open bluegrass jam on the Sweetwater stage in Mill Valley, for intermediate to advanced pickers with a backing band. Good for playing, but it is a participatory session rather than a show to seek out.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Open jam; no featured performers."
   ]
  },
  "ev_206052f131ad": {
@@ -4011,6 +4140,36 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_373a470c5987": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: BMG PRESENTS | BMG PRESENTS TUESDAY MARCH 2ND — TREVER M. KEITH & LILLY HIATT — DOORS 7:00 PM / SHOW 8:00 PM ADVANCE TICKETS AVAILABLE — IVY ROOM 860 San Pablo Ave, Albany • 21+ — TREVER M. KEITH — In truth, there will be a lot of intrigue sparked when music freaks and the curious alike find out Trever M. Keith, storied founder and front man for pioneering So Cal punk band Face to Face, is putting",
+    "url": "https://tickets.venuepilot.com/e/trever-m-keith-lilly-hiatt-2027-03-02-ivy-room-albany-f6ddd5"
+   }
+  ],
+  "fingerprint": "e3181afbcc70",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Nashville Americana singer-songwriter (background knowledge)",
+    "name": "Lilly Hiatt",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Face to Face founder and frontman, per listing",
+    "name": "Trever M. Keith",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Lilly Hiatt is a Nashville Americana songwriter (John Hiatt's daughter, New West Records), co-billed with Trever Keith of the pioneering SoCal punk band Face to Face playing in a quieter mode (background knowledge). Solid Ivy Room roots-rock night, more singer-songwriter Americana than his core.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_37450b80f140": {
   "evidence": [
    {
@@ -5004,6 +5163,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performer and genre unknown."
+  ]
+ },
+ "ev_45b71f951691": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000EEFn7MAH"
+   }
+  ],
+  "fingerprint": "1f2f25fe0e9c",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Are We Hunting",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Getaway Dogs",
+    "significance": "none"
+   }
+  ],
+  "reason": "Are We Hunting with Getaway Dogs at The Lost Church; neither act is one I recognize and the listing has no description. Needs a look at who they are before judging.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description captured; genre unknown."
   ]
  },
  "ev_45cf3c8be2c3": {
@@ -6355,6 +6545,32 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_575b273a4f4f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (no description captured)",
+    "url": "https://www.oldfirstconcerts.org/performance/aeternum-rejoice-and-be-merry-friday-december-18-at-8-pm/"
+   }
+  ],
+  "fingerprint": "124869100e9b",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Vocal ensemble, not identified",
+    "name": "Aeternum",
+    "significance": "none"
+   }
+  ],
+  "reason": "Aeternum presents a December choral holiday concert at Old First Church. Seasonal early-music or choral programming, outside his taste.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured."
+  ]
+ },
  "ev_57cf0eab1e02": {
   "evidence": [
    {
@@ -7406,6 +7622,59 @@
    "'The Big Twang' assumed to be a Hardly Strictly 25th-anniversary book or film; not confirmed."
   ]
  },
+ "ev_60745e16f19c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Tyreek McDole is a multi-award-winning Haitian-American vocalist from Central Florida whose soulful baritone and deeply reflective artistry are making waves across. Rooted in the belief that music is one of the highest forms of communication, McDole approaches performance as a space for healing, reflection, and collective dreaming – treating each concert as both offering and ritual. He first gaine",
+    "url": "https://www.kuumbwajazz.org/calendar/tyreek-mcdole-2/"
+   }
+  ],
+  "fingerprint": "7c2b8c6cc060",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Jazz vocalist, Sarah Vaughan competition winner (background knowledge)",
+    "name": "Tyreek McDole",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Tyreek McDole is a rising Haitian-American jazz baritone who won the Sarah Vaughan International Jazz Vocal Competition (background knowledge). A soulful, spiritually minded young vocalist at intimate Kuumbwa; worth considering if he wants vocal jazz with depth.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band not named.",
+   "Santa Cruz is a long trip from Oakland."
+  ]
+ },
+ "ev_6095713f669c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Independent: 1 Umbella",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "97b8d48bb60e",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "1 Umbrella",
+    "significance": "none"
+   }
+  ],
+  "reason": "KALX listing for '1 Umbella' at The Independent, almost certainly the same 1 Umbrella show on 25 Nov with a typo. Act not recognized; likely a poor fit.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Likely duplicate of ev_72d070209c0c."
+  ]
+ },
  "ev_613607cc03d9": {
   "evidence": [
    {
@@ -7938,6 +8207,32 @@
    "Re-queued with a new fingerprint on 2026-11-04; primary pages could not be re-fetched, so the earlier findings are kept and only re-checked by search."
   ]
  },
+ "ev_688761a1d6fc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (no description captured)",
+    "url": "https://thelostchurch.my.salesforce-sites.com/ticket#/instances/a0FUh00000DsF2bMAF"
+   }
+  ],
+  "fingerprint": "5256e2bb92d4",
+  "fit": 22,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Olivia Bratko",
+    "significance": "none"
+   }
+  ],
+  "reason": "Olivia Bratko presents a show titled KYLE KYLE KYLE at The Lost Church; the title suggests a character or comedy piece, which is usually a poor fit. No description was captured, so this stays unresolved.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No listing description; could be comedy, theater or music."
+  ]
+ },
  "ev_68a1b4262ffd": {
   "evidence": [
    {
@@ -8155,6 +8450,26 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not identified; genre inferred from the series title only."
+  ]
+ },
+ "ev_6b446ee7652d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Monthly open bluegrass pick in Thousand Oaks, CA organized by Whole Hog .",
+    "url": "https://californiabluegrass.org/event/ham-jam-bluegrass-session/2026-12-07/"
+   }
+  ],
+  "fingerprint": "7b211f089638",
+  "fit": 5,
+  "performers": [],
+  "reason": "A monthly open bluegrass pick in Thousand Oaks, in Southern California. Not a Bay Area event and not a performance.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Located in Thousand Oaks, about 350 miles from Oakland."
   ]
  },
  "ev_6c0c361dbcd8": {
@@ -8856,6 +9171,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Listing has no description; identification as a comedy series is background knowledge, not checked."
+  ]
+ },
+ "ev_72d070209c0c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The DHS Tour | Please note – there is a delivery delay set for 2 weeks prior to show. VIP Upgrades – Photo – VIP Lanyard – Read More",
+    "url": "https://www.theindependentsf.com/tm-event/1-umbrella/"
+   }
+  ],
+  "fingerprint": "8fc1629e318e",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "1 Umbrella",
+    "significance": "none"
+   }
+  ],
+  "reason": "1 Umbrella at The Independent on its 'DHS Tour' with VIP lanyard and photo upgrades; I do not recognize the act. The VIP-package framing suggests a young pop or online-following artist, likely a poor fit, but the listing does not say.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre not stated in listing."
   ]
  },
  "ev_734039646e89": {
@@ -9794,6 +10135,32 @@
    "Lineup not listed."
   ]
  },
+ "ev_7b034a89ff53": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: details tba",
+    "url": "https://birdbeckett.com/event/ray-skjelbred-trio/"
+   }
+  ],
+  "fingerprint": "51e7ff9194e3",
+  "fit": 56,
+  "performers": [
+   {
+    "known_for": "Traditional jazz and blues pianist (background knowledge)",
+    "name": "Ray Skjelbred",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Ray Skjelbred is a veteran Seattle traditional-jazz pianist in the Earl Hines and Jess Stacy stride and blues lineage (background knowledge). A trio at Bird & Beckett bookstore is exactly the kind of tiny, deep-tradition room Erik values, though the style is early jazz rather than adventurous improvisation.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing says 'details tba'; trio members not named."
+  ]
+ },
  "ev_7b5b2d740465": {
   "evidence": [
    {
@@ -10034,6 +10401,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized; lineup differs between title and listing text."
+  ]
+ },
+ "ev_7d41ea9e0f4f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hayde Bluegrass Orchestra at The Freight on May 12, 2027",
+    "url": "https://www.jambase.com/show/hayde-bluegrass-orchestra-the-freight-20270512"
+   }
+  ],
+  "fingerprint": "176e2dabf199",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Norwegian bluegrass band (background knowledge)",
+    "name": "Hayde Bluegrass Orchestra",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Hayde Bluegrass Orchestra is a Norwegian bluegrass band that blends hard-driving bluegrass with Scandinavian fiddle melodies and has played IBMA and US festivals (background knowledge). An unusual traditional collaboration at the Freight, right in his bluegrass and fiddle-traditions core.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing is a JamBase stub; current lineup not named."
   ]
  },
  "ev_7e2915e6253d": {
@@ -10643,6 +11036,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No description captured."
+  ]
+ },
+ "ev_8547a5931955": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The sensitive and sophisticated vocal stylings of Carla Helmbrecht are the perfect complement to the soulful, blues- and swing-influenced style of the Brad Leali ensemble. Not only do they explore classic jazz standards and original materials, but they are able to infuse historical and modern components to their unique arrangements. With a unique style and [...]",
+    "url": "https://keysjazzbistro.com/event/the-brad-leali-jazz-quartet-ft-carla-helmbrecht-9/"
+   }
+  ],
+  "fingerprint": "c3518937d52d",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Alto saxophonist, Count Basie Orchestra and Harry Connick Jr. alum, jazz educator (background knowledge)",
+    "name": "Brad Leali",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Jazz vocalist (background knowledge, limited)",
+    "name": "Carla Helmbrecht",
+    "significance": "local"
+   }
+  ],
+  "reason": "Brad Leali is a Texas alto saxophonist known for years in the Count Basie Orchestra and Harry Connick Jr.'s band (background knowledge), here with vocalist Carla Helmbrecht. Expect polished, blues- and swing-rooted straight-ahead jazz in a small SF room, closer to a classy standards night than adventurous improvisation.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Sidemen not named in the listing."
   ]
  },
  "ev_85f7a4f3dd7e": {
@@ -12348,6 +12772,33 @@
    "Cancellation taken from listing title only."
   ]
  },
+ "ev_9ccb471abf5e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Sunny Jain is a composer, drummer, dhol player and thought leader. While growing up with a deep cultural connection to his South Asian heritage, Jain also fell in love with jazz music and prog rock. He has been at the zeitgeist of America's South Asian sounds for the past two decades. He founded and plays dhol in the pioneering Brooklyn band, Red Baraat, and has drummed with some of the top South ",
+    "url": "https://www.kuumbwajazz.org/calendar/sunny-jains-wild-wild-east/"
+   }
+  ],
+  "fingerprint": "a18b75fb514f",
+  "fit": 70,
+  "performers": [
+   {
+    "known_for": "Red Baraat founder, dhol player, composer (background knowledge)",
+    "name": "Sunny Jain",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Sunny Jain is the drummer and dhol player who founded the Brooklyn brass band Red Baraat; Wild Wild East is his project mixing Punjabi folk, surf, psych and jazz, released on Smithsonian Folkways (background knowledge). Adventurous, joyous cross-traditional music in Kuumbwa's intimate room fits his taste for unusual traditional collaborations.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Touring band lineup not named.",
+   "Santa Cruz is a long trip from Oakland."
+  ]
+ },
  "ev_9d01fe02e71a": {
   "evidence": [
    {
@@ -14026,6 +14477,32 @@
    "Event is on 7 Nov 2026, the day of this run."
   ]
  },
+ "ev_b27acaec05ab": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Keenan TreVon at Café du Nord at 2026-12-07T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43428826-keenan-trevon-at-cafe-du-nord"
+   }
+  ],
+  "fingerprint": "9fefb080e38a",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Keenan TreVon",
+    "significance": "none"
+   }
+  ],
+  "reason": "Keenan TreVon at Cafe du Nord; I do not recognize the artist and the listing gives only name, venue and date. Genre and draw unknown.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description captured."
+  ]
+ },
  "ev_b2904b39647e": {
   "evidence": [
    {
@@ -14404,6 +14881,32 @@
   "uncertainties": [
    "Band lineup not listed.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_b63b5351bf2e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: (no description captured)",
+    "url": "https://www.sffmc.org/community-folk-calendar/"
+   }
+  ],
+  "fingerprint": "62bc7cb04d07",
+  "fit": 66,
+  "performers": [
+   {
+    "known_for": "Irish traditional ensemble led by Joanie Madden (background knowledge)",
+    "name": "Cherish the Ladies",
+    "significance": "major"
+   }
+  ],
+  "reason": "Cherish the Ladies is the long-running Irish traditional ensemble led by flutist Joanie Madden, with fiddle, step dance and their well-known Celtic Christmas tour (background knowledge). A strong fiddle-tradition night at the Freight, though polished and holiday-oriented.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing from SFFMC community calendar has no description; holiday program assumed from date (background knowledge)."
   ]
  },
  "ev_b737c76114b4": {
@@ -15127,6 +15630,32 @@
    "Second night is Mar 6; he only needs one."
   ]
  },
+ "ev_bea5d68dd0cc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Mark Hummel at The Back Room on Dec 31, 2026",
+    "url": "https://www.jambase.com/show/mark-hummel-the-back-room-20261231"
+   }
+  ],
+  "fingerprint": "13bf548c1607",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Blues harmonica player and bandleader (background knowledge)",
+    "name": "Mark Hummel",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Mark Hummel is a veteran Bay Area blues harmonica player, known for his Blues Harmonica Blowout tours (background knowledge), playing New Year's Eve at The Back Room in Berkeley. A fun, local, roots-adjacent NYE option.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "NYE pricing and lineup unknown."
+  ]
+ },
  "ev_bee924b5bd0e": {
   "evidence": [
    {
@@ -15787,6 +16316,32 @@
   "uncertainties": [
    "Performer background is from the researcher's prior knowledge, not verified against a fetched source this run.",
    "Date, venue and lineup not confirmed against a fetched primary page this run."
+  ]
+ },
+ "ev_c87b93d4273c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Unkle at The Independent at 2026-11-30T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43419386-unkle-at-independent"
+   }
+  ],
+  "fingerprint": "3020b6cf60c0",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "James Lavelle electronic/trip-hop project (background knowledge)",
+    "name": "UNKLE",
+    "significance": "notable"
+   }
+  ],
+  "reason": "UNKLE is James Lavelle's trip-hop and electronic project from the Mo' Wax label, famous for the DJ Shadow collaboration Psyence Fiction (background knowledge). Hip-hop adjacent history, but current shows are electronic productions, not his kind of night.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Unclear whether this is a live band or DJ set."
   ]
  },
  "ev_c8809f90b035": {
@@ -16581,6 +17136,26 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_d338c0bea384": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Thee Stork Club: Cone Shape Top presents EGG!",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "e15d5ae4ebae",
+  "fit": 30,
+  "performers": [],
+  "reason": "KALX listing for 'Cone Shape Top presents EGG!' at Thee Stork Club in Oakland; I do not recognize the promoter or performers. Could be experimental or underground, but nothing in the listing says.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers or genre in listing."
+  ]
+ },
  "ev_d343ef65af2d": {
   "evidence": [
    {
@@ -17032,6 +17607,37 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_da1cefd99461": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Especially for jazz guitar enthusiasts: West Coast standard-bearers Jack Tone Riordan and Jeffrey Burr are your hosts for an evening of jazz guitar delights. Fans of Wes Montgomery, Jim Hall, Grant Green, Charlie Christian etc will not want to miss this special homage and celebration of six-string swingdom.",
+    "url": "https://keysjazzbistro.com/event/the-guitar-hang-7/"
+   }
+  ],
+  "fingerprint": "93301fa0efbe",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Bay Area jazz guitarist, per listing",
+    "name": "Jack Tone Riordan",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area jazz guitarist, per listing",
+    "name": "Jeffrey Burr",
+    "significance": "local"
+   }
+  ],
+  "reason": "A local jazz guitar hang hosted by Jack Tone Riordan and Jeffrey Burr, framed as an homage to Wes Montgomery, Jim Hall and Grant Green. Pleasant but essentially a tribute-style standards night by local players.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Recurring series; no special guest named."
+  ]
+ },
  "ev_da3b1224db08": {
   "evidence": [
    {
@@ -17131,6 +17737,32 @@
   "uncertainties": [
    "Ticket page says door sales only 'if the show is not sold out'; no current availability stated",
    "Rhythm section differs from the 2022 article lineup"
+  ]
+ },
+ "ev_da8645bbde86": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Buck Meek at The Chapel at 2026-12-07T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43067051-buck-meek-at-chapel"
+   }
+  ],
+  "fingerprint": "aa740caf6775",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Big Thief guitarist, solo country-folk songwriter (background knowledge)",
+    "name": "Buck Meek",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Buck Meek is the guitarist of Big Thief whose solo records lean into warm, twangy country-folk songwriting (background knowledge). A good roots-adjacent night at The Chapel, though contemporary indie-folk rather than the traditional or freak-folk core.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Openers not listed."
   ]
  },
  "ev_db01029096d1": {
@@ -19454,6 +20086,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Showtime not listed."
+  ]
+ },
+ "ev_f87618ca8bf8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Roberta Donnay's Prohibition Mob are bringing the sounds of the 1920's and 30's to the city Playing sizzling roots from Bessie Smith to Billie Holiday, this jazz sextet present their joyous show with acclaimed jazz vocalist & composer Roberta Donnay, featuring John R. Burr on piano, Heshima Mark Williams on bass, Mark Lee on drums, [...]",
+    "url": "https://keysjazzbistro.com/event/roberta-donnay-the-prohibition-mobprohibition-holiday-party/"
+   }
+  ],
+  "fingerprint": "4a4567d1dc22",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "Bay Area jazz vocalist and composer, vintage-jazz bandleader (background knowledge)",
+    "name": "Roberta Donnay",
+    "significance": "local"
+   },
+   {
+    "known_for": "Pianist, per listing",
+    "name": "John R. Burr",
+    "significance": "local"
+   }
+  ],
+  "reason": "Roberta Donnay is a Bay Area jazz vocalist whose Prohibition Mob sextet revives 1920s and 30s repertoire from Bessie Smith to Billie Holiday. A festive, well-played period-jazz holiday party, but more of a nostalgia revue than the adventurous jazz Erik seeks.",
+  "researched_at": "2026-11-25T22:43:24+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Holiday party format; set length and ticket price unknown."
   ]
  },
  "ev_f8c7d9a70680": {
