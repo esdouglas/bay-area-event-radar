@@ -30,13 +30,14 @@ class Cards(unittest.TestCase):
 
         class R:
             text, url, content = page, "https://example.org/cal", page.encode()
-        orig = venues.fetch.get
+        orig, orig_today = venues.fetch.get, venues._today
         venues.fetch.get = lambda *a, **k: R
+        venues._today = lambda: dt.date(2026, 10, 31)   # pinned: "Sat Nov 21" must stay in the future
         try:
             st = {}
             out = venues.collect_cards({"id": "x", "url": R.url, "cards": {"item": "div.ev", "title": "h2", "date": "p.d", "time": "p.t"}}, st)
         finally:
-            venues.fetch.get = orig
+            venues.fetch.get, venues._today = orig, orig_today
         self.assertEqual(len(out), 1)
         self.assertEqual(out[0]["title"], "Peter Stampfel")
         self.assertEqual(out[0]["url"], "https://example.org/e/1")
