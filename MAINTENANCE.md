@@ -12,7 +12,7 @@
 
 ## Routine (nothing to do)
 
-- Every 6 h: collect → score → enrich → alert → site. Data is committed to the repo; the repo stays
+- Daily (plus on each research push): collect → score → enrich → alert → site. Data is committed to the repo; the repo stays
   active so GitHub never auto-disables the schedule for inactivity.
 - Mondays: digest issue. Daily: watchdog.
 - If anything goes stale or breaks, a `radar-ops` issue is opened/updated and the watchdog run turns red.
@@ -31,7 +31,7 @@
    runs it on a runner, prints the counts, and pushes the fetched pages to a `dev-snap-<run>` tag that
    `RADAR_FETCH_REPLAY=<dir>` can replay locally (`radar.fetch.index_replay_dir`). The next run deletes
    old tags; a request of just `cleanup_only: true` deletes them without making a new one.
-4. "no collection run in 14 h" = GitHub skipped or disabled the schedule. Open Actions; a manual
+4. "no collection run in 30 h" = GitHub skipped or disabled the schedule. Open Actions; a manual
    `workflow_dispatch` of "Collect, rank, alert, publish" restarts it.
 
 ## Monthly (15 minutes)

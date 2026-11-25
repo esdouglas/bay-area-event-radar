@@ -19,7 +19,7 @@ KEY_SOURCES = ["little-hill-lounge", "cafe-du-nord", "songkick-bay-area", "blueg
                "back-room-berkeley", "fifth-street-farms", "sf-folk-music-club", "kalx-entertainment-calendar"]
 
 
-def run(dry_run=False, max_stale_hours=14, strict=False):
+def run(dry_run=False, max_stale_hours=30, strict=False):
     problems = []
     summary = store._load(config.RUN_SUMMARY_FILE, {})
     health = store.load_health()

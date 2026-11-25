@@ -39,14 +39,14 @@ off (see [CLAUDE.md](CLAUDE.md)).
 | `research apply` | Folds findings from the daily research task (`data/research.json`) into scores. | nothing |
 | `notify` | Opens an issue per new exceptional event (comments on changes, never repeats), weekly digest with new-since-last, next-14-days, and still-upcoming sections. Live posting only from `main` (or `RADAR_NOTIFY_LIVE=1`). | `GITHUB_TOKEN` (automatic) |
 | `site` | Static inventory, dashboard, `radar.ics`, `events.json`. | nothing |
-| `watchdog` | Fails (and opens/updates a `radar-ops` issue) if the last collection is >14 h old, key sources return zero, sources fail 3+ runs, or nothing new was found in a week. | `GITHUB_TOKEN` |
+| `watchdog` | Fails (and opens/updates a `radar-ops` issue) if the last collection is >30 h old, key sources return zero, sources fail 3+ runs, or nothing new was found in a week. | `GITHUB_TOKEN` |
 | `benchmark` | Historical discoverability benchmark (`benchmark/events.yaml`, report in `benchmark/REPORT.md`); `--live` adds Wayback Machine checks. | network |
 
 ## Schedules (`.github/workflows/`)
 
 GitHub fires cron schedules only on the default branch (`main`); on `radar-v2` the pipeline runs on pushes.
 
-- `collect.yml`: every 6 h and on code pushes: collect → score → enrich → notify → benchmark → site → commit `data/` → deploy Pages (deploy only from `main`).
+- `collect.yml`: daily (13:23 UTC) and on code or research pushes: collect → score → enrich → notify → benchmark → site → commit `data/` → deploy Pages (deploy only from `main`).
 - `digest.yml`: Mondays 15:37 UTC.
 - `watchdog.yml`: daily 16:11 UTC.
 - `benchmark.yml`: manual, with Wayback checks.

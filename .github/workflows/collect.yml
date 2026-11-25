@@ -1,7 +1,7 @@
 name: Collect, rank, alert, publish
 on:
   schedule:
-    - cron: '23 */6 * * *'        # every six hours (UTC); GitHub may delay or skip busy slots
+    - cron: '23 13 * * *'          # daily 13:23 UTC = 5:23/6:23 AM Pacific; the daily research push also triggers a run
   workflow_dispatch:
     inputs:
       force:
