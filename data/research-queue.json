@@ -1,530 +1,8 @@
 {
- "backlog": 1153,
+ "backlog": 1128,
  "count": 40,
- "generated_at": "2026-11-26T22:30:08+00:00",
+ "generated_at": "2026-11-26T22:46:28+00:00",
  "items": [
-  {
-   "city": "",
-   "date": "2026-11-30",
-   "description": "The Freight: 12pm Bobby McFerrin and MOTION: Circlesongs; 7pm Country Bluegrass Jam with Richard Brandenburg",
-   "fingerprint": "04399ea260ef",
-   "id": "ev_3fa35c8594cb",
-   "other_urls": [],
-   "rules_score": 89.0,
-   "rules_tier": "strong",
-   "start": "2026-11-30T00:00:00-08:00",
-   "title": "12pm Bobby McFerrin and MOTION: Circlesongs; 7pm Country Bluegrass Jam with Richard Brandenburg",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Freight & Salvage",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "roots_adjacent: country (+10)",
-    "intimate room: Freight & Salvage (+14)",
-    "booking signal: Freight & Salvage (+8)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-03",
-   "description": "Buy Tickets on Humanitix - Jack West - The Acoustic Spank Project featuring James Nash hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Thursday December 3rd 2026. Find event information.",
-   "fingerprint": "f2bd55f43589",
-   "id": "ev_c216320155b5",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 71.0,
-   "rules_tier": "strong",
-   "start": "2026-12-03T20:00:00-08:00",
-   "title": "Jack West: The Acoustic Spank Project featuring James Nash",
-   "url": "https://events.humanitix.com/jack-west",
-   "venue": "The Back Room",
-   "why_rules": [
-    "roots_adjacent: acoustic (+10)",
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+12)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-06",
-   "description": "Buy Tickets on Humanitix - Don't Look Now hosted by The Back Room. The Back Room, 1984 Bonita Ave, Berkeley, CA 94704, USA. Sunday December 6th 2026. Find event information.",
-   "fingerprint": "db636adde827",
-   "id": "ev_59b31999c5a5",
-   "other_urls": [
-    "https://www.sffmc.org/community-folk-calendar/",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 67.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-06T14:30:00-08:00",
-   "title": "2:30pm Don't Look Now; 7pm Sam's Corner",
-   "url": "https://events.humanitix.com/don-t-look-now",
-   "venue": "The Back Room",
-   "why_rules": [
-    "intimate room: The Back Room (+14)",
-    "booking signal: The Back Room (+8)",
-    "listed by a taste-aligned calendar (+14)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-01",
-   "description": "Center for New Music: David Boyce, Ben Davis, Thomas Dimuzio, Phillip Greenlief, Kanoko Nishi, Danishta Rivero",
-   "fingerprint": "848aef2244b6",
-   "id": "ev_8254906cb20e",
-   "other_urls": [],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-12-01T00:00:00-08:00",
-   "title": "David Boyce, Ben Davis, Thomas Dimuzio, Phillip Greenlief, Kanoko Nishi, Danishta Rivero",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Center for New Music",
-   "why_rules": [
-    "jazz_core: new music (+18)",
-    "intimate room: Center for New Music (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-04",
-   "description": "Center for New Music: Larry Ochs, Ben Davis, Fred Longber-Holm",
-   "fingerprint": "df463964ea0d",
-   "id": "ev_be42b3bb366b",
-   "other_urls": [],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-12-04T00:00:00-08:00",
-   "title": "Larry Ochs, Ben Davis, Fred Longber-Holm",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Center for New Music",
-   "why_rules": [
-    "jazz_core: new music (+18)",
-    "intimate room: Center for New Music (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-05",
-   "description": "Center for New Music: Zachary James Watkins & John Diaz",
-   "fingerprint": "675df3ae1629",
-   "id": "ev_3caa1f59db70",
-   "other_urls": [],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Zachary James Watkins & John Diaz",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Center for New Music",
-   "why_rules": [
-    "jazz_core: new music (+18)",
-    "intimate room: Center for New Music (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-06",
-   "description": "Center for New Music: 4pm D. Riley Nicholson, Friction Quartet, & Julia O.",
-   "fingerprint": "28e229d242c2",
-   "id": "ev_834f44852e00",
-   "other_urls": [],
-   "rules_score": 67.0,
-   "rules_tier": "strong",
-   "start": "2026-12-06T00:00:00-08:00",
-   "title": "4pm D. Riley Nicholson, Friction Quartet, & Julia O.",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Center for New Music",
-   "why_rules": [
-    "jazz_core: new music (+18)",
-    "intimate room: Center for New Music (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-01",
-   "description": "Hotel Utah: Open Bluegrass Jam",
-   "fingerprint": "4fcf65420070",
-   "id": "ev_bb3d8bb69bfb",
-   "other_urls": [],
-   "rules_score": 71.0,
-   "rules_tier": "strong",
-   "start": "2026-12-01T00:00:00-08:00",
-   "title": "Open Bluegrass Jam",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Hotel Utah",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "intimate room: Hotel Utah (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-04",
-   "description": "Returning to Keys, Suzanna Smith fronts another stellar ensemble to work her magic around the Peggy Lee songbook. \"There are relatively few contemporary female vocalists who evoke Peggy Lee, at least not genuinely. Suzanna Smith numbers among that rare ilk. That Smith sounds like Lee — slightly breathy and warmly sensual with a hint of [...]",
-   "fingerprint": "df788e364d90",
-   "id": "ev_b9bfbded5bc5",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-04T19:00:00-08:00",
-   "title": "7pm Suzanna Smith; 9pm AgapeSoul",
-   "url": "https://keysjazzbistro.com/event/suzanna-smith-15/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "intimate room: Keys Jazz Bistro (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-05",
-   "description": "The Bay Area's Queen Songstress will groove you through the holiday season and propel you into the New Year, in celebration of her new double-CD release A Soulful Christmas, a dynamic new project featuring guest appearances from Gerald Albright, Dayna Stephens James Carter, Wycliffe Gordon, Steve Nelson, Jules Broussard, David Jackson, Juan Escovedo, and Tia [...]",
-   "fingerprint": "7ada0b9bcdf9",
-   "id": "ev_d9d9318ed607",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T19:00:00-08:00",
-   "title": "Soulful Christmas Album Release Party: The Dynamic Miss Faye Carol",
-   "url": "https://keysjazzbistro.com/event/a-soulful-christmas-album-release-partythe-dynamic-miss-faye-carol/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "intimate room: Keys Jazz Bistro (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-05",
-   "description": "Kamasi Washington, Bartees Strange, and Hannah Lew at UC Theatre at 2026-12-05T20:00:00-0800",
-   "fingerprint": "83458beeb38c",
-   "id": "ev_eeea15384024",
-   "other_urls": [
-    "https://www.theuctheatre.org/shows/kamasi-washington-05-dec",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 61.0,
-   "rules_tier": "strong",
-   "start": "2026-12-05T20:00:00-08:00",
-   "title": "Kamasi Washington, Bartees Strange, Hannah Lew",
-   "url": "https://www.songkick.com/concerts/43421682-kamasi-washington-at-uc-theatre",
-   "venue": "The UC Theatre",
-   "why_rules": [
-    "jazz_core: jazz (+18)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-01",
-   "description": "Little Hill Lounge: Tuesday Bluesday",
-   "fingerprint": "0742792a4b5b",
-   "id": "ev_98bbfa07e220",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-12-01T00:00:00-08:00",
-   "title": "Tuesday Bluesday",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-30",
-   "description": "Patrick Wolff is a jazz saxophone and clarinet player with a long history in the jazz scenes of New York City and San Francisco. His playing has been characterized by a focus on lyricism and an embrace of the whole lineage of jazz styles. Wolff's bands have spent hundreds of gig honing a quirky repertoire focusing on [...]",
-   "fingerprint": "6dd60c57b18b",
-   "id": "ev_2879bfb47806",
-   "other_urls": [],
-   "rules_score": 56.5,
-   "rules_tier": "strong",
-   "start": "2026-12-30T19:00:00-08:00",
-   "title": "Patrick Wolff Quartet feat. Noel Jewkes",
-   "url": "https://keysjazzbistro.com/event/patrick-wolff-quartet-feat-noel-jewkes/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "jazz_core: jazz, saxophone (+22)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-12-03",
-   "description": "Jon Chi at Sweetwater Music Hall on Dec 3, 2026",
-   "fingerprint": "a88003329ffa",
-   "id": "ev_4ba926d416bc",
-   "other_urls": [
-    "https://www.jambase.com/show/jon-chi-sweetwater-music-hall-20261203",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-12-03T20:00:00-08:00",
-   "title": "Jon Chi, April & Monroe Grisman and the Beautiful Hang Gang",
-   "url": "https://sweetwatermusichall.org/event/jon-chi/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-12-04",
-   "description": "Strange Daze at Sweetwater Music Hall on Dec 4, 2026",
-   "fingerprint": "2eee2f66ff0e",
-   "id": "ev_8cef2c550346",
-   "other_urls": [
-    "https://www.jambase.com/show/strange-daze-sweetwater-music-hall-20261204",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-12-04T20:00:00-08:00",
-   "title": "Strange Daze (Doors Tribute), Liquid Sky (Hendrix Tribute)",
-   "url": "https://sweetwatermusichall.org/event/strange-daze-the-music-of-the-doors/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-04",
-   "description": "Little Hill Lounge: Simonoto, Will Believe",
-   "fingerprint": "68d30ae36850",
-   "id": "ev_d7a1817c6ce1",
-   "other_urls": [],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-12-04T00:00:00-08:00",
-   "title": "Simonoto, Will Believe",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Little Hill Lounge",
-   "why_rules": [
-    "intimate room: Little Hill Lounge (+14)",
-    "booking signal: Little Hill Lounge (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Mill Valley",
-   "date": "2026-12-06",
-   "description": "The Suitcase Junket at Sweetwater Music Hall on Dec 6, 2026",
-   "fingerprint": "a56efbd5cb07",
-   "id": "ev_f4b11357287e",
-   "other_urls": [
-    "https://www.jambase.com/show/the-suitcase-junket-sweetwater-music-hall-20261206",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 65.0,
-   "rules_tier": "strong",
-   "start": "2026-12-06T20:00:00-08:00",
-   "title": "1pm Moonalice; 8pm The Suitcase Junket, Jimbo Scott",
-   "url": "https://sweetwatermusichall.org/event/the-suitcase-junket-with-jimbo-scott/sweetwater-music-hall/mill-valley-california/",
-   "venue": "Sweetwater Music Hall",
-   "why_rules": [
-    "intimate room: Sweetwater Music Hall (+14)",
-    "booking signal: Sweetwater Music Hall (+8)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-05",
-   "description": "A night of bebop adventures through the legendary music of Miles Davis, Thelonious Monk and Charles Mingus! Featuring: Adam Shulman Kevin Goldberg Lorca Hart Tiffany Austin is a vocalist, composer, educator, and Berkeley Law Juris Doctor. She has performed with luminaries such as Pharoah Sanders, Roy Ayers, John Handy, Cyrus Chestnut, and Doug Carn. Her[...]",
-   "fingerprint": "ff83e9ac49f6",
-   "id": "ev_fc1b3e58b02a",
-   "other_urls": [],
-   "rules_score": 51.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T21:00:00-08:00",
-   "title": "Tiffany Austin- \"Miles, Mingus and Monk!",
-   "url": "https://keysjazzbistro.com/event/tiffany-austin-miles-mingus-and-monk/",
-   "venue": "Keys Jazz Bistro",
-   "why_rules": [
-    "legacy: legendary (+14)",
-    "intimate room: Keys Jazz Bistro (+14)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-03",
-   "description": "The Sound Room: Mikailo Kasha Trio",
-   "fingerprint": "f76ed670a330",
-   "id": "ev_00eeeadf54c2",
-   "other_urls": [],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-03T00:00:00-08:00",
-   "title": "Mikailo Kasha Trio",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "intimacy: trio (+5)",
-    "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-03",
-   "description": "Wonderful World of Weirdos Tour | Please note – there is a delivery delay set for 2 weeks prior to show.",
-   "fingerprint": "d071410dc46c",
-   "id": "ev_329a7abdf852",
-   "other_urls": [
-    "https://apeconcerts.com/events/meek-261203/",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-12-03T20:00:00-08:00",
-   "title": "MEEK, The Blushes",
-   "url": "https://www.theindependentsf.com/tm-event/meek/",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-03",
-   "description": "Cool Heat, Sunder, and Mint at Kilowatt at 2026-12-03T19:00:00-0800",
-   "fingerprint": "6ee35e61e294",
-   "id": "ev_9e07323e9b97",
-   "other_urls": [
-    "https://dice.fm/event/6abc2b895af01a0001a36eec",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-12-03T19:00:00-08:00",
-   "title": "COOL HEAT, Sunder and Mint",
-   "url": "https://www.songkick.com/concerts/43442322-cool-heat-at-kilowatt",
-   "venue": "Kilowatt",
-   "why_rules": [
-    "intimate room: Kilowatt (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-12-04",
-   "description": "Please note – there is a delivery delay set for 2 weeks prior to show.",
-   "fingerprint": "ef32ac50b15d",
-   "id": "ev_3561bbefe64f",
-   "other_urls": [
-    "https://apeconcerts.com/events/nirosta-steel-261204/",
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 57.0,
-   "rules_tier": "strong",
-   "start": "2026-12-04T21:00:00-08:00",
-   "title": "Nirosta Steel, John Errol",
-   "url": "https://www.theindependentsf.com/tm-event/nirosta-steel/",
-   "venue": "The Independent",
-   "why_rules": [
-    "intimate room: The Independent (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "3 independent sources (+8)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-03",
-   "description": "Black Cat: The Fault Line Trio with Jay Sanders",
-   "fingerprint": "e4cc377ff173",
-   "id": "ev_b15948f2ea53",
-   "other_urls": [],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-03T00:00:00-08:00",
-   "title": "The Fault Line Trio with Jay Sanders",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimacy: trio (+5)",
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-11-27",
-   "description": "Thee Stork Club: Bronco Forte, Field Of Fear, All Hope Lost",
-   "fingerprint": "76e5c2823dbc",
-   "id": "ev_c1afd2e71b65",
-   "other_urls": [
-    "https://www.jambase.com/show/bronco-forte-thee-stork-club-20261127"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-27T00:00:00-08:00",
-   "title": "Bronco Forte, Field Of Fear, All Hope Lost",
-   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-   "venue": "Thee Stork Club",
-   "why_rules": [
-    "intimate room: Thee Stork Club (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-30",
-   "description": "Great American Music Hall: A John Waters Christmas",
-   "fingerprint": "3d2f6eaa5a65",
-   "id": "ev_a6a5b09f880b",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 53.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-30T20:00:00-08:00",
-   "title": "A John Waters Xmas",
-   "url": "https://www.eventbrite.com/e/1989687052535?aff=oddtdtcreator",
-   "venue": "Great American Music Hall",
-   "why_rules": [
-    "intimate room: Great American Music Hall (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
   {
    "city": "Oakland",
    "date": "2026-12-01",
@@ -820,6 +298,498 @@
     "intimate room: The Sound Room (+14)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-02",
+   "description": "Black Cat: LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+   "fingerprint": "1a79935cda99",
+   "id": "ev_3232941305e2",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T00:00:00-08:00",
+   "title": "LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-12-03",
+   "description": "Two Voices, One Purpose. A Night of Gospel Brilliance, Soul & Praise",
+   "fingerprint": "6e63e3b132b5",
+   "id": "ev_9878c6efbfc1",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   ],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-03T19:30:00-08:00",
+   "title": "Sylvia Anderson, Darrel Walls, Derrick Hall and music director Carl Wheeler",
+   "url": "https://yoshis.com/events/buy-tickets/sylvia-anderson-feat-darrell-walls-and-music-director-carl-wheeler/detail",
+   "venue": "Yoshi's Oakland",
+   "why_rules": [
+    "roots_adjacent: gospel (+10)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-04",
+   "description": "Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
+   "fingerprint": "3245b71fc7ab",
+   "id": "ev_231dc95bfd97",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-04T00:00:00-08:00",
+   "title": "A Charlie Brown Christmas: Vince Guaraldi Tribute",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-05",
+   "description": "Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
+   "fingerprint": "ddd129759dcd",
+   "id": "ev_0db61d8e8701",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "A Charlie Brown Christmas: Vince Guaraldi Tribute",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-06",
+   "description": "Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
+   "fingerprint": "67838ab38276",
+   "id": "ev_374d93485386",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-06T00:00:00-08:00",
+   "title": "A Charlie Brown Christmas: Vince Guaraldi Tribute",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-30",
+   "description": "The DeLuxe: DeLuxe Jazz Collective",
+   "fingerprint": "d656181964e1",
+   "id": "ev_9b49104591e8",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-30T00:00:00-08:00",
+   "title": "DeLuxe Jazz Collective",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The DeLuxe",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-01",
+   "description": "The DeLuxe: Mae Powell Jazz Quintet",
+   "fingerprint": "d53773dccad1",
+   "id": "ev_5d9eb79f1b71",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-01T00:00:00-08:00",
+   "title": "Mae Powell Jazz Quintet",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The DeLuxe",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-02",
+   "description": "The Jazz School: 12:30pm Phillip Greenlief on Dewey Redman",
+   "fingerprint": "adb101467bd5",
+   "id": "ev_e1d224c17c04",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T00:00:00-08:00",
+   "title": "12:30pm Phillip Greenlief on Dewey Redman",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The Jazz School",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-11-27",
+   "description": "Sheila E. at Yoshi's at 2026-11-27T22:00:00-0800",
+   "fingerprint": "f6edbef8f7c9",
+   "id": "ev_5122b668d137",
+   "other_urls": [
+    "https://yoshis.com/events/buy-tickets/sheila-e-10/detail",
+    "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+    "https://www.jambase.com/show/sheila-e-yoshis-20261127-2"
+   ],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-27T22:00:00-08:00",
+   "title": "Sheila E.",
+   "url": "https://www.songkick.com/concerts/43434288-sheila-e-at-yoshis",
+   "venue": "Yoshi's Oakland",
+   "why_rules": [
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-04",
+   "description": "The Jazz School: Student Performances",
+   "fingerprint": "50a848243747",
+   "id": "ev_9c780abb7278",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-04T00:00:00-08:00",
+   "title": "Student Performances",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The Jazz School",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-04",
+   "description": "Zellerbach Hall: Ambrose Akinmusire & Aszure Barton",
+   "fingerprint": "cccbfbf4d3e0",
+   "id": "ev_a519e9123e24",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2026-12-04T00:00:00-08:00",
+   "title": "Ambrose Akinmusire & Aszure Barton",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Zellerbach Hall",
+   "why_rules": [
+    "seed artist: Ambrose Akinmusire (+25)",
+    "booking signal: Zellerbach Hall (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-28",
+   "description": "Jackie Greene at The Fillmore at 2026-11-28T20:00:00-0800",
+   "fingerprint": "f3f970223d9f",
+   "id": "ev_8c6f973834bf",
+   "other_urls": [
+    "https://www.songkick.com/concerts/43405282-jackie-greene-at-fillmore",
+    "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+    "https://www.jambase.com/show/jackie-greene-the-fillmore-20261128"
+   ],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T20:00:00-08:00",
+   "title": "Jackie Greene",
+   "url": "https://www.ticketmaster.com/jackie-greene-san-francisco-california-11-28-2026/event/1C006519AA671008",
+   "venue": "The Fillmore",
+   "why_rules": [
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-05",
+   "description": "The Jazz School: Student Performances",
+   "fingerprint": "5de5a9ce9a36",
+   "id": "ev_a3c437883fdb",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "Student Performances",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The Jazz School",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-05",
+   "description": "Zellerbach Hall: Ambrose Akinmusire & Aszure Barton",
+   "fingerprint": "af3307a874ef",
+   "id": "ev_c938e6227534",
+   "other_urls": [],
+   "rules_score": 68.0,
+   "rules_tier": "strong",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "Ambrose Akinmusire & Aszure Barton",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Zellerbach Hall",
+   "why_rules": [
+    "seed artist: Ambrose Akinmusire (+25)",
+    "booking signal: Zellerbach Hall (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-06",
+   "description": "The Jazz School: Student Performances",
+   "fingerprint": "dae94a8d92e9",
+   "id": "ev_32b79ab891d5",
+   "other_urls": [],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-06T00:00:00-08:00",
+   "title": "Student Performances",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The Jazz School",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-12-04",
+   "description": "The String Cheese Incident at Fox Theater at 2026-12-04T19:00:00-0800",
+   "fingerprint": "f8bff4b7f2c9",
+   "id": "ev_c8406dab41fe",
+   "other_urls": [
+    "https://www.jambase.com/show/the-string-cheese-incident-fox-theater-20261204",
+    "https://www.jambase.com/show/the-string-cheese-incident-fox-theater-20261204",
+    "https://thefoxoakland.com/events/the-string-cheese-incident-261204",
+    "https://apeconcerts.com/events/the-string-cheese-incident-261204/"
+   ],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-04T19:00:00-08:00",
+   "title": "2-DAY TICKET - The String Cheese Incident: Just Keep Spinning Tour",
+   "url": "https://www.songkick.com/concerts/43363051-string-cheese-incident-at-fox-theater",
+   "venue": "Fox Theater Oakland",
+   "why_rules": [
+    "listed by a taste-aligned calendar (+12)",
+    "7 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-12-05",
+   "description": "The String Cheese Incident at Fox Theater at 2026-12-05T19:00:00-0800",
+   "fingerprint": "2c445d69c144",
+   "id": "ev_6a19cce3c191",
+   "other_urls": [
+    "https://www.jambase.com/show/the-string-cheese-incident-fox-theater-20261205",
+    "https://www.jambase.com/show/the-string-cheese-incident-fox-theater-20261205",
+    "https://thefoxoakland.com/events/the-string-cheese-incident-261205",
+    "https://apeconcerts.com/events/the-string-cheese-incident-261205/"
+   ],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T19:00:00-08:00",
+   "title": "The String Cheese Incident: Just Keep Spinning Tour - 12/5",
+   "url": "https://www.songkick.com/concerts/43363052-string-cheese-incident-at-fox-theater",
+   "venue": "Fox Theater Oakland",
+   "why_rules": [
+    "listed by a taste-aligned calendar (+12)",
+    "7 independent sources (+12)"
+   ]
+  },
+  {
+   "city": "Santa Cruz",
+   "date": "2027-04-05",
+   "description": "Vocalist Kurt Elling and pianist Christian Sands form a remarkable duo both on stage and on their collaborative recording project, Wildflowers , Vol. 3. \" A spare duo becomes an engine—voice and piano reworking Monk, Ellington, theater, and rock into a present-tense argument for hope, empathy, and the living tradition of jazz.\" – Backstage Bay Area Over twenty-five years of touring and recording, ",
+   "fingerprint": "c04fe64773b1",
+   "id": "ev_a18e6638afed",
+   "other_urls": [],
+   "rules_score": 65.0,
+   "rules_tier": "strong",
+   "start": "2027-04-05T19:00:00-07:00",
+   "title": "Wildflowers: Kurt Elling with Christian Sands",
+   "url": "https://www.kuumbwajazz.org/calendar/kurt-elling-christian-sands/",
+   "venue": "Kuumbwa Jazz",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "intimacy: duo (+5)",
+    "intimate room: Kuumbwa Jazz (+14)",
+    "booking signal: Kuumbwa Jazz (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-11-27",
+   "description": "East Bay Breeze at The Chapel on Nov 27, 2026",
+   "fingerprint": "086db7c6ecad",
+   "id": "ev_bd938c48b6d0",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-27T20:00:00-08:00",
+   "title": "East Bay Breeze",
+   "url": "https://www.jambase.com/show/east-bay-breeze-the-chapel-20261127",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-02",
+   "description": "Biscuits and Blues: Jeffrey James Trio",
+   "fingerprint": "618e6401cb32",
+   "id": "ev_0b5de0d1b6cb",
+   "other_urls": [],
+   "rules_score": 50.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T00:00:00-08:00",
+   "title": "Jeffrey James Trio",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Biscuits and Blues",
+   "why_rules": [
+    "roots_adjacent: blues (+10)",
+    "intimacy: trio (+5)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2027-01-02",
+   "description": "",
+   "fingerprint": "65458fe58c4c",
+   "id": "ev_0c0fff7e5695",
+   "other_urls": [],
+   "rules_score": 42.0,
+   "rules_tier": "inventory",
+   "start": "2027-01-02T19:30:00-08:00",
+   "title": "Noel Jewkes Septet",
+   "url": "https://birdbeckett.com/event/2027-01-02_noel-jewkes/",
+   "venue": "Bird & Beckett",
+   "why_rules": [
+    "intimate room: Bird & Beckett (+14)",
+    "booking signal: Bird & Beckett (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-03",
+   "description": "",
+   "fingerprint": "e2ddee867b95",
+   "id": "ev_140945926197",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-03T20:00:00-08:00",
+   "title": "Private Event",
+   "url": "https://thechapelsf.com/private-events/",
+   "venue": "The Chapel",
+   "why_rules": [
+    "intimate room: The Chapel (+14)",
+    "booking signal: The Chapel (+8)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-11-27",
+   "description": "Hotel Utah: Eee Vee Eee, Mama DeeMons, Circle Of Ruin",
+   "fingerprint": "012cef474cf3",
+   "id": "ev_92f88c8ae609",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-27T00:00:00-08:00",
+   "title": "Eee Vee Eee, Mama DeeMons, Circle Of Ruin",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Hotel Utah",
+   "why_rules": [
+    "intimate room: Hotel Utah (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
+   "date": "2026-12-27",
+   "description": "It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
+   "fingerprint": "a9950a5ed6f5",
+   "id": "ev_e90933f27faa",
+   "other_urls": [],
+   "rules_score": 54.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-27T18:00:00-08:00",
+   "title": "Hooked On Bluegrass with Terry Brewer",
+   "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-12-27/",
+   "venue": "The Bluegrass Jamboree",
+   "why_rules": [
+    "roots_core: bluegrass (+22)",
+    "listed by a taste-aligned calendar (+8)",
+    "2 independent sources (+4)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Berkeley",
+   "date": "2026-12-04",
+   "description": "Dec 4, 2026 (date printed on the show page); closes Dec 4, 2026",
+   "fingerprint": "1463d549177e",
+   "id": "ev_1b6c2c5bdec0",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-04T00:00:00-08:00",
+   "title": "Miriam's Place",
+   "url": "https://shotgunplayers.org/show/miriam/",
+   "venue": "Shotgun Players (Ashby Stage)",
+   "why_rules": [
+    "intimate room: Shotgun Players (Ashby Stage) (+14)",
+    "booking signal: Shotgun Players (Ashby Stage) (+8)"
    ]
   }
  ]
