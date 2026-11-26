@@ -19,6 +19,32 @@
    "No performer, genre or format information in the captured text; needs the event page."
   ]
  },
+ "ev_00eeeadf54c2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: Mikailo Kasha Trio",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "f76ed670a330",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Mikailo Kasha",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Mikailo Kasha Trio plays The Sound Room in Oakland on Thursday 3 December. I cannot identify the leader and the listing has no description.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description or instrumentation."
+  ]
+ },
  "ev_00f01ae717f8": {
   "evidence": [
    {
@@ -2911,6 +2937,37 @@
    "Time and price not confirmed."
   ]
  },
+ "ev_2879bfb47806": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Patrick Wolff is a jazz saxophone and clarinet player with a long history in the jazz scenes of New York City and San Francisco. His playing has been characterized by a focus on lyricism and an embrace of the whole lineage of jazz styles. Wolff's bands have spent hundreds of gig honing a quirky repertoire focusing on [...]",
+    "url": "https://keysjazzbistro.com/event/patrick-wolff-quartet-feat-noel-jewkes/"
+   }
+  ],
+  "fingerprint": "6dd60c57b18b",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Jazz saxophonist/clarinetist, NYC and SF",
+    "name": "Patrick Wolff",
+    "significance": "local"
+   },
+   {
+    "known_for": "Veteran SF saxophonist (background knowledge)",
+    "name": "Noel Jewkes",
+    "significance": "local"
+   }
+  ],
+  "reason": "Saxophonist and clarinetist Patrick Wolff leads his quartet at Keys Jazz Bistro on Wednesday 30 December with veteran SF saxophonist Noel Jewkes (background knowledge: a long-time pillar of the SF jazz scene). Lyrical, lineage-spanning small-group jazz; well-played but more straight-ahead than adventurous.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Rest of the quartet not named."
+  ]
+ },
  "ev_2894cc6b65c6": {
   "evidence": [
    {
@@ -3742,6 +3799,37 @@
    "Not a performance; only of interest if he wants to play."
   ]
  },
+ "ev_329a7abdf852": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Wonderful World of Weirdos Tour | Please note – there is a delivery delay set for 2 weeks prior to show.",
+    "url": "https://www.theindependentsf.com/tm-event/meek/"
+   }
+  ],
+  "fingerprint": "d071410dc46c",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "MEEK",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "The Blushes",
+    "significance": "none"
+   }
+  ],
+  "reason": "MEEK and The Blushes play The Independent in SF on the 'Wonderful World of Weirdos Tour'. I cannot identify either act and nothing in the listing suggests roots, jazz or hip-hop.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre unknown."
+  ]
+ },
  "ev_32d56dc9dd82": {
   "evidence": [
    {
@@ -3949,6 +4037,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Location is a private home for this date."
+  ]
+ },
+ "ev_3561bbefe64f": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Please note – there is a delivery delay set for 2 weeks prior to show.",
+    "url": "https://www.theindependentsf.com/tm-event/nirosta-steel/"
+   }
+  ],
+  "fingerprint": "ef32ac50b15d",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Nirosta Steel",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "John Errol",
+    "significance": "none"
+   }
+  ],
+  "reason": "Nirosta Steel and John Errol play The Independent in SF on Friday 4 December. I cannot confidently identify either act; the listing has only a ticket-delivery note.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre unknown."
   ]
  },
  "ev_360fc0cfafb9": {
@@ -4550,6 +4669,37 @@
    "Listing text mentions an August date; it is a recurring template."
   ]
  },
+ "ev_3caa1f59db70": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Center for New Music: Zachary James Watkins & John Diaz",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "675df3ae1629",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Experimental guitar/electronics composer (background knowledge)",
+    "name": "Zachary James Watkins",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "John Diaz",
+    "significance": "none"
+   }
+  ],
+  "reason": "Zachary James Watkins and John Diaz share a bill at Center for New Music on Saturday 5 December. Watkins is (background knowledge) an experimental guitar/electronics and drone composer, so this likely leans sound art rather than jazz or roots.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "John Diaz not identified."
+  ]
+ },
  "ev_3cddcf4b3b2f": {
   "evidence": [
    {
@@ -4799,6 +4949,43 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Max Flansburg not identified.",
    "Point Reyes is roughly an hour-plus drive from Oakland."
+  ]
+ },
+ "ev_3fa35c8594cb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: 12pm Bobby McFerrin and MOTION: Circlesongs; 7pm Country Bluegrass Jam with Richard Brandenburg",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "04399ea260ef",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Vocal improviser, Circlesongs (background knowledge)",
+    "name": "Bobby McFerrin",
+    "significance": "major"
+   },
+   {
+    "known_for": "Vocal ensemble with McFerrin; not identified",
+    "name": "MOTION",
+    "significance": "none"
+   },
+   {
+    "known_for": "Hosts the evening jam; not identified",
+    "name": "Richard Brandenburg",
+    "significance": "local"
+   }
+  ],
+  "reason": "Bobby McFerrin leads a noon Circlesongs session with MOTION at the Freight on Monday 30 November, followed by an evening country/bluegrass jam with Richard Brandenburg. (Background knowledge: McFerrin is a ten-time Grammy-winning vocal improviser, and Circlesongs are improvised, largely participatory group-singing pieces, so this may be closer to a sing-along session than a concert.) A rare chance to be in a room with a foundational improviser, but the weekday midday slot and uncertain format keep it from ranking higher.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Circlesongs format (performance vs participatory session) not confirmed.",
+   "The evening event is a jam, not a concert."
   ]
  },
  "ev_3fd3b077d537": {
@@ -5649,6 +5836,43 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_4ba926d416bc": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Jon Chi at Sweetwater Music Hall on Dec 3, 2026",
+    "url": "https://sweetwatermusichall.org/event/jon-chi/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "a88003329ffa",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Guitarist, son of David Grisman (background knowledge)",
+    "name": "Monroe Grisman",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "April Grisman",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Jon Chi",
+    "significance": "none"
+   }
+  ],
+  "reason": "Jon Chi shares a bill at Sweetwater Music Hall in Mill Valley with April and Monroe Grisman and the Beautiful Hang Gang. Monroe Grisman is (background knowledge) David Grisman's son, a guitarist rooted in the Bay Area acoustic/Dawg-music scene, which gives this some roots pedigree, but it is a long drive for an act I cannot place well.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Jon Chi and the band's style not identified.",
+   "Billing order and set times not stated."
   ]
  },
  "ev_4c4500c80268": {
@@ -6771,24 +6995,29 @@
     "url": "https://events.humanitix.com/don-t-look-now"
    }
   ],
-  "fingerprint": "080c53b7ea29",
+  "fingerprint": "db636adde827",
   "fit": 50,
   "performers": [
    {
-    "known_for": "Not identified; listed by the SF Folk Music Club community calendar",
+    "known_for": "Not identified",
     "name": "Don't Look Now",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Sam's Corner",
     "significance": "none"
    }
   ],
-  "reason": "Don't Look Now plays The Back Room in Berkeley on Sunday 6 December, and the show is also on the SF Folk Music Club calendar. The listing gives no description of who the act is or what they play, so fit cannot be judged offline.",
-  "researched_at": "2026-11-14T22:43:13+00:00",
+  "reason": "Don't Look Now plays a 2:30pm set at The Back Room in Berkeley on Sunday 6 December, with Sam's Corner at 7pm, and the date is listed by three sources including a folk calendar. Neither act is identified in the captured listing, so fit cannot be judged offline.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "No description of the act in the captured listing.",
-   "Several bands share this name; cannot tell which one."
+   "No description of either act in the captured listing.",
+   "Several bands share the name Don't Look Now."
   ]
  },
  "ev_59f3cb2160a4": {
@@ -10884,6 +11113,94 @@
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
   ]
  },
+ "ev_8254906cb20e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Center for New Music: David Boyce, Ben Davis, Thomas Dimuzio, Phillip Greenlief, Kanoko Nishi, Danishta Rivero",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "848aef2244b6",
+  "fit": 60,
+  "performers": [
+   {
+    "known_for": "Saxophonist, long-time Bay Area improviser (background knowledge)",
+    "name": "Phillip Greenlief",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Saxophonist, Broun Fellinis (background knowledge)",
+    "name": "David Boyce",
+    "significance": "local"
+   },
+   {
+    "known_for": "Cellist, Bay Area improv scene (background knowledge)",
+    "name": "Ben Davis",
+    "significance": "local"
+   },
+   {
+    "known_for": "Electronic/experimental musician (background knowledge)",
+    "name": "Thomas Dimuzio",
+    "significance": "local"
+   },
+   {
+    "known_for": "Koto improviser (background knowledge)",
+    "name": "Kanoko Nishi",
+    "significance": "local"
+   },
+   {
+    "known_for": "Voice and electronics, Voicehandler (background knowledge)",
+    "name": "Danishta Rivero",
+    "significance": "local"
+   }
+  ],
+  "reason": "A Bay Area free-improv summit at Center for New Music: saxophonists David Boyce and Phillip Greenlief, cellist Ben Davis, electronics player Thomas Dimuzio, koto improviser Kanoko Nishi and voice/electronics artist Danishta Rivero (background knowledge for all identifications). This is the core of the East Bay/SF creative-improv scene in a tiny room; more abstract and noise-leaning than jazz, so it depends on his appetite for open improvisation.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (one large ensemble vs several sets) not stated.",
+   "Identifications are from background knowledge."
+  ]
+ },
+ "ev_834f44852e00": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Center for New Music: 4pm D. Riley Nicholson, Friction Quartet, & Julia O.",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "28e229d242c2",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "SF new-music string quartet (background knowledge)",
+    "name": "Friction Quartet",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "D. Riley Nicholson",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Julia O.",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Sunday 4pm contemporary-classical program at Center for New Music with composer D. Riley Nicholson, the Friction Quartet and Julia O. Friction Quartet is (background knowledge) an SF new-music string quartet; strong players, but notated chamber music sits outside his core taste.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Program not stated."
+  ]
+ },
  "ev_8360715bb1d7": {
   "evidence": [
    {
@@ -11822,6 +12139,36 @@
    "Repo calendars also list other Wintersongs dates (Oakland St Paul's, Santa Cruz)."
   ]
  },
+ "ev_8cef2c550346": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Strange Daze at Sweetwater Music Hall on Dec 4, 2026",
+    "url": "https://sweetwatermusichall.org/event/strange-daze-the-music-of-the-doors/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "2eee2f66ff0e",
+  "fit": 5,
+  "performers": [
+   {
+    "known_for": "Doors tribute band",
+    "name": "Strange Daze",
+    "significance": "none"
+   },
+   {
+    "known_for": "Hendrix tribute band",
+    "name": "Liquid Sky",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Doors tribute (Strange Daze) and a Hendrix tribute (Liquid Sky) at Sweetwater Music Hall. Tribute acts, so not a fit.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_8d1e2305607e": {
   "evidence": [
    {
@@ -12507,6 +12854,26 @@
    "Performers not recognized."
   ]
  },
+ "ev_98bbfa07e220": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Little Hill Lounge: Tuesday Bluesday",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "0742792a4b5b",
+  "fit": 22,
+  "performers": [],
+  "reason": "Tuesday Bluesday is a weekly blues night at Little Hill Lounge in Berkeley. No featured act is named, so this reads as a house residency rather than a show to plan around.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No performers named."
+  ]
+ },
  "ev_9a6402a7a048": {
   "evidence": [
    {
@@ -12854,6 +13221,32 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized."
+  ]
+ },
+ "ev_9e07323e9b97": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Cool Heat, Sunder, and Mint at Kilowatt at 2026-12-03T19:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43442322-cool-heat-at-kilowatt"
+   }
+  ],
+  "fingerprint": "6ee35e61e294",
+  "fit": 20,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Cool Heat",
+    "significance": "none"
+   }
+  ],
+  "reason": "Cool Heat, Sunder and Mint play Kilowatt in SF on Thursday 3 December. None of the acts are identified; Kilowatt mostly books indie and punk.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre unknown."
   ]
  },
  "ev_9e43f364eae2": {
@@ -13595,6 +13988,32 @@
   "tier": "strong",
   "uncertainties": [
    "Kuumbwa page shows a Buy Tickets button but does not state availability."
+  ]
+ },
+ "ev_a6a5b09f880b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Great American Music Hall: A John Waters Christmas",
+    "url": "https://www.eventbrite.com/e/1989687052535?aff=oddtdtcreator"
+   }
+  ],
+  "fingerprint": "3d2f6eaa5a65",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Filmmaker and countercultural icon (background knowledge)",
+    "name": "John Waters",
+    "significance": "major"
+   }
+  ],
+  "reason": "John Waters brings his Christmas monologue show to Great American Music Hall on Monday 30 November (background knowledge: an annual touring spoken-word show of his filthy, funny holiday stories). A countercultural icon in a lovely room and a celebrity draw for his partner, but it is essentially comedy, not music.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format (monologue) from background knowledge."
   ]
  },
  "ev_a71bb1567a36": {
@@ -14425,6 +14844,37 @@
    "Date, venue and lineup not confirmed against a fetched primary page this run."
   ]
  },
+ "ev_b15948f2ea53": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: The Fault Line Trio with Jay Sanders",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "e4cc377ff173",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "The Fault Line Trio",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Jay Sanders",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Fault Line Trio with Jay Sanders plays Black Cat, the SF jazz supper club, on Thursday 3 December. I cannot identify the trio or confirm which Jay Sanders this is.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No description or instrumentation."
+  ]
+ },
  "ev_b1c2d55e87c9": {
   "evidence": [
    {
@@ -15238,6 +15688,37 @@
    "Part of a West Coast tour (search results show Mill Valley Nov 6, Sacramento Nov 10 and Moe's Alley dates), so other Bay Area options may exist"
   ]
  },
+ "ev_b9bfbded5bc5": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Returning to Keys, Suzanna Smith fronts another stellar ensemble to work her magic around the Peggy Lee songbook. \"There are relatively few contemporary female vocalists who evoke Peggy Lee, at least not genuinely. Suzanna Smith numbers among that rare ilk. That Smith sounds like Lee — slightly breathy and warmly sensual with a hint of [...]",
+    "url": "https://keysjazzbistro.com/event/suzanna-smith-15/"
+   }
+  ],
+  "fingerprint": "df788e364d90",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "Jazz vocalist, Peggy Lee songbook",
+    "name": "Suzanna Smith",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "AgapeSoul",
+    "significance": "none"
+   }
+  ],
+  "reason": "Vocalist Suzanna Smith presents the Peggy Lee songbook at Keys Jazz Bistro (7pm), followed by AgapeSoul at 9pm. A polished songbook tribute in a supper-club setting, which is far from the adventurous jazz he looks for.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "AgapeSoul not identified."
+  ]
+ },
  "ev_ba87f6c1c0ae": {
   "evidence": [
    {
@@ -15319,6 +15800,26 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No description or genre in the captured text; performer cannot be identified."
+  ]
+ },
+ "ev_bb3d8bb69bfb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Hotel Utah: Open Bluegrass Jam",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "4fcf65420070",
+  "fit": 28,
+  "performers": [],
+  "reason": "An open bluegrass jam at Hotel Utah in SF on Tuesday 1 December. It is a participatory jam rather than a show; fun if he wants to bring an instrument, not a concert worth crossing the bay for.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No host or featured players listed."
   ]
  },
  "ev_bb7a65c32aca": {
@@ -15603,6 +16104,42 @@
    "Likely Miner Auditorium, larger than his ideal room."
   ]
  },
+ "ev_be42b3bb366b": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Center for New Music: Larry Ochs, Ben Davis, Fred Longber-Holm",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "df463964ea0d",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Saxophonist, ROVA Saxophone Quartet co-founder (background knowledge)",
+    "name": "Larry Ochs",
+    "significance": "foundational"
+   },
+   {
+    "known_for": "Chicago improvising cellist, Vandermark circle (background knowledge)",
+    "name": "Fred Lonberg-Holm",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Cellist, Bay Area improv scene (background knowledge)",
+    "name": "Ben Davis",
+    "significance": "local"
+   }
+  ],
+  "reason": "Larry Ochs, co-founder of the ROVA Saxophone Quartet and a foundational figure in Bay Area avant-jazz, plays a trio with cellist Ben Davis and Chicago cellist Fred Lonberg-Holm (listed as Longber-Holm) at Center for New Music on Friday 4 December (background knowledge). Two cellos and Ochs's tenor/sopranino in a room this small is the kind of adventurous, intimate improvised date he looks for.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Spelling 'Longber-Holm' in listing assumed to mean Fred Lonberg-Holm."
+  ]
+ },
  "ev_be44988d8749": {
   "evidence": [
    {
@@ -15837,6 +16374,42 @@
    "Event has passed."
   ]
  },
+ "ev_c1afd2e71b65": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Thee Stork Club: Bronco Forte, Field Of Fear, All Hope Lost",
+    "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/"
+   }
+  ],
+  "fingerprint": "76e5c2823dbc",
+  "fit": 15,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Bronco Forte",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Field Of Fear",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "All Hope Lost",
+    "significance": "none"
+   }
+  ],
+  "reason": "Bronco Forte, Field Of Fear and All Hope Lost play Thee Stork Club in Oakland on Friday 27 November. None are identified; the band names suggest a heavy or hardcore bill.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre unknown; heavy-bill guess is from names only."
+  ]
+ },
  "ev_c216320155b5": {
   "evidence": [
    {
@@ -15844,7 +16417,7 @@
     "url": "https://events.humanitix.com/jack-west"
    }
   ],
-  "fingerprint": "6fb48f08683e",
+  "fingerprint": "f2bd55f43589",
   "fit": 56,
   "performers": [
    {
@@ -15858,14 +16431,14 @@
     "significance": "local"
    }
   ],
-  "reason": "The Acoustic Spank Project pairs guitarist Jack West with James Nash, who (background knowledge) is the guitarist and co-founder of the Bay Area progressive acoustic band The Waybacks. A small Berkeley listening room and a progressive acoustic guitar pairing make this a plausible fit, though Jack West's own project is less clear to me. Worth a look if the Waybacks connection is the draw.",
-  "researched_at": "2026-11-10T22:43:34+00:00",
+  "reason": "Guitarist Jack West's Acoustic Spank Project features James Nash, who (background knowledge) is the guitarist and co-founder of the Bay Area progressive acoustic band The Waybacks. A small Berkeley listening room and a progressive acoustic guitar pairing make this a plausible fit for a Thursday night close to home.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "I am not sure which Jack West this is or what the Acoustic Spank Project sounds like (background knowledge is thin)."
+   "Not sure which Jack West this is or what the Acoustic Spank Project sounds like (background knowledge is thin)."
   ]
  },
  "ev_c30ac312a9bf": {
@@ -17452,6 +18025,37 @@
    "Event URL suffix suggests this is one of many repeat dates."
   ]
  },
+ "ev_d7a1817c6ce1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Little Hill Lounge: Simonoto, Will Believe",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "68d30ae36850",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Simonoto",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Will Believe",
+    "significance": "none"
+   }
+  ],
+  "reason": "Simonoto and Will Believe play Little Hill Lounge in Berkeley on Friday 4 December. Neither act is identified and the listing gives no description.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "No genre or description in the listing."
+  ]
+ },
  "ev_d8439806aac8": {
   "evidence": [
    {
@@ -17605,6 +18209,33 @@
   "uncertainties": [
    "Whether Joe Craven appears at this show is unknown.",
    "Primary event page not reachable this run; date, venue and lineup taken from the radar's captured listing text."
+  ]
+ },
+ "ev_d9d9318ed607": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Bay Area's Queen Songstress will groove you through the holiday season and propel you into the New Year, in celebration of her new double-CD release A Soulful Christmas, a dynamic new project featuring guest appearances from Gerald Albright, Dayna Stephens James Carter, Wycliffe Gordon, Steve Nelson, Jules Broussard, David Jackson, Juan Escovedo, and Tia [...]",
+    "url": "https://keysjazzbistro.com/event/a-soulful-christmas-album-release-partythe-dynamic-miss-faye-carol/"
+   }
+  ],
+  "fingerprint": "7ada0b9bcdf9",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "Bay Area jazz/blues vocalist (background knowledge)",
+    "name": "Faye Carol",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Faye Carol, the Bay Area's veteran jazz and blues singer (background knowledge: an Oakland/Berkeley institution for decades), celebrates her new double-CD A Soulful Christmas at Keys Jazz Bistro. The album features guests including Gerald Albright, Dayna Stephens, James Carter and Wycliffe Gordon, though it is not stated which of them appear at Keys.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Guest list refers to the album; live band not stated.",
+   "Holiday repertoire."
   ]
  },
  "ev_da1cefd99461": {
@@ -19266,6 +19897,42 @@
    "Bands not recognized."
   ]
  },
+ "ev_eeea15384024": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Kamasi Washington, Bartees Strange, and Hannah Lew at UC Theatre at 2026-12-05T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43421682-kamasi-washington-at-uc-theatre"
+   }
+  ],
+  "fingerprint": "83458beeb38c",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Saxophonist, The Epic, West Coast Get Down (background knowledge)",
+    "name": "Kamasi Washington",
+    "significance": "major"
+   },
+   {
+    "known_for": "Indie rock singer-songwriter (background knowledge)",
+    "name": "Bartees Strange",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bay Area post-punk musician, Grass Widow (background knowledge)",
+    "name": "Hannah Lew",
+    "significance": "local"
+   }
+  ],
+  "reason": "Kamasi Washington, the LA saxophonist behind The Epic and a leading figure in spiritual/cosmic jazz (background knowledge), headlines The UC Theatre in Berkeley on Saturday 5 December with Bartees Strange and Hannah Lew opening. Big, emotionally charged improvised jazz close to home, but a 1,400-capacity rock room rather than an intimate one, and he has toured the Bay often.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Band lineup not stated."
+  ]
+ },
  "ev_ef97d77a3722": {
   "evidence": [
    {
@@ -19661,6 +20328,41 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Sidemen not listed.",
    "Location field unresolved in the listing."
+  ]
+ },
+ "ev_f4b11357287e": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Suitcase Junket at Sweetwater Music Hall on Dec 6, 2026",
+    "url": "https://sweetwatermusichall.org/event/the-suitcase-junket-with-jimbo-scott/sweetwater-music-hall/mill-valley-california/"
+   }
+  ],
+  "fingerprint": "a56efbd5cb07",
+  "fit": 52,
+  "performers": [
+   {
+    "known_for": "One-man junk-folk/blues act of Matt Lorenz (background knowledge)",
+    "name": "The Suitcase Junket",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Jam band led by Roger McNamee (background knowledge)",
+    "name": "Moonalice",
+    "significance": "local"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Jimbo Scott",
+    "significance": "none"
+   }
+  ],
+  "reason": "Sunday 6 December at Sweetwater: Moonalice at 1pm, then The Suitcase Junket, the one-man junkyard folk-blues project of Matt Lorenz (background knowledge: guitar, kick-drum made of found objects and throat singing), with Jimbo Scott. An inventive, rough-edged roots act, though Mill Valley is a trek from Oakland.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
  "ev_f4bb0dd97a72": {
@@ -20414,6 +21116,36 @@
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_fc1b3e58b02a": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: A night of bebop adventures through the legendary music of Miles Davis, Thelonious Monk and Charles Mingus! Featuring: Adam Shulman Kevin Goldberg Lorca Hart Tiffany Austin is a vocalist, composer, educator, and Berkeley Law Juris Doctor. She has performed with luminaries such as Pharoah Sanders, Roy Ayers, John Handy, Cyrus Chestnut, and Doug Carn. Her[...]",
+    "url": "https://keysjazzbistro.com/event/tiffany-austin-miles-mingus-and-monk/"
+   }
+  ],
+  "fingerprint": "ff83e9ac49f6",
+  "fit": 50,
+  "performers": [
+   {
+    "known_for": "Jazz vocalist and composer",
+    "name": "Tiffany Austin",
+    "significance": "local"
+   },
+   {
+    "known_for": "Bay Area pianist",
+    "name": "Adam Shulman",
+    "significance": "local"
+   }
+  ],
+  "reason": "Vocalist Tiffany Austin leads a bebop program of Miles Davis, Monk and Mingus at Keys Jazz Bistro on Saturday 5 December, with Adam Shulman, Kevin Goldberg and Lorca Hart. She has performed with Pharoah Sanders, Roy Ayers and John Handy, per the listing; a strong Bay Area band, though a repertoire night.",
+  "researched_at": "2026-11-26T22:43:28+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
