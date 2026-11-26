@@ -1,16 +1,21 @@
 {
- "inventory_total": 5816,
- "inventory_upcoming": 3014,
- "merged_sources": 76,
- "new_events": 147,
- "run_id": "c7957786fa32",
- "seconds": 301.5,
- "sources_due": 65,
+ "inventory_total": 5912,
+ "inventory_upcoming": 3050,
+ "merged_sources": 39,
+ "new_events": 99,
+ "run_id": "946c81914806",
+ "seconds": 337.3,
+ "sources_due": 69,
  "sources_failed": [
+  "fifth-street-farms-site",
   "down-home-music",
+  "old-first-concerts",
+  "california-bluegrass-association",
   "outsound",
-  "broadway-sf"
+  "the-marsh",
+  "sf-opera",
+  "the-fillmore"
  ],
- "sources_ok": 62,
- "ts": "2026-11-25T22:43:58+00:00"
+ "sources_ok": 61,
+ "ts": "2026-11-26T22:27:49+00:00"
 }

@@ -1,7 +1,7 @@
 {
- "backlog": 1163,
+ "backlog": 1153,
  "count": 40,
- "generated_at": "2026-11-25T22:46:29+00:00",
+ "generated_at": "2026-11-26T22:30:08+00:00",
  "items": [
   {
    "city": "",
@@ -253,6 +253,24 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-12-30",
+   "description": "Patrick Wolff is a jazz saxophone and clarinet player with a long history in the jazz scenes of New York City and San Francisco. His playing has been characterized by a focus on lyricism and an embrace of the whole lineage of jazz styles. Wolff's bands have spent hundreds of gig honing a quirky repertoire focusing on [...]",
+   "fingerprint": "6dd60c57b18b",
+   "id": "ev_2879bfb47806",
+   "other_urls": [],
+   "rules_score": 56.5,
+   "rules_tier": "strong",
+   "start": "2026-12-30T19:00:00-08:00",
+   "title": "Patrick Wolff Quartet feat. Noel Jewkes",
+   "url": "https://keysjazzbistro.com/event/patrick-wolff-quartet-feat-noel-jewkes/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "jazz_core: jazz, saxophone (+22)",
+    "intimate room: Keys Jazz Bistro (+14)"
+   ]
+  },
+  {
    "city": "Mill Valley",
    "date": "2026-12-03",
    "description": "Jon Chi at Sweetwater Music Hall on Dec 3, 2026",
@@ -339,6 +357,24 @@
     "booking signal: Sweetwater Music Hall (+8)",
     "listed by a taste-aligned calendar (+12)",
     "3 independent sources (+8)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-05",
+   "description": "A night of bebop adventures through the legendary music of Miles Davis, Thelonious Monk and Charles Mingus! Featuring: Adam Shulman Kevin Goldberg Lorca Hart Tiffany Austin is a vocalist, composer, educator, and Berkeley Law Juris Doctor. She has performed with luminaries such as Pharoah Sanders, Roy Ayers, John Handy, Cyrus Chestnut, and Doug Carn. Her[...]",
+   "fingerprint": "ff83e9ac49f6",
+   "id": "ev_fc1b3e58b02a",
+   "other_urls": [],
+   "rules_score": 51.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T21:00:00-08:00",
+   "title": "Tiffany Austin- \"Miles, Mingus and Monk!",
+   "url": "https://keysjazzbistro.com/event/tiffany-austin-miles-mingus-and-monk/",
+   "venue": "Keys Jazz Bistro",
+   "why_rules": [
+    "legacy: legendary (+14)",
+    "intimate room: Keys Jazz Bistro (+14)"
    ]
   },
   {
@@ -445,6 +481,27 @@
     "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "Oakland",
+   "date": "2026-11-27",
+   "description": "Thee Stork Club: Bronco Forte, Field Of Fear, All Hope Lost",
+   "fingerprint": "76e5c2823dbc",
+   "id": "ev_c1afd2e71b65",
+   "other_urls": [
+    "https://www.jambase.com/show/bronco-forte-thee-stork-club-20261127"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-27T00:00:00-08:00",
+   "title": "Bronco Forte, Field Of Fear, All Hope Lost",
+   "url": "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+   "venue": "Thee Stork Club",
+   "why_rules": [
+    "intimate room: Thee Stork Club (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
    ]
   },
   {
@@ -761,65 +818,6 @@
    "venue": "The Sound Room",
    "why_rules": [
     "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-02",
-   "description": "Black Cat: LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-   "fingerprint": "1a79935cda99",
-   "id": "ev_3232941305e2",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-02T00:00:00-08:00",
-   "title": "LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Oakland",
-   "date": "2026-12-03",
-   "description": "Two Voices, One Purpose. A Night of Gospel Brilliance, Soul & Praise",
-   "fingerprint": "6e63e3b132b5",
-   "id": "ev_9878c6efbfc1",
-   "other_urls": [
-    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
-   ],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-03T19:30:00-08:00",
-   "title": "Sylvia Anderson, Darrel Walls, Derrick Hall and music director Carl Wheeler",
-   "url": "https://yoshis.com/events/buy-tickets/sylvia-anderson-feat-darrell-walls-and-music-director-carl-wheeler/detail",
-   "venue": "Yoshi's Oakland",
-   "why_rules": [
-    "roots_adjacent: gospel (+10)",
-    "listed by a taste-aligned calendar (+12)",
-    "2 independent sources (+4)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-04",
-   "description": "Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
-   "fingerprint": "3245b71fc7ab",
-   "id": "ev_231dc95bfd97",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-04T00:00:00-08:00",
-   "title": "A Charlie Brown Christmas: Vince Guaraldi Tribute",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
    ]
