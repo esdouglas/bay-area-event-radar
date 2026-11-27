@@ -1,20 +1,20 @@
 {
  "inventory_total": 5939,
  "inventory_upcoming": 3048,
- "merged_sources": 15,
- "new_events": 29,
- "run_id": "b0a3382949c4",
- "seconds": 346.9,
- "sources_due": 69,
+ "merged_sources": 1,
+ "new_events": 5,
+ "run_id": "96c09bb10054",
+ "seconds": 235.2,
+ "sources_due": 65,
  "sources_failed": [
-  "fifth-street-farms-site",
   "down-home-music",
-  "old-first-concerts",
+  "luther-burbank-center",
+  "otter-opry",
   "outsound",
-  "the-marsh",
   "broadway-sf",
-  "the-fillmore"
+  "the-fillmore",
+  "songkick-bay-area"
  ],
- "sources_ok": 62,
- "ts": "2026-11-27T22:09:38+00:00"
+ "sources_ok": 58,
+ "ts": "2026-11-27T22:44:12+00:00"
 }
