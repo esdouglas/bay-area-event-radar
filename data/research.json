@@ -792,6 +792,31 @@
    "No performers named in the listing; need the lineup to judge."
   ]
  },
+ "ev_0ac28e4e30a8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: Choir! Choir! Choir!",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "d4565ca0a1ac",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Toronto audience sing-along led by Daveed Goldman and Nobu Adilman (background knowledge)",
+    "name": "Choir! Choir! Choir!",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Choir! Choir! Choir! at the Freight on Wed Dec 2. (Background knowledge) It is the Toronto drop-in group sing-along where the audience learns and sings a pop song together; fun and communal, but participatory rather than a performance he would seek out.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_0ba210191496": {
   "evidence": [
    {
@@ -910,6 +935,33 @@
    "Date is today."
   ]
  },
+ "ev_0db61d8e8701": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "ddd129759dcd",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Vince Guaraldi tribute; players not listed",
+    "name": "Unnamed ensemble",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Charlie Brown Christmas: Vince Guaraldi tribute at Black Cat SF on Sat Dec 5. A seasonal tribute program with no named players; pleasant holiday jazz but a tribute night, which his taste rules mark down.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not named.",
+   "One of three nights (Dec 4-6)."
+  ]
+ },
  "ev_0e6e6b0f16fd": {
   "evidence": [
    {
@@ -982,6 +1034,33 @@
    "Date, venue and lineup not checked against a live page (offline run).",
    "Repertoire and band lineup not stated in the captured text.",
    "Ages 89; worth catching while possible, but no indication this is a special or farewell date."
+  ]
+ },
+ "ev_0f21b66357fd": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: Saúl Sierra Quintet celebrate the Holidays",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "2f8e1cfc1ad0",
+  "fit": 48,
+  "performers": [
+   {
+    "known_for": "Bay Area bassist, Latin jazz (background knowledge, uncertain)",
+    "name": "Saúl Sierra",
+    "significance": "local"
+   }
+  ],
+  "reason": "The Saúl Sierra Quintet plays a holiday set at The Sound Room in Oakland on Sat Dec 5. (Background knowledge, uncertain) Sierra is a Bay Area bassist working in Latin jazz and Cuban styles who recently led a Cachao tribute at the same room; a holiday program is likely lighter fare.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Holiday program content unknown.",
+   "Personnel unknown."
   ]
  },
  "ev_0fe61cbd2415": {
@@ -1102,6 +1181,37 @@
   "tier": "possible",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_1206a6de9280": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Alison's Halo at Rickshaw Stop at 2026-12-05T21:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43415272-alisons-halo-at-rickshaw-stop"
+   }
+  ],
+  "fingerprint": "8ca5e9ba1684",
+  "fit": 18,
+  "performers": [
+   {
+    "known_for": "1990s Phoenix shoegaze band (background knowledge)",
+    "name": "Alison's Halo",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Dream-pop / shoegaze band (background knowledge)",
+    "name": "Cathedral Bells",
+    "significance": "none"
+   }
+  ],
+  "reason": "Alison's Halo with Cathedral Bells at Rickshaw Stop on Sat Dec 5. (Background knowledge) Alison's Halo is a 1990s Arizona shoegaze band with a cult following and Cathedral Bells is a dream-pop act; good of its kind, but outside his roots, jazz and hip-hop taste.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Identification from name only."
   ]
  },
  "ev_12077b29aa9d": {
@@ -2545,6 +2655,33 @@
    "Not a performance; only of interest if he wants to play."
   ]
  },
+ "ev_231dc95bfd97": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "3245b71fc7ab",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Vince Guaraldi tribute; players not listed",
+    "name": "Unnamed ensemble",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Charlie Brown Christmas: Vince Guaraldi tribute at Black Cat SF on Fri Dec 4. A seasonal tribute program with no named players; pleasant holiday jazz but a tribute night, which his taste rules mark down.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not named.",
+   "One of three nights (Dec 4-6)."
+  ]
+ },
  "ev_234432b15b46": {
   "evidence": [
    {
@@ -3168,6 +3305,38 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No description or lineup captured."
+  ]
+ },
+ "ev_2a61a5795d47": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Kassa Overall; Jake Shimabukuro",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "0c9fc4176f5d",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Jazz drummer, producer and rapper; Warp Records (background knowledge)",
+    "name": "Kassa Overall",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Ukulele virtuoso, probably a separate show (background knowledge)",
+    "name": "Jake Shimabukuro",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Drummer-producer Kassa Overall plays SFJAZZ Center on Sat Dec 5 (the listing also names Jake Shimabukuro, likely in another hall). (Background knowledge) Overall fuses free-leaning jazz drumming with hip-hop production, records for Warp, and came up with Geri Allen and Ravi Coltrane, so he sits right at Erik's jazz and hip-hop overlap. He is also at Kuumbwa on Dec 2 per another repo listing, so pick the most convenient date.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing merges two shows; which act plays which hall and time is unknown.",
+   "Two SFJAZZ nights listed (Dec 4 and 5); both researched alike."
   ]
  },
  "ev_2a65e2b882d9": {
@@ -3799,6 +3968,43 @@
    "Not a performance; only of interest if he wants to play."
   ]
  },
+ "ev_3232941305e2": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "0b072bab7c94",
+  "fit": 38,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "LJ Holoman",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Dante \"Taz\" Robinson",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Michael \"Tiny\" Lindsey",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Soul Sessions at Black Cat SF on Wed Dec 2, with LJ Holoman, Dante \"Taz\" Robinson and Michael \"Tiny\" Lindsey. I cannot identify these players, and 'Soul Sessions' suggests a soul or R&B-leaning jazz night rather than adventurous improvised music. Worth a look only if the lineup turns out to be stronger than the names suggest.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Instrumentation and style unknown.",
+   "Start time listed as midnight, so actual set times are unknown."
+  ]
+ },
  "ev_329a7abdf852": {
   "evidence": [
    {
@@ -4315,6 +4521,33 @@
    "Lineup and whether there is dance not stated."
   ]
  },
+ "ev_374d93485386": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Black Cat: A Charlie Brown Christmas: Vince Guaraldi Tribute",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "67838ab38276",
+  "fit": 30,
+  "performers": [
+   {
+    "known_for": "Vince Guaraldi tribute; players not listed",
+    "name": "Unnamed ensemble",
+    "significance": "none"
+   }
+  ],
+  "reason": "A Charlie Brown Christmas: Vince Guaraldi tribute at Black Cat SF on Sun Dec 6. A seasonal tribute program with no named players; pleasant holiday jazz but a tribute night, which his taste rules mark down.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not named.",
+   "One of three nights (Dec 4-6)."
+  ]
+ },
  "ev_37842b5d5bbe": {
   "evidence": [
    {
@@ -4744,6 +4977,43 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "No personnel named."
+  ]
+ },
+ "ev_3d1eaca24ccf": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Lau Noah, Adam Neely; Jake Shimabukuro",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "aa3adf69de62",
+  "fit": 45,
+  "performers": [
+   {
+    "known_for": "Catalan singer-songwriter and guitarist (background knowledge)",
+    "name": "Lau Noah",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Bassist and YouTube music educator (background knowledge)",
+    "name": "Adam Neely",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Ukulele virtuoso (background knowledge)",
+    "name": "Jake Shimabukuro",
+    "significance": "notable"
+   }
+  ],
+  "reason": "A shared SFJAZZ listing for Thu Dec 3: singer-guitarist Lau Noah with bassist Adam Neely, and separately ukulele virtuoso Jake Shimabukuro. (Background knowledge) Lau Noah is a Catalan singer-songwriter with jazz-folk harmony and Neely is the YouTube music educator and bassist; Shimabukuro is a crowd-pleasing pop-instrumental draw. Pleasant and skilled, but neither set is adventurous improvised jazz or roots.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Unclear whether Lau Noah and Adam Neely are one billing or two separate acts.",
+   "Shimabukuro likely plays a separate hall or set; listing merges them."
   ]
  },
  "ev_3e0803eba261": {
@@ -6225,6 +6495,32 @@
    "Leaders' backgrounds unknown."
   ]
  },
+ "ev_5122b668d137": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Sheila E. at Yoshi's at 2026-11-27T22:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43434288-sheila-e-at-yoshis"
+   }
+  ],
+  "fingerprint": "f6edbef8f7c9",
+  "fit": 46,
+  "performers": [
+   {
+    "known_for": "Percussionist, singer, Prince collaborator (background knowledge)",
+    "name": "Sheila E.",
+    "significance": "major"
+   }
+  ],
+  "reason": "Sheila E., the percussionist and singer known for her work with Prince, plays Yoshi's Oakland tonight (Fri Nov 27, 10pm, $79-134), with a second night Sat Nov 28 in the repo. (Background knowledge) A high-energy funk and Latin percussion show by a major figure, but pricey and outside his roots and jazz core; his partner might enjoy the spectacle.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Tonight's show may already be past by the time Erik sees this; a Nov 28 show also listed."
+  ]
+ },
  "ev_52043313bc2b": {
   "evidence": [
    {
@@ -6558,6 +6854,33 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Program and performers not captured."
+  ]
+ },
+ "ev_557d7f12a360": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: Marcus Shelby Quintet",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "6e8a1a0d7461",
+  "fit": 58,
+  "performers": [
+   {
+    "known_for": "Bay Area bassist, composer and bandleader (background knowledge)",
+    "name": "Marcus Shelby",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Bassist and composer Marcus Shelby leads a quintet at The Sound Room in Oakland on Fri Dec 4. (Background knowledge) Shelby studied with Charlie Haden, played in Black/Note and writes ambitious suite-length works, so a small-room quintet set is solid, swinging Oakland jazz close to home.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Quintet personnel and program unknown.",
+   "Set time unknown."
   ]
  },
  "ev_55f25ffc10f7": {
@@ -7501,6 +7824,32 @@
    "Songkick and KALX pages not separately fetched for this event."
   ]
  },
+ "ev_5d9eb79f1b71": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The DeLuxe: Mae Powell Jazz Quintet",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "d53773dccad1",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Mae Powell",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Mae Powell Jazz Quintet at The DeLuxe on Tue Dec 1. I do not recognize Mae Powell and the listing names no sidemen, so fit cannot be judged; likely a casual bar jazz set.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Leader and personnel not identified."
+  ]
+ },
  "ev_5dc580758bd7": {
   "evidence": [
    {
@@ -8279,6 +8628,38 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_663e6452b88d": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: Kassa Overall; Jake Shimabukuro",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "110039d5fae0",
+  "fit": 72,
+  "performers": [
+   {
+    "known_for": "Jazz drummer, producer and rapper; Warp Records (background knowledge)",
+    "name": "Kassa Overall",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Ukulele virtuoso, probably a separate show (background knowledge)",
+    "name": "Jake Shimabukuro",
+    "significance": "notable"
+   }
+  ],
+  "reason": "Drummer-producer Kassa Overall plays SFJAZZ Center on Fri Dec 4 (the listing also names Jake Shimabukuro, likely in another hall). (Background knowledge) Overall fuses free-leaning jazz drumming with hip-hop production, records for Warp, and came up with Geri Allen and Ravi Coltrane, so he sits right at Erik's jazz and hip-hop overlap. He is also at Kuumbwa on Dec 2 per another repo listing, so pick the most convenient date.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Listing merges two shows; which act plays which hall and time is unknown.",
+   "Two SFJAZZ nights listed (Dec 4 and 5); both researched alike."
   ]
  },
  "ev_675601ddc31e": {
@@ -9225,6 +9606,58 @@
    "Projects not identified."
   ]
  },
+ "ev_70516d432000": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Bang The Bay presents | Bang The Bay Presents WEDNESDAY NOVEMBER 18TH — BANG THE BAY! Feat. OUTER PLANETS FOR EARTH BELOW THE REDAKTED ELEGANT TRASH CRETINS NICO GALLEGOS — Bang The Bay Presents Every First and Third Wednesday At The Ivy Room Early show!!!!!!!!!!!!!!!!!!!!!!!! Doors 6pm / Show 6:30pm $15 Admission / $25 VIP* (*VIP includes a grab bag full of 10 pieces of band merch!!! including A CD, Vinyl, pins, stickers, patches,T-shirts and other new monthly gifts) — IVY ROOM 860 San Pablo Ave, Albany • 21+",
+    "url": "https://tickets.venuepilot.com/e/bang-the-bay-the-call-of-dusk-dig-your-own-grave-dirty-brown-napkins-elegant-trash-2026-12-02-ivy-roo-b30c8e"
+   }
+  ],
+  "fingerprint": "625b24f96fa2",
+  "fit": 12,
+  "performers": [
+   {
+    "known_for": "Local band; not identified",
+    "name": "Outer Planets",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "For Earth Below",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Elegant Trash",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "The Redakted",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Cretins",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Nico Gallegos",
+    "significance": "none"
+   }
+  ],
+  "reason": "Bang The Bay's twice-monthly early showcase at the Ivy Room with six bands (Outer Planets, For Earth Below, Elegant Trash, The Redakted, Cretins, Nico Gallegos), $15. It reads as a local rock and punk band showcase with merch grab bags, far from his roots, jazz or hip-hop taste.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Captured listing text says 'Wednesday November 18th' while the event date is Dec 2; the lineup may belong to the earlier date.",
+   "The ticket URL slug names different bands (The Call of Dusk, Dig Your Own Grave, Dirty Brown Napkins)."
+  ]
+ },
  "ev_70dad888cd63": {
   "evidence": [
    {
@@ -9752,6 +10185,42 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Private address only by email."
+  ]
+ },
+ "ev_7563786878cb": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Sound Room: The Kelly Park Big Band with Special Guest Shawn Ryan & The Coker Sisters",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "7226497f4f1f",
+  "fit": 32,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "The Kelly Park Big Band",
+    "significance": "none"
+   },
+   {
+    "known_for": "Vocalist; not identified",
+    "name": "Shawn Ryan",
+    "significance": "none"
+   },
+   {
+    "known_for": "Vocal group; not identified",
+    "name": "The Coker Sisters",
+    "significance": "none"
+   }
+  ],
+  "reason": "The Kelly Park Big Band with guest Shawn Ryan and The Coker Sisters at The Sound Room on Sun Dec 6. I do not recognize the band or guests; the billing suggests a holiday big-band and vocal show, which is far from the adventurous small-group jazz he favors.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "None of the performers identified; style inferred from the billing."
   ]
  },
  "ev_7563858354ee": {
@@ -10630,6 +11099,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Performers not recognized; lineup differs between title and listing text."
+  ]
+ },
+ "ev_7d02cd932a5c": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Syd and I at Thee Stork Club at 2026-12-01T20:00:00-0800",
+    "url": "https://www.songkick.com/concerts/43502759-syd-and-i-at-thee-stork-club"
+   }
+  ],
+  "fingerprint": "8d227d566295",
+  "fit": 25,
+  "performers": [
+   {
+    "known_for": "Not identified",
+    "name": "Syd and I",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Miles Cobb",
+    "significance": "none"
+   }
+  ],
+  "reason": "Syd and I with Miles Cobb at Thee Stork Club in Oakland on Tue Dec 1. I do not recognize either act and the listing gives no genre, so there is nothing to judge fit on. Stork Club bookings lean indie, garage and punk, which makes a strong roots or jazz fit unlikely.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Genre of both acts unknown."
   ]
  },
  "ev_7d41ea9e0f4f": {
@@ -12663,6 +13163,36 @@
    "Two separately ticketed events merged in one listing (inference from separate URLs)."
   ]
  },
+ "ev_95c6e1595183": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: A tradition started back in the 20th century, Ashkenaz's Grateful Dead Night is always evolving. Led by acclaimed guitarist-singer Allen (of Phil Lesh & Friends, Melvin Seals & JGB, Ghosts of Electricity), a revolving cast of incredibly talented musicians inhabits Mars Hotel, drawing from the Grateful Dead's vast catalog",
+    "url": "https://tickets.venuepilot.com/e/stu-allen-mars-hotel-2026-12-04-ashkenaz-music-dance-community-center-berkeley-29c91e"
+   }
+  ],
+  "fingerprint": "29563deb509b",
+  "fit": 28,
+  "performers": [
+   {
+    "known_for": "Guitarist-singer, Phil Lesh & Friends, Melvin Seals & JGB, Dark Star Orchestra tour (per listing)",
+    "name": "Stu Allen",
+    "significance": "local"
+   },
+   {
+    "known_for": "Revolving Grateful Dead repertory band (per listing)",
+    "name": "Mars Hotel",
+    "significance": "local"
+   }
+  ],
+  "reason": "Ashkenaz's long-running Grateful Dead Night with Stu Allen (Phil Lesh & Friends, Melvin Seals & JGB) leading Mars Hotel on Fri Dec 4. Skilled, joyful dance night, but it is a Dead tribute, which his taste rules mark down.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
  "ev_95e53ea33c22": {
   "evidence": [
    {
@@ -12854,6 +13384,47 @@
    "Performers not recognized."
   ]
  },
+ "ev_9878c6efbfc1": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Two Voices, One Purpose. A Night of Gospel Brilliance, Soul & Praise",
+    "url": "https://yoshis.com/events/buy-tickets/sylvia-anderson-feat-darrell-walls-and-music-director-carl-wheeler/detail"
+   }
+  ],
+  "fingerprint": "6e63e3b132b5",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Gospel vocalist; not identified",
+    "name": "Sylvia Anderson",
+    "significance": "none"
+   },
+   {
+    "known_for": "Gospel vocalist; not identified",
+    "name": "Darrel Walls",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Derrick Hall",
+    "significance": "none"
+   },
+   {
+    "known_for": "Music director; possibly the Bay Area keyboardist (background knowledge, uncertain)",
+    "name": "Carl Wheeler",
+    "significance": "local"
+   }
+  ],
+  "reason": "A gospel and soul night at Yoshi's Oakland on Thu Dec 3 with Sylvia Anderson, Darrel Walls and Derrick Hall, music director Carl Wheeler, $50-75. I cannot place the singers; gospel is roots-adjacent, but without knowing the performers I cannot say whether this is special.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Performers not identified."
+  ]
+ },
  "ev_98bbfa07e220": {
   "evidence": [
    {
@@ -13024,6 +13595,32 @@
   "tier": "low",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run)."
+  ]
+ },
+ "ev_9b49104591e8": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The DeLuxe: DeLuxe Jazz Collective",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "d656181964e1",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "House or residency band; not identified",
+    "name": "DeLuxe Jazz Collective",
+    "significance": "none"
+   }
+  ],
+  "reason": "The DeLuxe Jazz Collective at The DeLuxe on Mon Nov 30, apparently the bar's house jazz night. No players are named, so I cannot judge it; likely a casual jam or residency.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "unknown",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Players not named."
   ]
  },
  "ev_9b863080c835": {
@@ -15719,6 +16316,38 @@
    "AgapeSoul not identified."
   ]
  },
+ "ev_ba364184fbb7": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: FLAMIN' GROOVIES HAROLD RAY & EAST SIDE DYNAMITE — Doors 7:00pm / Show 8:00pm Advance Tickets Available — lVY ROOM 860 San Pablo Ave, Albany • 21+ FLAMIN' GROOVIES — The Flamin' Groovies' story goes all the way back to 1965, when the band began as the Chosen Few in their hometown of San Francisco ... the now revered classic Teenage Head.",
+    "url": "https://tickets.venuepilot.com/e/flamin-groovies-2026-12-05-ivy-room-albany-12fd04"
+   }
+  ],
+  "fingerprint": "7fa4d80fc1f2",
+  "fit": 55,
+  "performers": [
+   {
+    "known_for": "SF garage/power-pop band since 1965; Teenage Head, 'Shake Some Action' (listing plus background knowledge)",
+    "name": "Flamin' Groovies",
+    "significance": "major"
+   },
+   {
+    "known_for": "Soul/garage revue (background knowledge, uncertain)",
+    "name": "Harold Ray & East Side Dynamite",
+    "significance": "local"
+   }
+  ],
+  "reason": "San Francisco garage-rock legends the Flamin' Groovies, together since 1965 (Supersnazz, Teenage Head), play the small Ivy Room in Albany on Sat Dec 5 with Harold Ray & East Side Dynamite. Not roots or jazz, but a foundational SF band from the 60s counterculture in a 21+ bar-sized room is the kind of lineage show he can value. (Background knowledge) Cyril Jordan leads the current lineup; Harold Ray Live in Concert is a soul and garage revue.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Current lineup unknown; founding singer Roy Loney died in 2020 (background knowledge).",
+   "Ticket price not captured."
+  ]
+ },
  "ev_ba87f6c1c0ae": {
   "evidence": [
    {
@@ -15779,27 +16408,38 @@
  "ev_bacea71f56f6": {
   "evidence": [
    {
-    "finding": "Not fetched (offline run). Listing text captured by the collector: (empty description; title only: \"Michael J. O'Connor\")",
+    "finding": "Not fetched (offline run). Listing text captured by the collector: Little Hill Lounge: Michael J. O'Connor",
     "url": "https://littlehillelcerrito.com/events/"
    }
   ],
-  "fingerprint": "43eecc89c19e",
-  "fit": 30,
+  "fingerprint": "4e8cc660247a",
+  "fit": 35,
   "performers": [
    {
     "known_for": "Not identified",
     "name": "Michael J. O'Connor",
     "significance": "none"
+   },
+   {
+    "known_for": "Not identified",
+    "name": "Ben Thuesen",
+    "significance": "none"
+   },
+   {
+    "known_for": "Not identified; title truncated as 'Bonafides Ban'",
+    "name": "The Bonafides Band",
+    "significance": "none"
    }
   ],
-  "reason": "Michael J. O'Connor plays Little Hill Lounge in El Cerrito, but the captured listing has no description. The name is too common to identify, so fit cannot be judged.",
-  "researched_at": "2026-11-09T22:44:36+00:00",
+  "reason": "Michael J. O'Connor, Ben Thuesen and The Bonafides Band share a bill at Little Hill Lounge in El Cerrito on Sun Dec 6. I cannot identify any of the three acts, and the captured listing only names O'Connor, so the fit cannot be judged. Little Hill is a small honky-tonk style bar, which makes a roots or country bill plausible but unconfirmed.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
   "researcher": "Claude daily research task (offline)",
   "ticket_status": "unverified",
   "tier": "unknown",
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
-   "No description or genre in the captured text; performer cannot be identified."
+   "Genre and style of all three acts unknown.",
+   "Title appears truncated ('Bonafides Ban')."
   ]
  },
  "ev_bb3d8bb69bfb": {
@@ -16849,6 +17489,34 @@
    "Event is today (8 Nov), so likely too late regardless."
   ]
  },
+ "ev_c827b8bb62d6": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: The Bad Plus",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "5ccd4b9420fe",
+  "fit": 80,
+  "performers": [
+   {
+    "known_for": "Reid Anderson, Dave King, Ben Monder, Chris Speed; genre-bending piano-trio-turned-quartet (background knowledge)",
+    "name": "The Bad Plus",
+    "significance": "major"
+   }
+  ],
+  "reason": "The Bad Plus play SFJAZZ Center on Wed Dec 2; another listing in the repo bills their Kuumbwa date on Dec 7 as the Farewell Tour, the band's final performances after 26 years. (Background knowledge) Now the quartet of Reid Anderson, Dave King, Ben Monder and Chris Speed, they are one of the defining adventurous jazz groups of the century, so this is likely a last chance to see them in the Bay.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "strong",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "This listing does not itself say Farewell Tour; that comes from a separate Kuumbwa listing in the repo.",
+   "Set time unknown (listed as midnight).",
+   "SFJAZZ Center is a large hall, not an intimate room."
+  ]
+ },
  "ev_c85e14ab0010": {
   "evidence": [
    {
@@ -17709,6 +18377,42 @@
    "Date, venue and lineup not checked against a live page (offline run)."
   ]
  },
+ "ev_d2deb1edb433": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Freight: 10:30am Season's Greetings Singalong with Zoe Ellis and Janice Maxie Reid; 8pm Cherish the Ladies",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "666d9e9a96af",
+  "fit": 64,
+  "performers": [
+   {
+    "known_for": "Irish traditional ensemble led by Joanie Madden (background knowledge)",
+    "name": "Cherish the Ladies",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Morning singalong host; not identified",
+    "name": "Zoe Ellis",
+    "significance": "none"
+   },
+   {
+    "known_for": "Morning singalong co-host; not identified",
+    "name": "Janice Maxie Reid",
+    "significance": "none"
+   }
+  ],
+  "reason": "Irish traditional ensemble Cherish the Ladies plays the Freight at 8pm on Sat Dec 5 (the 10:30am slot is a separate holiday singalong). (Background knowledge) Led by flutist Joanie Madden, they bring fiddle, step dance and a Celtic Christmas show; a fine fiddle-tradition night in an intimate room, if not his core Appalachian taste.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "possible",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Holiday program likely; exact set unknown."
+  ]
+ },
  "ev_d338c0bea384": {
   "evidence": [
    {
@@ -17991,6 +18695,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Guest vocalist for this date unknown."
+  ]
+ },
+ "ev_d729d10498ad": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: SF Jazz Center: 3pm Jake Shimabukuro; 6 & 7:30pm Aaron Shaw",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "f687c5026c15",
+  "fit": 35,
+  "performers": [
+   {
+    "known_for": "Ukulele virtuoso (background knowledge)",
+    "name": "Jake Shimabukuro",
+    "significance": "notable"
+   },
+   {
+    "known_for": "Saxophonist; identification uncertain",
+    "name": "Aaron Shaw",
+    "significance": "none"
+   }
+  ],
+  "reason": "SFJAZZ on Sun Dec 6: a 3pm Jake Shimabukuro matinee and two sets (6 and 7:30pm) by saxophonist Aaron Shaw. (Background knowledge) Shimabukuro is a ukulele pop-instrumental star and Shaw appears to be a smooth/R&B-leaning sax player; neither is the adventurous jazz or roots he looks for.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Aaron Shaw identification uncertain."
   ]
  },
  "ev_d76e760f2374": {
@@ -19115,6 +19850,37 @@
   "uncertainties": [
    "Date, venue and lineup not checked against a live page (offline run).",
    "Headliner not named."
+  ]
+ },
+ "ev_e1d224c17c04": {
+  "evidence": [
+   {
+    "finding": "Not fetched (offline run). Listing text captured by the collector: The Jazz School: 12:30pm Phillip Greenlief on Dewey Redman",
+    "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   }
+  ],
+  "fingerprint": "adb101467bd5",
+  "fit": 40,
+  "performers": [
+   {
+    "known_for": "Oakland saxophonist and improviser (background knowledge)",
+    "name": "Phillip Greenlief",
+    "significance": "local"
+   },
+   {
+    "known_for": "Subject of the talk; tenor saxophonist with Ornette Coleman and Keith Jarrett (background knowledge)",
+    "name": "Dewey Redman",
+    "significance": "major"
+   }
+  ],
+  "reason": "A 12:30pm Wednesday talk by Oakland saxophonist Phillip Greenlief on Dewey Redman at the Jazz School (CJC Berkeley) on Dec 2. (Background knowledge) Greenlief is a respected Bay Area free improviser and Redman was Ornette Coleman's and Keith Jarrett's tenor partner, so the subject is right, but it is a midday lecture rather than a show.",
+  "researched_at": "2026-11-27T22:43:43+00:00",
+  "researcher": "Claude daily research task (offline)",
+  "ticket_status": "unverified",
+  "tier": "low",
+  "uncertainties": [
+   "Date, venue and lineup not checked against a live page (offline run).",
+   "Format assumed to be a lecture or listening session; may include playing."
   ]
  },
  "ev_e21fa83e1175": {
