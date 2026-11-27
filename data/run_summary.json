@@ -1,17 +1,20 @@
 {
- "inventory_total": 5914,
- "inventory_upcoming": 3049,
- "merged_sources": 2,
- "new_events": 7,
- "run_id": "46e3b5778e47",
- "seconds": 337.5,
- "sources_due": 66,
+ "inventory_total": 5939,
+ "inventory_upcoming": 3048,
+ "merged_sources": 15,
+ "new_events": 29,
+ "run_id": "b0a3382949c4",
+ "seconds": 346.9,
+ "sources_due": 69,
  "sources_failed": [
+  "fifth-street-farms-site",
   "down-home-music",
+  "old-first-concerts",
   "outsound",
-  "the-fillmore",
-  "broadway-sf"
+  "the-marsh",
+  "broadway-sf",
+  "the-fillmore"
  ],
  "sources_ok": 62,
- "ts": "2026-11-26T22:43:57+00:00"
+ "ts": "2026-11-27T22:09:38+00:00"
 }

@@ -1,8 +1,30 @@
 {
- "backlog": 1128,
+ "backlog": 1129,
  "count": 40,
- "generated_at": "2026-11-26T22:46:28+00:00",
+ "generated_at": "2026-11-27T22:12:14+00:00",
  "items": [
+  {
+   "city": "El Cerrito",
+   "date": "2026-12-06",
+   "description": "Little Hill Lounge: Michael J. O'Connor",
+   "fingerprint": "4e8cc660247a",
+   "id": "ev_bacea71f56f6",
+   "other_urls": [
+    "https://kalx.berkeley.edu/event/events-november-30-december6-2026/"
+   ],
+   "rules_score": 61.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-06T20:00:00-08:00",
+   "title": "Michael J. O'Connor, Ben Thuesen, and The Bonafides Ban",
+   "url": "https://littlehillelcerrito.com/events/",
+   "venue": "Little Hill Lounge",
+   "why_rules": [
+    "intimate room: Little Hill Lounge (+14)",
+    "booking signal: Little Hill Lounge (+8)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
   {
    "city": "Oakland",
    "date": "2026-12-01",
@@ -20,6 +42,27 @@
    "venue": "Thee Stork Club",
    "why_rules": [
     "intimate room: Thee Stork Club (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "2 independent sources (+4)"
+   ]
+  },
+  {
+   "city": "San Francisco",
+   "date": "2026-12-02",
+   "description": "Black Cat: LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+   "fingerprint": "0b072bab7c94",
+   "id": "ev_3232941305e2",
+   "other_urls": [
+    "https://blackcatsf.turntabletickets.com/shows/13270/2026-12-02"
+   ],
+   "rules_score": 53.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-02T00:00:00-08:00",
+   "title": "The Soul Sessions 12/2: LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "Black Cat SF",
+   "why_rules": [
+    "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "2 independent sources (+4)"
    ]
@@ -245,25 +288,6 @@
   {
    "city": "",
    "date": "2026-12-05",
-   "description": "The Sound Room: Saúl Sierra Quintet celebrate the Holidays",
-   "fingerprint": "2f8e1cfc1ad0",
-   "id": "ev_0f21b66357fd",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-05T00:00:00-08:00",
-   "title": "Saúl Sierra Quintet celebrate the Holidays",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "The Sound Room",
-   "why_rules": [
-    "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-05",
    "description": "The Freight: 10:30am Season's Greetings Singalong with Zoe Ellis and Janice Maxie Reid; 8pm Cherish the Ladies",
    "fingerprint": "666d9e9a96af",
    "id": "ev_d2deb1edb433",
@@ -283,6 +307,25 @@
   },
   {
    "city": "",
+   "date": "2026-12-05",
+   "description": "The Sound Room: Saúl Sierra Quintet celebrate the Holidays",
+   "fingerprint": "2f8e1cfc1ad0",
+   "id": "ev_0f21b66357fd",
+   "other_urls": [],
+   "rules_score": 49.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-05T00:00:00-08:00",
+   "title": "Saúl Sierra Quintet celebrate the Holidays",
+   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
+   "venue": "The Sound Room",
+   "why_rules": [
+    "intimate room: The Sound Room (+14)",
+    "listed by a taste-aligned calendar (+12)",
+    "location unresolved (no penalty)"
+   ]
+  },
+  {
+   "city": "",
    "date": "2026-12-06",
    "description": "The Sound Room: The Kelly Park Big Band with Special Guest Shawn Ryan & The Coker Sisters",
    "fingerprint": "7226497f4f1f",
@@ -296,25 +339,6 @@
    "venue": "The Sound Room",
    "why_rules": [
     "intimate room: The Sound Room (+14)",
-    "listed by a taste-aligned calendar (+12)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-02",
-   "description": "Black Cat: LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-   "fingerprint": "1a79935cda99",
-   "id": "ev_3232941305e2",
-   "other_urls": [],
-   "rules_score": 49.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-02T00:00:00-08:00",
-   "title": "LJ Holoman, Dante \"Taz\" Robinson, Michael \"Tiny\" Lindsey",
-   "url": "https://kalx.berkeley.edu/event/events-november-30-december6-2026/",
-   "venue": "Black Cat SF",
-   "why_rules": [
-    "intimate room: Black Cat SF (+14)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
    ]
@@ -477,6 +501,28 @@
    ]
   },
   {
+   "city": "San Francisco",
+   "date": "2026-11-28",
+   "description": "Jackie Greene at The Fillmore at 2026-11-28T20:00:00-0800",
+   "fingerprint": "f3f970223d9f",
+   "id": "ev_8c6f973834bf",
+   "other_urls": [
+    "https://www.songkick.com/concerts/43405282-jackie-greene-at-fillmore",
+    "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
+    "https://www.jambase.com/show/jackie-greene-the-fillmore-20261128"
+   ],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-11-28T20:00:00-08:00",
+   "title": "Jackie Greene",
+   "url": "https://www.ticketmaster.com/jackie-greene-san-francisco-california-11-28-2026/event/1C006519AA671008",
+   "venue": "The Fillmore",
+   "why_rules": [
+    "listed by a taste-aligned calendar (+12)",
+    "4 independent sources (+12)"
+   ]
+  },
+  {
    "city": "",
    "date": "2026-12-04",
    "description": "The Jazz School: Student Performances",
@@ -513,28 +559,6 @@
     "booking signal: Zellerbach Hall (+8)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "San Francisco",
-   "date": "2026-11-28",
-   "description": "Jackie Greene at The Fillmore at 2026-11-28T20:00:00-0800",
-   "fingerprint": "f3f970223d9f",
-   "id": "ev_8c6f973834bf",
-   "other_urls": [
-    "https://www.songkick.com/concerts/43405282-jackie-greene-at-fillmore",
-    "https://kalx.berkeley.edu/event/events-november-23-29-2026/",
-    "https://www.jambase.com/show/jackie-greene-the-fillmore-20261128"
-   ],
-   "rules_score": 47.0,
-   "rules_tier": "inventory",
-   "start": "2026-11-28T20:00:00-08:00",
-   "title": "Jackie Greene",
-   "url": "https://www.ticketmaster.com/jackie-greene-san-francisco-california-11-28-2026/event/1C006519AA671008",
-   "venue": "The Fillmore",
-   "why_rules": [
-    "listed by a taste-aligned calendar (+12)",
-    "4 independent sources (+12)"
    ]
   },
   {
@@ -619,6 +643,26 @@
    ]
   },
   {
+   "city": "Nicasio",
+   "date": "2026-12-11",
+   "description": "THE STELLA HEATH CHRISTMAS SHOW – Billie Holiday/ Ella Fitzgerald Tribute! This special performance will be a heartfelt homage to ELLA FITZGERALD the First Lady of Song, blending her timeless music with fascinating historical stories and meticulous research. Stella and her quintet will also present the music of BILLIE HOLIDAY. Shrouded in mystery as she was draped in fur, Billie was multi-faceted;",
+   "fingerprint": "581c20d87c2f",
+   "id": "ev_46a325042b09",
+   "other_urls": [],
+   "rules_score": 45.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-11T00:00:00-08:00",
+   "title": "STELLA HEATH XMAS SHOW (Billie Holiday/ Ella Fitzgerald Tribute feat. Stella Heath)",
+   "url": "https://ranchonicasio.com/event/stella-heath-xmas-show-billie-holiday-ella-fitzgerald-tribute-feat-stella-heath-2/",
+   "venue": "Rancho Nicasio",
+   "why_rules": [
+    "jazz_core: jazz (+18)",
+    "noise_tribute: the music of (-18)",
+    "intimate room: Rancho Nicasio (+14)",
+    "booking signal: Rancho Nicasio (+8)"
+   ]
+  },
+  {
    "city": "Oakland",
    "date": "2026-12-05",
    "description": "The String Cheese Incident at Fox Theater at 2026-12-05T19:00:00-0800",
@@ -680,6 +724,24 @@
    ]
   },
   {
+   "city": "Berkeley",
+   "date": "2026-12-11",
+   "description": "",
+   "fingerprint": "4ab6760415c0",
+   "id": "ev_eb0de3a7d07b",
+   "other_urls": [],
+   "rules_score": 47.0,
+   "rules_tier": "inventory",
+   "start": "2026-12-11T20:00:00-08:00",
+   "title": "Blues Night!",
+   "url": "https://thestarryplough.com/event/blues-night-30/the-starry-plough-pub/california/",
+   "venue": "The Starry Plough",
+   "why_rules": [
+    "roots_adjacent: blues (+10)",
+    "intimate room: The Starry Plough (+14)"
+   ]
+  },
+  {
    "city": "",
    "date": "2026-12-02",
    "description": "Biscuits and Blues: Jeffrey James Trio",
@@ -718,24 +780,6 @@
    ]
   },
   {
-   "city": "San Francisco",
-   "date": "2026-12-03",
-   "description": "",
-   "fingerprint": "e2ddee867b95",
-   "id": "ev_140945926197",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-03T20:00:00-08:00",
-   "title": "Private Event",
-   "url": "https://thechapelsf.com/private-events/",
-   "venue": "The Chapel",
-   "why_rules": [
-    "intimate room: The Chapel (+14)",
-    "booking signal: The Chapel (+8)"
-   ]
-  },
-  {
    "city": "",
    "date": "2026-11-27",
    "description": "Hotel Utah: Eee Vee Eee, Mama DeeMons, Circle Of Ruin",
@@ -752,44 +796,6 @@
     "intimate room: Hotel Utah (+14)",
     "listed by a taste-aligned calendar (+12)",
     "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "",
-   "date": "2026-12-27",
-   "description": "It's the perfect way to wrap up your weekend with the finest bluegrass music around. Join Terry Brewer for \"Hooked On Bluegrass\" every Sunday night broadcasted live from California on thebluegrassjamboree.com",
-   "fingerprint": "a9950a5ed6f5",
-   "id": "ev_e90933f27faa",
-   "other_urls": [],
-   "rules_score": 54.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-27T18:00:00-08:00",
-   "title": "Hooked On Bluegrass with Terry Brewer",
-   "url": "https://californiabluegrass.org/event/hooked-on-bluegrass-with-terry-brewer/2026-12-27/",
-   "venue": "The Bluegrass Jamboree",
-   "why_rules": [
-    "roots_core: bluegrass (+22)",
-    "listed by a taste-aligned calendar (+8)",
-    "2 independent sources (+4)",
-    "location unresolved (no penalty)"
-   ]
-  },
-  {
-   "city": "Berkeley",
-   "date": "2026-12-04",
-   "description": "Dec 4, 2026 (date printed on the show page); closes Dec 4, 2026",
-   "fingerprint": "1463d549177e",
-   "id": "ev_1b6c2c5bdec0",
-   "other_urls": [],
-   "rules_score": 45.0,
-   "rules_tier": "inventory",
-   "start": "2026-12-04T00:00:00-08:00",
-   "title": "Miriam's Place",
-   "url": "https://shotgunplayers.org/show/miriam/",
-   "venue": "Shotgun Players (Ashby Stage)",
-   "why_rules": [
-    "intimate room: Shotgun Players (Ashby Stage) (+14)",
-    "booking signal: Shotgun Players (Ashby Stage) (+8)"
    ]
   }
  ]
